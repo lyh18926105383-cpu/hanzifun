@@ -1,0 +1,1824 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌈 汉字启蒙卡片 - 儿童识字工具</title>
+    <style>
+        :root {
+            --bg: #fdf6e3;
+            --card-front-bg: #fffef9;
+            --card-back-bg: #e8f4fd;
+            --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.10), 0 2px 8px rgba(0, 0, 0, 0.06);
+            --card-shadow-hover: 0 14px 40px rgba(0, 0, 0, 0.14), 0 4px 14px rgba(0, 0, 0, 0.08);
+            --btn-familiar: #5cb878;
+            --btn-familiar-hover: #48a368;
+            --btn-unfamiliar: #f0a860;
+            --btn-unfamiliar-hover: #e09542;
+            --text-dark: #4a3728;
+            --text-medium: #6b5a4e;
+            --progress-bg: #e8dfd2;
+            --font-hanzi: 'STKaiti', 'KaiTi', '楷体', 'Noto Serif SC', 'Songti SC', 'STSong', serif;
+            --font-rounded: 'Nunito', 'PingFang SC', 'Microsoft YaHei', '微软雅黑', 'Noto Sans SC', sans-serif;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: var(--font-rounded);
+            background: linear-gradient(160deg, #fef9f0 0%, #fdf3e0 20%, #fef8f2 40%, #fdf4e8 60%, #fef9f3 80%, #fdf2e4 100%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            user-select: none;
+            -webkit-user-select: none;
+            -webkit-tap-highlight-color: transparent;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* 背景装饰 */
+        .bg-decor {
+            position: fixed;
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.45;
+            animation: floatAround 18s ease-in-out infinite;
+            font-size: 44px;
+        }
+        .bg-decor.d1 {
+            top: 5%;
+            left: 4%;
+            animation-delay: 0s;
+            animation-duration: 20s;
+            font-size: 50px;
+        }
+        .bg-decor.d2 {
+            top: 8%;
+            right: 5%;
+            animation-delay: -4s;
+            animation-duration: 22s;
+            font-size: 38px;
+        }
+        .bg-decor.d3 {
+            bottom: 12%;
+            left: 6%;
+            animation-delay: -8s;
+            animation-duration: 19s;
+            font-size: 42px;
+        }
+        .bg-decor.d4 {
+            bottom: 16%;
+            right: 6%;
+            animation-delay: -12s;
+            animation-duration: 24s;
+            font-size: 48px;
+        }
+        .bg-decor.d5 {
+            top: 38%;
+            left: 2%;
+            animation-delay: -6s;
+            animation-duration: 21s;
+            font-size: 32px;
+        }
+        .bg-decor.d6 {
+            top: 32%;
+            right: 3%;
+            animation-delay: -15s;
+            animation-duration: 23s;
+            font-size: 36px;
+        }
+        @keyframes floatAround {
+            0%,
+            100% {
+                transform: translate(0, 0) rotate(0deg) scale(1);
+            }
+            15% {
+                transform: translate(16px, -20px) rotate(5deg) scale(1.07);
+            }
+            30% {
+                transform: translate(-9px, -28px) rotate(-3deg) scale(0.94);
+            }
+            45% {
+                transform: translate(-18px, 6px) rotate(6deg) scale(1.04);
+            }
+            60% {
+                transform: translate(12px, 18px) rotate(-4deg) scale(0.96);
+            }
+            75% {
+                transform: translate(20px, -8px) rotate(3deg) scale(1.05);
+            }
+            90% {
+                transform: translate(-14px, -16px) rotate(-5deg) scale(0.93);
+            }
+        }
+
+        /* ============ 开始页面 ============ */
+        .start-screen {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 28px;
+            width: 100%;
+            max-width: 520px;
+            background: rgba(255, 255, 255, 0.65);
+            border-radius: 36px;
+            padding: 40px 28px 36px;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08), 0 2px 12px rgba(0, 0, 0, 0.04);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            animation: popInStart 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+            border: 3px solid rgba(255, 220, 180, 0.5);
+        }
+        @keyframes popInStart {
+            from {
+                transform: scale(0.85) translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1) translateY(0);
+                opacity: 1;
+            }
+        }
+        .start-screen .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .start-screen .logo-icon {
+            font-size: 56px;
+            animation: bounceTitle 1.5s ease-in-out infinite;
+        }
+        .start-screen .logo-icon:nth-child(1) {
+            animation-delay: 0s;
+        }
+        .start-screen .logo-icon:nth-child(3) {
+            animation-delay: 0.25s;
+        }
+        @keyframes bounceTitle {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+            30% {
+                transform: translateY(-16px);
+            }
+            50% {
+                transform: translateY(0);
+            }
+            70% {
+                transform: translateY(-7px);
+            }
+            85% {
+                transform: translateY(0);
+            }
+        }
+        .start-screen .main-title {
+            font-size: clamp(28px, 5.5vw, 40px);
+            font-weight: 800;
+            color: #5c3d2e;
+            letter-spacing: 0.05em;
+            font-family: var(--font-rounded);
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+        .start-screen .subtitle {
+            font-size: 15px;
+            color: #9b8a7a;
+            letter-spacing: 0.06em;
+            margin-top: -8px;
+            font-weight: 500;
+        }
+        .start-screen .btn-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .start-btn {
+            padding: 20px 16px;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            border-radius: 24px;
+            cursor: pointer;
+            font-family: var(--font-rounded);
+            letter-spacing: 0.04em;
+            transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+            outline: none;
+            -webkit-tap-highlight-color: transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            position: relative;
+            overflow: hidden;
+            color: #fff;
+        }
+        .start-btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.35);
+            transform: translate(-50%, -50%);
+            transition: width 0.5s ease, height 0.5s ease;
+        }
+        .start-btn:active::after {
+            width: 300px;
+            height: 300px;
+        }
+        .start-btn:active {
+            transform: scale(0.94);
+            transition: transform 0.08s ease;
+        }
+        .start-btn .btn-emoji {
+            font-size: 32px;
+        }
+        .start-btn .btn-label {
+            font-size: 15px;
+            opacity: 0.92;
+            font-weight: 500;
+        }
+        .start-btn.easy {
+            background: #6bcb77;
+            box-shadow: 0 5px 18px rgba(107, 203, 119, 0.4);
+        }
+        .start-btn.easy:hover {
+            background: #55b862;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(107, 203, 119, 0.5);
+        }
+        .start-btn.standard {
+            background: #4d96ff;
+            box-shadow: 0 5px 18px rgba(77, 150, 255, 0.4);
+        }
+        .start-btn.standard:hover {
+            background: #3a82ec;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(77, 150, 255, 0.5);
+        }
+        .start-btn.challenge {
+            background: #f0a860;
+            box-shadow: 0 5px 18px rgba(240, 168, 96, 0.4);
+        }
+        .start-btn.challenge:hover {
+            background: #e09542;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(240, 168, 96, 0.5);
+        }
+        .start-btn.custom {
+            background: #c8a0f0;
+            box-shadow: 0 5px 18px rgba(200, 160, 240, 0.4);
+        }
+        .start-btn.custom:hover {
+            background: #b588e8;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(200, 160, 240, 0.5);
+        }
+        /* 自定义输入区 */
+        .custom-input-area {
+            display: none;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            max-width: 400px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .custom-input-area.show {
+            display: flex;
+        }
+        .custom-input {
+            width: 90px;
+            padding: 14px 10px;
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            border: 3px solid #c8a0f0;
+            border-radius: 20px;
+            font-family: var(--font-rounded);
+            color: #5c3d2e;
+            background: #fff;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .custom-input:focus {
+            border-color: #a070d8;
+            box-shadow: 0 0 0 4px rgba(200, 160, 240, 0.2);
+        }
+        .custom-go-btn {
+            padding: 14px 24px;
+            font-size: 17px;
+            font-weight: 700;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: var(--font-rounded);
+            background: #c8a0f0;
+            color: #fff;
+            box-shadow: 0 4px 14px rgba(200, 160, 240, 0.35);
+            transition: all 0.2s ease;
+        }
+        .custom-go-btn:hover {
+            background: #b588e8;
+            transform: translateY(-2px);
+        }
+        .custom-go-btn:active {
+            transform: scale(0.94);
+        }
+        .custom-hint {
+            font-size: 12px;
+            color: #9b8a7a;
+            width: 100%;
+            text-align: center;
+            margin-top: -2px;
+        }
+
+        /* ============ 学习页面（初始隐藏） ============ */
+        .learn-screen {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 500px;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+        .learn-screen.active {
+            display: flex;
+        }
+        .start-screen.hidden {
+            display: none;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2px;
+        }
+        .header .title {
+            font-size: clamp(22px, 4.5vw, 30px);
+            font-weight: 700;
+            color: #5c3d2e;
+            letter-spacing: 0.04em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-family: var(--font-rounded);
+        }
+        .header .back-btn {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 28px;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.7);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: all 0.2s;
+            z-index: 10;
+            position: relative;
+        }
+        .header .back-btn:hover {
+            background: #fff;
+            transform: translateY(-50%) scale(1.08);
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        .progress-area {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .progress-text {
+            font-size: 14px;
+            font-weight: 600;
+            color: #6b5a4e;
+            white-space: nowrap;
+            min-width: 42px;
+            text-align: center;
+        }
+        .progress-bar-outer {
+            flex: 1;
+            height: 10px;
+            background: var(--progress-bg);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+        }
+        .progress-bar-inner {
+            height: 100%;
+            background: linear-gradient(90deg, #f0c060, #f0a860, #e89850);
+            border-radius: 20px;
+            transition: width 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+            box-shadow: 0 1px 3px rgba(240, 168, 96, 0.35);
+            position: relative;
+        }
+        .progress-bar-inner::after {
+            content: '';
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            bottom: 2px;
+            width: 16px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.55);
+        }
+
+        .stats-indicator {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            font-size: 13px;
+            font-weight: 600;
+            color: #6b5a4e;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .stats-indicator span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 6px 12px;
+            border-radius: 18px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+        }
+        .stats-dot {
+            display: inline-block;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+        }
+        .stats-dot.green {
+            background: #5cb878;
+        }
+        .stats-dot.orange {
+            background: #f0a860;
+        }
+
+        /* 卡片 */
+        .card-container {
+            perspective: 1200px;
+            width: 100%;
+            max-width: 400px;
+            aspect-ratio: 1.35 / 1;
+            cursor: pointer;
+            position: relative;
+        }
+        .card-container.shake {
+            animation: cardShake 0.5s ease-out;
+        }
+        @keyframes cardShake {
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+            15% {
+                transform: translateX(-8px);
+            }
+            30% {
+                transform: translateX(8px);
+            }
+            45% {
+                transform: translateX(-6px);
+            }
+            60% {
+                transform: translateX(5px);
+            }
+            75% {
+                transform: translateX(-3px);
+            }
+            90% {
+                transform: translateX(2px);
+            }
+        }
+        .card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            will-change: transform;
+        }
+        .card.flipped {
+            transform: rotateY(180deg);
+        }
+        .card-face {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--card-shadow);
+            transition: box-shadow 0.35s ease;
+            overflow: hidden;
+            border: 3px solid transparent;
+        }
+        .card-container:hover .card-face {
+            box-shadow: var(--card-shadow-hover);
+        }
+        .card-front {
+            background: var(--card-front-bg);
+            z-index: 2;
+            border-color: #f0e6d3;
+            background-image: radial-gradient(circle at 20% 18%, rgba(252, 227, 138, 0.25) 0%, transparent 50%),
+                radial-gradient(circle at 78% 82%, rgba(248, 165, 176, 0.18) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.6) 0%, transparent 70%);
+        }
+        .card-front::before {
+            content: '';
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            right: 16px;
+            bottom: 16px;
+            border-radius: 16px;
+            border: 2.5px dashed #e8d9c5;
+            pointer-events: none;
+            opacity: 0.7;
+        }
+        .card-front .hanzi {
+            font-family: var(--font-hanzi);
+            font-size: clamp(85px, 15vw, 130px);
+            font-weight: 700;
+            color: #3d2614;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 3px 8px rgba(0, 0, 0, 0.07), 0 1px 2px rgba(0, 0, 0, 0.04);
+            transition: transform 0.3s ease;
+            line-height: 1;
+        }
+        .card-container:hover .card-front .hanzi {
+            transform: scale(1.04);
+        }
+        .card-front .type-badge {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            font-size: 11px;
+            padding: 4px 11px;
+            border-radius: 16px;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            z-index: 1;
+            background: #fdf0e0;
+            color: #b8783e;
+            border: 1.5px solid #e8cfaa;
+        }
+        .card-front .type-badge.noun {
+            background: #e8f6ef;
+            color: #4a8c64;
+            border-color: #b8dcc8;
+        }
+        .card-front .type-badge.verb {
+            background: #fdecf0;
+            color: #b85a6e;
+            border-color: #f0c4cf;
+        }
+
+        .card-back {
+            background: var(--card-back-bg);
+            transform: rotateY(180deg);
+            z-index: 1;
+            border-color: #c8ddf0;
+            background-image: radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.7) 0%, transparent 55%),
+                radial-gradient(circle at 70% 70%, rgba(180, 210, 240, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(200, 225, 248, 0.4) 0%, transparent 65%);
+        }
+        .card-back .image-display {
+            font-size: clamp(65px, 12vw, 100px);
+            position: relative;
+            z-index: 1;
+            transition: transform 0.35s ease;
+            line-height: 1;
+            animation: gentleFloat 3s ease-in-out infinite;
+            filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.10));
+        }
+        @keyframes gentleFloat {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-3px);
+            }
+            80% {
+                transform: translateY(-7px);
+            }
+        }
+        .card-back .word-label {
+            font-family: var(--font-hanzi);
+            font-size: clamp(24px, 4.5vw, 34px);
+            font-weight: 600;
+            color: #3a5a7c;
+            margin-top: 6px;
+            position: relative;
+            z-index: 1;
+            letter-spacing: 0.08em;
+            background: rgba(255, 255, 255, 0.55);
+            padding: 5px 18px;
+            border-radius: 20px;
+            border: 2px solid rgba(180, 200, 225, 0.5);
+        }
+        .card-back .hint-text {
+            font-size: 12px;
+            color: #7a9ab5;
+            margin-top: 3px;
+            position: relative;
+            z-index: 1;
+            letter-spacing: 0.05em;
+        }
+        .card-back .corner-decor {
+            position: absolute;
+            font-size: 24px;
+            opacity: 0.45;
+            z-index: 0;
+        }
+        .card-back .corner-decor.cd1 {
+            top: 12px;
+            left: 16px;
+        }
+        .card-back .corner-decor.cd2 {
+            top: 12px;
+            right: 16px;
+        }
+        .card-back .corner-decor.cd3 {
+            bottom: 12px;
+            left: 16px;
+        }
+        .card-back .corner-decor.cd4 {
+            bottom: 12px;
+            right: 16px;
+        }
+
+        /* 按钮 */
+        .buttons-area {
+            display: flex;
+            gap: 14px;
+            width: 100%;
+            max-width: 400px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn {
+            flex: 1;
+            min-width: 110px;
+            padding: 15px 18px;
+            font-size: 16px;
+            font-weight: 700;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            letter-spacing: 0.05em;
+            transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+            overflow: hidden;
+            font-family: var(--font-rounded);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+            outline: none;
+            -webkit-tap-highlight-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+        .btn:active {
+            transform: scale(0.94);
+            transition: transform 0.08s ease;
+        }
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.35);
+            transform: translate(-50%, -50%);
+            transition: width 0.5s ease, height 0.5s ease;
+        }
+        .btn:active::after {
+            width: 300px;
+            height: 300px;
+        }
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+        .btn-familiar {
+            background: var(--btn-familiar);
+            color: #fff;
+            box-shadow: 0 5px 18px rgba(92, 184, 120, 0.35);
+        }
+        .btn-familiar:hover {
+            background: var(--btn-familiar-hover);
+            box-shadow: 0 7px 22px rgba(92, 184, 120, 0.45);
+            transform: translateY(-2px);
+        }
+        .btn-unfamiliar {
+            background: var(--btn-unfamiliar);
+            color: #fff;
+            box-shadow: 0 5px 18px rgba(240, 168, 96, 0.35);
+        }
+        .btn-unfamiliar:hover {
+            background: var(--btn-unfamiliar-hover);
+            box-shadow: 0 7px 22px rgba(240, 168, 96, 0.45);
+            transform: translateY(-2px);
+        }
+
+        /* 总结弹窗 */
+        .summary-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 100;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.35s ease;
+            backdrop-filter: blur(3px);
+            -webkit-backdrop-filter: blur(3px);
+        }
+        .summary-overlay.show {
+            display: flex;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .summary-panel {
+            background: #fffef9;
+            border-radius: 28px;
+            padding: 30px 22px 22px;
+            text-align: center;
+            max-width: 420px;
+            width: 90%;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+            animation: popIn 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        @keyframes popIn {
+            from {
+                transform: scale(0.8) translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1) translateY(0);
+                opacity: 1;
+            }
+        }
+        .summary-panel .summary-emoji {
+            font-size: 60px;
+            animation: bounceTitle 1.2s ease-in-out infinite;
+        }
+        .summary-panel h2 {
+            font-size: 24px;
+            color: #4a3728;
+            margin: 8px 0 4px;
+            font-family: var(--font-rounded);
+        }
+        .summary-panel .summary-stats {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 14px 0;
+            flex-wrap: wrap;
+        }
+        .summary-panel .summary-stat {
+            text-align: center;
+            background: #fdf6ee;
+            padding: 12px 18px;
+            border-radius: 16px;
+            min-width: 60px;
+        }
+        .summary-panel .summary-stat .num {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .summary-panel .summary-stat .num.green {
+            color: #5cb878;
+        }
+        .summary-panel .summary-stat .num.orange {
+            color: #f0a860;
+        }
+        .summary-panel .summary-stat .lbl {
+            font-size: 12px;
+            color: #8c7b6e;
+            margin-top: 2px;
+        }
+        .summary-panel .btn-row {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 16px;
+        }
+        .summary-panel .btn-sm {
+            padding: 11px 20px;
+            font-size: 14px;
+            font-weight: 700;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            font-family: var(--font-rounded);
+            letter-spacing: 0.04em;
+            transition: all 0.2s ease;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+        .btn-restart {
+            background: #f0a860;
+            color: #fff;
+        }
+        .btn-restart:hover {
+            background: #e09542;
+        }
+        .btn-review {
+            background: #f8a5b0;
+            color: #fff;
+        }
+        .btn-review:hover {
+            background: #f08898;
+        }
+        .btn-close-summary {
+            background: #ddd;
+            color: #555;
+        }
+        .btn-close-summary:hover {
+            background: #ccc;
+        }
+        .btn-back-start {
+            background: #7ec8e3;
+            color: #fff;
+        }
+        .btn-back-start:hover {
+            background: #5ab4d4;
+        }
+
+        .toast {
+            position: fixed;
+            top: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(-120px);
+            background: #fffef9;
+            color: #4a3728;
+            padding: 13px 22px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 14px;
+            z-index: 200;
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+            transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            white-space: nowrap;
+        }
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+        }
+
+        @media (max-width: 480px) {
+            .card-container {
+                max-width: 90vw;
+                aspect-ratio: 1.3 / 1;
+            }
+            .card-face {
+                border-radius: 20px;
+            }
+            .card-front::before {
+                top: 10px;
+                left: 10px;
+                right: 10px;
+                bottom: 10px;
+                border-radius: 12px;
+                border-width: 2px;
+            }
+            .btn {
+                padding: 13px 14px;
+                font-size: 14px;
+                min-width: 90px;
+                gap: 3px;
+            }
+            .buttons-area {
+                gap: 10px;
+            }
+            .card-front .hanzi {
+                font-size: clamp(65px, 13vw, 95px);
+            }
+            .card-back .image-display {
+                font-size: clamp(50px, 10vw, 78px);
+            }
+            .card-back .word-label {
+                font-size: clamp(20px, 4vw, 28px);
+            }
+            .header .title {
+                font-size: clamp(20px, 4vw, 26px);
+            }
+            .start-screen {
+                padding: 28px 16px 24px;
+                border-radius: 28px;
+            }
+            .start-screen .btn-grid {
+                gap: 10px;
+            }
+            .start-btn {
+                padding: 16px 12px;
+                font-size: 16px;
+                border-radius: 20px;
+            }
+            .start-btn .btn-emoji {
+                font-size: 26px;
+            }
+            .start-btn .btn-label {
+                font-size: 13px;
+            }
+        }
+        @media (max-width: 360px) {
+            .btn {
+                padding: 11px 10px;
+                font-size: 13px;
+                min-width: 70px;
+            }
+            .buttons-area {
+                gap: 7px;
+            }
+            .card-container {
+                max-width: 93vw;
+                aspect-ratio: 1.25 / 1;
+            }
+            .start-screen .btn-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+            }
+            .start-btn {
+                padding: 14px 8px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 背景装饰 -->
+    <div class="bg-decor d1">☁️</div>
+    <div class="bg-decor d2">⭐</div>
+    <div class="bg-decor d3">🌸</div>
+    <div class="bg-decor d4">🍀</div>
+    <div class="bg-decor d5">🌈</div>
+    <div class="bg-decor d6">💫</div>
+
+    <!-- ============ 开始页面 ============ -->
+    <div class="start-screen" id="startScreen">
+        <div class="logo-area">
+            <span class="logo-icon">📚</span>
+            <span class="main-title">汉字启蒙卡片</span>
+            <span class="logo-icon">✏️</span>
+        </div>
+        <p class="subtitle">翻一翻 · 认一认 · 快乐学汉字</p>
+        <div class="btn-grid">
+            <button class="start-btn easy" data-count="5">
+                <span class="btn-emoji">🌟</span>5个字<span class="btn-label">轻松学</span>
+            </button>
+            <button class="start-btn standard" data-count="10">
+                <span class="btn-emoji">📖</span>10个字<span class="btn-label">标准学</span>
+            </button>
+            <button class="start-btn challenge" data-count="20">
+                <span class="btn-emoji">🎯</span>20个字<span class="btn-label">挑战学</span>
+            </button>
+            <button class="start-btn custom" id="btnCustomToggle">
+                <span class="btn-emoji">✏️</span>自定义<span class="btn-label">自己定</span>
+            </button>
+        </div>
+        <div class="custom-input-area" id="customInputArea">
+            <input type="number" class="custom-input" id="customCount" value="8" min="1" max="200" inputmode="numeric">
+            <button class="custom-go-btn" id="btnCustomGo">✅ 开始</button>
+            <span class="custom-hint">输入1-200之间的数字</span>
+        </div>
+    </div>
+
+    <!-- ============ 学习页面（初始隐藏） ============ -->
+    <div class="learn-screen" id="learnScreen">
+        <div class="header">
+            <span style="position:relative;display:flex;align-items:center;gap:8px;">
+                <button class="back-btn" id="btnBackToStart" title="返回首页">🏠</button>
+                <span class="title">📚 汉字启蒙卡片 ✏️</span>
+            </span>
+        </div>
+
+        <div class="progress-area">
+            <span class="progress-text" id="progressText">0 / 5</span>
+            <div class="progress-bar-outer"><div class="progress-bar-inner" id="progressBar" style="width: 0%;"></div></div>
+            <span>🎯</span>
+        </div>
+
+        <div class="stats-indicator">
+            <span><span class="stats-dot green"></span>熟悉：<strong id="familiarCount">0</strong></span>
+            <span><span class="stats-dot orange"></span>不熟悉：<strong id="unfamiliarCount">0</strong></span>
+            <span>📝剩余：<strong id="remainingCount">5</strong></span>
+        </div>
+
+        <div class="card-container" id="cardContainer" title="点击卡片翻转">
+            <div class="card" id="card">
+                <div class="card-face card-front">
+                    <span class="type-badge noun" id="typeBadge">名词</span>
+                    <span class="hanzi" id="hanziDisplay">山</span>
+                </div>
+                <div class="card-back card-face">
+                    <span class="corner-decor cd1">✨</span><span class="corner-decor cd2">🌟</span>
+                    <span class="corner-decor cd3">💖</span><span class="corner-decor cd4">🎀</span>
+                    <span class="image-display" id="imageDisplay">🏔️</span>
+                    <span class="word-label" id="wordLabel">山</span>
+                    <span class="hint-text" id="hintText">看图识字</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons-area">
+            <button class="btn btn-familiar" id="btnFamiliar">✅ 熟悉</button>
+            <button class="btn btn-unfamiliar" id="btnUnfamiliar">🔍 不熟悉</button>
+        </div>
+    </div>
+
+    <!-- 总结弹窗 -->
+    <div class="summary-overlay" id="summaryOverlay">
+        <div class="summary-panel">
+            <div class="summary-emoji" id="summaryEmoji">🎉</div>
+            <h2 id="summaryTitle">太棒了！</h2>
+            <p style="color:#6b5a4e;margin:4px 0;">你已完成本轮汉字学习</p>
+            <div class="summary-stats">
+                <div class="summary-stat"><div class="num green" id="summaryFamiliar">0</div><div class="lbl">✅ 熟悉</div></div>
+                <div class="summary-stat"><div class="num orange" id="summaryUnfamiliar">0</div><div class="lbl">🔍 不熟悉</div></div>
+            </div>
+            <div class="btn-row">
+                <button class="btn-sm btn-review" id="btnReview" style="display:none;">📖 复习不熟悉的字</button>
+                <button class="btn-sm btn-restart" id="btnRestart">🔄 重新学习</button>
+                <button class="btn-sm btn-back-start" id="btnBackStartFromSummary">🏠 返回首页</button>
+                <button class="btn-sm btn-close-summary" id="btnCloseSummary">✕ 关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+        (function() {
+            // ============ 200个汉字素材库 ============
+            const fullLibrary = [
+                // 名词-自然 (28个)
+                { char: '山', type: 'noun', word: '山', emoji: '🏔️', hint: '一座高山' },
+                { char: '水', type: 'noun', word: '水', emoji: '💧', hint: '滴滴水珠' },
+                { char: '火', type: 'noun', word: '火', emoji: '🔥', hint: '熊熊火焰' },
+                { char: '花', type: 'noun', word: '花', emoji: '🌸', hint: '美丽花朵' },
+                { char: '树', type: 'noun', word: '树', emoji: '🌳', hint: '一棵大树' },
+                { char: '月', type: 'noun', word: '月', emoji: '🌙', hint: '弯弯月亮' },
+                { char: '日', type: 'noun', word: '日', emoji: '☀️', hint: '温暖太阳' },
+                { char: '星', type: 'noun', word: '星', emoji: '⭐', hint: '闪闪星星' },
+                { char: '云', type: 'noun', word: '云', emoji: '☁️', hint: '朵朵白云' },
+                { char: '雨', type: 'noun', word: '雨', emoji: '🌧️', hint: '下雨啦' },
+                { char: '雪', type: 'noun', word: '雪', emoji: '❄️', hint: '洁白雪花' },
+                { char: '风', type: 'noun', word: '风', emoji: '💨', hint: '呼呼风吹' },
+                { char: '石', type: 'noun', word: '石', emoji: '🪨', hint: '一块石头' },
+                { char: '土', type: 'noun', word: '土', emoji: '🏔️', hint: '泥土大地' },
+                { char: '天', type: 'noun', word: '天', emoji: '🌤️', hint: '蓝蓝天空' },
+                { char: '地', type: 'noun', word: '地', emoji: '🌍', hint: '大地母亲' },
+                { char: '河', type: 'noun', word: '河', emoji: '🏞️', hint: '一条大河' },
+                { char: '海', type: 'noun', word: '海', emoji: '🌊', hint: '广阔大海' },
+                { char: '叶', type: 'noun', word: '叶', emoji: '🍃', hint: '一片叶子' },
+                { char: '草', type: 'noun', word: '草', emoji: '🌿', hint: '绿绿小草' },
+                { char: '光', type: 'noun', word: '光', emoji: '✨', hint: '闪闪光芒' },
+                { char: '虹', type: 'noun', word: '虹', emoji: '🌈', hint: '美丽彩虹' },
+                { char: '冰', type: 'noun', word: '冰', emoji: '🧊', hint: '晶莹冰块' },
+                { char: '雷', type: 'noun', word: '雷', emoji: '⚡', hint: '轰隆打雷' },
+                { char: '田', type: 'noun', word: '田', emoji: '🌾', hint: '一片田地' },
+                { char: '林', type: 'noun', word: '林', emoji: '🌲', hint: '茂密树林' },
+                { char: '沙', type: 'noun', word: '沙', emoji: '🏖️', hint: '金色沙子' },
+                { char: '泉', type: 'noun', word: '泉', emoji: '⛲', hint: '清澈泉水' },
+                // 名词-动物 (28个)
+                { char: '鱼', type: 'noun', word: '鱼', emoji: '🐟', hint: '游来游去' },
+                { char: '鸟', type: 'noun', word: '鸟', emoji: '🐦', hint: '飞在天空' },
+                { char: '马', type: 'noun', word: '马', emoji: '🐴', hint: '一匹骏马' },
+                { char: '猫', type: 'noun', word: '猫', emoji: '🐱', hint: '可爱小猫' },
+                { char: '狗', type: 'noun', word: '狗', emoji: '🐶', hint: '忠诚小狗' },
+                { char: '牛', type: 'noun', word: '牛', emoji: '🐮', hint: '勤劳老牛' },
+                { char: '羊', type: 'noun', word: '羊', emoji: '🐑', hint: '温顺小羊' },
+                { char: '鸡', type: 'noun', word: '鸡', emoji: '🐔', hint: '喔喔公鸡' },
+                { char: '鸭', type: 'noun', word: '鸭', emoji: '🦆', hint: '摇摆鸭子' },
+                { char: '兔', type: 'noun', word: '兔', emoji: '🐰', hint: '蹦跳兔子' },
+                { char: '虎', type: 'noun', word: '虎', emoji: '🐯', hint: '威猛老虎' },
+                { char: '象', type: 'noun', word: '象', emoji: '🐘', hint: '大大大象' },
+                { char: '虫', type: 'noun', word: '虫', emoji: '🐛', hint: '小小虫子' },
+                { char: '蛙', type: 'noun', word: '蛙', emoji: '🐸', hint: '呱呱青蛙' },
+                { char: '熊', type: 'noun', word: '熊', emoji: '🐻', hint: '憨憨小熊' },
+                { char: '猪', type: 'noun', word: '猪', emoji: '🐷', hint: '胖胖小猪' },
+                { char: '猴', type: 'noun', word: '猴', emoji: '🐵', hint: '机灵猴子' },
+                { char: '龙', type: 'noun', word: '龙', emoji: '🐲', hint: '神气巨龙' },
+                { char: '蛇', type: 'noun', word: '蛇', emoji: '🐍', hint: '弯弯小蛇' },
+                { char: '鹿', type: 'noun', word: '鹿', emoji: '🦌', hint: '美丽小鹿' },
+                { char: '龟', type: 'noun', word: '龟', emoji: '🐢', hint: '慢慢乌龟' },
+                { char: '鲸', type: 'noun', word: '鲸', emoji: '🐳', hint: '巨大鲸鱼' },
+                { char: '鹰', type: 'noun', word: '鹰', emoji: '🦅', hint: '翱翔老鹰' },
+                { char: '鹅', type: 'noun', word: '鹅', emoji: '🦢', hint: '白白大鹅' },
+                { char: '狼', type: 'noun', word: '狼', emoji: '🐺', hint: '嗷呜野狼' },
+                { char: '狐', type: 'noun', word: '狐', emoji: '🦊', hint: '狡猾狐狸' },
+                { char: '鼠', type: 'noun', word: '鼠', emoji: '🐭', hint: '机灵小鼠' },
+                { char: '燕', type: 'noun', word: '燕', emoji: '🐦', hint: '春天燕子' },
+                // 名词-身体 (14个)
+                { char: '手', type: 'noun', word: '手', emoji: '🖐️', hint: '一双小手' },
+                { char: '脚', type: 'noun', word: '脚', emoji: '🦶', hint: '小脚丫子' },
+                { char: '头', type: 'noun', word: '头', emoji: '🗣️', hint: '圆圆的头' },
+                { char: '眼', type: 'noun', word: '眼', emoji: '👁️', hint: '明亮眼睛' },
+                { char: '耳', type: 'noun', word: '耳', emoji: '👂', hint: '两只耳朵' },
+                { char: '口', type: 'noun', word: '口', emoji: '👄', hint: '小小嘴巴' },
+                { char: '鼻', type: 'noun', word: '鼻', emoji: '👃', hint: '高高鼻子' },
+                { char: '牙', type: 'noun', word: '牙', emoji: '🦷', hint: '洁白牙齿' },
+                { char: '舌', type: 'noun', word: '舌', emoji: '👅', hint: '小小舌头' },
+                { char: '心', type: 'noun', word: '心', emoji: '❤️', hint: '一颗爱心' },
+                { char: '脸', type: 'noun', word: '脸', emoji: '😊', hint: '可爱脸蛋' },
+                { char: '眉', type: 'noun', word: '眉', emoji: '😊', hint: '弯弯眉毛' },
+                { char: '发', type: 'noun', word: '发', emoji: '💇', hint: '头发飘飘' },
+                { char: '指', type: 'noun', word: '指', emoji: '👆', hint: '手指点点' },
+                // 名词-食物 (18个)
+                { char: '米', type: 'noun', word: '米', emoji: '🍚', hint: '白白的米' },
+                { char: '饭', type: 'noun', word: '饭', emoji: '🍚', hint: '香香米饭' },
+                { char: '菜', type: 'noun', word: '菜', emoji: '🥬', hint: '新鲜蔬菜' },
+                { char: '果', type: 'noun', word: '果', emoji: '🍎', hint: '甜甜水果' },
+                { char: '瓜', type: 'noun', word: '瓜', emoji: '🍉', hint: '圆圆西瓜' },
+                { char: '豆', type: 'noun', word: '豆', emoji: '🫘', hint: '颗颗豆子' },
+                { char: '肉', type: 'noun', word: '肉', emoji: '🥩', hint: '一块肉肉' },
+                { char: '蛋', type: 'noun', word: '蛋', emoji: '🥚', hint: '圆圆鸡蛋' },
+                { char: '奶', type: 'noun', word: '奶', emoji: '🥛', hint: '一杯牛奶' },
+                { char: '糖', type: 'noun', word: '糖', emoji: '🍬', hint: '甜甜糖果' },
+                { char: '面', type: 'noun', word: '面', emoji: '🍜', hint: '一碗面条' },
+                { char: '饼', type: 'noun', word: '饼', emoji: '🥞', hint: '香香饼干' },
+                { char: '包', type: 'noun', word: '包', emoji: '🍞', hint: '软软面包' },
+                { char: '糕', type: 'noun', word: '糕', emoji: '🍰', hint: '美味蛋糕' },
+                { char: '桃', type: 'noun', word: '桃', emoji: '🍑', hint: '甜蜜桃子' },
+                { char: '梨', type: 'noun', word: '梨', emoji: '🍐', hint: '清脆梨子' },
+                { char: '杏', type: 'noun', word: '杏', emoji: '🍑', hint: '金黄杏子' },
+                { char: '梅', type: 'noun', word: '梅', emoji: '🌸', hint: '傲雪梅花' },
+                // 名词-家庭 (11个)
+                { char: '爸', type: 'noun', word: '爸', emoji: '👨', hint: '爸爸' },
+                { char: '妈', type: 'noun', word: '妈', emoji: '👩', hint: '妈妈' },
+                { char: '爷', type: 'noun', word: '爷', emoji: '👴', hint: '爷爷' },
+                { char: '奶', type: 'noun', word: '奶', emoji: '👵', hint: '奶奶' },
+                { char: '哥', type: 'noun', word: '哥', emoji: '👦', hint: '哥哥' },
+                { char: '姐', type: 'noun', word: '姐', emoji: '👧', hint: '姐姐' },
+                { char: '弟', type: 'noun', word: '弟', emoji: '👦', hint: '弟弟' },
+                { char: '妹', type: 'noun', word: '妹', emoji: '👧', hint: '妹妹' },
+                { char: '家', type: 'noun', word: '家', emoji: '🏠', hint: '温暖的家' },
+                { char: '门', type: 'noun', word: '门', emoji: '🚪', hint: '一扇大门' },
+                { char: '窗', type: 'noun', word: '窗', emoji: '🪟', hint: '明亮窗户' },
+                // 名词-物品 (22个)
+                { char: '书', type: 'noun', word: '书', emoji: '📖', hint: '一本好书' },
+                { char: '笔', type: 'noun', word: '笔', emoji: '✏️', hint: '一支铅笔' },
+                { char: '纸', type: 'noun', word: '纸', emoji: '📄', hint: '一张白纸' },
+                { char: '桌', type: 'noun', word: '桌', emoji: '🪑', hint: '一张桌子' },
+                { char: '椅', type: 'noun', word: '椅', emoji: '🪑', hint: '一把椅子' },
+                { char: '床', type: 'noun', word: '床', emoji: '🛏️', hint: '温暖小床' },
+                { char: '灯', type: 'noun', word: '灯', emoji: '💡', hint: '明亮灯光' },
+                { char: '杯', type: 'noun', word: '杯', emoji: '🥤', hint: '一个杯子' },
+                { char: '碗', type: 'noun', word: '碗', emoji: '🥣', hint: '一只小碗' },
+                { char: '勺', type: 'noun', word: '勺', emoji: '🥄', hint: '一把勺子' },
+                { char: '车', type: 'noun', word: '车', emoji: '🚗', hint: '一辆汽车' },
+                { char: '船', type: 'noun', word: '船', emoji: '⛵', hint: '一艘小船' },
+                { char: '球', type: 'noun', word: '球', emoji: '⚽', hint: '圆圆皮球' },
+                { char: '伞', type: 'noun', word: '伞', emoji: '☂️', hint: '一把雨伞' },
+                { char: '钟', type: 'noun', word: '钟', emoji: '🕐', hint: '滴答时钟' },
+                { char: '镜', type: 'noun', word: '镜', emoji: '🪞', hint: '一面镜子' },
+                { char: '箱', type: 'noun', word: '箱', emoji: '📦', hint: '一个箱子' },
+                { char: '帽', type: 'noun', word: '帽', emoji: '🎩', hint: '一顶帽子' },
+                { char: '鞋', type: 'noun', word: '鞋', emoji: '👟', hint: '一双鞋子' },
+                { char: '衣', type: 'noun', word: '衣', emoji: '👕', hint: '一件衣服' },
+                { char: '铃', type: 'noun', word: '铃', emoji: '🔔', hint: '清脆铃铛' },
+                { char: '琴', type: 'noun', word: '琴', emoji: '🎹', hint: '一架钢琴' },
+                // 名词-颜色形状数字方位 (26个)
+                { char: '红', type: 'noun', word: '红', emoji: '🔴', hint: '红红的' },
+                { char: '白', type: 'noun', word: '白', emoji: '⚪', hint: '白白的' },
+                { char: '黑', type: 'noun', word: '黑', emoji: '⚫', hint: '黑黑的' },
+                { char: '黄', type: 'noun', word: '黄', emoji: '🟡', hint: '黄黄的' },
+                { char: '蓝', type: 'noun', word: '蓝', emoji: '🔵', hint: '蓝蓝的' },
+                { char: '绿', type: 'noun', word: '绿', emoji: '🟢', hint: '绿绿的' },
+                { char: '大', type: 'noun', word: '大', emoji: '📏', hint: '大大的' },
+                { char: '小', type: 'noun', word: '小', emoji: '📏', hint: '小小的' },
+                { char: '长', type: 'noun', word: '长', emoji: '📏', hint: '长长的' },
+                { char: '短', type: 'noun', word: '短', emoji: '📏', hint: '短短的' },
+                { char: '圆', type: 'noun', word: '圆', emoji: '⭕', hint: '圆圆的' },
+                { char: '方', type: 'noun', word: '方', emoji: '🟫', hint: '方方的' },
+                { char: '一', type: 'noun', word: '一', emoji: '1️⃣', hint: '一个' },
+                { char: '二', type: 'noun', word: '二', emoji: '2️⃣', hint: '二个' },
+                { char: '三', type: 'noun', word: '三', emoji: '3️⃣', hint: '三个' },
+                { char: '四', type: 'noun', word: '四', emoji: '4️⃣', hint: '四个' },
+                { char: '五', type: 'noun', word: '五', emoji: '5️⃣', hint: '五个' },
+                { char: '六', type: 'noun', word: '六', emoji: '6️⃣', hint: '六个' },
+                { char: '七', type: 'noun', word: '七', emoji: '7️⃣', hint: '七个' },
+                { char: '八', type: 'noun', word: '八', emoji: '8️⃣', hint: '八个' },
+                { char: '九', type: 'noun', word: '九', emoji: '9️⃣', hint: '九个' },
+                { char: '十', type: 'noun', word: '十', emoji: '🔟', hint: '十个' },
+                { char: '百', type: 'noun', word: '百', emoji: '💯', hint: '一百' },
+                { char: '前', type: 'noun', word: '前', emoji: '⬆️', hint: '前面' },
+                { char: '后', type: 'noun', word: '后', emoji: '⬇️', hint: '后面' },
+                { char: '左', type: 'noun', word: '左', emoji: '⬅️', hint: '左边' },
+                // 名词-其他 (13个)
+                { char: '右', type: 'noun', word: '右', emoji: '➡️', hint: '右边' },
+                { char: '里', type: 'noun', word: '里', emoji: '📥', hint: '里面' },
+                { char: '外', type: 'noun', word: '外', emoji: '📤', hint: '外面' },
+                { char: '上', type: 'noun', word: '上', emoji: '☝️', hint: '上面' },
+                { char: '下', type: 'noun', word: '下', emoji: '👇', hint: '下面' },
+                { char: '力', type: 'noun', word: '力', emoji: '💪', hint: '力气' },
+                { char: '王', type: 'noun', word: '王', emoji: '👑', hint: '国王' },
+                { char: '玉', type: 'noun', word: '玉', emoji: '💎', hint: '美玉' },
+                { char: '金', type: 'noun', word: '金', emoji: '🪙', hint: '金子' },
+                { char: '音', type: 'noun', word: '音', emoji: '🎵', hint: '音乐' },
+                { char: '画', type: 'noun', word: '画', emoji: '🖼️', hint: '一幅画' },
+                { char: '歌', type: 'noun', word: '歌', emoji: '🎤', hint: '一首歌' },
+                { char: '舞', type: 'noun', word: '舞', emoji: '💃', hint: '跳舞' },
+                // 动词 (40个)
+                { char: '飞', type: 'verb', word: '飞鸟', emoji: '🐦💨', hint: '鸟儿飞翔' },
+                { char: '游', type: 'verb', word: '游泳', emoji: '🏊', hint: '快乐游泳' },
+                { char: '跑', type: 'verb', word: '跑步', emoji: '🏃', hint: '快快跑步' },
+                { char: '吃', type: 'verb', word: '吃饭', emoji: '🍚', hint: '好好吃饭' },
+                { char: '喝', type: 'verb', word: '喝水', emoji: '🥤', hint: '咕咚喝水' },
+                { char: '看', type: 'verb', word: '看书', emoji: '📖', hint: '认真看书' },
+                { char: '笑', type: 'verb', word: '笑脸', emoji: '😊', hint: '开心笑脸' },
+                { char: '哭', type: 'verb', word: '哭泣', emoji: '😢', hint: '伤心哭泣' },
+                { char: '走', type: 'verb', word: '走路', emoji: '🚶', hint: '慢慢走路' },
+                { char: '跳', type: 'verb', word: '跳跃', emoji: '🤸', hint: '快乐跳跃' },
+                { char: '坐', type: 'verb', word: '坐下', emoji: '🪑', hint: '请坐下' },
+                { char: '站', type: 'verb', word: '站立', emoji: '🧍', hint: '站起来' },
+                { char: '拿', type: 'verb', word: '拿笔', emoji: '✏️', hint: '拿起笔' },
+                { char: '放', type: 'verb', word: '放下', emoji: '📦', hint: '放下来' },
+                { char: '开', type: 'verb', word: '开门', emoji: '🚪', hint: '打开门' },
+                { char: '关', type: 'verb', word: '关窗', emoji: '🪟', hint: '关窗户' },
+                { char: '听', type: 'verb', word: '听歌', emoji: '🎧', hint: '仔细听' },
+                { char: '说', type: 'verb', word: '说话', emoji: '🗣️', hint: '大声说' },
+                { char: '读', type: 'verb', word: '读书', emoji: '📖', hint: '大声读' },
+                { char: '写', type: 'verb', word: '写字', emoji: '✍️', hint: '学写字' },
+                { char: '唱', type: 'verb', word: '唱歌', emoji: '🎤', hint: '快乐唱' },
+                { char: '抱', type: 'verb', word: '拥抱', emoji: '🤗', hint: '温暖拥抱' },
+                { char: '拉', type: 'verb', word: '拉手', emoji: '🤝', hint: '拉拉手' },
+                { char: '推', type: 'verb', word: '推车', emoji: '🛒', hint: '推车子' },
+                { char: '洗', type: 'verb', word: '洗手', emoji: '🧼', hint: '洗干净' },
+                { char: '刷', type: 'verb', word: '刷牙', emoji: '🪥', hint: '刷牙齿' },
+                { char: '扫', type: 'verb', word: '扫地', emoji: '🧹', hint: '扫干净' },
+                { char: '穿', type: 'verb', word: '穿衣', emoji: '👕', hint: '穿衣服' },
+                { char: '脱', type: 'verb', word: '脱鞋', emoji: '👟', hint: '脱鞋子' },
+                { char: '睡', type: 'verb', word: '睡觉', emoji: '😴', hint: '安心睡' },
+                { char: '醒', type: 'verb', word: '醒来', emoji: '⏰', hint: '快醒来' },
+                { char: '来', type: 'verb', word: '过来', emoji: '🚶', hint: '快快过来' },
+                { char: '去', type: 'verb', word: '出去', emoji: '🚪', hint: '出去玩' },
+                { char: '给', type: 'verb', word: '给予', emoji: '🎁', hint: '送礼物' },
+                { char: '打', type: 'verb', word: '打球', emoji: '⚽', hint: '打皮球' },
+                { char: '拍', type: 'verb', word: '拍手', emoji: '👏', hint: '拍拍手' },
+                { char: '吹', type: 'verb', word: '吹气', emoji: '💨', hint: '吹泡泡' },
+                { char: '咬', type: 'verb', word: '咬果', emoji: '🍎', hint: '咬一口' },
+                { char: '闻', type: 'verb', word: '闻花', emoji: '🌸', hint: '闻花香' },
+                { char: '想', type: 'verb', word: '思考', emoji: '🤔', hint: '想一想' },
+            ];
+
+            // 确保正好200个（当前200个）
+            console.log('字库总数：' + fullLibrary.length + ' 个汉字');
+
+            // ============ DOM元素 ============
+            const startScreen = document.getElementById('startScreen');
+            const learnScreen = document.getElementById('learnScreen');
+            const cardContainer = document.getElementById('cardContainer');
+            const card = document.getElementById('card');
+            const hanziDisplay = document.getElementById('hanziDisplay');
+            const imageDisplay = document.getElementById('imageDisplay');
+            const wordLabel = document.getElementById('wordLabel');
+            const hintText = document.getElementById('hintText');
+            const typeBadge = document.getElementById('typeBadge');
+            const btnFamiliar = document.getElementById('btnFamiliar');
+            const btnUnfamiliar = document.getElementById('btnUnfamiliar');
+            const progressBar = document.getElementById('progressBar');
+            const progressText = document.getElementById('progressText');
+            const familiarCountEl = document.getElementById('familiarCount');
+            const unfamiliarCountEl = document.getElementById('unfamiliarCount');
+            const remainingCountEl = document.getElementById('remainingCount');
+            const summaryOverlay = document.getElementById('summaryOverlay');
+            const summaryEmoji = document.getElementById('summaryEmoji');
+            const summaryTitle = document.getElementById('summaryTitle');
+            const summaryFamiliar = document.getElementById('summaryFamiliar');
+            const summaryUnfamiliar = document.getElementById('summaryUnfamiliar');
+            const btnReview = document.getElementById('btnReview');
+            const btnRestart = document.getElementById('btnRestart');
+            const btnCloseSummary = document.getElementById('btnCloseSummary');
+            const btnBackStartFromSummary = document.getElementById('btnBackStartFromSummary');
+            const btnBackToStart = document.getElementById('btnBackToStart');
+            const toast = document.getElementById('toast');
+            const customInputArea = document.getElementById('customInputArea');
+            const customCountInput = document.getElementById('customCount');
+            const btnCustomToggle = document.getElementById('btnCustomToggle');
+            const btnCustomGo = document.getElementById('btnCustomGo');
+
+            // ============ 状态 ============
+            let currentCards = []; // 当前轮次的卡片数据
+            let currentIndex = 0;
+            let isFlipped = false;
+            let isAnimating = false;
+            let familiarStatus = []; // null=未标记, true=熟悉, false=不熟悉
+            let reviewQueue = [];
+            let isReviewMode = false;
+            let toastTimer = null;
+            let totalSelectedCount = 5;
+
+            // ============ Fisher-Yates洗牌 ============
+            function shuffle(arr) {
+                const a = [...arr];
+                for (let i = a.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [a[i], a[j]] = [a[j], a[i]];
+                }
+                return a;
+            }
+
+            // ============ 选取卡片 ============
+            function selectCards(count) {
+                const shuffled = shuffle(fullLibrary);
+                return shuffled.slice(0, Math.min(count, fullLibrary.length));
+            }
+
+            // ============ 更新卡片内容 ============
+            function updateCardContent() {
+                if (currentCards.length === 0) return;
+                const data = currentCards[currentIndex];
+                hanziDisplay.textContent = data.char;
+                imageDisplay.textContent = data.emoji;
+                wordLabel.textContent = data.word;
+                hintText.textContent = data.hint;
+                typeBadge.textContent = data.type === 'noun' ? '名词' : '动词→名词';
+                typeBadge.className = 'type-badge ' + (data.type === 'noun' ? 'noun' : 'verb');
+            }
+
+            function updateProgress() {
+                if (currentCards.length === 0) return;
+                const totalFamiliar = familiarStatus.filter(s => s === true).length;
+                const totalUnfamiliar = familiarStatus.filter(s => s === false).length;
+                const totalNull = familiarStatus.filter(s => s === null).length;
+                const total = currentCards.length;
+                const progressPercent = Math.min(100, Math.max(0, (totalFamiliar / total) * 100));
+                progressBar.style.width = progressPercent + '%';
+                progressText.textContent = totalFamiliar + ' / ' + total;
+                familiarCountEl.textContent = totalFamiliar;
+                unfamiliarCountEl.textContent = totalUnfamiliar;
+                remainingCountEl.textContent = totalNull;
+            }
+
+            function updateButtonLabels() {
+                if (isFlipped) {
+                    btnFamiliar.innerHTML = '✅ 记住了';
+                    btnUnfamiliar.innerHTML = '➡️ 下一个';
+                } else {
+                    btnFamiliar.innerHTML = '✅ 熟悉';
+                    btnUnfamiliar.innerHTML = '🔍 不熟悉';
+                }
+            }
+
+            function setAnimating(animating) {
+                isAnimating = animating;
+                btnFamiliar.disabled = animating;
+                btnUnfamiliar.disabled = animating;
+                cardContainer.style.pointerEvents = animating ? 'none' : 'auto';
+                cardContainer.style.cursor = animating ? 'default' : 'pointer';
+            }
+
+            function flipCard() {
+                if (isAnimating) return;
+                setAnimating(true);
+                isFlipped = !isFlipped;
+                card.classList.toggle('flipped', isFlipped);
+                updateButtonLabels();
+                if (navigator.vibrate) navigator.vibrate(8);
+                setTimeout(() => setAnimating(false), 520);
+            }
+
+            function markAsFamiliar() {
+                familiarStatus[currentIndex] = true;
+                updateProgress();
+            }
+
+            function markAsUnfamiliar() {
+                familiarStatus[currentIndex] = false;
+                updateProgress();
+            }
+
+            function goToNextCard() {
+                if (isAnimating) return;
+                if (currentCards.length === 0) return;
+
+                const nullCount = familiarStatus.filter(s => s === null).length;
+                const falseCount = familiarStatus.filter(s => s === false).length;
+                if (nullCount === 0 && falseCount === 0) {
+                    showSummary();
+                    return;
+                }
+
+                let nextIndex;
+                if (isReviewMode) {
+                    const remaining = reviewQueue.filter(idx =>
+                        familiarStatus[idx] === null || familiarStatus[idx] === false
+                    );
+                    if (remaining.length === 0) { showSummary(); return; }
+                    const curPos = remaining.indexOf(currentIndex);
+                    nextIndex = (curPos >= 0 && curPos < remaining.length - 1) ? remaining[curPos + 1] : remaining[
+                        0];
+                } else {
+                    const candidates = [];
+                    familiarStatus.forEach((status, idx) => {
+                        if (status === null || status === false) candidates.push(idx);
+                    });
+                    if (candidates.length === 0) { showSummary(); return; }
+                    const curPos = candidates.indexOf(currentIndex);
+                    nextIndex = (curPos >= 0 && curPos < candidates.length - 1) ? candidates[curPos + 1] :
+                        candidates[0];
+                }
+
+                if (isFlipped) {
+                    setAnimating(true);
+                    isFlipped = false;
+                    card.classList.remove('flipped');
+                    updateButtonLabels();
+                    setTimeout(() => {
+                        currentIndex = nextIndex;
+                        updateCardContent();
+                        updateProgress();
+                    }, 200);
+                    setTimeout(() => setAnimating(false), 520);
+                } else {
+                    setAnimating(true);
+                    cardContainer.classList.add('shake');
+                    setTimeout(() => {
+                        currentIndex = nextIndex;
+                        updateCardContent();
+                        updateProgress();
+                        cardContainer.classList.remove('shake');
+                        setAnimating(false);
+                    }, 180);
+                    setTimeout(() => {
+                        if (isAnimating) {
+                            cardContainer.classList.remove('shake');
+                            setAnimating(false);
+                        }
+                    }, 550);
+                }
+            }
+
+            function showToast(message, emoji = '💡') {
+                if (toastTimer) clearTimeout(toastTimer);
+                toast.textContent = emoji + ' ' + message;
+                toast.classList.add('show');
+                toastTimer = setTimeout(() => {
+                    toast.classList.remove('show');
+                    toastTimer = null;
+                }, 2000);
+            }
+
+            function showSummary() {
+                const totalFamiliar = familiarStatus.filter(s => s === true).length;
+                const totalUnfamiliar = familiarStatus.filter(s => s === false).length;
+                const totalNull = familiarStatus.filter(s => s === null).length;
+                summaryFamiliar.textContent = totalFamiliar;
+                summaryUnfamiliar.textContent = totalUnfamiliar + totalNull;
+                if (totalUnfamiliar + totalNull === 0) {
+                    summaryEmoji.textContent = '🎉';
+                    summaryTitle.textContent = '太棒了！全部认识！';
+                    btnReview.style.display = 'none';
+                } else if (totalFamiliar >= currentCards.length * 0.7) {
+                    summaryEmoji.textContent = '🌟';
+                    summaryTitle.textContent = '非常不错！';
+                    btnReview.style.display = 'inline-block';
+                } else {
+                    summaryEmoji.textContent = '💪';
+                    summaryTitle.textContent = '继续加油哦！';
+                    btnReview.style.display = 'inline-block';
+                }
+                reviewQueue = [];
+                familiarStatus.forEach((status, idx) => {
+                    if (status === false || status === null) reviewQueue.push(idx);
+                });
+                if (reviewQueue.length === 0) btnReview.style.display = 'none';
+                summaryOverlay.classList.add('show');
+                spawnConfetti();
+            }
+
+            function hideSummary() {
+                summaryOverlay.classList.remove('show');
+            }
+
+            function resetLearnState() {
+                currentIndex = 0;
+                isFlipped = false;
+                isAnimating = false;
+                familiarStatus = new Array(currentCards.length).fill(null);
+                reviewQueue = [];
+                isReviewMode = false;
+                card.classList.remove('flipped');
+                cardContainer.classList.remove('shake');
+                updateButtonLabels();
+                updateProgress();
+                hideSummary();
+                setAnimating(false);
+                cardContainer.style.pointerEvents = 'auto';
+                cardContainer.style.cursor = 'pointer';
+                btnFamiliar.disabled = false;
+                btnUnfamiliar.disabled = false;
+            }
+
+            function startLearning(count) {
+                totalSelectedCount = count;
+                currentCards = selectCards(count);
+                resetLearnState();
+                updateCardContent();
+                updateProgress();
+                startScreen.classList.add('hidden');
+                learnScreen.classList.add('active');
+                hideSummary();
+                showToast('开始学习 ' + count + ' 个汉字！', '📚');
+            }
+
+            function restartLearning() {
+                currentCards = selectCards(totalSelectedCount);
+                resetLearnState();
+                updateCardContent();
+                updateProgress();
+                hideSummary();
+                showToast('重新学习 ' + totalSelectedCount + ' 个字！', '🔄');
+            }
+
+            function startReview() {
+                if (reviewQueue.length === 0) {
+                    showToast('没有需要复习的字哦~', '🎉');
+                    return;
+                }
+                isReviewMode = true;
+                reviewQueue.forEach(idx => { familiarStatus[idx] = null; });
+                currentIndex = reviewQueue[0];
+                isFlipped = false;
+                card.classList.remove('flipped');
+                updateCardContent();
+                updateButtonLabels();
+                updateProgress();
+                hideSummary();
+                setAnimating(false);
+                cardContainer.classList.remove('shake');
+                cardContainer.style.pointerEvents = 'auto';
+                cardContainer.style.cursor = 'pointer';
+                btnFamiliar.disabled = false;
+                btnUnfamiliar.disabled = false;
+                showToast('复习模式：' + reviewQueue.length + ' 个字', '📖');
+            }
+
+            function goBackToStart() {
+                hideSummary();
+                learnScreen.classList.remove('active');
+                startScreen.classList.remove('hidden');
+                resetLearnState();
+                currentCards = [];
+                familiarStatus = [];
+                reviewQueue = [];
+                isReviewMode = false;
+            }
+
+            function spawnConfetti() {
+                const colors = ['#ff6b6b', '#ffd93d', '#6bcb77', '#4d96ff', '#ff922b', '#f8a5b0', '#7ec8e3',
+                    '#fce38a', '#a8d8b9', '#c8a0f0'
+                ];
+                const container = document.createElement('div');
+                container.style.cssText =
+                    'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:300;';
+                document.body.appendChild(container);
+                for (let i = 0; i < 60; i++) {
+                    const confetti = document.createElement('div');
+                    const size = Math.random() * 12 + 6;
+                    confetti.style.cssText =
+                        `position:absolute;top:-30px;left:${Math.random()*100}%;width:${size}px;height:${size*(Math.random()*0.6+0.7)}px;background:${colors[Math.floor(Math.random()*colors.length)]};border-radius:${Math.random()>0.5?'50%':'2px'};animation:confettiFall ${Math.random()*1.5+1.8}s ease-in ${Math.random()*0.8}s forwards;opacity:0;`;
+                    container.appendChild(confetti);
+                }
+                if (!document.getElementById('confettiStyle')) {
+                    const style = document.createElement('style');
+                    style.id = 'confettiStyle';
+                    style.textContent =
+                        '@keyframes confettiFall{0%{transform:translateY(0) rotate(0deg) scale(1);opacity:1}30%{opacity:1}100%{transform:translateY(105vh) rotate(720deg) scale(0.3);opacity:0}}';
+                    document.head.appendChild(style);
+                }
+                setTimeout(() => container.remove(), 3000);
+            }
+
+            // ============ 事件监听 ============
+            // 开始页面按钮
+            document.querySelectorAll('.start-btn[data-count]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const count = parseInt(btn.getAttribute('data-count'));
+                    startLearning(count);
+                });
+            });
+
+            // 自定义按钮切换
+            btnCustomToggle.addEventListener('click', () => {
+                customInputArea.classList.toggle('show');
+                if (customInputArea.classList.contains('show')) {
+                    customCountInput.focus();
+                }
+            });
+
+            // 自定义确认
+            btnCustomGo.addEventListener('click', () => {
+                let count = parseInt(customCountInput.value);
+                if (isNaN(count) || count < 1) count = 1;
+                if (count > 200) count = 200;
+                customCountInput.value = count;
+                customInputArea.classList.remove('show');
+                startLearning(count);
+            });
+            customCountInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    btnCustomGo.click();
+                }
+            });
+
+            // 返回首页
+            btnBackToStart.addEventListener('click', goBackToStart);
+            btnBackStartFromSummary.addEventListener('click', goBackToStart);
+
+            // 卡片翻转
+            cardContainer.addEventListener('click', (e) => {
+                if (e.target.closest('button')) return;
+                if (isAnimating) return;
+                flipCard();
+            });
+
+            // 熟悉按钮
+            btnFamiliar.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (isAnimating) return;
+                if (currentCards.length === 0) return;
+                if (isFlipped) {
+                    markAsFamiliar();
+                    goToNextCard();
+                } else {
+                    markAsFamiliar();
+                    goToNextCard();
+                }
+                if (navigator.vibrate) navigator.vibrate(12);
+            });
+
+            // 不熟悉按钮
+            btnUnfamiliar.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (isAnimating) return;
+                if (currentCards.length === 0) return;
+                if (isFlipped) {
+                    goToNextCard();
+                } else {
+                    markAsUnfamiliar();
+                    flipCard();
+                }
+                if (navigator.vibrate) navigator.vibrate([10, 30, 10]);
+            });
+
+            // 总结面板按钮
+            btnRestart.addEventListener('click', restartLearning);
+            btnReview.addEventListener('click', startReview);
+            btnCloseSummary.addEventListener('click', hideSummary);
+            summaryOverlay.addEventListener('click', (e) => {
+                if (e.target === summaryOverlay) hideSummary();
+            });
+
+            // 键盘快捷键
+            document.addEventListener('keydown', (e) => {
+                if (summaryOverlay.classList.contains('show')) {
+                    if (e.key === 'Escape') hideSummary();
+                    if (e.key === 'r' || e.key === 'R') restartLearning();
+                    return;
+                }
+                if (learnScreen.classList.contains('active') === false) return;
+                if (isAnimating) return;
+                if (currentCards.length === 0) return;
+                if (e.key === 'ArrowRight' || e.key === ' ') {
+                    e.preventDefault();
+                    markAsFamiliar();
+                    goToNextCard();
+                }
+                if (e.key === 'ArrowDown' || e.key === 'f') {
+                    e.preventDefault();
+                    if (!isFlipped) {
+                        markAsUnfamiliar();
+                        flipCard();
+                    }
+                }
+                if (e.key === 'ArrowUp' && isFlipped) {
+                    e.preventDefault();
+                    flipCard();
+                }
+                if (e.key === 'Escape') {
+                    goBackToStart();
+                }
+            });
+
+            // 触摸滑动
+            let touchStartX = 0,
+                touchStartY = 0;
+            cardContainer.addEventListener('touchstart', (e) => {
+                if (e.target.closest('button')) return;
+                touchStartX = e.touches[0].clientX;
+                touchStartY = e.touches[0].clientY;
+            }, { passive: true });
+            cardContainer.addEventListener('touchend', (e) => {
+                if (e.target.closest('button')) return;
+                if (isAnimating) return;
+                if (currentCards.length === 0) return;
+                const dx = e.changedTouches[0].clientX - touchStartX;
+                const dy = e.changedTouches[0].clientY - touchStartY;
+                if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.3) {
+                    if (dx < 0 && !isFlipped) { markAsUnfamiliar();
+                        flipCard(); } else if (dx > 0 && isFlipped) { flipCard(); }
+                }
+                if (dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5) {
+                    if (!isFlipped) { markAsFamiliar();
+                        goToNextCard(); } else { markAsFamiliar();
+                        goToNextCard(); }
+                }
+            });
+
+            // ============ 初始化 ============
+            function init() {
+                startScreen.classList.remove('hidden');
+                learnScreen.classList.remove('active');
+                hideSummary();
+                customInputArea.classList.remove('show');
+                customCountInput.value = 8;
+                currentCards = [];
+                familiarStatus = [];
+                reviewQueue = [];
+                isReviewMode = false;
+                currentIndex = 0;
+                isFlipped = false;
+                isAnimating = false;
+                card.classList.remove('flipped');
+                cardContainer.classList.remove('shake');
+                setAnimating(false);
+                cardContainer.style.pointerEvents = 'auto';
+                cardContainer.style.cursor = 'pointer';
+                btnFamiliar.disabled = false;
+                btnUnfamiliar.disabled = false;
+                updateButtonLabels();
+                progressBar.style.width = '0%';
+                progressText.textContent = '0 / 0';
+                familiarCountEl.textContent = '0';
+                unfamiliarCountEl.textContent = '0';
+                remainingCountEl.textContent = '0';
+            }
+            init();
+            setTimeout(() => showToast('请选择学习字数开始吧！', '👆'), 500);
+            console.log('🌈 汉字启蒙卡片已就绪！字库共 ' + fullLibrary.length + ' 个汉字');
+            console.log('💡 点击卡片翻转 | 键盘 ←→ 切换 | 空格键熟悉 | Esc返回首页');
+        })();
+    </script>
+</body>
+</html>
