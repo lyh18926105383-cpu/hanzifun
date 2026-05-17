@@ -3,7 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌈 汉字启蒙卡片 - 儿童识字工具</title>
+    <link rel="icon" type="image/png" href="工具头像.png">
+    <link rel="apple-touch-icon" href="工具头像.png">
+    <meta name="description" content="汉字饭（hanzifun）是面向3-6岁儿童的趣味识字工具，通过互动卡片帮助家长轻松教孩子学汉字。A fun Chinese character learning tool for kids aged 3-6, helping parents teach children to read Chinese characters through interactive flashcards.">
+    <meta name="keywords" content="汉字,识字,儿童识字,学汉字,汉字卡片,识字卡片,幼儿识字,3-6岁,趣味识字,汉字启蒙,汉字饭,hanzifun,Chinese characters,learn Chinese,Chinese flashcards for kids,preschool Chinese learning">
+    <title>汉字饭 hanzifun - 儿童识字卡片 | 3-6岁趣味学汉字 | Learn Chinese Characters for Kids</title>
+
+    <!-- Open Graph / 社交分享 -->
+    <meta property="og:title" content="汉字饭 hanzifun - 儿童识字卡片 | 3-6岁趣味学汉字">
+    <meta property="og:description" content="面向3-6岁儿童的趣味识字工具，通过互动卡片帮助家长轻松教孩子学汉字。A fun Chinese character learning tool for kids aged 3-6.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hanzifun.com">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="汉字饭 hanzifun">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="汉字饭 hanzifun - 儿童识字卡片 | 3-6岁趣味学汉字">
+    <meta name="twitter:description" content="面向3-6岁儿童的趣味识字工具，通过互动卡片帮助家长轻松教孩子学汉字。A fun Chinese character learning tool for kids aged 3-6.">
+
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "汉字饭 hanzifun",
+      "alternateName": "hanzifun",
+      "url": "https://hanzifun.com",
+      "description": "面向3-6岁儿童的趣味识字工具，通过互动卡片帮助家长轻松教孩子学汉字。A fun Chinese character learning tool for kids aged 3-6, helping parents teach children to read Chinese characters through interactive flashcards.",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "All",
+      "inLanguage": ["zh-CN", "en"],
+      "educationalUse": "learning Chinese characters for preschool children",
+      "typicalAgeRange": "3-6",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      }
+    }
+    </script>
     <style>
         :root {
             --bg: #fdf6e3;
@@ -42,6 +81,43 @@
             -webkit-font-smoothing: antialiased;
             overflow-x: hidden;
             position: relative;
+        }
+
+        /* 页面头部 */
+        .site-header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 12px;
+            padding: 16px 20px;
+            background: transparent;
+            box-shadow: none;
+            position: absolute;
+            z-index: 10;
+            left: 16px;
+            top: 0;
+        }
+        .site-logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+        }
+        .site-title {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.3;
+        }
+        .site-title-line1 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #5b4a3f;
+            letter-spacing: 0.5px;
+        }
+        .site-title-line2 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #5b4a3f;
+            letter-spacing: 0.5px;
         }
 
         /* 背景装饰 */
@@ -1005,6 +1081,12 @@
 </head>
 <body>
 
+    <!-- 页面头部 -->
+    <header class="site-header">
+        <img class="site-logo" src="工具头像.png" alt="汉字饭logo">
+        <span class="site-title"><span class="site-title-line1">汉字饭 hanzifan</span><span class="site-title-line2">3-6岁趣味学汉字</span></span>
+    </header>
+
     <!-- 背景装饰 -->
     <div class="bg-decor d1">☁️</div>
     <div class="bg-decor d2">⭐</div>
@@ -1107,6 +1189,20 @@
     <div class="toast" id="toast"></div>
 
     <script>
+        function positionHeader() {
+            var header = document.querySelector('.site-header');
+            var startScreen = document.querySelector('.start-screen');
+            if (!header || !startScreen) return;
+            if (startScreen.classList.contains('hidden')) {
+                header.style.top = '16px';
+                return;
+            }
+            var startTop = startScreen.getBoundingClientRect().top;
+            var headerHeight = header.offsetHeight;
+            header.style.top = Math.max(0, (startTop - headerHeight) / 2) + 'px';
+        }
+        window.addEventListener('load', positionHeader);
+        window.addEventListener('resize', positionHeader);
         (function() {
             // ============ 200个汉字素材库 ============
             const fullLibrary = [
@@ -1579,6 +1675,7 @@
                 startScreen.classList.add('hidden');
                 learnScreen.classList.add('active');
                 hideSummary();
+                positionHeader();
                 showToast('开始学习 ' + count + ' 个汉字！', '📚');
             }
 
@@ -1620,6 +1717,7 @@
                 startScreen.classList.remove('hidden');
                 resetLearnState();
                 currentCards = [];
+                positionHeader();
                 familiarStatus = [];
                 reviewQueue = [];
                 isReviewMode = false;
@@ -1792,6 +1890,7 @@
                 learnScreen.classList.remove('active');
                 hideSummary();
                 customInputArea.classList.remove('show');
+                positionHeader();
                 customCountInput.value = 8;
                 currentCards = [];
                 familiarStatus = [];
