@@ -1524,6 +1524,25 @@
                 cardContainer.style.cursor = animating ? 'default' : 'pointer';
             }
 
+            function speakCard() {
+                if (!window.speechSynthesis) return;
+                if (currentCards.length === 0) return;
+                const data = currentCards[currentIndex];
+                window.speechSynthesis.cancel();
+                var utterChar = new SpeechSynthesisUtterance(data.char);
+                utterChar.lang = 'zh-CN';
+                utterChar.rate = 0.85;
+                var utterHint = new SpeechSynthesisUtterance(data.hint);
+                utterHint.lang = 'zh-CN';
+                utterHint.rate = 0.8;
+                utterChar.onend = function() {
+                    setTimeout(function() {
+                        window.speechSynthesis.speak(utterHint);
+                    }, 400);
+                };
+                window.speechSynthesis.speak(utterChar);
+            }
+
             function flipCard() {
                 if (isAnimating) return;
                 setAnimating(true);
@@ -1680,6 +1699,7 @@
             }
 
             function restartLearning() {
+                window.speechSynthesis && window.speechSynthesis.cancel();
                 currentCards = selectCards(totalSelectedCount);
                 resetLearnState();
                 updateCardContent();
@@ -1712,6 +1732,7 @@
             }
 
             function goBackToStart() {
+                window.speechSynthesis && window.speechSynthesis.cancel();
                 hideSummary();
                 learnScreen.classList.remove('active');
                 startScreen.classList.remove('hidden');
@@ -1796,6 +1817,7 @@
                 e.stopPropagation();
                 if (isAnimating) return;
                 if (currentCards.length === 0) return;
+                window.speechSynthesis && window.speechSynthesis.cancel();
                 if (isFlipped) {
                     markAsFamiliar();
                     goToNextCard();
@@ -1812,10 +1834,12 @@
                 if (isAnimating) return;
                 if (currentCards.length === 0) return;
                 if (isFlipped) {
+                    window.speechSynthesis && window.speechSynthesis.cancel();
                     goToNextCard();
                 } else {
                     markAsUnfamiliar();
                     flipCard();
+                    setTimeout(speakCard, 550);
                 }
                 if (navigator.vibrate) navigator.vibrate([10, 30, 10]);
             });
