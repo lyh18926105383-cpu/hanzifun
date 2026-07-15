@@ -1,0 +1,9 @@
+.git
+.assetsignore
+wrangler.toml
+node_modules
+tests
+package.json
+package-lock.json
+bun.lock
+README.md
