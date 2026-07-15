@@ -88,6 +88,11 @@
             <button class="custom-go-btn" id="btnCustomGo">✅ 开始</button>
             <span class="custom-hint">输入1-200之间的数字</span>
         </div>
+        <button class="history-open-button" id="btnOpenHistory" type="button" aria-haspopup="dialog">
+            <span aria-hidden="true">📊</span>
+            <span>学习足迹</span>
+            <span class="history-open-summary" id="historyOpenSummary">尚无记录</span>
+        </button>
     </div>
 
     <!-- ============ 学习页面（初始隐藏） ============ -->
@@ -152,9 +157,48 @@
         </div>
     </div>
 
+    <!-- 本机学习记录 -->
+    <div class="history-overlay" id="historyOverlay" aria-hidden="true">
+        <section class="history-panel" role="dialog" aria-modal="true" aria-labelledby="historyTitle">
+            <div class="history-header">
+                <div>
+                    <h2 id="historyTitle">学习足迹</h2>
+                    <p>当前设备的学习记录</p>
+                </div>
+                <button class="history-close-button" id="btnCloseHistory" type="button" aria-label="关闭学习记录" title="关闭">✕</button>
+            </div>
+            <div class="history-metrics">
+                <div><strong id="historyRoundCount">0</strong><span>学习轮次</span></div>
+                <div><strong id="historyCharacterCount">0</strong><span>已学汉字</span></div>
+                <div><strong id="historyWeakCount">0</strong><span>薄弱字</span></div>
+            </div>
+            <section class="history-section" aria-labelledby="weakCharactersTitle">
+                <h3 id="weakCharactersTitle">需要复习</h3>
+                <p class="weak-characters" id="weakCharacters">目前没有薄弱字</p>
+            </section>
+            <section class="history-section" aria-labelledby="recentSessionsTitle">
+                <h3 id="recentSessionsTitle">最近学习</h3>
+                <div class="recent-sessions" id="recentSessions">
+                    <p class="history-empty">完成一轮学习后会显示记录</p>
+                </div>
+            </section>
+            <div class="history-actions">
+                <button class="history-clear-button" id="btnClearHistory" type="button">清空记录</button>
+            </div>
+            <div class="history-clear-confirm" id="historyClearConfirm" hidden>
+                <p>确定清空当前设备上的全部学习记录吗？</p>
+                <div>
+                    <button class="history-cancel-clear" id="btnCancelClearHistory" type="button">取消</button>
+                    <button class="history-confirm-clear" id="btnConfirmClearHistory" type="button">确认清空</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <div class="toast" id="toast"></div>
 
     <script src="characters.js"></script>
+    <script src="storage.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

@@ -71,10 +71,21 @@
     window.addEventListener('resize', positionHeader);
 
     const fullLibrary = window.HANZI_LIBRARY;
+    const storageApi = window.HanziFunStorage;
 
-    if (!Array.isArray(fullLibrary)) {
-        throw new Error('汉字字库加载失败');
+    if (!Array.isArray(fullLibrary) || !storageApi) {
+        throw new Error('汉字饭资源加载失败');
     }
+
+    function getBrowserStorage() {
+        try {
+            return window.localStorage;
+        } catch (error) {
+            return null;
+        }
+    }
+
+    const learningStore = storageApi.createStore(getBrowserStorage());
 
     // ============ DOM元素 ============
     const startScreen = document.getElementById('startScreen');
@@ -108,6 +119,19 @@
     const customCountInput = document.getElementById('customCount');
     const btnCustomToggle = document.getElementById('btnCustomToggle');
     const btnCustomGo = document.getElementById('btnCustomGo');
+    const btnOpenHistory = document.getElementById('btnOpenHistory');
+    const historyOpenSummary = document.getElementById('historyOpenSummary');
+    const historyOverlay = document.getElementById('historyOverlay');
+    const btnCloseHistory = document.getElementById('btnCloseHistory');
+    const btnClearHistory = document.getElementById('btnClearHistory');
+    const historyClearConfirm = document.getElementById('historyClearConfirm');
+    const btnCancelClearHistory = document.getElementById('btnCancelClearHistory');
+    const btnConfirmClearHistory = document.getElementById('btnConfirmClearHistory');
+    const historyRoundCount = document.getElementById('historyRoundCount');
+    const historyCharacterCount = document.getElementById('historyCharacterCount');
+    const historyWeakCount = document.getElementById('historyWeakCount');
+    const weakCharactersEl = document.getElementById('weakCharacters');
+    const recentSessionsEl = document.getElementById('recentSessions');
 
     // ============ 状态 ============
     let currentCards = []; // 当前轮次的卡片数据
@@ -117,8 +141,114 @@
     let familiarStatus = []; // null=未标记, true=熟悉, false=不熟悉
     let reviewQueue = [];
     let isReviewMode = false;
+    let hasSavedCurrentPass = false;
     let toastTimer = null;
     let totalSelectedCount = 5;
+
+    function formatSessionTime(timestamp) {
+        const date = new Date(timestamp);
+        if (Number.isNaN(date.getTime())) return '';
+        return date.toLocaleString('zh-CN', {
+            month: 'numeric',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false,
+        });
+    }
+
+    function renderLearningHistory() {
+        const dashboard = learningStore.getDashboard();
+        historyRoundCount.textContent = dashboard.learningRounds;
+        historyCharacterCount.textContent = dashboard.learnedCharacters;
+        historyWeakCount.textContent = dashboard.weakCharacters.length;
+        historyOpenSummary.textContent = dashboard.learningRounds === 0
+            ? '尚无记录'
+            : `${dashboard.learningRounds}轮 · 薄弱${dashboard.weakCharacters.length}字`;
+        weakCharactersEl.textContent = dashboard.weakCharacters.length === 0
+            ? '目前没有薄弱字'
+            : dashboard.weakCharacters.map(item => item.char).join(' · ');
+
+        recentSessionsEl.replaceChildren();
+        if (dashboard.recentSessions.length === 0) {
+            const empty = document.createElement('p');
+            empty.className = 'history-empty';
+            empty.textContent = '完成一轮学习后会显示记录';
+            recentSessionsEl.appendChild(empty);
+            return;
+        }
+
+        dashboard.recentSessions.forEach(session => {
+            const row = document.createElement('div');
+            row.className = 'recent-session-row';
+
+            const main = document.createElement('div');
+            main.className = 'session-main';
+            main.textContent = `${session.kind === 'review' ? '复习' : '学习'} ${session.total} 个字`;
+
+            const time = document.createElement('time');
+            time.className = 'session-time';
+            time.dateTime = new Date(session.completedAt).toISOString();
+            time.textContent = formatSessionTime(session.completedAt);
+
+            const result = document.createElement('div');
+            result.className = 'session-result';
+            result.textContent = `熟悉 ${session.familiar} · 不熟悉 ${session.unfamiliar}`;
+
+            row.append(main, time, result);
+            recentSessionsEl.appendChild(row);
+        });
+    }
+
+    function openLearningHistory() {
+        renderLearningHistory();
+        historyClearConfirm.hidden = true;
+        historyOverlay.classList.add('show');
+        historyOverlay.setAttribute('aria-hidden', 'false');
+        btnCloseHistory.focus();
+    }
+
+    function closeLearningHistory() {
+        historyClearConfirm.hidden = true;
+        historyOverlay.classList.remove('show');
+        historyOverlay.setAttribute('aria-hidden', 'true');
+    }
+
+    function clearLearningHistory() {
+        const dashboard = learningStore.getDashboard();
+        if (dashboard.recentSessions.length === 0) {
+            showToast('当前设备还没有学习记录', '📊');
+            return;
+        }
+
+        historyClearConfirm.hidden = false;
+        btnConfirmClearHistory.focus();
+    }
+
+    function confirmClearLearningHistory() {
+        const cleared = learningStore.clear();
+        historyClearConfirm.hidden = true;
+        renderLearningHistory();
+        showToast(cleared ? '学习记录已清空' : '浏览器未允许清空记录', cleared ? '✅' : '💡');
+    }
+
+    function saveCurrentPass() {
+        if (hasSavedCurrentPass || currentCards.length === 0) return;
+        const activeIndices = getActiveIndices(currentCards.length, reviewQueue, isReviewMode);
+        const statuses = activeIndices.map(index => familiarStatus[index]);
+        if (statuses.some(status => typeof status !== 'boolean')) return;
+
+        const outcome = learningStore.record({
+            kind: isReviewMode ? 'review' : 'learning',
+            cards: activeIndices.map(index => currentCards[index]),
+            statuses,
+        });
+        hasSavedCurrentPass = true;
+        renderLearningHistory();
+        if (!outcome.saved) {
+            console.warn('学习记录仅在当前页面暂存，浏览器未允许本机存储。');
+        }
+    }
 
     // ============ Fisher-Yates洗牌 ============
     function shuffle(arr) {
@@ -273,6 +403,7 @@
         const totalFamiliar = familiarStatus.filter(s => s === true).length;
         const totalUnfamiliar = familiarStatus.filter(s => s === false).length;
         const totalNull = familiarStatus.filter(s => s === null).length;
+        saveCurrentPass();
         summaryFamiliar.textContent = totalFamiliar;
         summaryUnfamiliar.textContent = totalUnfamiliar + totalNull;
         if (totalUnfamiliar + totalNull === 0) {
@@ -305,6 +436,7 @@
         familiarStatus = new Array(currentCards.length).fill(null);
         reviewQueue = [];
         isReviewMode = false;
+        hasSavedCurrentPass = false;
         card.classList.remove('flipped');
         cardContainer.classList.remove('shake');
         updateButtonLabels();
@@ -321,6 +453,7 @@
         totalSelectedCount = count;
         currentCards = selectCards(count);
         resetLearnState();
+        closeLearningHistory();
         updateCardContent();
         updateProgress();
         startScreen.classList.add('hidden');
@@ -346,6 +479,7 @@
             return;
         }
         isReviewMode = true;
+        hasSavedCurrentPass = false;
         reviewQueue.forEach(idx => { familiarStatus[idx] = null; });
         currentIndex = reviewQueue[0];
         isFlipped = false;
@@ -436,6 +570,17 @@
     // 返回首页
     btnBackToStart.addEventListener('click', goBackToStart);
     btnBackStartFromSummary.addEventListener('click', goBackToStart);
+    btnOpenHistory.addEventListener('click', openLearningHistory);
+    btnCloseHistory.addEventListener('click', closeLearningHistory);
+    btnClearHistory.addEventListener('click', clearLearningHistory);
+    btnCancelClearHistory.addEventListener('click', () => {
+        historyClearConfirm.hidden = true;
+        btnClearHistory.focus();
+    });
+    btnConfirmClearHistory.addEventListener('click', confirmClearLearningHistory);
+    historyOverlay.addEventListener('click', (e) => {
+        if (e.target === historyOverlay) closeLearningHistory();
+    });
 
     // 卡片翻转
     cardContainer.addEventListener('click', (e) => {
@@ -486,6 +631,10 @@
 
     // 键盘快捷键
     document.addEventListener('keydown', (e) => {
+        if (historyOverlay.classList.contains('show')) {
+            if (e.key === 'Escape') closeLearningHistory();
+            return;
+        }
         if (summaryOverlay.classList.contains('show')) {
             if (e.key === 'Escape') hideSummary();
             if (e.key === 'r' || e.key === 'R') restartLearning();
@@ -552,6 +701,7 @@
         familiarStatus = [];
         reviewQueue = [];
         isReviewMode = false;
+        hasSavedCurrentPass = false;
         currentIndex = 0;
         isFlipped = false;
         isAnimating = false;
@@ -568,6 +718,8 @@
         familiarCountEl.textContent = '0';
         unfamiliarCountEl.textContent = '0';
         remainingCountEl.textContent = '0';
+        closeLearningHistory();
+        renderLearningHistory();
     }
     init();
     setTimeout(() => showToast('请选择学习字数开始吧！', '👆'), 500);
