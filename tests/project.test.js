@@ -7,6 +7,8 @@ const {
     getProgress,
     findNextUnassessed,
     buildReviewQueue,
+    resolveCharacters,
+    resolveSessionCards,
 } = require('../app.js');
 
 test('字库包含 200 个不重复汉字', () => {
@@ -62,4 +64,31 @@ test('复习模式只统计复习队列中的卡片', () => {
     statuses[reviewQueue[0]] = true;
     assert.equal(findNextUnassessed(activeIndices, reviewQueue[0], statuses), undefined);
     assert.equal(getProgress(statuses, activeIndices).completed, 1);
+});
+
+test('可以按历史记录还原同一组汉字和原有顺序', () => {
+    const library = [
+        { char: '山', word: '高山' },
+        { char: '水', word: '河水' },
+        { char: '火', word: '火焰' },
+    ];
+    const session = {
+        results: [
+            { char: '水', status: false },
+            { char: '山', status: true },
+            { char: '云', status: false },
+        ],
+    };
+
+    assert.deepEqual(resolveSessionCards(session, library), [library[1], library[0]]);
+});
+
+test('可以把薄弱字列表还原成一轮复习卡片', () => {
+    const library = [
+        { char: '山', word: '高山' },
+        { char: '水', word: '河水' },
+        { char: '火', word: '火焰' },
+    ];
+
+    assert.deepEqual(resolveCharacters(['火', '山', '云'], library), [library[2], library[0]]);
 });

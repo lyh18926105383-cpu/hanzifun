@@ -184,11 +184,17 @@
                 <div><strong id="historyWeakCount">0</strong><span>薄弱字</span></div>
             </div>
             <section class="history-section" aria-labelledby="weakCharactersTitle">
-                <h3 id="weakCharactersTitle">需要复习</h3>
+                <div class="history-section-heading">
+                    <h3 id="weakCharactersTitle">需要复习</h3>
+                    <button class="weak-review-button" id="btnReviewWeakCharacters" type="button" hidden>
+                        <span aria-hidden="true">↻</span>
+                        <span>一键复习（<span class="weak-review-count">0</span>）</span>
+                    </button>
+                </div>
                 <p class="weak-characters" id="weakCharacters">目前没有薄弱字</p>
             </section>
             <section class="history-section" aria-labelledby="recentSessionsTitle">
-                <h3 id="recentSessionsTitle">最近学习</h3>
+                <h3 id="recentSessionsTitle">最近 8 轮</h3>
                 <div class="recent-sessions" id="recentSessions">
                     <p class="history-empty">完成一轮学习后会显示记录</p>
                 </div>

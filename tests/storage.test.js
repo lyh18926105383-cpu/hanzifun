@@ -92,3 +92,19 @@ test('可以清空当前设备上的全部学习记录', () => {
     assert.equal(clearData(storage), true);
     assert.deepEqual(loadData(storage), createEmptyData());
 });
+
+test('学习足迹只展示最近八轮并保留每轮汉字', () => {
+    let data = createEmptyData();
+    for (let index = 1; index <= 10; index += 1) {
+        data = recordSession(data, {
+            kind: 'learning',
+            cards: [{ char: String(index) }],
+            statuses: [index % 2 === 0],
+            completedAt: index,
+        });
+    }
+
+    const recentSessions = getDashboard(data).recentSessions;
+    assert.equal(recentSessions.length, 8);
+    assert.deepEqual(recentSessions.map(session => session.results[0].char), ['10', '9', '8', '7', '6', '5', '4', '3']);
+});

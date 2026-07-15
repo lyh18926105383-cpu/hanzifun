@@ -43,7 +43,27 @@
         }, []);
     }
 
-    return { getActiveIndices, getProgress, findNextUnassessed, buildReviewQueue };
+    function resolveCharacters(characters, library) {
+        if (!Array.isArray(characters) || !Array.isArray(library)) return [];
+        const cardsByCharacter = new Map(library.map(card => [card.char, card]));
+        return characters
+            .map(char => cardsByCharacter.get(char))
+            .filter(Boolean);
+    }
+
+    function resolveSessionCards(session, library) {
+        if (!session || !Array.isArray(session.results)) return [];
+        return resolveCharacters(session.results.map(result => result && result.char), library);
+    }
+
+    return {
+        getActiveIndices,
+        getProgress,
+        findNextUnassessed,
+        buildReviewQueue,
+        resolveCharacters,
+        resolveSessionCards,
+    };
 });
 
 (function() {
@@ -54,6 +74,8 @@
         getProgress,
         findNextUnassessed,
         buildReviewQueue,
+        resolveCharacters,
+        resolveSessionCards,
     } = window.HanziFunLearning;
 
     function positionHeader() {
@@ -150,6 +172,7 @@
     const historyCharacterCount = document.getElementById('historyCharacterCount');
     const historyWeakCount = document.getElementById('historyWeakCount');
     const weakCharactersEl = document.getElementById('weakCharacters');
+    const btnReviewWeakCharacters = document.getElementById('btnReviewWeakCharacters');
     const recentSessionsEl = document.getElementById('recentSessions');
 
     // ============ 状态 ============
@@ -188,6 +211,8 @@
         weakCharactersEl.textContent = dashboard.weakCharacters.length === 0
             ? '目前没有薄弱字'
             : dashboard.weakCharacters.map(item => item.char).join(' · ');
+        btnReviewWeakCharacters.hidden = dashboard.weakCharacters.length === 0;
+        btnReviewWeakCharacters.querySelector('.weak-review-count').textContent = dashboard.weakCharacters.length;
 
         recentSessionsEl.replaceChildren();
         if (dashboard.recentSessions.length === 0) {
@@ -199,8 +224,18 @@
         }
 
         dashboard.recentSessions.forEach(session => {
-            const row = document.createElement('div');
+            const row = document.createElement('button');
             row.className = 'recent-session-row';
+            row.type = 'button';
+            row.dataset.sessionId = session.id;
+            row.title = '重新练习本轮汉字';
+            row.setAttribute('aria-label', `重新练习本轮 ${session.total} 个汉字`);
+
+            const details = document.createElement('div');
+            details.className = 'session-details';
+
+            const heading = document.createElement('div');
+            heading.className = 'session-heading';
 
             const main = document.createElement('div');
             main.className = 'session-main';
@@ -215,7 +250,17 @@
             result.className = 'session-result';
             result.textContent = `熟悉 ${session.familiar} · 不熟悉 ${session.unfamiliar}`;
 
-            row.append(main, time, result);
+            const characters = document.createElement('div');
+            characters.className = 'session-characters';
+            characters.textContent = session.results.map(item => item.char).join(' · ');
+
+            const replayAction = document.createElement('span');
+            replayAction.className = 'session-replay-action';
+            replayAction.innerHTML = '<span aria-hidden="true">↻</span><span>再练一次</span>';
+
+            heading.append(main, time);
+            details.append(heading, result, characters);
+            row.append(details, replayAction);
             recentSessionsEl.appendChild(row);
         });
     }
@@ -512,7 +557,15 @@
     function startLearning(count) {
         totalSelectedCount = count;
         currentCards = selectCards(count);
+        beginLearning('开始学习 ' + count + ' 个汉字！', '📚');
+    }
+
+    function beginLearning(message, emoji, options = {}) {
         resetLearnState();
+        if (options.review === true) {
+            isReviewMode = true;
+            reviewQueue = Array.from({ length: currentCards.length }, (_, index) => index);
+        }
         closeLearningHistory();
         updateCardContent();
         updateProgress();
@@ -520,17 +573,41 @@
         learnScreen.classList.add('active');
         hideSummary();
         positionHeader();
-        showToast('开始学习 ' + count + ' 个汉字！', '📚');
+        showToast(message, emoji);
+    }
+
+    function startRecordedSession(sessionId) {
+        const session = learningStore.getData().sessions.find(item => item.id === sessionId);
+        const recordedCards = resolveSessionCards(session, fullLibrary);
+        if (recordedCards.length === 0) {
+            showToast('这轮记录暂时无法重新练习', '💡');
+            return;
+        }
+
+        stopCardAudio();
+        totalSelectedCount = recordedCards.length;
+        currentCards = recordedCards;
+        beginLearning('重新练习这一轮的 ' + recordedCards.length + ' 个字！', '↻');
+    }
+
+    function startWeakCharactersReview() {
+        const weakCharacters = learningStore.getDashboard().weakCharacters.map(item => item.char);
+        const weakCards = resolveCharacters(weakCharacters, fullLibrary);
+        if (weakCards.length === 0) {
+            renderLearningHistory();
+            showToast('目前没有需要复习的字', '🎉');
+            return;
+        }
+
+        stopCardAudio();
+        totalSelectedCount = weakCards.length;
+        currentCards = weakCards;
+        beginLearning('开始复习 ' + weakCards.length + ' 个薄弱字！', '📖', { review: true });
     }
 
     function restartLearning() {
         stopCardAudio();
-        currentCards = selectCards(totalSelectedCount);
-        resetLearnState();
-        updateCardContent();
-        updateProgress();
-        hideSummary();
-        showToast('重新学习 ' + totalSelectedCount + ' 个字！', '🔄');
+        beginLearning('重新学习 ' + totalSelectedCount + ' 个字！', '🔄', { review: isReviewMode });
     }
 
     function startReview() {
@@ -647,8 +724,14 @@
         btnClearHistory.focus();
     });
     btnConfirmClearHistory.addEventListener('click', confirmClearLearningHistory);
+    btnReviewWeakCharacters.addEventListener('click', startWeakCharactersReview);
     historyOverlay.addEventListener('click', (e) => {
         if (e.target === historyOverlay) closeLearningHistory();
+    });
+    recentSessionsEl.addEventListener('click', (e) => {
+        const sessionRow = e.target.closest('.recent-session-row[data-session-id]');
+        if (!sessionRow) return;
+        startRecordedSession(sessionRow.dataset.sessionId);
     });
 
     // 卡片翻转
