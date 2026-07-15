@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#fff8eb">
+    <title>小猫看鱼｜汉字饭故事课</title>
+    <link rel="stylesheet" href="story.css">
+</head>
+<body>
+    <main class="story-app">
+        <header class="story-header">
+            <a class="home-button" href="index.html" aria-label="返回汉字饭首页">🏠</a>
+            <div>
+                <p class="eyebrow">汉字饭 · 故事学汉字</p>
+                <h1 id="lessonTitle">小猫看鱼</h1>
+            </div>
+            <button class="sound-button" id="soundButton" type="button" aria-label="关闭声音">🔊</button>
+        </header>
+
+        <div class="stepper" aria-label="课程进度">
+            <span class="step active" data-step="intro">认一认</span>
+            <span class="step" data-step="story">看故事</span>
+            <span class="step" data-step="practice">跟我读</span>
+            <span class="step" data-step="quiz">找一找</span>
+        </div>
+
+        <section class="lesson-panel active" id="introPanel" aria-labelledby="introTitle">
+            <div class="lesson-cover">
+                <span class="cover-emoji" id="coverEmoji">🐱</span>
+                <p class="theme-pill" id="lessonTheme">动物朋友</p>
+                <h2 id="introTitle">今天认识 5 个字</h2>
+                <div class="target-row" id="introTargets"></div>
+                <p class="intro-copy">先看看它们，等一会儿去故事里把它们找出来。</p>
+                <button class="primary-button" id="startStoryButton" type="button">▶ 开始听故事</button>
+            </div>
+        </section>
+
+        <section class="lesson-panel" id="storyPanel" aria-labelledby="storyTitle" hidden>
+            <div class="scene-stage" id="sceneStage">
+                <img id="sceneImage" alt="" decoding="async">
+                <div class="scene-fallback" id="sceneFallback" aria-hidden="true">🐱🌿</div>
+                <div class="scene-gradient"></div>
+                <div class="scene-caption">
+                    <p id="sceneCaption">小猫来到池塘边。</p>
+                    <div class="focus-row" id="focusRow"></div>
+                </div>
+            </div>
+            <h2 class="sr-only" id="storyTitle">看故事</h2>
+            <p class="story-sentence" id="storySentence"></p>
+            <div class="story-controls">
+                <button class="secondary-button" id="replayStoryButton" type="button">↻ 再听一次</button>
+                <button class="primary-button" id="startPracticeButton" type="button" disabled>故事听完了</button>
+            </div>
+        </section>
+
+        <section class="lesson-panel" id="practicePanel" aria-labelledby="practiceTitle" hidden>
+            <div class="practice-card">
+                <p class="phase-hint" id="practiceProgress">第 1 个 / 共 5 个</p>
+                <span class="practice-emoji" id="practiceEmoji">🐱</span>
+                <strong class="practice-char" id="practiceChar">猫</strong>
+                <p class="practice-word" id="practiceWord">小猫</p>
+                <h2 id="practiceTitle">听一听，请你读一遍</h2>
+                <div class="practice-actions">
+                    <button class="secondary-button" id="hearAgainButton" type="button">🔊 再听一次</button>
+                    <button class="primary-button" id="practiceDoneButton" type="button">🎤 我读好了</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="lesson-panel" id="quizPanel" aria-labelledby="quizTitle" hidden>
+            <div class="quiz-card">
+                <p class="phase-hint" id="quizProgress">第 1 题 / 共 3 题</p>
+                <span class="quiz-emoji" id="quizEmoji">🐱</span>
+                <h2 id="quizTitle">哪一个是故事里的小动物？</h2>
+                <div class="quiz-choices" id="quizChoices"></div>
+                <p class="quiz-feedback" id="quizFeedback" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <section class="lesson-panel" id="resultPanel" aria-labelledby="resultTitle" hidden>
+            <div class="result-card">
+                <span class="result-emoji">🎉</span>
+                <h2 id="resultTitle">故事课完成啦！</h2>
+                <p>你听完了故事，也跟读了 5 个汉字。</p>
+                <div class="result-score"><strong id="resultScore">3</strong><span>/ 3 题答对</span></div>
+                <div class="target-row" id="resultTargets"></div>
+                <div class="result-actions">
+                    <button class="secondary-button" id="restartLessonButton" type="button">↻ 再学一次</button>
+                    <a class="primary-button link-button" href="index.html">回到首页</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="toast" id="storyToast" role="status" aria-live="polite"></div>
+
+    <script src="lessons.js"></script>
+    <script src="story.js"></script>
+</body>
+</html>

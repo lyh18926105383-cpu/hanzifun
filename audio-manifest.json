@@ -1,0 +1,1209 @@
+{
+  "version": "tts-v1",
+  "voice": "tencent-502007",
+  "generatedAt": "2026-07-15T10:24:44.855Z",
+  "available": 200,
+  "total": 200,
+  "cards": {
+    "山": {
+      "url": "audio/tts-v1/001-5c71.mp3",
+      "text": "山，一座高山。",
+      "pronunciation": null,
+      "sha256": "894cd69a672bdb4b0155fe2824d4591fcb90c0e29ac7a5ede954746dd5bc06d8"
+    },
+    "水": {
+      "url": "audio/tts-v1/002-6c34.mp3",
+      "text": "水，滴滴水珠。",
+      "pronunciation": null,
+      "sha256": "743251b7a2316394db34ddeab5b1c5bfc376c3383dd4c641b3a8c4d5d203464c"
+    },
+    "火": {
+      "url": "audio/tts-v1/003-706b.mp3",
+      "text": "火，熊熊火焰。",
+      "pronunciation": null,
+      "sha256": "dd29a5e062fbbee4d8e381b9d4fdb76222a29a7c145969fe0e191276836a48be"
+    },
+    "花": {
+      "url": "audio/tts-v1/004-82b1.mp3",
+      "text": "花，美丽花朵。",
+      "pronunciation": null,
+      "sha256": "2337f3c67418c5b97a3adc80cc41539e6dbfa6338bbec361f9ba3e76b6336f69"
+    },
+    "树": {
+      "url": "audio/tts-v1/005-6811.mp3",
+      "text": "树，一棵大树。",
+      "pronunciation": null,
+      "sha256": "a1728c4138be457998c8003d61e40a5ad6f87277a35e46b6f8bd0e868d044a72"
+    },
+    "月": {
+      "url": "audio/tts-v1/006-6708.mp3",
+      "text": "月，弯弯月亮。",
+      "pronunciation": null,
+      "sha256": "727baab4d2fdebbf4ba8682eb06d0958d3467907076e5424de1f9b80a5f14518"
+    },
+    "日": {
+      "url": "audio/tts-v1/007-65e5.mp3",
+      "text": "日，温暖太阳。",
+      "pronunciation": null,
+      "sha256": "904271efebf010547a4fdac685a747b05d0ae91b7e576ed8de508e150cfbc334"
+    },
+    "星": {
+      "url": "audio/tts-v1/008-661f.mp3",
+      "text": "星，闪闪星星。",
+      "pronunciation": null,
+      "sha256": "efad001866187f099c34926fb040694e4f3f83c6f601c1c8f7161683e5ce3efd"
+    },
+    "云": {
+      "url": "audio/tts-v1/009-4e91.mp3",
+      "text": "云，朵朵白云。",
+      "pronunciation": null,
+      "sha256": "62bc62e63831dbd3e8d6597495ac4455ebf7ff5fc4ceafefab66f123af4653df"
+    },
+    "雨": {
+      "url": "audio/tts-v1/010-96e8.mp3",
+      "text": "雨，下雨啦。",
+      "pronunciation": null,
+      "sha256": "126f76bda455318410c6dd5d3c7773361aa214c5372b1bd3f92c55249047e67b"
+    },
+    "雪": {
+      "url": "audio/tts-v1/011-96ea.mp3",
+      "text": "雪，洁白雪花。",
+      "pronunciation": null,
+      "sha256": "2dda6f17f6b944cbe9aec4e771fa4bfd5f3f3503f42d0f94ae165c00ce365c27"
+    },
+    "风": {
+      "url": "audio/tts-v1/012-98ce.mp3",
+      "text": "风，呼呼风吹。",
+      "pronunciation": null,
+      "sha256": "8bb96f7b2b744340c1be9b9362298395893fa1084eae02feb82dd62b00e9f688"
+    },
+    "石": {
+      "url": "audio/tts-v1/013-77f3.mp3",
+      "text": "石，一块石头。",
+      "pronunciation": null,
+      "sha256": "6f64203f9f5eee5f8c9c28cc2096ab6fd28b7e605b1a0af1a4528f06b472c375"
+    },
+    "土": {
+      "url": "audio/tts-v1/014-571f.mp3",
+      "text": "土，泥土大地。",
+      "pronunciation": null,
+      "sha256": "04ea3dd5c122e0987c1c486074c5db1e2aaa17a6a903193583ce16fef0afdaaa"
+    },
+    "天": {
+      "url": "audio/tts-v1/015-5929.mp3",
+      "text": "天，蓝蓝天空。",
+      "pronunciation": null,
+      "sha256": "e0baef0441b04394adc10e7f105c4ba0a331ab000f737344f8fa58df67dcb84e"
+    },
+    "地": {
+      "url": "audio/tts-v1/016-5730.mp3",
+      "text": "地，大地的地，大地母亲。",
+      "pronunciation": "di4",
+      "sha256": "f5deddc78f81df1b49369d570f868dfd8647ad36bb52f1cd675690ccc3bbe263"
+    },
+    "河": {
+      "url": "audio/tts-v1/017-6cb3.mp3",
+      "text": "河，一条大河。",
+      "pronunciation": null,
+      "sha256": "bf740b57ca66cd46b2c8375ce42044806130f74cb41fec0fc7977334dde4787e"
+    },
+    "海": {
+      "url": "audio/tts-v1/018-6d77.mp3",
+      "text": "海，广阔大海。",
+      "pronunciation": null,
+      "sha256": "30b1778432dceaa839ce5fb77ddf78a14d41ad8318bfeaee7e9ce05589b363c2"
+    },
+    "叶": {
+      "url": "audio/tts-v1/019-53f6.mp3",
+      "text": "叶，一片叶子。",
+      "pronunciation": null,
+      "sha256": "888b4b7833284d557ae0ba6f695d0cbe75c096b55f14496806f950eb9950d267"
+    },
+    "草": {
+      "url": "audio/tts-v1/020-8349.mp3",
+      "text": "草，绿绿小草。",
+      "pronunciation": null,
+      "sha256": "6a0533ec2f2e826f8f9eae2413fb7ef1c519fe0e8d2de38f9d355f6d6099e839"
+    },
+    "光": {
+      "url": "audio/tts-v1/021-5149.mp3",
+      "text": "光，闪闪光芒。",
+      "pronunciation": null,
+      "sha256": "a90c16a16ed0dde30849a0f424f6dc4063985ea8f7f950777cd9ae8b05b406f8"
+    },
+    "虹": {
+      "url": "audio/tts-v1/022-8679.mp3",
+      "text": "虹，美丽彩虹。",
+      "pronunciation": null,
+      "sha256": "ca52bf05bd3803f98a73432a99ee3ced1d2a428818f47c6b7572348bf0fe43ef"
+    },
+    "冰": {
+      "url": "audio/tts-v1/023-51b0.mp3",
+      "text": "冰，晶莹冰块。",
+      "pronunciation": null,
+      "sha256": "7bd73838a6502e30ff3ef1c02b5565e4ff8495dd7bf1e8fd14f45e20fd6a8356"
+    },
+    "雷": {
+      "url": "audio/tts-v1/024-96f7.mp3",
+      "text": "雷，轰隆打雷。",
+      "pronunciation": null,
+      "sha256": "688e88b13263bcbd8d9b5f7a592bdea6ff5d59c7e319f3f270c62b55934f09db"
+    },
+    "田": {
+      "url": "audio/tts-v1/025-7530.mp3",
+      "text": "田，一片田地。",
+      "pronunciation": null,
+      "sha256": "9d64e0cbb276ac8122553f7ede8a3fae93d77ca67a6f9c1db48fac294b600294"
+    },
+    "林": {
+      "url": "audio/tts-v1/026-6797.mp3",
+      "text": "林，茂密树林。",
+      "pronunciation": null,
+      "sha256": "8fe775c1093bf332572545c1ae086020b0dd258c7feec065e731dc86c99e1413"
+    },
+    "沙": {
+      "url": "audio/tts-v1/027-6c99.mp3",
+      "text": "沙，金色沙子。",
+      "pronunciation": null,
+      "sha256": "e1986d765bb1dd72fcef5889cbdfec24bae657fad4bf4f8910780578264c4258"
+    },
+    "泉": {
+      "url": "audio/tts-v1/028-6cc9.mp3",
+      "text": "泉，清澈泉水。",
+      "pronunciation": null,
+      "sha256": "68e7189194238680f44e117c7004277e46390df349b2c244cdd3523ac85a10cc"
+    },
+    "鱼": {
+      "url": "audio/tts-v1/029-9c7c.mp3",
+      "text": "鱼，游来游去。",
+      "pronunciation": null,
+      "sha256": "f3fe1ea8775c12a7000dd37893822854a88d93ca3654ea3d6849bb7ab3abb148"
+    },
+    "鸟": {
+      "url": "audio/tts-v1/030-9e1f.mp3",
+      "text": "鸟，飞在天空。",
+      "pronunciation": null,
+      "sha256": "a8928dca3f6e6ec4d2fc9477b74c1b6d661da4a37c1f855c843b44dcb79e9f47"
+    },
+    "马": {
+      "url": "audio/tts-v1/031-9a6c.mp3",
+      "text": "马，一匹骏马。",
+      "pronunciation": null,
+      "sha256": "a4ae1df090dbbd2631ffc69d42e6dd9b1f2e431382bf76d32d68d565e1f588d1"
+    },
+    "猫": {
+      "url": "audio/tts-v1/032-732b.mp3",
+      "text": "猫，可爱小猫。",
+      "pronunciation": null,
+      "sha256": "9e4ff7a82118fa4af7153b2093332b63b843ecdc7d82bd4268381eabe219e1d2"
+    },
+    "狗": {
+      "url": "audio/tts-v1/033-72d7.mp3",
+      "text": "狗，忠诚小狗。",
+      "pronunciation": null,
+      "sha256": "f67866cdf6976295cee09fb4c5509ee65c6a199d6d5879970983d1ae8aaa2bc9"
+    },
+    "牛": {
+      "url": "audio/tts-v1/034-725b.mp3",
+      "text": "牛，勤劳老牛。",
+      "pronunciation": null,
+      "sha256": "01822358f379aa4229491e33ca5d83c4efa7d1345f9720c45f8bae48b586794a"
+    },
+    "羊": {
+      "url": "audio/tts-v1/035-7f8a.mp3",
+      "text": "羊，温顺小羊。",
+      "pronunciation": null,
+      "sha256": "a77828bdd1762ca494745236427f45a5389af222c0d5e771378cab76e3d06be1"
+    },
+    "鸡": {
+      "url": "audio/tts-v1/036-9e21.mp3",
+      "text": "鸡，喔喔公鸡。",
+      "pronunciation": null,
+      "sha256": "6057cf86f5ce41d2756f5ca9af5f47e39e3d8c963fdc87baca1bd2e1f811758d"
+    },
+    "鸭": {
+      "url": "audio/tts-v1/037-9e2d.mp3",
+      "text": "鸭，摇摆鸭子。",
+      "pronunciation": null,
+      "sha256": "0bf278eed87b9d75a4e8aa369fdf4d1d743f71abed0824a21d8dde535117738a"
+    },
+    "兔": {
+      "url": "audio/tts-v1/038-5154.mp3",
+      "text": "兔，蹦跳兔子。",
+      "pronunciation": null,
+      "sha256": "1ca25680c3925c226916c545c8d4f0e0b9da8d0b6ba37206c4e3efd1a1f1fce1"
+    },
+    "虎": {
+      "url": "audio/tts-v1/039-864e.mp3",
+      "text": "虎，威猛老虎。",
+      "pronunciation": null,
+      "sha256": "f929ea06489d551aa317c23068aa3cf9634e58eb945f9b46ad94c031cc3cd31c"
+    },
+    "象": {
+      "url": "audio/tts-v1/040-8c61.mp3",
+      "text": "象，大大大象。",
+      "pronunciation": null,
+      "sha256": "cd8d31dcd10d7b0c937f93a3d00b01b225ea981bb21f11ccb9ad1fc38f2983df"
+    },
+    "虫": {
+      "url": "audio/tts-v1/041-866b.mp3",
+      "text": "虫，小小虫子。",
+      "pronunciation": null,
+      "sha256": "16ee71ce05568df85864a462299b90d186ebfe714d708009c8d321655e2bc142"
+    },
+    "蛙": {
+      "url": "audio/tts-v1/042-86d9.mp3",
+      "text": "蛙，呱呱青蛙。",
+      "pronunciation": null,
+      "sha256": "05facc380db14df7b8e2cddf2793cbe8da9f7878af9f1a7a61c16db9515facc9"
+    },
+    "熊": {
+      "url": "audio/tts-v1/043-718a.mp3",
+      "text": "熊，憨憨小熊。",
+      "pronunciation": null,
+      "sha256": "9e7dd83a4872ee7816599b96f4863d3ac3f03e011982aea19f1469ea51c2007a"
+    },
+    "猪": {
+      "url": "audio/tts-v1/044-732a.mp3",
+      "text": "猪，胖胖小猪。",
+      "pronunciation": null,
+      "sha256": "e9ef06d4197725ffe10fa53979f37cc1c8d4a65bcdd2cac013d2073c08f27121"
+    },
+    "猴": {
+      "url": "audio/tts-v1/045-7334.mp3",
+      "text": "猴，机灵猴子。",
+      "pronunciation": null,
+      "sha256": "dd7f47f1d372324b8ac77bbed1b44a3c5b383db3a8a633414eb646de3fa1e232"
+    },
+    "龙": {
+      "url": "audio/tts-v1/046-9f99.mp3",
+      "text": "龙，神气巨龙。",
+      "pronunciation": null,
+      "sha256": "ce79b72c8dd6b7d1b66a643e6c866fe7cf7f1a958ba8d32e07069e31e3dddb9e"
+    },
+    "蛇": {
+      "url": "audio/tts-v1/047-86c7.mp3",
+      "text": "蛇，弯弯小蛇。",
+      "pronunciation": null,
+      "sha256": "335e4c928ba137446fdede98c8b0e1c60b47dd769e577adfd327daebd97143ee"
+    },
+    "鹿": {
+      "url": "audio/tts-v1/048-9e7f.mp3",
+      "text": "鹿，美丽小鹿。",
+      "pronunciation": null,
+      "sha256": "f62fbf98b16a0f8c7051bbc57e59206589be75951256a3ddac69be337e86df6f"
+    },
+    "龟": {
+      "url": "audio/tts-v1/049-9f9f.mp3",
+      "text": "龟，慢慢乌龟。",
+      "pronunciation": null,
+      "sha256": "e42e9130cbd5b5fa5e998ea57a0d6ea61a6a5ec4d26221b9b0df17f5e326432c"
+    },
+    "鲸": {
+      "url": "audio/tts-v1/050-9cb8.mp3",
+      "text": "鲸，巨大鲸鱼。",
+      "pronunciation": null,
+      "sha256": "efe6e5c6d70373f93b36cde4c4d80a2f9da70168e434e163717eaa90350e4472"
+    },
+    "鹰": {
+      "url": "audio/tts-v1/051-9e70.mp3",
+      "text": "鹰，翱翔老鹰。",
+      "pronunciation": null,
+      "sha256": "9f94723f07ee0f3cdaeb1d353607c58e7c8cf61da6d526c4d2d443df2fff56cd"
+    },
+    "鹅": {
+      "url": "audio/tts-v1/052-9e45.mp3",
+      "text": "鹅，白白大鹅。",
+      "pronunciation": null,
+      "sha256": "654a4f5b953b6f1f1d925efe6a871a817e3b972dfcefffc7bcf016eb22e39b81"
+    },
+    "狼": {
+      "url": "audio/tts-v1/053-72fc.mp3",
+      "text": "狼，嗷呜野狼。",
+      "pronunciation": null,
+      "sha256": "ea9a633492152b1b2145987250e12410dedf7a3160592d763a73d9846b2b55a1"
+    },
+    "狐": {
+      "url": "audio/tts-v1/054-72d0.mp3",
+      "text": "狐，狡猾狐狸。",
+      "pronunciation": null,
+      "sha256": "4bd2ab93e2aedbcdd2fddfe92b9608be4172c2ce3cf467627a8a330c2ccc50a3"
+    },
+    "鼠": {
+      "url": "audio/tts-v1/055-9f20.mp3",
+      "text": "鼠，机灵小鼠。",
+      "pronunciation": null,
+      "sha256": "5080879d58afa85821198cad6d597d71d738ea5b03712e00bd74ac456f50ac26"
+    },
+    "燕": {
+      "url": "audio/tts-v1/056-71d5.mp3",
+      "text": "燕，春天燕子。",
+      "pronunciation": null,
+      "sha256": "51217a1bd3c785879e0a7804694918290b2578ab1324c14953e066a905c20b47"
+    },
+    "手": {
+      "url": "audio/tts-v1/057-624b.mp3",
+      "text": "手，一双小手。",
+      "pronunciation": null,
+      "sha256": "f2f1050cc6b8b327b7c2d14407bb04d8a5299fc2cb54c445253cf61f60260b2a"
+    },
+    "脚": {
+      "url": "audio/tts-v1/058-811a.mp3",
+      "text": "脚，小脚丫子。",
+      "pronunciation": null,
+      "sha256": "49d9ab00a1b91e3458c4a172399de7605a43b207b028054fcd8f16ac79242512"
+    },
+    "头": {
+      "url": "audio/tts-v1/059-5934.mp3",
+      "text": "头，圆圆的头。",
+      "pronunciation": null,
+      "sha256": "d27560d07208b62fdf035bac7a60421ad618f5648e0b2462edb78b96b81eec2f"
+    },
+    "眼": {
+      "url": "audio/tts-v1/060-773c.mp3",
+      "text": "眼，明亮眼睛。",
+      "pronunciation": null,
+      "sha256": "2d60e4e667f9a50566b2f6dfef1dac48caa346091cf1452ec4faf6050010c4d5"
+    },
+    "耳": {
+      "url": "audio/tts-v1/061-8033.mp3",
+      "text": "耳，两只耳朵。",
+      "pronunciation": null,
+      "sha256": "ad8fb3d8add4bc5bec39286f0fc27f64a464bd45aac48f467f24679b7db903dc"
+    },
+    "口": {
+      "url": "audio/tts-v1/062-53e3.mp3",
+      "text": "口，小小嘴巴。",
+      "pronunciation": null,
+      "sha256": "d29fa1e07d19af03427b344266a3220559260aa8422ffba6331d3cdf6e323217"
+    },
+    "鼻": {
+      "url": "audio/tts-v1/063-9f3b.mp3",
+      "text": "鼻，高高鼻子。",
+      "pronunciation": null,
+      "sha256": "993bc210750d3caba5fcee5a487fe56fb63678b394475e05c94dd922f17f7e13"
+    },
+    "牙": {
+      "url": "audio/tts-v1/064-7259.mp3",
+      "text": "牙，洁白牙齿。",
+      "pronunciation": null,
+      "sha256": "0b58e103e8ab84cfbd9b7daeeff6df9fa9e315865f980c91dc6da794dc074d3f"
+    },
+    "舌": {
+      "url": "audio/tts-v1/065-820c.mp3",
+      "text": "舌，小小舌头。",
+      "pronunciation": null,
+      "sha256": "5cab8ae32b2a4a4ea12b2a4b811fde29020bd20ea3c9e27506465831b0dc5b27"
+    },
+    "心": {
+      "url": "audio/tts-v1/066-5fc3.mp3",
+      "text": "心，一颗爱心。",
+      "pronunciation": null,
+      "sha256": "4009efb738a8dbbf0e43d9fb9cc6e428e6143a35d768ab87b692c1af322ab43b"
+    },
+    "脸": {
+      "url": "audio/tts-v1/067-8138.mp3",
+      "text": "脸，可爱脸蛋。",
+      "pronunciation": null,
+      "sha256": "2eb1bfd6548d69afb08a792f219e7792987ab56db50d8a42ae8eea6043c0a1ef"
+    },
+    "眉": {
+      "url": "audio/tts-v1/068-7709.mp3",
+      "text": "眉，弯弯眉毛。",
+      "pronunciation": null,
+      "sha256": "cdae8f0e47583df36f1c42c4022d7c75b7dcc0b9888c170dee289caef67482e0"
+    },
+    "发": {
+      "url": "audio/tts-v1/069-53d1.mp3",
+      "text": "发，头发的发，头发飘飘。",
+      "pronunciation": "fa4",
+      "sha256": "6f828a50854f4c572838edb704023a291c34ac3621e306e5571defd7e5f41ed0"
+    },
+    "指": {
+      "url": "audio/tts-v1/070-6307.mp3",
+      "text": "指，手指点点。",
+      "pronunciation": null,
+      "sha256": "78019ae9a8d5921405e158ee8e0b16011842f59ee253a40aef113643d10cfa51"
+    },
+    "米": {
+      "url": "audio/tts-v1/071-7c73.mp3",
+      "text": "米，白白的米。",
+      "pronunciation": null,
+      "sha256": "301858002f122d175973f6477ad9b07e4b2b9ca537f0657f0dcb6dfb80bbc69e"
+    },
+    "饭": {
+      "url": "audio/tts-v1/072-996d.mp3",
+      "text": "饭，香香米饭。",
+      "pronunciation": null,
+      "sha256": "3bb85f7dcc3df3ef89ebe56b9a78dfc422242f9de398e8fa28607a673f84aa79"
+    },
+    "菜": {
+      "url": "audio/tts-v1/073-83dc.mp3",
+      "text": "菜，新鲜蔬菜。",
+      "pronunciation": null,
+      "sha256": "6ceda3d7bd6e65f6babafa5f2a0c8fb303abad03956575040ebcda5e9dc8c8b1"
+    },
+    "果": {
+      "url": "audio/tts-v1/074-679c.mp3",
+      "text": "果，甜甜水果。",
+      "pronunciation": null,
+      "sha256": "b1085c91af8b393cfc30a21ac048dc1609b68df99e3def67e11639afb10f8fa5"
+    },
+    "瓜": {
+      "url": "audio/tts-v1/075-74dc.mp3",
+      "text": "瓜，圆圆西瓜。",
+      "pronunciation": null,
+      "sha256": "2c5c109ed3da2be0a245f4fc0102054caa606d4917a2589e8996d6c9f3b26e19"
+    },
+    "豆": {
+      "url": "audio/tts-v1/076-8c46.mp3",
+      "text": "豆，颗颗豆子。",
+      "pronunciation": null,
+      "sha256": "07d98fee18eed2c2882c56383e451510e14de7db178f1298a3a26d60215da49a"
+    },
+    "肉": {
+      "url": "audio/tts-v1/077-8089.mp3",
+      "text": "肉，一块肉肉。",
+      "pronunciation": null,
+      "sha256": "e377bb4a5273dc41431a3840c63597eb4d06c67a80fc51c3297703933cfdeb9d"
+    },
+    "蛋": {
+      "url": "audio/tts-v1/078-86cb.mp3",
+      "text": "蛋，圆圆鸡蛋。",
+      "pronunciation": null,
+      "sha256": "949643282ed206d9103ab758db21142f9e95c010afb9acd41521641a3f293c55"
+    },
+    "奶": {
+      "url": "audio/tts-v1/079-5976.mp3",
+      "text": "奶，一杯牛奶。",
+      "pronunciation": null,
+      "sha256": "c42f27730656dbee20b3477e9b1357c082cffad2435cf020dd1e259c7fd80c36"
+    },
+    "糖": {
+      "url": "audio/tts-v1/080-7cd6.mp3",
+      "text": "糖，甜甜糖果。",
+      "pronunciation": null,
+      "sha256": "8d80a6011d043ca3666c243a68dec7332a85d1ddd74eff605bfc88e4c63efca2"
+    },
+    "面": {
+      "url": "audio/tts-v1/081-9762.mp3",
+      "text": "面，一碗面条。",
+      "pronunciation": null,
+      "sha256": "7d175939067484e6489e03d4b6604e5ceb7cdd5ed618dcd246a58c1770075787"
+    },
+    "饼": {
+      "url": "audio/tts-v1/082-997c.mp3",
+      "text": "饼，香香饼干。",
+      "pronunciation": null,
+      "sha256": "0a9b8cf1c5151db9fee7f2fb8ef667659ed4f358bee3f6097b62ac0e312de380"
+    },
+    "包": {
+      "url": "audio/tts-v1/083-5305.mp3",
+      "text": "包，软软面包。",
+      "pronunciation": null,
+      "sha256": "0718f725cadca4d256319cc031cb52bfa8848f7b199845315b8b2f121892c3a5"
+    },
+    "糕": {
+      "url": "audio/tts-v1/084-7cd5.mp3",
+      "text": "糕，美味蛋糕。",
+      "pronunciation": null,
+      "sha256": "0f0f2ac349d675fc171ce824caadecf329506ce39320ab75d931d50f2effa11d"
+    },
+    "桃": {
+      "url": "audio/tts-v1/085-6843.mp3",
+      "text": "桃，甜蜜桃子。",
+      "pronunciation": null,
+      "sha256": "62e71cb79c737c905a851a6309dd02b717e1a78cc043f4e1ac89d10c982d6ed0"
+    },
+    "梨": {
+      "url": "audio/tts-v1/086-68a8.mp3",
+      "text": "梨，清脆梨子。",
+      "pronunciation": null,
+      "sha256": "f0343e53bcd79489d9cde7036f42f11f3e3c1062d37f44509137be8fff84b2c0"
+    },
+    "杏": {
+      "url": "audio/tts-v1/087-674f.mp3",
+      "text": "杏，金黄杏子。",
+      "pronunciation": null,
+      "sha256": "69078e17bbbf99625376beec9a637369b2ae1541fa9495a00d1f5581e4e45ea5"
+    },
+    "梅": {
+      "url": "audio/tts-v1/088-6885.mp3",
+      "text": "梅，傲雪梅花。",
+      "pronunciation": null,
+      "sha256": "1f114250a6aca8a0aefa96f4640786d876b3cb96e77f7a928429d5a1a945ce2c"
+    },
+    "爸": {
+      "url": "audio/tts-v1/089-7238.mp3",
+      "text": "爸，爸爸。",
+      "pronunciation": null,
+      "sha256": "4dcbc394aaff481c51117172132e4ea277d3b101d3bfa89ef9263b57d66a885c"
+    },
+    "妈": {
+      "url": "audio/tts-v1/090-5988.mp3",
+      "text": "妈，妈妈。",
+      "pronunciation": null,
+      "sha256": "dce660ad6b2d2073bffa561e5d97bdf352ea6b212fe70aace2e4ed9ed3aeb29a"
+    },
+    "爷": {
+      "url": "audio/tts-v1/091-7237.mp3",
+      "text": "爷，爷爷。",
+      "pronunciation": null,
+      "sha256": "a8336de6bddf6399d8b7b735abb475fef63a480eb2ebf1c564eec96f89e57f08"
+    },
+    "婆": {
+      "url": "audio/tts-v1/092-5a46.mp3",
+      "text": "婆，慈祥外婆。",
+      "pronunciation": null,
+      "sha256": "1b842482f099b0848b2f443d4709c5bdad05ce4a46a6cc2055bb85bf36728770"
+    },
+    "哥": {
+      "url": "audio/tts-v1/093-54e5.mp3",
+      "text": "哥，哥哥。",
+      "pronunciation": null,
+      "sha256": "eadf36a55dd7da41f0166b20b4cbae97ee8efce82a96f826efdb148f5d9f2976"
+    },
+    "姐": {
+      "url": "audio/tts-v1/094-59d0.mp3",
+      "text": "姐，姐姐。",
+      "pronunciation": null,
+      "sha256": "4511e45ef206280ade7b49aedf4f4d5ec990f15d8af7421403888aabdc12cb4f"
+    },
+    "弟": {
+      "url": "audio/tts-v1/095-5f1f.mp3",
+      "text": "弟，弟弟。",
+      "pronunciation": null,
+      "sha256": "b7d1b625270b01417e1699b07273d41982160c683ea3edfe183bd6d8f2549b29"
+    },
+    "妹": {
+      "url": "audio/tts-v1/096-59b9.mp3",
+      "text": "妹，妹妹。",
+      "pronunciation": null,
+      "sha256": "358eb7665cc21a46c0adc8db50d3ca138ca4667f2561f607a72691c136852e3b"
+    },
+    "家": {
+      "url": "audio/tts-v1/097-5bb6.mp3",
+      "text": "家，温暖的家。",
+      "pronunciation": null,
+      "sha256": "789743272df9298226fcb6182989de9055d24d075c72527f83c2396be22c683c"
+    },
+    "门": {
+      "url": "audio/tts-v1/098-95e8.mp3",
+      "text": "门，一扇大门。",
+      "pronunciation": null,
+      "sha256": "44023e5c1e7a66aab94c615e835aed66e87fd1aca18906af3774c7fd805a9f30"
+    },
+    "窗": {
+      "url": "audio/tts-v1/099-7a97.mp3",
+      "text": "窗，明亮窗户。",
+      "pronunciation": null,
+      "sha256": "457cb1699490963340b7c1b3e860e045f856eedd5e35959812f3dacb920103d5"
+    },
+    "书": {
+      "url": "audio/tts-v1/100-4e66.mp3",
+      "text": "书，一本好书。",
+      "pronunciation": null,
+      "sha256": "3fa4bb959d22b6c7219698780d6f0e29261bf8c6ca9d147f303ef04c8f6a22cd"
+    },
+    "笔": {
+      "url": "audio/tts-v1/101-7b14.mp3",
+      "text": "笔，一支铅笔。",
+      "pronunciation": null,
+      "sha256": "d30382e5e859683d95dc86b3932df479418fd16e1aeb658bbc65b50be3de7525"
+    },
+    "纸": {
+      "url": "audio/tts-v1/102-7eb8.mp3",
+      "text": "纸，一张白纸。",
+      "pronunciation": null,
+      "sha256": "7ff7cc43e3e773565892fe693e6735210ddf1ba337ace9b7b1b6ff6c720e062b"
+    },
+    "桌": {
+      "url": "audio/tts-v1/103-684c.mp3",
+      "text": "桌，一张桌子。",
+      "pronunciation": null,
+      "sha256": "3fcd1bec89cab015b0d8a340fcf3f07ce86a16e933bda5ec534fb36a53e810ab"
+    },
+    "椅": {
+      "url": "audio/tts-v1/104-6905.mp3",
+      "text": "椅，一把椅子。",
+      "pronunciation": null,
+      "sha256": "7644ecbe27d0324af74ea53d92b2033a4f9578b9794f8e4a73fbab5cf9459b9d"
+    },
+    "床": {
+      "url": "audio/tts-v1/105-5e8a.mp3",
+      "text": "床，温暖小床。",
+      "pronunciation": null,
+      "sha256": "cc156f6dadf6b38d7b97d9d5be063a513201ecbce32370a0125992db3ce0dc78"
+    },
+    "灯": {
+      "url": "audio/tts-v1/106-706f.mp3",
+      "text": "灯，明亮灯光。",
+      "pronunciation": null,
+      "sha256": "42d01364e6821653649db6902ad08a1c1196434e7c383fa2b8b6063a1d2611b5"
+    },
+    "杯": {
+      "url": "audio/tts-v1/107-676f.mp3",
+      "text": "杯，一个杯子。",
+      "pronunciation": null,
+      "sha256": "80f4812e64ae90f8831c1c7de593e5977e40e7d50716f22c4056cefb1c045552"
+    },
+    "碗": {
+      "url": "audio/tts-v1/108-7897.mp3",
+      "text": "碗，一只小碗。",
+      "pronunciation": null,
+      "sha256": "215069f45079b338dcc7106e8b3232bb8da361d9ecac54ccc2a5e97520625dba"
+    },
+    "勺": {
+      "url": "audio/tts-v1/109-52fa.mp3",
+      "text": "勺，一把勺子。",
+      "pronunciation": null,
+      "sha256": "63cb6451cedeb1cdbc3a81eb62649b9ddbdaddd5c7e0292f1d3a3522ed752481"
+    },
+    "车": {
+      "url": "audio/tts-v1/110-8f66.mp3",
+      "text": "车，一辆汽车。",
+      "pronunciation": null,
+      "sha256": "6ef9a8419dad77c9b0b632d29f15916afc0a88145b0b0d8037bf1fd4bd6b649d"
+    },
+    "船": {
+      "url": "audio/tts-v1/111-8239.mp3",
+      "text": "船，一艘小船。",
+      "pronunciation": null,
+      "sha256": "6aa21a457422fe01f267e2a88a50310a0e8bd11b322a1be875fac6b0dee58f07"
+    },
+    "球": {
+      "url": "audio/tts-v1/112-7403.mp3",
+      "text": "球，圆圆皮球。",
+      "pronunciation": null,
+      "sha256": "ef50abe070aed291072cbdd99cb6929bc733b7007678ce402c614749090837a8"
+    },
+    "伞": {
+      "url": "audio/tts-v1/113-4f1e.mp3",
+      "text": "伞，一把雨伞。",
+      "pronunciation": null,
+      "sha256": "d99a781d353f1b1b51f760095800f06fb8c9744cef6351ffe9c12a9798bf8053"
+    },
+    "钟": {
+      "url": "audio/tts-v1/114-949f.mp3",
+      "text": "钟，滴答时钟。",
+      "pronunciation": null,
+      "sha256": "6db8c3446feceb84c11330d45d14668ad1f4fa0f6044d19d7f236ae68c68fc9f"
+    },
+    "镜": {
+      "url": "audio/tts-v1/115-955c.mp3",
+      "text": "镜，一面镜子。",
+      "pronunciation": null,
+      "sha256": "7fc10201bbe29f9421294fdfa75ded01526cfd16bcfbddf5847600b0bbf359ac"
+    },
+    "箱": {
+      "url": "audio/tts-v1/116-7bb1.mp3",
+      "text": "箱，一个箱子。",
+      "pronunciation": null,
+      "sha256": "5231b06f292ebc4082754ea6f03883bcfa289e52ab6bc16f668ee8c4f0fe67f4"
+    },
+    "帽": {
+      "url": "audio/tts-v1/117-5e3d.mp3",
+      "text": "帽，一顶帽子。",
+      "pronunciation": null,
+      "sha256": "ecddb28899d1bfdd773482ed6870b09117c04f53babe7d07aa00a291c0a46ab3"
+    },
+    "鞋": {
+      "url": "audio/tts-v1/118-978b.mp3",
+      "text": "鞋，一双鞋子。",
+      "pronunciation": null,
+      "sha256": "868c4c48a5d4801ace6a48bdc5cee139e7bd79b441ab02ed930ca23d028f830c"
+    },
+    "衣": {
+      "url": "audio/tts-v1/119-8863.mp3",
+      "text": "衣，一件衣服。",
+      "pronunciation": null,
+      "sha256": "b87efb9c14e8c3ff84522cd50fa6b44e98751d69f63ccff3a76d6d7d8dcb70b1"
+    },
+    "铃": {
+      "url": "audio/tts-v1/120-94c3.mp3",
+      "text": "铃，清脆铃铛。",
+      "pronunciation": null,
+      "sha256": "fcda06dfb30433299a23b02b034f6c9b602d5c4a095b52361e9352a03a8d2573"
+    },
+    "琴": {
+      "url": "audio/tts-v1/121-7434.mp3",
+      "text": "琴，一架钢琴。",
+      "pronunciation": null,
+      "sha256": "3a709f2d201602994fed73801783c9d68b39898c112e18b727339b6fa195fea6"
+    },
+    "红": {
+      "url": "audio/tts-v1/122-7ea2.mp3",
+      "text": "红，红红的。",
+      "pronunciation": null,
+      "sha256": "fa52564745182e17d3d4e49b8511bf4ddcf4c5fbd6ebea8a0888cf86cb654c9e"
+    },
+    "白": {
+      "url": "audio/tts-v1/123-767d.mp3",
+      "text": "白，白白的。",
+      "pronunciation": null,
+      "sha256": "d0a2748ee1c33a0d2eefe23924ad2b0a8caee3b56cc4e6fc88988ae0c69a4af6"
+    },
+    "黑": {
+      "url": "audio/tts-v1/124-9ed1.mp3",
+      "text": "黑，黑黑的。",
+      "pronunciation": null,
+      "sha256": "3aecc0819b997e50e05a835e81a4807317c6b4be00f248b7e5af0c81c2181163"
+    },
+    "黄": {
+      "url": "audio/tts-v1/125-9ec4.mp3",
+      "text": "黄，黄黄的。",
+      "pronunciation": null,
+      "sha256": "5ab7bf47d2308ccb142cc7dfb9fe92dc75be5739d6dd6278da54b5f32ce0c426"
+    },
+    "蓝": {
+      "url": "audio/tts-v1/126-84dd.mp3",
+      "text": "蓝，蓝蓝的。",
+      "pronunciation": null,
+      "sha256": "1c0b1966ff87ae28faae565ae2517aa8d5c4a61a83b5f2b5c09960c6e2a7fd15"
+    },
+    "绿": {
+      "url": "audio/tts-v1/127-7eff.mp3",
+      "text": "绿，绿绿的。",
+      "pronunciation": null,
+      "sha256": "787e91c5793d0bbfccbc6b1da0a33fff6db94faf4a541d460c0096c60fb1923a"
+    },
+    "大": {
+      "url": "audio/tts-v1/128-5927.mp3",
+      "text": "大，大大的。",
+      "pronunciation": null,
+      "sha256": "979f7a8ebfd915aaef5e1bca1a4d7f51905663c864c34aa5e00881f9c94145b2"
+    },
+    "小": {
+      "url": "audio/tts-v1/129-5c0f.mp3",
+      "text": "小，小小的。",
+      "pronunciation": null,
+      "sha256": "a888d40111302df93e9b7a455c0d1e8e6e99a6eba2e40f46bfe2b2b89ed23840"
+    },
+    "长": {
+      "url": "audio/tts-v1/130-957f.mp3",
+      "text": "长，长短的长，长长的。",
+      "pronunciation": "chang2",
+      "sha256": "63836e1df2420ebf27a2dac26fb18738b76e67aa28b46315d3157606b8224a70"
+    },
+    "短": {
+      "url": "audio/tts-v1/131-77ed.mp3",
+      "text": "短，短短的。",
+      "pronunciation": null,
+      "sha256": "69b6feec9c305cd0f4efe64d72d77447e0afa747ad87312bf68f270d57703bfb"
+    },
+    "圆": {
+      "url": "audio/tts-v1/132-5706.mp3",
+      "text": "圆，圆圆的。",
+      "pronunciation": null,
+      "sha256": "7fa734fa13f479b27e127da775612ec841a7c24e16f8d1b683231373d654d9df"
+    },
+    "方": {
+      "url": "audio/tts-v1/133-65b9.mp3",
+      "text": "方，方方的。",
+      "pronunciation": null,
+      "sha256": "f1890f0c2fe8a1ff699cfb07aae44bbebce961ba859950155cc97cd88282e8e4"
+    },
+    "一": {
+      "url": "audio/tts-v1/134-4e00.mp3",
+      "text": "一，一个。",
+      "pronunciation": null,
+      "sha256": "f87177de09d373375b68e4cb17adfd27c94263e89fb5968f91d32798daa25f86"
+    },
+    "二": {
+      "url": "audio/tts-v1/135-4e8c.mp3",
+      "text": "二，二个。",
+      "pronunciation": null,
+      "sha256": "1344f6daef7b2876778ba7cdcb819679c81f3b9791475a0dc08cb15290e5db5b"
+    },
+    "三": {
+      "url": "audio/tts-v1/136-4e09.mp3",
+      "text": "三，三个。",
+      "pronunciation": null,
+      "sha256": "86e43068f4fa24e69b6f5df5a81e5daac91db55de75778b56bec97ac460a88cb"
+    },
+    "四": {
+      "url": "audio/tts-v1/137-56db.mp3",
+      "text": "四，四个。",
+      "pronunciation": null,
+      "sha256": "8d98247cece0712838cdcf05b34a4317572cd41531a80a78e5e467652f8e82ab"
+    },
+    "五": {
+      "url": "audio/tts-v1/138-4e94.mp3",
+      "text": "五，五个。",
+      "pronunciation": null,
+      "sha256": "b0710ec8616ba0132411313bc26be28d3d1d35158c684bafa274bf79e2022ae4"
+    },
+    "六": {
+      "url": "audio/tts-v1/139-516d.mp3",
+      "text": "六，六个。",
+      "pronunciation": null,
+      "sha256": "6c014eb397febbf030e80741256e3c682d40336b749f69ec50db7a77366387ac"
+    },
+    "七": {
+      "url": "audio/tts-v1/140-4e03.mp3",
+      "text": "七，七个。",
+      "pronunciation": null,
+      "sha256": "6e97b4e28d07726eaf8cac12770f28a114b27ee883489ea47694bd0c53956483"
+    },
+    "八": {
+      "url": "audio/tts-v1/141-516b.mp3",
+      "text": "八，八个。",
+      "pronunciation": null,
+      "sha256": "f26417573ac2eec4b5b5296e368640de7fa3ebc419ae2b200f81814ba5318a96"
+    },
+    "九": {
+      "url": "audio/tts-v1/142-4e5d.mp3",
+      "text": "九，九个。",
+      "pronunciation": null,
+      "sha256": "bf02560f4a430651fa8b94c6bc6d380976aa8ac94e62228fd0bc525664dbd5e2"
+    },
+    "十": {
+      "url": "audio/tts-v1/143-5341.mp3",
+      "text": "十，十个。",
+      "pronunciation": null,
+      "sha256": "3ed881b2357b2ecb98ac66bfc8b47c634098973a5bc3a43dfbfef2afcd3f1885"
+    },
+    "百": {
+      "url": "audio/tts-v1/144-767e.mp3",
+      "text": "百，一百。",
+      "pronunciation": null,
+      "sha256": "de26c9f064ec09344fb704f23e967796d20bd6bcb7d848814e8ae248c064c160"
+    },
+    "前": {
+      "url": "audio/tts-v1/145-524d.mp3",
+      "text": "前，前面。",
+      "pronunciation": null,
+      "sha256": "12b9f5d16615d976128fd7c1ed56d8aac1ca56bdc62da9d8a39c4baa178a1323"
+    },
+    "后": {
+      "url": "audio/tts-v1/146-540e.mp3",
+      "text": "后，后面。",
+      "pronunciation": null,
+      "sha256": "4057b4ff50193736e9fea97b572b8da6345b27a8745e628f772425feeeb1799b"
+    },
+    "左": {
+      "url": "audio/tts-v1/147-5de6.mp3",
+      "text": "左，左边。",
+      "pronunciation": null,
+      "sha256": "7ea786192aebe62014084bb7afa1b5108e2487fe6cecd0ae218bd4379a00fccc"
+    },
+    "右": {
+      "url": "audio/tts-v1/148-53f3.mp3",
+      "text": "右，右边。",
+      "pronunciation": null,
+      "sha256": "59c08866d4d358005adeb82b55de772842e696fbffc9c3d6b0e98f41146cc9df"
+    },
+    "里": {
+      "url": "audio/tts-v1/149-91cc.mp3",
+      "text": "里，里面。",
+      "pronunciation": null,
+      "sha256": "b736f161ef14645fc1fc2c2af7b2262bf6d4c4ef273b451f877d275b88b26045"
+    },
+    "外": {
+      "url": "audio/tts-v1/150-5916.mp3",
+      "text": "外，外面。",
+      "pronunciation": null,
+      "sha256": "c39b7a74da7d73da995b66baf523db0942dd6290d657b1a4b610837c9566890d"
+    },
+    "上": {
+      "url": "audio/tts-v1/151-4e0a.mp3",
+      "text": "上，上面。",
+      "pronunciation": null,
+      "sha256": "369945d2f998bd43e5f5e1a93f2f8db2355f762556130d311d9229a1c2f9350c"
+    },
+    "下": {
+      "url": "audio/tts-v1/152-4e0b.mp3",
+      "text": "下，下面。",
+      "pronunciation": null,
+      "sha256": "c190ab58af05cd9c504efe108e7d0fe9abf4ea8739c13ae041130581b3783104"
+    },
+    "力": {
+      "url": "audio/tts-v1/153-529b.mp3",
+      "text": "力，力气。",
+      "pronunciation": null,
+      "sha256": "ec1abf507a91fc2896c80cbcb60d9b849f01d4c1ef5c606e53bf305aae17dc18"
+    },
+    "王": {
+      "url": "audio/tts-v1/154-738b.mp3",
+      "text": "王，国王。",
+      "pronunciation": null,
+      "sha256": "da175c20498307f9e90cddc9ee9eab4e98315eaa0985a9a0d7d38cfe4621c18f"
+    },
+    "玉": {
+      "url": "audio/tts-v1/155-7389.mp3",
+      "text": "玉，美玉。",
+      "pronunciation": null,
+      "sha256": "3f486aa3b8766015ac30ca546444fed5cf96e956322f18245282c078b6c1bc5e"
+    },
+    "金": {
+      "url": "audio/tts-v1/156-91d1.mp3",
+      "text": "金，金子。",
+      "pronunciation": null,
+      "sha256": "4d5fb27373425ce9e3866bce1b193a44c4185826542697a286e187ac7f64e2a7"
+    },
+    "音": {
+      "url": "audio/tts-v1/157-97f3.mp3",
+      "text": "音，音乐。",
+      "pronunciation": null,
+      "sha256": "3a0a3d9d48c5d3d0150c703e7737482c10bc33a6cea67dc6b14de80669da048c"
+    },
+    "画": {
+      "url": "audio/tts-v1/158-753b.mp3",
+      "text": "画，一幅画。",
+      "pronunciation": null,
+      "sha256": "808b01386c3162299e6756530f6847524c0ecbb3932dde8b2b657e403e32dcba"
+    },
+    "歌": {
+      "url": "audio/tts-v1/159-6b4c.mp3",
+      "text": "歌，一首歌。",
+      "pronunciation": null,
+      "sha256": "d4ee28ce33586ca561cac7f67936206fe33fe952b4c00176b0e5a6213fb4cb82"
+    },
+    "舞": {
+      "url": "audio/tts-v1/160-821e.mp3",
+      "text": "舞，跳舞。",
+      "pronunciation": null,
+      "sha256": "cc6651d55b6f34c8445d7338f31c8704eff1fbb221fcda9154856e0a0dcf10f7"
+    },
+    "飞": {
+      "url": "audio/tts-v1/161-98de.mp3",
+      "text": "飞，飞鸟，鸟儿飞翔。",
+      "pronunciation": null,
+      "sha256": "74c85b005464ff5b23ae1bfd0c77e169d1ae98fe460d7818df0128b4adaf221a"
+    },
+    "游": {
+      "url": "audio/tts-v1/162-6e38.mp3",
+      "text": "游，游泳，快乐游泳。",
+      "pronunciation": null,
+      "sha256": "3446fe494487db26a66a1f88b6065dff3b921d98a3cbf0528e0b598ac40d234e"
+    },
+    "跑": {
+      "url": "audio/tts-v1/163-8dd1.mp3",
+      "text": "跑，跑步，快快跑步。",
+      "pronunciation": null,
+      "sha256": "60673a3c88f1fd2839b7bbc366e0758fb493c6a88c71a7c6236dc7aef9cc4fd9"
+    },
+    "吃": {
+      "url": "audio/tts-v1/164-5403.mp3",
+      "text": "吃，吃饭，好好吃饭。",
+      "pronunciation": null,
+      "sha256": "974f10851c32907e8e5fd1d5512642db88c3b6c1ef7efe8ca1469ef9b3ee75e7"
+    },
+    "喝": {
+      "url": "audio/tts-v1/165-559d.mp3",
+      "text": "喝，喝水，咕咚喝水。",
+      "pronunciation": null,
+      "sha256": "e828f6ff9c5b99583201e885893bda0c639580dcea9c9e49942e76557a067de9"
+    },
+    "看": {
+      "url": "audio/tts-v1/166-770b.mp3",
+      "text": "看，看书，认真看书。",
+      "pronunciation": null,
+      "sha256": "70244a5828427e44d2a27f7c70b2d01c9cde5d00c080e833cd77fb52a9d150d7"
+    },
+    "笑": {
+      "url": "audio/tts-v1/167-7b11.mp3",
+      "text": "笑，笑脸，开心笑脸。",
+      "pronunciation": null,
+      "sha256": "4b28f2cbb60c2074685cb570e3dc4aaf0f0e576d96d3bb4eb93d28636eba6aef"
+    },
+    "哭": {
+      "url": "audio/tts-v1/168-54ed.mp3",
+      "text": "哭，哭泣，伤心哭泣。",
+      "pronunciation": null,
+      "sha256": "ad7f3de65f1e3d7979a3c02b0b35c2e70083a8f21985d7bdd5c6d2b21942cd37"
+    },
+    "走": {
+      "url": "audio/tts-v1/169-8d70.mp3",
+      "text": "走，走路，慢慢走路。",
+      "pronunciation": null,
+      "sha256": "6d922797f1bcdf77aafb06bbe2cce3723e9b5feefcd7369129040f2e57cbd99f"
+    },
+    "跳": {
+      "url": "audio/tts-v1/170-8df3.mp3",
+      "text": "跳，跳跃，快乐跳跃。",
+      "pronunciation": null,
+      "sha256": "55b1f2072812351f723878712c62cbe2c15d9a475198e5174c30b5e378e6636f"
+    },
+    "坐": {
+      "url": "audio/tts-v1/171-5750.mp3",
+      "text": "坐，坐下，请坐下。",
+      "pronunciation": null,
+      "sha256": "88dd3b8fbb62269535ca877dc328c3c2656e9abe35033a99562e172e39235080"
+    },
+    "站": {
+      "url": "audio/tts-v1/172-7ad9.mp3",
+      "text": "站，站立，站起来。",
+      "pronunciation": null,
+      "sha256": "4be953ee5bd3586fe650e53a163eb8833c038823c869b455f96a070b7560adbe"
+    },
+    "拿": {
+      "url": "audio/tts-v1/173-62ff.mp3",
+      "text": "拿，拿笔，拿起笔。",
+      "pronunciation": null,
+      "sha256": "342fb6c96ebe14150621cff9d14f0010b371e5a28b454da8b4a975f6eb44aaea"
+    },
+    "放": {
+      "url": "audio/tts-v1/174-653e.mp3",
+      "text": "放，放下，放下来。",
+      "pronunciation": null,
+      "sha256": "87afb8a0909dd69ab58201125ec80e6e6ea32c8d04a8c9c195b78d8feac48cdc"
+    },
+    "开": {
+      "url": "audio/tts-v1/175-5f00.mp3",
+      "text": "开，开门，打开门。",
+      "pronunciation": null,
+      "sha256": "b031e0ed829f605b079b55192a2747186ab6908e7496c0a818b3e085edee8abb"
+    },
+    "关": {
+      "url": "audio/tts-v1/176-5173.mp3",
+      "text": "关，关窗，关窗户。",
+      "pronunciation": null,
+      "sha256": "e32949210953d5cee2782be61b92c12c44e007ec2ef0bf3bc4b75c202f303367"
+    },
+    "听": {
+      "url": "audio/tts-v1/177-542c.mp3",
+      "text": "听，听歌，仔细听。",
+      "pronunciation": null,
+      "sha256": "b2e1fab32bdf55aec40b28b661492011f656c624dcc8ad677fc22ee77704f585"
+    },
+    "说": {
+      "url": "audio/tts-v1/178-8bf4.mp3",
+      "text": "说，说话，大声说。",
+      "pronunciation": null,
+      "sha256": "69ddd87e7db33e8a3bbaffa8a308cf9a6bcb9d5395547954f1f0a31c6f6c5f3a"
+    },
+    "读": {
+      "url": "audio/tts-v1/179-8bfb.mp3",
+      "text": "读，读书，大声读。",
+      "pronunciation": null,
+      "sha256": "f63c564f10a8c3028ef0c50f730ebd2d6af688842ff095cdf4a60ac7950a2010"
+    },
+    "写": {
+      "url": "audio/tts-v1/180-5199.mp3",
+      "text": "写，写字，学写字。",
+      "pronunciation": null,
+      "sha256": "bed79a81301da099e9e71984955763d63d910860dad191e36e5ccc7d26f85a82"
+    },
+    "唱": {
+      "url": "audio/tts-v1/181-5531.mp3",
+      "text": "唱，唱歌，快乐唱。",
+      "pronunciation": null,
+      "sha256": "f83d792f3cefaf883d177beb64b8f2380114fecfb228245934f0ae47e936e291"
+    },
+    "抱": {
+      "url": "audio/tts-v1/182-62b1.mp3",
+      "text": "抱，拥抱，温暖拥抱。",
+      "pronunciation": null,
+      "sha256": "f322a4e23d81bb1a7a384c12293a5191a48618f48403633969d2898f59eb0821"
+    },
+    "拉": {
+      "url": "audio/tts-v1/183-62c9.mp3",
+      "text": "拉，拉手，拉拉手。",
+      "pronunciation": null,
+      "sha256": "f70264091f16e2729d7c2486e33d39a2284d5bc3da26b19b0947d7bf182c9b74"
+    },
+    "推": {
+      "url": "audio/tts-v1/184-63a8.mp3",
+      "text": "推，推车，推车子。",
+      "pronunciation": null,
+      "sha256": "a7e4f4cb9351c064ca8fc6b9aa8330ebf4a3dc08944fa923de5e3c24b3c57a73"
+    },
+    "洗": {
+      "url": "audio/tts-v1/185-6d17.mp3",
+      "text": "洗，洗手，洗干净。",
+      "pronunciation": null,
+      "sha256": "ac6e9d5b893017ab456c68da9ec32a8d4bc83fdba6dee373358c664eb89b90c7"
+    },
+    "刷": {
+      "url": "audio/tts-v1/186-5237.mp3",
+      "text": "刷，刷牙，刷牙齿。",
+      "pronunciation": null,
+      "sha256": "536f669214187322b4b54c73273ef437f6ef8eef69536ea3cf0e9841587acdb8"
+    },
+    "扫": {
+      "url": "audio/tts-v1/187-626b.mp3",
+      "text": "扫，扫地，扫干净。",
+      "pronunciation": null,
+      "sha256": "f6b9c992d0af487f047cfc5f8450e53f29144f77bddde92e61176523aaa07d89"
+    },
+    "穿": {
+      "url": "audio/tts-v1/188-7a7f.mp3",
+      "text": "穿，穿衣，穿衣服。",
+      "pronunciation": null,
+      "sha256": "4f102bbf0bfed403f30b303afb877a0c592ec40967fd5056ae1b57af8d755a33"
+    },
+    "脱": {
+      "url": "audio/tts-v1/189-8131.mp3",
+      "text": "脱，脱鞋，脱鞋子。",
+      "pronunciation": null,
+      "sha256": "c13633842108a3bde0170ea4357b815af0e6e37d6793b62eec1d419a8e491424"
+    },
+    "睡": {
+      "url": "audio/tts-v1/190-7761.mp3",
+      "text": "睡，睡觉，安心睡。",
+      "pronunciation": null,
+      "sha256": "c13b1c2df569bd2b747252461ef4708d902f8fead9fc61e88a2f3cf6a0b95a0e"
+    },
+    "醒": {
+      "url": "audio/tts-v1/191-9192.mp3",
+      "text": "醒，醒来，快醒来。",
+      "pronunciation": null,
+      "sha256": "971fd4df566f8d21f1620f337a771bb1cda6b1cd950b961dd648fb36af1338a4"
+    },
+    "来": {
+      "url": "audio/tts-v1/192-6765.mp3",
+      "text": "来，过来，快快过来。",
+      "pronunciation": null,
+      "sha256": "093c9e4d1560401a7d6194b139f9f950b91d6bcc5892335e5bf02ea7b257c68a"
+    },
+    "去": {
+      "url": "audio/tts-v1/193-53bb.mp3",
+      "text": "去，出去，出去玩。",
+      "pronunciation": null,
+      "sha256": "5557e3d401b9c1ff786651fde3c7465df9a0315da58af7ece53ea48db300e6c6"
+    },
+    "给": {
+      "url": "audio/tts-v1/194-7ed9.mp3",
+      "text": "给，给你的给，送礼物。",
+      "pronunciation": "gei3",
+      "sha256": "d8c80199d6a922702645b503a783ecaf71ab492a9361693b899c9ee76fd03418"
+    },
+    "打": {
+      "url": "audio/tts-v1/195-6253.mp3",
+      "text": "打，打球，打皮球。",
+      "pronunciation": null,
+      "sha256": "144ceb3a94e683846c7d7e6e67586a88d682e54ff57302c986a70cf1f8122d03"
+    },
+    "拍": {
+      "url": "audio/tts-v1/196-62cd.mp3",
+      "text": "拍，拍手，拍拍手。",
+      "pronunciation": null,
+      "sha256": "41a86e5f21b02007ec224b51222ebc3a901e9501e5b64f12588128852873b2f6"
+    },
+    "吹": {
+      "url": "audio/tts-v1/197-5439.mp3",
+      "text": "吹，吹气，吹泡泡。",
+      "pronunciation": null,
+      "sha256": "7ad2570de9e7e81671cdbebc402cfa9924043748f875a801ef57e79dcb0c931c"
+    },
+    "咬": {
+      "url": "audio/tts-v1/198-54ac.mp3",
+      "text": "咬，咬果，咬一口。",
+      "pronunciation": null,
+      "sha256": "803e9e49fab5d7a61df442109f7c4d2c9395bad93703360ccd89d30a0f8dc56f"
+    },
+    "闻": {
+      "url": "audio/tts-v1/199-95fb.mp3",
+      "text": "闻，闻花，闻花香。",
+      "pronunciation": null,
+      "sha256": "989776b00bb80092fdfe376765ae5fd716ad29c39cf8ba77bd77b27fe03a8253"
+    },
+    "想": {
+      "url": "audio/tts-v1/200-60f3.mp3",
+      "text": "想，思考，想一想。",
+      "pronunciation": null,
+      "sha256": "e03a57fd661563a9bc5bf8373d05acedf1ac849a9b166ec7938df435d59d021a"
+    }
+  }
+}

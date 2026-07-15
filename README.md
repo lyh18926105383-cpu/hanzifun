@@ -2,7 +2,7 @@
 
 **链接**：https://hanzifun.online
 
-这是一款专为3-6岁儿童设计的“汉字启蒙卡片”互动工具，通过卡片翻转、图文配对和即时反馈，帮助孩子在趣味中快乐识字。
+这是一款专为3-6岁儿童设计的汉字启蒙互动工具，通过卡片翻转、图文配对、有声故事和即时反馈，帮助孩子在趣味中快乐识字。
 
 **解决的痛点**
 
@@ -37,7 +37,13 @@
 - `styles.css`：页面样式与响应式布局
 - `characters.js`：200 个汉字的内容字库
 - `storage.js`：本机学习记录与薄弱字数据
+- `tts-corpus.js`：朗读语料、多音字修正和20字试音集
+- `audio.js`：静态音频播放、预加载与浏览器朗读兜底
+- `audio-manifest.json`：已生成音频的版本化索引
 - `app.js`：学习流程和页面交互
+- `lessons.js`：故事课内容、分镜、跟读和认字题数据
+- `story.html` / `story.css` / `story.js`：有声动态绘本与跟读流程
+- `scripts/`：TTS批量生成和音频清单工具
 - `tests/`：字库、基础学习流程与本机记录测试
 
 ## 本地检查
@@ -47,3 +53,29 @@
 ```bash
 npm test
 ```
+
+## TTS 语音资源
+
+页面优先播放 `audio-manifest.json` 中的预生成 MP3。某个字尚未生成静态音频时，会自动使用浏览器中文朗读，用户学习时不会实时请求云端 TTS。
+
+重建200字语料与音频清单：
+
+```bash
+npm run tts:manifest
+```
+
+使用腾讯云默认音色 `502007` 生成20字试听集：
+
+```bash
+export TENCENTCLOUD_SECRET_ID="your-secret-id"
+export TENCENTCLOUD_SECRET_KEY="your-secret-key"
+npm run tts:pilot
+```
+
+试听和人工校验通过后，再生成全部200字：
+
+```bash
+npm run tts:all
+```
+
+生成脚本支持 `--voice=502007`、`--speed=0`、`--delay=1000`。凭证只通过环境变量传入，不要写入代码或提交到 Git。

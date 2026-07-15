@@ -233,6 +233,72 @@ body {
     margin-top: -8px;
     font-weight: 500;
 }
+.story-entry {
+    width: 100%;
+    max-width: 400px;
+    min-height: 88px;
+    padding: 14px 16px;
+    border: 3px solid rgba(240, 168, 96, 0.42);
+    border-radius: 24px;
+    background: linear-gradient(135deg, #fff4d6, #ffe6cc);
+    color: #5c3d2e;
+    display: grid;
+    grid-template-columns: 54px minmax(0, 1fr) 24px;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    box-shadow: 0 7px 20px rgba(210, 130, 65, 0.16);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.story-entry:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 26px rgba(210, 130, 65, 0.23);
+}
+.story-entry-icon {
+    width: 54px;
+    height: 54px;
+    display: grid;
+    place-items: center;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.72);
+    font-size: 34px;
+}
+.story-entry-copy {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.story-entry-copy strong {
+    font-size: 20px;
+    letter-spacing: 0.04em;
+}
+.story-entry-copy small {
+    color: #8f6d55;
+    font-size: 13px;
+}
+.story-entry-arrow {
+    color: #d77e3f;
+    font-size: 36px;
+    line-height: 1;
+}
+.mode-divider {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #a28f7e;
+    font-size: 12px;
+}
+.mode-divider::before,
+.mode-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(145, 117, 94, 0.2);
+}
+.mode-divider span { white-space: nowrap; }
 .start-screen .btn-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -435,6 +501,14 @@ body {
 .header {
     text-align: center;
     margin-bottom: 2px;
+    width: 100%;
+}
+.learn-toolbar {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr) 40px;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
 }
 .header .title {
     font-size: clamp(22px, 4.5vw, 30px);
@@ -448,10 +522,6 @@ body {
     font-family: var(--font-rounded);
 }
 .header .back-btn {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
     font-size: 28px;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.7);
@@ -465,12 +535,39 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: all 0.2s;
     z-index: 10;
-    position: relative;
 }
 .header .back-btn:hover {
     background: #fff;
-    transform: translateY(-50%) scale(1.08);
+    transform: scale(1.08);
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+.sound-toggle-button,
+.replay-button {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.82);
+    color: #4a6987;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    font-size: 21px;
+    line-height: 1;
+    transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+}
+.sound-toggle-button:hover,
+.replay-button:hover {
+    background: #fff;
+    transform: scale(1.08);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+.sound-toggle-button:focus-visible,
+.replay-button:focus-visible {
+    outline: 3px solid rgba(77, 150, 255, 0.35);
+    outline-offset: 2px;
 }
 
 .progress-area {
@@ -728,6 +825,13 @@ body {
     z-index: 1;
     letter-spacing: 0.05em;
 }
+.card-back .replay-button {
+    position: absolute;
+    right: 16px;
+    bottom: 14px;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.9);
+}
 .card-back .corner-decor {
     position: absolute;
     font-size: 24px;
@@ -748,7 +852,7 @@ body {
 }
 .card-back .corner-decor.cd4 {
     bottom: 12px;
-    right: 16px;
+    right: 68px;
 }
 
 /* 按钮 */
@@ -1215,6 +1319,16 @@ body {
     }
     .header .title {
         font-size: clamp(20px, 4vw, 26px);
+    }
+    .learn-toolbar {
+        grid-template-columns: 38px minmax(0, 1fr) 38px;
+        gap: 6px;
+    }
+    .header .back-btn,
+    .sound-toggle-button,
+    .replay-button {
+        width: 38px;
+        height: 38px;
     }
     .start-screen {
         padding: 28px 16px 24px;

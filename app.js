@@ -72,8 +72,9 @@
 
     const fullLibrary = window.HANZI_LIBRARY;
     const storageApi = window.HanziFunStorage;
+    const audioApi = window.HanziFunAudio;
 
-    if (!Array.isArray(fullLibrary) || !storageApi) {
+    if (!Array.isArray(fullLibrary) || !storageApi || !audioApi) {
         throw new Error('汉字饭资源加载失败');
     }
 
@@ -86,6 +87,22 @@
     }
 
     const learningStore = storageApi.createStore(getBrowserStorage());
+    const SOUND_STORAGE_KEY = 'hanzifun.sound.enabled';
+
+    function getStoredSoundPreference() {
+        const storage = getBrowserStorage();
+        if (!storage) return true;
+        try {
+            return storage.getItem(SOUND_STORAGE_KEY) !== 'false';
+        } catch (error) {
+            return true;
+        }
+    }
+
+    const cardAudio = audioApi.createAudioController({
+        manifestUrl: 'audio-manifest.json',
+        enabled: getStoredSoundPreference(),
+    });
 
     // ============ DOM元素 ============
     const startScreen = document.getElementById('startScreen');
@@ -114,6 +131,8 @@
     const btnCloseSummary = document.getElementById('btnCloseSummary');
     const btnBackStartFromSummary = document.getElementById('btnBackStartFromSummary');
     const btnBackToStart = document.getElementById('btnBackToStart');
+    const btnSoundToggle = document.getElementById('btnSoundToggle');
+    const btnReplay = document.getElementById('btnReplay');
     const toast = document.getElementById('toast');
     const customInputArea = document.getElementById('customInputArea');
     const customCountInput = document.getElementById('customCount');
@@ -143,6 +162,7 @@
     let isReviewMode = false;
     let hasSavedCurrentPass = false;
     let toastTimer = null;
+    let speechTimer = null;
     let totalSelectedCount = 5;
 
     function formatSessionTime(timestamp) {
@@ -276,6 +296,7 @@
         hintText.textContent = data.hint;
         typeBadge.textContent = data.type === 'noun' ? '名词' : '动词→名词';
         typeBadge.className = 'type-badge ' + (data.type === 'noun' ? 'noun' : 'verb');
+        preloadCardAudio();
     }
 
     function updateProgress() {
@@ -308,23 +329,60 @@
         cardContainer.style.cursor = animating ? 'default' : 'pointer';
     }
 
+    function stopCardAudio() {
+        if (speechTimer) {
+            clearTimeout(speechTimer);
+            speechTimer = null;
+        }
+        cardAudio.stop();
+    }
+
     function speakCard() {
-        if (!window.speechSynthesis) return;
         if (currentCards.length === 0) return;
         const data = currentCards[currentIndex];
-        window.speechSynthesis.cancel();
-        var utterChar = new SpeechSynthesisUtterance(data.char);
-        utterChar.lang = 'zh-CN';
-        utterChar.rate = 0.85;
-        var utterHint = new SpeechSynthesisUtterance(data.hint);
-        utterHint.lang = 'zh-CN';
-        utterHint.rate = 0.8;
-        utterChar.onend = function() {
-            setTimeout(function() {
-                window.speechSynthesis.speak(utterHint);
-            }, 400);
-        };
-        window.speechSynthesis.speak(utterChar);
+        cardAudio.play(data).catch(() => {
+            showToast('当前设备无法播放语音', '💡');
+        });
+    }
+
+    function scheduleCardAudio(delay = 80) {
+        if (speechTimer) clearTimeout(speechTimer);
+        speechTimer = setTimeout(() => {
+            speechTimer = null;
+            speakCard();
+        }, delay);
+    }
+
+    function preloadCardAudio() {
+        if (currentCards.length === 0 || !cardAudio.isEnabled()) return;
+        cardAudio.preload(currentCards[currentIndex]);
+        const activeIndices = getActiveIndices(currentCards.length, reviewQueue, isReviewMode);
+        const nextIndex = findNextUnassessed(activeIndices, currentIndex, familiarStatus);
+        if (nextIndex !== undefined) cardAudio.preload(currentCards[nextIndex]);
+    }
+
+    function renderSoundButton() {
+        const enabled = cardAudio.isEnabled();
+        btnSoundToggle.textContent = enabled ? '🔊' : '🔇';
+        btnSoundToggle.setAttribute('aria-pressed', String(enabled));
+        btnSoundToggle.setAttribute('aria-label', enabled ? '关闭声音' : '开启声音');
+        btnSoundToggle.title = enabled ? '关闭声音' : '开启声音';
+    }
+
+    function toggleSound() {
+        const enabled = cardAudio.setEnabled(!cardAudio.isEnabled());
+        const storage = getBrowserStorage();
+        try {
+            storage?.setItem(SOUND_STORAGE_KEY, String(enabled));
+        } catch (error) {
+            console.warn('浏览器未允许保存声音设置。');
+        }
+        renderSoundButton();
+        if (enabled) {
+            preloadCardAudio();
+            if (isFlipped) speakCard();
+        }
+        showToast(enabled ? '声音已开启' : '声音已关闭', enabled ? '🔊' : '🔇');
     }
 
     function flipCard() {
@@ -350,6 +408,7 @@
     function goToNextCard() {
         if (isAnimating) return;
         if (currentCards.length === 0) return;
+        stopCardAudio();
 
         const activeIndices = getActiveIndices(currentCards.length, reviewQueue, isReviewMode);
         const nextIndex = findNextUnassessed(activeIndices, currentIndex, familiarStatus);
@@ -400,6 +459,7 @@
     }
 
     function showSummary() {
+        stopCardAudio();
         const totalFamiliar = familiarStatus.filter(s => s === true).length;
         const totalUnfamiliar = familiarStatus.filter(s => s === false).length;
         const totalNull = familiarStatus.filter(s => s === null).length;
@@ -464,7 +524,7 @@
     }
 
     function restartLearning() {
-        window.speechSynthesis && window.speechSynthesis.cancel();
+        stopCardAudio();
         currentCards = selectCards(totalSelectedCount);
         resetLearnState();
         updateCardContent();
@@ -498,7 +558,7 @@
     }
 
     function goBackToStart() {
-        window.speechSynthesis && window.speechSynthesis.cancel();
+        stopCardAudio();
         hideSummary();
         learnScreen.classList.remove('active');
         startScreen.classList.remove('hidden');
@@ -570,6 +630,15 @@
     // 返回首页
     btnBackToStart.addEventListener('click', goBackToStart);
     btnBackStartFromSummary.addEventListener('click', goBackToStart);
+    btnSoundToggle.addEventListener('click', toggleSound);
+    btnReplay.addEventListener('click', (event) => {
+        event.stopPropagation();
+        if (!cardAudio.isEnabled()) {
+            cardAudio.setEnabled(true);
+            renderSoundButton();
+        }
+        speakCard();
+    });
     btnOpenHistory.addEventListener('click', openLearningHistory);
     btnCloseHistory.addEventListener('click', closeLearningHistory);
     btnClearHistory.addEventListener('click', clearLearningHistory);
@@ -594,7 +663,7 @@
         e.stopPropagation();
         if (isAnimating) return;
         if (currentCards.length === 0) return;
-        window.speechSynthesis && window.speechSynthesis.cancel();
+        stopCardAudio();
         if (isFlipped) {
             markAsFamiliar();
             goToNextCard();
@@ -611,12 +680,12 @@
         if (isAnimating) return;
         if (currentCards.length === 0) return;
         if (isFlipped) {
-            window.speechSynthesis && window.speechSynthesis.cancel();
+            stopCardAudio();
             goToNextCard();
         } else {
             markAsUnfamiliar();
             flipCard();
-            setTimeout(speakCard, 550);
+            scheduleCardAudio();
         }
         if (navigator.vibrate) navigator.vibrate([10, 30, 10]);
     });
@@ -653,6 +722,7 @@
             if (!isFlipped) {
                 markAsUnfamiliar();
                 flipCard();
+                scheduleCardAudio();
             }
         }
         if (e.key === 'ArrowUp' && isFlipped) {
@@ -680,7 +750,8 @@
         const dy = e.changedTouches[0].clientY - touchStartY;
         if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.3) {
             if (dx < 0 && !isFlipped) { markAsUnfamiliar();
-                flipCard(); } else if (dx > 0 && isFlipped) { flipCard(); }
+                flipCard();
+                scheduleCardAudio(); } else if (dx > 0 && isFlipped) { flipCard(); }
         }
         if (dy > 60 && Math.abs(dy) > Math.abs(dx) * 1.5) {
             if (!isFlipped) { markAsFamiliar();
@@ -712,6 +783,7 @@
         cardContainer.style.cursor = 'pointer';
         btnFamiliar.disabled = false;
         btnUnfamiliar.disabled = false;
+        renderSoundButton();
         updateButtonLabels();
         progressBar.style.width = '0%';
         progressText.textContent = '0 / 0';

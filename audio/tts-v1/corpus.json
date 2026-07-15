@@ -1,0 +1,1805 @@
+{
+  "version": "tts-v1",
+  "cards": [
+    {
+      "id": "001-5c71",
+      "char": "山",
+      "word": "山",
+      "hint": "一座高山",
+      "text": "山，一座高山。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "002-6c34",
+      "char": "水",
+      "word": "水",
+      "hint": "滴滴水珠",
+      "text": "水，滴滴水珠。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "003-706b",
+      "char": "火",
+      "word": "火",
+      "hint": "熊熊火焰",
+      "text": "火，熊熊火焰。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "004-82b1",
+      "char": "花",
+      "word": "花",
+      "hint": "美丽花朵",
+      "text": "花，美丽花朵。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "005-6811",
+      "char": "树",
+      "word": "树",
+      "hint": "一棵大树",
+      "text": "树，一棵大树。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "006-6708",
+      "char": "月",
+      "word": "月",
+      "hint": "弯弯月亮",
+      "text": "月，弯弯月亮。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "007-65e5",
+      "char": "日",
+      "word": "日",
+      "hint": "温暖太阳",
+      "text": "日，温暖太阳。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "008-661f",
+      "char": "星",
+      "word": "星",
+      "hint": "闪闪星星",
+      "text": "星，闪闪星星。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "009-4e91",
+      "char": "云",
+      "word": "云",
+      "hint": "朵朵白云",
+      "text": "云，朵朵白云。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "010-96e8",
+      "char": "雨",
+      "word": "雨",
+      "hint": "下雨啦",
+      "text": "雨，下雨啦。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "011-96ea",
+      "char": "雪",
+      "word": "雪",
+      "hint": "洁白雪花",
+      "text": "雪，洁白雪花。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "012-98ce",
+      "char": "风",
+      "word": "风",
+      "hint": "呼呼风吹",
+      "text": "风，呼呼风吹。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "013-77f3",
+      "char": "石",
+      "word": "石",
+      "hint": "一块石头",
+      "text": "石，一块石头。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "014-571f",
+      "char": "土",
+      "word": "土",
+      "hint": "泥土大地",
+      "text": "土，泥土大地。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "015-5929",
+      "char": "天",
+      "word": "天",
+      "hint": "蓝蓝天空",
+      "text": "天，蓝蓝天空。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "016-5730",
+      "char": "地",
+      "word": "地",
+      "hint": "大地母亲",
+      "text": "地，大地的地，大地母亲。",
+      "pronunciation": "di4",
+      "pilot": true
+    },
+    {
+      "id": "017-6cb3",
+      "char": "河",
+      "word": "河",
+      "hint": "一条大河",
+      "text": "河，一条大河。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "018-6d77",
+      "char": "海",
+      "word": "海",
+      "hint": "广阔大海",
+      "text": "海，广阔大海。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "019-53f6",
+      "char": "叶",
+      "word": "叶",
+      "hint": "一片叶子",
+      "text": "叶，一片叶子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "020-8349",
+      "char": "草",
+      "word": "草",
+      "hint": "绿绿小草",
+      "text": "草，绿绿小草。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "021-5149",
+      "char": "光",
+      "word": "光",
+      "hint": "闪闪光芒",
+      "text": "光，闪闪光芒。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "022-8679",
+      "char": "虹",
+      "word": "虹",
+      "hint": "美丽彩虹",
+      "text": "虹，美丽彩虹。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "023-51b0",
+      "char": "冰",
+      "word": "冰",
+      "hint": "晶莹冰块",
+      "text": "冰，晶莹冰块。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "024-96f7",
+      "char": "雷",
+      "word": "雷",
+      "hint": "轰隆打雷",
+      "text": "雷，轰隆打雷。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "025-7530",
+      "char": "田",
+      "word": "田",
+      "hint": "一片田地",
+      "text": "田，一片田地。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "026-6797",
+      "char": "林",
+      "word": "林",
+      "hint": "茂密树林",
+      "text": "林，茂密树林。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "027-6c99",
+      "char": "沙",
+      "word": "沙",
+      "hint": "金色沙子",
+      "text": "沙，金色沙子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "028-6cc9",
+      "char": "泉",
+      "word": "泉",
+      "hint": "清澈泉水",
+      "text": "泉，清澈泉水。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "029-9c7c",
+      "char": "鱼",
+      "word": "鱼",
+      "hint": "游来游去",
+      "text": "鱼，游来游去。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "030-9e1f",
+      "char": "鸟",
+      "word": "鸟",
+      "hint": "飞在天空",
+      "text": "鸟，飞在天空。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "031-9a6c",
+      "char": "马",
+      "word": "马",
+      "hint": "一匹骏马",
+      "text": "马，一匹骏马。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "032-732b",
+      "char": "猫",
+      "word": "猫",
+      "hint": "可爱小猫",
+      "text": "猫，可爱小猫。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "033-72d7",
+      "char": "狗",
+      "word": "狗",
+      "hint": "忠诚小狗",
+      "text": "狗，忠诚小狗。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "034-725b",
+      "char": "牛",
+      "word": "牛",
+      "hint": "勤劳老牛",
+      "text": "牛，勤劳老牛。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "035-7f8a",
+      "char": "羊",
+      "word": "羊",
+      "hint": "温顺小羊",
+      "text": "羊，温顺小羊。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "036-9e21",
+      "char": "鸡",
+      "word": "鸡",
+      "hint": "喔喔公鸡",
+      "text": "鸡，喔喔公鸡。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "037-9e2d",
+      "char": "鸭",
+      "word": "鸭",
+      "hint": "摇摆鸭子",
+      "text": "鸭，摇摆鸭子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "038-5154",
+      "char": "兔",
+      "word": "兔",
+      "hint": "蹦跳兔子",
+      "text": "兔，蹦跳兔子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "039-864e",
+      "char": "虎",
+      "word": "虎",
+      "hint": "威猛老虎",
+      "text": "虎，威猛老虎。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "040-8c61",
+      "char": "象",
+      "word": "象",
+      "hint": "大大大象",
+      "text": "象，大大大象。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "041-866b",
+      "char": "虫",
+      "word": "虫",
+      "hint": "小小虫子",
+      "text": "虫，小小虫子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "042-86d9",
+      "char": "蛙",
+      "word": "蛙",
+      "hint": "呱呱青蛙",
+      "text": "蛙，呱呱青蛙。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "043-718a",
+      "char": "熊",
+      "word": "熊",
+      "hint": "憨憨小熊",
+      "text": "熊，憨憨小熊。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "044-732a",
+      "char": "猪",
+      "word": "猪",
+      "hint": "胖胖小猪",
+      "text": "猪，胖胖小猪。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "045-7334",
+      "char": "猴",
+      "word": "猴",
+      "hint": "机灵猴子",
+      "text": "猴，机灵猴子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "046-9f99",
+      "char": "龙",
+      "word": "龙",
+      "hint": "神气巨龙",
+      "text": "龙，神气巨龙。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "047-86c7",
+      "char": "蛇",
+      "word": "蛇",
+      "hint": "弯弯小蛇",
+      "text": "蛇，弯弯小蛇。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "048-9e7f",
+      "char": "鹿",
+      "word": "鹿",
+      "hint": "美丽小鹿",
+      "text": "鹿，美丽小鹿。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "049-9f9f",
+      "char": "龟",
+      "word": "龟",
+      "hint": "慢慢乌龟",
+      "text": "龟，慢慢乌龟。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "050-9cb8",
+      "char": "鲸",
+      "word": "鲸",
+      "hint": "巨大鲸鱼",
+      "text": "鲸，巨大鲸鱼。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "051-9e70",
+      "char": "鹰",
+      "word": "鹰",
+      "hint": "翱翔老鹰",
+      "text": "鹰，翱翔老鹰。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "052-9e45",
+      "char": "鹅",
+      "word": "鹅",
+      "hint": "白白大鹅",
+      "text": "鹅，白白大鹅。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "053-72fc",
+      "char": "狼",
+      "word": "狼",
+      "hint": "嗷呜野狼",
+      "text": "狼，嗷呜野狼。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "054-72d0",
+      "char": "狐",
+      "word": "狐",
+      "hint": "狡猾狐狸",
+      "text": "狐，狡猾狐狸。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "055-9f20",
+      "char": "鼠",
+      "word": "鼠",
+      "hint": "机灵小鼠",
+      "text": "鼠，机灵小鼠。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "056-71d5",
+      "char": "燕",
+      "word": "燕",
+      "hint": "春天燕子",
+      "text": "燕，春天燕子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "057-624b",
+      "char": "手",
+      "word": "手",
+      "hint": "一双小手",
+      "text": "手，一双小手。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "058-811a",
+      "char": "脚",
+      "word": "脚",
+      "hint": "小脚丫子",
+      "text": "脚，小脚丫子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "059-5934",
+      "char": "头",
+      "word": "头",
+      "hint": "圆圆的头",
+      "text": "头，圆圆的头。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "060-773c",
+      "char": "眼",
+      "word": "眼",
+      "hint": "明亮眼睛",
+      "text": "眼，明亮眼睛。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "061-8033",
+      "char": "耳",
+      "word": "耳",
+      "hint": "两只耳朵",
+      "text": "耳，两只耳朵。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "062-53e3",
+      "char": "口",
+      "word": "口",
+      "hint": "小小嘴巴",
+      "text": "口，小小嘴巴。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "063-9f3b",
+      "char": "鼻",
+      "word": "鼻",
+      "hint": "高高鼻子",
+      "text": "鼻，高高鼻子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "064-7259",
+      "char": "牙",
+      "word": "牙",
+      "hint": "洁白牙齿",
+      "text": "牙，洁白牙齿。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "065-820c",
+      "char": "舌",
+      "word": "舌",
+      "hint": "小小舌头",
+      "text": "舌，小小舌头。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "066-5fc3",
+      "char": "心",
+      "word": "心",
+      "hint": "一颗爱心",
+      "text": "心，一颗爱心。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "067-8138",
+      "char": "脸",
+      "word": "脸",
+      "hint": "可爱脸蛋",
+      "text": "脸，可爱脸蛋。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "068-7709",
+      "char": "眉",
+      "word": "眉",
+      "hint": "弯弯眉毛",
+      "text": "眉，弯弯眉毛。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "069-53d1",
+      "char": "发",
+      "word": "发",
+      "hint": "头发飘飘",
+      "text": "发，头发的发，头发飘飘。",
+      "pronunciation": "fa4",
+      "pilot": true
+    },
+    {
+      "id": "070-6307",
+      "char": "指",
+      "word": "指",
+      "hint": "手指点点",
+      "text": "指，手指点点。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "071-7c73",
+      "char": "米",
+      "word": "米",
+      "hint": "白白的米",
+      "text": "米，白白的米。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "072-996d",
+      "char": "饭",
+      "word": "饭",
+      "hint": "香香米饭",
+      "text": "饭，香香米饭。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "073-83dc",
+      "char": "菜",
+      "word": "菜",
+      "hint": "新鲜蔬菜",
+      "text": "菜，新鲜蔬菜。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "074-679c",
+      "char": "果",
+      "word": "果",
+      "hint": "甜甜水果",
+      "text": "果，甜甜水果。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "075-74dc",
+      "char": "瓜",
+      "word": "瓜",
+      "hint": "圆圆西瓜",
+      "text": "瓜，圆圆西瓜。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "076-8c46",
+      "char": "豆",
+      "word": "豆",
+      "hint": "颗颗豆子",
+      "text": "豆，颗颗豆子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "077-8089",
+      "char": "肉",
+      "word": "肉",
+      "hint": "一块肉肉",
+      "text": "肉，一块肉肉。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "078-86cb",
+      "char": "蛋",
+      "word": "蛋",
+      "hint": "圆圆鸡蛋",
+      "text": "蛋，圆圆鸡蛋。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "079-5976",
+      "char": "奶",
+      "word": "奶",
+      "hint": "一杯牛奶",
+      "text": "奶，一杯牛奶。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "080-7cd6",
+      "char": "糖",
+      "word": "糖",
+      "hint": "甜甜糖果",
+      "text": "糖，甜甜糖果。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "081-9762",
+      "char": "面",
+      "word": "面",
+      "hint": "一碗面条",
+      "text": "面，一碗面条。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "082-997c",
+      "char": "饼",
+      "word": "饼",
+      "hint": "香香饼干",
+      "text": "饼，香香饼干。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "083-5305",
+      "char": "包",
+      "word": "包",
+      "hint": "软软面包",
+      "text": "包，软软面包。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "084-7cd5",
+      "char": "糕",
+      "word": "糕",
+      "hint": "美味蛋糕",
+      "text": "糕，美味蛋糕。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "085-6843",
+      "char": "桃",
+      "word": "桃",
+      "hint": "甜蜜桃子",
+      "text": "桃，甜蜜桃子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "086-68a8",
+      "char": "梨",
+      "word": "梨",
+      "hint": "清脆梨子",
+      "text": "梨，清脆梨子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "087-674f",
+      "char": "杏",
+      "word": "杏",
+      "hint": "金黄杏子",
+      "text": "杏，金黄杏子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "088-6885",
+      "char": "梅",
+      "word": "梅",
+      "hint": "傲雪梅花",
+      "text": "梅，傲雪梅花。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "089-7238",
+      "char": "爸",
+      "word": "爸",
+      "hint": "爸爸",
+      "text": "爸，爸爸。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "090-5988",
+      "char": "妈",
+      "word": "妈",
+      "hint": "妈妈",
+      "text": "妈，妈妈。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "091-7237",
+      "char": "爷",
+      "word": "爷",
+      "hint": "爷爷",
+      "text": "爷，爷爷。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "092-5a46",
+      "char": "婆",
+      "word": "婆",
+      "hint": "慈祥外婆",
+      "text": "婆，慈祥外婆。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "093-54e5",
+      "char": "哥",
+      "word": "哥",
+      "hint": "哥哥",
+      "text": "哥，哥哥。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "094-59d0",
+      "char": "姐",
+      "word": "姐",
+      "hint": "姐姐",
+      "text": "姐，姐姐。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "095-5f1f",
+      "char": "弟",
+      "word": "弟",
+      "hint": "弟弟",
+      "text": "弟，弟弟。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "096-59b9",
+      "char": "妹",
+      "word": "妹",
+      "hint": "妹妹",
+      "text": "妹，妹妹。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "097-5bb6",
+      "char": "家",
+      "word": "家",
+      "hint": "温暖的家",
+      "text": "家，温暖的家。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "098-95e8",
+      "char": "门",
+      "word": "门",
+      "hint": "一扇大门",
+      "text": "门，一扇大门。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "099-7a97",
+      "char": "窗",
+      "word": "窗",
+      "hint": "明亮窗户",
+      "text": "窗，明亮窗户。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "100-4e66",
+      "char": "书",
+      "word": "书",
+      "hint": "一本好书",
+      "text": "书，一本好书。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "101-7b14",
+      "char": "笔",
+      "word": "笔",
+      "hint": "一支铅笔",
+      "text": "笔，一支铅笔。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "102-7eb8",
+      "char": "纸",
+      "word": "纸",
+      "hint": "一张白纸",
+      "text": "纸，一张白纸。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "103-684c",
+      "char": "桌",
+      "word": "桌",
+      "hint": "一张桌子",
+      "text": "桌，一张桌子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "104-6905",
+      "char": "椅",
+      "word": "椅",
+      "hint": "一把椅子",
+      "text": "椅，一把椅子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "105-5e8a",
+      "char": "床",
+      "word": "床",
+      "hint": "温暖小床",
+      "text": "床，温暖小床。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "106-706f",
+      "char": "灯",
+      "word": "灯",
+      "hint": "明亮灯光",
+      "text": "灯，明亮灯光。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "107-676f",
+      "char": "杯",
+      "word": "杯",
+      "hint": "一个杯子",
+      "text": "杯，一个杯子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "108-7897",
+      "char": "碗",
+      "word": "碗",
+      "hint": "一只小碗",
+      "text": "碗，一只小碗。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "109-52fa",
+      "char": "勺",
+      "word": "勺",
+      "hint": "一把勺子",
+      "text": "勺，一把勺子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "110-8f66",
+      "char": "车",
+      "word": "车",
+      "hint": "一辆汽车",
+      "text": "车，一辆汽车。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "111-8239",
+      "char": "船",
+      "word": "船",
+      "hint": "一艘小船",
+      "text": "船，一艘小船。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "112-7403",
+      "char": "球",
+      "word": "球",
+      "hint": "圆圆皮球",
+      "text": "球，圆圆皮球。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "113-4f1e",
+      "char": "伞",
+      "word": "伞",
+      "hint": "一把雨伞",
+      "text": "伞，一把雨伞。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "114-949f",
+      "char": "钟",
+      "word": "钟",
+      "hint": "滴答时钟",
+      "text": "钟，滴答时钟。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "115-955c",
+      "char": "镜",
+      "word": "镜",
+      "hint": "一面镜子",
+      "text": "镜，一面镜子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "116-7bb1",
+      "char": "箱",
+      "word": "箱",
+      "hint": "一个箱子",
+      "text": "箱，一个箱子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "117-5e3d",
+      "char": "帽",
+      "word": "帽",
+      "hint": "一顶帽子",
+      "text": "帽，一顶帽子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "118-978b",
+      "char": "鞋",
+      "word": "鞋",
+      "hint": "一双鞋子",
+      "text": "鞋，一双鞋子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "119-8863",
+      "char": "衣",
+      "word": "衣",
+      "hint": "一件衣服",
+      "text": "衣，一件衣服。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "120-94c3",
+      "char": "铃",
+      "word": "铃",
+      "hint": "清脆铃铛",
+      "text": "铃，清脆铃铛。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "121-7434",
+      "char": "琴",
+      "word": "琴",
+      "hint": "一架钢琴",
+      "text": "琴，一架钢琴。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "122-7ea2",
+      "char": "红",
+      "word": "红",
+      "hint": "红红的",
+      "text": "红，红红的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "123-767d",
+      "char": "白",
+      "word": "白",
+      "hint": "白白的",
+      "text": "白，白白的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "124-9ed1",
+      "char": "黑",
+      "word": "黑",
+      "hint": "黑黑的",
+      "text": "黑，黑黑的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "125-9ec4",
+      "char": "黄",
+      "word": "黄",
+      "hint": "黄黄的",
+      "text": "黄，黄黄的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "126-84dd",
+      "char": "蓝",
+      "word": "蓝",
+      "hint": "蓝蓝的",
+      "text": "蓝，蓝蓝的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "127-7eff",
+      "char": "绿",
+      "word": "绿",
+      "hint": "绿绿的",
+      "text": "绿，绿绿的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "128-5927",
+      "char": "大",
+      "word": "大",
+      "hint": "大大的",
+      "text": "大，大大的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "129-5c0f",
+      "char": "小",
+      "word": "小",
+      "hint": "小小的",
+      "text": "小，小小的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "130-957f",
+      "char": "长",
+      "word": "长",
+      "hint": "长长的",
+      "text": "长，长短的长，长长的。",
+      "pronunciation": "chang2",
+      "pilot": true
+    },
+    {
+      "id": "131-77ed",
+      "char": "短",
+      "word": "短",
+      "hint": "短短的",
+      "text": "短，短短的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "132-5706",
+      "char": "圆",
+      "word": "圆",
+      "hint": "圆圆的",
+      "text": "圆，圆圆的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "133-65b9",
+      "char": "方",
+      "word": "方",
+      "hint": "方方的",
+      "text": "方，方方的。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "134-4e00",
+      "char": "一",
+      "word": "一",
+      "hint": "一个",
+      "text": "一，一个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "135-4e8c",
+      "char": "二",
+      "word": "二",
+      "hint": "二个",
+      "text": "二，二个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "136-4e09",
+      "char": "三",
+      "word": "三",
+      "hint": "三个",
+      "text": "三，三个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "137-56db",
+      "char": "四",
+      "word": "四",
+      "hint": "四个",
+      "text": "四，四个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "138-4e94",
+      "char": "五",
+      "word": "五",
+      "hint": "五个",
+      "text": "五，五个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "139-516d",
+      "char": "六",
+      "word": "六",
+      "hint": "六个",
+      "text": "六，六个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "140-4e03",
+      "char": "七",
+      "word": "七",
+      "hint": "七个",
+      "text": "七，七个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "141-516b",
+      "char": "八",
+      "word": "八",
+      "hint": "八个",
+      "text": "八，八个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "142-4e5d",
+      "char": "九",
+      "word": "九",
+      "hint": "九个",
+      "text": "九，九个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "143-5341",
+      "char": "十",
+      "word": "十",
+      "hint": "十个",
+      "text": "十，十个。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "144-767e",
+      "char": "百",
+      "word": "百",
+      "hint": "一百",
+      "text": "百，一百。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "145-524d",
+      "char": "前",
+      "word": "前",
+      "hint": "前面",
+      "text": "前，前面。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "146-540e",
+      "char": "后",
+      "word": "后",
+      "hint": "后面",
+      "text": "后，后面。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "147-5de6",
+      "char": "左",
+      "word": "左",
+      "hint": "左边",
+      "text": "左，左边。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "148-53f3",
+      "char": "右",
+      "word": "右",
+      "hint": "右边",
+      "text": "右，右边。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "149-91cc",
+      "char": "里",
+      "word": "里",
+      "hint": "里面",
+      "text": "里，里面。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "150-5916",
+      "char": "外",
+      "word": "外",
+      "hint": "外面",
+      "text": "外，外面。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "151-4e0a",
+      "char": "上",
+      "word": "上",
+      "hint": "上面",
+      "text": "上，上面。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "152-4e0b",
+      "char": "下",
+      "word": "下",
+      "hint": "下面",
+      "text": "下，下面。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "153-529b",
+      "char": "力",
+      "word": "力",
+      "hint": "力气",
+      "text": "力，力气。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "154-738b",
+      "char": "王",
+      "word": "王",
+      "hint": "国王",
+      "text": "王，国王。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "155-7389",
+      "char": "玉",
+      "word": "玉",
+      "hint": "美玉",
+      "text": "玉，美玉。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "156-91d1",
+      "char": "金",
+      "word": "金",
+      "hint": "金子",
+      "text": "金，金子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "157-97f3",
+      "char": "音",
+      "word": "音",
+      "hint": "音乐",
+      "text": "音，音乐。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "158-753b",
+      "char": "画",
+      "word": "画",
+      "hint": "一幅画",
+      "text": "画，一幅画。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "159-6b4c",
+      "char": "歌",
+      "word": "歌",
+      "hint": "一首歌",
+      "text": "歌，一首歌。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "160-821e",
+      "char": "舞",
+      "word": "舞",
+      "hint": "跳舞",
+      "text": "舞，跳舞。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "161-98de",
+      "char": "飞",
+      "word": "飞鸟",
+      "hint": "鸟儿飞翔",
+      "text": "飞，飞鸟，鸟儿飞翔。",
+      "pronunciation": null,
+      "pilot": true
+    },
+    {
+      "id": "162-6e38",
+      "char": "游",
+      "word": "游泳",
+      "hint": "快乐游泳",
+      "text": "游，游泳，快乐游泳。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "163-8dd1",
+      "char": "跑",
+      "word": "跑步",
+      "hint": "快快跑步",
+      "text": "跑，跑步，快快跑步。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "164-5403",
+      "char": "吃",
+      "word": "吃饭",
+      "hint": "好好吃饭",
+      "text": "吃，吃饭，好好吃饭。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "165-559d",
+      "char": "喝",
+      "word": "喝水",
+      "hint": "咕咚喝水",
+      "text": "喝，喝水，咕咚喝水。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "166-770b",
+      "char": "看",
+      "word": "看书",
+      "hint": "认真看书",
+      "text": "看，看书，认真看书。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "167-7b11",
+      "char": "笑",
+      "word": "笑脸",
+      "hint": "开心笑脸",
+      "text": "笑，笑脸，开心笑脸。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "168-54ed",
+      "char": "哭",
+      "word": "哭泣",
+      "hint": "伤心哭泣",
+      "text": "哭，哭泣，伤心哭泣。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "169-8d70",
+      "char": "走",
+      "word": "走路",
+      "hint": "慢慢走路",
+      "text": "走，走路，慢慢走路。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "170-8df3",
+      "char": "跳",
+      "word": "跳跃",
+      "hint": "快乐跳跃",
+      "text": "跳，跳跃，快乐跳跃。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "171-5750",
+      "char": "坐",
+      "word": "坐下",
+      "hint": "请坐下",
+      "text": "坐，坐下，请坐下。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "172-7ad9",
+      "char": "站",
+      "word": "站立",
+      "hint": "站起来",
+      "text": "站，站立，站起来。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "173-62ff",
+      "char": "拿",
+      "word": "拿笔",
+      "hint": "拿起笔",
+      "text": "拿，拿笔，拿起笔。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "174-653e",
+      "char": "放",
+      "word": "放下",
+      "hint": "放下来",
+      "text": "放，放下，放下来。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "175-5f00",
+      "char": "开",
+      "word": "开门",
+      "hint": "打开门",
+      "text": "开，开门，打开门。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "176-5173",
+      "char": "关",
+      "word": "关窗",
+      "hint": "关窗户",
+      "text": "关，关窗，关窗户。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "177-542c",
+      "char": "听",
+      "word": "听歌",
+      "hint": "仔细听",
+      "text": "听，听歌，仔细听。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "178-8bf4",
+      "char": "说",
+      "word": "说话",
+      "hint": "大声说",
+      "text": "说，说话，大声说。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "179-8bfb",
+      "char": "读",
+      "word": "读书",
+      "hint": "大声读",
+      "text": "读，读书，大声读。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "180-5199",
+      "char": "写",
+      "word": "写字",
+      "hint": "学写字",
+      "text": "写，写字，学写字。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "181-5531",
+      "char": "唱",
+      "word": "唱歌",
+      "hint": "快乐唱",
+      "text": "唱，唱歌，快乐唱。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "182-62b1",
+      "char": "抱",
+      "word": "拥抱",
+      "hint": "温暖拥抱",
+      "text": "抱，拥抱，温暖拥抱。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "183-62c9",
+      "char": "拉",
+      "word": "拉手",
+      "hint": "拉拉手",
+      "text": "拉，拉手，拉拉手。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "184-63a8",
+      "char": "推",
+      "word": "推车",
+      "hint": "推车子",
+      "text": "推，推车，推车子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "185-6d17",
+      "char": "洗",
+      "word": "洗手",
+      "hint": "洗干净",
+      "text": "洗，洗手，洗干净。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "186-5237",
+      "char": "刷",
+      "word": "刷牙",
+      "hint": "刷牙齿",
+      "text": "刷，刷牙，刷牙齿。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "187-626b",
+      "char": "扫",
+      "word": "扫地",
+      "hint": "扫干净",
+      "text": "扫，扫地，扫干净。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "188-7a7f",
+      "char": "穿",
+      "word": "穿衣",
+      "hint": "穿衣服",
+      "text": "穿，穿衣，穿衣服。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "189-8131",
+      "char": "脱",
+      "word": "脱鞋",
+      "hint": "脱鞋子",
+      "text": "脱，脱鞋，脱鞋子。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "190-7761",
+      "char": "睡",
+      "word": "睡觉",
+      "hint": "安心睡",
+      "text": "睡，睡觉，安心睡。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "191-9192",
+      "char": "醒",
+      "word": "醒来",
+      "hint": "快醒来",
+      "text": "醒，醒来，快醒来。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "192-6765",
+      "char": "来",
+      "word": "过来",
+      "hint": "快快过来",
+      "text": "来，过来，快快过来。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "193-53bb",
+      "char": "去",
+      "word": "出去",
+      "hint": "出去玩",
+      "text": "去，出去，出去玩。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "194-7ed9",
+      "char": "给",
+      "word": "给予",
+      "hint": "送礼物",
+      "text": "给，给你的给，送礼物。",
+      "pronunciation": "gei3",
+      "pilot": true
+    },
+    {
+      "id": "195-6253",
+      "char": "打",
+      "word": "打球",
+      "hint": "打皮球",
+      "text": "打，打球，打皮球。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "196-62cd",
+      "char": "拍",
+      "word": "拍手",
+      "hint": "拍拍手",
+      "text": "拍，拍手，拍拍手。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "197-5439",
+      "char": "吹",
+      "word": "吹气",
+      "hint": "吹泡泡",
+      "text": "吹，吹气，吹泡泡。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "198-54ac",
+      "char": "咬",
+      "word": "咬果",
+      "hint": "咬一口",
+      "text": "咬，咬果，咬一口。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "199-95fb",
+      "char": "闻",
+      "word": "闻花",
+      "hint": "闻花香",
+      "text": "闻，闻花，闻花香。",
+      "pronunciation": null,
+      "pilot": false
+    },
+    {
+      "id": "200-60f3",
+      "char": "想",
+      "word": "思考",
+      "hint": "想一想",
+      "text": "想，思考，想一想。",
+      "pronunciation": null,
+      "pilot": false
+    }
+  ]
+}

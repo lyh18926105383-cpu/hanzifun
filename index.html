@@ -69,6 +69,15 @@
             <span class="logo-icon">✏️</span>
         </div>
         <p class="subtitle">翻一翻 · 认一认 · 快乐学汉字</p>
+        <a class="story-entry" href="story.html">
+            <span class="story-entry-icon" aria-hidden="true">🐱</span>
+            <span class="story-entry-copy">
+                <strong>故事学汉字</strong>
+                <small>新课体验：小猫看鱼 · 5个字</small>
+            </span>
+            <span class="story-entry-arrow" aria-hidden="true">›</span>
+        </a>
+        <p class="mode-divider"><span>或者继续用字卡学习</span></p>
         <div class="btn-grid">
             <button class="start-btn easy" data-count="5">
                 <span class="btn-emoji">🌟</span>5个字<span class="btn-label">轻松学</span>
@@ -98,10 +107,11 @@
     <!-- ============ 学习页面（初始隐藏） ============ -->
     <div class="learn-screen" id="learnScreen">
         <div class="header">
-            <span style="position:relative;display:flex;align-items:center;gap:8px;">
+            <div class="learn-toolbar">
                 <button class="back-btn" id="btnBackToStart" title="返回首页">🏠</button>
                 <span class="title">📚 汉字启蒙卡片 ✏️</span>
-            </span>
+                <button class="sound-toggle-button" id="btnSoundToggle" type="button" aria-label="关闭声音" aria-pressed="true" title="关闭声音">🔊</button>
+            </div>
         </div>
 
         <div class="progress-area">
@@ -128,6 +138,7 @@
                     <span class="image-display" id="imageDisplay">🏔️</span>
                     <span class="word-label" id="wordLabel">山</span>
                     <span class="hint-text" id="hintText">看图识字</span>
+                    <button class="replay-button" id="btnReplay" type="button" aria-label="重新播放读音" title="重新播放读音">↻</button>
                 </div>
             </div>
         </div>
@@ -199,6 +210,8 @@
 
     <script src="characters.js"></script>
     <script src="storage.js"></script>
+    <script src="tts-corpus.js"></script>
+    <script src="audio.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
