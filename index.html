@@ -97,6 +97,9 @@
             left: 16px;
             top: 0;
         }
+        .site-header.learning-hidden {
+            display: none;
+        }
         .site-logo {
             width: 50px;
             height: 50px;
@@ -1084,7 +1087,7 @@
     <!-- 页面头部 -->
     <header class="site-header">
         <img class="site-logo" src="工具头像.png" alt="汉字饭logo">
-        <span class="site-title"><span class="site-title-line1">汉字饭 hanzifan</span><span class="site-title-line2">3-6岁趣味学汉字</span></span>
+        <span class="site-title"><span class="site-title-line1">汉字饭 hanzifun</span><span class="site-title-line2">3-6岁趣味学汉字</span></span>
     </header>
 
     <!-- 背景装饰 -->
@@ -1193,10 +1196,9 @@
             var header = document.querySelector('.site-header');
             var startScreen = document.querySelector('.start-screen');
             if (!header || !startScreen) return;
-            if (startScreen.classList.contains('hidden')) {
-                header.style.top = '16px';
-                return;
-            }
+            var learningActive = startScreen.classList.contains('hidden');
+            header.classList.toggle('learning-hidden', learningActive);
+            if (learningActive) return;
             var startTop = startScreen.getBoundingClientRect().top;
             var headerHeight = header.offsetHeight;
             header.style.top = Math.max(0, (startTop - headerHeight) / 2) + 'px';
@@ -1302,7 +1304,7 @@
                 { char: '爸', type: 'noun', word: '爸', emoji: '👨', hint: '爸爸' },
                 { char: '妈', type: 'noun', word: '妈', emoji: '👩', hint: '妈妈' },
                 { char: '爷', type: 'noun', word: '爷', emoji: '👴', hint: '爷爷' },
-                { char: '奶', type: 'noun', word: '奶', emoji: '👵', hint: '奶奶' },
+                { char: '婆', type: 'noun', word: '婆', emoji: '👵', hint: '慈祥外婆' },
                 { char: '哥', type: 'noun', word: '哥', emoji: '👦', hint: '哥哥' },
                 { char: '姐', type: 'noun', word: '姐', emoji: '👧', hint: '姐姐' },
                 { char: '弟', type: 'noun', word: '弟', emoji: '👦', hint: '弟弟' },
@@ -1496,14 +1498,20 @@
                 if (currentCards.length === 0) return;
                 const totalFamiliar = familiarStatus.filter(s => s === true).length;
                 const totalUnfamiliar = familiarStatus.filter(s => s === false).length;
-                const totalNull = familiarStatus.filter(s => s === null).length;
-                const total = currentCards.length;
-                const progressPercent = Math.min(100, Math.max(0, (totalFamiliar / total) * 100));
+                const activeIndices = isReviewMode
+                    ? reviewQueue
+                    : currentCards.map((_, idx) => idx);
+                const total = activeIndices.length;
+                const completed = activeIndices.filter(idx => familiarStatus[idx] !== null).length;
+                const remaining = total - completed;
+                const progressPercent = total === 0
+                    ? 0
+                    : Math.min(100, Math.max(0, (completed / total) * 100));
                 progressBar.style.width = progressPercent + '%';
-                progressText.textContent = totalFamiliar + ' / ' + total;
+                progressText.textContent = completed + ' / ' + total;
                 familiarCountEl.textContent = totalFamiliar;
                 unfamiliarCountEl.textContent = totalUnfamiliar;
-                remainingCountEl.textContent = totalNull;
+                remainingCountEl.textContent = remaining;
             }
 
             function updateButtonLabels() {
@@ -1567,31 +1575,20 @@
                 if (isAnimating) return;
                 if (currentCards.length === 0) return;
 
-                const nullCount = familiarStatus.filter(s => s === null).length;
-                const falseCount = familiarStatus.filter(s => s === false).length;
-                if (nullCount === 0 && falseCount === 0) {
+                const activeIndices = isReviewMode
+                    ? reviewQueue
+                    : currentCards.map((_, idx) => idx);
+                const currentPosition = activeIndices.indexOf(currentIndex);
+                const laterUnassessed = activeIndices
+                    .slice(currentPosition + 1)
+                    .find(idx => familiarStatus[idx] === null);
+                const nextIndex = laterUnassessed !== undefined
+                    ? laterUnassessed
+                    : activeIndices.find(idx => familiarStatus[idx] === null);
+
+                if (nextIndex === undefined) {
                     showSummary();
                     return;
-                }
-
-                let nextIndex;
-                if (isReviewMode) {
-                    const remaining = reviewQueue.filter(idx =>
-                        familiarStatus[idx] === null || familiarStatus[idx] === false
-                    );
-                    if (remaining.length === 0) { showSummary(); return; }
-                    const curPos = remaining.indexOf(currentIndex);
-                    nextIndex = (curPos >= 0 && curPos < remaining.length - 1) ? remaining[curPos + 1] : remaining[
-                        0];
-                } else {
-                    const candidates = [];
-                    familiarStatus.forEach((status, idx) => {
-                        if (status === null || status === false) candidates.push(idx);
-                    });
-                    if (candidates.length === 0) { showSummary(); return; }
-                    const curPos = candidates.indexOf(currentIndex);
-                    nextIndex = (curPos >= 0 && curPos < candidates.length - 1) ? candidates[curPos + 1] :
-                        candidates[0];
                 }
 
                 if (isFlipped) {
