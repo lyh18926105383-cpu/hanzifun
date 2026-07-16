@@ -14,6 +14,13 @@
         return result;
     }
 
+    function getEqualSceneIndex(sceneCount, currentTime, duration) {
+        if (!Number.isInteger(sceneCount) || sceneCount <= 0) return -1;
+        if (!Number.isFinite(duration) || duration <= 0) return 0;
+        const progress = Math.max(0, Math.min(0.999999, Number(currentTime) / duration));
+        return Math.min(sceneCount - 1, Math.floor(progress * sceneCount));
+    }
+
     function saveStoryResult(storage, result) {
         if (!storage || typeof storage.getItem !== 'function' || typeof storage.setItem !== 'function') return false;
         try {
@@ -28,7 +35,12 @@
         }
     }
 
-    return { STORY_STORAGE_KEY, getSceneIndexAtTime, saveStoryResult };
+    return {
+        STORY_STORAGE_KEY,
+        getSceneIndexAtTime,
+        getEqualSceneIndex,
+        saveStoryResult,
+    };
 });
 
 (function() {
@@ -48,13 +60,15 @@
     };
     const stepNames = ['intro', 'story', 'practice', 'quiz'];
     const storySentence = document.getElementById('storySentence');
-    const sceneImage = document.getElementById('sceneImage');
+    const sceneImages = document.getElementById('sceneImages');
     const sceneFallback = document.getElementById('sceneFallback');
     const sceneCaption = document.getElementById('sceneCaption');
     const focusRow = document.getElementById('focusRow');
     const startPracticeButton = document.getElementById('startPracticeButton');
+    const replayQuizButton = document.getElementById('replayQuizButton');
     const soundButton = document.getElementById('soundButton');
     const toast = document.getElementById('storyToast');
+    const voicePlayer = document.getElementById('voicePlayer');
     let soundEnabled = true;
     let activeAudio = null;
     let animationFrame = null;
@@ -65,6 +79,25 @@
     let correctAnswers = 0;
     let storyComplete = false;
     let lessonStartedAt = Date.now();
+    const initialSceneLayers = Array.from(sceneImages.querySelectorAll('.scene-image'));
+    const sceneLayers = lesson.scenes.map((scene, index) => {
+        const image = initialSceneLayers[index] || document.createElement('img');
+        image.className = 'scene-image';
+        image.alt = scene.alt;
+        image.decoding = 'async';
+        image.dataset.sceneIndex = String(index);
+        image.addEventListener('load', () => {
+            image.dataset.ready = 'true';
+            if (currentSceneIndex === index) sceneFallback.hidden = true;
+        });
+        image.addEventListener('error', () => {
+            image.dataset.ready = 'false';
+            if (currentSceneIndex === index) sceneFallback.hidden = false;
+        });
+        if (image.getAttribute('src') !== scene.image) image.src = scene.image;
+        if (!image.parentElement) sceneImages.appendChild(image);
+        return image;
+    });
 
     function renderTargets(container, focusedChars = []) {
         container.replaceChildren();
@@ -108,37 +141,40 @@
         window.setTimeout(() => toast.classList.remove('show'), 1600);
     }
 
-    function stopNarration() {
+    function stopVoice() {
         if (activeAudio) {
+            activeAudio.onended = null;
+            activeAudio.onerror = null;
             activeAudio.pause();
-            activeAudio.currentTime = 0;
+            try {
+                activeAudio.currentTime = 0;
+            } catch (error) {
+                // 音频尚未载入时无需重置播放位置。
+            }
             activeAudio = null;
         }
+        window.speechSynthesis?.cancel();
+    }
+
+    function stopNarration() {
+        stopVoice();
         if (animationFrame) cancelAnimationFrame(animationFrame);
         animationFrame = null;
         cueTimers.forEach(clearTimeout);
         cueTimers = [];
-        window.speechSynthesis?.cancel();
     }
 
     function renderScene(index) {
         if (index < 0 || index >= lesson.scenes.length || index === currentSceneIndex) return;
         currentSceneIndex = index;
         const scene = lesson.scenes[index];
-        sceneImage.classList.remove('loaded');
-        sceneImage.alt = scene.alt;
-        sceneImage.src = scene.image;
+        sceneLayers.forEach((image, layerIndex) => {
+            image.classList.toggle('active', layerIndex === index);
+        });
         sceneFallback.textContent = scene.fallbackEmoji;
-        sceneFallback.hidden = false;
-        sceneImage.onload = () => {
-            sceneImage.classList.add('loaded');
-            sceneFallback.hidden = true;
-        };
-        sceneImage.onerror = () => {
-            sceneImage.removeAttribute('src');
-            sceneImage.classList.remove('loaded');
-            sceneFallback.hidden = false;
-        };
+        const activeLayer = sceneLayers[index];
+        sceneFallback.hidden = activeLayer.dataset.ready === 'true'
+            || (activeLayer.complete && activeLayer.naturalWidth > 0);
         sceneCaption.textContent = scene.caption;
         focusRow.replaceChildren();
         scene.focusChars.forEach(char => {
@@ -151,6 +187,7 @@
     }
 
     function finishStory() {
+        activeAudio = null;
         storyComplete = true;
         startPracticeButton.disabled = false;
         startPracticeButton.textContent = '跟着读一读 →';
@@ -159,14 +196,23 @@
 
     function monitorAudio() {
         if (!activeAudio) return;
-        renderScene(helpers.getSceneIndexAtTime(lesson.scenes, activeAudio.currentTime));
+        const sceneIndex = helpers.getEqualSceneIndex(
+            lesson.scenes.length,
+            activeAudio.currentTime,
+            activeAudio.duration
+        );
+        renderScene(sceneIndex);
         if (!activeAudio.paused && !activeAudio.ended) animationFrame = requestAnimationFrame(monitorAudio);
+    }
+
+    function playSilentTimeline() {
+        lesson.scenes.forEach((scene, index) => cueTimers.push(setTimeout(() => renderScene(index), scene.startAt * 1000)));
+        cueTimers.push(setTimeout(finishStory, lesson.fallbackDuration * 1000));
     }
 
     function playSpeechFallback() {
         if (!window.speechSynthesis || typeof SpeechSynthesisUtterance === 'undefined') {
-            lesson.scenes.forEach((scene, index) => cueTimers.push(setTimeout(() => renderScene(index), scene.startAt * 1000)));
-            cueTimers.push(setTimeout(finishStory, lesson.fallbackDuration * 1000));
+            playSilentTimeline();
             return;
         }
         const utterance = new SpeechSynthesisUtterance(lesson.storyText);
@@ -179,7 +225,13 @@
             finishStory();
         };
         utterance.onend = finishSpeechFallback;
-        utterance.onerror = finishSpeechFallback;
+        utterance.onerror = () => {
+            cueTimers.forEach(clearTimeout);
+            cueTimers = [];
+            currentSceneIndex = -1;
+            renderScene(0);
+            playSilentTimeline();
+        };
         lesson.scenes.forEach((scene, index) => cueTimers.push(setTimeout(() => renderScene(index), scene.startAt * 1000)));
         window.speechSynthesis.speak(utterance);
     }
@@ -192,28 +244,65 @@
         startPracticeButton.textContent = '正在听故事…';
         renderScene(0);
         if (!soundEnabled) {
-            lesson.scenes.forEach((scene, index) => cueTimers.push(setTimeout(() => renderScene(index), scene.startAt * 1000)));
-            cueTimers.push(setTimeout(finishStory, lesson.fallbackDuration * 1000));
+            playSilentTimeline();
             return;
         }
         if (!lesson.narrationAudio) {
             playSpeechFallback();
             return;
         }
-        const audio = new Audio(lesson.narrationAudio);
-        activeAudio = audio;
-        audio.onended = finishStory;
-        audio.onerror = playSpeechFallback;
-        audio.play().then(monitorAudio).catch(playSpeechFallback);
+        voicePlayer.src = lesson.narrationAudio;
+        activeAudio = voicePlayer;
+        voicePlayer.onended = finishStory;
+        voicePlayer.onerror = () => {
+            activeAudio = null;
+            playSpeechFallback();
+        };
+        voicePlayer.play().then(monitorAudio).catch(() => {
+            activeAudio = null;
+            playSpeechFallback();
+        });
     }
 
-    function speak(text) {
-        if (!soundEnabled || !window.speechSynthesis || typeof SpeechSynthesisUtterance === 'undefined') return;
+    function speakFallback(text, onEnded) {
+        if (!window.speechSynthesis || typeof SpeechSynthesisUtterance === 'undefined') {
+            onEnded?.();
+            return;
+        }
         window.speechSynthesis.cancel();
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = 'zh-CN';
         utterance.rate = 0.75;
+        utterance.onend = () => onEnded?.();
+        utterance.onerror = () => onEnded?.();
         window.speechSynthesis.speak(utterance);
+    }
+
+    function speak(text, audioUrl = '', onEnded) {
+        if (!soundEnabled) {
+            onEnded?.();
+            return;
+        }
+        stopVoice();
+        if (!audioUrl) {
+            speakFallback(text, onEnded);
+            return;
+        }
+        let fallbackStarted = false;
+        const startFallback = () => {
+            if (fallbackStarted) return;
+            fallbackStarted = true;
+            activeAudio = null;
+            speakFallback(text, onEnded);
+        };
+        voicePlayer.src = audioUrl;
+        activeAudio = voicePlayer;
+        voicePlayer.onended = () => {
+            activeAudio = null;
+            onEnded?.();
+        };
+        voicePlayer.onerror = startFallback;
+        voicePlayer.play().catch(startFallback);
     }
 
     function renderPractice() {
@@ -222,7 +311,7 @@
         document.getElementById('practiceEmoji').textContent = item.emoji;
         document.getElementById('practiceChar').textContent = item.char;
         document.getElementById('practiceWord').textContent = item.word;
-        speak(item.char);
+        speak(item.char, item.audio);
     }
 
     function renderQuiz() {
@@ -241,6 +330,7 @@
             button.addEventListener('click', () => answerQuestion(button, choice));
             choices.appendChild(button);
         });
+        speak(item.prompt, item.audio);
     }
 
     function answerQuestion(button, choice) {
@@ -250,19 +340,21 @@
             void button.offsetWidth;
             button.classList.add('wrong');
             document.getElementById('quizFeedback').textContent = '再找一找，故事里见过它哦！';
-            speak('再找一找');
+            speak(
+                lesson.feedback.tryAgainText,
+                lesson.feedback.tryAgainAudio
+            );
             return;
         }
         correctAnswers += 1;
         button.classList.add('correct');
         document.querySelectorAll('.quiz-choice').forEach(itemButton => itemButton.disabled = true);
         document.getElementById('quizFeedback').textContent = '答对啦！';
-        speak(`${choice}，答对了`);
-        window.setTimeout(() => {
+        speak(item.correctText, item.correctAudio, () => {
             quizIndex += 1;
             if (quizIndex < lesson.quiz.length) renderQuiz();
             else completeLesson();
-        }, 900);
+        });
     }
 
     function completeLesson() {
@@ -278,7 +370,10 @@
             quizCorrect: correctAnswers,
             quizTotal: lesson.quiz.length,
         });
-        speak('太棒了，故事课完成啦');
+        speak(
+            lesson.feedback.completeText,
+            lesson.feedback.completeAudio
+        );
     }
 
     function resetLesson() {
@@ -309,7 +404,14 @@
         practiceIndex = 0;
         renderPractice();
     });
-    document.getElementById('hearAgainButton').addEventListener('click', () => speak(lesson.practice[practiceIndex].char));
+    document.getElementById('hearAgainButton').addEventListener('click', () => {
+        const item = lesson.practice[practiceIndex];
+        speak(item.char, item.audio);
+    });
+    replayQuizButton.addEventListener('click', () => {
+        const item = lesson.quiz[quizIndex];
+        speak(item.prompt, item.audio);
+    });
     document.getElementById('practiceDoneButton').addEventListener('click', () => {
         practiceIndex += 1;
         if (practiceIndex < lesson.practice.length) renderPractice();

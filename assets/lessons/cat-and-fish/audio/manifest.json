@@ -1,0 +1,68 @@
+{
+  "lessonId": "cat-and-fish-01",
+  "voice": "tencent-502007",
+  "speed": -1,
+  "generatedAt": "2026-07-16T13:16:02.816Z",
+  "files": [
+    {
+      "id": "story-full",
+      "text": "小猫轻轻走到池塘边，看见水里有一条小鱼。小鱼跳出水面，小猫开心地笑了。",
+      "file": "story-full.mp3"
+    },
+    {
+      "id": "story-scene-1",
+      "text": "小猫轻轻走到池塘边。",
+      "file": "story-scene-1.mp3"
+    },
+    {
+      "id": "story-scene-2",
+      "text": "小猫看见水里有一条小鱼。",
+      "file": "story-scene-2.mp3"
+    },
+    {
+      "id": "story-scene-3",
+      "text": "小鱼跳出水面，小猫开心地笑了。",
+      "file": "story-scene-3.mp3"
+    },
+    {
+      "id": "quiz-1",
+      "text": "哪一个是故事里的小动物？",
+      "file": "quiz-1.mp3"
+    },
+    {
+      "id": "quiz-2",
+      "text": "小猫在水里看见了什么？",
+      "file": "quiz-2.mp3"
+    },
+    {
+      "id": "quiz-3",
+      "text": "小猫最后怎么样了？",
+      "file": "quiz-3.mp3"
+    },
+    {
+      "id": "correct-1",
+      "text": "猫，答对了！",
+      "file": "correct-1.mp3"
+    },
+    {
+      "id": "correct-2",
+      "text": "鱼，答对了！",
+      "file": "correct-2.mp3"
+    },
+    {
+      "id": "correct-3",
+      "text": "笑，答对了！",
+      "file": "correct-3.mp3"
+    },
+    {
+      "id": "try-again",
+      "text": "再找一找，故事里见过它哦！",
+      "file": "try-again.mp3"
+    },
+    {
+      "id": "lesson-complete",
+      "text": "太棒了，故事课完成啦！",
+      "file": "course-complete-v2.mp3"
+    }
+  ]
+}
