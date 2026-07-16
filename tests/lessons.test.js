@@ -1,9 +1,17 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 
 const characters = require('../characters.js');
 const lessons = require('../lessons.js');
-const { getSceneIndexAtTime, saveStoryResult, STORY_STORAGE_KEY } = require('../story.js');
+const storyAudioManifest = require('../assets/lessons/cat-and-fish/audio/manifest.json');
+const {
+    getSceneIndexAtTime,
+    getEqualSceneIndex,
+    saveStoryResult,
+    STORY_STORAGE_KEY,
+} = require('../story.js');
 
 test('故事课包含五个有效且不重复的目标汉字', () => {
     const library = new Set(characters.map(item => item.char));
@@ -31,6 +39,33 @@ test('故事场景时间递增并覆盖全部目标字', () => {
     }
 });
 
+test('每个故事场景的插图文件都已归档', () => {
+    for (const lesson of lessons) {
+        lesson.scenes.forEach(scene => {
+            assert.ok(fs.existsSync(path.resolve(__dirname, '..', scene.image)), scene.image);
+        });
+    }
+});
+
+test('故事、跟读和找一找都使用已归档的固定语音', () => {
+    assert.equal(storyAudioManifest.voice, 'tencent-502007');
+    for (const lesson of lessons) {
+        const audioPaths = [
+            lesson.narrationAudio,
+            ...lesson.scenes.map(scene => scene.audio),
+            ...lesson.practice.map(item => item.audio),
+            ...lesson.quiz.map(question => question.audio),
+            ...lesson.quiz.map(question => question.correctAudio),
+            lesson.feedback.tryAgainAudio,
+            lesson.feedback.completeAudio,
+        ];
+        audioPaths.forEach(audioPath => {
+            assert.ok(audioPath);
+            assert.ok(fs.existsSync(path.resolve(__dirname, '..', audioPath)), audioPath);
+        });
+    }
+});
+
 test('认字题答案存在于选项中', () => {
     for (const lesson of lessons) {
         assert.ok(lesson.quiz.length >= 2);
@@ -41,9 +76,17 @@ test('认字题答案存在于选项中', () => {
 test('根据播放时间切换正确场景', () => {
     const scenes = lessons[0].scenes;
     assert.equal(getSceneIndexAtTime(scenes, 0), 0);
-    assert.equal(getSceneIndexAtTime(scenes, 3.1), 0);
-    assert.equal(getSceneIndexAtTime(scenes, 3.2), 1);
-    assert.equal(getSceneIndexAtTime(scenes, 8), 2);
+    assert.equal(getSceneIndexAtTime(scenes, 3.7), 0);
+    assert.equal(getSceneIndexAtTime(scenes, 3.8), 1);
+    assert.equal(getSceneIndexAtTime(scenes, 8.6), 2);
+});
+
+test('固定旁白按总时长等分为三个画面', () => {
+    assert.equal(getEqualSceneIndex(3, 0, 9), 0);
+    assert.equal(getEqualSceneIndex(3, 2.99, 9), 0);
+    assert.equal(getEqualSceneIndex(3, 3, 9), 1);
+    assert.equal(getEqualSceneIndex(3, 6, 9), 2);
+    assert.equal(getEqualSceneIndex(3, 9, 9), 2);
 });
 
 test('故事课结果保存在独立的本机记录中', () => {

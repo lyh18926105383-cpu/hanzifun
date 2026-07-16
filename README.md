@@ -43,6 +43,7 @@
 - `app.js`：学习流程和页面交互
 - `lessons.js`：故事课内容、分镜、跟读和认字题数据
 - `story.html` / `story.css` / `story.js`：有声动态绘本与跟读流程
+- `assets/lessons/`：故事插图、固定童声旁白和题目语音
 - `scripts/`：TTS批量生成和音频清单工具
 - `tests/`：字库、基础学习流程与本机记录测试
 
@@ -52,6 +53,12 @@
 
 ```bash
 npm test
+```
+
+使用 `.env` 中的腾讯云配置生成故事课固定语音：
+
+```bash
+npm run tts:story
 ```
 
 ## TTS 语音资源
