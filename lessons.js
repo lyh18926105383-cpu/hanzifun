@@ -62,7 +62,7 @@
                 tryAgainText: '再找一找，故事里见过它哦！',
                 tryAgainAudio: 'assets/lessons/cat-and-fish/audio/try-again.mp3',
                 completeText: '太棒了，故事课完成啦！',
-                completeAudio: 'assets/lessons/cat-and-fish/audio/lesson-complete.mp3',
+                completeAudio: 'assets/lessons/cat-and-fish/audio/course-complete-v2.mp3',
             },
             quiz: [
                 {

@@ -76,7 +76,7 @@ async function main() {
         {
             id: 'lesson-complete',
             text: lesson.feedback.completeText,
-            fileName: 'lesson-complete.mp3',
+            fileName: 'course-complete-v2.mp3',
         },
     ];
 

@@ -2,7 +2,7 @@
   "lessonId": "cat-and-fish-01",
   "voice": "tencent-502007",
   "speed": -1,
-  "generatedAt": "2026-07-16T11:36:24.210Z",
+  "generatedAt": "2026-07-16T13:16:02.816Z",
   "files": [
     {
       "id": "story-full",
@@ -62,7 +62,7 @@
     {
       "id": "lesson-complete",
       "text": "太棒了，故事课完成啦！",
-      "file": "lesson-complete.mp3"
+      "file": "course-complete-v2.mp3"
     }
   ]
 }
