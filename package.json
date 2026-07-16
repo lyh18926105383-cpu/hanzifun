@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build:site": "node scripts/build-site.js",
     "test": "node --test",
     "tts:manifest": "node scripts/build-tts-manifest.js",
     "tts:pilot": "node scripts/generate-tencent-tts.js",

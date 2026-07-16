@@ -55,6 +55,12 @@
 npm test
 ```
 
+生成Cloudflare部署所需的白名单静态目录：
+
+```bash
+npm run build:site
+```
+
 使用 `.env` 中的腾讯云配置生成故事课固定语音：
 
 ```bash
