@@ -18,6 +18,7 @@
             scenes: [
                 {
                     image: 'assets/lessons/cat-and-fish/scene-1.jpg',
+                    video: 'assets/lessons/cat-and-fish/video/scene-1.mp4',
                     audio: 'assets/lessons/cat-and-fish/audio/story-scene-1.mp3',
                     narrationText: '小猫轻轻走到池塘边。',
                     fallbackEmoji: '🐱🌿',
@@ -29,6 +30,7 @@
                 },
                 {
                     image: 'assets/lessons/cat-and-fish/scene-2.jpg',
+                    video: 'assets/lessons/cat-and-fish/video/scene-2.mp4',
                     audio: 'assets/lessons/cat-and-fish/audio/story-scene-2.mp3',
                     narrationText: '小猫看见水里有一条小鱼。',
                     fallbackEmoji: '🐱👀🐟',
@@ -40,6 +42,7 @@
                 },
                 {
                     image: 'assets/lessons/cat-and-fish/scene-3.jpg',
+                    video: 'assets/lessons/cat-and-fish/video/scene-3.mp4',
                     audio: 'assets/lessons/cat-and-fish/audio/story-scene-3.mp3',
                     narrationText: '小鱼跳出水面，小猫开心地笑了。',
                     fallbackEmoji: '🐟💦😺',

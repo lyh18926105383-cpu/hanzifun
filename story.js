@@ -35,10 +35,17 @@
         }
     }
 
+    function prefersStaticSceneMedia(matchMedia, connection) {
+        const reduceMotion = typeof matchMedia === 'function'
+            && Boolean(matchMedia('(prefers-reduced-motion: reduce)')?.matches);
+        return reduceMotion || Boolean(connection?.saveData);
+    }
+
     return {
         STORY_STORAGE_KEY,
         getSceneIndexAtTime,
         getEqualSceneIndex,
+        prefersStaticSceneMedia,
         saveStoryResult,
     };
 });
@@ -69,6 +76,10 @@
     const soundButton = document.getElementById('soundButton');
     const toast = document.getElementById('storyToast');
     const voicePlayer = document.getElementById('voicePlayer');
+    const staticSceneMedia = helpers.prefersStaticSceneMedia(
+        window.matchMedia?.bind(window),
+        window.navigator?.connection
+    );
     let soundEnabled = true;
     let activeAudio = null;
     let animationFrame = null;
@@ -88,16 +99,80 @@
         image.dataset.sceneIndex = String(index);
         image.addEventListener('load', () => {
             image.dataset.ready = 'true';
-            if (currentSceneIndex === index) sceneFallback.hidden = true;
+            updateSceneFallback(index);
         });
         image.addEventListener('error', () => {
             image.dataset.ready = 'false';
-            if (currentSceneIndex === index) sceneFallback.hidden = false;
+            updateSceneFallback(index);
         });
         if (image.getAttribute('src') !== scene.image) image.src = scene.image;
         if (!image.parentElement) sceneImages.appendChild(image);
         return image;
     });
+    const sceneVideos = lesson.scenes.map((scene, index) => {
+        if (!scene.video || staticSceneMedia) return null;
+        const video = document.createElement('video');
+        video.className = 'scene-video';
+        video.dataset.sceneIndex = String(index);
+        video.poster = scene.image;
+        video.preload = 'metadata';
+        video.muted = true;
+        video.defaultMuted = true;
+        video.volume = 0;
+        video.playsInline = true;
+        video.setAttribute('playsinline', '');
+        video.setAttribute('webkit-playsinline', '');
+        video.setAttribute('aria-hidden', 'true');
+        video.addEventListener('playing', () => {
+            if (currentSceneIndex !== index) return;
+            video.classList.add('active');
+            updateSceneFallback(index);
+        });
+        video.addEventListener('error', () => {
+            video.dataset.failed = 'true';
+            video.classList.remove('active');
+            updateSceneFallback(index);
+        });
+        video.src = scene.video;
+        sceneImages.appendChild(video);
+        return video;
+    });
+
+    function updateSceneFallback(index) {
+        if (currentSceneIndex !== index) return;
+        const image = sceneLayers[index];
+        const video = sceneVideos[index];
+        const imageReady = image.dataset.ready === 'true'
+            || (image.complete && image.naturalWidth > 0);
+        const videoReady = Boolean(video?.classList.contains('active'));
+        sceneFallback.hidden = imageReady || videoReady;
+    }
+
+    function resetSceneVideos() {
+        sceneVideos.forEach(video => {
+            if (!video) return;
+            video.pause();
+            video.classList.remove('active');
+            try {
+                video.currentTime = 0;
+            } catch (error) {
+                // 视频元数据尚未载入时无需重置播放位置。
+            }
+        });
+    }
+
+    function playSceneVideo(index) {
+        const video = sceneVideos[index];
+        if (!video || video.dataset.failed === 'true') return;
+        video.play().then(() => {
+            if (currentSceneIndex === index) return;
+            video.pause();
+            video.classList.remove('active');
+        }).catch(() => {
+            video.classList.remove('active');
+            updateSceneFallback(index);
+        });
+    }
 
     function renderTargets(container, focusedChars = []) {
         container.replaceChildren();
@@ -158,6 +233,7 @@
 
     function stopNarration() {
         stopVoice();
+        resetSceneVideos();
         if (animationFrame) cancelAnimationFrame(animationFrame);
         animationFrame = null;
         cueTimers.forEach(clearTimeout);
@@ -171,10 +247,21 @@
         sceneLayers.forEach((image, layerIndex) => {
             image.classList.toggle('active', layerIndex === index);
         });
+        sceneVideos.forEach((video, layerIndex) => {
+            if (!video) return;
+            video.pause();
+            video.classList.remove('active');
+            if (layerIndex !== index) {
+                try {
+                    video.currentTime = 0;
+                } catch (error) {
+                    // 视频元数据尚未载入时无需重置播放位置。
+                }
+            }
+        });
         sceneFallback.textContent = scene.fallbackEmoji;
         const activeLayer = sceneLayers[index];
-        sceneFallback.hidden = activeLayer.dataset.ready === 'true'
-            || (activeLayer.complete && activeLayer.naturalWidth > 0);
+        updateSceneFallback(index);
         sceneCaption.textContent = scene.caption;
         focusRow.replaceChildren();
         scene.focusChars.forEach(char => {
@@ -184,10 +271,12 @@
             focusRow.appendChild(item);
         });
         renderSentence(scene.focusChars);
+        playSceneVideo(index);
     }
 
     function finishStory() {
         activeAudio = null;
+        sceneVideos.forEach(video => video?.pause());
         storyComplete = true;
         startPracticeButton.disabled = false;
         startPracticeButton.textContent = '跟着读一读 →';

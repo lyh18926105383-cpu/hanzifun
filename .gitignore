@@ -4,3 +4,4 @@
 !.env.example
 dist/
 .wrangler/
+.video-workbench/

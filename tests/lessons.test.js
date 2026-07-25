@@ -8,6 +8,7 @@ const storyAudioManifest = require('../assets/lessons/cat-and-fish/audio/manifes
 const {
     getSceneIndexAtTime,
     getEqualSceneIndex,
+    prefersStaticSceneMedia,
     saveStoryResult,
     STORY_STORAGE_KEY,
 } = require('../story.js');
@@ -43,6 +44,23 @@ test('每个故事场景的插图文件都已归档', () => {
             assert.ok(fs.existsSync(path.resolve(__dirname, '..', scene.image)), scene.image);
         });
     }
+});
+
+test('每个故事场景的视频均已归档且低于 4 MiB', () => {
+    for (const lesson of lessons) {
+        lesson.scenes.forEach(scene => {
+            assert.ok(scene.video);
+            const videoPath = path.resolve(__dirname, '..', scene.video);
+            assert.ok(fs.existsSync(videoPath), scene.video);
+            assert.ok(fs.statSync(videoPath).size < 4 * 1024 * 1024, scene.video);
+        });
+    }
+});
+
+test('减少动态效果或节省流量时使用静态插图', () => {
+    assert.equal(prefersStaticSceneMedia(() => ({ matches: true }), { saveData: false }), true);
+    assert.equal(prefersStaticSceneMedia(() => ({ matches: false }), { saveData: true }), true);
+    assert.equal(prefersStaticSceneMedia(() => ({ matches: false }), { saveData: false }), false);
 });
 
 test('故事、跟读和找一找都使用已归档的固定语音', () => {
