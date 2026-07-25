@@ -1,9 +1,12 @@
 name = "hanzifun"
 compatibility_date = "2026-07-15"
+main = "worker.mjs"
 
 [build]
 command = "npm run build:site"
 
 [assets]
 directory = "./dist"
+binding = "ASSETS"
 not_found_handling = "single-page-application"
+run_worker_first = ["/api/*"]

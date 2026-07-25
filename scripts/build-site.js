@@ -5,10 +5,18 @@ const projectRoot = path.resolve(__dirname, '..');
 const outputRoot = path.join(projectRoot, 'dist');
 const rootFiles = [
     'index.html',
+    'pricing.html',
+    'privacy.html',
+    'terms.html',
+    'payment-success.html',
     'story.html',
     'styles.css',
+    'payments.css',
+    'footer.css',
     'story.css',
     'app.js',
+    'pricing.js',
+    'payment-success.js',
     'story.js',
     'characters.js',
     'storage.js',

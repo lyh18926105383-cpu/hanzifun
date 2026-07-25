@@ -76,6 +76,21 @@ body {
     color: #5b4a3f;
     letter-spacing: 0.5px;
 }
+.site-pricing-link {
+    margin-left: 4px;
+    padding: 8px 13px;
+    border-radius: 999px;
+    color: #86522a;
+    background: rgba(255, 237, 207, 0.88);
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(104, 74, 45, 0.1);
+}
+.site-pricing-link:focus-visible {
+    outline: 3px solid rgba(61, 136, 97, 0.36);
+    outline-offset: 3px;
+}
 
 /* 背景装饰 */
 .bg-decor {
@@ -1377,6 +1392,25 @@ body {
 }
 
 @media (max-width: 480px) {
+    .site-header {
+        gap: 8px;
+        padding: 12px 10px;
+        left: 6px;
+    }
+    .site-logo {
+        width: 42px;
+        height: 42px;
+    }
+    .site-title-line1 {
+        font-size: 1rem;
+    }
+    .site-title-line2 {
+        font-size: 0.72rem;
+    }
+    .site-pricing-link {
+        padding: 7px 9px;
+        font-size: 12px;
+    }
     .card-container {
         max-width: 90vw;
         aspect-ratio: 1.3 / 1;

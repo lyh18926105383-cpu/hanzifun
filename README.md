@@ -34,6 +34,8 @@
 ## 项目结构
 
 - `index.html`：页面结构和搜索引擎信息
+- `pricing.html` / `payment-success.html`：Creem 月订阅定价页与支付结果页
+- `privacy.html` / `terms.html`：公开隐私政策与服务条款
 - `styles.css`：页面样式与响应式布局
 - `characters.js`：按识字表顺序排列的108张汉字卡内容字库
 - `storage.js`：本机学习记录与薄弱字数据
@@ -43,6 +45,7 @@
 - `app.js`：学习流程和页面交互
 - `lessons.js`：故事课内容、分镜、跟读和认字题数据
 - `story.html` / `story.css` / `story.js`：有声动态绘本与跟读流程
+- `worker.mjs`：仅在服务端创建 CREEM Checkout、校验支付回跳、查询订阅状态及接收 Webhook
 - `assets/lessons/`：故事插图、固定童声旁白和题目语音
 - `scripts/`：TTS批量生成和音频清单工具
 - `tests/`：字库、基础学习流程与本机记录测试
@@ -60,6 +63,32 @@ npm test
 ```bash
 npm run build:site
 ```
+
+### CREEM 测试月订阅
+
+先在 Creem 控制台切换到 **Test Mode**，创建一个价格为 **US$1/月**、billing type 为 `recurring`、billing period 为 `every-month` 的产品。复制 `.dev.vars.example` 为 `.dev.vars`，填入：
+
+```dotenv
+CREEM_API_KEY=creem_test_你的测试APIKey
+CREEM_PRODUCT_ID=prod_你的测试月订阅产品ID
+```
+
+`.dev.vars` 已被 Git 忽略。`CREEM_API_KEY` 和产品 ID 都只由 Cloudflare Worker 读取，不会进入 `dist/` 或浏览器代码。使用 Wrangler 本地预览后打开 `/pricing.html`：
+
+```bash
+npx wrangler dev
+```
+
+部署时不要把密钥写进 `wrangler.toml`。通过 Cloudflare Workers 控制台的 **Settings → Variables and Secrets** 添加同名变量，或使用：
+
+```bash
+npx wrangler secret put CREEM_API_KEY
+npx wrangler secret put CREEM_PRODUCT_ID
+```
+
+代码固定调用 CREEM 测试地址 `https://test-api.creem.io`。Checkout 成功回到 `/payment-success.html`，页面会通过 Worker 校验 CREEM 回跳签名并查询订阅状态。
+
+Webhook 接收地址已预留为 `/api/creem/webhook`，当前无需在 CREEM 后台创建。以后准备接入时，再添加 `CREEM_WEBHOOK_SECRET`，并把该地址注册到 CREEM Test Mode Webhook；处理器会先验证 `creem-signature` HMAC-SHA256 签名。当前处理器只确认并记录已验签事件，尚不负责持久化会员权限。
 
 使用 `.env` 中的腾讯云配置生成故事课固定语音：
 

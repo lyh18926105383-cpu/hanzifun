@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="工具头像.png">
+    <meta name="description" content="汉字饭免费内容与月度会员价格说明：US$1/月，按月自动续费，付款由 Creem 处理。">
+    <link rel="canonical" href="https://hanzifun.online/pricing.html">
+    <title>价格与订阅 | 汉字饭 hanzifun</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="payments.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body class="payment-page">
+    <header class="payment-header">
+        <a class="payment-brand" href="index.html" aria-label="返回汉字饭首页">
+            <img src="工具头像.png" alt="">
+            <span><strong>汉字饭 hanzifun</strong><small>3-6岁趣味学汉字</small></span>
+        </a>
+        <a class="payment-home-link" href="index.html">返回学习</a>
+    </header>
+
+    <main class="pricing-main">
+        <section class="pricing-intro">
+            <span class="eyebrow">先免费体验，再决定是否订阅</span>
+            <h1>简单、透明的价格</h1>
+            <p>基础内容可以免费使用。需要完整学习内容时，家长或监护人可以订阅月度会员。</p>
+        </section>
+
+        <section class="plan-grid" aria-label="免费版与月度会员对比">
+            <article class="plan-card plan-card-free">
+                <div class="pricing-card-topline">
+                    <span class="plan-badge">免费体验</span>
+                </div>
+                <h2>免费版</h2>
+                <p class="plan-price"><strong>US$0</strong><span>永久免费</span></p>
+                <ul class="plan-features">
+                    <li><span aria-hidden="true">✓</span>基础汉字卡片体验</li>
+                    <li><span aria-hidden="true">✓</span>示例故事课《小猫看鱼》</li>
+                    <li><span aria-hidden="true">✓</span>当前设备上的学习记录</li>
+                    <li><span aria-hidden="true">✓</span>无需付款，不会自动续费</li>
+                </ul>
+                <a class="free-plan-link" href="index.html">开始免费学习</a>
+            </article>
+
+            <article class="plan-card plan-card-paid" aria-labelledby="monthlyPlanTitle">
+                <div class="pricing-card-topline">
+                    <span class="plan-badge">月度订阅</span>
+                    <span class="value-badge">完整内容</span>
+                </div>
+                <h2 id="monthlyPlanTitle">月度会员</h2>
+                <p class="plan-price"><strong>US$1</strong><span>每月</span></p>
+                <p class="price-note">每个计费周期为 1 个月</p>
+                <ul class="plan-features">
+                    <li><span aria-hidden="true">✓</span>完整汉字卡片与全部学习模式</li>
+                    <li><span aria-hidden="true">✓</span>故事课与跟读练习</li>
+                    <li><span aria-hidden="true">✓</span>学习足迹与薄弱字复习</li>
+                    <li><span aria-hidden="true">✓</span>会员内容的后续更新</li>
+                </ul>
+                <button class="subscribe-button" id="subscribeButton" type="button">
+                    <span class="button-label">订阅 US$1/月</span>
+                    <span class="button-arrow" aria-hidden="true">→</span>
+                </button>
+                <p class="checkout-message" id="checkoutMessage" role="status" aria-live="polite"></p>
+                <p class="secure-note"><span aria-hidden="true">🔒</span>付款由 Creem 处理；汉字饭不会接触或保存完整银行卡信息。</p>
+            </article>
+        </section>
+
+        <section class="billing-disclosure" aria-labelledby="billingTitle">
+            <h2 id="billingTitle">订阅与取消说明</h2>
+            <div class="billing-grid">
+                <article>
+                    <h3>按月自动续费</h3>
+                    <p>订阅成功后，每 1 个月自动续费一次，每次 US$1，直到家长或监护人取消。支付页如有适用税费，会在付款前显示。</p>
+                </article>
+                <article>
+                    <h3>随时取消</h3>
+                    <p>可通过 Creem 付款确认邮件中的订阅管理入口取消，也可发邮件至 <a href="mailto:lyh18926105383@gmail.com">lyh18926105383@gmail.com</a> 请求协助。请在下一次续费前取消；取消后不会再扣费，当期权益可使用至本计费周期结束。</p>
+                </article>
+                <article>
+                    <h3>退款规则</h3>
+                    <p>除适用法律另有规定、重复扣款或因汉字饭服务故障导致无法使用外，已支付的订阅费原则上不退。发现误扣或重复扣款，请尽快联系客服；获批退款将由 Creem 原路处理。</p>
+                </article>
+                <article>
+                    <h3>付款由 Creem 处理</h3>
+                    <p>Creem 负责结账、扣款、收据、订阅管理和退款处理。点击订阅即表示你同意本站的<a href="terms.html">服务条款</a>和<a href="privacy.html">隐私政策</a>。</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span>© 2026 汉字饭 hanzifun</span>
+        <nav aria-label="网站信息">
+            <a href="pricing.html" aria-current="page">价格</a>
+            <a href="privacy.html">隐私政策</a>
+            <a href="terms.html">服务条款</a>
+            <a href="mailto:lyh18926105383@gmail.com">lyh18926105383@gmail.com</a>
+        </nav>
+    </footer>
+
+    <script src="pricing.js"></script>
+</body>
+</html>

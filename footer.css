@@ -1,0 +1,103 @@
+.site-footer {
+    width: min(1080px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 22px 0 28px;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    color: #76665a;
+    font-family: var(--font-rounded, 'PingFang SC', 'Microsoft YaHei', sans-serif);
+    font-size: 13px;
+    line-height: 1.5;
+    user-select: text;
+    -webkit-user-select: text;
+}
+
+.site-footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px 18px;
+}
+
+.site-footer a {
+    color: #67574b;
+    font-weight: 700;
+    text-decoration: none;
+    text-underline-offset: 3px;
+}
+
+.site-footer a:hover,
+.site-footer a[aria-current="page"] {
+    color: #b75f2f;
+    text-decoration: underline;
+}
+
+.site-footer a:focus-visible {
+    outline: 3px solid rgba(61, 136, 97, 0.36);
+    outline-offset: 3px;
+    border-radius: 3px;
+}
+
+.site-footer--app {
+    position: fixed;
+    left: 50%;
+    bottom: max(8px, env(safe-area-inset-bottom));
+    transform: translateX(-50%);
+    width: auto;
+    max-width: calc(100% - 20px);
+    padding: 8px 14px;
+    border: 1px solid rgba(226, 205, 171, 0.8);
+    border-radius: 999px;
+    background: rgba(255, 254, 249, 0.94);
+    box-shadow: 0 7px 22px rgba(85, 61, 42, 0.11);
+    backdrop-filter: blur(10px);
+}
+
+.site-footer--app > span {
+    display: none;
+}
+
+.site-footer--app nav {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 13px;
+    white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+    .site-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 24px;
+    }
+
+    .site-footer nav {
+        justify-content: flex-start;
+    }
+
+    .site-footer--app {
+        align-items: center;
+        width: auto;
+        padding: 8px 11px;
+        font-size: 11px;
+    }
+
+    .site-footer--app nav {
+        gap: 9px;
+    }
+}
+
+@media (max-width: 360px) {
+    .site-footer--app {
+        max-width: calc(100% - 12px);
+        font-size: 10px;
+    }
+
+    .site-footer--app nav {
+        gap: 7px;
+    }
+}

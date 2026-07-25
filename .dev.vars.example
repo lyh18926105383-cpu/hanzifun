@@ -1,0 +1,8 @@
+# Copy this file to .dev.vars for local `wrangler dev`.
+# Never commit the real values.
+CREEM_API_KEY=creem_test_replace_with_your_test_key
+CREEM_PRODUCT_ID=prod_replace_with_your_monthly_product_id
+CREEM_ALLOW_LOCAL_ORIGIN=true
+
+# Add later, only after creating a Webhook in the CREEM test dashboard.
+# CREEM_WEBHOOK_SECRET=replace_with_your_test_webhook_secret
