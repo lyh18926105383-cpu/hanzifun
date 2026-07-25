@@ -11,9 +11,12 @@ const {
     resolveSessionCards,
 } = require('../app.js');
 
-test('字库包含 200 个不重复汉字', () => {
-    assert.equal(characters.length, 200);
-    assert.equal(new Set(characters.map(item => item.char)).size, 200);
+test('字库按识字表顺序包含 108 张卡片', () => {
+    const expected = [...'豆用力办法请才睡左右只旁龟脖壳安事命睛嘴肚害保找冠裁雪生语门没腿南北拍做瓜挂呆当叔说同相鼻眉双进医钱主方答姓女孩快步很肉身借问招怕惊遍原川规蚕插周发臂给孙军夏果西边欢正泉眼睛荷尖早夜所黑光点浪和姐群听男向几条久半候公'];
+    assert.deepEqual(characters.map(item => item.char), expected);
+    assert.equal(characters.length, 108);
+    assert.equal(new Set(characters.map(item => item.char)).size, 107);
+    assert.equal(characters.filter(item => item.char === '睛').length, 2);
 });
 
 test('每个汉字都有完整且有效的展示字段', () => {

@@ -3,7 +3,6 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 
-const characters = require('../characters.js');
 const lessons = require('../lessons.js');
 const storyAudioManifest = require('../assets/lessons/cat-and-fish/audio/manifest.json');
 const {
@@ -14,12 +13,11 @@ const {
 } = require('../story.js');
 
 test('故事课包含五个有效且不重复的目标汉字', () => {
-    const library = new Set(characters.map(item => item.char));
     for (const lesson of lessons) {
         assert.equal(lesson.targetChars.length, 5);
         assert.equal(new Set(lesson.targetChars).size, 5);
         lesson.targetChars.forEach(char => {
-            assert.ok(library.has(char));
+            assert.match(char, /^\p{Script=Han}$/u);
             assert.ok(lesson.storyText.includes(char));
         });
     }

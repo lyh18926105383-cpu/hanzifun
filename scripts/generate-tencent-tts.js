@@ -4,7 +4,11 @@ const crypto = require('node:crypto');
 
 const library = require('../characters.js');
 const { buildCorpus } = require('../tts-corpus.js');
-const { buildManifestFiles, audioDirectory } = require('./build-tts-manifest.js');
+const {
+    buildManifestFiles,
+    findAudioFilePath,
+    audioDirectory,
+} = require('./build-tts-manifest.js');
 
 const API_HOST = 'tts.tencentcloudapi.com';
 const API_VERSION = '2019-08-23';
@@ -129,13 +133,14 @@ async function main() {
     let generated = 0;
     let cached = 0;
     for (const [index, item] of corpus.entries()) {
-        const filePath = path.join(audioDirectory, `${item.id}.mp3`);
-        if (fs.existsSync(filePath)) {
+        const reusableFilePath = findAudioFilePath(item);
+        if (reusableFilePath) {
             cached += 1;
             console.log(`[${index + 1}/${corpus.length}] ${item.char}: cached`);
             continue;
         }
         const audio = await synthesize(item, config);
+        const filePath = path.join(audioDirectory, `${item.id}.mp3`);
         fs.writeFileSync(filePath, audio);
         generated += 1;
         console.log(`[${index + 1}/${corpus.length}] ${item.char}: generated`);

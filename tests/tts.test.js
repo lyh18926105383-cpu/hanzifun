@@ -14,11 +14,11 @@ const {
     createAudioController,
 } = require('../audio.js');
 
-test('TTS 语料覆盖 200 个汉字且文件编号唯一', () => {
+test('TTS 语料覆盖 108 张卡片且文件编号唯一', () => {
     const corpus = buildCorpus(characters);
-    assert.equal(corpus.length, 200);
-    assert.equal(new Set(corpus.map(item => item.id)).size, 200);
-    assert.equal(new Set(corpus.map(item => item.char)).size, 200);
+    assert.equal(corpus.length, 108);
+    assert.equal(new Set(corpus.map(item => item.id)).size, 108);
+    assert.equal(new Set(corpus.map(item => item.char)).size, 107);
     for (const item of corpus) {
         assert.ok(item.text.startsWith(item.char));
         assert.ok(item.text.endsWith('。'));
@@ -30,7 +30,9 @@ test('试听集包含 20 个代表字和全部多音字修正', () => {
     assert.equal(new Set(PILOT_CHARACTERS).size, 20);
     for (const char of Object.keys(PRONUNCIATION_OVERRIDES)) {
         assert.ok(PILOT_CHARACTERS.includes(char));
+        assert.ok(characters.some(item => item.char === char));
     }
+    assert.equal(buildSpeechText(characters.find(item => item.char === '只')), '只，一只的只，一只小鸟。');
     assert.equal(buildSpeechText(characters.find(item => item.char === '发')), '发，头发的发，头发飘飘。');
     assert.equal(buildSpeechText(characters.find(item => item.char === '给')), '给，给你的给，送礼物。');
 });
@@ -103,11 +105,11 @@ test('静态音频不可用时退回浏览器中文朗读', async () => {
         SpeechSynthesisUtterance: FakeUtterance,
         corpusApi: { buildSpeechText },
     });
-    const card = characters.find(item => item.char === '长');
+    const card = characters.find(item => item.char === '旁');
     const result = await controller.play(card);
 
     assert.equal(result.mode, 'speech-synthesis');
-    assert.equal(spoken[0].text, '长，长短的长，长长的。');
+    assert.equal(spoken[0].text, '旁，旁边，就在旁边。');
     assert.equal(spoken[0].lang, 'zh-CN');
 });
 
