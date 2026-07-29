@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 
 static void printUsage(void) {
-    fprintf(stderr, "Usage: process-approved-video <input.mp4> <output.mp4> [cropY] [duration]\n");
+    fprintf(stderr, "Usage: process-approved-video <input.mp4> <output.mp4> [cropY] [duration] [preset] [scale] [cropX] [maxBytes]\n");
 }
 
 int main(int argc, const char *argv[]) {
@@ -16,6 +16,12 @@ int main(int argc, const char *argv[]) {
         NSString *outputPath = [NSString stringWithUTF8String:argv[2]];
         CGFloat cropY = argc > 3 ? atof(argv[3]) : 0;
         NSTimeInterval requestedDuration = argc > 4 ? atof(argv[4]) : 4;
+        NSString *presetName = argc > 5
+            ? [NSString stringWithUTF8String:argv[5]]
+            : AVAssetExportPresetHighestQuality;
+        CGFloat scale = argc > 6 ? atof(argv[6]) : 1;
+        CGFloat cropX = argc > 7 ? atof(argv[7]) : 0;
+        long long maxBytes = argc > 8 ? atoll(argv[8]) : 0;
 
         AVURLAsset *asset = [AVURLAsset URLAssetWithURL:[NSURL fileURLWithPath:inputPath]
                                                 options:nil];
@@ -46,6 +52,23 @@ int main(int argc, const char *argv[]) {
             return 66;
         }
 
+        AVAssetTrack *sourceAudioTrack =
+            [[asset tracksWithMediaType:AVMediaTypeAudio] firstObject];
+        if (sourceAudioTrack) {
+            AVMutableCompositionTrack *audioTrack = [composition
+                addMutableTrackWithMediaType:AVMediaTypeAudio
+                preferredTrackID:kCMPersistentTrackID_Invalid];
+            NSError *audioInsertError = nil;
+            if (![audioTrack insertTimeRange:timeRange
+                                     ofTrack:sourceAudioTrack
+                                      atTime:kCMTimeZero
+                                       error:&audioInsertError]) {
+                fprintf(stderr, "Could not copy the audio track: %s\n",
+                        audioInsertError.localizedDescription.UTF8String);
+                return 69;
+            }
+        }
+
         AVMutableVideoComposition *videoComposition = [AVMutableVideoComposition videoComposition];
         videoComposition.renderSize = CGSizeMake(720, 900);
         videoComposition.frameDuration = CMTimeMake(1, 24);
@@ -56,7 +79,14 @@ int main(int argc, const char *argv[]) {
         AVMutableVideoCompositionLayerInstruction *layerInstruction =
             [AVMutableVideoCompositionLayerInstruction
                 videoCompositionLayerInstructionWithAssetTrack:videoTrack];
-        CGAffineTransform cropTransform = CGAffineTransformMakeTranslation(0, -cropY);
+        CGAffineTransform cropTransform = CGAffineTransformMake(
+            scale,
+            0,
+            0,
+            scale,
+            -cropX * scale,
+            -cropY * scale
+        );
         [layerInstruction setTransform:cropTransform atTime:kCMTimeZero];
         instruction.layerInstructions = @[layerInstruction];
         videoComposition.instructions = @[instruction];
@@ -65,7 +95,7 @@ int main(int argc, const char *argv[]) {
         [[NSFileManager defaultManager] removeItemAtURL:outputURL error:nil];
         AVAssetExportSession *exporter = [[AVAssetExportSession alloc]
             initWithAsset:composition
-            presetName:AVAssetExportPresetHighestQuality];
+            presetName:presetName];
         if (!exporter) {
             fprintf(stderr, "Could not create the MP4 exporter\n");
             return 67;
@@ -74,6 +104,9 @@ int main(int argc, const char *argv[]) {
         exporter.outputFileType = AVFileTypeMPEG4;
         exporter.shouldOptimizeForNetworkUse = YES;
         exporter.videoComposition = videoComposition;
+        if (maxBytes > 0) {
+            exporter.fileLengthLimit = maxBytes;
+        }
 
         dispatch_semaphore_t finished = dispatch_semaphore_create(0);
         [exporter exportAsynchronouslyWithCompletionHandler:^{

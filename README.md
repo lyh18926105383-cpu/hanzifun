@@ -33,6 +33,8 @@
 
 ## 项目结构
 
+- `STORY_COURSE_PRODUCTION_WORKFLOW.md`：新故事课从素材、Gemini 视频、腾讯云 TTS 到浏览器验收的强制生产流程
+- `AGENTS.md`：项目协作规则；要求制作故事课前先完整阅读上述流程
 - `index.html`：页面结构和搜索引擎信息
 - `styles.css`：页面样式与响应式布局
 - `characters.js`：按识字表顺序排列的108张汉字卡内容字库
@@ -65,6 +67,12 @@ npm run build:site
 
 ```bash
 npm run tts:story
+```
+
+生成第二课《蚂蚁搬豆》的固定语音：
+
+```bash
+npm run tts:story:ant
 ```
 
 ## TTS 语音资源

@@ -1,0 +1,58 @@
+{
+  "lessonId": "little-turtle-04",
+  "voice": "tencent-502007",
+  "speed": -1,
+  "generatedAt": "2026-07-25T15:05:00.322Z",
+  "files": [
+    {
+      "id": "story-full",
+      "text": "小乌龟，脖子长，背上有硬壳。遇到事情就缩头，平平安安。它的寿命很长！",
+      "file": "story-full.mp3"
+    },
+    {
+      "id": "story-scene-1",
+      "text": "小乌龟，脖子长，背上有硬壳。遇到事情就缩头，平平安安。它的寿命很长！",
+      "file": "story-scene-1.mp3"
+    },
+    {
+      "id": "quiz-1",
+      "text": "哪一个是故事里的小动物？",
+      "file": "quiz-1.mp3"
+    },
+    {
+      "id": "quiz-2",
+      "text": "小乌龟背上有什么保护自己？",
+      "file": "quiz-2.mp3"
+    },
+    {
+      "id": "quiz-3",
+      "text": "哪一个是“寿命”的“命”？",
+      "file": "quiz-3.mp3"
+    },
+    {
+      "id": "correct-1",
+      "text": "龟，答对了！",
+      "file": "correct-1.mp3"
+    },
+    {
+      "id": "correct-2",
+      "text": "壳，答对了！",
+      "file": "correct-2.mp3"
+    },
+    {
+      "id": "correct-3",
+      "text": "命，答对了！",
+      "file": "correct-3.mp3"
+    },
+    {
+      "id": "try-again",
+      "text": "再想一想，小乌龟的故事里见过它哦！",
+      "file": "try-again.mp3"
+    },
+    {
+      "id": "lesson-complete",
+      "text": "太棒了，《小乌龟》故事课完成啦！",
+      "file": "course-complete-v2.mp3"
+    }
+  ]
+}

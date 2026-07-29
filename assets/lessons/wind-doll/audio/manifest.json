@@ -1,0 +1,58 @@
+{
+  "lessonId": "wind-doll-07",
+  "voice": "tencent-502007",
+  "speed": 1,
+  "generatedAt": "2026-07-29T15:02:39.852Z",
+  "files": [
+    {
+      "id": "story-full",
+      "text": "风娃娃没礼貌，撒开腿到处跑。南边撞倒小树，北边踩疼麦苗，还拍手笑。别学它，做人要有礼貌！",
+      "file": "story-full.mp3"
+    },
+    {
+      "id": "story-scene-1",
+      "text": "风娃娃没礼貌，撒开腿到处跑。南边撞倒小树，北边踩疼麦苗，还拍手笑。别学它，做人要有礼貌！",
+      "file": "story-scene-1.mp3"
+    },
+    {
+      "id": "quiz-1",
+      "text": "风娃娃撞倒了什么？",
+      "file": "quiz-1.mp3"
+    },
+    {
+      "id": "quiz-2",
+      "text": "哪一个是“拍手”的“拍”？",
+      "file": "quiz-2.mp3"
+    },
+    {
+      "id": "quiz-3",
+      "text": "麦苗在故事里的哪边被踩疼了？",
+      "file": "quiz-3.mp3"
+    },
+    {
+      "id": "correct-1",
+      "text": "小树，答对了！",
+      "file": "correct-1.mp3"
+    },
+    {
+      "id": "correct-2",
+      "text": "拍，答对了！",
+      "file": "correct-2.mp3"
+    },
+    {
+      "id": "correct-3",
+      "text": "北边，答对了！",
+      "file": "correct-3.mp3"
+    },
+    {
+      "id": "try-again",
+      "text": "再想一想，风娃娃的故事里见过它哦！",
+      "file": "try-again.mp3"
+    },
+    {
+      "id": "lesson-complete",
+      "text": "太棒了，《没礼貌的风娃娃》故事课完成啦！",
+      "file": "course-complete-v2.mp3"
+    }
+  ]
+}

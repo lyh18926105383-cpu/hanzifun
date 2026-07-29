@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#fff8eb">
     <title>小猫看鱼｜汉字饭故事课</title>
-    <link rel="stylesheet" href="story.css?v=story-v4">
+    <link rel="stylesheet" href="story.css?v=story-v5">
 </head>
 <body>
     <main class="story-app">
@@ -38,11 +38,7 @@
 
         <section class="lesson-panel" id="storyPanel" aria-labelledby="storyTitle" hidden>
             <div class="scene-stage" id="sceneStage">
-                <div class="scene-images" id="sceneImages">
-                    <img class="scene-image active" src="assets/lessons/cat-and-fish/scene-1.jpg" alt="一只橘黄色小猫来到池塘边" decoding="async">
-                    <img class="scene-image" src="assets/lessons/cat-and-fish/scene-2.jpg" alt="小猫低头看着清水里的小鱼" decoding="async">
-                    <img class="scene-image" src="assets/lessons/cat-and-fish/scene-3.jpg" alt="小鱼跳出水面，小猫开心地笑了" decoding="async">
-                </div>
+                <div class="scene-images" id="sceneImages"></div>
                 <div class="scene-fallback" id="sceneFallback" aria-hidden="true">🐱🌿</div>
                 <div class="scene-gradient"></div>
                 <div class="scene-caption">
@@ -87,7 +83,7 @@
             <div class="result-card">
                 <span class="result-emoji">🎉</span>
                 <h2 id="resultTitle">故事课完成啦！</h2>
-                <p>你听完了故事，也跟读了 5 个汉字。</p>
+                <p id="resultSummary">你听完了故事，也跟读了 5 个汉字。</p>
                 <div class="result-score"><strong id="resultScore">3</strong><span>/ 3 题答对</span></div>
                 <div class="target-row" id="resultTargets"></div>
                 <div class="result-actions">
@@ -101,7 +97,7 @@
     <div class="toast" id="storyToast" role="status" aria-live="polite"></div>
     <audio id="voicePlayer" preload="auto" aria-hidden="true"></audio>
 
-    <script src="lessons.js?v=story-v5"></script>
-    <script src="story.js?v=story-v4"></script>
+    <script src="lessons.js?v=story-v15"></script>
+    <script src="story.js?v=story-v10"></script>
 </body>
 </html>

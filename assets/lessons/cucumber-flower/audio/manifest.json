@@ -1,0 +1,68 @@
+{
+  "lessonId": "cucumber-flower-08",
+  "voice": "tencent-502007",
+  "speed": 0,
+  "generatedAt": "2026-07-29T16:06:38.792Z",
+  "files": [
+    {
+      "id": "story-full",
+      "text": "黄瓜藤上挂金花，摘朵金花当喇叭。叔叔忙说不能摘，一朵金花一个瓜。",
+      "file": "story-full.mp3"
+    },
+    {
+      "id": "story-scene-1",
+      "text": "黄瓜藤上挂金花，摘朵金花当喇叭。叔叔忙说不能摘，一朵金花一个瓜。",
+      "file": "story-scene-1.mp3"
+    },
+    {
+      "id": "practice-1",
+      "text": "朵，花朵，一朵金花。",
+      "file": "practice-duo.mp3"
+    },
+    {
+      "id": "practice-2",
+      "text": "当，当作的当，把花当作喇叭。",
+      "file": "practice-dang.mp3"
+    },
+    {
+      "id": "quiz-1",
+      "text": "一朵金花以后会结出什么？",
+      "file": "quiz-1.mp3"
+    },
+    {
+      "id": "quiz-2",
+      "text": "哪一个是“挂着”的“挂”？",
+      "file": "quiz-2.mp3"
+    },
+    {
+      "id": "quiz-3",
+      "text": "是谁告诉小男孩不能摘花？",
+      "file": "quiz-3.mp3"
+    },
+    {
+      "id": "correct-1",
+      "text": "黄瓜，答对了！",
+      "file": "correct-1.mp3"
+    },
+    {
+      "id": "correct-2",
+      "text": "挂，答对了！",
+      "file": "correct-2.mp3"
+    },
+    {
+      "id": "correct-3",
+      "text": "叔叔，答对了！",
+      "file": "correct-3.mp3"
+    },
+    {
+      "id": "try-again",
+      "text": "再想一想，黄瓜藤的故事里见过它哦！",
+      "file": "try-again.mp3"
+    },
+    {
+      "id": "lesson-complete",
+      "text": "太棒了，《一朵金花一个瓜》故事课完成啦！",
+      "file": "course-complete-v2.mp3"
+    }
+  ]
+}
