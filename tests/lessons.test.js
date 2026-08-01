@@ -17,6 +17,11 @@ const {
     STORY_STORAGE_KEY,
 } = require('../story.js');
 
+function resolveProjectAsset(assetUrl) {
+    const relativePath = assetUrl.split(/[?#]/, 1)[0];
+    return path.resolve(__dirname, '..', relativePath);
+}
+
 test('故事课包含至少五个有效且不重复的目标汉字', () => {
     for (const lesson of lessons) {
         assert.ok(lesson.targetChars.length >= 5);
@@ -42,7 +47,6 @@ test('蚂蚁搬豆包含“用”并按旁白配置字幕关键词', () => {
 test('花猫照镜子包含六个学习字并按旁白分段显示', () => {
     const lesson = lessons.find(item => item.id === 'cat-mirror-03');
     assert.deepEqual(lesson.targetChars, ['才', '睡', '左', '右', '只', '旁']);
-    assert.equal(lesson.scenes[0].videoVolume, 0.12);
     assert.deepEqual(
         lesson.scenes[0].cues.flatMap(cue => cue.focusChars),
         ['才', '睡', '左', '右', '旁', '只']
@@ -56,7 +60,6 @@ test('花猫照镜子包含六个学习字并按旁白分段显示', () => {
 test('小乌龟包含六个学习字并按旁白分段显示', () => {
     const lesson = lessons.find(item => item.id === 'little-turtle-04');
     assert.deepEqual(lesson.targetChars, ['龟', '脖', '壳', '安', '事', '命']);
-    assert.equal(lesson.scenes[0].videoVolume, 0.12);
     assert.deepEqual(
         lesson.scenes[0].cues.flatMap(cue => cue.focusChars),
         ['龟', '脖', '壳', '事', '安', '命']
@@ -70,7 +73,6 @@ test('小乌龟包含六个学习字并按旁白分段显示', () => {
 test('小青蛙包含六个学习字并按旁白分段显示', () => {
     const lesson = lessons.find(item => item.id === 'little-frog-05');
     assert.deepEqual(lesson.targetChars, ['睛', '嘴', '肚', '害', '保', '找']);
-    assert.equal(lesson.scenes[0].videoVolume, 0.12);
     assert.deepEqual(
         lesson.scenes[0].cues.flatMap(cue => cue.focusChars),
         ['睛', '嘴', '肚', '害', '保', '找']
@@ -84,7 +86,6 @@ test('小青蛙包含六个学习字并按旁白分段显示', () => {
 test('画鸡包含六个学习字并按旁白分段显示', () => {
     const lesson = lessons.find(item => item.id === 'painting-rooster-06');
     assert.deepEqual(lesson.targetChars, ['冠', '裁', '雪', '生', '语', '门']);
-    assert.equal(lesson.scenes[0].videoVolume, 0.12);
     assert.deepEqual(
         lesson.scenes[0].cues.flatMap(cue => cue.focusChars),
         ['冠', '裁', '雪', '生', '语', '门']
@@ -98,7 +99,6 @@ test('画鸡包含六个学习字并按旁白分段显示', () => {
 test('没礼貌的风娃娃包含六个学习字并按旁白分段显示', () => {
     const lesson = lessons.find(item => item.id === 'wind-doll-07');
     assert.deepEqual(lesson.targetChars, ['没', '腿', '南', '北', '拍', '做']);
-    assert.equal(lesson.scenes[0].videoVolume, 0.12);
     assert.deepEqual(
         lesson.scenes[0].cues.flatMap(cue => cue.focusChars),
         ['没', '腿', '南', '北', '拍', '做']
@@ -112,7 +112,6 @@ test('没礼貌的风娃娃包含六个学习字并按旁白分段显示', () =>
 test('一朵金花一个瓜包含六个学习字并按旁白分段显示', () => {
     const lesson = lessons.find(item => item.id === 'cucumber-flower-08');
     assert.deepEqual(lesson.targetChars, ['瓜', '挂', '朵', '当', '叔', '说']);
-    assert.equal(lesson.scenes[0].videoVolume, 0.12);
     assert.deepEqual(
         lesson.scenes[0].cues.flatMap(cue => cue.focusChars),
         ['瓜', '挂', '朵', '当', '叔', '说', '朵', '瓜']
@@ -129,6 +128,14 @@ test('只有配置了原声音量的场景才播放低音量视频声', () => {
     assert.equal(getSceneVideoVolume({}, true), 0);
     assert.equal(getSceneVideoVolume({ videoVolume: 3 }, true), 1);
     assert.equal(getSceneVideoVolume({ videoVolume: -1 }, true), 0);
+});
+
+test('正式故事视频默认静音，音频只使用 TTS 旁白', () => {
+    for (const lesson of lessons) {
+        lesson.scenes.forEach(scene => {
+            assert.equal(getSceneVideoVolume(scene, true), 0, lesson.id);
+        });
+    }
 });
 
 test('旁白结束后仅保留视频与课程总时长允许的结尾画面', () => {
@@ -250,9 +257,23 @@ test('每个故事场景的视频均已归档且低于 4 MiB', () => {
     for (const lesson of lessons) {
         lesson.scenes.forEach(scene => {
             assert.ok(scene.video);
-            const videoPath = path.resolve(__dirname, '..', scene.video);
+            const videoPath = resolveProjectAsset(scene.video);
             assert.ok(fs.existsSync(videoPath), scene.video);
             assert.ok(fs.statSync(videoPath).size < 4 * 1024 * 1024, scene.video);
+        });
+    }
+});
+
+test('每个正式故事视频都不包含音频轨道', () => {
+    for (const lesson of lessons) {
+        lesson.scenes.forEach(scene => {
+            const videoPath = resolveProjectAsset(scene.video);
+            const videoBytes = fs.readFileSync(videoPath);
+            assert.equal(
+                videoBytes.includes(Buffer.from('soun')),
+                false,
+                scene.video
+            );
         });
     }
 });

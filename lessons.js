@@ -200,8 +200,7 @@
             scenes: [
                 {
                     image: 'assets/lessons/cat-mirror/scene-1.jpg',
-                    video: 'assets/lessons/cat-mirror/video/story.mp4',
-                    videoVolume: 0.12,
+                    video: 'assets/lessons/cat-mirror/video/story.mp4?v=silent-v1',
                     audio: 'assets/lessons/cat-mirror/audio/story-scene-1.mp3',
                     narrationText: '小花猫才睡醒，没洗脸。左看右看，还怪镜子脏。旁边一只小老鼠笑了！',
                     fallbackEmoji: '😺🪞🐭',
@@ -293,7 +292,7 @@
             scenes: [
                 {
                     image: 'assets/lessons/little-turtle/scene-1.jpg',
-                    video: 'assets/lessons/little-turtle/video/story.mp4',
+                    video: 'assets/lessons/little-turtle/video/story.mp4?v=silent-v1',
                     audio: 'assets/lessons/little-turtle/audio/story-scene-1.mp3',
                     narrationText: '小乌龟，脖子长，背上有硬壳。遇到事情就缩头，平平安安。它的寿命很长！',
                     fallbackEmoji: '🐢🌲',
@@ -302,7 +301,6 @@
                     focusChars: ['龟', '脖', '壳', '安', '事', '命'],
                     startAt: 0,
                     fallbackDuration: 10,
-                    videoVolume: 0.12,
                     cues: [
                         {
                             startAt: 0,
@@ -386,7 +384,7 @@
             scenes: [
                 {
                     image: 'assets/lessons/little-frog/scene-1.jpg',
-                    video: 'assets/lessons/little-frog/video/story.mp4',
+                    video: 'assets/lessons/little-frog/video/story.mp4?v=silent-v1',
                     audio: 'assets/lessons/little-frog/audio/story-scene-1.mp3',
                     narrationText: '小青蛙，呱呱呱。眼睛鼓，嘴巴大，肚皮白，背儿花。捉害虫，是专家；保护庄稼就找它！',
                     fallbackEmoji: '🐸🦗🌾',
@@ -395,7 +393,6 @@
                     focusChars: ['睛', '嘴', '肚', '害', '保', '找'],
                     startAt: 0,
                     fallbackDuration: 10,
-                    videoVolume: 0.12,
                     cues: [
                         {
                             startAt: 0,
@@ -484,7 +481,7 @@
             scenes: [
                 {
                     image: 'assets/lessons/painting-rooster/scene-1.jpg',
-                    video: 'assets/lessons/painting-rooster/video/story.mp4',
+                    video: 'assets/lessons/painting-rooster/video/story.mp4?v=silent-v1',
                     audio: 'assets/lessons/painting-rooster/audio/story-scene-1.mp3',
                     narrationText: '红冠不用裁，满身雪白走过来。天生大嗓门，不会轻声细语。一叫，家家都开门！',
                     fallbackEmoji: '🐓🌅🏡',
@@ -493,7 +490,6 @@
                     focusChars: ['冠', '裁', '雪', '生', '语', '门'],
                     startAt: 0,
                     fallbackDuration: 10,
-                    videoVolume: 0.12,
                     cues: [
                         {
                             startAt: 0,
@@ -582,7 +578,7 @@
             scenes: [
                 {
                     image: 'assets/lessons/wind-doll/scene-1.jpg',
-                    video: 'assets/lessons/wind-doll/video/story.mp4',
+                    video: 'assets/lessons/wind-doll/video/story.mp4?v=silent-v1',
                     audio: 'assets/lessons/wind-doll/audio/story-scene-1.mp3',
                     narrationText: '风娃娃没礼貌，撒开腿到处跑。南边撞倒小树，北边踩疼麦苗，还拍手笑。别学它，做人要有礼貌！',
                     fallbackEmoji: '🌬️🌳🌾',
@@ -591,7 +587,6 @@
                     focusChars: ['没', '腿', '南', '北', '拍', '做'],
                     startAt: 0,
                     fallbackDuration: 10,
-                    videoVolume: 0.12,
                     cues: [
                         {
                             startAt: 0,
@@ -680,7 +675,7 @@
             scenes: [
                 {
                     image: 'assets/lessons/cucumber-flower/scene-1.jpg',
-                    video: 'assets/lessons/cucumber-flower/video/story.mp4',
+                    video: 'assets/lessons/cucumber-flower/video/story.mp4?v=silent-v1',
                     audio: 'assets/lessons/cucumber-flower/audio/story-scene-1.mp3',
                     narrationText: '黄瓜藤上挂金花，摘朵金花当喇叭。叔叔忙说不能摘，一朵金花一个瓜。',
                     fallbackEmoji: '🥒🌼👨‍🌾',
@@ -689,7 +684,6 @@
                     focusChars: ['瓜', '挂', '朵', '当', '叔', '说'],
                     startAt: 0,
                     fallbackDuration: 10,
-                    videoVolume: 0.12,
                     cues: [
                         {
                             startAt: 0,
