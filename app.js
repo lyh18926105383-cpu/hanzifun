@@ -85,18 +85,17 @@
         var learningActive = startScreen.classList.contains('hidden');
         header.classList.toggle('learning-hidden', learningActive);
         if (learningActive) return;
-        var startTop = startScreen.getBoundingClientRect().top;
-        var headerHeight = header.offsetHeight;
-        header.style.top = Math.max(0, (startTop - headerHeight) / 2) + 'px';
+        header.style.top = '10px';
     }
     window.addEventListener('load', positionHeader);
     window.addEventListener('resize', positionHeader);
 
     const fullLibrary = window.HANZI_LIBRARY;
+    const storyLessons = window.HANZI_STORY_LESSONS;
     const storageApi = window.HanziFunStorage;
     const audioApi = window.HanziFunAudio;
 
-    if (!Array.isArray(fullLibrary) || !storageApi || !audioApi) {
+    if (!Array.isArray(fullLibrary) || !Array.isArray(storyLessons) || !storageApi || !audioApi) {
         throw new Error('汉字饭资源加载失败');
     }
 
@@ -160,6 +159,12 @@
     const customCountInput = document.getElementById('customCount');
     const btnCustomToggle = document.getElementById('btnCustomToggle');
     const btnCustomGo = document.getElementById('btnCustomGo');
+    const homeRoundCount = document.getElementById('homeRoundCount');
+    const homeCharacterCount = document.getElementById('homeCharacterCount');
+    const homeWeakCount = document.getElementById('homeWeakCount');
+    const storyList = document.getElementById('storyList');
+    const storyCourseCount = document.getElementById('storyCourseCount');
+    const btnBackToTop = document.getElementById('btnBackToTop');
     const btnOpenHistory = document.getElementById('btnOpenHistory');
     const historyOpenSummary = document.getElementById('historyOpenSummary');
     const historyOverlay = document.getElementById('historyOverlay');
@@ -200,8 +205,66 @@
         });
     }
 
+    function renderStoryCourses() {
+        storyList.replaceChildren();
+        storyCourseCount.textContent = `${storyLessons.length} 课`;
+
+        storyLessons.forEach((lesson, index) => {
+            const entry = document.createElement('a');
+            const firstScene = Array.isArray(lesson.scenes) ? lesson.scenes[0] : null;
+            const targetChars = Array.isArray(lesson.targetChars) ? lesson.targetChars : [];
+
+            entry.className = 'story-entry';
+            entry.href = `story.html?lesson=${encodeURIComponent(lesson.id)}`;
+            entry.setAttribute('aria-label', `第 ${index + 1} 课《${lesson.title}》，${lesson.theme}`);
+            if (firstScene && firstScene.image) {
+                entry.style.setProperty('--story-image', `url("${firstScene.image}")`);
+            }
+
+            const lessonNumber = document.createElement('span');
+            lessonNumber.className = 'story-entry-course-number';
+            lessonNumber.textContent = `第 ${index + 1} 课`;
+
+            const copy = document.createElement('span');
+            copy.className = 'story-entry-copy';
+
+            const titleRow = document.createElement('span');
+            titleRow.className = 'story-entry-title-row';
+
+            const icon = document.createElement('span');
+            icon.className = 'story-entry-icon';
+            icon.setAttribute('aria-hidden', 'true');
+            icon.textContent = lesson.coverEmoji || '📖';
+
+            const title = document.createElement('strong');
+            title.textContent = lesson.title;
+            titleRow.append(icon, title);
+
+            const theme = document.createElement('small');
+            theme.className = 'story-entry-theme';
+            theme.textContent = `${lesson.theme} · ${targetChars.length} 个字`;
+
+            const chars = document.createElement('small');
+            chars.className = 'story-entry-chars';
+            chars.textContent = targetChars.join(' · ');
+
+            copy.append(titleRow, theme, chars);
+
+            const arrow = document.createElement('span');
+            arrow.className = 'story-entry-arrow';
+            arrow.setAttribute('aria-hidden', 'true');
+            arrow.textContent = '›';
+
+            entry.append(lessonNumber, copy, arrow);
+            storyList.appendChild(entry);
+        });
+    }
+
     function renderLearningHistory() {
         const dashboard = learningStore.getDashboard();
+        homeRoundCount.textContent = dashboard.learningRounds;
+        homeCharacterCount.textContent = dashboard.learnedCharacters;
+        homeWeakCount.textContent = dashboard.weakCharacters.length;
         historyRoundCount.textContent = dashboard.learningRounds;
         historyCharacterCount.textContent = dashboard.learnedCharacters;
         historyWeakCount.textContent = dashboard.weakCharacters.length;
@@ -645,6 +708,12 @@
         familiarStatus = [];
         reviewQueue = [];
         isReviewMode = false;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function scrollHomeTop() {
+        window.history.replaceState(null, '', window.location.pathname + window.location.search);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     function spawnConfetti() {
@@ -703,6 +772,8 @@
             btnCustomGo.click();
         }
     });
+
+    btnBackToTop.addEventListener('click', scrollHomeTop);
 
     // 返回首页
     btnBackToStart.addEventListener('click', goBackToStart);
@@ -866,6 +937,7 @@
         cardContainer.style.cursor = 'pointer';
         btnFamiliar.disabled = false;
         btnUnfamiliar.disabled = false;
+        renderStoryCourses();
         renderSoundButton();
         updateButtonLabels();
         progressBar.style.width = '0%';

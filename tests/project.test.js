@@ -1,7 +1,10 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 
 const characters = require('../characters.js');
+const lessons = require('../lessons.js');
 const {
     getActiveIndices,
     getProgress,
@@ -94,4 +97,32 @@ test('可以把薄弱字列表还原成一轮复习卡片', () => {
     ];
 
     assert.deepEqual(resolveCharacters(['火', '山', '云'], library), [library[2], library[0]]);
+});
+
+test('首页按标题、学习记录、故事课、识字卡顺序组织模块', () => {
+    const homepage = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf8');
+    const appSource = fs.readFileSync(path.join(__dirname, '..', 'app.js'), 'utf8');
+    const moduleOrder = [
+        'id="homeTitle"',
+        'id="learningRecord"',
+        'id="storyCourses"',
+        'id="flashcards"',
+    ].map(marker => homepage.indexOf(marker));
+
+    assert.deepEqual(moduleOrder, [...moduleOrder].sort((a, b) => a - b));
+    assert.match(homepage, />听故事·识汉字<\/h1>/u);
+    assert.match(homepage, />看一看·翻一翻·轻松学汉字<\/p>/u);
+    assert.match(homepage, /href="#storyCourses"/);
+    assert.match(homepage, /href="#flashcards"/);
+    assert.match(homepage, /id="homeRoundCount"/);
+    assert.match(homepage, /id="homeCharacterCount"/);
+    assert.match(homepage, /id="homeWeakCount"/);
+    assert.doesNotMatch(homepage, /今天学到哪儿啦？/);
+    assert.doesNotMatch(homepage, /记录保存在当前设备，随时回来继续。/);
+    assert.doesNotMatch(`${homepage}\n${appSource}`, /目前没有薄弱字[，,].*继续保持/);
+    assert.doesNotMatch(`${homepage}\n${appSource}`, /homeWeakSummary/);
+    assert.match(homepage, /id="storyList"/);
+    assert.match(homepage, /id="btnBackToTop"/);
+    assert.match(homepage, /<script src="lessons\.js"><\/script>/);
+    assert.equal(lessons.length, 8);
 });

@@ -324,23 +324,13 @@ test('根据链接参数选择故事课，无效参数回到第一课', () => {
 
 test('首页可以进入全部故事课', () => {
     const indexHtml = fs.readFileSync(path.resolve(__dirname, '..', 'index.html'), 'utf8');
-    assert.ok(indexHtml.includes('<details class="story-collection">'));
-
-    lessons.forEach(lesson => {
-        assert.ok(
-            indexHtml.includes(`story.html?lesson=${lesson.id}`),
-            `Missing homepage link for ${lesson.id}`
-        );
-    });
-
-    const homepageLessonIds = [
-        ...indexHtml.matchAll(/story\.html\?lesson=([^"]+)/g),
-    ].map(match => match[1]);
-
-    assert.deepEqual(
-        homepageLessonIds,
-        lessons.map(lesson => lesson.id)
-    );
+    const appJs = fs.readFileSync(path.resolve(__dirname, '..', 'app.js'), 'utf8');
+    assert.ok(indexHtml.includes('<section class="home-section story-section" id="storyCourses"'));
+    assert.ok(indexHtml.includes('<div class="story-list" id="storyList"'));
+    assert.ok(indexHtml.includes('<script src="lessons.js"></script>'));
+    assert.match(appJs, /story\.html\?lesson=\$\{encodeURIComponent\(lesson\.id\)\}/);
+    assert.match(appJs, /storyLessons\.forEach\(\(lesson, index\) =>/);
+    assert.equal(lessons.length, 8);
 });
 
 test('认字题答案存在于选项中', () => {
