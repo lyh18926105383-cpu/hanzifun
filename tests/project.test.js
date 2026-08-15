@@ -99,14 +99,14 @@ test('可以把薄弱字列表还原成一轮复习卡片', () => {
     assert.deepEqual(resolveCharacters(['火', '山', '云'], library), [library[2], library[0]]);
 });
 
-test('首页按标题、学习记录、故事课、识字卡顺序组织模块', () => {
+test('首页按标题、故事课、识字卡、学习记录顺序组织模块', () => {
     const homepage = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf8');
     const appSource = fs.readFileSync(path.join(__dirname, '..', 'app.js'), 'utf8');
     const moduleOrder = [
         'id="homeTitle"',
-        'id="learningRecord"',
         'id="storyCourses"',
         'id="flashcards"',
+        'id="learningRecord"',
     ].map(marker => homepage.indexOf(marker));
 
     assert.deepEqual(moduleOrder, [...moduleOrder].sort((a, b) => a - b));
@@ -123,6 +123,10 @@ test('首页按标题、学习记录、故事课、识字卡顺序组织模块',
     assert.doesNotMatch(`${homepage}\n${appSource}`, /homeWeakSummary/);
     assert.match(homepage, /id="storyList"/);
     assert.match(homepage, /id="btnBackToTop"/);
+    const learningRecordStart = homepage.indexOf('id="learningRecord"');
+    const learningRecordEnd = homepage.indexOf('</section>', learningRecordStart);
+    const backToTopPosition = homepage.indexOf('id="btnBackToTop"');
+    assert.ok(backToTopPosition > learningRecordStart && backToTopPosition < learningRecordEnd);
     assert.match(homepage, /<script src="lessons\.js"><\/script>/);
     assert.equal(lessons.length, 8);
 });

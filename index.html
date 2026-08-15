@@ -85,36 +85,6 @@
             </nav>
         </section>
 
-        <section class="home-section learning-record-section" id="learningRecord" aria-labelledby="learningRecordTitle">
-            <div class="section-heading">
-                <div>
-                    <h2 id="learningRecordTitle">学习记录</h2>
-                </div>
-                <span class="section-ornament" aria-hidden="true">📊</span>
-            </div>
-            <div class="home-metrics" aria-label="学习记录摘要">
-                <div class="home-metric metric-rounds">
-                    <span class="home-metric-value" id="homeRoundCount">0</span>
-                    <span class="home-metric-label">学习轮次</span>
-                </div>
-                <div class="home-metric metric-characters">
-                    <span class="home-metric-value" id="homeCharacterCount">0</span>
-                    <span class="home-metric-label">已学汉字</span>
-                </div>
-                <div class="home-metric metric-weak">
-                    <span class="home-metric-value" id="homeWeakCount">0</span>
-                    <span class="home-metric-label">薄弱字</span>
-                </div>
-            </div>
-            <div class="record-footer">
-                <button class="history-open-button" id="btnOpenHistory" type="button" aria-haspopup="dialog">
-                    <span aria-hidden="true">📊</span>
-                    <span>查看学习足迹</span>
-                    <span class="history-open-summary" id="historyOpenSummary">尚无记录</span>
-                </button>
-            </div>
-        </section>
-
         <section class="home-section story-section" id="storyCourses" aria-labelledby="storyCoursesTitle">
             <div class="section-heading story-section-heading">
                 <div>
@@ -155,6 +125,36 @@
                 <input type="number" class="custom-input" id="customCount" value="8" min="1" max="200" inputmode="numeric">
                 <button class="custom-go-btn" id="btnCustomGo">✅ 开始</button>
                 <span class="custom-hint">输入1-200之间的数字</span>
+            </div>
+        </section>
+
+        <section class="home-section learning-record-section" id="learningRecord" aria-labelledby="learningRecordTitle">
+            <div class="section-heading">
+                <div>
+                    <h2 id="learningRecordTitle">学习记录</h2>
+                </div>
+                <span class="section-ornament" aria-hidden="true">📊</span>
+            </div>
+            <div class="home-metrics" aria-label="学习记录摘要">
+                <div class="home-metric metric-rounds">
+                    <span class="home-metric-value" id="homeRoundCount">0</span>
+                    <span class="home-metric-label">学习轮次</span>
+                </div>
+                <div class="home-metric metric-characters">
+                    <span class="home-metric-value" id="homeCharacterCount">0</span>
+                    <span class="home-metric-label">已学汉字</span>
+                </div>
+                <div class="home-metric metric-weak">
+                    <span class="home-metric-value" id="homeWeakCount">0</span>
+                    <span class="home-metric-label">薄弱字</span>
+                </div>
+            </div>
+            <div class="record-footer">
+                <button class="history-open-button" id="btnOpenHistory" type="button" aria-haspopup="dialog">
+                    <span aria-hidden="true">📊</span>
+                    <span>查看学习足迹</span>
+                    <span class="history-open-summary" id="historyOpenSummary">尚无记录</span>
+                </button>
             </div>
             <button class="home-back-top" id="btnBackToTop" type="button">
                 <span aria-hidden="true">↑</span>

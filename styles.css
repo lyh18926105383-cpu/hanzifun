@@ -2176,7 +2176,9 @@ body {
 
 .home-back-top {
     min-height: 46px;
-    display: inline-flex;
+    display: flex;
+    width: fit-content;
+    max-width: 100%;
     align-items: center;
     justify-content: center;
     gap: 8px;
