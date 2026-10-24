@@ -41,12 +41,64 @@
         return reduceMotion || Boolean(connection?.saveData);
     }
 
+    function getSceneVideoVolume(scene, soundEnabled = true) {
+        if (!soundEnabled) return 0;
+        const configuredVolume = Number(scene?.videoVolume);
+        if (!Number.isFinite(configuredVolume)) return 0;
+        return Math.max(0, Math.min(1, configuredVolume));
+    }
+
+    function selectLesson(lessons, search = '') {
+        if (!Array.isArray(lessons) || lessons.length === 0) return null;
+        const lessonId = new URLSearchParams(search).get('lesson');
+        return lessons.find(lesson => lesson.id === lessonId) || lessons[0];
+    }
+
+    function shuffleChoices(choices, random = Math.random) {
+        const shuffled = Array.isArray(choices) ? [...choices] : [];
+        for (let index = shuffled.length - 1; index > 0; index -= 1) {
+            const swapIndex = Math.floor(random() * (index + 1));
+            [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+        }
+        return shuffled;
+    }
+
+    function getActiveKeywordAtTime(keywordCues, seconds) {
+        if (!Array.isArray(keywordCues)) return '';
+        const currentTime = Number(seconds);
+        for (let index = keywordCues.length - 1; index >= 0; index -= 1) {
+            const item = keywordCues[index];
+            const startAt = Number(item.startAt);
+            const duration = Number(item.duration) || 0.6;
+            if (currentTime >= startAt && currentTime < startAt + duration) return item.char || '';
+        }
+        return '';
+    }
+
+    function getStoryTailDelay(videoDuration, videoCurrentTime, fallbackDuration, narrationDuration) {
+        const videoRemaining = Number(videoDuration) - Number(videoCurrentTime);
+        const lessonRemaining = Number(fallbackDuration) - Number(narrationDuration);
+        const hasVideoTiming = Number.isFinite(Number(videoDuration))
+            && Number.isFinite(Number(videoCurrentTime));
+        const hasLessonTiming = Number.isFinite(Number(fallbackDuration))
+            && Number.isFinite(Number(narrationDuration));
+        if ((hasVideoTiming && videoRemaining <= 0) || (hasLessonTiming && lessonRemaining <= 0)) return 0;
+        const candidates = [videoRemaining, lessonRemaining]
+            .filter(value => Number.isFinite(value) && value > 0);
+        return candidates.length > 0 ? Math.min(...candidates) : 0;
+    }
+
     return {
         STORY_STORAGE_KEY,
         getSceneIndexAtTime,
         getEqualSceneIndex,
         prefersStaticSceneMedia,
+        getSceneVideoVolume,
         saveStoryResult,
+        selectLesson,
+        shuffleChoices,
+        getActiveKeywordAtTime,
+        getStoryTailDelay,
     };
 });
 
@@ -54,10 +106,10 @@
     if (typeof window === 'undefined' || typeof document === 'undefined') return;
 
     const lessons = window.HANZI_STORY_LESSONS;
-    const lesson = Array.isArray(lessons) ? lessons[0] : null;
+    const helpers = window.HanziFunStory;
+    const lesson = helpers.selectLesson(lessons, window.location.search);
     if (!lesson) throw new Error('故事课资源加载失败');
 
-    const helpers = window.HanziFunStory;
     const panels = {
         intro: document.getElementById('introPanel'),
         story: document.getElementById('storyPanel'),
@@ -85,6 +137,8 @@
     let animationFrame = null;
     let cueTimers = [];
     let currentSceneIndex = -1;
+    let currentCueKey = '';
+    let currentKeywordHighlightKey = '';
     let practiceIndex = 0;
     let quizIndex = 0;
     let correctAnswers = 0;
@@ -116,9 +170,10 @@
         video.dataset.sceneIndex = String(index);
         video.poster = scene.image;
         video.preload = 'metadata';
-        video.muted = true;
-        video.defaultMuted = true;
-        video.volume = 0;
+        const videoVolume = helpers.getSceneVideoVolume(scene, soundEnabled);
+        video.muted = videoVolume === 0;
+        video.defaultMuted = videoVolume === 0;
+        video.volume = videoVolume;
         video.playsInline = true;
         video.setAttribute('playsinline', '');
         video.setAttribute('webkit-playsinline', '');
@@ -137,6 +192,15 @@
         sceneImages.appendChild(video);
         return video;
     });
+
+    function updateSceneVideoVolumes() {
+        sceneVideos.forEach((video, index) => {
+            if (!video) return;
+            const videoVolume = helpers.getSceneVideoVolume(lesson.scenes[index], soundEnabled);
+            video.muted = videoVolume === 0;
+            video.volume = videoVolume;
+        });
+    }
 
     function updateSceneFallback(index) {
         if (currentSceneIndex !== index) return;
@@ -184,9 +248,9 @@
         });
     }
 
-    function renderSentence(focusedChars = []) {
+    function renderSentence(focusedChars = [], text = lesson.storyText) {
         storySentence.replaceChildren();
-        Array.from(lesson.storyText).forEach(char => {
+        Array.from(text).forEach(char => {
             if (focusedChars.includes(char)) {
                 const mark = document.createElement('mark');
                 mark.textContent = char;
@@ -240,38 +304,69 @@
         cueTimers = [];
     }
 
-    function renderScene(index) {
-        if (index < 0 || index >= lesson.scenes.length || index === currentSceneIndex) return;
-        currentSceneIndex = index;
-        const scene = lesson.scenes[index];
-        sceneLayers.forEach((image, layerIndex) => {
-            image.classList.toggle('active', layerIndex === index);
-        });
-        sceneVideos.forEach((video, layerIndex) => {
-            if (!video) return;
-            video.pause();
-            video.classList.remove('active');
-            if (layerIndex !== index) {
-                try {
-                    video.currentTime = 0;
-                } catch (error) {
-                    // 视频元数据尚未载入时无需重置播放位置。
-                }
-            }
-        });
-        sceneFallback.textContent = scene.fallbackEmoji;
-        const activeLayer = sceneLayers[index];
-        updateSceneFallback(index);
-        sceneCaption.textContent = scene.caption;
+    function renderCue(scene, sceneIndex, playbackTime) {
+        const cues = Array.isArray(scene.cues) && scene.cues.length > 0
+            ? scene.cues
+            : [{
+                startAt: 0,
+                text: scene.narrationText || scene.caption,
+                focusChars: scene.focusChars,
+            }];
+        const relativeTime = Math.max(0, playbackTime - Number(scene.startAt || 0));
+        const cueIndex = helpers.getSceneIndexAtTime(cues, relativeTime);
+        const cueKey = `${sceneIndex}:${cueIndex}`;
+        if (cueKey === currentCueKey) return;
+        currentCueKey = cueKey;
+        const cue = cues[cueIndex];
+        const focusedChars = Array.isArray(cue.focusChars) ? cue.focusChars : [];
+        sceneCaption.textContent = cue.text || '';
         focusRow.replaceChildren();
-        scene.focusChars.forEach(char => {
+        focusedChars.forEach(char => {
             const item = document.createElement('span');
             item.className = 'focus-char';
             item.textContent = char;
             focusRow.appendChild(item);
         });
-        renderSentence(scene.focusChars);
-        playSceneVideo(index);
+        renderSentence(focusedChars, cue.text || '');
+    }
+
+    function renderKeywordHighlight(scene, sceneIndex, playbackTime) {
+        const relativeTime = Math.max(0, playbackTime - Number(scene.startAt || 0));
+        const activeChar = helpers.getActiveKeywordAtTime(scene.keywordCues, relativeTime);
+        const highlightKey = `${sceneIndex}:${activeChar}`;
+        if (highlightKey === currentKeywordHighlightKey) return;
+        currentKeywordHighlightKey = highlightKey;
+        focusRow.querySelectorAll('.focus-char').forEach(item => {
+            item.classList.toggle('speaking', item.textContent === activeChar);
+        });
+    }
+
+    function renderScene(index, playbackTime = 0) {
+        if (index < 0 || index >= lesson.scenes.length) return;
+        const scene = lesson.scenes[index];
+        if (index !== currentSceneIndex) {
+            currentSceneIndex = index;
+            sceneLayers.forEach((image, layerIndex) => {
+                image.classList.toggle('active', layerIndex === index);
+            });
+            sceneVideos.forEach((video, layerIndex) => {
+                if (!video) return;
+                video.pause();
+                video.classList.remove('active');
+                if (layerIndex !== index) {
+                    try {
+                        video.currentTime = 0;
+                    } catch (error) {
+                        // 视频元数据尚未载入时无需重置播放位置。
+                    }
+                }
+            });
+            sceneFallback.textContent = scene.fallbackEmoji;
+            updateSceneFallback(index);
+            playSceneVideo(index);
+        }
+        renderCue(scene, index, playbackTime);
+        renderKeywordHighlight(scene, index, playbackTime);
     }
 
     function finishStory() {
@@ -283,6 +378,32 @@
         showToast('故事听完啦！');
     }
 
+    function finishStoryAfterVideoTail() {
+        const narrationDuration = activeAudio?.duration;
+        const activeVideo = sceneVideos[currentSceneIndex];
+        const tailDelay = helpers.getStoryTailDelay(
+            activeVideo?.duration,
+            activeVideo?.currentTime,
+            lesson.fallbackDuration,
+            narrationDuration
+        );
+        activeAudio = null;
+        if (!activeVideo || activeVideo.paused || activeVideo.ended || tailDelay <= 0.05) {
+            finishStory();
+            return;
+        }
+
+        let finished = false;
+        const completeTail = () => {
+            if (finished) return;
+            finished = true;
+            activeVideo.removeEventListener('ended', completeTail);
+            finishStory();
+        };
+        activeVideo.addEventListener('ended', completeTail, { once: true });
+        cueTimers.push(setTimeout(completeTail, (tailDelay + 0.35) * 1000));
+    }
+
     function monitorAudio() {
         if (!activeAudio) return;
         const sceneIndex = helpers.getEqualSceneIndex(
@@ -290,12 +411,40 @@
             activeAudio.currentTime,
             activeAudio.duration
         );
-        renderScene(sceneIndex);
+        renderScene(sceneIndex, activeAudio.currentTime);
         if (!activeAudio.paused && !activeAudio.ended) animationFrame = requestAnimationFrame(monitorAudio);
     }
 
+    function scheduleStoryTimeline() {
+        lesson.scenes.forEach((scene, index) => {
+            cueTimers.push(setTimeout(
+                () => renderScene(index, scene.startAt),
+                scene.startAt * 1000
+            ));
+            (scene.cues || []).slice(1).forEach(cue => {
+                const cueTime = scene.startAt + cue.startAt;
+                cueTimers.push(setTimeout(
+                    () => renderScene(index, cueTime),
+                    cueTime * 1000
+                ));
+            });
+            (scene.keywordCues || []).forEach(keywordCue => {
+                const cueTime = scene.startAt + keywordCue.startAt;
+                const cueEndTime = cueTime + (keywordCue.duration || 0.6);
+                cueTimers.push(setTimeout(
+                    () => renderScene(index, cueTime),
+                    cueTime * 1000
+                ));
+                cueTimers.push(setTimeout(
+                    () => renderScene(index, cueEndTime),
+                    cueEndTime * 1000
+                ));
+            });
+        });
+    }
+
     function playSilentTimeline() {
-        lesson.scenes.forEach((scene, index) => cueTimers.push(setTimeout(() => renderScene(index), scene.startAt * 1000)));
+        scheduleStoryTimeline();
         cueTimers.push(setTimeout(finishStory, lesson.fallbackDuration * 1000));
     }
 
@@ -310,7 +459,7 @@
         const finishSpeechFallback = () => {
             cueTimers.forEach(clearTimeout);
             cueTimers = [];
-            renderScene(lesson.scenes.length - 1);
+            renderScene(lesson.scenes.length - 1, lesson.fallbackDuration);
             finishStory();
         };
         utterance.onend = finishSpeechFallback;
@@ -318,10 +467,10 @@
             cueTimers.forEach(clearTimeout);
             cueTimers = [];
             currentSceneIndex = -1;
-            renderScene(0);
+            renderScene(0, 0);
             playSilentTimeline();
         };
-        lesson.scenes.forEach((scene, index) => cueTimers.push(setTimeout(() => renderScene(index), scene.startAt * 1000)));
+        scheduleStoryTimeline();
         window.speechSynthesis.speak(utterance);
     }
 
@@ -329,9 +478,11 @@
         stopNarration();
         storyComplete = false;
         currentSceneIndex = -1;
+        currentCueKey = '';
+        currentKeywordHighlightKey = '';
         startPracticeButton.disabled = true;
         startPracticeButton.textContent = '正在听故事…';
-        renderScene(0);
+        renderScene(0, 0);
         if (!soundEnabled) {
             playSilentTimeline();
             return;
@@ -342,7 +493,7 @@
         }
         voicePlayer.src = lesson.narrationAudio;
         activeAudio = voicePlayer;
-        voicePlayer.onended = finishStory;
+        voicePlayer.onended = finishStoryAfterVideoTail;
         voicePlayer.onerror = () => {
             activeAudio = null;
             playSpeechFallback();
@@ -411,7 +562,7 @@
         document.getElementById('quizFeedback').textContent = '';
         const choices = document.getElementById('quizChoices');
         choices.replaceChildren();
-        item.choices.forEach(choice => {
+        helpers.shuffleChoices(item.choices).forEach(choice => {
             const button = document.createElement('button');
             button.className = 'quiz-choice';
             button.type = 'button';
@@ -472,6 +623,8 @@
         correctAnswers = 0;
         storyComplete = false;
         currentSceneIndex = -1;
+        currentCueKey = '';
+        currentKeywordHighlightKey = '';
         lessonStartedAt = Date.now();
         setStep('intro');
     }
@@ -479,6 +632,10 @@
     document.getElementById('lessonTitle').textContent = lesson.title;
     document.getElementById('lessonTheme').textContent = lesson.theme;
     document.getElementById('coverEmoji').textContent = lesson.coverEmoji;
+    document.getElementById('introTitle').textContent = `今天认识 ${lesson.targetChars.length} 个字`;
+    document.getElementById('resultSummary').textContent =
+        `你听完了故事，也跟读了 ${lesson.practice.length} 个汉字。`;
+    document.title = `${lesson.title}｜汉字饭故事课`;
     renderTargets(document.getElementById('introTargets'));
     renderSentence();
 
@@ -514,7 +671,8 @@
         soundEnabled = !soundEnabled;
         soundButton.textContent = soundEnabled ? '🔊' : '🔇';
         soundButton.setAttribute('aria-label', soundEnabled ? '关闭声音' : '打开声音');
-        if (!soundEnabled && !panels.story.hidden && !storyComplete) playStory();
+        updateSceneVideoVolumes();
+        if (!panels.story.hidden && !storyComplete) playStory();
         else if (!soundEnabled) stopNarration();
         showToast(soundEnabled ? '声音已打开' : '声音已关闭');
     });

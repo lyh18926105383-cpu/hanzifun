@@ -29,16 +29,11 @@ async function main() {
         throw new Error('Missing TENCENTCLOUD_SECRET_ID or TENCENTCLOUD_SECRET_KEY.');
     }
 
-    const lesson = lessons.find(item => item.id === 'cat-and-fish-01');
-    if (!lesson) throw new Error('Missing cat-and-fish-01 lesson.');
+    const lessonId = readArgument('lesson', lessons[0]?.id || '');
+    const lesson = lessons.find(item => item.id === lessonId);
+    if (!lesson) throw new Error(`Missing ${lessonId || 'story'} lesson.`);
 
-    const outputDirectory = path.join(
-        projectRoot,
-        'assets',
-        'lessons',
-        'cat-and-fish',
-        'audio'
-    );
+    const outputDirectory = path.dirname(path.join(projectRoot, lesson.narrationAudio));
     const config = {
         secretId,
         secretKey,
@@ -47,6 +42,12 @@ async function main() {
         region: readArgument('region', 'ap-guangzhou'),
     };
     const force = process.argv.includes('--force');
+    const requestedIds = new Set(
+        readArgument('only', '')
+            .split(',')
+            .map(value => value.trim())
+            .filter(Boolean)
+    );
     const items = [
         {
             id: 'story-full',
@@ -58,6 +59,13 @@ async function main() {
             text: scene.narrationText,
             fileName: `story-scene-${index + 1}.mp3`,
         })),
+        ...lesson.practice
+            .filter(item => path.dirname(path.join(projectRoot, item.audio)) === outputDirectory)
+            .map((item, index) => ({
+                id: `practice-${index + 1}`,
+                text: item.ttsText || `${item.char}，${item.word}。`,
+                fileName: path.basename(item.audio),
+            })),
         ...lesson.quiz.map((question, index) => ({
             id: `quiz-${index + 1}`,
             text: question.prompt,
@@ -86,6 +94,15 @@ async function main() {
 
     for (const [index, item] of items.entries()) {
         const outputPath = path.join(outputDirectory, item.fileName);
+        const requested = requestedIds.size === 0 || requestedIds.has(item.id);
+        if (!requested) {
+            if (!fs.existsSync(outputPath)) {
+                throw new Error(`Missing cached audio for unrequested item ${item.id}.`);
+            }
+            cached += 1;
+            console.log(`[${index + 1}/${items.length}] ${item.id}: cached`);
+            continue;
+        }
         if (!force && fs.existsSync(outputPath)) {
             cached += 1;
             console.log(`[${index + 1}/${items.length}] ${item.id}: cached`);

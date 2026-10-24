@@ -8,6 +8,13 @@
     "tts:manifest": "node scripts/build-tts-manifest.js",
     "tts:pilot": "node scripts/generate-tencent-tts.js",
     "tts:all": "node scripts/generate-tencent-tts.js --all",
-    "tts:story": "node scripts/generate-story-tts.js"
+    "tts:story": "node scripts/generate-story-tts.js",
+    "tts:story:ant": "node scripts/generate-story-tts.js --lesson=ant-moving-bean-02 --speed=-2",
+    "tts:story:cat-mirror": "node scripts/generate-story-tts.js --lesson=cat-mirror-03 --speed=-1",
+    "tts:story:turtle": "node scripts/generate-story-tts.js --lesson=little-turtle-04 --speed=-1",
+    "tts:story:frog": "node scripts/generate-story-tts.js --lesson=little-frog-05 --speed=0",
+    "tts:story:rooster": "node scripts/generate-story-tts.js --lesson=painting-rooster-06 --speed=0",
+    "tts:story:wind-doll": "node scripts/generate-story-tts.js --lesson=wind-doll-07 --speed=1",
+    "tts:story:cucumber-flower": "node scripts/generate-story-tts.js --lesson=cucumber-flower-08 --speed=0"
   }
 }

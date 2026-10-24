@@ -1,0 +1,58 @@
+{
+  "lessonId": "little-frog-05",
+  "voice": "tencent-502007",
+  "speed": 0,
+  "generatedAt": "2026-07-25T15:12:26.064Z",
+  "files": [
+    {
+      "id": "story-full",
+      "text": "小青蛙，呱呱呱。眼睛鼓，嘴巴大，肚皮白，背儿花。捉害虫，是专家；保护庄稼就找它！",
+      "file": "story-full.mp3"
+    },
+    {
+      "id": "story-scene-1",
+      "text": "小青蛙，呱呱呱。眼睛鼓，嘴巴大，肚皮白，背儿花。捉害虫，是专家；保护庄稼就找它！",
+      "file": "story-scene-1.mp3"
+    },
+    {
+      "id": "quiz-1",
+      "text": "小青蛙捉的是什么虫？",
+      "file": "quiz-1.mp3"
+    },
+    {
+      "id": "quiz-2",
+      "text": "哪一个是“嘴巴”的“嘴”？",
+      "file": "quiz-2.mp3"
+    },
+    {
+      "id": "quiz-3",
+      "text": "保护庄稼要找谁？",
+      "file": "quiz-3.mp3"
+    },
+    {
+      "id": "correct-1",
+      "text": "害虫，答对了！",
+      "file": "correct-1.mp3"
+    },
+    {
+      "id": "correct-2",
+      "text": "嘴，答对了！",
+      "file": "correct-2.mp3"
+    },
+    {
+      "id": "correct-3",
+      "text": "小青蛙，答对了！",
+      "file": "correct-3.mp3"
+    },
+    {
+      "id": "try-again",
+      "text": "再想一想，小青蛙的故事里见过它哦！",
+      "file": "try-again.mp3"
+    },
+    {
+      "id": "lesson-complete",
+      "text": "太棒了，《小青蛙》故事课完成啦！",
+      "file": "course-complete-v2.mp3"
+    }
+  ]
+}

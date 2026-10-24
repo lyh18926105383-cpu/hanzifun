@@ -1,0 +1,58 @@
+{
+  "lessonId": "ant-moving-bean-02",
+  "voice": "tencent-502007",
+  "speed": -2,
+  "generatedAt": "2026-07-25T10:57:35.534Z",
+  "files": [
+    {
+      "id": "story-full",
+      "text": "小蚂蚁用力搬豆，搬不动。想出办法，请来朋友，一起抬回家。",
+      "file": "story-full.mp3"
+    },
+    {
+      "id": "story-scene-1",
+      "text": "小蚂蚁用力搬豆，搬不动。想出办法，请来朋友，一起抬回家。",
+      "file": "story-scene-1.mp3"
+    },
+    {
+      "id": "quiz-1",
+      "text": "小蚂蚁搬的是什么？",
+      "file": "quiz-1.mp3"
+    },
+    {
+      "id": "quiz-2",
+      "text": "哪一个是“力气”的“力”？",
+      "file": "quiz-2.mp3"
+    },
+    {
+      "id": "quiz-3",
+      "text": "小蚂蚁想出办法后，请来了谁？",
+      "file": "quiz-3.mp3"
+    },
+    {
+      "id": "correct-1",
+      "text": "豆，答对了！",
+      "file": "correct-1.mp3"
+    },
+    {
+      "id": "correct-2",
+      "text": "力，答对了！",
+      "file": "correct-2.mp3"
+    },
+    {
+      "id": "correct-3",
+      "text": "朋友，答对了！",
+      "file": "correct-3.mp3"
+    },
+    {
+      "id": "try-again",
+      "text": "再想一想，小蚂蚁的故事里见过它哦！",
+      "file": "try-again.mp3"
+    },
+    {
+      "id": "lesson-complete",
+      "text": "太棒了，《蚂蚁搬豆》故事课完成啦！",
+      "file": "course-complete-v2.mp3"
+    }
+  ]
+}

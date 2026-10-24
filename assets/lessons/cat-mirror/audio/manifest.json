@@ -1,0 +1,58 @@
+{
+  "lessonId": "cat-mirror-03",
+  "voice": "tencent-502007",
+  "speed": -1,
+  "generatedAt": "2026-07-25T14:19:26.438Z",
+  "files": [
+    {
+      "id": "story-full",
+      "text": "小花猫才睡醒，没洗脸。左看右看，还怪镜子脏。旁边一只小老鼠笑了！",
+      "file": "story-full.mp3"
+    },
+    {
+      "id": "story-scene-1",
+      "text": "小花猫才睡醒，没洗脸。左看右看，还怪镜子脏。旁边一只小老鼠笑了！",
+      "file": "story-scene-1.mp3"
+    },
+    {
+      "id": "quiz-1",
+      "text": "小花猫醒来前在做什么？",
+      "file": "quiz-1.mp3"
+    },
+    {
+      "id": "quiz-2",
+      "text": "哪一个是“左边”的“左”？",
+      "file": "quiz-2.mp3"
+    },
+    {
+      "id": "quiz-3",
+      "text": "故事里说“一只小老鼠”，哪一个是“只”？",
+      "file": "quiz-3.mp3"
+    },
+    {
+      "id": "correct-1",
+      "text": "睡，答对了！",
+      "file": "correct-1.mp3"
+    },
+    {
+      "id": "correct-2",
+      "text": "左，答对了！",
+      "file": "correct-2.mp3"
+    },
+    {
+      "id": "correct-3",
+      "text": "只，答对了！",
+      "file": "correct-3.mp3"
+    },
+    {
+      "id": "try-again",
+      "text": "再想一想，小花猫的故事里见过它哦！",
+      "file": "try-again.mp3"
+    },
+    {
+      "id": "lesson-complete",
+      "text": "太棒了，《花猫照镜子》故事课完成啦！",
+      "file": "course-complete-v2.mp3"
+    }
+  ]
+}

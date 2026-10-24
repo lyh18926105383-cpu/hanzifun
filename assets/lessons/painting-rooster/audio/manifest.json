@@ -1,0 +1,58 @@
+{
+  "lessonId": "painting-rooster-06",
+  "voice": "tencent-502007",
+  "speed": 0,
+  "generatedAt": "2026-07-29T14:41:03.737Z",
+  "files": [
+    {
+      "id": "story-full",
+      "text": "红冠不用裁，满身雪白走过来。天生大嗓门，不会轻声细语。一叫，家家都开门！",
+      "file": "story-full.mp3"
+    },
+    {
+      "id": "story-scene-1",
+      "text": "红冠不用裁，满身雪白走过来。天生大嗓门，不会轻声细语。一叫，家家都开门！",
+      "file": "story-scene-1.mp3"
+    },
+    {
+      "id": "quiz-1",
+      "text": "大公鸡一叫，村里的什么打开了？",
+      "file": "quiz-1.mp3"
+    },
+    {
+      "id": "quiz-2",
+      "text": "哪一个是“雪白”的“雪”？",
+      "file": "quiz-2.mp3"
+    },
+    {
+      "id": "quiz-3",
+      "text": "大公鸡头上红红的像什么？",
+      "file": "quiz-3.mp3"
+    },
+    {
+      "id": "correct-1",
+      "text": "门，答对了！",
+      "file": "correct-1.mp3"
+    },
+    {
+      "id": "correct-2",
+      "text": "雪，答对了！",
+      "file": "correct-2.mp3"
+    },
+    {
+      "id": "correct-3",
+      "text": "红冠，答对了！",
+      "file": "correct-3.mp3"
+    },
+    {
+      "id": "try-again",
+      "text": "再想一想，大公鸡的故事里见过它哦！",
+      "file": "try-again.mp3"
+    },
+    {
+      "id": "lesson-complete",
+      "text": "太棒了，《画鸡》故事课完成啦！",
+      "file": "course-complete-v2.mp3"
+    }
+  ]
+}

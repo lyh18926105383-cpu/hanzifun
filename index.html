@@ -43,7 +43,7 @@
       }
     }
     </script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=stories-v3">
 </head>
 <body>
 
@@ -69,14 +69,91 @@
             <span class="logo-icon">✏️</span>
         </div>
         <p class="subtitle">翻一翻 · 认一认 · 快乐学汉字</p>
-        <a class="story-entry" href="story.html">
-            <span class="story-entry-icon" aria-hidden="true">🐱</span>
-            <span class="story-entry-copy">
-                <strong>故事学汉字</strong>
-                <small>新课体验：小猫看鱼 · 5个字</small>
-            </span>
-            <span class="story-entry-arrow" aria-hidden="true">›</span>
-        </a>
+        <details class="story-collection">
+            <summary class="story-collection-toggle">
+                <span class="story-collection-icon" aria-hidden="true">📚</span>
+
+                <span class="story-collection-copy">
+                    <strong>故事课合集</strong>
+                    <small class="story-collection-hint story-collection-hint-closed">
+                        点击展开，选择一节故事课
+                    </small>
+                    <small class="story-collection-hint story-collection-hint-open">
+                        从第一课开始，按顺序学习
+                    </small>
+                </span>
+
+                <span class="story-collection-count">8 课</span>
+                <span class="story-collection-chevron" aria-hidden="true">⌄</span>
+            </summary>
+
+            <div class="story-list" aria-label="故事课程">
+                <a class="story-entry" href="story.html?lesson=cat-and-fish-01">
+                    <span class="story-entry-icon" aria-hidden="true">🐱</span>
+                    <span class="story-entry-copy">
+                        <strong>小猫看鱼</strong>
+                        <small>第 1 课 · 动物朋友 · 5 个字</small>
+                    </span>
+                    <span class="story-entry-arrow" aria-hidden="true">›</span>
+                </a>
+                <a class="story-entry" href="story.html?lesson=ant-moving-bean-02">
+                    <span class="story-entry-icon" aria-hidden="true">🐜</span>
+                    <span class="story-entry-copy">
+                        <strong>蚂蚁搬豆</strong>
+                        <small>第 2 课 · 动脑合作 · 6 个字</small>
+                    </span>
+                    <span class="story-entry-arrow" aria-hidden="true">›</span>
+                </a>
+                <a class="story-entry" href="story.html?lesson=cat-mirror-03">
+                    <span class="story-entry-icon" aria-hidden="true">🪞</span>
+                    <span class="story-entry-copy">
+                        <strong>花猫照镜子</strong>
+                        <small>第 3 课 · 生活习惯 · 6 个字</small>
+                    </span>
+                    <span class="story-entry-arrow" aria-hidden="true">›</span>
+                </a>
+                <a class="story-entry" href="story.html?lesson=little-turtle-04">
+                    <span class="story-entry-icon" aria-hidden="true">🐢</span>
+                    <span class="story-entry-copy">
+                        <strong>小乌龟</strong>
+                        <small>第 4 课 · 动物本领 · 6 个字</small>
+                    </span>
+                    <span class="story-entry-arrow" aria-hidden="true">›</span>
+                </a>
+                <a class="story-entry" href="story.html?lesson=little-frog-05">
+                    <span class="story-entry-icon" aria-hidden="true">🐸</span>
+                    <span class="story-entry-copy">
+                        <strong>小青蛙</strong>
+                        <small>第 5 课 · 动物本领 · 6 个字</small>
+                    </span>
+                    <span class="story-entry-arrow" aria-hidden="true">›</span>
+                </a>
+                <a class="story-entry" href="story.html?lesson=painting-rooster-06">
+                    <span class="story-entry-icon" aria-hidden="true">🐓</span>
+                    <span class="story-entry-copy">
+                        <strong>画鸡</strong>
+                        <small>第 6 课 · 公鸡报晓 · 6 个字</small>
+                    </span>
+                    <span class="story-entry-arrow" aria-hidden="true">›</span>
+                </a>
+                <a class="story-entry" href="story.html?lesson=wind-doll-07">
+                    <span class="story-entry-icon" aria-hidden="true">🌬️</span>
+                    <span class="story-entry-copy">
+                        <strong>没礼貌的风娃娃</strong>
+                        <small>第 7 课 · 学会讲礼貌 · 6 个字</small>
+                    </span>
+                    <span class="story-entry-arrow" aria-hidden="true">›</span>
+                </a>
+                <a class="story-entry" href="story.html?lesson=cucumber-flower-08">
+                    <span class="story-entry-icon" aria-hidden="true">🥒</span>
+                    <span class="story-entry-copy">
+                        <strong>一朵金花一个瓜</strong>
+                        <small>第 8 课 · 爱护花果 · 6 个字</small>
+                    </span>
+                    <span class="story-entry-arrow" aria-hidden="true">›</span>
+                </a>
+            </div>
+        </details>
         <p class="mode-divider"><span>或者继续用字卡学习</span></p>
         <div class="btn-grid">
             <button class="start-btn easy" data-count="5">
