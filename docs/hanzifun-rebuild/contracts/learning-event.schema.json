@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://hanzifun.local/contracts/learning-event.schema.json",
+  "title": "HanziFun 学习事件契约",
+  "description": "冻结学习/复习事件的稳定结构。目标模型为事件溯源（LearningEvent）；旧 localStorage 记录（learning.v1 / story.v1 / prototype.learning.v1）作为 Legacy 导入源保留只读。",
+  "contractVersion": "1.0",
+  "frozenAt": "2026-10-25",
+  "type": "object",
+  "required": ["schemaVersion", "occurredAt"],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "description": "事件 schema 版本。Phase 1 现状冻结为 \"1\"；Phase 3 迁移到 IndexedDB 的 hanzifun.learning.v2 时递增。",
+      "const": "1"
+    },
+    "eventId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "事件全局唯一标识（UUID）。旧 v1 记录无 UUID，导入时按 sourceKey+sourceOrigin+payloadHash 生成批次标识，不捏造逐次事件。"
+    },
+    "ownerScope": {
+      "type": "string",
+      "enum": ["guest", "account"],
+      "description": "归属范围。Phase 1 恒为 guest（本机游客）；Phase 3 账号阶段引入 account。"
+    },
+    "deviceId": {
+      "type": "string",
+      "description": "设备稳定标识（本机匿名生成，不采集身份）。"
+    },
+    "deviceSeq": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "设备内单调递增序号，用于去重与排序。"
+    },
+    "cardId": {
+      "type": "string",
+      "description": "卡片 ID。唯一字按 characterId，复习数按 cardId；旧的两个“睛”教学位置可不同 cardId、共用 characterId。"
+    },
+    "characterId": {
+      "type": "string",
+      "pattern": "^char:[0-9a-f]{4,6}$",
+      "description": "唯一字 ID，格式 char:<小写十六进制码点>。例如“睛”为 char:775b。跨 characters.js / storage.characters / audio-manifest.cards 的稳定主键。"
+    },
+    "sessionId": {
+      "type": "string",
+      "description": "会话 ID；练习续练使用内部 sessionId，不写入公开 URL。"
+    },
+    "rating": {
+      "type": ["string", "null"],
+      "enum": ["familiar", "unfamiliar", null],
+      "description": "本次评价：familiar（熟悉/熟悉）、unfamiliar（不熟悉）。旧 v1 用布尔 status（true=familiar，false=unfamiliar）。"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["learning", "review", "story", "scenario"],
+      "description": "事件来源模式。story 结果独立展示，不换算为 SRS 掌握度。"
+    },
+    "occurredAt": {
+      "type": "integer",
+      "description": "发生时间（Unix epoch 毫秒）。"
+    },
+    "schedulerVersion": {
+      "type": "string",
+      "description": "复习调度器版本（Phase 1 冻结为 interval-v1）。"
+    },
+    "baseRevision": {
+      "type": "string",
+      "description": "内容/卡组基准版本，用于判定事件是否仍对应当前内容。"
+    }
+  },
+  "definitions": {
+    "LegacyLearningDataV1": {
+      "type": "object",
+      "description": "旧 localStorage 键 hanzifun.learning.v1 的结构（storage.js，DATA_VERSION=1，MAX_SESSIONS=50）。导入为 LegacySnapshot，只读。",
+      "required": ["version", "sessions", "characters"],
+      "properties": {
+        "version": { "const": 1 },
+        "sessions": {
+          "type": "array",
+          "maxItems": 50,
+          "items": {
+            "type": "object",
+            "required": ["id", "kind", "completedAt", "results"],
+            "properties": {
+              "id": { "type": "string" },
+              "kind": { "enum": ["learning", "review"] },
+              "completedAt": { "type": "integer" },
+              "total": { "type": "integer" },
+              "familiar": { "type": "integer" },
+              "unfamiliar": { "type": "integer" },
+              "results": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["char", "status"],
+                  "properties": {
+                    "char": { "type": "string" },
+                    "status": { "type": "boolean" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "characters": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "seenCount": { "type": "integer" },
+              "familiarCount": { "type": "integer" },
+              "unfamiliarCount": { "type": "integer" },
+              "needsReview": { "type": "boolean" },
+              "lastResult": { "type": ["boolean", "null"] },
+              "lastSeenAt": { "type": ["integer", "null"] }
+            }
+          }
+        }
+      }
+    },
+    "LegacyStoryResultV1": {
+      "type": "object",
+      "description": "旧 localStorage 键 hanzifun.story.v1 的单条结果（story.js，sessions 最多 50）。进入独立故事历史，不转换成闪卡评价。",
+      "properties": {
+        "id": { "type": "string" },
+        "lessonId": { "type": "string" },
+        "completedAt": { "type": "integer" },
+        "durationSeconds": { "type": "integer" },
+        "practicedChars": { "type": "array", "items": { "type": "string" } },
+        "quizCorrect": { "type": "integer" },
+        "quizTotal": { "type": "integer" }
+      }
+    },
+    "LegacyPrototypeLearningV1": {
+      "type": "object",
+      "description": "原型练习记录 hanzifun.prototype.learning.v1（30 轮截断）。用户选择后仅导入收藏/摘要，不冒充生产用户学习数据。"
+    }
+  },
+  "importBatchIdentity": {
+    "description": "旧记录导入批次标识 = sourceKey + sourceOrigin + payloadHash + schemaVersion；重复导入同一批无新增。旧摘要与保留轮次不重复累加历史总数。"
+  }
+}

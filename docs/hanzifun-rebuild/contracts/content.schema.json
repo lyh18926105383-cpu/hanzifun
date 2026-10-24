@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://hanzifun.local/contracts/content.schema.json",
+  "title": "HanziFun 内容契约",
+  "description": "冻结 Character 与 Card 两个核心内容实体及现有 characters.js / audio-manifest 的稳定字段，明确旧“睛”的两个教学位置与唯一字 ID。",
+  "contractVersion": "1.0",
+  "frozenAt": "2026-10-25",
+  "supersedes": "SPEC.md REQ-05",
+  "uniqueCharacterId": {
+    "format": "char:<codepoint>",
+    "example": "char:775b",
+    "rule": "唯一字 ID = 汉字字符的 Unicode 小写十六进制码点前缀 char:。跨 characters.js / storage.characters / audio-manifest.cards 的稳定主键；字形不变则 ID 不变，改译文不改变稳定 ID。",
+    "legacyDuplicate": {
+      "char": "睛",
+      "codepoint": "U+775B",
+      "characterId": "char:775b",
+      "positions": [
+        { "source": "characters.js", "group": "4-4", "indexInGroup": 1, "zeroBasedIndex": 18, "oneBasedTeachingPosition": 19 },
+        { "source": "characters.js", "group": "4-15", "indexInGroup": 3, "zeroBasedIndex": 86, "oneBasedTeachingPosition": 87 }
+      ],
+      "rule": "旧的两个“睛”教学位置可拥有不同 cardId，但共用同一 characterId=char:775b；audio-manifest.json 中“睛”按字键去重为单条（url audio/tts-v1/019-775b.mp3）。"
+    }
+  },
+  "definitions": {
+    "Character": {
+      "type": "object",
+      "required": ["characterId", "glyph", "contentTier", "reviewStatus", "publicationStatus"],
+      "properties": {
+        "characterId": { "type": "string", "pattern": "^char:[0-9a-f]{4,6}$" },
+        "glyph": { "type": "string", "description": "汉字字形（Unicode 字面量）" },
+        "readingId": { "type": "array", "items": { "type": "string" }, "description": "读音 ID；多音字分别记录" },
+        "definition": { "type": "string" },
+        "radical": { "type": "string" },
+        "structure": { "type": "string", "description": "独体/部件结构说明" },
+        "strokeCount": { "type": "integer" },
+        "contentTier": { "enum": ["Tier1", "Tier2"] },
+        "reviewStatus": { "enum": ["draft", "reviewed"] },
+        "publicationStatus": { "enum": ["draft", "reviewed", "published", "archived"] },
+        "sourceReferences": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "Card": {
+      "type": "object",
+      "required": ["cardId", "characterId", "contentVersion"],
+      "properties": {
+        "cardId": { "type": "string", "description": "卡片 ID，跨教学位置唯一" },
+        "characterId": { "type": "string", "pattern": "^char:[0-9a-f]{4,6}$" },
+        "itemId": { "type": "string" },
+        "readingId": { "type": "string" },
+        "promptType": { "enum": ["character", "word", "sentence"] },
+        "contentVersion": { "type": "string" }
+      }
+    },
+    "LegacyCharacterCard": {
+      "type": "object",
+      "description": "现有 characters.js 中 108 张字卡的字段（保留只读，作为迁移源）。",
+      "required": ["char", "type", "word", "emoji", "hint"],
+      "properties": {
+        "char": { "type": "string" },
+        "type": { "enum": ["noun", "verb"] },
+        "word": { "type": "string" },
+        "emoji": { "type": "string" },
+        "hint": { "type": "string" }
+      }
+    },
+    "LegacyAudioManifest": {
+      "type": "object",
+      "description": "现有 audio-manifest.json：version=tts-v1，voice=tencent-502007，按字键去重 107 条（声明 available/total=108）。",
+      "properties": {
+        "version": { "const": "tts-v1" },
+        "voice": { "const": "tencent-502007" },
+        "available": { "const": 108 },
+        "total": { "const": 108 },
+        "cards": { "type": "object", "description": "键为汉字字面量，共 107 个唯一键；字段含 url/text/pronunciation/sha256" }
+      }
+    }
+  },
+  "coreSet": {
+    "description": "Phase 1 核心集 = 旧 107 唯一字 ∪ 原型 26 字 = 126 唯一字；108 卡（“睛”重复）。"
+  }
+}

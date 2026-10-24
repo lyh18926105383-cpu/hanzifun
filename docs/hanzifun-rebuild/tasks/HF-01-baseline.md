@@ -1,6 +1,6 @@
 # HF-01｜基线整合、资产保全与施工契约
 
-状态：待执行（本轮只生成任务文档）。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
+状态：已完成（2026-10-25，见 [INTEGRATION](../baseline/INTEGRATION.md)）。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
 
 | 项目 | 内容 |
 |---|---|
