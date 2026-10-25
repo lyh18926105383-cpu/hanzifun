@@ -2,8 +2,8 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 1：主站上线（基线整合、126 字字典及 Information、独立笔顺页与拼音表、本机闪卡、两场景、两版 HSK 1 级）
-- **当前执行任务**：`HF-02` 数据实现已交付，自动检查通过，人工内容/拼音/音频验收待关闭；本会话未启动其他工作包。
-- **状态**：HF-01 已完成；HF-02 在主仓库 main 交付数据管线与产物，详见记录 03。
+- **当前执行任务**：`HF-03` 站点外壳与路由已完成；HF-02 数据实现已交付，人工内容/拼音/音频验收待关闭。
+- **状态**：HF-01、HF-03 已完成；HF-02 自动检查通过但人工验收未关闭。HF-04 的硬依赖包括 HF-02 与 HF-03，开始前先按记录 03 关闭所需人工验收。
 
 ---
 
@@ -57,3 +57,18 @@
   1. 先读本记录、TASKS与当前指定任务；数据接口读 `data/README.md`，验证证据读 `HF-02-VERIFICATION.md`。
   2. 继续HF-02验收时，从 `data/reports/editorial-review.json`、`information-issues.json`、`word-gaps.json`、`audio-requests.json` 逐项处理；审核结论应持久化到输入并接入构建，不能手改会被覆盖的生成报告，未听审音频不开放。
   3. HF-04消费 normalized/、strokes/manifest 与 pinyin/；按字加载笔画，发布时带许可/署名；不要整库复制source-extracts或.cache。主站/HSK页面未在本包实现。
+
+### [记录 04] - HF-03 站点外壳与路由完成 (By Codex, 2026-10-25)
+- **工作目录/范围**：`/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun`，仅执行 HF-03；未触碰已存在的未跟踪用户文件，也未改写根 `dist/`。
+- **已完成**：
+  - 将已归档原型改造成 `site/` 维护结构：数据/渲染、基础布局、七段首页、路由表、静态占位模板、共享英文样式和预览配置；首页保留逐字确认副标题、三类人群、三项卖点与六个 HTML FAQ。
+  - 覆盖 77 个原型路径的逐项映射，并补充 HF-02 的 126 个受控字典路由及拼音表、政策、数据来源、条款和 404 骨架。`site/release.json` 将默认状态绑定到 `noindex,follow`；预览/计划页面输出对应 robots meta，发布状态策略切换到 `index,follow`。本次没有把未完成英文页开放索引。
+  - 桌面/手机导航包含 All Characters、Stroke Order、Pinyin Chart、HSK 2.0/3.0；两套 HSK 入口、Pricing、Sign in、中文与免费闪卡链接均落到契约路径。通过 Escape、焦点返回、字典子导航、键盘翻卡和 FAQ 展开检查。
+  - 英文静态输出使用 `/site-assets/` 版本化新资源；原中文 `/zh/`、故事播放器 `/story.html?lesson=...` 和原课程资源继续按旧路径输出。Wrangler 404 配置改为真实 `/404.html`；未知路径不会伪装成首页 200。
+- **文件列表**：
+  - 新增：`site/data.mjs`、`site/site.mjs`、`site/pages/home.html`、`site/pages/route-stubs.mjs`、`site/layouts/base.html`、`site/routes.mjs`、`site/release.json`、`site/public/site-styles.css`。
+  - 新增：`public/site-assets/{hero,audiences,festival}.hf03-v1.jpg`、`public/site-assets/seal.hf03-v1.svg`、`src/client/navigation.mjs`、`src/client/site-preview.js`、`tests/site-shell.test.mjs`、`docs/hanzifun-rebuild/HF-03-VERIFICATION.md`。
+  - 修改：`scripts/build-site.js`、`wrangler.toml`、`docs/hanzifun-rebuild/tasks/HF-03-site-shell.md`、`docs/hanzifun-rebuild/TASKS.md`、`docs/hanzifun-rebuild/PROGRESS.md`。
+- **验证结果**：最终 `npm test` 64/64（含原有 58 项与 HF-03 新增 6 项）；`HF_BUILD_OUTPUT_DIR=/private/tmp/hf03-build-hanzifun npm run build:site` 成功，输出 601 个公开文件、映射 77 个原型路径并生成 181 个 `noindex` 预览页。隔离输出路径保留原 `dist/`。本地浏览器 360/390/768/1100/1440 宽度均无横向溢出，720 CSS px 等效放大视口无溢出；减少动态效果下无非零 transition；手机/桌面导航、键盘 Escape、焦点、翻卡和 FAQ 均完成交互检查。首页与移动导航截图已在浏览器验收会话捕获并供本次检查；截图接口返回会话图像，没有另存为仓库 PNG。
+- **遗留问题**：HF-02 人工英文释义/读音语境、拼音教学声调和音频逐项听审仍未关闭；Phase 2/3 占位页依照当前 release 策略均不可索引。截图目前仅随本会话验收快照保留，未写入项目证据目录。
+- **下一个 Agent 精确切入点**：先依 HF-02 验收记录继续完成人工内容/拼音/音频复核；HF-04 在 HF-02 相关验收关闭后读取其数据接口，将 `data/normalized/`、`data/strokes/`、`data/pinyin/` 接入 [HF-03 路由与页面挂载点](tasks/HF-03-site-shell.md)；公开内容索引策略留给 HF-08 按质量门槛放行。

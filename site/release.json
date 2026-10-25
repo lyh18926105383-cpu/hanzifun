@@ -1,0 +1,71 @@
+{
+  "releaseId": "hf03-site-shell-preview",
+  "prototypePathCount": 77,
+  "defaultStatus": "preview",
+  "statusPolicies": {
+    "planned": {
+      "indexing": "noindex",
+      "robots": "noindex,follow"
+    },
+    "preview": {
+      "indexing": "noindex",
+      "robots": "noindex,follow"
+    },
+    "published": {
+      "indexing": "index",
+      "robots": "index,follow"
+    },
+    "legacy": {
+      "indexing": "inherit",
+      "robots": "inherit"
+    }
+  },
+  "routes": {
+    "/": "preview",
+    "/kids/": "preview",
+    "/kids/stories/": "preview",
+    "/kids/worksheets/": "preview",
+    "/scenarios/": "preview",
+    "/scenarios/travel/restaurant/": "preview",
+    "/scenarios/business/icebreakers/": "preview",
+    "/academic/": "preview",
+    "/academic/hsk-2/": "preview",
+    "/academic/hsk-3/": "preview",
+    "/academic/textbooks/": "planned",
+    "/dictionary/": "preview",
+    "/dictionary/pinyin/": "preview",
+    "/dictionary/radicals/": "preview",
+    "/dictionary/compare/": "preview",
+    "/dictionary/top-100/": "planned",
+    "/stroke-order/": "preview",
+    "/pinyin-chart/": "planned",
+    "/flashcards/": "preview",
+    "/flashcards/decks/": "preview",
+    "/flashcards/my-words/": "preview",
+    "/flashcards/teacher/": "planned",
+    "/account/": "preview",
+    "/tools/": "planned",
+    "/tools/chinese-name-generator/": "preview",
+    "/tools/chinese-menu-decoder/": "preview",
+    "/tools/zodiac-elements-calculator/": "planned",
+    "/tools/tattoo-character-checker/": "planned",
+    "/blog/": "planned",
+    "/search/": "planned",
+    "/sign-in/": "planned",
+    "/pricing/": "planned",
+    "/about/": "preview",
+    "/contact/": "preview",
+    "/privacy/": "planned",
+    "/terms/": "planned",
+    "/data-sources/": "planned",
+    "/404.html": "planned",
+    "/zh/": "legacy",
+    "story.html?lesson={lessonId}": "legacy"
+  },
+  "patterns": {
+    "/kids/stories/{slug}/": "preview",
+    "/dictionary/{char}/": "planned",
+    "/flashcards/decks/{slug}/": "preview",
+    "/blog/{slug}/": "planned"
+  }
+}

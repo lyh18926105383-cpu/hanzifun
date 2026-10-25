@@ -2,10 +2,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const projectRoot = path.resolve(__dirname, '..');
-const outputRoot = path.join(projectRoot, 'dist');
-const rootFiles = [
-    'index.html',
-    'story.html',
+const outputRoot = path.resolve(process.env.HF_BUILD_OUTPUT_DIR || path.join(projectRoot, 'dist'));
+const siteRoot = path.join(projectRoot, 'site');
+const publicFiles = [
     'styles.css',
     'story.css',
     'app.js',
@@ -16,15 +15,26 @@ const rootFiles = [
     'tts-corpus.js',
     'audio.js',
     'audio-manifest.json',
-    'robots.txt',
-    'sitemap.xml',
     '工具头像.png',
 ];
+
+function ensureSafeOutput() {
+    if (outputRoot === projectRoot || outputRoot === path.join(projectRoot, '.git')) {
+        throw new Error('Refusing to use a project-sensitive directory as the build output.');
+    }
+    const relative = path.relative(projectRoot, outputRoot);
+    if (relative.startsWith('..') || path.isAbsolute(relative)) {
+        return;
+    }
+    if (relative === '' || relative === 'node_modules') {
+        throw new Error('Refusing to clear an unsafe build output: ' + outputRoot);
+    }
+}
 
 function copyFile(relativePath) {
     const source = path.join(projectRoot, relativePath);
     const destination = path.join(outputRoot, relativePath);
-    if (!fs.existsSync(source)) throw new Error(`Missing site asset: ${relativePath}`);
+    if (!fs.existsSync(source)) throw new Error('Missing site asset: ' + relativePath);
     fs.mkdirSync(path.dirname(destination), { recursive: true });
     fs.copyFileSync(source, destination);
 }
@@ -32,7 +42,7 @@ function copyFile(relativePath) {
 function copyDirectory(relativePath, filter) {
     const source = path.join(projectRoot, relativePath);
     const destination = path.join(outputRoot, relativePath);
-    if (!fs.existsSync(source)) throw new Error(`Missing site directory: ${relativePath}`);
+    if (!fs.existsSync(source)) throw new Error('Missing site directory: ' + relativePath);
     fs.cpSync(source, destination, {
         recursive: true,
         filter: currentPath => {
@@ -42,25 +52,278 @@ function copyDirectory(relativePath, filter) {
     });
 }
 
-fs.rmSync(outputRoot, { recursive: true, force: true });
-fs.mkdirSync(outputRoot, { recursive: true });
-rootFiles.forEach(copyFile);
-copyDirectory('audio/tts-v1', currentPath => currentPath.endsWith('.mp3'));
-copyDirectory('assets', currentPath => path.basename(currentPath) !== '.DS_Store');
+function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, character => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;',
+    })[character]);
+}
 
-const forbiddenNames = new Set(['.env', '.git', '.gitignore', '.DS_Store']);
-const queued = [outputRoot];
-let fileCount = 0;
-while (queued.length > 0) {
-    const directory = queued.pop();
-    for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
-        if (forbiddenNames.has(entry.name)) {
-            throw new Error(`Forbidden deployment asset: ${entry.name}`);
+function routeFilePath(pathname) {
+    let decoded;
+    try {
+        decoded = decodeURIComponent(pathname);
+    } catch {
+        throw new Error('Malformed URL encoding in local link: ' + pathname);
+    }
+    if (decoded.split('/').includes('..')) throw new Error('Path traversal in local link: ' + pathname);
+    if (decoded === '/') return path.join(outputRoot, 'index.html');
+    const relative = decoded.replace(/^\/+/, '');
+    return path.join(outputRoot, relative.endsWith('/') ? relative + 'index.html' : relative);
+}
+
+function assertLocalReferences(html, pagePath) {
+    const reference = /\b(?:href|src|action)="([^"]+)"/g;
+    for (const match of html.matchAll(reference)) {
+        const raw = match[1];
+        if (!raw || raw.startsWith('#') || raw.startsWith('mailto:') || raw.startsWith('tel:') ||
+            raw.startsWith('javascript:') || raw.startsWith('//')) continue;
+        let url;
+        try {
+            url = new URL(raw, 'https://hanzifun.invalid' + pagePath);
+        } catch {
+            throw new Error('Invalid link in ' + pagePath + ': ' + raw);
         }
-        const entryPath = path.join(directory, entry.name);
-        if (entry.isDirectory()) queued.push(entryPath);
-        else fileCount += 1;
+        if (url.origin !== 'https://hanzifun.invalid') continue;
+        const target = routeFilePath(url.pathname);
+        if (!fs.existsSync(target)) {
+            throw new Error('Broken local link/resource from ' + pagePath + ': ' + raw + ' -> ' + target);
+        }
     }
 }
 
-console.log(`Built ${fileCount} public files in dist/.`);
+function replacePrototypeAssets(html) {
+    return html
+        .replaceAll('/assets/seal.svg', '/site-assets/seal.hf03-v1.svg')
+        .replaceAll('/assets/hero.png', '/site-assets/hero.hf03-v1.jpg')
+        .replaceAll('/assets/audiences.png', '/site-assets/audiences.hf03-v1.jpg')
+        .replaceAll('/assets/festival.png', '/site-assets/festival.hf03-v1.jpg')
+        .replaceAll('/legacy/story.html?lesson=', '/story.html?lesson=')
+        .replaceAll('/legacy/index.html', '/zh/');
+}
+
+function htmlForPage(layout, page, route, header, footer) {
+    const robots = route.robots === 'inherit' ? '' :
+        '<meta name="robots" content="' + escapeHtml(route.robots) + '">';
+    let html = layout
+        .replaceAll('{{lang}}', escapeHtml(page.lang || 'en'))
+        .replaceAll('{{title}}', escapeHtml(page.title))
+        .replaceAll('{{description}}', escapeHtml(page.description || page.title))
+        .replaceAll('{{robots}}', robots)
+        .replaceAll('{{header}}', header())
+        .replaceAll('{{content}}', page.content)
+        .replaceAll('{{footer}}', footer());
+    html = replacePrototypeAssets(html);
+    if ((html.match(/<h1(?:\s|>)/gi) || []).length !== 1) {
+        throw new Error('Expected exactly one H1 on ' + page.path);
+    }
+    if (route.robots !== 'inherit' && !html.includes('<meta name="robots" content="' + route.robots + '">')) {
+        throw new Error('Route release policy was not rendered into the head: ' + page.path);
+    }
+    return html;
+}
+
+function outputPath(routePath) {
+    if (routePath === '/') return 'index.html';
+    if (routePath.endsWith('.html')) return routePath.slice(1);
+    return routePath.slice(1) + 'index.html';
+}
+
+function writeRoutePage(routePath, html) {
+    const destination = path.join(outputRoot, outputPath(routePath));
+    fs.mkdirSync(path.dirname(destination), { recursive: true });
+    fs.writeFileSync(destination, html);
+}
+
+function coreCharacters() {
+    const manifest = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/core-manifest.json'), 'utf8'));
+    if (!Array.isArray(manifest.characterIds)) throw new Error('Invalid core character manifest.');
+    const characters = manifest.characterIds.map(id => {
+        const match = /^char:([0-9a-f]{4,6})$/i.exec(id);
+        if (!match) throw new Error('Invalid stable character ID: ' + id);
+        return String.fromCodePoint(parseInt(match[1], 16));
+    });
+    if (characters.length !== 126 || new Set(characters).size !== characters.length) {
+        throw new Error('Expected the controlled 126-character route set.');
+    }
+    return characters;
+}
+
+function makeLegacyChineseEntry() {
+    let html = fs.readFileSync(path.join(projectRoot, 'index.html'), 'utf8');
+    if (!/<head>/i.test(html)) throw new Error('Chinese index.html has no head element.');
+    html = html.replace(/<head>/i, '<head>\n    <base href="/">');
+    return html;
+}
+
+function makeLegacyStoryPage() {
+    return fs.readFileSync(path.join(projectRoot, 'story.html'), 'utf8')
+        .replaceAll('href="index.html"', 'href="/zh/"')
+        .replaceAll('href="/index.html"', 'href="/zh/"');
+}
+
+function makeSitemap(manifest, release) {
+    const published = manifest.routes.filter(route =>
+        route.indexing === 'index' && route.output && route.path.startsWith('/')
+    );
+    if (!published.length) {
+        return '<?xml version="1.0" encoding="UTF-8"?>\n' +
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>\n';
+    }
+    if (!release.siteOrigin) {
+        throw new Error('Set siteOrigin before publishing indexable routes.');
+    }
+    const origin = release.siteOrigin.replace(/\/+$/, '');
+    const urls = published.map(route =>
+        '  <url><loc>' + origin + route.path + '</loc></url>'
+    ).join('\n');
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' +
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls +
+        '\n</urlset>\n';
+}
+
+async function buildSite() {
+    ensureSafeOutput();
+    fs.rmSync(outputRoot, { recursive: true, force: true });
+    fs.mkdirSync(outputRoot, { recursive: true });
+
+    for (const file of publicFiles) copyFile(file);
+    copyDirectory('audio/tts-v1', currentPath => currentPath.endsWith('.mp3'));
+    copyDirectory('assets', currentPath => path.basename(currentPath) !== '.DS_Store');
+    fs.cpSync(path.join(projectRoot, 'public/site-assets'), path.join(outputRoot, 'site-assets'), {
+        recursive: true,
+        filter: currentPath => path.basename(currentPath) !== '.DS_Store',
+    });
+
+    const { characters, decks, names, articles, stories } = await import('../site/data.mjs');
+    const { header, footer, renderPages, journal } = await import('../site/site.mjs');
+    const { createSupportPages, createCharacterStub, createContractFallback } =
+        await import('../site/pages/route-stubs.mjs');
+    const routesModule = await import('../site/routes.mjs');
+
+    const assetSources = [
+        ['site/public/site-styles.css', 'site-styles.hf03-v1.css'],
+        ['src/client/site-preview.js', 'site-preview.hf03-v1.js'],
+        ['src/client/navigation.mjs', 'navigation.hf03-v1.mjs'],
+    ];
+    for (const [sourcePath, outputName] of assetSources) {
+        fs.copyFileSync(path.join(projectRoot, sourcePath), path.join(outputRoot, 'site-assets', outputName));
+    }
+    const browserData = { characters, decks, names, articles, stories };
+    fs.writeFileSync(
+        path.join(outputRoot, 'site-assets/site-data.hf03-v1.js'),
+        'window.HANZIFUN = ' + JSON.stringify(browserData) + ';\n'
+    );
+
+
+    const home = fs.readFileSync(path.join(siteRoot, 'pages/home.html'), 'utf8').replace('{{journal}}', journal());
+    const prototypePages = [
+        {
+            path: '/',
+            title: 'Learn Chinese Characters Visually',
+            description: 'Vivid Stories, Smart Flashcards & Real-Life Scenarios. Explore the HanziFun design preview.',
+            content: home,
+        },
+        ...renderPages(),
+    ];
+    const prototypePaths = prototypePages.map(page => page.path);
+    const coreChars = coreCharacters();
+    const manifest = routesModule.buildRouteManifest({
+        prototypePaths,
+        characters: coreChars,
+        contract: routesModule.routeContract,
+        release: routesModule.releaseConfig,
+    });
+
+    const pages = new Map();
+    const addPage = page => {
+        if (pages.has(page.path)) throw new Error('Duplicate static route page: ' + page.path);
+        pages.set(page.path, page);
+    };
+    prototypePages.forEach(addPage);
+    createSupportPages().forEach(addPage);
+
+    for (const character of coreChars) {
+        const routePath = '/dictionary/' + character + '/';
+        if (!pages.has(routePath)) addPage(createCharacterStub(character));
+    }
+
+    for (const [routePath, details] of Object.entries(routesModule.routeContract.routes || {})) {
+        if (routePath.includes('{') || routePath.includes('?') || pages.has(routePath)) continue;
+        addPage(createContractFallback(routePath, details.phase1));
+    }
+
+    const release = routesModule.releaseConfig;
+    const layout = fs.readFileSync(path.join(siteRoot, 'layouts/base.html'), 'utf8');
+    const concreteRoutes = new Map(manifest.routes.map(route => [route.path, route]));
+    const generated = [];
+    for (const page of pages.values()) {
+        if (page.path === '/zh/') continue;
+        const route = concreteRoutes.get(page.path);
+        if (!route) throw new Error('No release manifest entry for page: ' + page.path);
+        const html = htmlForPage(layout, page, route, header, footer);
+        writeRoutePage(page.path, html);
+        generated.push({ path: page.path, html });
+    }
+
+    // The original Chinese app stays at /zh/ with its relative resources resolving
+    // from the site root. The story player and its media keep their legacy URLs.
+    const chineseEntry = makeLegacyChineseEntry();
+    const zhDestination = path.join(outputRoot, 'zh/index.html');
+    fs.mkdirSync(path.dirname(zhDestination), { recursive: true });
+    fs.writeFileSync(zhDestination, chineseEntry);
+    const legacyStory = makeLegacyStoryPage();
+    fs.writeFileSync(path.join(outputRoot, 'story.html'), legacyStory);
+
+    generated.forEach(({ path: pagePath, html }) => assertLocalReferences(html, pagePath));
+    assertLocalReferences(chineseEntry, '/');
+    assertLocalReferences(legacyStory, '/story.html');
+
+
+    fs.writeFileSync(path.join(outputRoot, 'route-manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
+    fs.writeFileSync(path.join(outputRoot, 'robots.txt'), 'User-agent: *\nAllow: /\n');
+    fs.writeFileSync(path.join(outputRoot, 'sitemap.xml'), makeSitemap(manifest, release));
+
+    const stylesheet = fs.readFileSync(path.join(outputRoot, 'site-assets/site-styles.hf03-v1.css'), 'utf8');
+    for (const match of stylesheet.matchAll(/url\((?:["']?)([^)"']+)(?:["']?)\)/g)) {
+        const raw = match[1];
+        if (raw.startsWith('data:') || raw.startsWith('http:') || raw.startsWith('https:')) continue;
+        const url = new URL(raw, 'https://hanzifun.invalid/site-assets/site-styles.hf03-v1.css');
+        if (!fs.existsSync(routeFilePath(url.pathname))) throw new Error('Broken stylesheet asset: ' + raw);
+    }
+
+    const forbiddenNames = new Set(['.env', '.git', '.gitignore', '.DS_Store', 'docs', 'node_modules']);
+    const queued = [outputRoot];
+    let fileCount = 0;
+    while (queued.length > 0) {
+        const directory = queued.pop();
+        for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+            if (forbiddenNames.has(entry.name)) throw new Error('Forbidden deployment asset: ' + entry.name);
+            const entryPath = path.join(directory, entry.name);
+            if (entry.isDirectory()) queued.push(entryPath);
+            else fileCount += 1;
+        }
+    }
+
+    const robotsPages = generated.filter(({ html }) => html.includes('<meta name="robots" content="noindex,follow">')).length;
+    if (robotsPages !== generated.length) {
+        throw new Error('Every preview route must be noindex,follow before publication.');
+    }
+    if (manifest.prototypePathCount !== 77) throw new Error('The original prototype path count changed.');
+    if (fs.existsSync(path.join(outputRoot, 'legacy'))) throw new Error('Do not publish a duplicate /legacy tree.');
+
+    console.log('Built ' + fileCount + ' public files in ' + path.relative(projectRoot, outputRoot) +
+        '/; mapped ' + manifest.prototypePathCount + ' prototype paths and generated ' +
+        generated.length + ' noindex preview pages.');
+}
+
+module.exports = { buildSite };
+if (require.main === module) {
+    buildSite().catch(error => {
+        console.error(error.stack || error);
+        process.exitCode = 1;
+    });
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  {{robots}}
+  <meta name="description" content="{{description}}">
+  <meta name="theme-color" content="#f6f0e5">
+  <title>{{title}} · HanziFun</title>
+  <link rel="icon" href="/site-assets/seal.hf03-v1.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/site-assets/site-styles.hf03-v1.css">
+  <script src="/site-assets/site-data.hf03-v1.js" defer></script>
+  <script src="/site-assets/site-preview.hf03-v1.js" defer></script>
+  <script type="module" src="/site-assets/navigation.hf03-v1.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{header}}
+  <main id="main">{{content}}</main>
+  {{footer}}
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
