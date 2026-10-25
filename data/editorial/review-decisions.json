@@ -1,0 +1,641 @@
+{
+  "version": "hf04-review-input-v1",
+  "date": "2026-10-25",
+  "characters": {
+    "char:8c46": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7528": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:529b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:529e": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6cd5": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8bf7": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:624d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7761": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5de6": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53f3": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53ea": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:65c1": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:9f9f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8116": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:58f3": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5b89": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e8b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:547d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:775b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5634": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:809a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5bb3": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4fdd": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:627e": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:51a0": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:88c1": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:96ea": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:751f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8bed": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:95e8": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6ca1": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:817f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5357": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5317": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:62cd": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:505a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:74dc": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6302": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5446": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5f53": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53d4": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8bf4": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:540c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:76f8": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:9f3b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7709": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53cc": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8fdb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:533b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:94b1": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e3b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:65b9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7b54": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:59d3": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5973": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5b69": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5feb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6b65": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5f88": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8089": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8eab": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:501f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:95ee": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:62db": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6015": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:60ca": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:904d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:539f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5ddd": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:89c4": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8695": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:63d2": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5468": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53d1": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:81c2": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7ed9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5b59": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:519b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:590f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:679c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:897f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8fb9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6b22": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6b63": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6cc9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:773c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8377": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5c16": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:65e9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:591c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6240": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:9ed1": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5149": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:70b9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6d6a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:548c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:59d0": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7fa4": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:542c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7537": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5411": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:51e0": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6761": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e45": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:534a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5019": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:516c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4f11": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6c34": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6728": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6708": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5c71": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:706b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6797": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7136": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:660e": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6717": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6e05": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:79be": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e2d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:79cb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:997c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:56e2": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5706": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8336": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:996d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    }
+  },
+  "pinyin": {
+    "humanTeaching": "pending",
+    "humanListening": "pending"
+  },
+  "policy": "No approval is inferred from schema checks, AI review, source attestation or existing recordings. Persist real reviewer, date and evidence here when acceptance is supplied."
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "path": "/dictionary/",
+    "width": 360,
+    "client": 345,
+    "scroll": 345
+  },
+  {
+    "path": "/dictionary/",
+    "width": 390,
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "path": "/dictionary/",
+    "width": 768,
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "path": "/dictionary/",
+    "width": 1100,
+    "client": 1085,
+    "scroll": 1085
+  },
+  {
+    "path": "/dictionary/",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "path": "/dictionary/水/",
+    "width": 360,
+    "client": 345,
+    "scroll": 345
+  },
+  {
+    "path": "/dictionary/水/",
+    "width": 390,
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "path": "/dictionary/水/",
+    "width": 768,
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "path": "/dictionary/水/",
+    "width": 1100,
+    "client": 1085,
+    "scroll": 1085
+  },
+  {
+    "path": "/dictionary/水/",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "path": "/stroke-order/",
+    "width": 360,
+    "client": 345,
+    "scroll": 345
+  },
+  {
+    "path": "/stroke-order/",
+    "width": 390,
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "path": "/stroke-order/",
+    "width": 768,
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "path": "/stroke-order/",
+    "width": 1100,
+    "client": 1085,
+    "scroll": 1085
+  },
+  {
+    "path": "/stroke-order/",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425
+  },
+  {
+    "path": "/pinyin-chart/",
+    "width": 360,
+    "client": 345,
+    "scroll": 345
+  },
+  {
+    "path": "/pinyin-chart/",
+    "width": 390,
+    "client": 375,
+    "scroll": 375
+  },
+  {
+    "path": "/pinyin-chart/",
+    "width": 768,
+    "client": 753,
+    "scroll": 753
+  },
+  {
+    "path": "/pinyin-chart/",
+    "width": 1100,
+    "client": 1085,
+    "scroll": 1085
+  },
+  {
+    "path": "/pinyin-chart/",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425
+  }
+]

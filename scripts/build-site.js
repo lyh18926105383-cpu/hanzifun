@@ -246,6 +246,54 @@ async function buildSite() {
     prototypePages.forEach(addPage);
     createSupportPages().forEach(addPage);
 
+    // HF-04 overrides only its scoped preview routes. Preserve the 77-path baseline.
+    const dictionary = await import('../site/dictionary-data.mjs');
+    const { dictionaryPages, sourcePage } = await import('../site/pages/dictionary.mjs');
+    const { strokeOrderPage } = await import('../site/pages/stroke-order.mjs');
+    const { pinyinChartPage } = await import('../site/pages/pinyin-chart.mjs');
+    const { staticStrokeSvg } = await import('../site/components/stroke-order.mjs');
+    const hf04Pages = [...dictionaryPages(), sourcePage(), strokeOrderPage(), pinyinChartPage()];
+    hf04Pages.forEach(page => pages.set(page.path, page));
+    const writePublic = (relative, value) => {
+        const destination = path.join(outputRoot, relative);
+        fs.mkdirSync(path.dirname(destination), {recursive:true});
+        fs.writeFileSync(destination, typeof value === 'string' ? value : JSON.stringify(value) + '\n');
+    };
+    for (const name of ['dictionary','search-core','stroke-order','learning-entry','audio-player']) {
+        fs.copyFileSync(path.join(projectRoot,'src/client',name+'.mjs'), path.join(outputRoot,'site-assets',name+'.hf04-v1.mjs'));
+    }
+    const shards = dictionary.searchShards();
+    for (const [name, entries] of Object.entries(shards)) writePublic('site-assets/search/'+name+'.hf04-v1.json', entries);
+    const library = [
+        ...decks.map(d=>({id:'deck:'+d.slug,type:'Flashcard sets',label:d.title,url:'/flashcards/decks/'+d.slug+'/',aliases:[d.title,d.description,...d.chars]})),
+        ...articles.map(a=>({id:'article:'+a.slug,type:'Scenarios & articles',label:a.title+' · preview',url:'/blog/'+a.slug+'/',aliases:[a.title,a.category,...a.chars]})),
+        {id:'scenario:restaurant',type:'Scenarios & articles',label:'Restaurant · preview',url:'/scenarios/travel/restaurant/',aliases:['restaurant','travel','food','water','水']},
+        {id:'scenario:business',type:'Scenarios & articles',label:'Business icebreakers · preview',url:'/scenarios/business/icebreakers/',aliases:['business','introductions','polite']}
+    ];
+    writePublic('site-assets/search/library.hf04-v1.json',library);
+    const strokeManifest = dictionary.strokes.map(asset=>({glyph:asset.glyph,codepoint:asset.characterId.slice(5),version:asset.sha256,strokeCount:asset.strokeCount}));
+    writePublic('site-assets/dictionary/stroke-manifest.hf04-v1.json',strokeManifest);
+    for (const asset of dictionary.strokes) {
+        // Raw paths stay in separate, unchanged per-character JSON files.
+        copyFile(asset.url);
+        writePublic('site-assets/stroke-static/'+asset.characterId.slice(5)+'.svg',staticStrokeSvg(asset.glyph,dictionary.readJson(asset.url)));
+    }
+    fs.cpSync(path.join(projectRoot,'data/licenses'),path.join(outputRoot,'site-assets/licenses'),{recursive:true});
+    for (const relative of ['sources.lock.json','editorial-decisions.json','source-extracts/components.json','normalized/characters.json','normalized/readings.json','normalized/kanji.json','normalized/words.json']) {
+        writePublic('site-assets/dictionary/'+relative,fs.readFileSync(path.join(projectRoot,'data',relative),'utf8'));
+    }
+    for (const name of ['build-data-foundation.mjs','data-foundation-lib.mjs']) writePublic('site-assets/dictionary/'+name,fs.readFileSync(path.join(projectRoot,'scripts',name),'utf8'));
+    writePublic('site-assets/dictionary/review-summary.json',{
+        coreCharacters:dictionary.characters.length,teachingDrafts:dictionary.editorial.entries.length,humanAcceptedCharacters:dictionary.characters.filter(c=>dictionary.contentAccepted(c.characterId)).length,verifiedKanji:dictionary.kanji.filter(k=>k.status==='verified').length,
+        pinyinScope:dictionary.syllables.length,toneCandidates:dictionary.syllables.reduce((n,s)=>n+s.tones.length,0),approvedPinyinAudio:0,tier2Accepted:0,
+        unresolved:['HF-02 human content acceptance','HF-02 pinyin teaching review','Audio listening and missing recordings','HF-06 repository integration']
+    });
+    writePublic('content-manifest.json',{
+        version:'hf04-v1',contentVersion:dictionary.readJson('data/core-manifest.json').version,
+        pages:hf04Pages.map(page=>page.path),
+        inputs:['data/editorial/characters.json','data/editorial/comparisons.json','data/editorial/review-decisions.json'].map(file=>({file,sha256:require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(projectRoot,file))).digest('hex')}))
+    });
+
     for (const character of coreChars) {
         const routePath = '/dictionary/' + character + '/';
         if (!pages.has(routePath)) addPage(createCharacterStub(character));
@@ -264,6 +312,7 @@ async function buildSite() {
         if (page.path === '/zh/') continue;
         const route = concreteRoutes.get(page.path);
         if (!route) throw new Error('No release manifest entry for page: ' + page.path);
+        dictionary.assertPublicationReady(route, release);
         const html = htmlForPage(layout, page, route, header, footer);
         writeRoutePage(page.path, html);
         generated.push({ path: page.path, html });
@@ -309,8 +358,8 @@ async function buildSite() {
     }
 
     const robotsPages = generated.filter(({ html }) => html.includes('<meta name="robots" content="noindex,follow">')).length;
-    if (robotsPages !== generated.length) {
-        throw new Error('Every preview route must be noindex,follow before publication.');
+    if (generated.some(({path:routePath,html}) => concreteRoutes.get(routePath).indexing === 'noindex' && !html.includes('<meta name="robots" content="noindex,follow">'))) {
+        throw new Error('Preview routes must remain noindex,follow.');
     }
     if (manifest.prototypePathCount !== 77) throw new Error('The original prototype path count changed.');
     if (fs.existsSync(path.join(outputRoot, 'legacy'))) throw new Error('Do not publish a duplicate /legacy tree.');

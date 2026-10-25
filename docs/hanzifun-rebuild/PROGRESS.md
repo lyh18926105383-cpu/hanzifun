@@ -2,8 +2,8 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 1：主站上线（基线整合、126 字字典及 Information、独立笔顺页与拼音表、本机闪卡、两场景、两版 HSK 1 级）
-- **当前执行任务**：`HF-03` 站点外壳与路由已完成；HF-02 数据实现已交付，人工内容/拼音/音频验收待关闭。
-- **状态**：HF-01、HF-03 已完成；HF-02 自动检查通过但人工验收未关闭。HF-04 的硬依赖包括 HF-02 与 HF-03，开始前先按记录 03 关闭所需人工验收。
+- **当前执行任务**：HF-04 工程实现与本地自动/浏览器检查已交付；HF-02 人工内容/拼音/音频验收及 HF-05/06 学习联调待关闭。
+- **状态**：HF-01、HF-03 已完成；HF-02 与 HF-04 均保留人工验收缺口。用户 2026-10-25 明确授权 HF-04 按缺项安全降级/noindex 预览实施，工程交付不等于前置人工验收通过；精确接续见记录 05。
 
 ---
 
@@ -72,3 +72,24 @@
 - **验证结果**：最终 `npm test` 64/64（含原有 58 项与 HF-03 新增 6 项）；`HF_BUILD_OUTPUT_DIR=/private/tmp/hf03-build-hanzifun npm run build:site` 成功，输出 601 个公开文件、映射 77 个原型路径并生成 181 个 `noindex` 预览页。隔离输出路径保留原 `dist/`。本地浏览器 360/390/768/1100/1440 宽度均无横向溢出，720 CSS px 等效放大视口无溢出；减少动态效果下无非零 transition；手机/桌面导航、键盘 Escape、焦点、翻卡和 FAQ 均完成交互检查。首页与移动导航截图已在浏览器验收会话捕获并供本次检查；截图接口返回会话图像，没有另存为仓库 PNG。
 - **遗留问题**：HF-02 人工英文释义/读音语境、拼音教学声调和音频逐项听审仍未关闭；Phase 2/3 占位页依照当前 release 策略均不可索引。截图目前仅随本会话验收快照保留，未写入项目证据目录。
 - **下一个 Agent 精确切入点**：先依 HF-02 验收记录继续完成人工内容/拼音/音频复核；HF-04 在 HF-02 相关验收关闭后读取其数据接口，将 `data/normalized/`、`data/strokes/`、`data/pinyin/` 接入 [HF-03 路由与页面挂载点](tasks/HF-03-site-shell.md)；公开内容索引策略留给 HF-08 按质量门槛放行。
+
+### [记录 05] - HF-04 工程交付，人工内容/音频与学习联调待关闭 (By Codex, 2026-10-25)
+- **工作目录/范围**：指定 Desktop 主仓库 main；仅 HF-04，保持 Phase 1。用户明确授权先按审核/缺音安全策略实施并在验证后 commit。未覆盖原 dist 或用户既有未跟踪工作。
+- **已交付**：
+  - 126 静态详情与全部字索引、按 readingId 更新的 Information、源证支持的 80 个 Kanji；拼音/部首索引、八对比较、按需搜索三分包和来源许可面板。
+  - 原创 126 条例词、句子/拼音/英译及独立短助记，持久化 Codex 快审、批次和人工 pending。发的发现教学读音 fā 在独立编辑层选择，保留 HF-02 原始归一化文件及 fà/髮 对应。
+  - 独立 `/stroke-order/` 的 char 选字、播放/暂停/上下笔/速度/重置；与详情共用原始按字 JSON 与 126 份完整静态逐笔 SVG。公共 JS 无全库路径，用户操作前不请求任何笔画 JSON；单字缓存键带源文件 SHA-256。
+  - `/pinyin-chart/` 完整 410 音节范围与 1323 候选声调、初韵母筛选、ü 别名、零声母/轻声说明和已存在例字互链。所有待审音频明确禁用；未冒充已审教学音频。
+  - 收藏/练习适配器仅在明确成功返回时报告成功；未接通显示待办，不把新增字静默送入旧原型默认卡组。审核输入和构建放行门槛接入；release 仍 noindex。
+- **新增文件**：
+  - `data/editorial/{characters,comparisons,review-decisions}.json`。
+  - `site/dictionary-data.mjs`、`site/components/stroke-order.mjs`、`site/pages/{dictionary,stroke-order,pinyin-chart}.mjs`。
+  - `src/client/{dictionary,search-core,stroke-order,learning-entry,audio-player}.mjs`、`tests/dictionary.test.mjs`。
+  - `docs/hanzifun-rebuild/HF-04-VERIFICATION.md`、`evidence/hf04/`（四张真实页面截图、布局/网络/构建收据）。
+- **修改文件**：`scripts/build-site.js`、`site/public/site-styles.css`、`site/release.json`、本日志、TASKS、当前 HF-04 任务说明。
+- **验证**：`npm test` **77/77**（原64+新增13）；隔离构建880文件、77原型路径、181 noindex预览页，全量资源检查通过；两次构建全部文件SHA-256差异0。4类页面×5档宽度无横向溢出；实际完成数字调搜索→水详情→独立同字笔顺、龟键盘逐笔、单字失败重试、发多音/简繁、lu/lü筛选、无JS正文/静图/410表、减少动态无自动播放及未连接学习入口检查。证据和明确未测范围见 HF-04-VERIFICATION。
+- **遗留/不可冒充**：人工英义/简繁/拼音/例句验收与音频听审未关闭；107旧语境录音不冒充纯音节、19字原语境缺音仍存在；17不完整部件不瞎拆，10短语不造释义。人工验收Tier2与Tier1均0。HF-05/06未接，真实学习闭环未验收。未生产部署、未添加账号同步Billing、未生成或修改故事。浏览器抽查不是Safari/Firefox/真机或真实p75验证。
+- **下一个 Agent 精确切入点**：
+  1. 读本记录、TASKS、当前指定任务与 `HF-04-VERIFICATION.md`；继续人工审核时从 HF-02 四份问题报告及 `data/editorial/` 输入开始，不能在生成报告里填假签字。
+  2. HF-06 对接 `window.HanziFunLearningAdapter.saveCharacter({characterId})` / `startCharacterPractice({characterId,readingId,source})`，分别明确返回 saved/started，包装真实 Repository/session，不改原v1记录；补做真实落盘/续练联调。
+  3. 音节教学审核和真实录音绑定后接入播放；本包仅有失败关闭的帮助模块和夹具，不宣称真实发音完成。HF-08 按审核与标准页质量逐页放行，不能因缺插画阻塞成熟Tier2。

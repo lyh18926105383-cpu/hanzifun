@@ -1,0 +1,6 @@
+{
+  "initialStrokeRequests": [],
+  "afterNextStroke": [
+    "http://127.0.0.1:4174/data/strokes/9f9f.json?v=63b6e517f7b568661d4ee20bc0fc017afebbdfe4e34983ac75f9cd4225f5ec14"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "node": "v24.14.0",
+  "buildFiles": 880,
+  "repeatDifferences": [],
+  "sizes": {
+    "audio-player.hf04-v1.mjs": {
+      "bytes": 1078,
+      "gzip": 544
+    },
+    "dictionary.hf04-v1.mjs": {
+      "bytes": 6622,
+      "gzip": 2321
+    },
+    "learning-entry.hf04-v1.mjs": {
+      "bytes": 1125,
+      "gzip": 429
+    },
+    "navigation.hf03-v1.mjs": {
+      "bytes": 1968,
+      "gzip": 666
+    },
+    "search-core.hf04-v1.mjs": {
+      "bytes": 1689,
+      "gzip": 906
+    },
+    "site-data.hf03-v1.js": {
+      "bytes": 10884,
+      "gzip": 4196
+    },
+    "site-preview.hf03-v1.js": {
+      "bytes": 17222,
+      "gzip": 5521
+    },
+    "site-styles.hf03-v1.css": {
+      "bytes": 41670,
+      "gzip": 9652
+    },
+    "stroke-order.hf04-v1.mjs": {
+      "bytes": 4143,
+      "gzip": 1661
+    }
+  }
+}

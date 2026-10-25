@@ -1,0 +1,81 @@
+{
+  "version": "hf04-comparisons-v1",
+  "reviewStatus": "ai-quick-reviewed",
+  "humanAcceptance": "pending",
+  "reviewer": "Codex",
+  "date": "2026-10-25",
+  "entries": [
+    {
+      "chars": [
+        "木",
+        "林"
+      ],
+      "explanation": "木 is one tree; 林 repeats 木 to suggest woods.",
+      "question": "Which has two tree components?",
+      "answer": "林"
+    },
+    {
+      "chars": [
+        "左",
+        "右"
+      ],
+      "explanation": "左 contains 工; 右 contains 口. Keep left and right distinct.",
+      "question": "Which contains 口?",
+      "answer": "右"
+    },
+    {
+      "chars": [
+        "请",
+        "清"
+      ],
+      "explanation": "Both contain 青. 请 has speech 讠 and means please/invite; 清 has water 氵 and means clear.",
+      "question": "Which would you use for a polite request?",
+      "answer": "请"
+    },
+    {
+      "chars": [
+        "明",
+        "朗"
+      ],
+      "explanation": "明 contains 日 and 月; 朗 has 月 on the right. 明天 means tomorrow; 晴朗 describes clear weather.",
+      "question": "Which character starts 明天?",
+      "answer": "明"
+    },
+    {
+      "chars": [
+        "门",
+        "问"
+      ],
+      "explanation": "门 is a door; 问 adds a mouth 口 inside it and means ask.",
+      "question": "Which means ask?",
+      "answer": "问"
+    },
+    {
+      "chars": [
+        "男",
+        "女"
+      ],
+      "explanation": "男 and 女 contrast male and female; 男孩 is a boy and 女孩 a girl.",
+      "question": "Which starts 女孩?",
+      "answer": "女"
+    },
+    {
+      "chars": [
+        "呆",
+        "果"
+      ],
+      "explanation": "呆 has 口 over 木; 果 has a box with an extra internal cross above its tree-like lower part.",
+      "question": "Which character appears in 水果?",
+      "answer": "果"
+    },
+    {
+      "chars": [
+        "水",
+        "泉"
+      ],
+      "explanation": "水 means water; 泉 adds 白 above 水 and means a spring.",
+      "question": "Which means a spring of water?",
+      "answer": "泉"
+    }
+  ]
+}

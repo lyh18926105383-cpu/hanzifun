@@ -17,7 +17,7 @@ P0 为核心、数据保护与发布关口；P1 为当前阶段主线；P2 为�
 | [HF-01 基线整合、资产保全与施工契约](tasks/HF-01-baseline.md) ✅已完成 | P0 | Phase 1 基线 | 无 | 统一基线、原型保全、数据/路由契约 |
 | [HF-02 字典、笔顺数据与来源管线](tasks/HF-02-data-foundation.md) 🟡数据实现完成／待人工验收 | P0 | Phase 1 | HF-01 | 126 字/Tier、Information、拼音/笔画；HSK 范围来源 |
 | [HF-03 C 方案框架、七段首页与路由](tasks/HF-03-site-shell.md) ✅已完成（2026-10-25） | P0 | Phase 1 | HF-01 | 七段首页、导航、静态路由/隔离 |
-| [HF-04 真实字典、搜索与视觉笔顺闭环](tasks/HF-04-dictionary.md) | P0 | Phase 1 | HF-02、HF-03 | Tier 2 字页、Tier 1 增强、独立笔顺页与拼音表 |
+| [HF-04 真实字典、搜索与视觉笔顺闭环](tasks/HF-04-dictionary.md) 🟡工程交付／待人工与学习联调 | P0 | Phase 1 | HF-02、HF-03 | Tier 2 字页、Tier 1 增强、独立笔顺页与拼音表 |
 | [HF-05 复习调度与闪卡会话组件](tasks/HF-05-review-engine.md) | P0 | Phase 1 | HF-01 | interval-v1、会话状态机与组件 |
 | [HF-06 游客持久化、学习中心与旧记录导入](tasks/HF-06-guest-learning.md) | P0 | Phase 1 | HF-03、HF-04、HF-05 | 本机存储、学习中心、无损导入 |
 | [HF-07 HSK 首级真实字库与两场景连接](tasks/HF-07-hsk-scenarios.md) | P1 | Phase 1 | HF-02、HF-04、HF-06 | 两版 HSK 1 级、餐厅/商务场景 |
@@ -140,3 +140,7 @@ flowchart TD
 ## HF-02 执行状态（2026-10-25）
 
 126 字数据、来源锁/许可、按字笔画、108 教学位置映射、拼音候选范围与缺音报告、HSK 导入契约已交付；`npm test` 58/58、数据验证及离线重建一致性通过。本地浏览器抽查 22 字。人工全英义/读音/简繁语境复核、拼音教学声调及音频逐项听审尚未关闭，因此不标整个包验收完成。详情与精确切入点见 [HF-02 验收记录](HF-02-VERIFICATION.md) 和 [数据接口说明](../../data/README.md)。
+
+## HF-04 执行状态（2026-10-25）
+
+126 个静态字页与 Information、真实按字笔顺和完整静图、410 音节范围表、拼音/部首索引、八对比较、搜索分包及发布审核门槛已接入 HF-03 外壳；126 份原创例词/句与短助记已做 Codex 快审，人工验收仍为 pending。`npm test` 77/77，构建 880 文件、两次构建字节一致，完成本地浏览器与五档宽度抽查。HF-02 人工内容/拼音/音频验收及 HF-05/06 真实学习联调尚未关闭，不标全部完成或 126 字已验收 Tier2，release 保持 noindex 预览。精确证据与后续入口见 [HF-04 验收记录](HF-04-VERIFICATION.md)。
