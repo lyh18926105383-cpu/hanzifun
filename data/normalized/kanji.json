@@ -1,0 +1,1788 @@
+[
+  {
+    "characterId": "char:8c46",
+    "status": "verified",
+    "japaneseGlyph": "豆",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:130830:U+8C46:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:7528",
+    "status": "verified",
+    "japaneseGlyph": "用",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:84863:U+7528:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:529b",
+    "status": "verified",
+    "japaneseGlyph": "力",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:12736:U+529B:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:529e",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:6cd5",
+    "status": "verified",
+    "japaneseGlyph": "法",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:67659:U+6CD5:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:8bf7",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:624d",
+    "status": "verified",
+    "japaneseGlyph": "才",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:45515:U+624D:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:7761",
+    "status": "verified",
+    "japaneseGlyph": "睡",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:89662:U+7761:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:5de6",
+    "status": "verified",
+    "japaneseGlyph": "左",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:35941:U+5DE6:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:53f3",
+    "status": "verified",
+    "japaneseGlyph": "右",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:15638:U+53F3:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:53ea",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:65c1",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:9f9f",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:8116",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:58f3",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5b89",
+    "status": "verified",
+    "japaneseGlyph": "安",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:31182:U+5B89:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:4e8b",
+    "status": "verified",
+    "japaneseGlyph": "事",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:3856:U+4E8B:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:547d",
+    "status": "verified",
+    "japaneseGlyph": "命",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:16869:U+547D:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:775b",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5634",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:809a",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5bb3",
+    "status": "verified",
+    "japaneseGlyph": "害",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:31566:U+5BB3:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:4fdd",
+    "status": "verified",
+    "japaneseGlyph": "保",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:6928:U+4FDD:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:627e",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:51a0",
+    "status": "verified",
+    "japaneseGlyph": "冠",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:10641:U+51A0:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:88c1",
+    "status": "verified",
+    "japaneseGlyph": "裁",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:124462:U+88C1:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:96ea",
+    "status": "verified",
+    "japaneseGlyph": "雪",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:150788:U+96EA:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:751f",
+    "status": "verified",
+    "japaneseGlyph": "生",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:84783:U+751F:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:8bed",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:95e8",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:6ca1",
+    "status": "verified",
+    "japaneseGlyph": "没",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:67171:U+6CA1:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:817f",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5357",
+    "status": "verified",
+    "japaneseGlyph": "南",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:14302:U+5357:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:5317",
+    "status": "verified",
+    "japaneseGlyph": "北",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:13753:U+5317:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:62cd",
+    "status": "verified",
+    "japaneseGlyph": "拍",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:46631:U+62CD:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:505a",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:74dc",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:6302",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5446",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5f53",
+    "status": "verified",
+    "japaneseGlyph": "当",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:39029:U+5F53:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:53d4",
+    "status": "verified",
+    "japaneseGlyph": "叔",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:15287:U+53D4:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:8bf4",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:540c",
+    "status": "verified",
+    "japaneseGlyph": "同",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:15866:U+540C:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:76f8",
+    "status": "verified",
+    "japaneseGlyph": "相",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:88803:U+76F8:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:9f3b",
+    "status": "verified",
+    "japaneseGlyph": "鼻",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:164899:U+9F3B:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:7709",
+    "status": "verified",
+    "japaneseGlyph": "眉",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:88961:U+7709:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:53cc",
+    "status": "verified",
+    "japaneseGlyph": "双",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:15236:U+53CC:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:8fdb",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:533b",
+    "status": "verified",
+    "japaneseGlyph": "医",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:14025:U+533B:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:94b1",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:4e3b",
+    "status": "verified",
+    "japaneseGlyph": "主",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:3318:U+4E3B:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:65b9",
+    "status": "verified",
+    "japaneseGlyph": "方",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:52754:U+65B9:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:7b54",
+    "status": "verified",
+    "japaneseGlyph": "答",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:97649:U+7B54:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:59d3",
+    "status": "verified",
+    "japaneseGlyph": "姓",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:27856:U+59D3:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:5973",
+    "status": "verified",
+    "japaneseGlyph": "女",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:27037:U+5973:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:5b69",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5feb",
+    "status": "verified",
+    "japaneseGlyph": "快",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:40380:U+5FEB:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6b65",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5f88",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:8089",
+    "status": "verified",
+    "japaneseGlyph": "肉",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:107638:U+8089:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:8eab",
+    "status": "verified",
+    "japaneseGlyph": "身",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:135498:U+8EAB:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:501f",
+    "status": "verified",
+    "japaneseGlyph": "借",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:7515:U+501F:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:95ee",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:62db",
+    "status": "verified",
+    "japaneseGlyph": "招",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:46808:U+62DB:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6015",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:60ca",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:904d",
+    "status": "verified",
+    "japaneseGlyph": "遍",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:138620:U+904D:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:539f",
+    "status": "verified",
+    "japaneseGlyph": "原",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:14900:U+539F:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:5ddd",
+    "status": "verified",
+    "japaneseGlyph": "川",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:35846:U+5DDD:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:89c4",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:8695",
+    "status": "verified",
+    "japaneseGlyph": "蚕",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:120136:U+8695:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:63d2",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5468",
+    "status": "verified",
+    "japaneseGlyph": "周",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:16676:U+5468:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:53d1",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:81c2",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:7ed9",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5b59",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:519b",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:590f",
+    "status": "verified",
+    "japaneseGlyph": "夏",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:26179:U+590F:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:679c",
+    "status": "verified",
+    "japaneseGlyph": "果",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:56959:U+679C:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:897f",
+    "status": "verified",
+    "japaneseGlyph": "西",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:125915:U+897F:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:8fb9",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:6b22",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:6b63",
+    "status": "verified",
+    "japaneseGlyph": "正",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:64459:U+6B63:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6cc9",
+    "status": "verified",
+    "japaneseGlyph": "泉",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:67538:U+6CC9:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:773c",
+    "status": "verified",
+    "japaneseGlyph": "眼",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:89379:U+773C:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:8377",
+    "status": "verified",
+    "japaneseGlyph": "荷",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:113928:U+8377:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:5c16",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:65e9",
+    "status": "verified",
+    "japaneseGlyph": "早",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:53169:U+65E9:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:591c",
+    "status": "verified",
+    "japaneseGlyph": "夜",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:26296:U+591C:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6240",
+    "status": "verified",
+    "japaneseGlyph": "所",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:45374:U+6240:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:9ed1",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5149",
+    "status": "verified",
+    "japaneseGlyph": "光",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:9901:U+5149:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:70b9",
+    "status": "verified",
+    "japaneseGlyph": "点",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:75862:U+70B9:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6d6a",
+    "status": "verified",
+    "japaneseGlyph": "浪",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:68981:U+6D6A:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:548c",
+    "status": "verified",
+    "japaneseGlyph": "和",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:17003:U+548C:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:59d0",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:7fa4",
+    "status": "verified",
+    "japaneseGlyph": "群",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:105770:U+7FA4:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:542c",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:7537",
+    "status": "verified",
+    "japaneseGlyph": "男",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:85024:U+7537:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:5411",
+    "status": "verified",
+    "japaneseGlyph": "向",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:15936:U+5411:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:51e0",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:6761",
+    "status": "verified",
+    "japaneseGlyph": "条",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:56446:U+6761:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:4e45",
+    "status": "verified",
+    "japaneseGlyph": "久",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:3395:U+4E45:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:534a",
+    "status": "verified",
+    "japaneseGlyph": "半",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:14186:U+534A:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:5019",
+    "status": "verified",
+    "japaneseGlyph": "候",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:7450:U+5019:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:516c",
+    "status": "verified",
+    "japaneseGlyph": "公",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:10207:U+516C:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:4f11",
+    "status": "verified",
+    "japaneseGlyph": "休",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:5101:U+4F11:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6c34",
+    "status": "verified",
+    "japaneseGlyph": "水",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:66157:U+6C34:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6728",
+    "status": "verified",
+    "japaneseGlyph": "木",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:55915:U+6728:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6708",
+    "status": "verified",
+    "japaneseGlyph": "月",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:55616:U+6708:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:5c71",
+    "status": "verified",
+    "japaneseGlyph": "山",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:33255:U+5C71:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:706b",
+    "status": "verified",
+    "japaneseGlyph": "火",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:75243:U+706B:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6797",
+    "status": "verified",
+    "japaneseGlyph": "林",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:56902:U+6797:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:7136",
+    "status": "verified",
+    "japaneseGlyph": "然",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:76769:U+7136:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:660e",
+    "status": "verified",
+    "japaneseGlyph": "明",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:53515:U+660E:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6717",
+    "status": "verified",
+    "japaneseGlyph": "朗",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:55772:U+6717:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:6e05",
+    "status": "verified",
+    "japaneseGlyph": "清",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:70336:U+6E05:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:79be",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:4e2d",
+    "status": "verified",
+    "japaneseGlyph": "中",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:3199:U+4E2D:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:79cb",
+    "status": "verified",
+    "japaneseGlyph": "秋",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:94532:U+79CB:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:997c",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:56e2",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:5706",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  },
+  {
+    "characterId": "char:8336",
+    "status": "verified",
+    "japaneseGlyph": "茶",
+    "relationType": "same-character",
+    "evidence": [
+      {
+        "sourceReleaseId": "unihan",
+        "sourceLocator": "Unihan_OtherMappings.txt:line:113460:U+8336:kJoyoKanji"
+      }
+    ],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "Unihan 17 kJoyoKanji=2010; Japanese glyph style requires lang=ja and a Japanese font. No Japanese readings/meanings inferred."
+  },
+  {
+    "characterId": "char:996d",
+    "status": "not-in-consulted-source",
+    "japaneseGlyph": null,
+    "relationType": null,
+    "evidence": [],
+    "sourceReferences": [
+      "unihan"
+    ],
+    "note": "No direct same-glyph 2010 Joyo attestation in the consulted field; this does not mean absent from Japanese. Variant correspondences remain unverified."
+  }
+]

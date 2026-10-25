@@ -15,6 +15,13 @@
     "tts:story:frog": "node scripts/generate-story-tts.js --lesson=little-frog-05 --speed=0",
     "tts:story:rooster": "node scripts/generate-story-tts.js --lesson=painting-rooster-06 --speed=0",
     "tts:story:wind-doll": "node scripts/generate-story-tts.js --lesson=wind-doll-07 --speed=1",
-    "tts:story:cucumber-flower": "node scripts/generate-story-tts.js --lesson=cucumber-flower-08 --speed=0"
+    "tts:story:cucumber-flower": "node scripts/generate-story-tts.js --lesson=cucumber-flower-08 --speed=0",
+    "data:fetch": "node scripts/fetch-content-sources.mjs",
+    "data:build": "node scripts/build-data-foundation.mjs",
+    "data:validate": "node scripts/validate-data-foundation.mjs",
+    "data:preview": "node scripts/preview-data-foundation.mjs"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0"
   }
 }

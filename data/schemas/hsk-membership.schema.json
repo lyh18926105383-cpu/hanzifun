@@ -1,0 +1,215 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HSK import boundary; no source lists imported by HF-02",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "system": {
+      "enum": [
+        "hsk-2",
+        "hsk-3"
+      ]
+    },
+    "edition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceReleaseId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "level": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7-9"
+      ]
+    },
+    "itemType": {
+      "enum": [
+        "vocabulary",
+        "recognition-character",
+        "writing-character",
+        "derived-character"
+      ]
+    },
+    "membershipKind": {
+      "enum": [
+        "official-vocabulary",
+        "official-recognition",
+        "official-writing",
+        "derived-from-vocabulary"
+      ]
+    },
+    "itemId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "firstIntroducedLevel": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7-9"
+      ]
+    },
+    "cumulative": {
+      "type": "boolean"
+    },
+    "sourceLocator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rightsStatus": {
+      "enum": [
+        "approved-with-scope"
+      ]
+    },
+    "decisionBasis": {
+      "enum": [
+        "user-confirmed-scope"
+      ]
+    },
+    "usageScope": {
+      "enum": [
+        "headword-edition-level-membership-only"
+      ]
+    }
+  },
+  "required": [
+    "system",
+    "edition",
+    "sourceReleaseId",
+    "level",
+    "itemType",
+    "membershipKind",
+    "itemId",
+    "firstIntroducedLevel",
+    "cumulative",
+    "sourceLocator",
+    "rightsStatus",
+    "decisionBasis",
+    "usageScope"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "system": {
+            "const": "hsk-2"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "edition": {
+            "const": "2015-vocabulary"
+          },
+          "level": {
+            "enum": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ]
+          },
+          "itemType": {
+            "enum": [
+              "vocabulary",
+              "derived-character"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "system": {
+            "const": "hsk-3"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "edition": {
+            "const": "2025-11-syllabus-effective-2026-07"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "itemType": {
+            "const": "vocabulary"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "membershipKind": {
+            "const": "official-vocabulary"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "itemType": {
+            "const": "recognition-character"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "membershipKind": {
+            "const": "official-recognition"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "itemType": {
+            "const": "writing-character"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "membershipKind": {
+            "const": "official-writing"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "itemType": {
+            "const": "derived-character"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "membershipKind": {
+            "const": "derived-from-vocabulary"
+          }
+        }
+      }
+    }
+  ]
+}

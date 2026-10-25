@@ -1,0 +1,6617 @@
+[
+  {
+    "numeric": "bi1",
+    "glyph": "屄",
+    "sourceLocator": "cedict_ts.u8:line:35318"
+  },
+  {
+    "numeric": "ling2",
+    "glyph": "〇",
+    "sourceLocator": "cedict_ts.u8:line:158"
+  },
+  {
+    "numeric": "zhu2",
+    "glyph": "⺮",
+    "sourceLocator": "cedict_ts.u8:line:156"
+  },
+  {
+    "numeric": "yi1",
+    "glyph": "医",
+    "sourceLocator": "cedict_ts.u8:line:110676"
+  },
+  {
+    "numeric": "er4",
+    "glyph": "〢",
+    "sourceLocator": "cedict_ts.u8:line:160"
+  },
+  {
+    "numeric": "san1",
+    "glyph": "〣",
+    "sourceLocator": "cedict_ts.u8:line:161"
+  },
+  {
+    "numeric": "si4",
+    "glyph": "〤",
+    "sourceLocator": "cedict_ts.u8:line:162"
+  },
+  {
+    "numeric": "wu3",
+    "glyph": "〥",
+    "sourceLocator": "cedict_ts.u8:line:163"
+  },
+  {
+    "numeric": "liu4",
+    "glyph": "〦",
+    "sourceLocator": "cedict_ts.u8:line:164"
+  },
+  {
+    "numeric": "qi1",
+    "glyph": "〧",
+    "sourceLocator": "cedict_ts.u8:line:165"
+  },
+  {
+    "numeric": "ba1",
+    "glyph": "〨",
+    "sourceLocator": "cedict_ts.u8:line:166"
+  },
+  {
+    "numeric": "jiu3",
+    "glyph": "久",
+    "sourceLocator": "cedict_ts.u8:line:4097"
+  },
+  {
+    "numeric": "shi2",
+    "glyph": "〸",
+    "sourceLocator": "cedict_ts.u8:line:168"
+  },
+  {
+    "numeric": "kua4",
+    "glyph": "㐄",
+    "sourceLocator": "cedict_ts.u8:line:172"
+  },
+  {
+    "numeric": "ta1",
+    "glyph": "他",
+    "sourceLocator": "cedict_ts.u8:line:6191"
+  },
+  {
+    "numeric": "xie2",
+    "glyph": "㐖",
+    "sourceLocator": "cedict_ts.u8:line:175"
+  },
+  {
+    "numeric": "chou2",
+    "glyph": "仇",
+    "sourceLocator": "cedict_ts.u8:line:6096"
+  },
+  {
+    "numeric": "nuo4",
+    "glyph": "懦",
+    "sourceLocator": "cedict_ts.u8:line:43536"
+  },
+  {
+    "numeric": "qiu2",
+    "glyph": "俅",
+    "sourceLocator": "cedict_ts.u8:line:8060"
+  },
+  {
+    "numeric": "xiong1",
+    "glyph": "兄",
+    "sourceLocator": "cedict_ts.u8:line:10420"
+  },
+  {
+    "numeric": "xin4",
+    "glyph": "信",
+    "sourceLocator": "cedict_ts.u8:line:8291"
+  },
+  {
+    "numeric": "zhong4",
+    "glyph": "中",
+    "sourceLocator": "cedict_ts.u8:line:3263"
+  },
+  {
+    "numeric": "yi4",
+    "glyph": "㑊",
+    "sourceLocator": "cedict_ts.u8:line:183"
+  },
+  {
+    "numeric": "zhou4",
+    "glyph": "㑇",
+    "sourceLocator": "cedict_ts.u8:line:184"
+  },
+  {
+    "numeric": "jun4",
+    "glyph": "俊",
+    "sourceLocator": "cedict_ts.u8:line:8062"
+  },
+  {
+    "numeric": "liang3",
+    "glyph": "俩",
+    "sourceLocator": "cedict_ts.u8:line:8552"
+  },
+  {
+    "numeric": "sui4",
+    "glyph": "檖",
+    "sourceLocator": "cedict_ts.u8:line:59810"
+  },
+  {
+    "numeric": "wang3",
+    "glyph": "往",
+    "sourceLocator": "cedict_ts.u8:line:39920"
+  },
+  {
+    "numeric": "kou4",
+    "glyph": "佝",
+    "sourceLocator": "cedict_ts.u8:line:7522"
+  },
+  {
+    "numeric": "jie2",
+    "glyph": "㔾",
+    "sourceLocator": "cedict_ts.u8:line:190"
+  },
+  {
+    "numeric": "que4",
+    "glyph": "却",
+    "sourceLocator": "cedict_ts.u8:line:17838"
+  },
+  {
+    "numeric": "chu2",
+    "glyph": "幮",
+    "sourceLocator": "cedict_ts.u8:line:37685"
+  },
+  {
+    "numeric": "can1",
+    "glyph": "参",
+    "sourceLocator": "cedict_ts.u8:line:18140"
+  },
+  {
+    "numeric": "shen1",
+    "glyph": "身",
+    "sourceLocator": "cedict_ts.u8:line:105731"
+  },
+  {
+    "numeric": "yi3",
+    "glyph": "乙",
+    "sourceLocator": "cedict_ts.u8:line:4238"
+  },
+  {
+    "numeric": "ne4",
+    "glyph": "疒",
+    "sourceLocator": "cedict_ts.u8:line:75729"
+  },
+  {
+    "numeric": "pou3",
+    "glyph": "咅",
+    "sourceLocator": "cedict_ts.u8:line:21216"
+  },
+  {
+    "numeric": "sheng3",
+    "glyph": "省",
+    "sourceLocator": "cedict_ts.u8:line:78193"
+  },
+  {
+    "numeric": "lan2",
+    "glyph": "𪢌",
+    "sourceLocator": "cedict_ts.u8:line:199"
+  },
+  {
+    "numeric": "han3",
+    "glyph": "㘎",
+    "sourceLocator": "cedict_ts.u8:line:201"
+  },
+  {
+    "numeric": "ao4",
+    "glyph": "傲",
+    "sourceLocator": "cedict_ts.u8:line:9692"
+  },
+  {
+    "numeric": "bu4",
+    "glyph": "步",
+    "sourceLocator": "cedict_ts.u8:line:60677"
+  },
+  {
+    "numeric": "duo1",
+    "glyph": "㙍",
+    "sourceLocator": "cedict_ts.u8:line:204"
+  },
+  {
+    "numeric": "zong1",
+    "glyph": "𭎂",
+    "sourceLocator": "cedict_ts.u8:line:205"
+  },
+  {
+    "numeric": "ji1",
+    "glyph": "几",
+    "sourceLocator": "cedict_ts.u8:line:12967"
+  },
+  {
+    "numeric": "nuo3",
+    "glyph": "㛂",
+    "sourceLocator": "cedict_ts.u8:line:209"
+  },
+  {
+    "numeric": "chun2",
+    "glyph": "㵮",
+    "sourceLocator": "cedict_ts.u8:line:284"
+  },
+  {
+    "numeric": "su4",
+    "glyph": "僳",
+    "sourceLocator": "cedict_ts.u8:line:10099"
+  },
+  {
+    "numeric": "ming2",
+    "glyph": "明",
+    "sourceLocator": "cedict_ts.u8:line:52989"
+  },
+  {
+    "numeric": "zui4",
+    "glyph": "晬",
+    "sourceLocator": "cedict_ts.u8:line:53711"
+  },
+  {
+    "numeric": "ai4",
+    "glyph": "僾",
+    "sourceLocator": "cedict_ts.u8:line:10142"
+  },
+  {
+    "numeric": "de2",
+    "glyph": "得",
+    "sourceLocator": "cedict_ts.u8:line:40262"
+  },
+  {
+    "numeric": "ba3",
+    "glyph": "把",
+    "sourceLocator": "cedict_ts.u8:line:45431"
+  },
+  {
+    "numeric": "niao4",
+    "glyph": "尿",
+    "sourceLocator": "cedict_ts.u8:line:35249"
+  },
+  {
+    "numeric": "song2",
+    "glyph": "𪨊",
+    "sourceLocator": "cedict_ts.u8:line:222"
+  },
+  {
+    "numeric": "an4",
+    "glyph": "岸",
+    "sourceLocator": "cedict_ts.u8:line:35962"
+  },
+  {
+    "numeric": "si1",
+    "glyph": "㟃",
+    "sourceLocator": "cedict_ts.u8:line:224"
+  },
+  {
+    "numeric": "dao3",
+    "glyph": "倒",
+    "sourceLocator": "cedict_ts.u8:line:8634"
+  },
+  {
+    "numeric": "jiu4",
+    "glyph": "㠇",
+    "sourceLocator": "cedict_ts.u8:line:226"
+  },
+  {
+    "numeric": "fan1",
+    "glyph": "帆",
+    "sourceLocator": "cedict_ts.u8:line:37239"
+  },
+  {
+    "numeric": "mao4",
+    "glyph": "冒",
+    "sourceLocator": "cedict_ts.u8:line:12416"
+  },
+  {
+    "numeric": "lian2",
+    "glyph": "嗹",
+    "sourceLocator": "cedict_ts.u8:line:23111"
+  },
+  {
+    "numeric": "jiong3",
+    "glyph": "冏",
+    "sourceLocator": "cedict_ts.u8:line:12409"
+  },
+  {
+    "numeric": "xun4",
+    "glyph": "噀",
+    "sourceLocator": "cedict_ts.u8:line:23353"
+  },
+  {
+    "numeric": "xi1",
+    "glyph": "西",
+    "sourceLocator": "cedict_ts.u8:line:99450"
+  },
+  {
+    "numeric": "xi4",
+    "glyph": "㣟",
+    "sourceLocator": "cedict_ts.u8:line:234"
+  },
+  {
+    "numeric": "en1",
+    "glyph": "嗯",
+    "sourceLocator": "cedict_ts.u8:line:23097"
+  },
+  {
+    "numeric": "tian3",
+    "glyph": "㥏",
+    "sourceLocator": "cedict_ts.u8:line:238"
+  },
+  {
+    "numeric": "qie4",
+    "glyph": "切",
+    "sourceLocator": "cedict_ts.u8:line:13697"
+  },
+  {
+    "numeric": "chang2",
+    "glyph": "倘",
+    "sourceLocator": "cedict_ts.u8:line:8761"
+  },
+  {
+    "numeric": "lao3",
+    "glyph": "佬",
+    "sourceLocator": "cedict_ts.u8:line:7566"
+  },
+  {
+    "numeric": "na2",
+    "glyph": "拿",
+    "sourceLocator": "cedict_ts.u8:line:46813"
+  },
+  {
+    "numeric": "dui3",
+    "glyph": "怼",
+    "sourceLocator": "cedict_ts.u8:line:43528"
+  },
+  {
+    "numeric": "huang3",
+    "glyph": "幌",
+    "sourceLocator": "cedict_ts.u8:line:37619"
+  },
+  {
+    "numeric": "ju4",
+    "glyph": "俱",
+    "sourceLocator": "cedict_ts.u8:line:8512"
+  },
+  {
+    "numeric": "den4",
+    "glyph": "扽",
+    "sourceLocator": "cedict_ts.u8:line:45267"
+  },
+  {
+    "numeric": "lan3",
+    "glyph": "𡒄",
+    "sourceLocator": "cedict_ts.u8:line:26784"
+  },
+  {
+    "numeric": "song3",
+    "glyph": "悚",
+    "sourceLocator": "cedict_ts.u8:line:42133"
+  },
+  {
+    "numeric": "he2",
+    "glyph": "和",
+    "sourceLocator": "cedict_ts.u8:line:21229"
+  },
+  {
+    "numeric": "han4",
+    "glyph": "垾",
+    "sourceLocator": "cedict_ts.u8:line:25587"
+  },
+  {
+    "numeric": "san4",
+    "glyph": "散",
+    "sourceLocator": "cedict_ts.u8:line:50936"
+  },
+  {
+    "numeric": "dun1",
+    "glyph": "吨",
+    "sourceLocator": "cedict_ts.u8:line:23519"
+  },
+  {
+    "numeric": "lang4",
+    "glyph": "浪",
+    "sourceLocator": "cedict_ts.u8:line:65192"
+  },
+  {
+    "numeric": "nuan3",
+    "glyph": "暖",
+    "sourceLocator": "cedict_ts.u8:line:54027"
+  },
+  {
+    "numeric": "xian3",
+    "glyph": "姺",
+    "sourceLocator": "cedict_ts.u8:line:30672"
+  },
+  {
+    "numeric": "bei1",
+    "glyph": "卑",
+    "sourceLocator": "cedict_ts.u8:line:16973"
+  },
+  {
+    "numeric": "li4",
+    "glyph": "力",
+    "sourceLocator": "cedict_ts.u8:line:15087"
+  },
+  {
+    "numeric": "song4",
+    "glyph": "讼",
+    "sourceLocator": "cedict_ts.u8:line:100745"
+  },
+  {
+    "numeric": "lu3",
+    "glyph": "掳",
+    "sourceLocator": "cedict_ts.u8:line:49499"
+  },
+  {
+    "numeric": "qing2",
+    "glyph": "勍",
+    "sourceLocator": "cedict_ts.u8:line:15558"
+  },
+  {
+    "numeric": "yin3",
+    "glyph": "听",
+    "sourceLocator": "cedict_ts.u8:line:20592"
+  },
+  {
+    "numeric": "gai1",
+    "glyph": "㱾",
+    "sourceLocator": "cedict_ts.u8:line:267"
+  },
+  {
+    "numeric": "shao2",
+    "glyph": "勺",
+    "sourceLocator": "cedict_ts.u8:line:15929"
+  },
+  {
+    "numeric": "tao2",
+    "glyph": "匋",
+    "sourceLocator": "cedict_ts.u8:line:16122"
+  },
+  {
+    "numeric": "chuo4",
+    "glyph": "㲋",
+    "sourceLocator": "cedict_ts.u8:line:270"
+  },
+  {
+    "numeric": "lie4",
+    "glyph": "冽",
+    "sourceLocator": "cedict_ts.u8:line:12853"
+  },
+  {
+    "numeric": "yu3",
+    "glyph": "语",
+    "sourceLocator": "cedict_ts.u8:line:101354"
+  },
+  {
+    "numeric": "yan2",
+    "glyph": "严",
+    "sourceLocator": "cedict_ts.u8:line:23598"
+  },
+  {
+    "numeric": "xian2",
+    "glyph": "䕭",
+    "sourceLocator": "cedict_ts.u8:line:321"
+  },
+  {
+    "numeric": "fu4",
+    "glyph": "㳇",
+    "sourceLocator": "cedict_ts.u8:line:275"
+  },
+  {
+    "numeric": "fa3",
+    "glyph": "法",
+    "sourceLocator": "cedict_ts.u8:line:63891"
+  },
+  {
+    "numeric": "chong1",
+    "glyph": "㳘",
+    "sourceLocator": "cedict_ts.u8:line:277"
+  },
+  {
+    "numeric": "jian4",
+    "glyph": "件",
+    "sourceLocator": "cedict_ts.u8:line:6605"
+  },
+  {
+    "numeric": "jue2",
+    "glyph": "㵐",
+    "sourceLocator": "cedict_ts.u8:line:281"
+  },
+  {
+    "numeric": "zhao4",
+    "glyph": "兆",
+    "sourceLocator": "cedict_ts.u8:line:10476"
+  },
+  {
+    "numeric": "feng1",
+    "glyph": "埄",
+    "sourceLocator": "cedict_ts.u8:line:25660"
+  },
+  {
+    "numeric": "ye4",
+    "glyph": "夜",
+    "sourceLocator": "cedict_ts.u8:line:27568"
+  },
+  {
+    "numeric": "huo4",
+    "glyph": "和",
+    "sourceLocator": "cedict_ts.u8:line:21233"
+  },
+  {
+    "numeric": "tun2",
+    "glyph": "囤",
+    "sourceLocator": "cedict_ts.u8:line:24116"
+  },
+  {
+    "numeric": "jia1",
+    "glyph": "㹢",
+    "sourceLocator": "cedict_ts.u8:line:291"
+  },
+  {
+    "numeric": "geng1",
+    "glyph": "㹴",
+    "sourceLocator": "cedict_ts.u8:line:292"
+  },
+  {
+    "numeric": "tu2",
+    "glyph": "㻬",
+    "sourceLocator": "cedict_ts.u8:line:297"
+  },
+  {
+    "numeric": "xuan2",
+    "glyph": "嫙",
+    "sourceLocator": "cedict_ts.u8:line:31102"
+  },
+  {
+    "numeric": "wan3",
+    "glyph": "娩",
+    "sourceLocator": "cedict_ts.u8:line:30832"
+  },
+  {
+    "numeric": "liu2",
+    "glyph": "刘",
+    "sourceLocator": "cedict_ts.u8:line:14994"
+  },
+  {
+    "numeric": "xing1",
+    "glyph": "惺",
+    "sourceLocator": "cedict_ts.u8:line:42627"
+  },
+  {
+    "numeric": "bie3",
+    "glyph": "瘪",
+    "sourceLocator": "cedict_ts.u8:line:76185"
+  },
+  {
+    "numeric": "xiang1",
+    "glyph": "相",
+    "sourceLocator": "cedict_ts.u8:line:78013"
+  },
+  {
+    "numeric": "huang4",
+    "glyph": "㿠",
+    "sourceLocator": "cedict_ts.u8:line:304"
+  },
+  {
+    "numeric": "min2",
+    "glyph": "姄",
+    "sourceLocator": "cedict_ts.u8:line:30475"
+  },
+  {
+    "numeric": "zha4",
+    "glyph": "䃎",
+    "sourceLocator": "cedict_ts.u8:line:309"
+  },
+  {
+    "numeric": "zhuo2",
+    "glyph": "䅵",
+    "sourceLocator": "cedict_ts.u8:line:310"
+  },
+  {
+    "numeric": "ce4",
+    "glyph": "侧",
+    "sourceLocator": "cedict_ts.u8:line:9367"
+  },
+  {
+    "numeric": "shao1",
+    "glyph": "弰",
+    "sourceLocator": "cedict_ts.u8:line:39290"
+  },
+  {
+    "numeric": "hu2",
+    "glyph": "和",
+    "sourceLocator": "cedict_ts.u8:line:21231"
+  },
+  {
+    "numeric": "yao2",
+    "glyph": "傜",
+    "sourceLocator": "cedict_ts.u8:line:9633"
+  },
+  {
+    "numeric": "shan1",
+    "glyph": "山",
+    "sourceLocator": "cedict_ts.u8:line:35642"
+  },
+  {
+    "numeric": "ran3",
+    "glyph": "䎃",
+    "sourceLocator": "cedict_ts.u8:line:316"
+  },
+  {
+    "numeric": "qi4",
+    "glyph": "亟",
+    "sourceLocator": "cedict_ts.u8:line:5341"
+  },
+  {
+    "numeric": "hua2",
+    "glyph": "划",
+    "sourceLocator": "cedict_ts.u8:line:13831"
+  },
+  {
+    "numeric": "qian2",
+    "glyph": "钱",
+    "sourceLocator": "cedict_ts.u8:line:112284"
+  },
+  {
+    "numeric": "meng2",
+    "glyph": "幪",
+    "sourceLocator": "cedict_ts.u8:line:37658"
+  },
+  {
+    "numeric": "e2",
+    "glyph": "俄",
+    "sourceLocator": "cedict_ts.u8:line:8025"
+  },
+  {
+    "numeric": "zhe4",
+    "glyph": "䗪",
+    "sourceLocator": "cedict_ts.u8:line:326"
+  },
+  {
+    "numeric": "la4",
+    "glyph": "剌",
+    "sourceLocator": "cedict_ts.u8:line:14405"
+  },
+  {
+    "numeric": "xu4",
+    "glyph": "侐",
+    "sourceLocator": "cedict_ts.u8:line:7795"
+  },
+  {
+    "numeric": "mai4",
+    "glyph": "鿏",
+    "sourceLocator": "cedict_ts.u8:line:345"
+  },
+  {
+    "numeric": "zu2",
+    "glyph": "卒",
+    "sourceLocator": "cedict_ts.u8:line:16999"
+  },
+  {
+    "numeric": "ci2",
+    "glyph": "慈",
+    "sourceLocator": "cedict_ts.u8:line:43016"
+  },
+  {
+    "numeric": "jia2",
+    "glyph": "唊",
+    "sourceLocator": "cedict_ts.u8:line:21944"
+  },
+  {
+    "numeric": "huan1",
+    "glyph": "欢",
+    "sourceLocator": "cedict_ts.u8:line:60384"
+  },
+  {
+    "numeric": "cheng1",
+    "glyph": "噌",
+    "sourceLocator": "cedict_ts.u8:line:23362"
+  },
+  {
+    "numeric": "bi4",
+    "glyph": "臂",
+    "sourceLocator": "cedict_ts.u8:line:91476"
+  },
+  {
+    "numeric": "chang3",
+    "glyph": "䠀",
+    "sourceLocator": "cedict_ts.u8:line:338"
+  },
+  {
+    "numeric": "tang1",
+    "glyph": "㓥",
+    "sourceLocator": "cedict_ts.u8:line:15070"
+  },
+  {
+    "numeric": "cu4",
+    "glyph": "促",
+    "sourceLocator": "cedict_ts.u8:line:8009"
+  },
+  {
+    "numeric": "she4",
+    "glyph": "射",
+    "sourceLocator": "cedict_ts.u8:line:33927"
+  },
+  {
+    "numeric": "tiao3",
+    "glyph": "䠷",
+    "sourceLocator": "cedict_ts.u8:line:342"
+  },
+  {
+    "numeric": "chu1",
+    "glyph": "䢺",
+    "sourceLocator": "cedict_ts.u8:line:343"
+  },
+  {
+    "numeric": "peng1",
+    "glyph": "匉",
+    "sourceLocator": "cedict_ts.u8:line:16120"
+  },
+  {
+    "numeric": "tiao2",
+    "glyph": "条",
+    "sourceLocator": "cedict_ts.u8:line:57994"
+  },
+  {
+    "numeric": "sa4",
+    "glyph": "卅",
+    "sourceLocator": "cedict_ts.u8:line:16759"
+  },
+  {
+    "numeric": "fei1",
+    "glyph": "啡",
+    "sourceLocator": "cedict_ts.u8:line:22381"
+  },
+  {
+    "numeric": "bo2",
+    "glyph": "脖",
+    "sourceLocator": "cedict_ts.u8:line:90731"
+  },
+  {
+    "numeric": "tuo2",
+    "glyph": "佗",
+    "sourceLocator": "cedict_ts.u8:line:7355"
+  },
+  {
+    "numeric": "sui3",
+    "glyph": "瀡",
+    "sourceLocator": "cedict_ts.u8:line:68891"
+  },
+  {
+    "numeric": "hun2",
+    "glyph": "楎",
+    "sourceLocator": "cedict_ts.u8:line:58559"
+  },
+  {
+    "numeric": "wei4",
+    "glyph": "鳚",
+    "sourceLocator": "cedict_ts.u8:line:359"
+  },
+  {
+    "numeric": "jing1",
+    "glyph": "睛",
+    "sourceLocator": "cedict_ts.u8:line:78746"
+  },
+  {
+    "numeric": "guan3",
+    "glyph": "鳤",
+    "sourceLocator": "cedict_ts.u8:line:361"
+  },
+  {
+    "numeric": "ji2",
+    "glyph": "䳭",
+    "sourceLocator": "cedict_ts.u8:line:364"
+  },
+  {
+    "numeric": "ao3",
+    "glyph": "𬸩",
+    "sourceLocator": "cedict_ts.u8:line:365"
+  },
+  {
+    "numeric": "huan2",
+    "glyph": "鹮",
+    "sourceLocator": "cedict_ts.u8:line:366"
+  },
+  {
+    "numeric": "fu1",
+    "glyph": "夫",
+    "sourceLocator": "cedict_ts.u8:line:29204"
+  },
+  {
+    "numeric": "zhi1",
+    "glyph": "只",
+    "sourceLocator": "cedict_ts.u8:line:81477"
+  },
+  {
+    "numeric": "nü4",
+    "glyph": "恧",
+    "sourceLocator": "cedict_ts.u8:line:41937"
+  },
+  {
+    "numeric": "ti4",
+    "glyph": "倜",
+    "sourceLocator": "cedict_ts.u8:line:8800"
+  },
+  {
+    "numeric": "ding1",
+    "glyph": "仃",
+    "sourceLocator": "cedict_ts.u8:line:6090"
+  },
+  {
+    "numeric": "zheng1",
+    "glyph": "正",
+    "sourceLocator": "cedict_ts.u8:line:60445"
+  },
+  {
+    "numeric": "kao3",
+    "glyph": "丂",
+    "sourceLocator": "cedict_ts.u8:line:1097"
+  },
+  {
+    "numeric": "shang4",
+    "glyph": "上",
+    "sourceLocator": "cedict_ts.u8:line:1579"
+  },
+  {
+    "numeric": "xia4",
+    "glyph": "夏",
+    "sourceLocator": "cedict_ts.u8:line:27008"
+  },
+  {
+    "numeric": "mo4",
+    "glyph": "没",
+    "sourceLocator": "cedict_ts.u8:line:63254"
+  },
+  {
+    "numeric": "zhang4",
+    "glyph": "丈",
+    "sourceLocator": "cedict_ts.u8:line:1179"
+  },
+  {
+    "numeric": "shang3",
+    "glyph": "上",
+    "sourceLocator": "cedict_ts.u8:line:1578"
+  },
+  {
+    "numeric": "qi2",
+    "glyph": "亓",
+    "sourceLocator": "cedict_ts.u8:line:4981"
+  },
+  {
+    "numeric": "mian3",
+    "glyph": "丏",
+    "sourceLocator": "cedict_ts.u8:line:3003"
+  },
+  {
+    "numeric": "gai4",
+    "glyph": "丐",
+    "sourceLocator": "cedict_ts.u8:line:3004"
+  },
+  {
+    "numeric": "chou3",
+    "glyph": "丑",
+    "sourceLocator": "cedict_ts.u8:line:3008"
+  },
+  {
+    "numeric": "qie3",
+    "glyph": "且",
+    "sourceLocator": "cedict_ts.u8:line:3014"
+  },
+  {
+    "numeric": "pi1",
+    "glyph": "丕",
+    "sourceLocator": "cedict_ts.u8:line:3023"
+  },
+  {
+    "numeric": "shi4",
+    "glyph": "事",
+    "sourceLocator": "cedict_ts.u8:line:4635"
+  },
+  {
+    "numeric": "qiu1",
+    "glyph": "秋",
+    "sourceLocator": "cedict_ts.u8:line:81293"
+  },
+  {
+    "numeric": "bing3",
+    "glyph": "饼",
+    "sourceLocator": "cedict_ts.u8:line:120110"
+  },
+  {
+    "numeric": "cheng2",
+    "glyph": "丞",
+    "sourceLocator": "cedict_ts.u8:line:3182"
+  },
+  {
+    "numeric": "diu1",
+    "glyph": "丢",
+    "sourceLocator": "cedict_ts.u8:line:3184"
+  },
+  {
+    "numeric": "you3",
+    "glyph": "卣",
+    "sourceLocator": "cedict_ts.u8:line:17574"
+  },
+  {
+    "numeric": "bing4",
+    "glyph": "并",
+    "sourceLocator": "cedict_ts.u8:line:3213"
+  },
+  {
+    "numeric": "gun3",
+    "glyph": "丨",
+    "sourceLocator": "cedict_ts.u8:line:3247"
+  },
+  {
+    "numeric": "shu4",
+    "glyph": "丨",
+    "sourceLocator": "cedict_ts.u8:line:3248"
+  },
+  {
+    "numeric": "jiu1",
+    "glyph": "啾",
+    "sourceLocator": "cedict_ts.u8:line:22422"
+  },
+  {
+    "numeric": "ya1",
+    "glyph": "丫",
+    "sourceLocator": "cedict_ts.u8:line:3250"
+  },
+  {
+    "numeric": "zhong1",
+    "glyph": "中",
+    "sourceLocator": "cedict_ts.u8:line:3261"
+  },
+  {
+    "numeric": "ji3",
+    "glyph": "几",
+    "sourceLocator": "cedict_ts.u8:line:38214"
+  },
+  {
+    "numeric": "guan4",
+    "glyph": "冠",
+    "sourceLocator": "cedict_ts.u8:line:12495"
+  },
+  {
+    "numeric": "kuang4",
+    "glyph": "圹",
+    "sourceLocator": "cedict_ts.u8:line:26862"
+  },
+  {
+    "numeric": "chuan4",
+    "glyph": "串",
+    "sourceLocator": "cedict_ts.u8:line:3841"
+  },
+  {
+    "numeric": "chan3",
+    "glyph": "丳",
+    "sourceLocator": "cedict_ts.u8:line:3870"
+  },
+  {
+    "numeric": "zhu3",
+    "glyph": "主",
+    "sourceLocator": "cedict_ts.u8:line:3926"
+  },
+  {
+    "numeric": "wan2",
+    "glyph": "丸",
+    "sourceLocator": "cedict_ts.u8:line:3874"
+  },
+  {
+    "numeric": "dan1",
+    "glyph": "丹",
+    "sourceLocator": "cedict_ts.u8:line:3878"
+  },
+  {
+    "numeric": "dong4",
+    "glyph": "丼",
+    "sourceLocator": "cedict_ts.u8:line:4082"
+  },
+  {
+    "numeric": "jing3",
+    "glyph": "井",
+    "sourceLocator": "cedict_ts.u8:line:5161"
+  },
+  {
+    "numeric": "pie3",
+    "glyph": "丿",
+    "sourceLocator": "cedict_ts.u8:line:4084"
+  },
+  {
+    "numeric": "fu2",
+    "glyph": "乀",
+    "sourceLocator": "cedict_ts.u8:line:4085"
+  },
+  {
+    "numeric": "nai3",
+    "glyph": "乃",
+    "sourceLocator": "cedict_ts.u8:line:4088"
+  },
+  {
+    "numeric": "tuo1",
+    "glyph": "圫",
+    "sourceLocator": "cedict_ts.u8:line:25003"
+  },
+  {
+    "numeric": "zhe2",
+    "glyph": "乇",
+    "sourceLocator": "cedict_ts.u8:line:4129"
+  },
+  {
+    "numeric": "yao1",
+    "glyph": "吆",
+    "sourceLocator": "cedict_ts.u8:line:19717"
+  },
+  {
+    "numeric": "hu1",
+    "glyph": "乎",
+    "sourceLocator": "cedict_ts.u8:line:4164"
+  },
+  {
+    "numeric": "fa2",
+    "glyph": "乏",
+    "sourceLocator": "cedict_ts.u8:line:4165"
+  },
+  {
+    "numeric": "ping1",
+    "glyph": "乒",
+    "sourceLocator": "cedict_ts.u8:line:4173"
+  },
+  {
+    "numeric": "pang1",
+    "glyph": "乓",
+    "sourceLocator": "cedict_ts.u8:line:4179"
+  },
+  {
+    "numeric": "hu3",
+    "glyph": "唬",
+    "sourceLocator": "cedict_ts.u8:line:22045"
+  },
+  {
+    "numeric": "guai1",
+    "glyph": "乖",
+    "sourceLocator": "cedict_ts.u8:line:4181"
+  },
+  {
+    "numeric": "sheng4",
+    "glyph": "剩",
+    "sourceLocator": "cedict_ts.u8:line:14696"
+  },
+  {
+    "numeric": "nie4",
+    "glyph": "喦",
+    "sourceLocator": "cedict_ts.u8:line:22688"
+  },
+  {
+    "numeric": "mie1",
+    "glyph": "乜",
+    "sourceLocator": "cedict_ts.u8:line:4284"
+  },
+  {
+    "numeric": "qi3",
+    "glyph": "乞",
+    "sourceLocator": "cedict_ts.u8:line:4358"
+  },
+  {
+    "numeric": "ye3",
+    "glyph": "也",
+    "sourceLocator": "cedict_ts.u8:line:4374"
+  },
+  {
+    "numeric": "shi3",
+    "glyph": "使",
+    "sourceLocator": "cedict_ts.u8:line:7626"
+  },
+  {
+    "numeric": "nang1",
+    "glyph": "乪",
+    "sourceLocator": "cedict_ts.u8:line:4389"
+  },
+  {
+    "numeric": "ru3",
+    "glyph": "女",
+    "sourceLocator": "cedict_ts.u8:line:29874"
+  },
+  {
+    "numeric": "xue2",
+    "glyph": "乴",
+    "sourceLocator": "cedict_ts.u8:line:4458"
+  },
+  {
+    "numeric": "fu3",
+    "glyph": "乶",
+    "sourceLocator": "cedict_ts.u8:line:4459"
+  },
+  {
+    "numeric": "na3",
+    "glyph": "乸",
+    "sourceLocator": "cedict_ts.u8:line:4461"
+  },
+  {
+    "numeric": "gan1",
+    "glyph": "咁",
+    "sourceLocator": "cedict_ts.u8:line:21206"
+  },
+  {
+    "numeric": "luan4",
+    "glyph": "乱",
+    "sourceLocator": "cedict_ts.u8:line:4553"
+  },
+  {
+    "numeric": "zhi4",
+    "glyph": "偫",
+    "sourceLocator": "cedict_ts.u8:line:9359"
+  },
+  {
+    "numeric": "gui1",
+    "glyph": "规",
+    "sourceLocator": "cedict_ts.u8:line:99906"
+  },
+  {
+    "numeric": "lin2",
+    "glyph": "林",
+    "sourceLocator": "cedict_ts.u8:line:56741"
+  },
+  {
+    "numeric": "le5",
+    "glyph": "了",
+    "sourceLocator": "cedict_ts.u8:line:4604"
+  },
+  {
+    "numeric": "liao3",
+    "glyph": "憭",
+    "sourceLocator": "cedict_ts.u8:line:43365"
+  },
+  {
+    "numeric": "ge4",
+    "glyph": "个",
+    "sourceLocator": "cedict_ts.u8:line:8575"
+  },
+  {
+    "numeric": "yu2",
+    "glyph": "俞",
+    "sourceLocator": "cedict_ts.u8:line:8274"
+  },
+  {
+    "numeric": "chu4",
+    "glyph": "亍",
+    "sourceLocator": "cedict_ts.u8:line:4915"
+  },
+  {
+    "numeric": "yun2",
+    "glyph": "云",
+    "sourceLocator": "cedict_ts.u8:line:4928"
+  },
+  {
+    "numeric": "hu4",
+    "glyph": "互",
+    "sourceLocator": "cedict_ts.u8:line:4932"
+  },
+  {
+    "numeric": "gen4",
+    "glyph": "亘",
+    "sourceLocator": "cedict_ts.u8:line:5191"
+  },
+  {
+    "numeric": "xie1",
+    "glyph": "些",
+    "sourceLocator": "cedict_ts.u8:line:5196"
+  },
+  {
+    "numeric": "zhai1",
+    "glyph": "侧",
+    "sourceLocator": "cedict_ts.u8:line:9368"
+  },
+  {
+    "numeric": "ya4",
+    "glyph": "亚",
+    "sourceLocator": "cedict_ts.u8:line:5201"
+  },
+  {
+    "numeric": "tou2",
+    "glyph": "亠",
+    "sourceLocator": "cedict_ts.u8:line:5344"
+  },
+  {
+    "numeric": "wang2",
+    "glyph": "亡",
+    "sourceLocator": "cedict_ts.u8:line:5345"
+  },
+  {
+    "numeric": "kang4",
+    "glyph": "亢",
+    "sourceLocator": "cedict_ts.u8:line:5364"
+  },
+  {
+    "numeric": "jiao1",
+    "glyph": "僬",
+    "sourceLocator": "cedict_ts.u8:line:10080"
+  },
+  {
+    "numeric": "hai4",
+    "glyph": "害",
+    "sourceLocator": "cedict_ts.u8:line:32796"
+  },
+  {
+    "numeric": "heng1",
+    "glyph": "亨",
+    "sourceLocator": "cedict_ts.u8:line:5551"
+  },
+  {
+    "numeric": "xiang3",
+    "glyph": "享",
+    "sourceLocator": "cedict_ts.u8:line:5563"
+  },
+  {
+    "numeric": "ting2",
+    "glyph": "亭",
+    "sourceLocator": "cedict_ts.u8:line:5616"
+  },
+  {
+    "numeric": "liang4",
+    "glyph": "亮",
+    "sourceLocator": "cedict_ts.u8:line:5627"
+  },
+  {
+    "numeric": "dan3",
+    "glyph": "亶",
+    "sourceLocator": "cedict_ts.u8:line:5659"
+  },
+  {
+    "numeric": "men2",
+    "glyph": "门",
+    "sourceLocator": "cedict_ts.u8:line:113384"
+  },
+  {
+    "numeric": "wei3",
+    "glyph": "亹",
+    "sourceLocator": "cedict_ts.u8:line:5662"
+  },
+  {
+    "numeric": "ren2",
+    "glyph": "人",
+    "sourceLocator": "cedict_ts.u8:line:5665"
+  },
+  {
+    "numeric": "shen2",
+    "glyph": "什",
+    "sourceLocator": "cedict_ts.u8:line:6029"
+  },
+  {
+    "numeric": "le4",
+    "glyph": "仂",
+    "sourceLocator": "cedict_ts.u8:line:6088"
+  },
+  {
+    "numeric": "ze4",
+    "glyph": "仄",
+    "sourceLocator": "cedict_ts.u8:line:6091"
+  },
+  {
+    "numeric": "pu1",
+    "glyph": "仆",
+    "sourceLocator": "cedict_ts.u8:line:6094"
+  },
+  {
+    "numeric": "zhang3",
+    "glyph": "掌",
+    "sourceLocator": "cedict_ts.u8:line:47559"
+  },
+  {
+    "numeric": "jin1",
+    "glyph": "今",
+    "sourceLocator": "cedict_ts.u8:line:6114"
+  },
+  {
+    "numeric": "jie4",
+    "glyph": "借",
+    "sourceLocator": "cedict_ts.u8:line:8805"
+  },
+  {
+    "numeric": "bing1",
+    "glyph": "兵",
+    "sourceLocator": "cedict_ts.u8:line:12187"
+  },
+  {
+    "numeric": "reng2",
+    "glyph": "仍",
+    "sourceLocator": "cedict_ts.u8:line:6173"
+  },
+  {
+    "numeric": "cong2",
+    "glyph": "丛",
+    "sourceLocator": "cedict_ts.u8:line:18739"
+  },
+  {
+    "numeric": "zai3",
+    "glyph": "宰",
+    "sourceLocator": "cedict_ts.u8:line:32786"
+  },
+  {
+    "numeric": "zi1",
+    "glyph": "仔",
+    "sourceLocator": "cedict_ts.u8:line:6178"
+  },
+  {
+    "numeric": "zi3",
+    "glyph": "仔",
+    "sourceLocator": "cedict_ts.u8:line:6179"
+  },
+  {
+    "numeric": "xian1",
+    "glyph": "仙",
+    "sourceLocator": "cedict_ts.u8:line:6250"
+  },
+  {
+    "numeric": "tong2",
+    "glyph": "同",
+    "sourceLocator": "cedict_ts.u8:line:20037"
+  },
+  {
+    "numeric": "ren4",
+    "glyph": "仞",
+    "sourceLocator": "cedict_ts.u8:line:6304"
+  },
+  {
+    "numeric": "qian1",
+    "glyph": "仟",
+    "sourceLocator": "cedict_ts.u8:line:6305"
+  },
+  {
+    "numeric": "ge1",
+    "glyph": "仡",
+    "sourceLocator": "cedict_ts.u8:line:6306"
+  },
+  {
+    "numeric": "dai4",
+    "glyph": "代",
+    "sourceLocator": "cedict_ts.u8:line:6310"
+  },
+  {
+    "numeric": "ling3",
+    "glyph": "令",
+    "sourceLocator": "cedict_ts.u8:line:6407"
+  },
+  {
+    "numeric": "ling4",
+    "glyph": "令",
+    "sourceLocator": "cedict_ts.u8:line:6408"
+  },
+  {
+    "numeric": "sa1",
+    "glyph": "仨",
+    "sourceLocator": "cedict_ts.u8:line:6562"
+  },
+  {
+    "numeric": "mu4",
+    "glyph": "木",
+    "sourceLocator": "cedict_ts.u8:line:55529"
+  },
+  {
+    "numeric": "yang3",
+    "glyph": "仰",
+    "sourceLocator": "cedict_ts.u8:line:6567"
+  },
+  {
+    "numeric": "pi3",
+    "glyph": "仳",
+    "sourceLocator": "cedict_ts.u8:line:6600"
+  },
+  {
+    "numeric": "fen4",
+    "glyph": "偾",
+    "sourceLocator": "cedict_ts.u8:line:10078"
+  },
+  {
+    "numeric": "fang3",
+    "glyph": "仿",
+    "sourceLocator": "cedict_ts.u8:line:6673"
+  },
+  {
+    "numeric": "diao4",
+    "glyph": "伄",
+    "sourceLocator": "cedict_ts.u8:line:6724"
+  },
+  {
+    "numeric": "xin3",
+    "glyph": "伈",
+    "sourceLocator": "cedict_ts.u8:line:6727"
+  },
+  {
+    "numeric": "ji4",
+    "glyph": "伎",
+    "sourceLocator": "cedict_ts.u8:line:6840"
+  },
+  {
+    "numeric": "xiu1",
+    "glyph": "休",
+    "sourceLocator": "cedict_ts.u8:line:6886"
+  },
+  {
+    "numeric": "huo3",
+    "glyph": "火",
+    "sourceLocator": "cedict_ts.u8:line:68998"
+  },
+  {
+    "numeric": "cui4",
+    "glyph": "倅",
+    "sourceLocator": "cedict_ts.u8:line:8550"
+  },
+  {
+    "numeric": "ya2",
+    "glyph": "厓",
+    "sourceLocator": "cedict_ts.u8:line:17868"
+  },
+  {
+    "numeric": "ba4",
+    "glyph": "坝",
+    "sourceLocator": "cedict_ts.u8:line:26899"
+  },
+  {
+    "numeric": "bai3",
+    "glyph": "伯",
+    "sourceLocator": "cedict_ts.u8:line:6945"
+  },
+  {
+    "numeric": "gu1",
+    "glyph": "估",
+    "sourceLocator": "cedict_ts.u8:line:6984"
+  },
+  {
+    "numeric": "gu4",
+    "glyph": "估",
+    "sourceLocator": "cedict_ts.u8:line:6985"
+  },
+  {
+    "numeric": "ni3",
+    "glyph": "你",
+    "sourceLocator": "cedict_ts.u8:line:7529"
+  },
+  {
+    "numeric": "ni4",
+    "glyph": "匿",
+    "sourceLocator": "cedict_ts.u8:line:16520"
+  },
+  {
+    "numeric": "ban4",
+    "glyph": "半",
+    "sourceLocator": "cedict_ts.u8:line:16821"
+  },
+  {
+    "numeric": "qu1",
+    "glyph": "伹",
+    "sourceLocator": "cedict_ts.u8:line:7048"
+  },
+  {
+    "numeric": "ci4",
+    "glyph": "伺",
+    "sourceLocator": "cedict_ts.u8:line:7049"
+  },
+  {
+    "numeric": "beng1",
+    "glyph": "伻",
+    "sourceLocator": "cedict_ts.u8:line:7056"
+  },
+  {
+    "numeric": "ga1",
+    "glyph": "伽",
+    "sourceLocator": "cedict_ts.u8:line:7068"
+  },
+  {
+    "numeric": "qie2",
+    "glyph": "伽",
+    "sourceLocator": "cedict_ts.u8:line:7070"
+  },
+  {
+    "numeric": "dian4",
+    "glyph": "佃",
+    "sourceLocator": "cedict_ts.u8:line:7088"
+  },
+  {
+    "numeric": "tian2",
+    "glyph": "佃",
+    "sourceLocator": "cedict_ts.u8:line:7089"
+  },
+  {
+    "numeric": "dan4",
+    "glyph": "但",
+    "sourceLocator": "cedict_ts.u8:line:7092"
+  },
+  {
+    "numeric": "zhu4",
+    "glyph": "伫",
+    "sourceLocator": "cedict_ts.u8:line:7102"
+  },
+  {
+    "numeric": "ci3",
+    "glyph": "佌",
+    "sourceLocator": "cedict_ts.u8:line:7119"
+  },
+  {
+    "numeric": "di1",
+    "glyph": "低",
+    "sourceLocator": "cedict_ts.u8:line:7138"
+  },
+  {
+    "numeric": "zuo3",
+    "glyph": "左",
+    "sourceLocator": "cedict_ts.u8:line:36543"
+  },
+  {
+    "numeric": "you4",
+    "glyph": "右",
+    "sourceLocator": "cedict_ts.u8:line:19452"
+  },
+  {
+    "numeric": "zhan4",
+    "glyph": "偡",
+    "sourceLocator": "cedict_ts.u8:line:9319"
+  },
+  {
+    "numeric": "she2",
+    "glyph": "折",
+    "sourceLocator": "cedict_ts.u8:line:45709"
+  },
+  {
+    "numeric": "die2",
+    "glyph": "咥",
+    "sourceLocator": "cedict_ts.u8:line:21388"
+  },
+  {
+    "numeric": "fo2",
+    "glyph": "佛",
+    "sourceLocator": "cedict_ts.u8:line:7365"
+  },
+  {
+    "numeric": "zuo1",
+    "glyph": "作",
+    "sourceLocator": "cedict_ts.u8:line:7429"
+  },
+  {
+    "numeric": "zuo4",
+    "glyph": "做",
+    "sourceLocator": "cedict_ts.u8:line:9174"
+  },
+  {
+    "numeric": "gou1",
+    "glyph": "佝",
+    "sourceLocator": "cedict_ts.u8:line:7521"
+  },
+  {
+    "numeric": "ning4",
+    "glyph": "佞",
+    "sourceLocator": "cedict_ts.u8:line:7526"
+  },
+  {
+    "numeric": "qu2",
+    "glyph": "佢",
+    "sourceLocator": "cedict_ts.u8:line:7544"
+  },
+  {
+    "numeric": "yong4",
+    "glyph": "用",
+    "sourceLocator": "cedict_ts.u8:line:74739"
+  },
+  {
+    "numeric": "wa3",
+    "glyph": "佤",
+    "sourceLocator": "cedict_ts.u8:line:7548"
+  },
+  {
+    "numeric": "ka3",
+    "glyph": "佧",
+    "sourceLocator": "cedict_ts.u8:line:7550"
+  },
+  {
+    "numeric": "pei4",
+    "glyph": "佩",
+    "sourceLocator": "cedict_ts.u8:line:7552"
+  },
+  {
+    "numeric": "huai2",
+    "glyph": "佪",
+    "sourceLocator": "cedict_ts.u8:line:7564"
+  },
+  {
+    "numeric": "he4",
+    "glyph": "和",
+    "sourceLocator": "cedict_ts.u8:line:21230"
+  },
+  {
+    "numeric": "yang2",
+    "glyph": "佯",
+    "sourceLocator": "cedict_ts.u8:line:7567"
+  },
+  {
+    "numeric": "hen3",
+    "glyph": "很",
+    "sourceLocator": "cedict_ts.u8:line:40012"
+  },
+  {
+    "numeric": "huo2",
+    "glyph": "和",
+    "sourceLocator": "cedict_ts.u8:line:21232"
+  },
+  {
+    "numeric": "gui3",
+    "glyph": "佹",
+    "sourceLocator": "cedict_ts.u8:line:7618"
+  },
+  {
+    "numeric": "quan2",
+    "glyph": "泉",
+    "sourceLocator": "cedict_ts.u8:line:63851"
+  },
+  {
+    "numeric": "tiao1",
+    "glyph": "佻",
+    "sourceLocator": "cedict_ts.u8:line:7620"
+  },
+  {
+    "numeric": "jiao3",
+    "glyph": "佼",
+    "sourceLocator": "cedict_ts.u8:line:7621"
+  },
+  {
+    "numeric": "xing2",
+    "glyph": "侀",
+    "sourceLocator": "cedict_ts.u8:line:7658"
+  },
+  {
+    "numeric": "kan3",
+    "glyph": "侃",
+    "sourceLocator": "cedict_ts.u8:line:7661"
+  },
+  {
+    "numeric": "zhi2",
+    "glyph": "值",
+    "sourceLocator": "cedict_ts.u8:line:8929"
+  },
+  {
+    "numeric": "lai2",
+    "glyph": "来",
+    "sourceLocator": "cedict_ts.u8:line:7670"
+  },
+  {
+    "numeric": "yi2",
+    "glyph": "侇",
+    "sourceLocator": "cedict_ts.u8:line:7749"
+  },
+  {
+    "numeric": "chi3",
+    "glyph": "侈",
+    "sourceLocator": "cedict_ts.u8:line:7750"
+  },
+  {
+    "numeric": "kua3",
+    "glyph": "侉",
+    "sourceLocator": "cedict_ts.u8:line:7754"
+  },
+  {
+    "numeric": "yin1",
+    "glyph": "喑",
+    "sourceLocator": "cedict_ts.u8:line:22560"
+  },
+  {
+    "numeric": "zhu1",
+    "glyph": "侏",
+    "sourceLocator": "cedict_ts.u8:line:7788"
+  },
+  {
+    "numeric": "mou2",
+    "glyph": "侔",
+    "sourceLocator": "cedict_ts.u8:line:7797"
+  },
+  {
+    "numeric": "lun2",
+    "glyph": "仑",
+    "sourceLocator": "cedict_ts.u8:line:7798"
+  },
+  {
+    "numeric": "cha4",
+    "glyph": "侘",
+    "sourceLocator": "cedict_ts.u8:line:7804"
+  },
+  {
+    "numeric": "gong1",
+    "glyph": "公",
+    "sourceLocator": "cedict_ts.u8:line:11733"
+  },
+  {
+    "numeric": "gong4",
+    "glyph": "供",
+    "sourceLocator": "cedict_ts.u8:line:7807"
+  },
+  {
+    "numeric": "zhou1",
+    "glyph": "周",
+    "sourceLocator": "cedict_ts.u8:line:20942"
+  },
+  {
+    "numeric": "hou2",
+    "glyph": "侯",
+    "sourceLocator": "cedict_ts.u8:line:7904"
+  },
+  {
+    "numeric": "hou4",
+    "glyph": "候",
+    "sourceLocator": "cedict_ts.u8:line:8769"
+  },
+  {
+    "numeric": "qin1",
+    "glyph": "侵",
+    "sourceLocator": "cedict_ts.u8:line:7914"
+  },
+  {
+    "numeric": "lü3",
+    "glyph": "侣",
+    "sourceLocator": "cedict_ts.u8:line:7940"
+  },
+  {
+    "numeric": "ju2",
+    "glyph": "局",
+    "sourceLocator": "cedict_ts.u8:line:7941"
+  },
+  {
+    "numeric": "ting3",
+    "glyph": "侹",
+    "sourceLocator": "cedict_ts.u8:line:7944"
+  },
+  {
+    "numeric": "nan2",
+    "glyph": "南",
+    "sourceLocator": "cedict_ts.u8:line:17055"
+  },
+  {
+    "numeric": "bian4",
+    "glyph": "遍",
+    "sourceLocator": "cedict_ts.u8:line:108638"
+  },
+  {
+    "numeric": "pian2",
+    "glyph": "便",
+    "sourceLocator": "cedict_ts.u8:line:7947"
+  },
+  {
+    "numeric": "wu2",
+    "glyph": "俉",
+    "sourceLocator": "cedict_ts.u8:line:8061"
+  },
+  {
+    "numeric": "zun4",
+    "glyph": "捘",
+    "sourceLocator": "cedict_ts.u8:line:47335"
+  },
+  {
+    "numeric": "liang2",
+    "glyph": "俍",
+    "sourceLocator": "cedict_ts.u8:line:8070"
+  },
+  {
+    "numeric": "zu3",
+    "glyph": "俎",
+    "sourceLocator": "cedict_ts.u8:line:8071"
+  },
+  {
+    "numeric": "qiao4",
+    "glyph": "壳",
+    "sourceLocator": "cedict_ts.u8:line:61387"
+  },
+  {
+    "numeric": "yong3",
+    "glyph": "俑",
+    "sourceLocator": "cedict_ts.u8:line:8080"
+  },
+  {
+    "numeric": "jing4",
+    "glyph": "𠇹",
+    "sourceLocator": "cedict_ts.u8:line:8082"
+  },
+  {
+    "numeric": "qian4",
+    "glyph": "伣",
+    "sourceLocator": "cedict_ts.u8:line:8083"
+  },
+  {
+    "numeric": "su2",
+    "glyph": "俗",
+    "sourceLocator": "cedict_ts.u8:line:8084"
+  },
+  {
+    "numeric": "li3",
+    "glyph": "俚",
+    "sourceLocator": "cedict_ts.u8:line:8108"
+  },
+  {
+    "numeric": "bao3",
+    "glyph": "保",
+    "sourceLocator": "cedict_ts.u8:line:8115"
+  },
+  {
+    "numeric": "xia2",
+    "glyph": "侠",
+    "sourceLocator": "cedict_ts.u8:line:8283"
+  },
+  {
+    "numeric": "di4",
+    "glyph": "哋",
+    "sourceLocator": "cedict_ts.u8:line:21741"
+  },
+  {
+    "numeric": "xiao4",
+    "glyph": "哮",
+    "sourceLocator": "cedict_ts.u8:line:21864"
+  },
+  {
+    "numeric": "pai2",
+    "glyph": "俳",
+    "sourceLocator": "cedict_ts.u8:line:8518"
+  },
+  {
+    "numeric": "biao4",
+    "glyph": "俵",
+    "sourceLocator": "cedict_ts.u8:line:8524"
+  },
+  {
+    "numeric": "fei4",
+    "glyph": "俷",
+    "sourceLocator": "cedict_ts.u8:line:8526"
+  },
+  {
+    "numeric": "feng4",
+    "glyph": "俸",
+    "sourceLocator": "cedict_ts.u8:line:8527"
+  },
+  {
+    "numeric": "an3",
+    "glyph": "埯",
+    "sourceLocator": "cedict_ts.u8:line:25774"
+  },
+  {
+    "numeric": "bei4",
+    "glyph": "倍",
+    "sourceLocator": "cedict_ts.u8:line:8615"
+  },
+  {
+    "numeric": "bi3",
+    "glyph": "俾",
+    "sourceLocator": "cedict_ts.u8:line:8536"
+  },
+  {
+    "numeric": "chang1",
+    "glyph": "伥",
+    "sourceLocator": "cedict_ts.u8:line:8546"
+  },
+  {
+    "numeric": "lia3",
+    "glyph": "俩",
+    "sourceLocator": "cedict_ts.u8:line:8551"
+  },
+  {
+    "numeric": "cang1",
+    "glyph": "仓",
+    "sourceLocator": "cedict_ts.u8:line:8555"
+  },
+  {
+    "numeric": "ge3",
+    "glyph": "个",
+    "sourceLocator": "cedict_ts.u8:line:8574"
+  },
+  {
+    "numeric": "guan1",
+    "glyph": "冠",
+    "sourceLocator": "cedict_ts.u8:line:12494"
+  },
+  {
+    "numeric": "shu1",
+    "glyph": "叔",
+    "sourceLocator": "cedict_ts.u8:line:18533"
+  },
+  {
+    "numeric": "men5",
+    "glyph": "们",
+    "sourceLocator": "cedict_ts.u8:line:8633"
+  },
+  {
+    "numeric": "dao4",
+    "glyph": "倒",
+    "sourceLocator": "cedict_ts.u8:line:8635"
+  },
+  {
+    "numeric": "tan2",
+    "glyph": "倓",
+    "sourceLocator": "cedict_ts.u8:line:8751"
+  },
+  {
+    "numeric": "jue4",
+    "glyph": "倔",
+    "sourceLocator": "cedict_ts.u8:line:8753"
+  },
+  {
+    "numeric": "xing4",
+    "glyph": "姓",
+    "sourceLocator": "cedict_ts.u8:line:30549"
+  },
+  {
+    "numeric": "tang3",
+    "glyph": "倘",
+    "sourceLocator": "cedict_ts.u8:line:8762"
+  },
+  {
+    "numeric": "gan4",
+    "glyph": "干",
+    "sourceLocator": "cedict_ts.u8:line:38101"
+  },
+  {
+    "numeric": "chang4",
+    "glyph": "倡",
+    "sourceLocator": "cedict_ts.u8:line:8871"
+  },
+  {
+    "numeric": "kong1",
+    "glyph": "倥",
+    "sourceLocator": "cedict_ts.u8:line:8883"
+  },
+  {
+    "numeric": "kong3",
+    "glyph": "倥",
+    "sourceLocator": "cedict_ts.u8:line:8884"
+  },
+  {
+    "numeric": "juan4",
+    "glyph": "倦",
+    "sourceLocator": "cedict_ts.u8:line:8887"
+  },
+  {
+    "numeric": "ni2",
+    "glyph": "倪",
+    "sourceLocator": "cedict_ts.u8:line:8897"
+  },
+  {
+    "numeric": "zhuo1",
+    "glyph": "倬",
+    "sourceLocator": "cedict_ts.u8:line:8915"
+  },
+  {
+    "numeric": "wo1",
+    "glyph": "倭",
+    "sourceLocator": "cedict_ts.u8:line:8916"
+  },
+  {
+    "numeric": "luo3",
+    "glyph": "瘰",
+    "sourceLocator": "cedict_ts.u8:line:76124"
+  },
+  {
+    "numeric": "cai3",
+    "glyph": "彩",
+    "sourceLocator": "cedict_ts.u8:line:39736"
+  },
+  {
+    "numeric": "ye1",
+    "glyph": "倻",
+    "sourceLocator": "cedict_ts.u8:line:8928"
+  },
+  {
+    "numeric": "sha2",
+    "glyph": "倽",
+    "sourceLocator": "cedict_ts.u8:line:8946"
+  },
+  {
+    "numeric": "yan3",
+    "glyph": "眼",
+    "sourceLocator": "cedict_ts.u8:line:78547"
+  },
+  {
+    "numeric": "gei1",
+    "glyph": "假",
+    "sourceLocator": "cedict_ts.u8:line:8954"
+  },
+  {
+    "numeric": "jia3",
+    "glyph": "假",
+    "sourceLocator": "cedict_ts.u8:line:8955"
+  },
+  {
+    "numeric": "jia4",
+    "glyph": "假",
+    "sourceLocator": "cedict_ts.u8:line:8956"
+  },
+  {
+    "numeric": "ruo4",
+    "glyph": "偌",
+    "sourceLocator": "cedict_ts.u8:line:9074"
+  },
+  {
+    "numeric": "wei1",
+    "glyph": "偎",
+    "sourceLocator": "cedict_ts.u8:line:9076"
+  },
+  {
+    "numeric": "pian1",
+    "glyph": "偏",
+    "sourceLocator": "cedict_ts.u8:line:9078"
+  },
+  {
+    "numeric": "wo4",
+    "glyph": "偓",
+    "sourceLocator": "cedict_ts.u8:line:9169"
+  },
+  {
+    "numeric": "huang2",
+    "glyph": "凰",
+    "sourceLocator": "cedict_ts.u8:line:12998"
+  },
+  {
+    "numeric": "ci1",
+    "glyph": "偨",
+    "sourceLocator": "cedict_ts.u8:line:9356"
+  },
+  {
+    "numeric": "xie4",
+    "glyph": "卨",
+    "sourceLocator": "cedict_ts.u8:line:17578"
+  },
+  {
+    "numeric": "xun2",
+    "glyph": "偱",
+    "sourceLocator": "cedict_ts.u8:line:9363"
+  },
+  {
+    "numeric": "cai1",
+    "glyph": "偲",
+    "sourceLocator": "cedict_ts.u8:line:9364"
+  },
+  {
+    "numeric": "zhen1",
+    "glyph": "侦",
+    "sourceLocator": "cedict_ts.u8:line:9396"
+  },
+  {
+    "numeric": "ou3",
+    "glyph": "偶",
+    "sourceLocator": "cedict_ts.u8:line:9413"
+  },
+  {
+    "numeric": "tou1",
+    "glyph": "偷",
+    "sourceLocator": "cedict_ts.u8:line:9438"
+  },
+  {
+    "numeric": "zan2",
+    "glyph": "咱",
+    "sourceLocator": "cedict_ts.u8:line:21448"
+  },
+  {
+    "numeric": "kui3",
+    "glyph": "傀",
+    "sourceLocator": "cedict_ts.u8:line:9520"
+  },
+  {
+    "numeric": "ma3",
+    "glyph": "㐷",
+    "sourceLocator": "cedict_ts.u8:line:9537"
+  },
+  {
+    "numeric": "ma4",
+    "glyph": "杩",
+    "sourceLocator": "cedict_ts.u8:line:58825"
+  },
+  {
+    "numeric": "bang4",
+    "glyph": "傍",
+    "sourceLocator": "cedict_ts.u8:line:9539"
+  },
+  {
+    "numeric": "dian1",
+    "glyph": "傎",
+    "sourceLocator": "cedict_ts.u8:line:9551"
+  },
+  {
+    "numeric": "san3",
+    "glyph": "伞",
+    "sourceLocator": "cedict_ts.u8:line:9587"
+  },
+  {
+    "numeric": "suo1",
+    "glyph": "傞",
+    "sourceLocator": "cedict_ts.u8:line:9634"
+  },
+  {
+    "numeric": "dai3",
+    "glyph": "傣",
+    "sourceLocator": "cedict_ts.u8:line:9639"
+  },
+  {
+    "numeric": "cui1",
+    "glyph": "催",
+    "sourceLocator": "cedict_ts.u8:line:9641"
+  },
+  {
+    "numeric": "yong1",
+    "glyph": "佣",
+    "sourceLocator": "cedict_ts.u8:line:9684"
+  },
+  {
+    "numeric": "zao1",
+    "glyph": "傮",
+    "sourceLocator": "cedict_ts.u8:line:9690"
+  },
+  {
+    "numeric": "zong3",
+    "glyph": "偬",
+    "sourceLocator": "cedict_ts.u8:line:9691"
+  },
+  {
+    "numeric": "chuan2",
+    "glyph": "传",
+    "sourceLocator": "cedict_ts.u8:line:9712"
+  },
+  {
+    "numeric": "zhuan4",
+    "glyph": "传",
+    "sourceLocator": "cedict_ts.u8:line:9713"
+  },
+  {
+    "numeric": "zhai4",
+    "glyph": "债",
+    "sourceLocator": "cedict_ts.u8:line:9853"
+  },
+  {
+    "numeric": "shang1",
+    "glyph": "伤",
+    "sourceLocator": "cedict_ts.u8:line:9869"
+  },
+  {
+    "numeric": "chi4",
+    "glyph": "傺",
+    "sourceLocator": "cedict_ts.u8:line:9918"
+  },
+  {
+    "numeric": "sha3",
+    "glyph": "傻",
+    "sourceLocator": "cedict_ts.u8:line:9919"
+  },
+  {
+    "numeric": "qing1",
+    "glyph": "清",
+    "sourceLocator": "cedict_ts.u8:line:66484"
+  },
+  {
+    "numeric": "yan1",
+    "glyph": "咽",
+    "sourceLocator": "cedict_ts.u8:line:21486"
+  },
+  {
+    "numeric": "yan4",
+    "glyph": "傿",
+    "sourceLocator": "cedict_ts.u8:line:10006"
+  },
+  {
+    "numeric": "lou2",
+    "glyph": "偻",
+    "sourceLocator": "cedict_ts.u8:line:10007"
+  },
+  {
+    "numeric": "piao4",
+    "glyph": "僄",
+    "sourceLocator": "cedict_ts.u8:line:10011"
+  },
+  {
+    "numeric": "jin3",
+    "glyph": "仅",
+    "sourceLocator": "cedict_ts.u8:line:10012"
+  },
+  {
+    "numeric": "lu4",
+    "glyph": "僇",
+    "sourceLocator": "cedict_ts.u8:line:10020"
+  },
+  {
+    "numeric": "xiang4",
+    "glyph": "向",
+    "sourceLocator": "cedict_ts.u8:line:20403"
+  },
+  {
+    "numeric": "qiao2",
+    "glyph": "侨",
+    "sourceLocator": "cedict_ts.u8:line:10036"
+  },
+  {
+    "numeric": "zun3",
+    "glyph": "僔",
+    "sourceLocator": "cedict_ts.u8:line:10045"
+  },
+  {
+    "numeric": "pu2",
+    "glyph": "仆",
+    "sourceLocator": "cedict_ts.u8:line:10046"
+  },
+  {
+    "numeric": "liao2",
+    "glyph": "僚",
+    "sourceLocator": "cedict_ts.u8:line:10053"
+  },
+  {
+    "numeric": "deng4",
+    "glyph": "僜",
+    "sourceLocator": "cedict_ts.u8:line:10055"
+  },
+  {
+    "numeric": "chan2",
+    "glyph": "僝",
+    "sourceLocator": "cedict_ts.u8:line:10056"
+  },
+  {
+    "numeric": "seng1",
+    "glyph": "僧",
+    "sourceLocator": "cedict_ts.u8:line:10065"
+  },
+  {
+    "numeric": "xian4",
+    "glyph": "僩",
+    "sourceLocator": "cedict_ts.u8:line:10079"
+  },
+  {
+    "numeric": "zhuang4",
+    "glyph": "壮",
+    "sourceLocator": "cedict_ts.u8:line:26930"
+  },
+  {
+    "numeric": "lin3",
+    "glyph": "僯",
+    "sourceLocator": "cedict_ts.u8:line:10092"
+  },
+  {
+    "numeric": "jiang1",
+    "glyph": "僵",
+    "sourceLocator": "cedict_ts.u8:line:10101"
+  },
+  {
+    "numeric": "jie5",
+    "glyph": "价",
+    "sourceLocator": "cedict_ts.u8:line:10114"
+  },
+  {
+    "numeric": "pi4",
+    "glyph": "僻",
+    "sourceLocator": "cedict_ts.u8:line:10137"
+  },
+  {
+    "numeric": "sai4",
+    "glyph": "僿",
+    "sourceLocator": "cedict_ts.u8:line:10143"
+  },
+  {
+    "numeric": "nong2",
+    "glyph": "哝",
+    "sourceLocator": "cedict_ts.u8:line:23394"
+  },
+  {
+    "numeric": "dang1",
+    "glyph": "当",
+    "sourceLocator": "cedict_ts.u8:line:23524"
+  },
+  {
+    "numeric": "xuan1",
+    "glyph": "儇",
+    "sourceLocator": "cedict_ts.u8:line:10175"
+  },
+  {
+    "numeric": "kuai4",
+    "glyph": "快",
+    "sourceLocator": "cedict_ts.u8:line:41271"
+  },
+  {
+    "numeric": "jian3",
+    "glyph": "俭",
+    "sourceLocator": "cedict_ts.u8:line:10177"
+  },
+  {
+    "numeric": "zai4",
+    "glyph": "再",
+    "sourceLocator": "cedict_ts.u8:line:12348"
+  },
+  {
+    "numeric": "bin1",
+    "glyph": "傧",
+    "sourceLocator": "cedict_ts.u8:line:10195"
+  },
+  {
+    "numeric": "ru2",
+    "glyph": "儒",
+    "sourceLocator": "cedict_ts.u8:line:10197"
+  },
+  {
+    "numeric": "tai2",
+    "glyph": "儓",
+    "sourceLocator": "cedict_ts.u8:line:10209"
+  },
+  {
+    "numeric": "chai2",
+    "glyph": "侪",
+    "sourceLocator": "cedict_ts.u8:line:10211"
+  },
+  {
+    "numeric": "ning2",
+    "glyph": "儜",
+    "sourceLocator": "cedict_ts.u8:line:10222"
+  },
+  {
+    "numeric": "lei3",
+    "glyph": "儡",
+    "sourceLocator": "cedict_ts.u8:line:10230"
+  },
+  {
+    "numeric": "bao4",
+    "glyph": "儤",
+    "sourceLocator": "cedict_ts.u8:line:10231"
+  },
+  {
+    "numeric": "biao1",
+    "glyph": "儦",
+    "sourceLocator": "cedict_ts.u8:line:10232"
+  },
+  {
+    "numeric": "you1",
+    "glyph": "优",
+    "sourceLocator": "cedict_ts.u8:line:10234"
+  },
+  {
+    "numeric": "chen4",
+    "glyph": "儭",
+    "sourceLocator": "cedict_ts.u8:line:10289"
+  },
+  {
+    "numeric": "long3",
+    "glyph": "儱",
+    "sourceLocator": "cedict_ts.u8:line:10290"
+  },
+  {
+    "numeric": "chu3",
+    "glyph": "储",
+    "sourceLocator": "cedict_ts.u8:line:10292"
+  },
+  {
+    "numeric": "chan4",
+    "glyph": "儳",
+    "sourceLocator": "cedict_ts.u8:line:10318"
+  },
+  {
+    "numeric": "luo2",
+    "glyph": "㑩",
+    "sourceLocator": "cedict_ts.u8:line:10322"
+  },
+  {
+    "numeric": "zan3",
+    "glyph": "儹",
+    "sourceLocator": "cedict_ts.u8:line:10323"
+  },
+  {
+    "numeric": "nuo2",
+    "glyph": "傩",
+    "sourceLocator": "cedict_ts.u8:line:10324"
+  },
+  {
+    "numeric": "wu4",
+    "glyph": "兀",
+    "sourceLocator": "cedict_ts.u8:line:10333"
+  },
+  {
+    "numeric": "yun3",
+    "glyph": "允",
+    "sourceLocator": "cedict_ts.u8:line:10341"
+  },
+  {
+    "numeric": "yuan2",
+    "glyph": "原",
+    "sourceLocator": "cedict_ts.u8:line:17913"
+  },
+  {
+    "numeric": "guang1",
+    "glyph": "光",
+    "sourceLocator": "cedict_ts.u8:line:10602"
+  },
+  {
+    "numeric": "ke4",
+    "glyph": "克",
+    "sourceLocator": "cedict_ts.u8:line:10765"
+  },
+  {
+    "numeric": "dui4",
+    "glyph": "兑",
+    "sourceLocator": "cedict_ts.u8:line:10875"
+  },
+  {
+    "numeric": "wen4",
+    "glyph": "问",
+    "sourceLocator": "cedict_ts.u8:line:22287"
+  },
+  {
+    "numeric": "tu4",
+    "glyph": "兔",
+    "sourceLocator": "cedict_ts.u8:line:10950"
+  },
+  {
+    "numeric": "er2",
+    "glyph": "儿",
+    "sourceLocator": "cedict_ts.u8:line:10924"
+  },
+  {
+    "numeric": "dou1",
+    "glyph": "兜",
+    "sourceLocator": "cedict_ts.u8:line:10973"
+  },
+  {
+    "numeric": "ru4",
+    "glyph": "入",
+    "sourceLocator": "cedict_ts.u8:line:10998"
+  },
+  {
+    "numeric": "nei4",
+    "glyph": "内",
+    "sourceLocator": "cedict_ts.u8:line:11091"
+  },
+  {
+    "numeric": "tian1",
+    "glyph": "天",
+    "sourceLocator": "cedict_ts.u8:line:28681"
+  },
+  {
+    "numeric": "dian3",
+    "glyph": "点",
+    "sourceLocator": "cedict_ts.u8:line:124577"
+  },
+  {
+    "numeric": "jian1",
+    "glyph": "尖",
+    "sourceLocator": "cedict_ts.u8:line:34972"
+  },
+  {
+    "numeric": "jiong1",
+    "glyph": "冂",
+    "sourceLocator": "cedict_ts.u8:line:12330"
+  },
+  {
+    "numeric": "mao3",
+    "glyph": "冇",
+    "sourceLocator": "cedict_ts.u8:line:12334"
+  },
+  {
+    "numeric": "gou4",
+    "glyph": "冓",
+    "sourceLocator": "cedict_ts.u8:line:12454"
+  },
+  {
+    "numeric": "xu3",
+    "glyph": "冔",
+    "sourceLocator": "cedict_ts.u8:line:12455"
+  },
+  {
+    "numeric": "mi4",
+    "glyph": "冖",
+    "sourceLocator": "cedict_ts.u8:line:12462"
+  },
+  {
+    "numeric": "rong3",
+    "glyph": "冗",
+    "sourceLocator": "cedict_ts.u8:line:12463"
+  },
+  {
+    "numeric": "yin2",
+    "glyph": "冘",
+    "sourceLocator": "cedict_ts.u8:line:12488"
+  },
+  {
+    "numeric": "you2",
+    "glyph": "冘",
+    "sourceLocator": "cedict_ts.u8:line:12489"
+  },
+  {
+    "numeric": "mi2",
+    "glyph": "冞",
+    "sourceLocator": "cedict_ts.u8:line:12492"
+  },
+  {
+    "numeric": "zhong3",
+    "glyph": "冢",
+    "sourceLocator": "cedict_ts.u8:line:12521"
+  },
+  {
+    "numeric": "yuan1",
+    "glyph": "冤",
+    "sourceLocator": "cedict_ts.u8:line:12524"
+  },
+  {
+    "numeric": "dong1",
+    "glyph": "冬",
+    "sourceLocator": "cedict_ts.u8:line:12579"
+  },
+  {
+    "numeric": "gang1",
+    "glyph": "刚",
+    "sourceLocator": "cedict_ts.u8:line:14642"
+  },
+  {
+    "numeric": "leng3",
+    "glyph": "冷",
+    "sourceLocator": "cedict_ts.u8:line:12749"
+  },
+  {
+    "numeric": "min3",
+    "glyph": "刡",
+    "sourceLocator": "cedict_ts.u8:line:13954"
+  },
+  {
+    "numeric": "zhun3",
+    "glyph": "准",
+    "sourceLocator": "cedict_ts.u8:line:12858"
+  },
+  {
+    "numeric": "song1",
+    "glyph": "凇",
+    "sourceLocator": "cedict_ts.u8:line:12866"
+  },
+  {
+    "numeric": "qing4",
+    "glyph": "凊",
+    "sourceLocator": "cedict_ts.u8:line:12870"
+  },
+  {
+    "numeric": "diao1",
+    "glyph": "凋",
+    "sourceLocator": "cedict_ts.u8:line:12871"
+  },
+  {
+    "numeric": "du2",
+    "glyph": "椟",
+    "sourceLocator": "cedict_ts.u8:line:59934"
+  },
+  {
+    "numeric": "fan2",
+    "glyph": "凡",
+    "sourceLocator": "cedict_ts.u8:line:12969"
+  },
+  {
+    "numeric": "ju1",
+    "glyph": "娵",
+    "sourceLocator": "cedict_ts.u8:line:30835"
+  },
+  {
+    "numeric": "kai3",
+    "glyph": "凯",
+    "sourceLocator": "cedict_ts.u8:line:13000"
+  },
+  {
+    "numeric": "ping2",
+    "glyph": "呯",
+    "sourceLocator": "cedict_ts.u8:line:21047"
+  },
+  {
+    "numeric": "tu1",
+    "glyph": "凸",
+    "sourceLocator": "cedict_ts.u8:line:13051"
+  },
+  {
+    "numeric": "ao1",
+    "glyph": "凹",
+    "sourceLocator": "cedict_ts.u8:line:13077"
+  },
+  {
+    "numeric": "wa1",
+    "glyph": "哇",
+    "sourceLocator": "cedict_ts.u8:line:21616"
+  },
+  {
+    "numeric": "dang4",
+    "glyph": "当",
+    "sourceLocator": "cedict_ts.u8:line:75503"
+  },
+  {
+    "numeric": "han2",
+    "glyph": "函",
+    "sourceLocator": "cedict_ts.u8:line:13369"
+  },
+  {
+    "numeric": "dao1",
+    "glyph": "刀",
+    "sourceLocator": "cedict_ts.u8:line:13387"
+  },
+  {
+    "numeric": "fen1",
+    "glyph": "分",
+    "sourceLocator": "cedict_ts.u8:line:13441"
+  },
+  {
+    "numeric": "qie1",
+    "glyph": "切",
+    "sourceLocator": "cedict_ts.u8:line:13696"
+  },
+  {
+    "numeric": "kan1",
+    "glyph": "刊",
+    "sourceLocator": "cedict_ts.u8:line:13776"
+  },
+  {
+    "numeric": "cun3",
+    "glyph": "刌",
+    "sourceLocator": "cedict_ts.u8:line:13789"
+  },
+  {
+    "numeric": "wen3",
+    "glyph": "刎",
+    "sourceLocator": "cedict_ts.u8:line:13790"
+  },
+  {
+    "numeric": "yue4",
+    "glyph": "月",
+    "sourceLocator": "cedict_ts.u8:line:54820"
+  },
+  {
+    "numeric": "qu4",
+    "glyph": "去",
+    "sourceLocator": "cedict_ts.u8:line:18085"
+  },
+  {
+    "numeric": "pan4",
+    "glyph": "判",
+    "sourceLocator": "cedict_ts.u8:line:13955"
+  },
+  {
+    "numeric": "bie2",
+    "glyph": "蹩",
+    "sourceLocator": "cedict_ts.u8:line:105599"
+  },
+  {
+    "numeric": "pao2",
+    "glyph": "刨",
+    "sourceLocator": "cedict_ts.u8:line:14036"
+  },
+  {
+    "numeric": "gua1",
+    "glyph": "瓜",
+    "sourceLocator": "cedict_ts.u8:line:74085"
+  },
+  {
+    "numeric": "chuang1",
+    "glyph": "创",
+    "sourceLocator": "cedict_ts.u8:line:14838"
+  },
+  {
+    "numeric": "chuang4",
+    "glyph": "创",
+    "sourceLocator": "cedict_ts.u8:line:14839"
+  },
+  {
+    "numeric": "kui1",
+    "glyph": "刲",
+    "sourceLocator": "cedict_ts.u8:line:14215"
+  },
+  {
+    "numeric": "ku1",
+    "glyph": "刳",
+    "sourceLocator": "cedict_ts.u8:line:14216"
+  },
+  {
+    "numeric": "duo4",
+    "glyph": "剁",
+    "sourceLocator": "cedict_ts.u8:line:14355"
+  },
+  {
+    "numeric": "shua1",
+    "glyph": "刷",
+    "sourceLocator": "cedict_ts.u8:line:14245"
+  },
+  {
+    "numeric": "shua4",
+    "glyph": "刷",
+    "sourceLocator": "cedict_ts.u8:line:14246"
+  },
+  {
+    "numeric": "quan4",
+    "glyph": "券",
+    "sourceLocator": "cedict_ts.u8:line:14266"
+  },
+  {
+    "numeric": "ze2",
+    "glyph": "则",
+    "sourceLocator": "cedict_ts.u8:line:14373"
+  },
+  {
+    "numeric": "cuo4",
+    "glyph": "剒",
+    "sourceLocator": "cedict_ts.u8:line:14616"
+  },
+  {
+    "numeric": "xiao1",
+    "glyph": "削",
+    "sourceLocator": "cedict_ts.u8:line:14381"
+  },
+  {
+    "numeric": "xue1",
+    "glyph": "削",
+    "sourceLocator": "cedict_ts.u8:line:14382"
+  },
+  {
+    "numeric": "la2",
+    "glyph": "拉",
+    "sourceLocator": "cedict_ts.u8:line:46047"
+  },
+  {
+    "numeric": "sha1",
+    "glyph": "刹",
+    "sourceLocator": "cedict_ts.u8:line:14606"
+  },
+  {
+    "numeric": "ti1",
+    "glyph": "剔",
+    "sourceLocator": "cedict_ts.u8:line:14617"
+  },
+  {
+    "numeric": "pou1",
+    "glyph": "剖",
+    "sourceLocator": "cedict_ts.u8:line:14622"
+  },
+  {
+    "numeric": "zi4",
+    "glyph": "剚",
+    "sourceLocator": "cedict_ts.u8:line:14641"
+  },
+  {
+    "numeric": "wan1",
+    "glyph": "剜",
+    "sourceLocator": "cedict_ts.u8:line:14674"
+  },
+  {
+    "numeric": "bao1",
+    "glyph": "剥",
+    "sourceLocator": "cedict_ts.u8:line:14675"
+  },
+  {
+    "numeric": "bo1",
+    "glyph": "剥",
+    "sourceLocator": "cedict_ts.u8:line:14676"
+  },
+  {
+    "numeric": "shan4",
+    "glyph": "剡",
+    "sourceLocator": "cedict_ts.u8:line:14694"
+  },
+  {
+    "numeric": "gua3",
+    "glyph": "剐",
+    "sourceLocator": "cedict_ts.u8:line:14746"
+  },
+  {
+    "numeric": "da2",
+    "glyph": "答",
+    "sourceLocator": "cedict_ts.u8:line:83271"
+  },
+  {
+    "numeric": "zha2",
+    "glyph": "扎",
+    "sourceLocator": "cedict_ts.u8:line:44593"
+  },
+  {
+    "numeric": "tuan2",
+    "glyph": "团",
+    "sourceLocator": "cedict_ts.u8:line:24763"
+  },
+  {
+    "numeric": "li2",
+    "glyph": "剺",
+    "sourceLocator": "cedict_ts.u8:line:14908"
+  },
+  {
+    "numeric": "piao1",
+    "glyph": "剽",
+    "sourceLocator": "cedict_ts.u8:line:14909"
+  },
+  {
+    "numeric": "chao1",
+    "glyph": "剿",
+    "sourceLocator": "cedict_ts.u8:line:14912"
+  },
+  {
+    "numeric": "qiao1",
+    "glyph": "劁",
+    "sourceLocator": "cedict_ts.u8:line:14919"
+  },
+  {
+    "numeric": "hua4",
+    "glyph": "划",
+    "sourceLocator": "cedict_ts.u8:line:14922"
+  },
+  {
+    "numeric": "zha1",
+    "glyph": "劄",
+    "sourceLocator": "cedict_ts.u8:line:14948"
+  },
+  {
+    "numeric": "gui4",
+    "glyph": "刽",
+    "sourceLocator": "cedict_ts.u8:line:15038"
+  },
+  {
+    "numeric": "huo1",
+    "glyph": "攉",
+    "sourceLocator": "cedict_ts.u8:line:49922"
+  },
+  {
+    "numeric": "mo2",
+    "glyph": "劘",
+    "sourceLocator": "cedict_ts.u8:line:15084"
+  },
+  {
+    "numeric": "nu3",
+    "glyph": "努",
+    "sourceLocator": "cedict_ts.u8:line:15444"
+  },
+  {
+    "numeric": "shao4",
+    "glyph": "劭",
+    "sourceLocator": "cedict_ts.u8:line:15483"
+  },
+  {
+    "numeric": "kuang1",
+    "glyph": "劻",
+    "sourceLocator": "cedict_ts.u8:line:15488"
+  },
+  {
+    "numeric": "jin4",
+    "glyph": "进",
+    "sourceLocator": "cedict_ts.u8:line:108316"
+  },
+  {
+    "numeric": "meng3",
+    "glyph": "懵",
+    "sourceLocator": "cedict_ts.u8:line:43558"
+  },
+  {
+    "numeric": "lei1",
+    "glyph": "勒",
+    "sourceLocator": "cedict_ts.u8:line:15566"
+  },
+  {
+    "numeric": "xun1",
+    "glyph": "勋",
+    "sourceLocator": "cedict_ts.u8:line:15893"
+  },
+  {
+    "numeric": "lao2",
+    "glyph": "劳",
+    "sourceLocator": "cedict_ts.u8:line:15759"
+  },
+  {
+    "numeric": "qin2",
+    "glyph": "勤",
+    "sourceLocator": "cedict_ts.u8:line:15855"
+  },
+  {
+    "numeric": "rang2",
+    "glyph": "勷",
+    "sourceLocator": "cedict_ts.u8:line:15902"
+  },
+  {
+    "numeric": "cong1",
+    "glyph": "匆",
+    "sourceLocator": "cedict_ts.u8:line:16107"
+  },
+  {
+    "numeric": "hua1",
+    "glyph": "哗",
+    "sourceLocator": "cedict_ts.u8:line:23243"
+  },
+  {
+    "numeric": "bei3",
+    "glyph": "北",
+    "sourceLocator": "cedict_ts.u8:line:16222"
+  },
+  {
+    "numeric": "nao3",
+    "glyph": "垴",
+    "sourceLocator": "cedict_ts.u8:line:26077"
+  },
+  {
+    "numeric": "chi2",
+    "glyph": "匙",
+    "sourceLocator": "cedict_ts.u8:line:16423"
+  },
+  {
+    "numeric": "shi5",
+    "glyph": "匙",
+    "sourceLocator": "cedict_ts.u8:line:16424"
+  },
+  {
+    "numeric": "fang1",
+    "glyph": "方",
+    "sourceLocator": "cedict_ts.u8:line:52249"
+  },
+  {
+    "numeric": "za1",
+    "glyph": "匝",
+    "sourceLocator": "cedict_ts.u8:line:16427"
+  },
+  {
+    "numeric": "jiang4",
+    "glyph": "匠",
+    "sourceLocator": "cedict_ts.u8:line:16433"
+  },
+  {
+    "numeric": "fei3",
+    "glyph": "匪",
+    "sourceLocator": "cedict_ts.u8:line:16445"
+  },
+  {
+    "numeric": "hui4",
+    "glyph": "汇",
+    "sourceLocator": "cedict_ts.u8:line:16455"
+  },
+  {
+    "numeric": "kui4",
+    "glyph": "匮",
+    "sourceLocator": "cedict_ts.u8:line:16494"
+  },
+  {
+    "numeric": "suan3",
+    "glyph": "匴",
+    "sourceLocator": "cedict_ts.u8:line:16500"
+  },
+  {
+    "numeric": "bian3",
+    "glyph": "匾",
+    "sourceLocator": "cedict_ts.u8:line:16518"
+  },
+  {
+    "numeric": "ou1",
+    "glyph": "殴",
+    "sourceLocator": "cedict_ts.u8:line:61425"
+  },
+  {
+    "numeric": "nian4",
+    "glyph": "卄",
+    "sourceLocator": "cedict_ts.u8:line:16758"
+  },
+  {
+    "numeric": "sheng1",
+    "glyph": "生",
+    "sourceLocator": "cedict_ts.u8:line:74384"
+  },
+  {
+    "numeric": "wan4",
+    "glyph": "卍",
+    "sourceLocator": "cedict_ts.u8:line:16971"
+  },
+  {
+    "numeric": "na1",
+    "glyph": "南",
+    "sourceLocator": "cedict_ts.u8:line:17054"
+  },
+  {
+    "numeric": "lü4",
+    "glyph": "垏",
+    "sourceLocator": "cedict_ts.u8:line:25554"
+  },
+  {
+    "numeric": "shuai4",
+    "glyph": "帅",
+    "sourceLocator": "cedict_ts.u8:line:37391"
+  },
+  {
+    "numeric": "bu3",
+    "glyph": "卜",
+    "sourceLocator": "cedict_ts.u8:line:17395"
+  },
+  {
+    "numeric": "zhan1",
+    "glyph": "占",
+    "sourceLocator": "cedict_ts.u8:line:17416"
+  },
+  {
+    "numeric": "qia3",
+    "glyph": "卡",
+    "sourceLocator": "cedict_ts.u8:line:17437"
+  },
+  {
+    "numeric": "gua4",
+    "glyph": "挂",
+    "sourceLocator": "cedict_ts.u8:line:47735"
+  },
+  {
+    "numeric": "ang2",
+    "glyph": "昂",
+    "sourceLocator": "cedict_ts.u8:line:52908"
+  },
+  {
+    "numeric": "yin4",
+    "glyph": "印",
+    "sourceLocator": "cedict_ts.u8:line:17591"
+  },
+  {
+    "numeric": "luan3",
+    "glyph": "卵",
+    "sourceLocator": "cedict_ts.u8:line:17769"
+  },
+  {
+    "numeric": "juan3",
+    "glyph": "卷",
+    "sourceLocator": "cedict_ts.u8:line:17795"
+  },
+  {
+    "numeric": "e4",
+    "glyph": "厄",
+    "sourceLocator": "cedict_ts.u8:line:17852"
+  },
+  {
+    "numeric": "zhi3",
+    "glyph": "只",
+    "sourceLocator": "cedict_ts.u8:line:19078"
+  },
+  {
+    "numeric": "pang2",
+    "glyph": "旁",
+    "sourceLocator": "cedict_ts.u8:line:52404"
+  },
+  {
+    "numeric": "ti2",
+    "glyph": "厗",
+    "sourceLocator": "cedict_ts.u8:line:17871"
+  },
+  {
+    "numeric": "zui1",
+    "glyph": "厜",
+    "sourceLocator": "cedict_ts.u8:line:17908"
+  },
+  {
+    "numeric": "mou3",
+    "glyph": "某",
+    "sourceLocator": "cedict_ts.u8:line:57011"
+  },
+  {
+    "numeric": "hong2",
+    "glyph": "吰",
+    "sourceLocator": "cedict_ts.u8:line:20601"
+  },
+  {
+    "numeric": "rou2",
+    "glyph": "厹",
+    "sourceLocator": "cedict_ts.u8:line:18083"
+  },
+  {
+    "numeric": "du1",
+    "glyph": "厾",
+    "sourceLocator": "cedict_ts.u8:line:18137"
+  },
+  {
+    "numeric": "cen1",
+    "glyph": "参",
+    "sourceLocator": "cedict_ts.u8:line:18141"
+  },
+  {
+    "numeric": "cha1",
+    "glyph": "插",
+    "sourceLocator": "cedict_ts.u8:line:48365"
+  },
+  {
+    "numeric": "cha2",
+    "glyph": "茶",
+    "sourceLocator": "cedict_ts.u8:line:94049"
+  },
+  {
+    "numeric": "cha3",
+    "glyph": "叉",
+    "sourceLocator": "cedict_ts.u8:line:18226"
+  },
+  {
+    "numeric": "shuang1",
+    "glyph": "双",
+    "sourceLocator": "cedict_ts.u8:line:116179"
+  },
+  {
+    "numeric": "fan3",
+    "glyph": "反",
+    "sourceLocator": "cedict_ts.u8:line:18284"
+  },
+  {
+    "numeric": "shou1",
+    "glyph": "收",
+    "sourceLocator": "cedict_ts.u8:line:50138"
+  },
+  {
+    "numeric": "qu3",
+    "glyph": "取",
+    "sourceLocator": "cedict_ts.u8:line:18549"
+  },
+  {
+    "numeric": "shou4",
+    "glyph": "受",
+    "sourceLocator": "cedict_ts.u8:line:18603"
+  },
+  {
+    "numeric": "sou3",
+    "glyph": "叟",
+    "sourceLocator": "cedict_ts.u8:line:18737"
+  },
+  {
+    "numeric": "rui4",
+    "glyph": "枘",
+    "sourceLocator": "cedict_ts.u8:line:56818"
+  },
+  {
+    "numeric": "kou3",
+    "glyph": "口",
+    "sourceLocator": "cedict_ts.u8:line:18749"
+  },
+  {
+    "numeric": "gu3",
+    "glyph": "古",
+    "sourceLocator": "cedict_ts.u8:line:18875"
+  },
+  {
+    "numeric": "tao1",
+    "glyph": "叨",
+    "sourceLocator": "cedict_ts.u8:line:19061"
+  },
+  {
+    "numeric": "jiao4",
+    "glyph": "叫",
+    "sourceLocator": "cedict_ts.u8:line:19103"
+  },
+  {
+    "numeric": "ke3",
+    "glyph": "可",
+    "sourceLocator": "cedict_ts.u8:line:19161"
+  },
+  {
+    "numeric": "tai1",
+    "glyph": "台",
+    "sourceLocator": "cedict_ts.u8:line:19332"
+  },
+  {
+    "numeric": "po3",
+    "glyph": "叵",
+    "sourceLocator": "cedict_ts.u8:line:19479"
+  },
+  {
+    "numeric": "xu1",
+    "glyph": "吁",
+    "sourceLocator": "cedict_ts.u8:line:19539"
+  },
+  {
+    "numeric": "yu4",
+    "glyph": "语",
+    "sourceLocator": "cedict_ts.u8:line:101355"
+  },
+  {
+    "numeric": "chi1",
+    "glyph": "吃",
+    "sourceLocator": "cedict_ts.u8:line:19542"
+  },
+  {
+    "numeric": "cun4",
+    "glyph": "吋",
+    "sourceLocator": "cedict_ts.u8:line:20036"
+  },
+  {
+    "numeric": "tong4",
+    "glyph": "同",
+    "sourceLocator": "cedict_ts.u8:line:20038"
+  },
+  {
+    "numeric": "tu3",
+    "glyph": "吐",
+    "sourceLocator": "cedict_ts.u8:line:20367"
+  },
+  {
+    "numeric": "a1",
+    "glyph": "吖",
+    "sourceLocator": "cedict_ts.u8:line:20441"
+  },
+  {
+    "numeric": "jun1",
+    "glyph": "军",
+    "sourceLocator": "cedict_ts.u8:line:105992"
+  },
+  {
+    "numeric": "lin4",
+    "glyph": "吝",
+    "sourceLocator": "cedict_ts.u8:line:20473"
+  },
+  {
+    "numeric": "tun1",
+    "glyph": "吞",
+    "sourceLocator": "cedict_ts.u8:line:20477"
+  },
+  {
+    "numeric": "fou3",
+    "glyph": "否",
+    "sourceLocator": "cedict_ts.u8:line:20520"
+  },
+  {
+    "numeric": "ba5",
+    "glyph": "吧",
+    "sourceLocator": "cedict_ts.u8:line:20531"
+  },
+  {
+    "numeric": "hang2",
+    "glyph": "吭",
+    "sourceLocator": "cedict_ts.u8:line:20593"
+  },
+  {
+    "numeric": "keng1",
+    "glyph": "吭",
+    "sourceLocator": "cedict_ts.u8:line:20594"
+  },
+  {
+    "numeric": "shun3",
+    "glyph": "吮",
+    "sourceLocator": "cedict_ts.u8:line:20599"
+  },
+  {
+    "numeric": "chao3",
+    "glyph": "吵",
+    "sourceLocator": "cedict_ts.u8:line:20675"
+  },
+  {
+    "numeric": "na4",
+    "glyph": "呐",
+    "sourceLocator": "cedict_ts.u8:line:20685"
+  },
+  {
+    "numeric": "na5",
+    "glyph": "哪",
+    "sourceLocator": "cedict_ts.u8:line:21823"
+  },
+  {
+    "numeric": "chui1",
+    "glyph": "吹",
+    "sourceLocator": "cedict_ts.u8:line:20753"
+  },
+  {
+    "numeric": "hou3",
+    "glyph": "吼",
+    "sourceLocator": "cedict_ts.u8:line:20806"
+  },
+  {
+    "numeric": "hong1",
+    "glyph": "吽",
+    "sourceLocator": "cedict_ts.u8:line:20809"
+  },
+  {
+    "numeric": "ou2",
+    "glyph": "吽",
+    "sourceLocator": "cedict_ts.u8:line:20811"
+  },
+  {
+    "numeric": "gao4",
+    "glyph": "告",
+    "sourceLocator": "cedict_ts.u8:line:20878"
+  },
+  {
+    "numeric": "ya5",
+    "glyph": "呀",
+    "sourceLocator": "cedict_ts.u8:line:20823"
+  },
+  {
+    "numeric": "dai1",
+    "glyph": "呆",
+    "sourceLocator": "cedict_ts.u8:line:20846"
+  },
+  {
+    "numeric": "tai3",
+    "glyph": "呔",
+    "sourceLocator": "cedict_ts.u8:line:20922"
+  },
+  {
+    "numeric": "pen1",
+    "glyph": "呠",
+    "sourceLocator": "cedict_ts.u8:line:20924"
+  },
+  {
+    "numeric": "ne5",
+    "glyph": "呢",
+    "sourceLocator": "cedict_ts.u8:line:20926"
+  },
+  {
+    "numeric": "di3",
+    "glyph": "呧",
+    "sourceLocator": "cedict_ts.u8:line:20940"
+  },
+  {
+    "numeric": "che4",
+    "glyph": "呫",
+    "sourceLocator": "cedict_ts.u8:line:21037"
+  },
+  {
+    "numeric": "tie4",
+    "glyph": "呫",
+    "sourceLocator": "cedict_ts.u8:line:21038"
+  },
+  {
+    "numeric": "he1",
+    "glyph": "呵",
+    "sourceLocator": "cedict_ts.u8:line:21078"
+  },
+  {
+    "numeric": "nao2",
+    "glyph": "呶",
+    "sourceLocator": "cedict_ts.u8:line:21088"
+  },
+  {
+    "numeric": "xia1",
+    "glyph": "呷",
+    "sourceLocator": "cedict_ts.u8:line:21093"
+  },
+  {
+    "numeric": "pei1",
+    "glyph": "呸",
+    "sourceLocator": "cedict_ts.u8:line:21095"
+  },
+  {
+    "numeric": "ming4",
+    "glyph": "命",
+    "sourceLocator": "cedict_ts.u8:line:21164"
+  },
+  {
+    "numeric": "ju3",
+    "glyph": "咀",
+    "sourceLocator": "cedict_ts.u8:line:21202"
+  },
+  {
+    "numeric": "zui3",
+    "glyph": "嘴",
+    "sourceLocator": "cedict_ts.u8:line:23281"
+  },
+  {
+    "numeric": "za3",
+    "glyph": "咋",
+    "sourceLocator": "cedict_ts.u8:line:21223"
+  },
+  {
+    "numeric": "hai1",
+    "glyph": "咍",
+    "sourceLocator": "cedict_ts.u8:line:21330"
+  },
+  {
+    "numeric": "da1",
+    "glyph": "答",
+    "sourceLocator": "cedict_ts.u8:line:83270"
+  },
+  {
+    "numeric": "ka1",
+    "glyph": "咔",
+    "sourceLocator": "cedict_ts.u8:line:21341"
+  },
+  {
+    "numeric": "lie1",
+    "glyph": "咧",
+    "sourceLocator": "cedict_ts.u8:line:21391"
+  },
+  {
+    "numeric": "lie3",
+    "glyph": "咧",
+    "sourceLocator": "cedict_ts.u8:line:21392"
+  },
+  {
+    "numeric": "lie5",
+    "glyph": "咧",
+    "sourceLocator": "cedict_ts.u8:line:21393"
+  },
+  {
+    "numeric": "mi1",
+    "glyph": "咪",
+    "sourceLocator": "cedict_ts.u8:line:21403"
+  },
+  {
+    "numeric": "yao3",
+    "glyph": "咬",
+    "sourceLocator": "cedict_ts.u8:line:21410"
+  },
+  {
+    "numeric": "lo5",
+    "glyph": "咯",
+    "sourceLocator": "cedict_ts.u8:line:21438"
+  },
+  {
+    "numeric": "luo4",
+    "glyph": "咯",
+    "sourceLocator": "cedict_ts.u8:line:21439"
+  },
+  {
+    "numeric": "za2",
+    "glyph": "咱",
+    "sourceLocator": "cedict_ts.u8:line:21447"
+  },
+  {
+    "numeric": "ke2",
+    "glyph": "壳",
+    "sourceLocator": "cedict_ts.u8:line:61386"
+  },
+  {
+    "numeric": "hui1",
+    "glyph": "咴",
+    "sourceLocator": "cedict_ts.u8:line:21460"
+  },
+  {
+    "numeric": "xuan3",
+    "glyph": "咺",
+    "sourceLocator": "cedict_ts.u8:line:21482"
+  },
+  {
+    "numeric": "guo1",
+    "glyph": "啯",
+    "sourceLocator": "cedict_ts.u8:line:23203"
+  },
+  {
+    "numeric": "wai1",
+    "glyph": "呙",
+    "sourceLocator": "cedict_ts.u8:line:21485"
+  },
+  {
+    "numeric": "ai1",
+    "glyph": "哀",
+    "sourceLocator": "cedict_ts.u8:line:21498"
+  },
+  {
+    "numeric": "pin3",
+    "glyph": "品",
+    "sourceLocator": "cedict_ts.u8:line:21542"
+  },
+  {
+    "numeric": "shen3",
+    "glyph": "哂",
+    "sourceLocator": "cedict_ts.u8:line:21594"
+  },
+  {
+    "numeric": "hong3",
+    "glyph": "哄",
+    "sourceLocator": "cedict_ts.u8:line:21599"
+  },
+  {
+    "numeric": "wa5",
+    "glyph": "哇",
+    "sourceLocator": "cedict_ts.u8:line:21617"
+  },
+  {
+    "numeric": "ha1",
+    "glyph": "哈",
+    "sourceLocator": "cedict_ts.u8:line:21624"
+  },
+  {
+    "numeric": "ha3",
+    "glyph": "哈",
+    "sourceLocator": "cedict_ts.u8:line:21626"
+  },
+  {
+    "numeric": "zai1",
+    "glyph": "哉",
+    "sourceLocator": "cedict_ts.u8:line:21740"
+  },
+  {
+    "numeric": "pai4",
+    "glyph": "哌",
+    "sourceLocator": "cedict_ts.u8:line:21742"
+  },
+  {
+    "numeric": "gen2",
+    "glyph": "哏",
+    "sourceLocator": "cedict_ts.u8:line:21751"
+  },
+  {
+    "numeric": "duo3",
+    "glyph": "哚",
+    "sourceLocator": "cedict_ts.u8:line:21756"
+  },
+  {
+    "numeric": "mou1",
+    "glyph": "哞",
+    "sourceLocator": "cedict_ts.u8:line:21757"
+  },
+  {
+    "numeric": "long4",
+    "glyph": "哢",
+    "sourceLocator": "cedict_ts.u8:line:21763"
+  },
+  {
+    "numeric": "mang2",
+    "glyph": "哤",
+    "sourceLocator": "cedict_ts.u8:line:21764"
+  },
+  {
+    "numeric": "o2",
+    "glyph": "哦",
+    "sourceLocator": "cedict_ts.u8:line:21801"
+  },
+  {
+    "numeric": "o4",
+    "glyph": "哦",
+    "sourceLocator": "cedict_ts.u8:line:21802"
+  },
+  {
+    "numeric": "o5",
+    "glyph": "哦",
+    "sourceLocator": "cedict_ts.u8:line:21803"
+  },
+  {
+    "numeric": "li5",
+    "glyph": "哩",
+    "sourceLocator": "cedict_ts.u8:line:21817"
+  },
+  {
+    "numeric": "ne2",
+    "glyph": "哪",
+    "sourceLocator": "cedict_ts.u8:line:21824"
+  },
+  {
+    "numeric": "nei3",
+    "glyph": "哪",
+    "sourceLocator": "cedict_ts.u8:line:21825"
+  },
+  {
+    "numeric": "geng3",
+    "glyph": "哽",
+    "sourceLocator": "cedict_ts.u8:line:21900"
+  },
+  {
+    "numeric": "bai4",
+    "glyph": "呗",
+    "sourceLocator": "cedict_ts.u8:line:21913"
+  },
+  {
+    "numeric": "bei5",
+    "glyph": "呗",
+    "sourceLocator": "cedict_ts.u8:line:21914"
+  },
+  {
+    "numeric": "tang2",
+    "glyph": "堂",
+    "sourceLocator": "cedict_ts.u8:line:25971"
+  },
+  {
+    "numeric": "zao4",
+    "glyph": "唣",
+    "sourceLocator": "cedict_ts.u8:line:22031"
+  },
+  {
+    "numeric": "qin4",
+    "glyph": "吣",
+    "sourceLocator": "cedict_ts.u8:line:22029"
+  },
+  {
+    "numeric": "dou3",
+    "glyph": "唞",
+    "sourceLocator": "cedict_ts.u8:line:22030"
+  },
+  {
+    "numeric": "feng3",
+    "glyph": "唪",
+    "sourceLocator": "cedict_ts.u8:line:22041"
+  },
+  {
+    "numeric": "wei2",
+    "glyph": "唯",
+    "sourceLocator": "cedict_ts.u8:line:22064"
+  },
+  {
+    "numeric": "yo1",
+    "glyph": "唷",
+    "sourceLocator": "cedict_ts.u8:line:22132"
+  },
+  {
+    "numeric": "yo5",
+    "glyph": "唷",
+    "sourceLocator": "cedict_ts.u8:line:22133"
+  },
+  {
+    "numeric": "lai5",
+    "glyph": "𫪁",
+    "sourceLocator": "cedict_ts.u8:line:22137"
+  },
+  {
+    "numeric": "tuo4",
+    "glyph": "唾",
+    "sourceLocator": "cedict_ts.u8:line:22139"
+  },
+  {
+    "numeric": "zhao1",
+    "glyph": "招",
+    "sourceLocator": "cedict_ts.u8:line:46526"
+  },
+  {
+    "numeric": "ken3",
+    "glyph": "啃",
+    "sourceLocator": "cedict_ts.u8:line:22158"
+  },
+  {
+    "numeric": "a2",
+    "glyph": "啊",
+    "sourceLocator": "cedict_ts.u8:line:22279"
+  },
+  {
+    "numeric": "a3",
+    "glyph": "啊",
+    "sourceLocator": "cedict_ts.u8:line:22280"
+  },
+  {
+    "numeric": "a4",
+    "glyph": "啊",
+    "sourceLocator": "cedict_ts.u8:line:22281"
+  },
+  {
+    "numeric": "a5",
+    "glyph": "啊",
+    "sourceLocator": "cedict_ts.u8:line:22282"
+  },
+  {
+    "numeric": "ya3",
+    "glyph": "哑",
+    "sourceLocator": "cedict_ts.u8:line:22331"
+  },
+  {
+    "numeric": "pi2",
+    "glyph": "啤",
+    "sourceLocator": "cedict_ts.u8:line:22385"
+  },
+  {
+    "numeric": "la1",
+    "glyph": "喇",
+    "sourceLocator": "cedict_ts.u8:line:22508"
+  },
+  {
+    "numeric": "la5",
+    "glyph": "啦",
+    "sourceLocator": "cedict_ts.u8:line:22394"
+  },
+  {
+    "numeric": "pa1",
+    "glyph": "啪",
+    "sourceLocator": "cedict_ts.u8:line:22398"
+  },
+  {
+    "numeric": "zhe3",
+    "glyph": "啫",
+    "sourceLocator": "cedict_ts.u8:line:22402"
+  },
+  {
+    "numeric": "bo5",
+    "glyph": "啵",
+    "sourceLocator": "cedict_ts.u8:line:22408"
+  },
+  {
+    "numeric": "ding4",
+    "glyph": "啶",
+    "sourceLocator": "cedict_ts.u8:line:22410"
+  },
+  {
+    "numeric": "lang1",
+    "glyph": "啷",
+    "sourceLocator": "cedict_ts.u8:line:22411"
+  },
+  {
+    "numeric": "an2",
+    "glyph": "啽",
+    "sourceLocator": "cedict_ts.u8:line:22421"
+  },
+  {
+    "numeric": "yong2",
+    "glyph": "喁",
+    "sourceLocator": "cedict_ts.u8:line:22453"
+  },
+  {
+    "numeric": "la3",
+    "glyph": "喇",
+    "sourceLocator": "cedict_ts.u8:line:22509"
+  },
+  {
+    "numeric": "jie1",
+    "glyph": "喈",
+    "sourceLocator": "cedict_ts.u8:line:22524"
+  },
+  {
+    "numeric": "re3",
+    "glyph": "喏",
+    "sourceLocator": "cedict_ts.u8:line:22559"
+  },
+  {
+    "numeric": "o1",
+    "glyph": "喔",
+    "sourceLocator": "cedict_ts.u8:line:22564"
+  },
+  {
+    "numeric": "chuan3",
+    "glyph": "喘",
+    "sourceLocator": "cedict_ts.u8:line:22567"
+  },
+  {
+    "numeric": "huan4",
+    "glyph": "唤",
+    "sourceLocator": "cedict_ts.u8:line:22577"
+  },
+  {
+    "numeric": "xi3",
+    "glyph": "喜",
+    "sourceLocator": "cedict_ts.u8:line:22583"
+  },
+  {
+    "numeric": "du4",
+    "glyph": "肚",
+    "sourceLocator": "cedict_ts.u8:line:90037"
+  },
+  {
+    "numeric": "sang1",
+    "glyph": "丧",
+    "sourceLocator": "cedict_ts.u8:line:22698"
+  },
+  {
+    "numeric": "sang4",
+    "glyph": "丧",
+    "sourceLocator": "cedict_ts.u8:line:22699"
+  },
+  {
+    "numeric": "miao1",
+    "glyph": "喵",
+    "sourceLocator": "cedict_ts.u8:line:22962"
+  },
+  {
+    "numeric": "kui2",
+    "glyph": "喹",
+    "sourceLocator": "cedict_ts.u8:line:22965"
+  },
+  {
+    "numeric": "sao4",
+    "glyph": "喿",
+    "sourceLocator": "cedict_ts.u8:line:22974"
+  },
+  {
+    "numeric": "sha4",
+    "glyph": "嗄",
+    "sourceLocator": "cedict_ts.u8:line:22979"
+  },
+  {
+    "numeric": "xiu4",
+    "glyph": "嗅",
+    "sourceLocator": "cedict_ts.u8:line:22980"
+  },
+  {
+    "numeric": "qiang1",
+    "glyph": "呛",
+    "sourceLocator": "cedict_ts.u8:line:22986"
+  },
+  {
+    "numeric": "qiang4",
+    "glyph": "呛",
+    "sourceLocator": "cedict_ts.u8:line:22987"
+  },
+  {
+    "numeric": "se4",
+    "glyph": "啬",
+    "sourceLocator": "cedict_ts.u8:line:22990"
+  },
+  {
+    "numeric": "ma2",
+    "glyph": "吗",
+    "sourceLocator": "cedict_ts.u8:line:23001"
+  },
+  {
+    "numeric": "ma5",
+    "glyph": "吗",
+    "sourceLocator": "cedict_ts.u8:line:23003"
+  },
+  {
+    "numeric": "ta4",
+    "glyph": "嗒",
+    "sourceLocator": "cedict_ts.u8:line:23013"
+  },
+  {
+    "numeric": "sang3",
+    "glyph": "嗓",
+    "sourceLocator": "cedict_ts.u8:line:23016"
+  },
+  {
+    "numeric": "chen1",
+    "glyph": "嗔",
+    "sourceLocator": "cedict_ts.u8:line:23024"
+  },
+  {
+    "numeric": "sou1",
+    "glyph": "嗖",
+    "sourceLocator": "cedict_ts.u8:line:23038"
+  },
+  {
+    "numeric": "pang3",
+    "glyph": "耪",
+    "sourceLocator": "cedict_ts.u8:line:89117"
+  },
+  {
+    "numeric": "wu1",
+    "glyph": "呜",
+    "sourceLocator": "cedict_ts.u8:line:23041"
+  },
+  {
+    "numeric": "ge2",
+    "glyph": "嗝",
+    "sourceLocator": "cedict_ts.u8:line:23062"
+  },
+  {
+    "numeric": "weng1",
+    "glyph": "嗡",
+    "sourceLocator": "cedict_ts.u8:line:23068"
+  },
+  {
+    "numeric": "hao2",
+    "glyph": "嗥",
+    "sourceLocator": "cedict_ts.u8:line:23086"
+  },
+  {
+    "numeric": "suo3",
+    "glyph": "所",
+    "sourceLocator": "cedict_ts.u8:line:44290"
+  },
+  {
+    "numeric": "en4",
+    "glyph": "嗯",
+    "sourceLocator": "cedict_ts.u8:line:23098"
+  },
+  {
+    "numeric": "en5",
+    "glyph": "嗯",
+    "sourceLocator": "cedict_ts.u8:line:23099"
+  },
+  {
+    "numeric": "dia3",
+    "glyph": "嗲",
+    "sourceLocator": "cedict_ts.u8:line:23102"
+  },
+  {
+    "numeric": "tong1",
+    "glyph": "嗵",
+    "sourceLocator": "cedict_ts.u8:line:23103"
+  },
+  {
+    "numeric": "ao2",
+    "glyph": "嗷",
+    "sourceLocator": "cedict_ts.u8:line:23109"
+  },
+  {
+    "numeric": "sou4",
+    "glyph": "嗽",
+    "sourceLocator": "cedict_ts.u8:line:23113"
+  },
+  {
+    "numeric": "tan3",
+    "glyph": "嗿",
+    "sourceLocator": "cedict_ts.u8:line:23115"
+  },
+  {
+    "numeric": "di2",
+    "glyph": "嘀",
+    "sourceLocator": "cedict_ts.u8:line:23117"
+  },
+  {
+    "numeric": "tan4",
+    "glyph": "叹",
+    "sourceLocator": "cedict_ts.u8:line:23125"
+  },
+  {
+    "numeric": "cao2",
+    "glyph": "嘈",
+    "sourceLocator": "cedict_ts.u8:line:23135"
+  },
+  {
+    "numeric": "ai2",
+    "glyph": "啀",
+    "sourceLocator": "cedict_ts.u8:line:23178"
+  },
+  {
+    "numeric": "lou5",
+    "glyph": "喽",
+    "sourceLocator": "cedict_ts.u8:line:23182"
+  },
+  {
+    "numeric": "ga2",
+    "glyph": "嘎",
+    "sourceLocator": "cedict_ts.u8:line:23188"
+  },
+  {
+    "numeric": "ga3",
+    "glyph": "嘎",
+    "sourceLocator": "cedict_ts.u8:line:23189"
+  },
+  {
+    "numeric": "de1",
+    "glyph": "嘚",
+    "sourceLocator": "cedict_ts.u8:line:23219"
+  },
+  {
+    "numeric": "de4",
+    "glyph": "嘚",
+    "sourceLocator": "cedict_ts.u8:line:23220"
+  },
+  {
+    "numeric": "lei5",
+    "glyph": "嘞",
+    "sourceLocator": "cedict_ts.u8:line:23227"
+  },
+  {
+    "numeric": "sai1",
+    "glyph": "嘥",
+    "sourceLocator": "cedict_ts.u8:line:23239"
+  },
+  {
+    "numeric": "ran2",
+    "glyph": "然",
+    "sourceLocator": "cedict_ts.u8:line:70303"
+  },
+  {
+    "numeric": "chuai4",
+    "glyph": "嘬",
+    "sourceLocator": "cedict_ts.u8:line:23256"
+  },
+  {
+    "numeric": "lao4",
+    "glyph": "嫪",
+    "sourceLocator": "cedict_ts.u8:line:31134"
+  },
+  {
+    "numeric": "chao2",
+    "glyph": "嘲",
+    "sourceLocator": "cedict_ts.u8:line:23274"
+  },
+  {
+    "numeric": "tan1",
+    "glyph": "啴",
+    "sourceLocator": "cedict_ts.u8:line:23346"
+  },
+  {
+    "numeric": "hei1",
+    "glyph": "黑",
+    "sourceLocator": "cedict_ts.u8:line:124230"
+  },
+  {
+    "numeric": "chuang2",
+    "glyph": "幢",
+    "sourceLocator": "cedict_ts.u8:line:37647"
+  },
+  {
+    "numeric": "ceng1",
+    "glyph": "噌",
+    "sourceLocator": "cedict_ts.u8:line:23361"
+  },
+  {
+    "numeric": "deng1",
+    "glyph": "噔",
+    "sourceLocator": "cedict_ts.u8:line:23374"
+  },
+  {
+    "numeric": "jue1",
+    "glyph": "屩",
+    "sourceLocator": "cedict_ts.u8:line:35600"
+  },
+  {
+    "numeric": "yue3",
+    "glyph": "哕",
+    "sourceLocator": "cedict_ts.u8:line:23396"
+  },
+  {
+    "numeric": "ai3",
+    "glyph": "嗳",
+    "sourceLocator": "cedict_ts.u8:line:23433"
+  },
+  {
+    "numeric": "pen4",
+    "glyph": "喷",
+    "sourceLocator": "cedict_ts.u8:line:23450"
+  },
+  {
+    "numeric": "o3",
+    "glyph": "嚄",
+    "sourceLocator": "cedict_ts.u8:line:23538"
+  },
+  {
+    "numeric": "hao1",
+    "glyph": "嚆",
+    "sourceLocator": "cedict_ts.u8:line:23540"
+  },
+  {
+    "numeric": "ca1",
+    "glyph": "嚓",
+    "sourceLocator": "cedict_ts.u8:line:23565"
+  },
+  {
+    "numeric": "lu1",
+    "glyph": "噜",
+    "sourceLocator": "cedict_ts.u8:line:23569"
+  },
+  {
+    "numeric": "me5",
+    "glyph": "嚜",
+    "sourceLocator": "cedict_ts.u8:line:23577"
+  },
+  {
+    "numeric": "long2",
+    "glyph": "咙",
+    "sourceLocator": "cedict_ts.u8:line:23587"
+  },
+  {
+    "numeric": "pin2",
+    "glyph": "嫔",
+    "sourceLocator": "cedict_ts.u8:line:31208"
+  },
+  {
+    "numeric": "ku4",
+    "glyph": "喾",
+    "sourceLocator": "cedict_ts.u8:line:23596"
+  },
+  {
+    "numeric": "ying1",
+    "glyph": "嘤",
+    "sourceLocator": "cedict_ts.u8:line:23652"
+  },
+  {
+    "numeric": "rang3",
+    "glyph": "嚷",
+    "sourceLocator": "cedict_ts.u8:line:23653"
+  },
+  {
+    "numeric": "jiao2",
+    "glyph": "嚼",
+    "sourceLocator": "cedict_ts.u8:line:23656"
+  },
+  {
+    "numeric": "chai4",
+    "glyph": "囆",
+    "sourceLocator": "cedict_ts.u8:line:23677"
+  },
+  {
+    "numeric": "luo1",
+    "glyph": "啰",
+    "sourceLocator": "cedict_ts.u8:line:23680"
+  },
+  {
+    "numeric": "luo5",
+    "glyph": "啰",
+    "sourceLocator": "cedict_ts.u8:line:23682"
+  },
+  {
+    "numeric": "nang2",
+    "glyph": "囊",
+    "sourceLocator": "cedict_ts.u8:line:23689"
+  },
+  {
+    "numeric": "su1",
+    "glyph": "苏",
+    "sourceLocator": "cedict_ts.u8:line:23702"
+  },
+  {
+    "numeric": "hui2",
+    "glyph": "回",
+    "sourceLocator": "cedict_ts.u8:line:23898"
+  },
+  {
+    "numeric": "nan1",
+    "glyph": "囡",
+    "sourceLocator": "cedict_ts.u8:line:24113"
+  },
+  {
+    "numeric": "dun4",
+    "glyph": "囤",
+    "sourceLocator": "cedict_ts.u8:line:24115"
+  },
+  {
+    "numeric": "guo2",
+    "glyph": "国",
+    "sourceLocator": "cedict_ts.u8:line:24232"
+  },
+  {
+    "numeric": "kun4",
+    "glyph": "困",
+    "sourceLocator": "cedict_ts.u8:line:24133"
+  },
+  {
+    "numeric": "qun1",
+    "glyph": "囷",
+    "sourceLocator": "cedict_ts.u8:line:24149"
+  },
+  {
+    "numeric": "ri4",
+    "glyph": "日",
+    "sourceLocator": "cedict_ts.u8:line:52598"
+  },
+  {
+    "numeric": "hun4",
+    "glyph": "圂",
+    "sourceLocator": "cedict_ts.u8:line:24200"
+  },
+  {
+    "numeric": "pu3",
+    "glyph": "圃",
+    "sourceLocator": "cedict_ts.u8:line:24201"
+  },
+  {
+    "numeric": "juan1",
+    "glyph": "圈",
+    "sourceLocator": "cedict_ts.u8:line:24206"
+  },
+  {
+    "numeric": "quan1",
+    "glyph": "圈",
+    "sourceLocator": "cedict_ts.u8:line:24208"
+  },
+  {
+    "numeric": "chui2",
+    "glyph": "圌",
+    "sourceLocator": "cedict_ts.u8:line:24564"
+  },
+  {
+    "numeric": "tuan1",
+    "glyph": "圕",
+    "sourceLocator": "cedict_ts.u8:line:24688"
+  },
+  {
+    "numeric": "lüe4",
+    "glyph": "圙",
+    "sourceLocator": "cedict_ts.u8:line:24795"
+  },
+  {
+    "numeric": "luan2",
+    "glyph": "娈",
+    "sourceLocator": "cedict_ts.u8:line:31244"
+  },
+  {
+    "numeric": "de5",
+    "glyph": "地",
+    "sourceLocator": "cedict_ts.u8:line:25009"
+  },
+  {
+    "numeric": "zhen4",
+    "glyph": "振",
+    "sourceLocator": "cedict_ts.u8:line:47167"
+  },
+  {
+    "numeric": "ban3",
+    "glyph": "昄",
+    "sourceLocator": "cedict_ts.u8:line:52931"
+  },
+  {
+    "numeric": "fen2",
+    "glyph": "坟",
+    "sourceLocator": "cedict_ts.u8:line:26730"
+  },
+  {
+    "numeric": "mei2",
+    "glyph": "没",
+    "sourceLocator": "cedict_ts.u8:line:63253"
+  },
+  {
+    "numeric": "fang2",
+    "glyph": "坊",
+    "sourceLocator": "cedict_ts.u8:line:25298"
+  },
+  {
+    "numeric": "ben4",
+    "glyph": "坋",
+    "sourceLocator": "cedict_ts.u8:line:25303"
+  },
+  {
+    "numeric": "po1",
+    "glyph": "坡",
+    "sourceLocator": "cedict_ts.u8:line:25427"
+  },
+  {
+    "numeric": "kun1",
+    "glyph": "坤",
+    "sourceLocator": "cedict_ts.u8:line:25437"
+  },
+  {
+    "numeric": "ke1",
+    "glyph": "坷",
+    "sourceLocator": "cedict_ts.u8:line:25484"
+  },
+  {
+    "numeric": "dui1",
+    "glyph": "堆",
+    "sourceLocator": "cedict_ts.u8:line:26046"
+  },
+  {
+    "numeric": "pou2",
+    "glyph": "垺",
+    "sourceLocator": "cedict_ts.u8:line:25585"
+  },
+  {
+    "numeric": "beng3",
+    "glyph": "埲",
+    "sourceLocator": "cedict_ts.u8:line:25776"
+  },
+  {
+    "numeric": "mai2",
+    "glyph": "埋",
+    "sourceLocator": "cedict_ts.u8:line:25666"
+  },
+  {
+    "numeric": "man2",
+    "glyph": "埋",
+    "sourceLocator": "cedict_ts.u8:line:25667"
+  },
+  {
+    "numeric": "cai4",
+    "glyph": "寀",
+    "sourceLocator": "cedict_ts.u8:line:33060"
+  },
+  {
+    "numeric": "pei2",
+    "glyph": "培",
+    "sourceLocator": "cedict_ts.u8:line:25818"
+  },
+  {
+    "numeric": "peng2",
+    "glyph": "堋",
+    "sourceLocator": "cedict_ts.u8:line:26072"
+  },
+  {
+    "numeric": "pu4",
+    "glyph": "曝",
+    "sourceLocator": "cedict_ts.u8:line:54331"
+  },
+  {
+    "numeric": "ruan2",
+    "glyph": "堧",
+    "sourceLocator": "cedict_ts.u8:line:26096"
+  },
+  {
+    "numeric": "du3",
+    "glyph": "肚",
+    "sourceLocator": "cedict_ts.u8:line:90036"
+  },
+  {
+    "numeric": "heng4",
+    "glyph": "堼",
+    "sourceLocator": "cedict_ts.u8:line:26253"
+  },
+  {
+    "numeric": "jiang3",
+    "glyph": "桨",
+    "sourceLocator": "cedict_ts.u8:line:59006"
+  },
+  {
+    "numeric": "huang1",
+    "glyph": "巟",
+    "sourceLocator": "cedict_ts.u8:line:36365"
+  },
+  {
+    "numeric": "leng2",
+    "glyph": "塄",
+    "sourceLocator": "cedict_ts.u8:line:26258"
+  },
+  {
+    "numeric": "duan4",
+    "glyph": "塅",
+    "sourceLocator": "cedict_ts.u8:line:26259"
+  },
+  {
+    "numeric": "ying2",
+    "glyph": "茔",
+    "sourceLocator": "cedict_ts.u8:line:26272"
+  },
+  {
+    "numeric": "ta3",
+    "glyph": "塔",
+    "sourceLocator": "cedict_ts.u8:line:26307"
+  },
+  {
+    "numeric": "weng3",
+    "glyph": "奣",
+    "sourceLocator": "cedict_ts.u8:line:29735"
+  },
+  {
+    "numeric": "zang4",
+    "glyph": "奘",
+    "sourceLocator": "cedict_ts.u8:line:29704"
+  },
+  {
+    "numeric": "wen1",
+    "glyph": "塭",
+    "sourceLocator": "cedict_ts.u8:line:26495"
+  },
+  {
+    "numeric": "lang3",
+    "glyph": "朗",
+    "sourceLocator": "cedict_ts.u8:line:55356"
+  },
+  {
+    "numeric": "chen2",
+    "glyph": "尘",
+    "sourceLocator": "cedict_ts.u8:line:26499"
+  },
+  {
+    "numeric": "zhuan1",
+    "glyph": "专",
+    "sourceLocator": "cedict_ts.u8:line:33996"
+  },
+  {
+    "numeric": "shuang3",
+    "glyph": "塽",
+    "sourceLocator": "cedict_ts.u8:line:26517"
+  },
+  {
+    "numeric": "shu2",
+    "glyph": "塾",
+    "sourceLocator": "cedict_ts.u8:line:26518"
+  },
+  {
+    "numeric": "lou3",
+    "glyph": "𪣻",
+    "sourceLocator": "cedict_ts.u8:line:26519"
+  },
+  {
+    "numeric": "man4",
+    "glyph": "墁",
+    "sourceLocator": "cedict_ts.u8:line:26521"
+  },
+  {
+    "numeric": "kan4",
+    "glyph": "墈",
+    "sourceLocator": "cedict_ts.u8:line:26533"
+  },
+  {
+    "numeric": "zhui4",
+    "glyph": "坠",
+    "sourceLocator": "cedict_ts.u8:line:26584"
+  },
+  {
+    "numeric": "zeng1",
+    "glyph": "增",
+    "sourceLocator": "cedict_ts.u8:line:26602"
+  },
+  {
+    "numeric": "zun1",
+    "glyph": "尊",
+    "sourceLocator": "cedict_ts.u8:line:34098"
+  },
+  {
+    "numeric": "da5",
+    "glyph": "垯",
+    "sourceLocator": "cedict_ts.u8:line:26741"
+  },
+  {
+    "numeric": "qiang2",
+    "glyph": "嫱",
+    "sourceLocator": "cedict_ts.u8:line:31199"
+  },
+  {
+    "numeric": "lu2",
+    "glyph": "垆",
+    "sourceLocator": "cedict_ts.u8:line:26863"
+  },
+  {
+    "numeric": "huai4",
+    "glyph": "坏",
+    "sourceLocator": "cedict_ts.u8:line:26866"
+  },
+  {
+    "numeric": "kun3",
+    "glyph": "壸",
+    "sourceLocator": "cedict_ts.u8:line:26960"
+  },
+  {
+    "numeric": "cun2",
+    "glyph": "存",
+    "sourceLocator": "cedict_ts.u8:line:31457"
+  },
+  {
+    "numeric": "xiang2",
+    "glyph": "祥",
+    "sourceLocator": "cedict_ts.u8:line:80788"
+  },
+  {
+    "numeric": "feng2",
+    "glyph": "夆",
+    "sourceLocator": "cedict_ts.u8:line:27004"
+  },
+  {
+    "numeric": "sui1",
+    "glyph": "夊",
+    "sourceLocator": "cedict_ts.u8:line:27005"
+  },
+  {
+    "numeric": "wai4",
+    "glyph": "外",
+    "sourceLocator": "cedict_ts.u8:line:27069"
+  },
+  {
+    "numeric": "yuan4",
+    "glyph": "夗",
+    "sourceLocator": "cedict_ts.u8:line:27309"
+  },
+  {
+    "numeric": "meng4",
+    "glyph": "梦",
+    "sourceLocator": "cedict_ts.u8:line:27649"
+  },
+  {
+    "numeric": "da4",
+    "glyph": "大",
+    "sourceLocator": "cedict_ts.u8:line:27684"
+  },
+  {
+    "numeric": "tai4",
+    "glyph": "太",
+    "sourceLocator": "cedict_ts.u8:line:29048"
+  },
+  {
+    "numeric": "guai4",
+    "glyph": "夬",
+    "sourceLocator": "cedict_ts.u8:line:29223"
+  },
+  {
+    "numeric": "yang1",
+    "glyph": "央",
+    "sourceLocator": "cedict_ts.u8:line:29229"
+  },
+  {
+    "numeric": "hang1",
+    "glyph": "夯",
+    "sourceLocator": "cedict_ts.u8:line:29241"
+  },
+  {
+    "numeric": "shi1",
+    "glyph": "失",
+    "sourceLocator": "cedict_ts.u8:line:29249"
+  },
+  {
+    "numeric": "kua1",
+    "glyph": "夸",
+    "sourceLocator": "cedict_ts.u8:line:29393"
+  },
+  {
+    "numeric": "kuang3",
+    "glyph": "夼",
+    "sourceLocator": "cedict_ts.u8:line:29396"
+  },
+  {
+    "numeric": "nai4",
+    "glyph": "奈",
+    "sourceLocator": "cedict_ts.u8:line:29525"
+  },
+  {
+    "numeric": "zou4",
+    "glyph": "奏",
+    "sourceLocator": "cedict_ts.u8:line:29587"
+  },
+  {
+    "numeric": "she1",
+    "glyph": "奢",
+    "sourceLocator": "cedict_ts.u8:line:29723"
+  },
+  {
+    "numeric": "ben1",
+    "glyph": "奔",
+    "sourceLocator": "cedict_ts.u8:line:29614"
+  },
+  {
+    "numeric": "tao4",
+    "glyph": "套",
+    "sourceLocator": "cedict_ts.u8:line:29645"
+  },
+  {
+    "numeric": "zhuang3",
+    "glyph": "奘",
+    "sourceLocator": "cedict_ts.u8:line:29705"
+  },
+  {
+    "numeric": "duo2",
+    "glyph": "夺",
+    "sourceLocator": "cedict_ts.u8:line:29838"
+  },
+  {
+    "numeric": "yun1",
+    "glyph": "奫",
+    "sourceLocator": "cedict_ts.u8:line:29852"
+  },
+  {
+    "numeric": "nü3",
+    "glyph": "女",
+    "sourceLocator": "cedict_ts.u8:line:29873"
+  },
+  {
+    "numeric": "nu2",
+    "glyph": "奴",
+    "sourceLocator": "cedict_ts.u8:line:29983"
+  },
+  {
+    "numeric": "hao3",
+    "glyph": "好",
+    "sourceLocator": "cedict_ts.u8:line:30081"
+  },
+  {
+    "numeric": "hao4",
+    "glyph": "好",
+    "sourceLocator": "cedict_ts.u8:line:30082"
+  },
+  {
+    "numeric": "shuo4",
+    "glyph": "妁",
+    "sourceLocator": "cedict_ts.u8:line:30224"
+  },
+  {
+    "numeric": "wang4",
+    "glyph": "妄",
+    "sourceLocator": "cedict_ts.u8:line:30314"
+  },
+  {
+    "numeric": "miao4",
+    "glyph": "妙",
+    "sourceLocator": "cedict_ts.u8:line:30382"
+  },
+  {
+    "numeric": "zhuang1",
+    "glyph": "妆",
+    "sourceLocator": "cedict_ts.u8:line:30408"
+  },
+  {
+    "numeric": "niu1",
+    "glyph": "妞",
+    "sourceLocator": "cedict_ts.u8:line:30415"
+  },
+  {
+    "numeric": "tuo3",
+    "glyph": "妥",
+    "sourceLocator": "cedict_ts.u8:line:30419"
+  },
+  {
+    "numeric": "ba2",
+    "glyph": "拔",
+    "sourceLocator": "cedict_ts.u8:line:46365"
+  },
+  {
+    "numeric": "ni1",
+    "glyph": "妮",
+    "sourceLocator": "cedict_ts.u8:line:30437"
+  },
+  {
+    "numeric": "zhou2",
+    "glyph": "妯",
+    "sourceLocator": "cedict_ts.u8:line:30442"
+  },
+  {
+    "numeric": "tou3",
+    "glyph": "妵",
+    "sourceLocator": "cedict_ts.u8:line:30448"
+  },
+  {
+    "numeric": "e1",
+    "glyph": "婀",
+    "sourceLocator": "cedict_ts.u8:line:30847"
+  },
+  {
+    "numeric": "mei4",
+    "glyph": "妹",
+    "sourceLocator": "cedict_ts.u8:line:30451"
+  },
+  {
+    "numeric": "mu3",
+    "glyph": "姆",
+    "sourceLocator": "cedict_ts.u8:line:30478"
+  },
+  {
+    "numeric": "jie3",
+    "glyph": "姐",
+    "sourceLocator": "cedict_ts.u8:line:30513"
+  },
+  {
+    "numeric": "pin1",
+    "glyph": "姘",
+    "sourceLocator": "cedict_ts.u8:line:30586"
+  },
+  {
+    "numeric": "heng2",
+    "glyph": "姮",
+    "sourceLocator": "cedict_ts.u8:line:30666"
+  },
+  {
+    "numeric": "wa2",
+    "glyph": "娃",
+    "sourceLocator": "cedict_ts.u8:line:30769"
+  },
+  {
+    "numeric": "niang2",
+    "glyph": "娘",
+    "sourceLocator": "cedict_ts.u8:line:30794"
+  },
+  {
+    "numeric": "po2",
+    "glyph": "婆",
+    "sourceLocator": "cedict_ts.u8:line:30858"
+  },
+  {
+    "numeric": "biao3",
+    "glyph": "婊",
+    "sourceLocator": "cedict_ts.u8:line:30882"
+  },
+  {
+    "numeric": "wo3",
+    "glyph": "我",
+    "sourceLocator": "cedict_ts.u8:line:43924"
+  },
+  {
+    "numeric": "hun1",
+    "glyph": "婚",
+    "sourceLocator": "cedict_ts.u8:line:30888"
+  },
+  {
+    "numeric": "mei3",
+    "glyph": "媄",
+    "sourceLocator": "cedict_ts.u8:line:30974"
+  },
+  {
+    "numeric": "duan1",
+    "glyph": "媏",
+    "sourceLocator": "cedict_ts.u8:line:30978"
+  },
+  {
+    "numeric": "an1",
+    "glyph": "安",
+    "sourceLocator": "cedict_ts.u8:line:31945"
+  },
+  {
+    "numeric": "xi2",
+    "glyph": "媳",
+    "sourceLocator": "cedict_ts.u8:line:31022"
+  },
+  {
+    "numeric": "ying4",
+    "glyph": "媵",
+    "sourceLocator": "cedict_ts.u8:line:31028"
+  },
+  {
+    "numeric": "pan2",
+    "glyph": "媻",
+    "sourceLocator": "cedict_ts.u8:line:31032"
+  },
+  {
+    "numeric": "ma1",
+    "glyph": "妈",
+    "sourceLocator": "cedict_ts.u8:line:31035"
+  },
+  {
+    "numeric": "sao3",
+    "glyph": "嫂",
+    "sourceLocator": "cedict_ts.u8:line:31063"
+  },
+  {
+    "numeric": "niao3",
+    "glyph": "袅",
+    "sourceLocator": "cedict_ts.u8:line:31073"
+  },
+  {
+    "numeric": "lang2",
+    "glyph": "嫏",
+    "sourceLocator": "cedict_ts.u8:line:31088"
+  },
+  {
+    "numeric": "biao2",
+    "glyph": "嫑",
+    "sourceLocator": "cedict_ts.u8:line:31091"
+  },
+  {
+    "numeric": "piao2",
+    "glyph": "嫖",
+    "sourceLocator": "cedict_ts.u8:line:31093"
+  },
+  {
+    "numeric": "lei2",
+    "glyph": "檑",
+    "sourceLocator": "cedict_ts.u8:line:59795"
+  },
+  {
+    "numeric": "man1",
+    "glyph": "颟",
+    "sourceLocator": "cedict_ts.u8:line:119406"
+  },
+  {
+    "numeric": "zhang1",
+    "glyph": "嫜",
+    "sourceLocator": "cedict_ts.u8:line:31106"
+  },
+  {
+    "numeric": "nen4",
+    "glyph": "嫩",
+    "sourceLocator": "cedict_ts.u8:line:31124"
+  },
+  {
+    "numeric": "zhe1",
+    "glyph": "嫬",
+    "sourceLocator": "cedict_ts.u8:line:31137"
+  },
+  {
+    "numeric": "rao2",
+    "glyph": "娆",
+    "sourceLocator": "cedict_ts.u8:line:31154"
+  },
+  {
+    "numeric": "fan4",
+    "glyph": "饭",
+    "sourceLocator": "cedict_ts.u8:line:119985"
+  },
+  {
+    "numeric": "qiong2",
+    "glyph": "茕",
+    "sourceLocator": "cedict_ts.u8:line:70475"
+  },
+  {
+    "numeric": "rong2",
+    "glyph": "嬫",
+    "sourceLocator": "cedict_ts.u8:line:31210"
+  },
+  {
+    "numeric": "zi5",
+    "glyph": "子",
+    "sourceLocator": "cedict_ts.u8:line:31249"
+  },
+  {
+    "numeric": "yun4",
+    "glyph": "孕",
+    "sourceLocator": "cedict_ts.u8:line:31379"
+  },
+  {
+    "numeric": "zhuan3",
+    "glyph": "转",
+    "sourceLocator": "cedict_ts.u8:line:106595"
+  },
+  {
+    "numeric": "hai2",
+    "glyph": "孩",
+    "sourceLocator": "cedict_ts.u8:line:31659"
+  },
+  {
+    "numeric": "sun1",
+    "glyph": "孙",
+    "sourceLocator": "cedict_ts.u8:line:31668"
+  },
+  {
+    "numeric": "nao1",
+    "glyph": "孬",
+    "sourceLocator": "cedict_ts.u8:line:31703"
+  },
+  {
+    "numeric": "can4",
+    "glyph": "孱",
+    "sourceLocator": "cedict_ts.u8:line:31710"
+  },
+  {
+    "numeric": "mian2",
+    "glyph": "宀",
+    "sourceLocator": "cedict_ts.u8:line:31849"
+  },
+  {
+    "numeric": "zhai2",
+    "glyph": "宅",
+    "sourceLocator": "cedict_ts.u8:line:31856"
+  },
+  {
+    "numeric": "shou3",
+    "glyph": "守",
+    "sourceLocator": "cedict_ts.u8:line:31882"
+  },
+  {
+    "numeric": "rou4",
+    "glyph": "肉",
+    "sourceLocator": "cedict_ts.u8:line:89905"
+  },
+  {
+    "numeric": "xiu3",
+    "glyph": "宿",
+    "sourceLocator": "cedict_ts.u8:line:33011"
+  },
+  {
+    "numeric": "qin3",
+    "glyph": "寝",
+    "sourceLocator": "cedict_ts.u8:line:33397"
+  },
+  {
+    "numeric": "xie3",
+    "glyph": "写",
+    "sourceLocator": "cedict_ts.u8:line:33647"
+  },
+  {
+    "numeric": "kuan1",
+    "glyph": "宽",
+    "sourceLocator": "cedict_ts.u8:line:33671"
+  },
+  {
+    "numeric": "chong3",
+    "glyph": "宠",
+    "sourceLocator": "cedict_ts.u8:line:33749"
+  },
+  {
+    "numeric": "xiao3",
+    "glyph": "小",
+    "sourceLocator": "cedict_ts.u8:line:34404"
+  },
+  {
+    "numeric": "shao3",
+    "glyph": "少",
+    "sourceLocator": "cedict_ts.u8:line:34905"
+  },
+  {
+    "numeric": "er3",
+    "glyph": "洱",
+    "sourceLocator": "cedict_ts.u8:line:64821"
+  },
+  {
+    "numeric": "wang1",
+    "glyph": "尢",
+    "sourceLocator": "cedict_ts.u8:line:35042"
+  },
+  {
+    "numeric": "liao4",
+    "glyph": "尥",
+    "sourceLocator": "cedict_ts.u8:line:35065"
+  },
+  {
+    "numeric": "ga4",
+    "glyph": "尬",
+    "sourceLocator": "cedict_ts.u8:line:35072"
+  },
+  {
+    "numeric": "che3",
+    "glyph": "尺",
+    "sourceLocator": "cedict_ts.u8:line:35133"
+  },
+  {
+    "numeric": "kao1",
+    "glyph": "尻",
+    "sourceLocator": "cedict_ts.u8:line:35149"
+  },
+  {
+    "numeric": "diao3",
+    "glyph": "屌",
+    "sourceLocator": "cedict_ts.u8:line:35424"
+  },
+  {
+    "numeric": "zhan3",
+    "glyph": "展",
+    "sourceLocator": "cedict_ts.u8:line:35482"
+  },
+  {
+    "numeric": "man3",
+    "glyph": "屘",
+    "sourceLocator": "cedict_ts.u8:line:35520"
+  },
+  {
+    "numeric": "ceng2",
+    "glyph": "层",
+    "sourceLocator": "cedict_ts.u8:line:35559"
+  },
+  {
+    "numeric": "shu3",
+    "glyph": "属",
+    "sourceLocator": "cedict_ts.u8:line:35603"
+  },
+  {
+    "numeric": "zhun1",
+    "glyph": "屯",
+    "sourceLocator": "cedict_ts.u8:line:35624"
+  },
+  {
+    "numeric": "cen2",
+    "glyph": "岑",
+    "sourceLocator": "cedict_ts.u8:line:35855"
+  },
+  {
+    "numeric": "gou3",
+    "glyph": "岣",
+    "sourceLocator": "cedict_ts.u8:line:35888"
+  },
+  {
+    "numeric": "chong2",
+    "glyph": "崇",
+    "sourceLocator": "cedict_ts.u8:line:36054"
+  },
+  {
+    "numeric": "gang3",
+    "glyph": "岗",
+    "sourceLocator": "cedict_ts.u8:line:36130"
+  },
+  {
+    "numeric": "xiao2",
+    "glyph": "崤",
+    "sourceLocator": "cedict_ts.u8:line:36157"
+  },
+  {
+    "numeric": "wai3",
+    "glyph": "崴",
+    "sourceLocator": "cedict_ts.u8:line:36186"
+  },
+  {
+    "numeric": "cuo2",
+    "glyph": "嵯",
+    "sourceLocator": "cedict_ts.u8:line:36238"
+  },
+  {
+    "numeric": "chuan1",
+    "glyph": "川",
+    "sourceLocator": "cedict_ts.u8:line:36332"
+  },
+  {
+    "numeric": "qiao3",
+    "glyph": "巧",
+    "sourceLocator": "cedict_ts.u8:line:36612"
+  },
+  {
+    "numeric": "chai1",
+    "glyph": "拆",
+    "sourceLocator": "cedict_ts.u8:line:46007"
+  },
+  {
+    "numeric": "pa4",
+    "glyph": "怕",
+    "sourceLocator": "cedict_ts.u8:line:41474"
+  },
+  {
+    "numeric": "tie1",
+    "glyph": "怗",
+    "sourceLocator": "cedict_ts.u8:line:41483"
+  },
+  {
+    "numeric": "tie3",
+    "glyph": "帖",
+    "sourceLocator": "cedict_ts.u8:line:37343"
+  },
+  {
+    "numeric": "zhou3",
+    "glyph": "帚",
+    "sourceLocator": "cedict_ts.u8:line:37356"
+  },
+  {
+    "numeric": "shui4",
+    "glyph": "睡",
+    "sourceLocator": "cedict_ts.u8:line:78759"
+  },
+  {
+    "numeric": "qun2",
+    "glyph": "群",
+    "sourceLocator": "cedict_ts.u8:line:88203"
+  },
+  {
+    "numeric": "bang1",
+    "glyph": "帮",
+    "sourceLocator": "cedict_ts.u8:line:37659"
+  },
+  {
+    "numeric": "chan1",
+    "glyph": "幨",
+    "sourceLocator": "cedict_ts.u8:line:37656"
+  },
+  {
+    "numeric": "mie4",
+    "glyph": "幭",
+    "sourceLocator": "cedict_ts.u8:line:37684"
+  },
+  {
+    "numeric": "nian2",
+    "glyph": "年",
+    "sourceLocator": "cedict_ts.u8:line:37968"
+  },
+  {
+    "numeric": "cheng3",
+    "glyph": "悜",
+    "sourceLocator": "cedict_ts.u8:line:42136"
+  },
+  {
+    "numeric": "kang1",
+    "glyph": "康",
+    "sourceLocator": "cedict_ts.u8:line:38511"
+  },
+  {
+    "numeric": "qing3",
+    "glyph": "请",
+    "sourceLocator": "cedict_ts.u8:line:101791"
+  },
+  {
+    "numeric": "kuo4",
+    "glyph": "廓",
+    "sourceLocator": "cedict_ts.u8:line:38628"
+  },
+  {
+    "numeric": "xin1",
+    "glyph": "𫷷",
+    "sourceLocator": "cedict_ts.u8:line:38656"
+  },
+  {
+    "numeric": "guang3",
+    "glyph": "广",
+    "sourceLocator": "cedict_ts.u8:line:38728"
+  },
+  {
+    "numeric": "ting1",
+    "glyph": "听",
+    "sourceLocator": "cedict_ts.u8:line:89771"
+  },
+  {
+    "numeric": "po4",
+    "glyph": "朴",
+    "sourceLocator": "cedict_ts.u8:line:55944"
+  },
+  {
+    "numeric": "gong3",
+    "glyph": "廾",
+    "sourceLocator": "cedict_ts.u8:line:39009"
+  },
+  {
+    "numeric": "nong4",
+    "glyph": "弄",
+    "sourceLocator": "cedict_ts.u8:line:39015"
+  },
+  {
+    "numeric": "zhen3",
+    "glyph": "弫",
+    "sourceLocator": "cedict_ts.u8:line:39286"
+  },
+  {
+    "numeric": "mi3",
+    "glyph": "弭",
+    "sourceLocator": "cedict_ts.u8:line:39287"
+  },
+  {
+    "numeric": "qiang3",
+    "glyph": "强",
+    "sourceLocator": "cedict_ts.u8:line:39425"
+  },
+  {
+    "numeric": "kou1",
+    "glyph": "𫸩",
+    "sourceLocator": "cedict_ts.u8:line:39524"
+  },
+  {
+    "numeric": "bie4",
+    "glyph": "别",
+    "sourceLocator": "cedict_ts.u8:line:39525"
+  },
+  {
+    "numeric": "tuan4",
+    "glyph": "彖",
+    "sourceLocator": "cedict_ts.u8:line:39651"
+  },
+  {
+    "numeric": "ying3",
+    "glyph": "影",
+    "sourceLocator": "cedict_ts.u8:line:39843"
+  },
+  {
+    "numeric": "cu2",
+    "glyph": "徂",
+    "sourceLocator": "cedict_ts.u8:line:39977"
+  },
+  {
+    "numeric": "xu2",
+    "glyph": "徐",
+    "sourceLocator": "cedict_ts.u8:line:40195"
+  },
+  {
+    "numeric": "dei3",
+    "glyph": "得",
+    "sourceLocator": "cedict_ts.u8:line:40265"
+  },
+  {
+    "numeric": "ren3",
+    "glyph": "忍",
+    "sourceLocator": "cedict_ts.u8:line:41138"
+  },
+  {
+    "numeric": "te4",
+    "glyph": "忑",
+    "sourceLocator": "cedict_ts.u8:line:41165"
+  },
+  {
+    "numeric": "tei1",
+    "glyph": "忒",
+    "sourceLocator": "cedict_ts.u8:line:41167"
+  },
+  {
+    "numeric": "niu3",
+    "glyph": "忸",
+    "sourceLocator": "cedict_ts.u8:line:41372"
+  },
+  {
+    "numeric": "zen3",
+    "glyph": "怎",
+    "sourceLocator": "cedict_ts.u8:line:41414"
+  },
+  {
+    "numeric": "yang4",
+    "glyph": "怏",
+    "sourceLocator": "cedict_ts.u8:line:41432"
+  },
+  {
+    "numeric": "nu4",
+    "glyph": "怒",
+    "sourceLocator": "cedict_ts.u8:line:41435"
+  },
+  {
+    "numeric": "zheng4",
+    "glyph": "正",
+    "sourceLocator": "cedict_ts.u8:line:60446"
+  },
+  {
+    "numeric": "nin2",
+    "glyph": "您",
+    "sourceLocator": "cedict_ts.u8:line:42179"
+  },
+  {
+    "numeric": "hen4",
+    "glyph": "恨",
+    "sourceLocator": "cedict_ts.u8:line:41938"
+  },
+  {
+    "numeric": "qia4",
+    "glyph": "恰",
+    "sourceLocator": "cedict_ts.u8:line:42050"
+  },
+  {
+    "numeric": "hui3",
+    "glyph": "悔",
+    "sourceLocator": "cedict_ts.u8:line:42109"
+  },
+  {
+    "numeric": "men1",
+    "glyph": "闷",
+    "sourceLocator": "cedict_ts.u8:line:42232"
+  },
+  {
+    "numeric": "men4",
+    "glyph": "闷",
+    "sourceLocator": "cedict_ts.u8:line:42233"
+  },
+  {
+    "numeric": "guo3",
+    "glyph": "果",
+    "sourceLocator": "cedict_ts.u8:line:56826"
+  },
+  {
+    "numeric": "e3",
+    "glyph": "恶",
+    "sourceLocator": "cedict_ts.u8:line:42452"
+  },
+  {
+    "numeric": "chun3",
+    "glyph": "蠢",
+    "sourceLocator": "cedict_ts.u8:line:97904"
+  },
+  {
+    "numeric": "kai4",
+    "glyph": "愒",
+    "sourceLocator": "cedict_ts.u8:line:42735"
+  },
+  {
+    "numeric": "gan3",
+    "glyph": "感",
+    "sourceLocator": "cedict_ts.u8:line:42903"
+  },
+  {
+    "numeric": "leng4",
+    "glyph": "愣",
+    "sourceLocator": "cedict_ts.u8:line:42976"
+  },
+  {
+    "numeric": "shen4",
+    "glyph": "慎",
+    "sourceLocator": "cedict_ts.u8:line:43066"
+  },
+  {
+    "numeric": "sao1",
+    "glyph": "慅",
+    "sourceLocator": "cedict_ts.u8:line:43013"
+  },
+  {
+    "numeric": "can3",
+    "glyph": "惨",
+    "sourceLocator": "cedict_ts.u8:line:43087"
+  },
+  {
+    "numeric": "can2",
+    "glyph": "蚕",
+    "sourceLocator": "cedict_ts.u8:line:97937"
+  },
+  {
+    "numeric": "ou4",
+    "glyph": "怄",
+    "sourceLocator": "cedict_ts.u8:line:43195"
+  },
+  {
+    "numeric": "bie1",
+    "glyph": "憋",
+    "sourceLocator": "cedict_ts.u8:line:43279"
+  },
+  {
+    "numeric": "han1",
+    "glyph": "憨",
+    "sourceLocator": "cedict_ts.u8:line:43349"
+  },
+  {
+    "numeric": "dong3",
+    "glyph": "懂",
+    "sourceLocator": "cedict_ts.u8:line:43392"
+  },
+  {
+    "numeric": "cao3",
+    "glyph": "懆",
+    "sourceLocator": "cedict_ts.u8:line:43402"
+  },
+  {
+    "numeric": "lian4",
+    "glyph": "恋",
+    "sourceLocator": "cedict_ts.u8:line:43678"
+  },
+  {
+    "numeric": "nan3",
+    "glyph": "戁",
+    "sourceLocator": "cedict_ts.u8:line:43705"
+  },
+  {
+    "numeric": "gang4",
+    "glyph": "杠",
+    "sourceLocator": "cedict_ts.u8:line:58969"
+  },
+  {
+    "numeric": "qu5",
+    "glyph": "戌",
+    "sourceLocator": "cedict_ts.u8:line:43747"
+  },
+  {
+    "numeric": "zei2",
+    "glyph": "贼",
+    "sourceLocator": "cedict_ts.u8:line:103823"
+  },
+  {
+    "numeric": "deng3",
+    "glyph": "戥",
+    "sourceLocator": "cedict_ts.u8:line:44015"
+  },
+  {
+    "numeric": "chuo1",
+    "glyph": "戳",
+    "sourceLocator": "cedict_ts.u8:line:44166"
+  },
+  {
+    "numeric": "cai2",
+    "glyph": "才",
+    "sourceLocator": "cedict_ts.u8:line:44563"
+  },
+  {
+    "numeric": "pa2",
+    "glyph": "扒",
+    "sourceLocator": "cedict_ts.u8:line:44625"
+  },
+  {
+    "numeric": "da3",
+    "glyph": "打",
+    "sourceLocator": "cedict_ts.u8:line:44644"
+  },
+  {
+    "numeric": "reng1",
+    "glyph": "扔",
+    "sourceLocator": "cedict_ts.u8:line:44986"
+  },
+  {
+    "numeric": "kang2",
+    "glyph": "扛",
+    "sourceLocator": "cedict_ts.u8:line:45056"
+  },
+  {
+    "numeric": "ban1",
+    "glyph": "扳",
+    "sourceLocator": "cedict_ts.u8:line:45147"
+  },
+  {
+    "numeric": "pan1",
+    "glyph": "攀",
+    "sourceLocator": "cedict_ts.u8:line:49888"
+  },
+  {
+    "numeric": "zhao3",
+    "glyph": "找",
+    "sourceLocator": "cedict_ts.u8:line:45268"
+  },
+  {
+    "numeric": "zhua1",
+    "glyph": "抓",
+    "sourceLocator": "cedict_ts.u8:line:45491"
+  },
+  {
+    "numeric": "mo3",
+    "glyph": "抹",
+    "sourceLocator": "cedict_ts.u8:line:45890"
+  },
+  {
+    "numeric": "chou1",
+    "glyph": "抽",
+    "sourceLocator": "cedict_ts.u8:line:45930"
+  },
+  {
+    "numeric": "zha3",
+    "glyph": "拃",
+    "sourceLocator": "cedict_ts.u8:line:46004"
+  },
+  {
+    "numeric": "nian1",
+    "glyph": "拈",
+    "sourceLocator": "cedict_ts.u8:line:46041"
+  },
+  {
+    "numeric": "pao1",
+    "glyph": "抛",
+    "sourceLocator": "cedict_ts.u8:line:46227"
+  },
+  {
+    "numeric": "pai1",
+    "glyph": "拍",
+    "sourceLocator": "cedict_ts.u8:line:46272"
+  },
+  {
+    "numeric": "lin1",
+    "glyph": "拎",
+    "sourceLocator": "cedict_ts.u8:line:46311"
+  },
+  {
+    "numeric": "guai3",
+    "glyph": "拐",
+    "sourceLocator": "cedict_ts.u8:line:56933"
+  },
+  {
+    "numeric": "niu4",
+    "glyph": "拗",
+    "sourceLocator": "cedict_ts.u8:line:46473"
+  },
+  {
+    "numeric": "qia2",
+    "glyph": "拤",
+    "sourceLocator": "cedict_ts.u8:line:46656"
+  },
+  {
+    "numeric": "hen2",
+    "glyph": "拫",
+    "sourceLocator": "cedict_ts.u8:line:46658"
+  },
+  {
+    "numeric": "zheng3",
+    "glyph": "拯",
+    "sourceLocator": "cedict_ts.u8:line:46674"
+  },
+  {
+    "numeric": "shuan1",
+    "glyph": "拴",
+    "sourceLocator": "cedict_ts.u8:line:46721"
+  },
+  {
+    "numeric": "zhuai1",
+    "glyph": "拽",
+    "sourceLocator": "cedict_ts.u8:line:46789"
+  },
+  {
+    "numeric": "zhuai3",
+    "glyph": "拽",
+    "sourceLocator": "cedict_ts.u8:line:46790"
+  },
+  {
+    "numeric": "zhuai4",
+    "glyph": "拽",
+    "sourceLocator": "cedict_ts.u8:line:46791"
+  },
+  {
+    "numeric": "rua2",
+    "glyph": "挼",
+    "sourceLocator": "cedict_ts.u8:line:47208"
+  },
+  {
+    "numeric": "ruo2",
+    "glyph": "挼",
+    "sourceLocator": "cedict_ts.u8:line:47209"
+  },
+  {
+    "numeric": "tong3",
+    "glyph": "捅",
+    "sourceLocator": "cedict_ts.u8:line:47236"
+  },
+  {
+    "numeric": "nie1",
+    "glyph": "捏",
+    "sourceLocator": "cedict_ts.u8:line:47274"
+  },
+  {
+    "numeric": "ye2",
+    "glyph": "揶",
+    "sourceLocator": "cedict_ts.u8:line:48609"
+  },
+  {
+    "numeric": "peng3",
+    "glyph": "捧",
+    "sourceLocator": "cedict_ts.u8:line:47337"
+  },
+  {
+    "numeric": "she3",
+    "glyph": "舍",
+    "sourceLocator": "cedict_ts.u8:line:47354"
+  },
+  {
+    "numeric": "bo4",
+    "glyph": "擘",
+    "sourceLocator": "cedict_ts.u8:line:49649"
+  },
+  {
+    "numeric": "dao2",
+    "glyph": "捯",
+    "sourceLocator": "cedict_ts.u8:line:47381"
+  },
+  {
+    "numeric": "nian3",
+    "glyph": "捻",
+    "sourceLocator": "cedict_ts.u8:line:47439"
+  },
+  {
+    "numeric": "zuo2",
+    "glyph": "捽",
+    "sourceLocator": "cedict_ts.u8:line:47442"
+  },
+  {
+    "numeric": "lun1",
+    "glyph": "抡",
+    "sourceLocator": "cedict_ts.u8:line:47497"
+  },
+  {
+    "numeric": "qia1",
+    "glyph": "掐",
+    "sourceLocator": "cedict_ts.u8:line:47601"
+  },
+  {
+    "numeric": "kong4",
+    "glyph": "控",
+    "sourceLocator": "cedict_ts.u8:line:48019"
+  },
+  {
+    "numeric": "tui1",
+    "glyph": "推",
+    "sourceLocator": "cedict_ts.u8:line:48043"
+  },
+  {
+    "numeric": "zou1",
+    "glyph": "掫",
+    "sourceLocator": "cedict_ts.u8:line:48185"
+  },
+  {
+    "numeric": "tian4",
+    "glyph": "掭",
+    "sourceLocator": "cedict_ts.u8:line:48190"
+  },
+  {
+    "numeric": "ken4",
+    "glyph": "掯",
+    "sourceLocator": "cedict_ts.u8:line:48193"
+  },
+  {
+    "numeric": "bai1",
+    "glyph": "掰",
+    "sourceLocator": "cedict_ts.u8:line:48194"
+  },
+  {
+    "numeric": "peng4",
+    "glyph": "椪",
+    "sourceLocator": "cedict_ts.u8:line:58471"
+  },
+  {
+    "numeric": "miao2",
+    "glyph": "描",
+    "sourceLocator": "cedict_ts.u8:line:48233"
+  },
+  {
+    "numeric": "zuan4",
+    "glyph": "揝",
+    "sourceLocator": "cedict_ts.u8:line:48491"
+  },
+  {
+    "numeric": "chuai1",
+    "glyph": "揣",
+    "sourceLocator": "cedict_ts.u8:line:48504"
+  },
+  {
+    "numeric": "chuai3",
+    "glyph": "揣",
+    "sourceLocator": "cedict_ts.u8:line:48505"
+  },
+  {
+    "numeric": "kai1",
+    "glyph": "揩",
+    "sourceLocator": "cedict_ts.u8:line:48516"
+  },
+  {
+    "numeric": "chong4",
+    "glyph": "揰",
+    "sourceLocator": "cedict_ts.u8:line:48590"
+  },
+  {
+    "numeric": "sun3",
+    "glyph": "损",
+    "sourceLocator": "cedict_ts.u8:line:48624"
+  },
+  {
+    "numeric": "cuo1",
+    "glyph": "搓",
+    "sourceLocator": "cedict_ts.u8:line:48654"
+  },
+  {
+    "numeric": "gao3",
+    "glyph": "搞",
+    "sourceLocator": "cedict_ts.u8:line:48752"
+  },
+  {
+    "numeric": "wa4",
+    "glyph": "搲",
+    "sourceLocator": "cedict_ts.u8:line:48871"
+  },
+  {
+    "numeric": "shuai1",
+    "glyph": "摔",
+    "sourceLocator": "cedict_ts.u8:line:48933"
+  },
+  {
+    "numeric": "lian3",
+    "glyph": "摙",
+    "sourceLocator": "cedict_ts.u8:line:48964"
+  },
+  {
+    "numeric": "lou1",
+    "glyph": "搂",
+    "sourceLocator": "cedict_ts.u8:line:48971"
+  },
+  {
+    "numeric": "mo1",
+    "glyph": "摸",
+    "sourceLocator": "cedict_ts.u8:line:49079"
+  },
+  {
+    "numeric": "shan3",
+    "glyph": "掺",
+    "sourceLocator": "cedict_ts.u8:line:49118"
+  },
+  {
+    "numeric": "pie1",
+    "glyph": "撇",
+    "sourceLocator": "cedict_ts.u8:line:49133"
+  },
+  {
+    "numeric": "lao1",
+    "glyph": "捞",
+    "sourceLocator": "cedict_ts.u8:line:49145"
+  },
+  {
+    "numeric": "sa3",
+    "glyph": "撒",
+    "sourceLocator": "cedict_ts.u8:line:49176"
+  },
+  {
+    "numeric": "cao1",
+    "glyph": "操",
+    "sourceLocator": "cedict_ts.u8:line:49568"
+  },
+  {
+    "numeric": "liao1",
+    "glyph": "撩",
+    "sourceLocator": "cedict_ts.u8:line:49345"
+  },
+  {
+    "numeric": "lei4",
+    "glyph": "擂",
+    "sourceLocator": "cedict_ts.u8:line:49493"
+  },
+  {
+    "numeric": "dang3",
+    "glyph": "挡",
+    "sourceLocator": "cedict_ts.u8:line:49553"
+  },
+  {
+    "numeric": "cao4",
+    "glyph": "肏",
+    "sourceLocator": "cedict_ts.u8:line:90012"
+  },
+  {
+    "numeric": "kuai3",
+    "glyph": "蒯",
+    "sourceLocator": "cedict_ts.u8:line:95530"
+  },
+  {
+    "numeric": "xing3",
+    "glyph": "擤",
+    "sourceLocator": "cedict_ts.u8:line:49711"
+  },
+  {
+    "numeric": "bin4",
+    "glyph": "摈",
+    "sourceLocator": "cedict_ts.u8:line:49773"
+  },
+  {
+    "numeric": "ning3",
+    "glyph": "拧",
+    "sourceLocator": "cedict_ts.u8:line:49778"
+  },
+  {
+    "numeric": "rao3",
+    "glyph": "扰",
+    "sourceLocator": "cedict_ts.u8:line:49880"
+  },
+  {
+    "numeric": "cuan1",
+    "glyph": "撺",
+    "sourceLocator": "cedict_ts.u8:line:49972"
+  },
+  {
+    "numeric": "cuan2",
+    "glyph": "攒",
+    "sourceLocator": "cedict_ts.u8:line:50008"
+  },
+  {
+    "numeric": "nang3",
+    "glyph": "攮",
+    "sourceLocator": "cedict_ts.u8:line:50068"
+  },
+  {
+    "numeric": "gai3",
+    "glyph": "改",
+    "sourceLocator": "cedict_ts.u8:line:50273"
+  },
+  {
+    "numeric": "fang4",
+    "glyph": "放",
+    "sourceLocator": "cedict_ts.u8:line:50380"
+  },
+  {
+    "numeric": "xiong4",
+    "glyph": "诇",
+    "sourceLocator": "cedict_ts.u8:line:100958"
+  },
+  {
+    "numeric": "wen2",
+    "glyph": "文",
+    "sourceLocator": "cedict_ts.u8:line:51357"
+  },
+  {
+    "numeric": "yu1",
+    "glyph": "瘀",
+    "sourceLocator": "cedict_ts.u8:line:76026"
+  },
+  {
+    "numeric": "mao2",
+    "glyph": "旄",
+    "sourceLocator": "cedict_ts.u8:line:52431"
+  },
+  {
+    "numeric": "xuan4",
+    "glyph": "昡",
+    "sourceLocator": "cedict_ts.u8:line:53307"
+  },
+  {
+    "numeric": "zao3",
+    "glyph": "早",
+    "sourceLocator": "cedict_ts.u8:line:52778"
+  },
+  {
+    "numeric": "chun1",
+    "glyph": "春",
+    "sourceLocator": "cedict_ts.u8:line:53311"
+  },
+  {
+    "numeric": "ling1",
+    "glyph": "昤",
+    "sourceLocator": "cedict_ts.u8:line:53309"
+  },
+  {
+    "numeric": "shai4",
+    "glyph": "晒",
+    "sourceLocator": "cedict_ts.u8:line:54359"
+  },
+  {
+    "numeric": "bu1",
+    "glyph": "晡",
+    "sourceLocator": "cedict_ts.u8:line:53683"
+  },
+  {
+    "numeric": "zan4",
+    "glyph": "暂",
+    "sourceLocator": "cedict_ts.u8:line:54184"
+  },
+  {
+    "numeric": "yao4",
+    "glyph": "曜",
+    "sourceLocator": "cedict_ts.u8:line:54329"
+  },
+  {
+    "numeric": "yue1",
+    "glyph": "曰",
+    "sourceLocator": "cedict_ts.u8:line:54374"
+  },
+  {
+    "numeric": "geng4",
+    "glyph": "更",
+    "sourceLocator": "cedict_ts.u8:line:54446"
+  },
+  {
+    "numeric": "ruan3",
+    "glyph": "朊",
+    "sourceLocator": "cedict_ts.u8:line:55280"
+  },
+  {
+    "numeric": "ben3",
+    "glyph": "本",
+    "sourceLocator": "cedict_ts.u8:line:55756"
+  },
+  {
+    "numeric": "cun1",
+    "glyph": "皴",
+    "sourceLocator": "cedict_ts.u8:line:77402"
+  },
+  {
+    "numeric": "miao3",
+    "glyph": "杪",
+    "sourceLocator": "cedict_ts.u8:line:56273"
+  },
+  {
+    "numeric": "ang4",
+    "glyph": "枊",
+    "sourceLocator": "cedict_ts.u8:line:56703"
+  },
+  {
+    "numeric": "liu3",
+    "glyph": "柳",
+    "sourceLocator": "cedict_ts.u8:line:57216"
+  },
+  {
+    "numeric": "gen1",
+    "glyph": "根",
+    "sourceLocator": "cedict_ts.u8:line:57551"
+  },
+  {
+    "numeric": "guang4",
+    "glyph": "桄",
+    "sourceLocator": "cedict_ts.u8:line:57750"
+  },
+  {
+    "numeric": "po5",
+    "glyph": "桲",
+    "sourceLocator": "cedict_ts.u8:line:57875"
+  },
+  {
+    "numeric": "kuan3",
+    "glyph": "梡",
+    "sourceLocator": "cedict_ts.u8:line:58034"
+  },
+  {
+    "numeric": "gun4",
+    "glyph": "棍",
+    "sourceLocator": "cedict_ts.u8:line:58192"
+  },
+  {
+    "numeric": "sen1",
+    "glyph": "森",
+    "sourceLocator": "cedict_ts.u8:line:58361"
+  },
+  {
+    "numeric": "leng1",
+    "glyph": "棱",
+    "sourceLocator": "cedict_ts.u8:line:58379"
+  },
+  {
+    "numeric": "zhui1",
+    "glyph": "椎",
+    "sourceLocator": "cedict_ts.u8:line:58455"
+  },
+  {
+    "numeric": "ku3",
+    "glyph": "楛",
+    "sourceLocator": "cedict_ts.u8:line:58597"
+  },
+  {
+    "numeric": "bang3",
+    "glyph": "榜",
+    "sourceLocator": "cedict_ts.u8:line:58800"
+  },
+  {
+    "numeric": "gao1",
+    "glyph": "槔",
+    "sourceLocator": "cedict_ts.u8:line:58981"
+  },
+  {
+    "numeric": "mu2",
+    "glyph": "模",
+    "sourceLocator": "cedict_ts.u8:line:59289"
+  },
+  {
+    "numeric": "rui3",
+    "glyph": "繠",
+    "sourceLocator": "cedict_ts.u8:line:87290"
+  },
+  {
+    "numeric": "lü2",
+    "glyph": "榈",
+    "sourceLocator": "cedict_ts.u8:line:59926"
+  },
+  {
+    "numeric": "ei1",
+    "glyph": "欸",
+    "sourceLocator": "cedict_ts.u8:line:60138"
+  },
+  {
+    "numeric": "ei2",
+    "glyph": "欸",
+    "sourceLocator": "cedict_ts.u8:line:60139"
+  },
+  {
+    "numeric": "ei3",
+    "glyph": "欸",
+    "sourceLocator": "cedict_ts.u8:line:60140"
+  },
+  {
+    "numeric": "ei4",
+    "glyph": "欸",
+    "sourceLocator": "cedict_ts.u8:line:60141"
+  },
+  {
+    "numeric": "chua1",
+    "glyph": "欻",
+    "sourceLocator": "cedict_ts.u8:line:60165"
+  },
+  {
+    "numeric": "si3",
+    "glyph": "死",
+    "sourceLocator": "cedict_ts.u8:line:61017"
+  },
+  {
+    "numeric": "piao3",
+    "glyph": "殍",
+    "sourceLocator": "cedict_ts.u8:line:61171"
+  },
+  {
+    "numeric": "chou4",
+    "glyph": "臭",
+    "sourceLocator": "cedict_ts.u8:line:92203"
+  },
+  {
+    "numeric": "shui3",
+    "glyph": "水",
+    "sourceLocator": "cedict_ts.u8:line:62296"
+  },
+  {
+    "numeric": "tun3",
+    "glyph": "氽",
+    "sourceLocator": "cedict_ts.u8:line:62718"
+  },
+  {
+    "numeric": "hang4",
+    "glyph": "沆",
+    "sourceLocator": "cedict_ts.u8:line:63157"
+  },
+  {
+    "numeric": "fa1",
+    "glyph": "发",
+    "sourceLocator": "cedict_ts.u8:line:76294"
+  },
+  {
+    "numeric": "pao4",
+    "glyph": "泡",
+    "sourceLocator": "cedict_ts.u8:line:64090"
+  },
+  {
+    "numeric": "beng4",
+    "glyph": "泵",
+    "sourceLocator": "cedict_ts.u8:line:64446"
+  },
+  {
+    "numeric": "hai3",
+    "glyph": "胲",
+    "sourceLocator": "cedict_ts.u8:line:90540"
+  },
+  {
+    "numeric": "shuan4",
+    "glyph": "涮",
+    "sourceLocator": "cedict_ts.u8:line:65859"
+  },
+  {
+    "numeric": "nao4",
+    "glyph": "淖",
+    "sourceLocator": "cedict_ts.u8:line:66015"
+  },
+  {
+    "numeric": "fei2",
+    "glyph": "淝",
+    "sourceLocator": "cedict_ts.u8:line:66060"
+  },
+  {
+    "numeric": "qian3",
+    "glyph": "浅",
+    "sourceLocator": "cedict_ts.u8:line:66435"
+  },
+  {
+    "numeric": "cou4",
+    "glyph": "凑",
+    "sourceLocator": "cedict_ts.u8:line:66979"
+  },
+  {
+    "numeric": "pen2",
+    "glyph": "湓",
+    "sourceLocator": "cedict_ts.u8:line:67001"
+  },
+  {
+    "numeric": "liu1",
+    "glyph": "溜",
+    "sourceLocator": "cedict_ts.u8:line:67208"
+  },
+  {
+    "numeric": "teng2",
+    "glyph": "疼",
+    "sourceLocator": "cedict_ts.u8:line:75779"
+  },
+  {
+    "numeric": "lou4",
+    "glyph": "漏",
+    "sourceLocator": "cedict_ts.u8:line:67900"
+  },
+  {
+    "numeric": "mang3",
+    "glyph": "漭",
+    "sourceLocator": "cedict_ts.u8:line:68109"
+  },
+  {
+    "numeric": "cui3",
+    "glyph": "漼",
+    "sourceLocator": "cedict_ts.u8:line:68174"
+  },
+  {
+    "numeric": "run4",
+    "glyph": "润",
+    "sourceLocator": "cedict_ts.u8:line:68314"
+  },
+  {
+    "numeric": "hong4",
+    "glyph": "澒",
+    "sourceLocator": "cedict_ts.u8:line:68473"
+  },
+  {
+    "numeric": "sheng2",
+    "glyph": "渑",
+    "sourceLocator": "cedict_ts.u8:line:68486"
+  },
+  {
+    "numeric": "lan4",
+    "glyph": "滥",
+    "sourceLocator": "cedict_ts.u8:line:68726"
+  },
+  {
+    "numeric": "lai4",
+    "glyph": "濑",
+    "sourceLocator": "cedict_ts.u8:line:68900"
+  },
+  {
+    "numeric": "que1",
+    "glyph": "炔",
+    "sourceLocator": "cedict_ts.u8:line:69370"
+  },
+  {
+    "numeric": "bian1",
+    "glyph": "边",
+    "sourceLocator": "cedict_ts.u8:line:109581"
+  },
+  {
+    "numeric": "tui4",
+    "glyph": "煺",
+    "sourceLocator": "cedict_ts.u8:line:70601"
+  },
+  {
+    "numeric": "xiong2",
+    "glyph": "熊",
+    "sourceLocator": "cedict_ts.u8:line:70623"
+  },
+  {
+    "numeric": "teng1",
+    "glyph": "熥",
+    "sourceLocator": "cedict_ts.u8:line:70754"
+  },
+  {
+    "numeric": "re4",
+    "glyph": "热",
+    "sourceLocator": "cedict_ts.u8:line:70773"
+  },
+  {
+    "numeric": "tang4",
+    "glyph": "烫",
+    "sourceLocator": "cedict_ts.u8:line:71109"
+  },
+  {
+    "numeric": "cuan4",
+    "glyph": "爨",
+    "sourceLocator": "cedict_ts.u8:line:71329"
+  },
+  {
+    "numeric": "zhua3",
+    "glyph": "爪",
+    "sourceLocator": "cedict_ts.u8:line:71331"
+  },
+  {
+    "numeric": "die1",
+    "glyph": "爹",
+    "sourceLocator": "cedict_ts.u8:line:71458"
+  },
+  {
+    "numeric": "zang1",
+    "glyph": "牂",
+    "sourceLocator": "cedict_ts.u8:line:71506"
+  },
+  {
+    "numeric": "pian4",
+    "glyph": "片",
+    "sourceLocator": "cedict_ts.u8:line:71522"
+  },
+  {
+    "numeric": "niu2",
+    "glyph": "牛",
+    "sourceLocator": "cedict_ts.u8:line:71652"
+  },
+  {
+    "numeric": "pin4",
+    "glyph": "牝",
+    "sourceLocator": "cedict_ts.u8:line:71762"
+  },
+  {
+    "numeric": "mang1",
+    "glyph": "牤",
+    "sourceLocator": "cedict_ts.u8:line:71810"
+  },
+  {
+    "numeric": "run2",
+    "glyph": "犉",
+    "sourceLocator": "cedict_ts.u8:line:72120"
+  },
+  {
+    "numeric": "kao4",
+    "glyph": "犒",
+    "sourceLocator": "cedict_ts.u8:line:72132"
+  },
+  {
+    "numeric": "quan3",
+    "glyph": "犬",
+    "sourceLocator": "cedict_ts.u8:line:72153"
+  },
+  {
+    "numeric": "kuang2",
+    "glyph": "狂",
+    "sourceLocator": "cedict_ts.u8:line:72229"
+  },
+  {
+    "numeric": "suan1",
+    "glyph": "狻",
+    "sourceLocator": "cedict_ts.u8:line:72423"
+  },
+  {
+    "numeric": "nou4",
+    "glyph": "獳",
+    "sourceLocator": "cedict_ts.u8:line:72842"
+  },
+  {
+    "numeric": "fa4",
+    "glyph": "发",
+    "sourceLocator": "cedict_ts.u8:line:122199"
+  },
+  {
+    "numeric": "weng4",
+    "glyph": "瓮",
+    "sourceLocator": "cedict_ts.u8:line:74245"
+  },
+  {
+    "numeric": "zeng4",
+    "glyph": "甑",
+    "sourceLocator": "cedict_ts.u8:line:74240"
+  },
+  {
+    "numeric": "shuai3",
+    "glyph": "甩",
+    "sourceLocator": "cedict_ts.u8:line:74794"
+  },
+  {
+    "numeric": "beng2",
+    "glyph": "甭",
+    "sourceLocator": "cedict_ts.u8:line:74824"
+  },
+  {
+    "numeric": "tuan3",
+    "glyph": "畽",
+    "sourceLocator": "cedict_ts.u8:line:75622"
+  },
+  {
+    "numeric": "dou4",
+    "glyph": "豆",
+    "sourceLocator": "cedict_ts.u8:line:102723"
+  },
+  {
+    "numeric": "nüe4",
+    "glyph": "疟",
+    "sourceLocator": "cedict_ts.u8:line:76109"
+  },
+  {
+    "numeric": "zong4",
+    "glyph": "疭",
+    "sourceLocator": "cedict_ts.u8:line:76127"
+  },
+  {
+    "numeric": "que2",
+    "glyph": "瘸",
+    "sourceLocator": "cedict_ts.u8:line:76133"
+  },
+  {
+    "numeric": "bai2",
+    "glyph": "白",
+    "sourceLocator": "cedict_ts.u8:line:76535"
+  },
+  {
+    "numeric": "cu3",
+    "glyph": "皻",
+    "sourceLocator": "cedict_ts.u8:line:77418"
+  },
+  {
+    "numeric": "dun3",
+    "glyph": "盹",
+    "sourceLocator": "cedict_ts.u8:line:78181"
+  },
+  {
+    "numeric": "mian4",
+    "glyph": "眄",
+    "sourceLocator": "cedict_ts.u8:line:78239"
+  },
+  {
+    "numeric": "tiao4",
+    "glyph": "眺",
+    "sourceLocator": "cedict_ts.u8:line:78545"
+  },
+  {
+    "numeric": "zhao2",
+    "glyph": "着",
+    "sourceLocator": "cedict_ts.u8:line:95228"
+  },
+  {
+    "numeric": "zhe5",
+    "glyph": "着",
+    "sourceLocator": "cedict_ts.u8:line:95229"
+  },
+  {
+    "numeric": "huan3",
+    "glyph": "睆",
+    "sourceLocator": "cedict_ts.u8:line:78730"
+  },
+  {
+    "numeric": "shun4",
+    "glyph": "𥆧",
+    "sourceLocator": "cedict_ts.u8:line:78916"
+  },
+  {
+    "numeric": "meng1",
+    "glyph": "蒙",
+    "sourceLocator": "cedict_ts.u8:line:78984"
+  },
+  {
+    "numeric": "duan3",
+    "glyph": "短",
+    "sourceLocator": "cedict_ts.u8:line:79106"
+  },
+  {
+    "numeric": "che1",
+    "glyph": "砗",
+    "sourceLocator": "cedict_ts.u8:line:79741"
+  },
+  {
+    "numeric": "chen3",
+    "glyph": "碜",
+    "sourceLocator": "cedict_ts.u8:line:80190"
+  },
+  {
+    "numeric": "ca3",
+    "glyph": "礤",
+    "sourceLocator": "cedict_ts.u8:line:80324"
+  },
+  {
+    "numeric": "suan4",
+    "glyph": "筭",
+    "sourceLocator": "cedict_ts.u8:line:83333"
+  },
+  {
+    "numeric": "zu1",
+    "glyph": "租",
+    "sourceLocator": "cedict_ts.u8:line:81503"
+  },
+  {
+    "numeric": "cheng4",
+    "glyph": "秤",
+    "sourceLocator": "cedict_ts.u8:line:81527"
+  },
+  {
+    "numeric": "tui2",
+    "glyph": "蹪",
+    "sourceLocator": "cedict_ts.u8:line:105601"
+  },
+  {
+    "numeric": "zhai3",
+    "glyph": "窄",
+    "sourceLocator": "cedict_ts.u8:line:82365"
+  },
+  {
+    "numeric": "shai1",
+    "glyph": "筛",
+    "sourceLocator": "cedict_ts.u8:line:83667"
+  },
+  {
+    "numeric": "zuan3",
+    "glyph": "籫",
+    "sourceLocator": "cedict_ts.u8:line:83932"
+  },
+  {
+    "numeric": "zan1",
+    "glyph": "簪",
+    "sourceLocator": "cedict_ts.u8:line:83802"
+  },
+  {
+    "numeric": "bo3",
+    "glyph": "簸",
+    "sourceLocator": "cedict_ts.u8:line:83809"
+  },
+  {
+    "numeric": "fen3",
+    "glyph": "羵",
+    "sourceLocator": "cedict_ts.u8:line:88338"
+  },
+  {
+    "numeric": "cu1",
+    "glyph": "粗",
+    "sourceLocator": "cedict_ts.u8:line:84084"
+  },
+  {
+    "numeric": "qiu3",
+    "glyph": "糗",
+    "sourceLocator": "cedict_ts.u8:line:84423"
+  },
+  {
+    "numeric": "fou2",
+    "glyph": "紑",
+    "sourceLocator": "cedict_ts.u8:line:85057"
+  },
+  {
+    "numeric": "gei3",
+    "glyph": "给",
+    "sourceLocator": "cedict_ts.u8:line:85861"
+  },
+  {
+    "numeric": "sui2",
+    "glyph": "绥",
+    "sourceLocator": "cedict_ts.u8:line:86037"
+  },
+  {
+    "numeric": "rui2",
+    "glyph": "緌",
+    "sourceLocator": "cedict_ts.u8:line:86668"
+  },
+  {
+    "numeric": "miu4",
+    "glyph": "谬",
+    "sourceLocator": "cedict_ts.u8:line:102183"
+  },
+  {
+    "numeric": "rao4",
+    "glyph": "绕",
+    "sourceLocator": "cedict_ts.u8:line:87264"
+  },
+  {
+    "numeric": "shua3",
+    "glyph": "耍",
+    "sourceLocator": "cedict_ts.u8:line:88993"
+  },
+  {
+    "numeric": "chao4",
+    "glyph": "耖",
+    "sourceLocator": "cedict_ts.u8:line:89080"
+  },
+  {
+    "numeric": "ye5",
+    "glyph": "耶",
+    "sourceLocator": "cedict_ts.u8:line:89201"
+  },
+  {
+    "numeric": "pang4",
+    "glyph": "胖",
+    "sourceLocator": "cedict_ts.u8:line:90376"
+  },
+  {
+    "numeric": "neng2",
+    "glyph": "能",
+    "sourceLocator": "cedict_ts.u8:line:90622"
+  },
+  {
+    "numeric": "cuo3",
+    "glyph": "脞",
+    "sourceLocator": "cedict_ts.u8:line:90745"
+  },
+  {
+    "numeric": "tui3",
+    "glyph": "腿",
+    "sourceLocator": "cedict_ts.u8:line:91248"
+  },
+  {
+    "numeric": "chuai2",
+    "glyph": "膗",
+    "sourceLocator": "cedict_ts.u8:line:91308"
+  },
+  {
+    "numeric": "gen3",
+    "glyph": "艮",
+    "sourceLocator": "cedict_ts.u8:line:92970"
+  },
+  {
+    "numeric": "shai3",
+    "glyph": "色",
+    "sourceLocator": "cedict_ts.u8:line:93038"
+  },
+  {
+    "numeric": "reng4",
+    "glyph": "芿",
+    "sourceLocator": "cedict_ts.u8:line:93586"
+  },
+  {
+    "numeric": "nie2",
+    "glyph": "苶",
+    "sourceLocator": "cedict_ts.u8:line:93899"
+  },
+  {
+    "numeric": "chai3",
+    "glyph": "茝",
+    "sourceLocator": "cedict_ts.u8:line:94000"
+  },
+  {
+    "numeric": "bi2",
+    "glyph": "鼻",
+    "sourceLocator": "cedict_ts.u8:line:124886"
+  },
+  {
+    "numeric": "mai3",
+    "glyph": "荬",
+    "sourceLocator": "cedict_ts.u8:line:95932"
+  },
+  {
+    "numeric": "bao2",
+    "glyph": "薄",
+    "sourceLocator": "cedict_ts.u8:line:96023"
+  },
+  {
+    "numeric": "cang2",
+    "glyph": "藏",
+    "sourceLocator": "cedict_ts.u8:line:96371"
+  },
+  {
+    "numeric": "ha2",
+    "glyph": "蛤",
+    "sourceLocator": "cedict_ts.u8:line:97286"
+  },
+  {
+    "numeric": "xue4",
+    "glyph": "血",
+    "sourceLocator": "cedict_ts.u8:line:97991"
+  },
+  {
+    "numeric": "mi5",
+    "glyph": "袮",
+    "sourceLocator": "cedict_ts.u8:line:98774"
+  },
+  {
+    "numeric": "shang5",
+    "glyph": "裳",
+    "sourceLocator": "cedict_ts.u8:line:99080"
+  },
+  {
+    "numeric": "tun4",
+    "glyph": "褪",
+    "sourceLocator": "cedict_ts.u8:line:99311"
+  },
+  {
+    "numeric": "tao3",
+    "glyph": "讨",
+    "sourceLocator": "cedict_ts.u8:line:100602"
+  },
+  {
+    "numeric": "shuo1",
+    "glyph": "说",
+    "sourceLocator": "cedict_ts.u8:line:101493"
+  },
+  {
+    "numeric": "shei2",
+    "glyph": "谁",
+    "sourceLocator": "cedict_ts.u8:line:101583"
+  },
+  {
+    "numeric": "lun4",
+    "glyph": "论",
+    "sourceLocator": "cedict_ts.u8:line:101842"
+  },
+  {
+    "numeric": "pian3",
+    "glyph": "谝",
+    "sourceLocator": "cedict_ts.u8:line:101875"
+  },
+  {
+    "numeric": "zen4",
+    "glyph": "谮",
+    "sourceLocator": "cedict_ts.u8:line:102265"
+  },
+  {
+    "numeric": "rang4",
+    "glyph": "让",
+    "sourceLocator": "cedict_ts.u8:line:102660"
+  },
+  {
+    "numeric": "mao1",
+    "glyph": "猫",
+    "sourceLocator": "cedict_ts.u8:line:103049"
+  },
+  {
+    "numeric": "zou3",
+    "glyph": "走",
+    "sourceLocator": "cedict_ts.u8:line:104415"
+  },
+  {
+    "numeric": "pao3",
+    "glyph": "跑",
+    "sourceLocator": "cedict_ts.u8:line:105095"
+  },
+  {
+    "numeric": "ceng4",
+    "glyph": "蹭",
+    "sourceLocator": "cedict_ts.u8:line:105608"
+  },
+  {
+    "numeric": "jue3",
+    "glyph": "蹶",
+    "sourceLocator": "cedict_ts.u8:line:105639"
+  },
+  {
+    "numeric": "zuan1",
+    "glyph": "躜",
+    "sourceLocator": "cedict_ts.u8:line:105727"
+  },
+  {
+    "numeric": "ti3",
+    "glyph": "体",
+    "sourceLocator": "cedict_ts.u8:line:121668"
+  },
+  {
+    "numeric": "pai3",
+    "glyph": "迫",
+    "sourceLocator": "cedict_ts.u8:line:107274"
+  },
+  {
+    "numeric": "tou4",
+    "glyph": "透",
+    "sourceLocator": "cedict_ts.u8:line:107694"
+  },
+  {
+    "numeric": "zhei4",
+    "glyph": "这",
+    "sourceLocator": "cedict_ts.u8:line:107793"
+  },
+  {
+    "numeric": "yuan3",
+    "glyph": "远",
+    "sourceLocator": "cedict_ts.u8:line:109074"
+  },
+  {
+    "numeric": "guo4",
+    "glyph": "过",
+    "sourceLocator": "cedict_ts.u8:line:108648"
+  },
+  {
+    "numeric": "guo5",
+    "glyph": "过",
+    "sourceLocator": "cedict_ts.u8:line:108649"
+  },
+  {
+    "numeric": "bian5",
+    "glyph": "边",
+    "sourceLocator": "cedict_ts.u8:line:109582"
+  },
+  {
+    "numeric": "ding3",
+    "glyph": "酊",
+    "sourceLocator": "cedict_ts.u8:line:110230"
+  },
+  {
+    "numeric": "ming3",
+    "glyph": "酩",
+    "sourceLocator": "cedict_ts.u8:line:110463"
+  },
+  {
+    "numeric": "bu2",
+    "glyph": "醭",
+    "sourceLocator": "cedict_ts.u8:line:110736"
+  },
+  {
+    "numeric": "niang4",
+    "glyph": "酿",
+    "sourceLocator": "cedict_ts.u8:line:110756"
+  },
+  {
+    "numeric": "qiong1",
+    "glyph": "銎",
+    "sourceLocator": "cedict_ts.u8:line:111954"
+  },
+  {
+    "numeric": "xin2",
+    "glyph": "镡",
+    "sourceLocator": "cedict_ts.u8:line:112764"
+  },
+  {
+    "numeric": "zao2",
+    "glyph": "凿",
+    "sourceLocator": "cedict_ts.u8:line:113078"
+  },
+  {
+    "numeric": "chuang3",
+    "glyph": "闯",
+    "sourceLocator": "cedict_ts.u8:line:114190"
+  },
+  {
+    "numeric": "long1",
+    "glyph": "隆",
+    "sourceLocator": "cedict_ts.u8:line:115504"
+  },
+  {
+    "numeric": "nan4",
+    "glyph": "难",
+    "sourceLocator": "cedict_ts.u8:line:116623"
+  },
+  {
+    "numeric": "xue3",
+    "glyph": "雪",
+    "sourceLocator": "cedict_ts.u8:line:116750"
+  },
+  {
+    "numeric": "eng1",
+    "glyph": "鞥",
+    "sourceLocator": "cedict_ts.u8:line:118364"
+  },
+  {
+    "numeric": "tou5",
+    "glyph": "头",
+    "sourceLocator": "cedict_ts.u8:line:119065"
+  },
+  {
+    "numeric": "zha5",
+    "glyph": "馇",
+    "sourceLocator": "cedict_ts.u8:line:120347"
+  },
+  {
+    "numeric": "zang3",
+    "glyph": "驵",
+    "sourceLocator": "cedict_ts.u8:line:121105"
+  },
+  {
+    "numeric": "ang1",
+    "glyph": "肮",
+    "sourceLocator": "cedict_ts.u8:line:121609"
+  },
+  {
+    "numeric": "hou1",
+    "glyph": "齁",
+    "sourceLocator": "cedict_ts.u8:line:124942"
+  },
+  {
+    "numeric": "nang4",
+    "glyph": "齉",
+    "sourceLocator": "cedict_ts.u8:line:124948"
+  },
+  {
+    "numeric": "chui4",
+    "glyph": "龡",
+    "sourceLocator": "cedict_ts.u8:line:125314"
+  }
+]

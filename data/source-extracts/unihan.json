@@ -1,0 +1,5074 @@
+{
+  "借": {
+    "kSimplifiedVariant": {
+      "value": "U+501F",
+      "sourceLocator": "Unihan_Variants.txt:line:1276:U+501F:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+501F U+85C9",
+      "sourceLocator": "Unihan_Variants.txt:line:1277:U+501F:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "9.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:41519:U+501F:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:41520:U+501F:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:7515:U+501F:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "シャク シャ セキ かりる たとい",
+      "sourceLocator": "Unihan_Readings.txt:line:35400:U+501F:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KARIRU KARI TATOI",
+      "sourceLocator": "Unihan_Readings.txt:line:35401:U+501F:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHAKU SHA SEKI",
+      "sourceLocator": "Unihan_Readings.txt:line:35402:U+501F:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jiè",
+      "sourceLocator": "Unihan_Readings.txt:line:35404:U+501F:kMandarin"
+    }
+  },
+  "军": {
+    "kTraditionalVariant": {
+      "value": "U+8ECD",
+      "sourceLocator": "Unihan_Variants.txt:line:1452:U+519B:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "14.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:44559:U+519B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:44560:U+519B:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "jūn",
+      "sourceLocator": "Unihan_Readings.txt:line:39142:U+519B:kMandarin"
+    }
+  },
+  "几": {
+    "kSimplifiedVariant": {
+      "value": "U+51E0",
+      "sourceLocator": "Unihan_Variants.txt:line:1510:U+51E0:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+51E0 U+5E7E",
+      "sourceLocator": "Unihan_Variants.txt:line:1512:U+51E0:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "16.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:45099:U+51E0:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:45100:U+51E0:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "キ きにょう つくえ",
+      "sourceLocator": "Unihan_Readings.txt:line:39810:U+51E0:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TSUKUE",
+      "sourceLocator": "Unihan_Readings.txt:line:39811:U+51E0:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KI",
+      "sourceLocator": "Unihan_Readings.txt:line:39812:U+51E0:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jǐ",
+      "sourceLocator": "Unihan_Readings.txt:line:39814:U+51E0:kMandarin"
+    }
+  },
+  "办": {
+    "kSimplifiedVariant": {
+      "value": "U+529E",
+      "sourceLocator": "Unihan_Variants.txt:line:1646:U+529E:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+529E U+8FA6",
+      "sourceLocator": "Unihan_Variants.txt:line:1647:U+529E:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "19.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:46565:U+529E:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:46566:U+529E:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ベン ヘン",
+      "sourceLocator": "Unihan_Readings.txt:line:41764:U+529E:kJapanese"
+    },
+    "kJapaneseOn": {
+      "value": "HEN",
+      "sourceLocator": "Unihan_Readings.txt:line:41765:U+529E:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "bàn",
+      "sourceLocator": "Unihan_Readings.txt:line:41766:U+529E:kMandarin"
+    }
+  },
+  "医": {
+    "kSimplifiedVariant": {
+      "value": "U+533B",
+      "sourceLocator": "Unihan_Variants.txt:line:1727:U+533B:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+533B U+91AB",
+      "sourceLocator": "Unihan_Variants.txt:line:1728:U+533B:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "23.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:47785:U+533B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:47786:U+533B:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:14025:U+533B:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "イ エイ いやす くすし",
+      "sourceLocator": "Unihan_Readings.txt:line:43333:U+533B:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "IYASU KUSUSHI",
+      "sourceLocator": "Unihan_Readings.txt:line:43334:U+533B:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "I",
+      "sourceLocator": "Unihan_Readings.txt:line:43335:U+533B:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yī",
+      "sourceLocator": "Unihan_Readings.txt:line:43337:U+533B:kMandarin"
+    }
+  },
+  "双": {
+    "kSimplifiedVariant": {
+      "value": "U+53CC",
+      "sourceLocator": "Unihan_Variants.txt:line:1848:U+53CC:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+53CC U+96D9",
+      "sourceLocator": "Unihan_Variants.txt:line:1850:U+53CC:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "29.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48900:U+53CC:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48901:U+53CC:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:15236:U+53CC:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ソウ ふた たぐい つがい ならぶ ふたつ",
+      "sourceLocator": "Unihan_Readings.txt:line:44798:U+53CC:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "FUTATSU NARABU TAGUI",
+      "sourceLocator": "Unihan_Readings.txt:line:44799:U+53CC:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SOU",
+      "sourceLocator": "Unihan_Readings.txt:line:44800:U+53CC:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shuāng",
+      "sourceLocator": "Unihan_Readings.txt:line:44802:U+53CC:kMandarin"
+    }
+  },
+  "发": {
+    "kTraditionalVariant": {
+      "value": "U+767C U+9AEE",
+      "sourceLocator": "Unihan_Variants.txt:line:1852:U+53D1:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "29.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48934:U+53D1:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48935:U+53D1:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "fā",
+      "sourceLocator": "Unihan_Readings.txt:line:44843:U+53D1:kMandarin"
+    }
+  },
+  "只": {
+    "kSimplifiedVariant": {
+      "value": "U+53EA",
+      "sourceLocator": "Unihan_Variants.txt:line:1870:U+53EA:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+53EA U+6220 U+8879 U+96BB",
+      "sourceLocator": "Unihan_Variants.txt:line:1872:U+53EA:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "30.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49146:U+53EA:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49147:U+53EA:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "シ シツ シチ ただ",
+      "sourceLocator": "Unihan_Readings.txt:line:45132:U+53EA:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TADA",
+      "sourceLocator": "Unihan_Readings.txt:line:45133:U+53EA:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHI",
+      "sourceLocator": "Unihan_Readings.txt:line:45134:U+53EA:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhǐ",
+      "sourceLocator": "Unihan_Readings.txt:line:45136:U+53EA:kMandarin"
+    }
+  },
+  "同": {
+    "kSimplifiedVariant": {
+      "value": "U+540C",
+      "sourceLocator": "Unihan_Variants.txt:line:1898:U+540C:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+540C U+8855",
+      "sourceLocator": "Unihan_Variants.txt:line:1899:U+540C:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "30.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49437:U+540C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49438:U+540C:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:15866:U+540C:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ドウ トウ ズ おなじ ともに",
+      "sourceLocator": "Unihan_Readings.txt:line:45541:U+540C:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ONAJI TOMONI TOMONISURU",
+      "sourceLocator": "Unihan_Readings.txt:line:45542:U+540C:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "DOU TOU",
+      "sourceLocator": "Unihan_Readings.txt:line:45543:U+540C:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tóng",
+      "sourceLocator": "Unihan_Readings.txt:line:45545:U+540C:kMandarin"
+    }
+  },
+  "向": {
+    "kSimplifiedVariant": {
+      "value": "U+5411",
+      "sourceLocator": "Unihan_Variants.txt:line:1902:U+5411:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+5411 U+56AE U+66CF",
+      "sourceLocator": "Unihan_Variants.txt:line:1903:U+5411:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "30.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49487:U+5411:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49488:U+5411:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:15936:U+5411:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "コウ キョウ ショウ むく むける むかう むこう さきに",
+      "sourceLocator": "Unihan_Readings.txt:line:45619:U+5411:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MUKU MUKAU SAKINI",
+      "sourceLocator": "Unihan_Readings.txt:line:45620:U+5411:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KOU KYOU SHOU",
+      "sourceLocator": "Unihan_Readings.txt:line:45621:U+5411:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "xiàng",
+      "sourceLocator": "Unihan_Readings.txt:line:45623:U+5411:kMandarin"
+    }
+  },
+  "听": {
+    "kSimplifiedVariant": {
+      "value": "U+542C",
+      "sourceLocator": "Unihan_Variants.txt:line:1920:U+542C:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+542C U+807D",
+      "sourceLocator": "Unihan_Variants.txt:line:1922:U+542C:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "30.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49708:U+542C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49709:U+542C:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "キン ギン テイ チョウ ギツ ゴチ ギ ゲ ポンド わらう",
+      "sourceLocator": "Unihan_Readings.txt:line:45920:U+542C:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "WARAU PONDO",
+      "sourceLocator": "Unihan_Readings.txt:line:45921:U+542C:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KIN GIN",
+      "sourceLocator": "Unihan_Readings.txt:line:45922:U+542C:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tīng",
+      "sourceLocator": "Unihan_Readings.txt:line:45924:U+542C:kMandarin"
+    }
+  },
+  "問": {
+    "kSimplifiedVariant": {
+      "value": "U+95EE",
+      "sourceLocator": "Unihan_Variants.txt:line:2041:U+554F:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "30.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:52010:U+554F:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:52011:U+554F:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:18628:U+554F:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "モン ブン とう とい とん",
+      "sourceLocator": "Unihan_Readings.txt:line:48850:U+554F:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TOU TON",
+      "sourceLocator": "Unihan_Readings.txt:line:48851:U+554F:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "MON BUN",
+      "sourceLocator": "Unihan_Readings.txt:line:48852:U+554F:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "wèn",
+      "sourceLocator": "Unihan_Readings.txt:line:48854:U+554F:kMandarin"
+    }
+  },
+  "噹": {
+    "kSimplifiedVariant": {
+      "value": "U+5F53 U+2A83D",
+      "sourceLocator": "Unihan_Variants.txt:line:2172:U+5679:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "30.13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:54358:U+5679:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "16",
+      "sourceLocator": "Unihan_IRGSources.txt:line:54359:U+5679:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "トウ",
+      "sourceLocator": "Unihan_Readings.txt:line:51733:U+5679:kJapanese"
+    },
+    "kJapaneseOn": {
+      "value": "TOU",
+      "sourceLocator": "Unihan_Readings.txt:line:51734:U+5679:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "dāng",
+      "sourceLocator": "Unihan_Readings.txt:line:51735:U+5679:kMandarin"
+    }
+  },
+  "嚮": {
+    "kSimplifiedVariant": {
+      "value": "U+5411",
+      "sourceLocator": "Unihan_Variants.txt:line:2197:U+56AE:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "30.16",
+      "sourceLocator": "Unihan_IRGSources.txt:line:54765:U+56AE:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "17",
+      "sourceLocator": "Unihan_IRGSources.txt:line:54766:U+56AE:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "キョウ コウ さきに むかう",
+      "sourceLocator": "Unihan_Readings.txt:line:52172:U+56AE:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MUKAU SAKINI",
+      "sourceLocator": "Unihan_Readings.txt:line:52173:U+56AE:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KOU KYOU",
+      "sourceLocator": "Unihan_Readings.txt:line:52174:U+56AE:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "xiàng",
+      "sourceLocator": "Unihan_Readings.txt:line:52176:U+56AE:kMandarin"
+    },
+    "kAlternateTotalStrokes": {
+      "value": "19:J",
+      "sourceLocator": "Unihan_DictionaryLikeData.txt:line:26948:U+56AE:kAlternateTotalStrokes"
+    }
+  },
+  "团": {
+    "kTraditionalVariant": {
+      "value": "U+5718 U+7CF0",
+      "sourceLocator": "Unihan_Variants.txt:line:2236:U+56E2:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "31.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:55167:U+56E2:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:55168:U+56E2:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "シュウ",
+      "sourceLocator": "Unihan_Readings.txt:line:52644:U+56E2:kJapanese"
+    },
+    "kJapaneseOn": {
+      "value": "SHUU",
+      "sourceLocator": "Unihan_Readings.txt:line:52645:U+56E2:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tuán",
+      "sourceLocator": "Unihan_Readings.txt:line:52646:U+56E2:kMandarin"
+    }
+  },
+  "圆": {
+    "kTraditionalVariant": {
+      "value": "U+5713",
+      "sourceLocator": "Unihan_Variants.txt:line:2258:U+5706:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "31.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:55430:U+5706:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:55431:U+5706:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "yuán",
+      "sourceLocator": "Unihan_Readings.txt:line:52973:U+5706:kMandarin"
+    }
+  },
+  "圓": {
+    "kSimplifiedVariant": {
+      "value": "U+5706",
+      "sourceLocator": "Unihan_Variants.txt:line:2264:U+5713:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "31.10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:55535:U+5713:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:55536:U+5713:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "エン オン ウン まるい",
+      "sourceLocator": "Unihan_Readings.txt:line:53116:U+5713:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MARUI",
+      "sourceLocator": "Unihan_Readings.txt:line:53117:U+5713:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "EN",
+      "sourceLocator": "Unihan_Readings.txt:line:53118:U+5713:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yuán",
+      "sourceLocator": "Unihan_Readings.txt:line:53120:U+5713:kMandarin"
+    }
+  },
+  "團": {
+    "kSimplifiedVariant": {
+      "value": "U+56E2",
+      "sourceLocator": "Unihan_Variants.txt:line:2268:U+5718:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "31.11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:55574:U+5718:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "14",
+      "sourceLocator": "Unihan_IRGSources.txt:line:55575:U+5718:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "タン ダン セン ゼン トン ドン まるい",
+      "sourceLocator": "Unihan_Readings.txt:line:53164:U+5718:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MARUI KATAMARI",
+      "sourceLocator": "Unihan_Readings.txt:line:53165:U+5718:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "DAN TON DON",
+      "sourceLocator": "Unihan_Readings.txt:line:53166:U+5718:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tuán",
+      "sourceLocator": "Unihan_Readings.txt:line:53168:U+5718:kMandarin"
+    }
+  },
+  "壳": {
+    "kSimplifiedVariant": {
+      "value": "U+58F3",
+      "sourceLocator": "Unihan_Variants.txt:line:2476:U+58F3:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+58F3 U+6BBB U+6BBC",
+      "sourceLocator": "Unihan_Variants.txt:line:2478:U+58F3:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "33.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:59129:U+58F3:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:59130:U+58F3:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "カク",
+      "sourceLocator": "Unihan_Readings.txt:line:57365:U+58F3:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KARA",
+      "sourceLocator": "Unihan_Readings.txt:line:57366:U+58F3:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KAKU",
+      "sourceLocator": "Unihan_Readings.txt:line:57367:U+58F3:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "ké",
+      "sourceLocator": "Unihan_Readings.txt:line:57368:U+58F3:kMandarin"
+    }
+  },
+  "孙": {
+    "kSimplifiedVariant": {
+      "value": "U+5B59",
+      "sourceLocator": "Unihan_Variants.txt:line:2704:U+5B59:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+5B59 U+5B6B",
+      "sourceLocator": "Unihan_Variants.txt:line:2705:U+5B59:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "39.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:63804:U+5B59:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:63805:U+5B59:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "sūn",
+      "sourceLocator": "Unihan_Readings.txt:line:62788:U+5B59:kMandarin"
+    }
+  },
+  "孫": {
+    "kSimplifiedVariant": {
+      "value": "U+5B59",
+      "sourceLocator": "Unihan_Variants.txt:line:2711:U+5B6B:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "39.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:63949:U+5B6B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:63950:U+5B6B:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:30912:U+5B6B:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ソン まご",
+      "sourceLocator": "Unihan_Readings.txt:line:62977:U+5B6B:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MAGO",
+      "sourceLocator": "Unihan_Readings.txt:line:62978:U+5B6B:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SON",
+      "sourceLocator": "Unihan_Readings.txt:line:62979:U+5B6B:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "sūn",
+      "sourceLocator": "Unihan_Readings.txt:line:62981:U+5B6B:kMandarin"
+    }
+  },
+  "幾": {
+    "kSimplifiedVariant": {
+      "value": "U+51E0",
+      "sourceLocator": "Unihan_Variants.txt:line:3060:U+5E7E:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "52.9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:69961:U+5E7E:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:69962:U+5E7E:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:37225:U+5E7E:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "キ ケ ゲ いく ちかい ほとんど",
+      "sourceLocator": "Unihan_Readings.txt:line:70215:U+5E7E:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "IKU KIZASHI CHIKAI",
+      "sourceLocator": "Unihan_Readings.txt:line:70216:U+5E7E:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KI",
+      "sourceLocator": "Unihan_Readings.txt:line:70217:U+5E7E:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jǐ",
+      "sourceLocator": "Unihan_Readings.txt:line:70219:U+5E7E:kMandarin"
+    }
+  },
+  "当": {
+    "kSimplifiedVariant": {
+      "value": "U+5F53",
+      "sourceLocator": "Unihan_Variants.txt:line:3182:U+5F53:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+5679 U+5F53 U+7576",
+      "sourceLocator": "Unihan_Variants.txt:line:3184:U+5F53:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "58.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:71652:U+5F53:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:71653:U+5F53:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:39029:U+5F53:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "トウ あたる あてる",
+      "sourceLocator": "Unihan_Readings.txt:line:72297:U+5F53:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ATARU ATERU ATE",
+      "sourceLocator": "Unihan_Readings.txt:line:72298:U+5F53:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "TOU",
+      "sourceLocator": "Unihan_Readings.txt:line:72299:U+5F53:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "dāng",
+      "sourceLocator": "Unihan_Readings.txt:line:72301:U+5F53:kMandarin"
+    }
+  },
+  "惊": {
+    "kTraditionalVariant": {
+      "value": "U+9A5A",
+      "sourceLocator": "Unihan_Variants.txt:line:3332:U+60CA:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "61.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:74633:U+60CA:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:74634:U+60CA:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "リョウ",
+      "sourceLocator": "Unihan_Readings.txt:line:75939:U+60CA:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KANASHIMU",
+      "sourceLocator": "Unihan_Readings.txt:line:75940:U+60CA:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "RYOU",
+      "sourceLocator": "Unihan_Readings.txt:line:75941:U+60CA:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jīng",
+      "sourceLocator": "Unihan_Readings.txt:line:75942:U+60CA:kMandarin"
+    }
+  },
+  "戠": {
+    "kSimplifiedVariant": {
+      "value": "U+53EA U+6220",
+      "sourceLocator": "Unihan_Variants.txt:line:3510:U+6220:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+6220",
+      "sourceLocator": "Unihan_Variants.txt:line:3511:U+6220:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "62.9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:77416:U+6220:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:77417:U+6220:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ショク シキ シ",
+      "sourceLocator": "Unihan_Readings.txt:line:79185:U+6220:kJapanese"
+    },
+    "kJapaneseOn": {
+      "value": "SHOKU SHIKI SHI",
+      "sourceLocator": "Unihan_Readings.txt:line:79186:U+6220:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhī",
+      "sourceLocator": "Unihan_Readings.txt:line:79187:U+6220:kMandarin"
+    }
+  },
+  "才": {
+    "kSimplifiedVariant": {
+      "value": "U+624D",
+      "sourceLocator": "Unihan_Variants.txt:line:3536:U+624D:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+624D U+7E94",
+      "sourceLocator": "Unihan_Variants.txt:line:3538:U+624D:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "64.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:77793:U+624D:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:77794:U+624D:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:45515:U+624D:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "サイ ザイ わずかに ざえ",
+      "sourceLocator": "Unihan_Readings.txt:line:79680:U+624D:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "WAZUKANI ZAE",
+      "sourceLocator": "Unihan_Readings.txt:line:79681:U+624D:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SAI ZAI",
+      "sourceLocator": "Unihan_Readings.txt:line:79682:U+624D:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "cái",
+      "sourceLocator": "Unihan_Readings.txt:line:79684:U+624D:kMandarin"
+    }
+  },
+  "挂": {
+    "kSimplifiedVariant": {
+      "value": "U+6302",
+      "sourceLocator": "Unihan_Variants.txt:line:3616:U+6302:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+6302 U+639B",
+      "sourceLocator": "Unihan_Variants.txt:line:3617:U+6302:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "64.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:79301:U+6302:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:79302:U+6302:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "カイ ケ ケイ カ かける",
+      "sourceLocator": "Unihan_Readings.txt:line:81515:U+6302:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KAKERU",
+      "sourceLocator": "Unihan_Readings.txt:line:81516:U+6302:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KEI KAI KE",
+      "sourceLocator": "Unihan_Readings.txt:line:81517:U+6302:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "guà",
+      "sourceLocator": "Unihan_Readings.txt:line:81519:U+6302:kMandarin"
+    }
+  },
+  "掛": {
+    "kSimplifiedVariant": {
+      "value": "U+6302",
+      "sourceLocator": "Unihan_Variants.txt:line:3690:U+639B:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "64.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:80507:U+639B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:80508:U+639B:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:48387:U+639B:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "カイ ケ カ かける かかる かかり かけ",
+      "sourceLocator": "Unihan_Readings.txt:line:82918:U+639B:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KAKERU KAKARU KAKARI",
+      "sourceLocator": "Unihan_Readings.txt:line:82919:U+639B:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KA KAI",
+      "sourceLocator": "Unihan_Readings.txt:line:82920:U+639B:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "guà",
+      "sourceLocator": "Unihan_Readings.txt:line:82922:U+639B:kMandarin"
+    }
+  },
+  "曏": {
+    "kSimplifiedVariant": {
+      "value": "U+5411",
+      "sourceLocator": "Unihan_Variants.txt:line:4098:U+66CF:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "72.13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:87128:U+66CF:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "15",
+      "sourceLocator": "Unihan_IRGSources.txt:line:87129:U+66CF:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "コウ キョウ ショウ さきに",
+      "sourceLocator": "Unihan_Readings.txt:line:90595:U+66CF:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SAKINI",
+      "sourceLocator": "Unihan_Readings.txt:line:90596:U+66CF:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KYOU KOU SHOU",
+      "sourceLocator": "Unihan_Readings.txt:line:90597:U+66CF:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "xiǎng",
+      "sourceLocator": "Unihan_Readings.txt:line:90598:U+66CF:kMandarin"
+    },
+    "kAlternateTotalStrokes": {
+      "value": "17:J",
+      "sourceLocator": "Unihan_DictionaryLikeData.txt:line:47655:U+66CF:kAlternateTotalStrokes"
+    }
+  },
+  "条": {
+    "kTraditionalVariant": {
+      "value": "U+689D",
+      "sourceLocator": "Unihan_Variants.txt:line:4169:U+6761:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "75.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:88317:U+6761:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:88318:U+6761:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:56446:U+6761:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ジョウ チョウ テキ えだ すじ",
+      "sourceLocator": "Unihan_Readings.txt:line:92049:U+6761:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "EDA SUJI",
+      "sourceLocator": "Unihan_Readings.txt:line:92050:U+6761:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "JOU",
+      "sourceLocator": "Unihan_Readings.txt:line:92051:U+6761:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tiáo",
+      "sourceLocator": "Unihan_Readings.txt:line:92053:U+6761:kMandarin"
+    }
+  },
+  "條": {
+    "kSimplifiedVariant": {
+      "value": "U+6761",
+      "sourceLocator": "Unihan_Variants.txt:line:4284:U+689D:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "75.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:90784:U+689D:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:90785:U+689D:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ジョウ チョウ テキ ジャク すじ",
+      "sourceLocator": "Unihan_Readings.txt:line:94893:U+689D:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "EDA SUJI",
+      "sourceLocator": "Unihan_Readings.txt:line:94894:U+689D:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "JOU CHOU DEKI",
+      "sourceLocator": "Unihan_Readings.txt:line:94895:U+689D:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tiáo",
+      "sourceLocator": "Unihan_Readings.txt:line:94897:U+689D:kMandarin"
+    }
+  },
+  "欢": {
+    "kSimplifiedVariant": {
+      "value": "U+6B22",
+      "sourceLocator": "Unihan_Variants.txt:line:4558:U+6B22:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+6B61 U+6B22",
+      "sourceLocator": "Unihan_Variants.txt:line:4559:U+6B22:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "76.2 29.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:95818:U+6B22:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:95819:U+6B22:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "huān",
+      "sourceLocator": "Unihan_Readings.txt:line:100205:U+6B22:kMandarin"
+    }
+  },
+  "歡": {
+    "kSimplifiedVariant": {
+      "value": "U+6B22",
+      "sourceLocator": "Unihan_Variants.txt:line:4589:U+6B61:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "76.18",
+      "sourceLocator": "Unihan_IRGSources.txt:line:96331:U+6B61:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "21",
+      "sourceLocator": "Unihan_IRGSources.txt:line:96332:U+6B61:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "カン よろこぶ",
+      "sourceLocator": "Unihan_Readings.txt:line:100766:U+6B61:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "YOROKOBU",
+      "sourceLocator": "Unihan_Readings.txt:line:100767:U+6B61:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KAN",
+      "sourceLocator": "Unihan_Readings.txt:line:100768:U+6B61:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "huān",
+      "sourceLocator": "Unihan_Readings.txt:line:100770:U+6B61:kMandarin"
+    }
+  },
+  "殻": {
+    "kSimplifiedVariant": {
+      "value": "U+58F3",
+      "sourceLocator": "Unihan_Variants.txt:line:4634:U+6BBB:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "79.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:97048:U+6BBB:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:97049:U+6BBB:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:65160:U+6BBB:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "カク コク から",
+      "sourceLocator": "Unihan_Readings.txt:line:101610:U+6BBB:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KARA",
+      "sourceLocator": "Unihan_Readings.txt:line:101611:U+6BBB:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KAKU KOKU",
+      "sourceLocator": "Unihan_Readings.txt:line:101612:U+6BBB:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "qiào",
+      "sourceLocator": "Unihan_Readings.txt:line:101614:U+6BBB:kMandarin"
+    }
+  },
+  "殼": {
+    "kSimplifiedVariant": {
+      "value": "U+58F3",
+      "sourceLocator": "Unihan_Variants.txt:line:4637:U+6BBC:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "79.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:97057:U+6BBC:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:97058:U+6BBC:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "カク コク キャク から",
+      "sourceLocator": "Unihan_Readings.txt:line:101622:U+6BBC:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KARA",
+      "sourceLocator": "Unihan_Readings.txt:line:101623:U+6BBC:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KAKU KOKU",
+      "sourceLocator": "Unihan_Readings.txt:line:101624:U+6BBC:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "ké",
+      "sourceLocator": "Unihan_Readings.txt:line:101626:U+6BBC:kMandarin"
+    }
+  },
+  "沒": {
+    "kSimplifiedVariant": {
+      "value": "U+6CA1",
+      "sourceLocator": "Unihan_Variants.txt:line:4716:U+6C92:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "85.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:98730:U+6C92:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:98731:U+6C92:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ボツ モチ バイ メ バ マ モツ しずむ",
+      "sourceLocator": "Unihan_Readings.txt:line:103560:U+6C92:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SHIZUMU OWARU SHINU",
+      "sourceLocator": "Unihan_Readings.txt:line:103561:U+6C92:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "BOTSU BAI BA",
+      "sourceLocator": "Unihan_Readings.txt:line:103562:U+6C92:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "méi",
+      "sourceLocator": "Unihan_Readings.txt:line:103564:U+6C92:kMandarin"
+    }
+  },
+  "没": {
+    "kSimplifiedVariant": {
+      "value": "U+6CA1",
+      "sourceLocator": "Unihan_Variants.txt:line:4721:U+6CA1:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+6C92 U+6CA1",
+      "sourceLocator": "Unihan_Variants.txt:line:4723:U+6CA1:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "85.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:98858:U+6CA1:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:98859:U+6CA1:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:67171:U+6CA1:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ボツ モツ バイ マイ バ マ つきる しぬ おぼれる しずむ ぼっする",
+      "sourceLocator": "Unihan_Readings.txt:line:103715:U+6CA1:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SHIZUMU OBORERU SHINU",
+      "sourceLocator": "Unihan_Readings.txt:line:103716:U+6CA1:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "BOTSU",
+      "sourceLocator": "Unihan_Readings.txt:line:103717:U+6CA1:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "méi",
+      "sourceLocator": "Unihan_Readings.txt:line:103718:U+6CA1:kMandarin"
+    }
+  },
+  "点": {
+    "kSimplifiedVariant": {
+      "value": "U+70B9",
+      "sourceLocator": "Unihan_Variants.txt:line:5196:U+70B9:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+70B9 U+9EDE",
+      "sourceLocator": "Unihan_Variants.txt:line:5197:U+70B9:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "86.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:107173:U+70B9:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:107174:U+70B9:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:75862:U+70B9:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "テン セン タ",
+      "sourceLocator": "Unihan_Readings.txt:line:112953:U+70B9:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "BOCHI",
+      "sourceLocator": "Unihan_Readings.txt:line:112954:U+70B9:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "TEN",
+      "sourceLocator": "Unihan_Readings.txt:line:112955:U+70B9:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "diǎn",
+      "sourceLocator": "Unihan_Readings.txt:line:112957:U+70B9:kMandarin"
+    }
+  },
+  "當": {
+    "kSimplifiedVariant": {
+      "value": "U+5F53",
+      "sourceLocator": "Unihan_Variants.txt:line:5636:U+7576:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "102.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:116709:U+7576:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:116710:U+7576:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "トウ あたる",
+      "sourceLocator": "Unihan_Readings.txt:line:123165:U+7576:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ATARU",
+      "sourceLocator": "Unihan_Readings.txt:line:123166:U+7576:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "TOU",
+      "sourceLocator": "Unihan_Readings.txt:line:123167:U+7576:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "dāng",
+      "sourceLocator": "Unihan_Readings.txt:line:123169:U+7576:kMandarin"
+    }
+  },
+  "發": {
+    "kSimplifiedVariant": {
+      "value": "U+53D1",
+      "sourceLocator": "Unihan_Variants.txt:line:5758:U+767C:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "105.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:118770:U+767C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:118771:U+767C:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ハツ ホチ ハイ ヘ ホツ ハチ はなつ",
+      "sourceLocator": "Unihan_Readings.txt:line:125577:U+767C:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HANATSU TSUKAWASU ABAKU",
+      "sourceLocator": "Unihan_Readings.txt:line:125578:U+767C:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HOTSU HATSU",
+      "sourceLocator": "Unihan_Readings.txt:line:125579:U+767C:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "fā",
+      "sourceLocator": "Unihan_Readings.txt:line:125581:U+767C:kMandarin"
+    }
+  },
+  "秋": {
+    "kSimplifiedVariant": {
+      "value": "U+79CB",
+      "sourceLocator": "Unihan_Variants.txt:line:6085:U+79CB:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+79CB U+97A6",
+      "sourceLocator": "Unihan_Variants.txt:line:6086:U+79CB:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "115.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:125355:U+79CB:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:125356:U+79CB:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:94532:U+79CB:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "シュウ シュ あき とき",
+      "sourceLocator": "Unihan_Readings.txt:line:132766:U+79CB:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "AKI TOKI",
+      "sourceLocator": "Unihan_Readings.txt:line:132767:U+79CB:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHUU",
+      "sourceLocator": "Unihan_Readings.txt:line:132768:U+79CB:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "qiū",
+      "sourceLocator": "Unihan_Readings.txt:line:132770:U+79CB:kMandarin"
+    }
+  },
+  "糰": {
+    "kSimplifiedVariant": {
+      "value": "U+56E2 U+30AB6",
+      "sourceLocator": "Unihan_Variants.txt:line:6428:U+7CF0:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "119.14",
+      "sourceLocator": "Unihan_IRGSources.txt:line:131580:U+7CF0:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "20",
+      "sourceLocator": "Unihan_IRGSources.txt:line:131581:U+7CF0:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "タン ダン だんご",
+      "sourceLocator": "Unihan_Readings.txt:line:139657:U+7CF0:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "DANGO",
+      "sourceLocator": "Unihan_Readings.txt:line:139658:U+7CF0:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "DAN",
+      "sourceLocator": "Unihan_Readings.txt:line:139659:U+7CF0:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tuán",
+      "sourceLocator": "Unihan_Readings.txt:line:139661:U+7CF0:kMandarin"
+    }
+  },
+  "給": {
+    "kSimplifiedVariant": {
+      "value": "U+7ED9",
+      "sourceLocator": "Unihan_Variants.txt:line:6543:U+7D66:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "120.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:132563:U+7D66:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:132564:U+7D66:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:101735:U+7D66:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "キュウ キョウ ゴウ ヨウ コウ ギョウ たまう",
+      "sourceLocator": "Unihan_Readings.txt:line:140759:U+7D66:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TAMAU",
+      "sourceLocator": "Unihan_Readings.txt:line:140760:U+7D66:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KYUU KYOU",
+      "sourceLocator": "Unihan_Readings.txt:line:140761:U+7D66:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "gěi",
+      "sourceLocator": "Unihan_Readings.txt:line:140763:U+7D66:kMandarin"
+    }
+  },
+  "纔": {
+    "kSimplifiedVariant": {
+      "value": "U+624D",
+      "sourceLocator": "Unihan_Variants.txt:line:6820:U+7E94:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "120.17",
+      "sourceLocator": "Unihan_IRGSources.txt:line:135042:U+7E94:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "23",
+      "sourceLocator": "Unihan_IRGSources.txt:line:135043:U+7E94:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "サイ サン わずか",
+      "sourceLocator": "Unihan_Readings.txt:line:143427:U+7E94:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "WAZUKA",
+      "sourceLocator": "Unihan_Readings.txt:line:143428:U+7E94:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SAN SAI",
+      "sourceLocator": "Unihan_Readings.txt:line:143429:U+7E94:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "cái",
+      "sourceLocator": "Unihan_Readings.txt:line:143431:U+7E94:kMandarin"
+    }
+  },
+  "给": {
+    "kTraditionalVariant": {
+      "value": "U+7D66",
+      "sourceLocator": "Unihan_Variants.txt:line:6888:U+7ED9:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "120'.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:135353:U+7ED9:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:135354:U+7ED9:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "gěi",
+      "sourceLocator": "Unihan_Readings.txt:line:143857:U+7ED9:kMandarin"
+    }
+  },
+  "聽": {
+    "kSimplifiedVariant": {
+      "value": "U+542C",
+      "sourceLocator": "Unihan_Variants.txt:line:7127:U+807D:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "128.16",
+      "sourceLocator": "Unihan_IRGSources.txt:line:138285:U+807D:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "22",
+      "sourceLocator": "Unihan_IRGSources.txt:line:138286:U+807D:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "テイ チョウ きく",
+      "sourceLocator": "Unihan_Readings.txt:line:147360:U+807D:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KIKU YURUSU",
+      "sourceLocator": "Unihan_Readings.txt:line:147361:U+807D:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "CHOU TEI",
+      "sourceLocator": "Unihan_Readings.txt:line:147362:U+807D:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tīng",
+      "sourceLocator": "Unihan_Readings.txt:line:147364:U+807D:kMandarin"
+    }
+  },
+  "藉": {
+    "kSimplifiedVariant": {
+      "value": "U+501F U+85C9",
+      "sourceLocator": "Unihan_Variants.txt:line:7696:U+85C9:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+85C9",
+      "sourceLocator": "Unihan_Variants.txt:line:7697:U+85C9:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "140.14",
+      "sourceLocator": "Unihan_IRGSources.txt:line:148837:U+85C9:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "17",
+      "sourceLocator": "Unihan_IRGSources.txt:line:148838:U+85C9:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "シャ ジャク セキ ジャ かりる ふむ しく",
+      "sourceLocator": "Unihan_Readings.txt:line:159369:U+85C9:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SHIKU KARI FUMU",
+      "sourceLocator": "Unihan_Readings.txt:line:159370:U+85C9:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHA SEKI JAKU",
+      "sourceLocator": "Unihan_Readings.txt:line:159371:U+85C9:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jí",
+      "sourceLocator": "Unihan_Readings.txt:line:159373:U+85C9:kMandarin"
+    }
+  },
+  "蚕": {
+    "kSimplifiedVariant": {
+      "value": "U+8695",
+      "sourceLocator": "Unihan_Variants.txt:line:7807:U+8695:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+8695 U+8836",
+      "sourceLocator": "Unihan_Variants.txt:line:7809:U+8695:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "142.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:150415:U+8695:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:150416:U+8695:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:120136:U+8695:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "サン テン ゾン かいこ みみず",
+      "sourceLocator": "Unihan_Readings.txt:line:160989:U+8695:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KAIKO",
+      "sourceLocator": "Unihan_Readings.txt:line:160990:U+8695:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SAN TEN",
+      "sourceLocator": "Unihan_Readings.txt:line:160991:U+8695:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "cán",
+      "sourceLocator": "Unihan_Readings.txt:line:160993:U+8695:kMandarin"
+    }
+  },
+  "蠶": {
+    "kSimplifiedVariant": {
+      "value": "U+8695",
+      "sourceLocator": "Unihan_Variants.txt:line:7978:U+8836:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "142.18",
+      "sourceLocator": "Unihan_IRGSources.txt:line:153708:U+8836:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "24",
+      "sourceLocator": "Unihan_IRGSources.txt:line:153709:U+8836:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "サン ザン かいこ",
+      "sourceLocator": "Unihan_Readings.txt:line:164445:U+8836:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KAIKO",
+      "sourceLocator": "Unihan_Readings.txt:line:164446:U+8836:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SAN TEN",
+      "sourceLocator": "Unihan_Readings.txt:line:164447:U+8836:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "cán",
+      "sourceLocator": "Unihan_Readings.txt:line:164449:U+8836:kMandarin"
+    },
+    "kAlternateTotalStrokes": {
+      "value": "26:J",
+      "sourceLocator": "Unihan_DictionaryLikeData.txt:line:88997:U+8836:kAlternateTotalStrokes"
+    }
+  },
+  "衕": {
+    "kSimplifiedVariant": {
+      "value": "U+540C",
+      "sourceLocator": "Unihan_Variants.txt:line:7994:U+8855:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "144.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:153959:U+8855:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:153960:U+8855:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "トウ ズ",
+      "sourceLocator": "Unihan_Readings.txt:line:164729:U+8855:kJapanese"
+    },
+    "kJapaneseOn": {
+      "value": "TOU ZU",
+      "sourceLocator": "Unihan_Readings.txt:line:164730:U+8855:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tòng",
+      "sourceLocator": "Unihan_Readings.txt:line:164731:U+8855:kMandarin"
+    }
+  },
+  "衹": {
+    "kSimplifiedVariant": {
+      "value": "U+53EA",
+      "sourceLocator": "Unihan_Variants.txt:line:8013:U+8879:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "145.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:154255:U+8879:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:154256:U+8879:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "キ ギ シ テイ タイ",
+      "sourceLocator": "Unihan_Readings.txt:line:165075:U+8879:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TAMATAMA",
+      "sourceLocator": "Unihan_Readings.txt:line:165076:U+8879:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KI GI SHI TEI TAI",
+      "sourceLocator": "Unihan_Readings.txt:line:165077:U+8879:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhǐ",
+      "sourceLocator": "Unihan_Readings.txt:line:165078:U+8879:kMandarin"
+    }
+  },
+  "規": {
+    "kSimplifiedVariant": {
+      "value": "U+89C4",
+      "sourceLocator": "Unihan_Variants.txt:line:8141:U+898F:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "147.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:156409:U+898F:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:156410:U+898F:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:126036:U+898F:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "キ ケイ エ ケキ キャク ただす のり ぶんまわし",
+      "sourceLocator": "Unihan_Readings.txt:line:167403:U+898F:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "BUNMAWASHI NORI TADASU",
+      "sourceLocator": "Unihan_Readings.txt:line:167404:U+898F:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KI",
+      "sourceLocator": "Unihan_Readings.txt:line:167405:U+898F:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "guī",
+      "sourceLocator": "Unihan_Readings.txt:line:167407:U+898F:kMandarin"
+    }
+  },
+  "规": {
+    "kTraditionalVariant": {
+      "value": "U+898F",
+      "sourceLocator": "Unihan_Variants.txt:line:8192:U+89C4:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "147'.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:156819:U+89C4:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:156820:U+89C4:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "guī",
+      "sourceLocator": "Unihan_Readings.txt:line:167835:U+89C4:kMandarin"
+    }
+  },
+  "語": {
+    "kSimplifiedVariant": {
+      "value": "U+8BED",
+      "sourceLocator": "Unihan_Variants.txt:line:8379:U+8A9E:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "149.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:158524:U+8A9E:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "14",
+      "sourceLocator": "Unihan_IRGSources.txt:line:158525:U+8A9E:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:128046:U+8A9E:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ゴ ギョ かたる かたらう ことば つげる",
+      "sourceLocator": "Unihan_Readings.txt:line:169717:U+8A9E:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KATARU KOTOBA TSUGERU",
+      "sourceLocator": "Unihan_Readings.txt:line:169718:U+8A9E:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "GO GYO",
+      "sourceLocator": "Unihan_Readings.txt:line:169719:U+8A9E:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yǔ",
+      "sourceLocator": "Unihan_Readings.txt:line:169721:U+8A9E:kMandarin"
+    }
+  },
+  "說": {
+    "kSimplifiedVariant": {
+      "value": "U+8BF4",
+      "sourceLocator": "Unihan_Variants.txt:line:8390:U+8AAA:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "149.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:158629:U+8AAA:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "14",
+      "sourceLocator": "Unihan_IRGSources.txt:line:158630:U+8AAA:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "セツ ゼイ ネ セイ セ タツ セチ エツ とく",
+      "sourceLocator": "Unihan_Readings.txt:line:169848:U+8AAA:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TOKU YOROKOBU",
+      "sourceLocator": "Unihan_Readings.txt:line:169849:U+8AAA:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SETSU ZEI ETSU",
+      "sourceLocator": "Unihan_Readings.txt:line:169850:U+8AAA:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shuō",
+      "sourceLocator": "Unihan_Readings.txt:line:169852:U+8AAA:kMandarin"
+    }
+  },
+  "説": {
+    "kSimplifiedVariant": {
+      "value": "U+8BF4",
+      "sourceLocator": "Unihan_Variants.txt:line:8393:U+8AAC:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "149.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:158645:U+8AAC:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "14",
+      "sourceLocator": "Unihan_IRGSources.txt:line:158646:U+8AAC:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:128161:U+8AAC:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セツ ゼイ エツ タツ セイ とく よろこぶ",
+      "sourceLocator": "Unihan_Readings.txt:line:169860:U+8AAC:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TOKU YOROKOBU",
+      "sourceLocator": "Unihan_Readings.txt:line:169861:U+8AAC:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SETSU ZEI ETSU",
+      "sourceLocator": "Unihan_Readings.txt:line:169862:U+8AAC:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shuō",
+      "sourceLocator": "Unihan_Readings.txt:line:169864:U+8AAC:kMandarin"
+    }
+  },
+  "請": {
+    "kSimplifiedVariant": {
+      "value": "U+8BF7",
+      "sourceLocator": "Unihan_Variants.txt:line:8420:U+8ACB:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "149.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:158896:U+8ACB:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "15",
+      "sourceLocator": "Unihan_IRGSources.txt:line:158897:U+8ACB:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:128384:U+8ACB:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セイ シン ショウ ジョウ こう うける",
+      "sourceLocator": "Unihan_Readings.txt:line:170113:U+8ACB:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KOU UKERU KOI",
+      "sourceLocator": "Unihan_Readings.txt:line:170114:U+8ACB:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEI SHOU SHIN",
+      "sourceLocator": "Unihan_Readings.txt:line:170115:U+8ACB:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "qǐng",
+      "sourceLocator": "Unihan_Readings.txt:line:170117:U+8ACB:kMandarin"
+    }
+  },
+  "语": {
+    "kTraditionalVariant": {
+      "value": "U+8A9E",
+      "sourceLocator": "Unihan_Variants.txt:line:8692:U+8BED:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "149'.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:160950:U+8BED:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:160951:U+8BED:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "yǔ",
+      "sourceLocator": "Unihan_Readings.txt:line:172350:U+8BED:kMandarin"
+    }
+  },
+  "说": {
+    "kTraditionalVariant": {
+      "value": "U+8AAA U+8AAC",
+      "sourceLocator": "Unihan_Variants.txt:line:8699:U+8BF4:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "149'.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:160978:U+8BF4:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:160979:U+8BF4:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "shuō",
+      "sourceLocator": "Unihan_Readings.txt:line:172388:U+8BF4:kMandarin"
+    }
+  },
+  "请": {
+    "kTraditionalVariant": {
+      "value": "U+8ACB",
+      "sourceLocator": "Unihan_Variants.txt:line:8702:U+8BF7:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "149'.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:160989:U+8BF7:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:160990:U+8BF7:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "qǐng",
+      "sourceLocator": "Unihan_Readings.txt:line:172404:U+8BF7:kMandarin"
+    }
+  },
+  "軍": {
+    "kSimplifiedVariant": {
+      "value": "U+519B",
+      "sourceLocator": "Unihan_Variants.txt:line:9174:U+8ECD:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "159.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:166235:U+8ECD:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:166236:U+8ECD:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:135703:U+8ECD:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "グン クン いくさ",
+      "sourceLocator": "Unihan_Readings.txt:line:178367:U+8ECD:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TSUWAMONO IKUSA",
+      "sourceLocator": "Unihan_Readings.txt:line:178368:U+8ECD:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "GUN KUN",
+      "sourceLocator": "Unihan_Readings.txt:line:178369:U+8ECD:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jūn",
+      "sourceLocator": "Unihan_Readings.txt:line:178371:U+8ECD:kMandarin"
+    }
+  },
+  "辦": {
+    "kSimplifiedVariant": {
+      "value": "U+529E",
+      "sourceLocator": "Unihan_Variants.txt:line:9388:U+8FA6:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "160.9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:167752:U+8FA6:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "16",
+      "sourceLocator": "Unihan_IRGSources.txt:line:167753:U+8FA6:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ハン ベン あつかう さばく そなえる つとめる ととのえる",
+      "sourceLocator": "Unihan_Readings.txt:line:180035:U+8FA6:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TSUTOMERU",
+      "sourceLocator": "Unihan_Readings.txt:line:180036:U+8FA6:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HAN BEN",
+      "sourceLocator": "Unihan_Readings.txt:line:180037:U+8FA6:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "bàn",
+      "sourceLocator": "Unihan_Readings.txt:line:180039:U+8FA6:kMandarin"
+    }
+  },
+  "边": {
+    "kSimplifiedVariant": {
+      "value": "U+8FB9",
+      "sourceLocator": "Unihan_Variants.txt:line:9402:U+8FB9:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+8FB9 U+908A",
+      "sourceLocator": "Unihan_Variants.txt:line:9403:U+8FB9:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "162.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:167896:U+8FB9:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:167897:U+8FB9:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ヘン",
+      "sourceLocator": "Unihan_Readings.txt:line:180212:U+8FB9:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ATARI BE HOTORI",
+      "sourceLocator": "Unihan_Readings.txt:line:180213:U+8FB9:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HEN",
+      "sourceLocator": "Unihan_Readings.txt:line:180214:U+8FB9:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "biān",
+      "sourceLocator": "Unihan_Readings.txt:line:180216:U+8FB9:kMandarin"
+    }
+  },
+  "进": {
+    "kTraditionalVariant": {
+      "value": "U+9032",
+      "sourceLocator": "Unihan_Variants.txt:line:9424:U+8FDB:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "162.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:168155:U+8FDB:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:168156:U+8FDB:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "jìn",
+      "sourceLocator": "Unihan_Readings.txt:line:180521:U+8FDB:kMandarin"
+    }
+  },
+  "進": {
+    "kSimplifiedVariant": {
+      "value": "U+8FDB",
+      "sourceLocator": "Unihan_Variants.txt:line:9472:U+9032:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "162.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:168869:U+9032:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:168870:U+9032:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:138385:U+9032:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "シン ジン すすむ すすめる じょう",
+      "sourceLocator": "Unihan_Readings.txt:line:181447:U+9032:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SUSUMU SUSUMERU",
+      "sourceLocator": "Unihan_Readings.txt:line:181448:U+9032:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHIN JIN",
+      "sourceLocator": "Unihan_Readings.txt:line:181449:U+9032:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jìn",
+      "sourceLocator": "Unihan_Readings.txt:line:181451:U+9032:kMandarin"
+    }
+  },
+  "邊": {
+    "kSimplifiedVariant": {
+      "value": "U+8FB9",
+      "sourceLocator": "Unihan_Variants.txt:line:9521:U+908A:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "162.15",
+      "sourceLocator": "Unihan_IRGSources.txt:line:169624:U+908A:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "18",
+      "sourceLocator": "Unihan_IRGSources.txt:line:169625:U+908A:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ヘン あたり",
+      "sourceLocator": "Unihan_Readings.txt:line:182434:U+908A:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ATARI BE",
+      "sourceLocator": "Unihan_Readings.txt:line:182435:U+908A:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HEN",
+      "sourceLocator": "Unihan_Readings.txt:line:182436:U+908A:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "biān",
+      "sourceLocator": "Unihan_Readings.txt:line:182438:U+908A:kMandarin"
+    }
+  },
+  "醫": {
+    "kSimplifiedVariant": {
+      "value": "U+533B",
+      "sourceLocator": "Unihan_Variants.txt:line:9619:U+91AB:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "164.11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:171873:U+91AB:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "18",
+      "sourceLocator": "Unihan_IRGSources.txt:line:171874:U+91AB:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "イ エイ いやす",
+      "sourceLocator": "Unihan_Readings.txt:line:184972:U+91AB:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "IYASU KUSUSHI",
+      "sourceLocator": "Unihan_Readings.txt:line:184973:U+91AB:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "I",
+      "sourceLocator": "Unihan_Readings.txt:line:184974:U+91AB:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yī",
+      "sourceLocator": "Unihan_Readings.txt:line:184976:U+91AB:kMandarin"
+    }
+  },
+  "錢": {
+    "kSimplifiedVariant": {
+      "value": "U+94B1",
+      "sourceLocator": "Unihan_Variants.txt:line:9922:U+9322:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "167.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:174849:U+9322:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "16",
+      "sourceLocator": "Unihan_IRGSources.txt:line:174850:U+9322:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "セン ゼン ぜに",
+      "sourceLocator": "Unihan_Readings.txt:line:187965:U+9322:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ZENI SEN",
+      "sourceLocator": "Unihan_Readings.txt:line:187966:U+9322:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEN",
+      "sourceLocator": "Unihan_Readings.txt:line:187967:U+9322:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "qián",
+      "sourceLocator": "Unihan_Readings.txt:line:187969:U+9322:kMandarin"
+    }
+  },
+  "钱": {
+    "kTraditionalVariant": {
+      "value": "U+9322",
+      "sourceLocator": "Unihan_Variants.txt:line:10251:U+94B1:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "167'.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:177726:U+94B1:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:177727:U+94B1:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "qián",
+      "sourceLocator": "Unihan_Readings.txt:line:190806:U+94B1:kMandarin"
+    }
+  },
+  "門": {
+    "kSimplifiedVariant": {
+      "value": "U+95E8",
+      "sourceLocator": "Unihan_Variants.txt:line:10454:U+9580:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "169.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:178501:U+9580:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:178502:U+9580:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:147988:U+9580:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "モン ボン かど",
+      "sourceLocator": "Unihan_Readings.txt:line:191891:U+9580:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KADO",
+      "sourceLocator": "Unihan_Readings.txt:line:191892:U+9580:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "MON BON",
+      "sourceLocator": "Unihan_Readings.txt:line:191893:U+9580:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "mén",
+      "sourceLocator": "Unihan_Readings.txt:line:191895:U+9580:kMandarin"
+    }
+  },
+  "门": {
+    "kTraditionalVariant": {
+      "value": "U+9580",
+      "sourceLocator": "Unihan_Variants.txt:line:10545:U+95E8:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "169'.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:179327:U+95E8:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:179328:U+95E8:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "mén",
+      "sourceLocator": "Unihan_Readings.txt:line:192783:U+95E8:kMandarin"
+    }
+  },
+  "问": {
+    "kTraditionalVariant": {
+      "value": "U+554F",
+      "sourceLocator": "Unihan_Variants.txt:line:10551:U+95EE:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "169'.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:179350:U+95EE:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:179351:U+95EE:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "wèn",
+      "sourceLocator": "Unihan_Readings.txt:line:192814:U+95EE:kMandarin"
+    }
+  },
+  "隻": {
+    "kSimplifiedVariant": {
+      "value": "U+53EA",
+      "sourceLocator": "Unihan_Variants.txt:line:10701:U+96BB:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "172.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:180793:U+96BB:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:180794:U+96BB:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:150350:U+96BB:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セキ シャク ひとつ",
+      "sourceLocator": "Unihan_Readings.txt:line:194602:U+96BB:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HITOTSU",
+      "sourceLocator": "Unihan_Readings.txt:line:194603:U+96BB:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEKI",
+      "sourceLocator": "Unihan_Readings.txt:line:194604:U+96BB:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhī",
+      "sourceLocator": "Unihan_Readings.txt:line:194606:U+96BB:kMandarin"
+    }
+  },
+  "雙": {
+    "kSimplifiedVariant": {
+      "value": "U+53CC",
+      "sourceLocator": "Unihan_Variants.txt:line:10721:U+96D9:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "172.10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:181053:U+96D9:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "18",
+      "sourceLocator": "Unihan_IRGSources.txt:line:181054:U+96D9:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ソウ ふたつ",
+      "sourceLocator": "Unihan_Readings.txt:line:194922:U+96D9:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "FUTA FUTATSU NARABU",
+      "sourceLocator": "Unihan_Readings.txt:line:194923:U+96D9:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SOU",
+      "sourceLocator": "Unihan_Readings.txt:line:194924:U+96D9:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shuāng",
+      "sourceLocator": "Unihan_Readings.txt:line:194926:U+96D9:kMandarin"
+    }
+  },
+  "鞦": {
+    "kSimplifiedVariant": {
+      "value": "U+79CB",
+      "sourceLocator": "Unihan_Variants.txt:line:10800:U+97A6:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "177.9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:182673:U+97A6:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "18",
+      "sourceLocator": "Unihan_IRGSources.txt:line:182674:U+97A6:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "シュウ シュ しりがい",
+      "sourceLocator": "Unihan_Readings.txt:line:196713:U+97A6:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SHIRIGAI",
+      "sourceLocator": "Unihan_Readings.txt:line:196714:U+97A6:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHUU",
+      "sourceLocator": "Unihan_Readings.txt:line:196715:U+97A6:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "qiū",
+      "sourceLocator": "Unihan_Readings.txt:line:196717:U+97A6:kMandarin"
+    }
+  },
+  "飯": {
+    "kSimplifiedVariant": {
+      "value": "U+996D",
+      "sourceLocator": "Unihan_Variants.txt:line:11116:U+98EF:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "184.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:185024:U+98EF:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:185025:U+98EF:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:154546:U+98EF:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ハン めし",
+      "sourceLocator": "Unihan_Readings.txt:line:199382:U+98EF:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MESHI",
+      "sourceLocator": "Unihan_Readings.txt:line:199383:U+98EF:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HAN BON",
+      "sourceLocator": "Unihan_Readings.txt:line:199384:U+98EF:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "fàn",
+      "sourceLocator": "Unihan_Readings.txt:line:199386:U+98EF:kMandarin"
+    }
+  },
+  "餅": {
+    "kSimplifiedVariant": {
+      "value": "U+997C",
+      "sourceLocator": "Unihan_Variants.txt:line:11137:U+9905:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "184.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:185194:U+9905:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "14",
+      "sourceLocator": "Unihan_IRGSources.txt:line:185195:U+9905:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:154687:U+9905:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ヘイ もち",
+      "sourceLocator": "Unihan_Readings.txt:line:199560:U+9905:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MOCHI",
+      "sourceLocator": "Unihan_Readings.txt:line:199561:U+9905:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HEI HYOU",
+      "sourceLocator": "Unihan_Readings.txt:line:199562:U+9905:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "bǐng",
+      "sourceLocator": "Unihan_Readings.txt:line:199564:U+9905:kMandarin"
+    }
+  },
+  "饭": {
+    "kTraditionalVariant": {
+      "value": "U+98EF",
+      "sourceLocator": "Unihan_Variants.txt:line:11251:U+996D:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "184'.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:185971:U+996D:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:185972:U+996D:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "fàn",
+      "sourceLocator": "Unihan_Readings.txt:line:200431:U+996D:kMandarin"
+    }
+  },
+  "饼": {
+    "kTraditionalVariant": {
+      "value": "U+9905",
+      "sourceLocator": "Unihan_Variants.txt:line:11266:U+997C:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "184'.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:186029:U+997C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:186030:U+997C:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "bǐng",
+      "sourceLocator": "Unihan_Readings.txt:line:200512:U+997C:kMandarin"
+    }
+  },
+  "驚": {
+    "kSimplifiedVariant": {
+      "value": "U+60CA",
+      "sourceLocator": "Unihan_Variants.txt:line:11463:U+9A5A:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "187.13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:187704:U+9A5A:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "22",
+      "sourceLocator": "Unihan_IRGSources.txt:line:187705:U+9A5A:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:157047:U+9A5A:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "キョウ ケイ おどろく おどろかす",
+      "sourceLocator": "Unihan_Readings.txt:line:202249:U+9A5A:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ODOROKU ODOROKASU",
+      "sourceLocator": "Unihan_Readings.txt:line:202250:U+9A5A:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KYOU KEI",
+      "sourceLocator": "Unihan_Readings.txt:line:202251:U+9A5A:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jīng",
+      "sourceLocator": "Unihan_Readings.txt:line:202253:U+9A5A:kMandarin"
+    }
+  },
+  "髮": {
+    "kSimplifiedVariant": {
+      "value": "U+53D1",
+      "sourceLocator": "Unihan_Variants.txt:line:11565:U+9AEE:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "190.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:188628:U+9AEE:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "15",
+      "sourceLocator": "Unihan_IRGSources.txt:line:188629:U+9AEE:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ハツ ホチ かみ",
+      "sourceLocator": "Unihan_Readings.txt:line:203352:U+9AEE:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KAMI",
+      "sourceLocator": "Unihan_Readings.txt:line:203353:U+9AEE:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HATSU",
+      "sourceLocator": "Unihan_Readings.txt:line:203354:U+9AEE:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "fà fǎ",
+      "sourceLocator": "Unihan_Readings.txt:line:203356:U+9AEE:kMandarin"
+    }
+  },
+  "點": {
+    "kSimplifiedVariant": {
+      "value": "U+70B9",
+      "sourceLocator": "Unihan_Variants.txt:line:12398:U+9EDE:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "203.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:195628:U+9EDE:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "17",
+      "sourceLocator": "Unihan_IRGSources.txt:line:195629:U+9EDE:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "テン セン タ",
+      "sourceLocator": "Unihan_Readings.txt:line:210669:U+9EDE:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "BOCHI",
+      "sourceLocator": "Unihan_Readings.txt:line:210670:U+9EDE:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "TEN",
+      "sourceLocator": "Unihan_Readings.txt:line:210671:U+9EDE:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "diǎn",
+      "sourceLocator": "Unihan_Readings.txt:line:210673:U+9EDE:kMandarin"
+    }
+  },
+  "龜": {
+    "kSimplifiedVariant": {
+      "value": "U+9F9F",
+      "sourceLocator": "Unihan_Variants.txt:line:12537:U+9F9C:kSimplifiedVariant"
+    },
+    "kRSUnicode": {
+      "value": "213.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:197059:U+9F9C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "17",
+      "sourceLocator": "Unihan_IRGSources.txt:line:197060:U+9F9C:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "キ キュウ ク キン コン かめ",
+      "sourceLocator": "Unihan_Readings.txt:line:212260:U+9F9C:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KAME",
+      "sourceLocator": "Unihan_Readings.txt:line:212261:U+9F9C:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KI KYUU KIN",
+      "sourceLocator": "Unihan_Readings.txt:line:212262:U+9F9C:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "guī",
+      "sourceLocator": "Unihan_Readings.txt:line:212264:U+9F9C:kMandarin"
+    }
+  },
+  "龟": {
+    "kSimplifiedVariant": {
+      "value": "U+9F9F",
+      "sourceLocator": "Unihan_Variants.txt:line:12542:U+9F9F:kSimplifiedVariant"
+    },
+    "kTraditionalVariant": {
+      "value": "U+9F9C U+9F9F",
+      "sourceLocator": "Unihan_Variants.txt:line:12543:U+9F9F:kTraditionalVariant"
+    },
+    "kRSUnicode": {
+      "value": "213'.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:197076:U+9F9F:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:197077:U+9F9F:kTotalStrokes"
+    },
+    "kMandarin": {
+      "value": "guī",
+      "sourceLocator": "Unihan_Readings.txt:line:212287:U+9F9F:kMandarin"
+    }
+  },
+  "中": {
+    "kRSUnicode": {
+      "value": "2.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:37611:U+4E2D:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:37612:U+4E2D:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:3199:U+4E2D:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "チュウ チュ なか あたる あてる うち",
+      "sourceLocator": "Unihan_Readings.txt:line:30382:U+4E2D:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "NAKA UCHI ATARU",
+      "sourceLocator": "Unihan_Readings.txt:line:30383:U+4E2D:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "CHUU",
+      "sourceLocator": "Unihan_Readings.txt:line:30384:U+4E2D:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhōng",
+      "sourceLocator": "Unihan_Readings.txt:line:30386:U+4E2D:kMandarin"
+    }
+  },
+  "主": {
+    "kRSUnicode": {
+      "value": "3.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:37721:U+4E3B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:37722:U+4E3B:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:3318:U+4E3B:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "シュ ス ぬし おも あるじ おもに おもな つかさどる",
+      "sourceLocator": "Unihan_Readings.txt:line:30535:U+4E3B:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "NUSHI OMO ARUJI",
+      "sourceLocator": "Unihan_Readings.txt:line:30536:U+4E3B:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHU SU",
+      "sourceLocator": "Unihan_Readings.txt:line:30537:U+4E3B:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhǔ",
+      "sourceLocator": "Unihan_Readings.txt:line:30539:U+4E3B:kMandarin"
+    }
+  },
+  "久": {
+    "kRSUnicode": {
+      "value": "4.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:37798:U+4E45:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:37799:U+4E45:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:3395:U+4E45:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "キュウ ク ひさしい",
+      "sourceLocator": "Unihan_Readings.txt:line:30638:U+4E45:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HISASHII",
+      "sourceLocator": "Unihan_Readings.txt:line:30639:U+4E45:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KYUU KU",
+      "sourceLocator": "Unihan_Readings.txt:line:30640:U+4E45:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jiǔ",
+      "sourceLocator": "Unihan_Readings.txt:line:30642:U+4E45:kMandarin"
+    }
+  },
+  "事": {
+    "kRSUnicode": {
+      "value": "6.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:38301:U+4E8B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:38302:U+4E8B:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:3856:U+4E8B:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ジ ズ シ こと つかう つかえる",
+      "sourceLocator": "Unihan_Readings.txt:line:31236:U+4E8B:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KOTO TSUKAU KOTOTOSURU",
+      "sourceLocator": "Unihan_Readings.txt:line:31237:U+4E8B:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "JI SHI",
+      "sourceLocator": "Unihan_Readings.txt:line:31238:U+4E8B:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shì",
+      "sourceLocator": "Unihan_Readings.txt:line:31240:U+4E8B:kMandarin"
+    }
+  },
+  "休": {
+    "kRSUnicode": {
+      "value": "9.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:39363:U+4F11:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:39364:U+4F11:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:5101:U+4F11:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "キュウ ク やすむ やすまる やすめる",
+      "sourceLocator": "Unihan_Readings.txt:line:32669:U+4F11:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "YASUMU IKOU YAMERU",
+      "sourceLocator": "Unihan_Readings.txt:line:32670:U+4F11:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KYUU KU",
+      "sourceLocator": "Unihan_Readings.txt:line:32671:U+4F11:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "xiū",
+      "sourceLocator": "Unihan_Readings.txt:line:32673:U+4F11:kMandarin"
+    }
+  },
+  "保": {
+    "kRSUnicode": {
+      "value": "9.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:40979:U+4FDD:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:40980:U+4FDD:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:6928:U+4FDD:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ホ ホウ たもつ やすんじる",
+      "sourceLocator": "Unihan_Readings.txt:line:34716:U+4FDD:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TAMOTSU YASUNJIRU",
+      "sourceLocator": "Unihan_Readings.txt:line:34717:U+4FDD:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HO HOU",
+      "sourceLocator": "Unihan_Readings.txt:line:34718:U+4FDD:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "bǎo",
+      "sourceLocator": "Unihan_Readings.txt:line:34720:U+4FDD:kMandarin"
+    }
+  },
+  "候": {
+    "kRSUnicode": {
+      "value": "9.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:41466:U+5019:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:41467:U+5019:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:7450:U+5019:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "コウ ゴ そうろう うかがう まつ さぶらう",
+      "sourceLocator": "Unihan_Readings.txt:line:35327:U+5019:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SOUROU UKAGAU SABURAU",
+      "sourceLocator": "Unihan_Readings.txt:line:35328:U+5019:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KOU",
+      "sourceLocator": "Unihan_Readings.txt:line:35329:U+5019:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "hòu",
+      "sourceLocator": "Unihan_Readings.txt:line:35331:U+5019:kMandarin"
+    }
+  },
+  "做": {
+    "kRSUnicode": {
+      "value": "9.9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:41992:U+505A:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:41993:U+505A:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "サ なす",
+      "sourceLocator": "Unihan_Readings.txt:line:35987:U+505A:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TSUKURU NASU",
+      "sourceLocator": "Unihan_Readings.txt:line:35988:U+505A:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SAKU SA",
+      "sourceLocator": "Unihan_Readings.txt:line:35989:U+505A:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zuò",
+      "sourceLocator": "Unihan_Readings.txt:line:35991:U+505A:kMandarin"
+    }
+  },
+  "光": {
+    "kRSUnicode": {
+      "value": "10.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:43910:U+5149:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:43911:U+5149:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:9901:U+5149:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "コウ ひかる ひかり",
+      "sourceLocator": "Unihan_Readings.txt:line:38305:U+5149:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HIKARU HIKARI",
+      "sourceLocator": "Unihan_Readings.txt:line:38306:U+5149:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KOU",
+      "sourceLocator": "Unihan_Readings.txt:line:38307:U+5149:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "guāng",
+      "sourceLocator": "Unihan_Readings.txt:line:38309:U+5149:kMandarin"
+    }
+  },
+  "公": {
+    "kRSUnicode": {
+      "value": "12.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:44201:U+516C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:44202:U+516C:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:10207:U+516C:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "コウ ク ショウ シュ おおやけ きみ",
+      "sourceLocator": "Unihan_Readings.txt:line:38656:U+516C:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "OOYAKE KIMI",
+      "sourceLocator": "Unihan_Readings.txt:line:38657:U+516C:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KOU",
+      "sourceLocator": "Unihan_Readings.txt:line:38658:U+516C:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "gōng",
+      "sourceLocator": "Unihan_Readings.txt:line:38660:U+516C:kMandarin"
+    }
+  },
+  "冠": {
+    "kRSUnicode": {
+      "value": "14.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:44594:U+51A0:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:44595:U+51A0:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:10641:U+51A0:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "カン かんむり かぶる",
+      "sourceLocator": "Unihan_Readings.txt:line:39180:U+51A0:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KANMURI",
+      "sourceLocator": "Unihan_Readings.txt:line:39181:U+51A0:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KAN",
+      "sourceLocator": "Unihan_Readings.txt:line:39182:U+51A0:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "guān",
+      "sourceLocator": "Unihan_Readings.txt:line:39184:U+51A0:kMandarin"
+    }
+  },
+  "力": {
+    "kRSUnicode": {
+      "value": "19.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:46547:U+529B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:46548:U+529B:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:12736:U+529B:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "リョク リキ ちから つとめる りきむ",
+      "sourceLocator": "Unihan_Readings.txt:line:41736:U+529B:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "CHIKARA TSUTOMERU RIKIMU",
+      "sourceLocator": "Unihan_Readings.txt:line:41737:U+529B:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "RYOKU RIKI",
+      "sourceLocator": "Unihan_Readings.txt:line:41738:U+529B:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "lì",
+      "sourceLocator": "Unihan_Readings.txt:line:41740:U+529B:kMandarin"
+    }
+  },
+  "北": {
+    "kRSUnicode": {
+      "value": "21.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:47511:U+5317:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:47512:U+5317:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:13753:U+5317:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ホク ハイ ヘ きた にげる",
+      "sourceLocator": "Unihan_Readings.txt:line:42989:U+5317:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KITA NIGERU",
+      "sourceLocator": "Unihan_Readings.txt:line:42990:U+5317:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HOKU HAI",
+      "sourceLocator": "Unihan_Readings.txt:line:42991:U+5317:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "běi",
+      "sourceLocator": "Unihan_Readings.txt:line:42993:U+5317:kMandarin"
+    }
+  },
+  "半": {
+    "kRSUnicode": {
+      "value": "24.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:47922:U+534A:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:47923:U+534A:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:14186:U+534A:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ハン なかば なかばする",
+      "sourceLocator": "Unihan_Readings.txt:line:43530:U+534A:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "NAKABA NAKABASURU",
+      "sourceLocator": "Unihan_Readings.txt:line:43531:U+534A:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HAN",
+      "sourceLocator": "Unihan_Readings.txt:line:43532:U+534A:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "bàn",
+      "sourceLocator": "Unihan_Readings.txt:line:43534:U+534A:kMandarin"
+    }
+  },
+  "南": {
+    "kRSUnicode": {
+      "value": "24.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48021:U+5357:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48022:U+5357:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:14302:U+5357:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ナン ナ みなみ",
+      "sourceLocator": "Unihan_Readings.txt:line:43668:U+5357:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MINAMI",
+      "sourceLocator": "Unihan_Readings.txt:line:43669:U+5357:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "NAN DAN",
+      "sourceLocator": "Unihan_Readings.txt:line:43670:U+5357:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "nán",
+      "sourceLocator": "Unihan_Readings.txt:line:43672:U+5357:kMandarin"
+    }
+  },
+  "原": {
+    "kRSUnicode": {
+      "value": "27.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48568:U+539F:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48569:U+539F:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:14900:U+539F:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ゲン ガン はら たずねる もと ゆるす",
+      "sourceLocator": "Unihan_Readings.txt:line:44377:U+539F:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HARA MOTO TAZUNERU",
+      "sourceLocator": "Unihan_Readings.txt:line:44378:U+539F:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "GEN",
+      "sourceLocator": "Unihan_Readings.txt:line:44379:U+539F:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yuán",
+      "sourceLocator": "Unihan_Readings.txt:line:44381:U+539F:kMandarin"
+    }
+  },
+  "叔": {
+    "kRSUnicode": {
+      "value": "29.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48956:U+53D4:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:48957:U+53D4:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:15287:U+53D4:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "シュク おじ",
+      "sourceLocator": "Unihan_Readings.txt:line:44869:U+53D4:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "OJI",
+      "sourceLocator": "Unihan_Readings.txt:line:44870:U+53D4:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHUKU",
+      "sourceLocator": "Unihan_Readings.txt:line:44871:U+53D4:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shū",
+      "sourceLocator": "Unihan_Readings.txt:line:44873:U+53D4:kMandarin"
+    }
+  },
+  "右": {
+    "kRSUnicode": {
+      "value": "30.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49236:U+53F3:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49237:U+53F3:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:15638:U+53F3:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ウ ユウ みぎ たすける",
+      "sourceLocator": "Unihan_Readings.txt:line:45271:U+53F3:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MIGI TASUKERU",
+      "sourceLocator": "Unihan_Readings.txt:line:45272:U+53F3:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "U YUU",
+      "sourceLocator": "Unihan_Readings.txt:line:45273:U+53F3:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yòu",
+      "sourceLocator": "Unihan_Readings.txt:line:45275:U+53F3:kMandarin"
+    }
+  },
+  "呆": {
+    "kRSUnicode": {
+      "value": "30.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49938:U+5446:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:49939:U+5446:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ホウ ボウ ホ タイ ガイ ダイ あきれる おろか",
+      "sourceLocator": "Unihan_Readings.txt:line:46237:U+5446:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "OROKA AKIRERU",
+      "sourceLocator": "Unihan_Readings.txt:line:46238:U+5446:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "BOU GAI HOU",
+      "sourceLocator": "Unihan_Readings.txt:line:46239:U+5446:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "dāi",
+      "sourceLocator": "Unihan_Readings.txt:line:46241:U+5446:kMandarin"
+    }
+  },
+  "周": {
+    "kRSUnicode": {
+      "value": "30.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:50171:U+5468:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:50172:U+5468:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:16676:U+5468:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "シュウ シュ ス まわり あまねし めぐらす めぐる",
+      "sourceLocator": "Unihan_Readings.txt:line:46529:U+5468:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MAWARI AMANESHI MEGURU",
+      "sourceLocator": "Unihan_Readings.txt:line:46530:U+5468:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHUU",
+      "sourceLocator": "Unihan_Readings.txt:line:46531:U+5468:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhōu",
+      "sourceLocator": "Unihan_Readings.txt:line:46533:U+5468:kMandarin"
+    }
+  },
+  "命": {
+    "kRSUnicode": {
+      "value": "30.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:50353:U+547D:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:50354:U+547D:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:16869:U+547D:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "メイ ミョウ ベイ マン いのち おおせ みこと",
+      "sourceLocator": "Unihan_Readings.txt:line:46766:U+547D:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "INOCHI OOSE MIKOTO",
+      "sourceLocator": "Unihan_Readings.txt:line:46767:U+547D:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "MEI MYOU",
+      "sourceLocator": "Unihan_Readings.txt:line:46768:U+547D:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "mìng",
+      "sourceLocator": "Unihan_Readings.txt:line:46770:U+547D:kMandarin"
+    }
+  },
+  "和": {
+    "kRSUnicode": {
+      "value": "30.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:50484:U+548C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:50485:U+548C:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:17003:U+548C:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ワ オ カ やわらぐ やわらげる なごむ なごやか あえる",
+      "sourceLocator": "Unihan_Readings.txt:line:46936:U+548C:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "YAWARAGU NAGOMU NAGOYAKA",
+      "sourceLocator": "Unihan_Readings.txt:line:46937:U+548C:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "WA KA",
+      "sourceLocator": "Unihan_Readings.txt:line:46938:U+548C:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "hé",
+      "sourceLocator": "Unihan_Readings.txt:line:46940:U+548C:kMandarin"
+    }
+  },
+  "嘴": {
+    "kRSUnicode": {
+      "value": "30.12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:53791:U+5634:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "16",
+      "sourceLocator": "Unihan_IRGSources.txt:line:53792:U+5634:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "シ くちばし",
+      "sourceLocator": "Unihan_Readings.txt:line:51020:U+5634:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KUCHIBASHI",
+      "sourceLocator": "Unihan_Readings.txt:line:51021:U+5634:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHI",
+      "sourceLocator": "Unihan_Readings.txt:line:51022:U+5634:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zuǐ",
+      "sourceLocator": "Unihan_Readings.txt:line:51024:U+5634:kMandarin"
+    }
+  },
+  "夏": {
+    "kRSUnicode": {
+      "value": "35.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:59335:U+590F:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:59336:U+590F:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:26179:U+590F:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "カ ゲ なつ",
+      "sourceLocator": "Unihan_Readings.txt:line:57592:U+590F:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "NATSU",
+      "sourceLocator": "Unihan_Readings.txt:line:57593:U+590F:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KA GE",
+      "sourceLocator": "Unihan_Readings.txt:line:57594:U+590F:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "xià",
+      "sourceLocator": "Unihan_Readings.txt:line:57596:U+590F:kMandarin"
+    }
+  },
+  "夜": {
+    "kRSUnicode": {
+      "value": "36.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:59437:U+591C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:59438:U+591C:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:26296:U+591C:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ヤ エキ ヤク よ よる",
+      "sourceLocator": "Unihan_Readings.txt:line:57735:U+591C:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "YO YORU",
+      "sourceLocator": "Unihan_Readings.txt:line:57736:U+591C:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "YA",
+      "sourceLocator": "Unihan_Readings.txt:line:57737:U+591C:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yè",
+      "sourceLocator": "Unihan_Readings.txt:line:57739:U+591C:kMandarin"
+    }
+  },
+  "女": {
+    "kRSUnicode": {
+      "value": "38.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:60105:U+5973:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:60106:U+5973:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:27037:U+5973:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ジョ ニョ ニョウ おんな め むすめ なんじ めあわせる",
+      "sourceLocator": "Unihan_Readings.txt:line:58623:U+5973:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ONNA ME MUSUME",
+      "sourceLocator": "Unihan_Readings.txt:line:58624:U+5973:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "JO NYO NYOU",
+      "sourceLocator": "Unihan_Readings.txt:line:58625:U+5973:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "nǚ",
+      "sourceLocator": "Unihan_Readings.txt:line:58627:U+5973:kMandarin"
+    }
+  },
+  "姐": {
+    "kRSUnicode": {
+      "value": "38.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:60852:U+59D0:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:60853:U+59D0:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ソ シャ シ ショ セ あね あねご",
+      "sourceLocator": "Unihan_Readings.txt:line:59501:U+59D0:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ANE ANEGO",
+      "sourceLocator": "Unihan_Readings.txt:line:59502:U+59D0:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SO SHA",
+      "sourceLocator": "Unihan_Readings.txt:line:59503:U+59D0:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jiě",
+      "sourceLocator": "Unihan_Readings.txt:line:59505:U+59D0:kMandarin"
+    }
+  },
+  "姓": {
+    "kRSUnicode": {
+      "value": "38.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:60881:U+59D3:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:60882:U+59D3:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:27856:U+59D3:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セイ ショウ ソウ かばね",
+      "sourceLocator": "Unihan_Readings.txt:line:59545:U+59D3:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KABANE",
+      "sourceLocator": "Unihan_Readings.txt:line:59546:U+59D3:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEI SHOU",
+      "sourceLocator": "Unihan_Readings.txt:line:59547:U+59D3:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "xìng",
+      "sourceLocator": "Unihan_Readings.txt:line:59549:U+59D3:kMandarin"
+    }
+  },
+  "孩": {
+    "kRSUnicode": {
+      "value": "39.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:63934:U+5B69:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:63935:U+5B69:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ガイ カイ ちのみご",
+      "sourceLocator": "Unihan_Readings.txt:line:62956:U+5B69:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "CHINOMIGO",
+      "sourceLocator": "Unihan_Readings.txt:line:62957:U+5B69:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KAI GAI",
+      "sourceLocator": "Unihan_Readings.txt:line:62958:U+5B69:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "hái",
+      "sourceLocator": "Unihan_Readings.txt:line:62960:U+5B69:kMandarin"
+    }
+  },
+  "安": {
+    "kRSUnicode": {
+      "value": "40.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:64198:U+5B89:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:64199:U+5B89:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:31182:U+5B89:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "アン やすい いずくに いずくにか いずくんぞ やすんじる",
+      "sourceLocator": "Unihan_Readings.txt:line:63283:U+5B89:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "YASUI YASUNJIRU IZUKUNSO",
+      "sourceLocator": "Unihan_Readings.txt:line:63284:U+5B89:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "AN",
+      "sourceLocator": "Unihan_Readings.txt:line:63285:U+5B89:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "ān",
+      "sourceLocator": "Unihan_Readings.txt:line:63287:U+5B89:kMandarin"
+    }
+  },
+  "害": {
+    "kRSUnicode": {
+      "value": "40.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:64537:U+5BB3:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:64538:U+5BB3:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:31566:U+5BB3:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ガイ カイ カツ そこなう なんぞ わざわい",
+      "sourceLocator": "Unihan_Readings.txt:line:63743:U+5BB3:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SOKONAU WAZAWAI NANZO",
+      "sourceLocator": "Unihan_Readings.txt:line:63744:U+5BB3:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "GAI KATSU",
+      "sourceLocator": "Unihan_Readings.txt:line:63745:U+5BB3:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "hài",
+      "sourceLocator": "Unihan_Readings.txt:line:63747:U+5BB3:kMandarin"
+    }
+  },
+  "尖": {
+    "kRSUnicode": {
+      "value": "42.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:65367:U+5C16:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:65368:U+5C16:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "セン さき とがる するどい",
+      "sourceLocator": "Unihan_Readings.txt:line:64835:U+5C16:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TOGARU SURUDOI",
+      "sourceLocator": "Unihan_Readings.txt:line:64836:U+5C16:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEN",
+      "sourceLocator": "Unihan_Readings.txt:line:64837:U+5C16:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jiān",
+      "sourceLocator": "Unihan_Readings.txt:line:64839:U+5C16:kMandarin"
+    }
+  },
+  "山": {
+    "kRSUnicode": {
+      "value": "46.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:66077:U+5C71:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:66078:U+5C71:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:33255:U+5C71:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "サン セン やま",
+      "sourceLocator": "Unihan_Readings.txt:line:65745:U+5C71:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "YAMA",
+      "sourceLocator": "Unihan_Readings.txt:line:65746:U+5C71:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SAN SEN",
+      "sourceLocator": "Unihan_Readings.txt:line:65747:U+5C71:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shān",
+      "sourceLocator": "Unihan_Readings.txt:line:65749:U+5C71:kMandarin"
+    }
+  },
+  "川": {
+    "kRSUnicode": {
+      "value": "47.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:68679:U+5DDD:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:68680:U+5DDD:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:35846:U+5DDD:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セン かわ",
+      "sourceLocator": "Unihan_Readings.txt:line:68586:U+5DDD:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KAWA",
+      "sourceLocator": "Unihan_Readings.txt:line:68587:U+5DDD:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEN",
+      "sourceLocator": "Unihan_Readings.txt:line:68588:U+5DDD:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "chuān",
+      "sourceLocator": "Unihan_Readings.txt:line:68590:U+5DDD:kMandarin"
+    }
+  },
+  "左": {
+    "kRSUnicode": {
+      "value": "48.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:68755:U+5DE6:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:68756:U+5DE6:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:35941:U+5DE6:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "サ ひだり たすける",
+      "sourceLocator": "Unihan_Readings.txt:line:68694:U+5DE6:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HIDARI MOTORU TASUKERU",
+      "sourceLocator": "Unihan_Readings.txt:line:68695:U+5DE6:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SA",
+      "sourceLocator": "Unihan_Readings.txt:line:68696:U+5DE6:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zuǒ",
+      "sourceLocator": "Unihan_Readings.txt:line:68698:U+5DE6:kMandarin"
+    }
+  },
+  "很": {
+    "kRSUnicode": {
+      "value": "60.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:72094:U+5F88:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:72095:U+5F88:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "コン ゴン もとる",
+      "sourceLocator": "Unihan_Readings.txt:line:72862:U+5F88:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MOTORU",
+      "sourceLocator": "Unihan_Readings.txt:line:72863:U+5F88:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KON",
+      "sourceLocator": "Unihan_Readings.txt:line:72864:U+5F88:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "hěn",
+      "sourceLocator": "Unihan_Readings.txt:line:72866:U+5F88:kMandarin"
+    }
+  },
+  "快": {
+    "kRSUnicode": {
+      "value": "61.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:72879:U+5FEB:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:72880:U+5FEB:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:40380:U+5FEB:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "カイ ケ こころよい",
+      "sourceLocator": "Unihan_Readings.txt:line:73817:U+5FEB:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KOKOROYOI",
+      "sourceLocator": "Unihan_Readings.txt:line:73818:U+5FEB:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KAI",
+      "sourceLocator": "Unihan_Readings.txt:line:73819:U+5FEB:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "kuài",
+      "sourceLocator": "Unihan_Readings.txt:line:73821:U+5FEB:kMandarin"
+    }
+  },
+  "怕": {
+    "kRSUnicode": {
+      "value": "61.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:73192:U+6015:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:73193:U+6015:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ハ ハク ヒャク ヘ バク おそれる",
+      "sourceLocator": "Unihan_Readings.txt:line:74204:U+6015:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "OSORERU",
+      "sourceLocator": "Unihan_Readings.txt:line:74205:U+6015:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HA HAKU",
+      "sourceLocator": "Unihan_Readings.txt:line:74206:U+6015:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "pà",
+      "sourceLocator": "Unihan_Readings.txt:line:74208:U+6015:kMandarin"
+    }
+  },
+  "所": {
+    "kRSUnicode": {
+      "value": "63.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:77682:U+6240:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:77683:U+6240:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:45374:U+6240:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ショ ところ がり",
+      "sourceLocator": "Unihan_Readings.txt:line:79522:U+6240:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TOKORO",
+      "sourceLocator": "Unihan_Readings.txt:line:79523:U+6240:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHO SO",
+      "sourceLocator": "Unihan_Readings.txt:line:79524:U+6240:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "suǒ",
+      "sourceLocator": "Unihan_Readings.txt:line:79526:U+6240:kMandarin"
+    }
+  },
+  "找": {
+    "kRSUnicode": {
+      "value": "64.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:78199:U+627E:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:78200:U+627E:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "カ ゲ ソウ",
+      "sourceLocator": "Unihan_Readings.txt:line:80150:U+627E:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SAOSASU TAZUNERU",
+      "sourceLocator": "Unihan_Readings.txt:line:80151:U+627E:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KA GE SOU",
+      "sourceLocator": "Unihan_Readings.txt:line:80152:U+627E:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhǎo",
+      "sourceLocator": "Unihan_Readings.txt:line:80154:U+627E:kMandarin"
+    }
+  },
+  "拍": {
+    "kRSUnicode": {
+      "value": "64.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:78853:U+62CD:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:78854:U+62CD:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:46631:U+62CD:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ハク ヒョウ ホウ ヒャク うつ",
+      "sourceLocator": "Unihan_Readings.txt:line:80946:U+62CD:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "UTSU",
+      "sourceLocator": "Unihan_Readings.txt:line:80947:U+62CD:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HAKU HYOU",
+      "sourceLocator": "Unihan_Readings.txt:line:80948:U+62CD:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "pāi",
+      "sourceLocator": "Unihan_Readings.txt:line:80950:U+62CD:kMandarin"
+    }
+  },
+  "招": {
+    "kRSUnicode": {
+      "value": "64.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:78986:U+62DB:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:78987:U+62DB:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:46808:U+62DB:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ショウ キョウ ジョウ ギョウ まねく まねき",
+      "sourceLocator": "Unihan_Readings.txt:line:81137:U+62DB:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MANEKU MANEKI",
+      "sourceLocator": "Unihan_Readings.txt:line:81138:U+62DB:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHOU KYOU",
+      "sourceLocator": "Unihan_Readings.txt:line:81139:U+62DB:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhāo",
+      "sourceLocator": "Unihan_Readings.txt:line:81141:U+62DB:kMandarin"
+    }
+  },
+  "插": {
+    "kRSUnicode": {
+      "value": "64.9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:80943:U+63D2:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:80944:U+63D2:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ソウ ショウ さす",
+      "sourceLocator": "Unihan_Readings.txt:line:83455:U+63D2:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SASU NINAI TORU",
+      "sourceLocator": "Unihan_Readings.txt:line:83456:U+63D2:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SOU",
+      "sourceLocator": "Unihan_Readings.txt:line:83457:U+63D2:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "chā",
+      "sourceLocator": "Unihan_Readings.txt:line:83459:U+63D2:kMandarin"
+    }
+  },
+  "方": {
+    "kRSUnicode": {
+      "value": "70.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:84874:U+65B9:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:84875:U+65B9:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:52754:U+65B9:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ホウ ボウ モウ かた あたる くらべる ならべる まさに",
+      "sourceLocator": "Unihan_Readings.txt:line:87935:U+65B9:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KATA NARABERU KURABERU",
+      "sourceLocator": "Unihan_Readings.txt:line:87936:U+65B9:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HOU",
+      "sourceLocator": "Unihan_Readings.txt:line:87937:U+65B9:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "fāng",
+      "sourceLocator": "Unihan_Readings.txt:line:87939:U+65B9:kMandarin"
+    }
+  },
+  "旁": {
+    "kRSUnicode": {
+      "value": "70.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:84935:U+65C1:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:84936:U+65C1:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ホウ ボウ ヒョウ かたがた かたわら つくり あまねく",
+      "sourceLocator": "Unihan_Readings.txt:line:88009:U+65C1:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KATAWARA TSUKURI KATAGATA",
+      "sourceLocator": "Unihan_Readings.txt:line:88010:U+65C1:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HOU BOU",
+      "sourceLocator": "Unihan_Readings.txt:line:88011:U+65C1:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "páng",
+      "sourceLocator": "Unihan_Readings.txt:line:88013:U+65C1:kMandarin"
+    }
+  },
+  "早": {
+    "kRSUnicode": {
+      "value": "72.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:85260:U+65E9:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:85261:U+65E9:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:53169:U+65E9:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ソウ サッ サ はやい はやまる はやめる つとに さ",
+      "sourceLocator": "Unihan_Readings.txt:line:88416:U+65E9:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HAYAI HAYA SA",
+      "sourceLocator": "Unihan_Readings.txt:line:88417:U+65E9:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SOU SATSU",
+      "sourceLocator": "Unihan_Readings.txt:line:88418:U+65E9:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zǎo",
+      "sourceLocator": "Unihan_Readings.txt:line:88420:U+65E9:kMandarin"
+    }
+  },
+  "明": {
+    "kRSUnicode": {
+      "value": "72.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:85566:U+660E:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:85567:U+660E:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:53515:U+660E:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "メイ ミョウ ミン ベイ ボウ あかり あかるい あかるむ あからむ あきらか あける あく あくる あかす ひかり",
+      "sourceLocator": "Unihan_Readings.txt:line:88784:U+660E:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "AKARUI AKIRAKA AKERU",
+      "sourceLocator": "Unihan_Readings.txt:line:88785:U+660E:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "MEI MYOU",
+      "sourceLocator": "Unihan_Readings.txt:line:88786:U+660E:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "míng",
+      "sourceLocator": "Unihan_Readings.txt:line:88788:U+660E:kMandarin"
+    }
+  },
+  "月": {
+    "kRSUnicode": {
+      "value": "74.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:87578:U+6708:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:87579:U+6708:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:55616:U+6708:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ゲツ ガツ ガチ つき",
+      "sourceLocator": "Unihan_Readings.txt:line:91133:U+6708:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TSUKI",
+      "sourceLocator": "Unihan_Readings.txt:line:91134:U+6708:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "GETSU GATSU",
+      "sourceLocator": "Unihan_Readings.txt:line:91135:U+6708:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yuè",
+      "sourceLocator": "Unihan_Readings.txt:line:91137:U+6708:kMandarin"
+    }
+  },
+  "朗": {
+    "kRSUnicode": {
+      "value": "74.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:87707:U+6717:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:87708:U+6717:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:55772:U+6717:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ロウ ほがらか あきらか",
+      "sourceLocator": "Unihan_Readings.txt:line:91295:U+6717:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HOGARAKA AKIRAKA",
+      "sourceLocator": "Unihan_Readings.txt:line:91296:U+6717:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "ROU",
+      "sourceLocator": "Unihan_Readings.txt:line:91297:U+6717:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "lǎng",
+      "sourceLocator": "Unihan_Readings.txt:line:91299:U+6717:kMandarin"
+    }
+  },
+  "木": {
+    "kRSUnicode": {
+      "value": "75.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:87845:U+6728:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:87846:U+6728:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:55915:U+6728:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ボク モク き こ",
+      "sourceLocator": "Unihan_Readings.txt:line:91456:U+6728:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KI",
+      "sourceLocator": "Unihan_Readings.txt:line:91457:U+6728:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "BOKU MOKU",
+      "sourceLocator": "Unihan_Readings.txt:line:91458:U+6728:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "mù",
+      "sourceLocator": "Unihan_Readings.txt:line:91460:U+6728:kMandarin"
+    }
+  },
+  "林": {
+    "kRSUnicode": {
+      "value": "75.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:88760:U+6797:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:88761:U+6797:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:56902:U+6797:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "リン はやし",
+      "sourceLocator": "Unihan_Readings.txt:line:92567:U+6797:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HAYASHI",
+      "sourceLocator": "Unihan_Readings.txt:line:92568:U+6797:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "RIN",
+      "sourceLocator": "Unihan_Readings.txt:line:92569:U+6797:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "lín",
+      "sourceLocator": "Unihan_Readings.txt:line:92571:U+6797:kMandarin"
+    }
+  },
+  "果": {
+    "kRSUnicode": {
+      "value": "75.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:88805:U+679C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:88806:U+679C:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:56959:U+679C:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "カ ワ ラ カン はたす はてる はて はたして",
+      "sourceLocator": "Unihan_Readings.txt:line:92627:U+679C:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HATASU KUDAMONO HATE",
+      "sourceLocator": "Unihan_Readings.txt:line:92628:U+679C:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KA RA",
+      "sourceLocator": "Unihan_Readings.txt:line:92629:U+679C:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "guǒ",
+      "sourceLocator": "Unihan_Readings.txt:line:92631:U+679C:kMandarin"
+    }
+  },
+  "正": {
+    "kRSUnicode": {
+      "value": "77.1",
+      "sourceLocator": "Unihan_IRGSources.txt:line:96351:U+6B63:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:96352:U+6B63:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:64459:U+6B63:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セイ ショウ ただしい ただす まさ ただ まさに かみ たとい",
+      "sourceLocator": "Unihan_Readings.txt:line:100797:U+6B63:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TADASHII MASA TADASU",
+      "sourceLocator": "Unihan_Readings.txt:line:100798:U+6B63:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEI SHOU",
+      "sourceLocator": "Unihan_Readings.txt:line:100799:U+6B63:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "zhèng",
+      "sourceLocator": "Unihan_Readings.txt:line:100801:U+6B63:kMandarin"
+    }
+  },
+  "步": {
+    "kRSUnicode": {
+      "value": "77.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:96371:U+6B65:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:96372:U+6B65:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "フ ブ ホ あゆむ あるく",
+      "sourceLocator": "Unihan_Readings.txt:line:100829:U+6B65:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "ARUKU AYUMU AYUMI",
+      "sourceLocator": "Unihan_Readings.txt:line:100830:U+6B65:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HO BU FU",
+      "sourceLocator": "Unihan_Readings.txt:line:100831:U+6B65:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "bù",
+      "sourceLocator": "Unihan_Readings.txt:line:100833:U+6B65:kMandarin"
+    }
+  },
+  "水": {
+    "kRSUnicode": {
+      "value": "85.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:97958:U+6C34:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:97959:U+6C34:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:66157:U+6C34:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "スイ みず かわ",
+      "sourceLocator": "Unihan_Readings.txt:line:102639:U+6C34:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MIZU",
+      "sourceLocator": "Unihan_Readings.txt:line:102640:U+6C34:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SUI",
+      "sourceLocator": "Unihan_Readings.txt:line:102641:U+6C34:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shuǐ",
+      "sourceLocator": "Unihan_Readings.txt:line:102643:U+6C34:kMandarin"
+    }
+  },
+  "泉": {
+    "kRSUnicode": {
+      "value": "85.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:99174:U+6CC9:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:99175:U+6CC9:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:67538:U+6CC9:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セン ゼン いずみ",
+      "sourceLocator": "Unihan_Readings.txt:line:104108:U+6CC9:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "IZUMI ZENI",
+      "sourceLocator": "Unihan_Readings.txt:line:104109:U+6CC9:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEN",
+      "sourceLocator": "Unihan_Readings.txt:line:104110:U+6CC9:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "quán",
+      "sourceLocator": "Unihan_Readings.txt:line:104112:U+6CC9:kMandarin"
+    }
+  },
+  "法": {
+    "kRSUnicode": {
+      "value": "85.5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:99278:U+6CD5:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:99279:U+6CD5:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:67659:U+6CD5:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ホウ ハッ ホッ フラン のっとる のり",
+      "sourceLocator": "Unihan_Readings.txt:line:104232:U+6CD5:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "NORI OKITE NOTTORU",
+      "sourceLocator": "Unihan_Readings.txt:line:104233:U+6CD5:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HOU HATSU HOTSU",
+      "sourceLocator": "Unihan_Readings.txt:line:104234:U+6CD5:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "fǎ",
+      "sourceLocator": "Unihan_Readings.txt:line:104236:U+6CD5:kMandarin"
+    }
+  },
+  "浪": {
+    "kRSUnicode": {
+      "value": "85.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:100438:U+6D6A:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:100439:U+6D6A:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:68981:U+6D6A:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ロウ ラン なみ",
+      "sourceLocator": "Unihan_Readings.txt:line:105594:U+6D6A:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "NAMI",
+      "sourceLocator": "Unihan_Readings.txt:line:105595:U+6D6A:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "ROU RAN",
+      "sourceLocator": "Unihan_Readings.txt:line:105596:U+6D6A:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "làng",
+      "sourceLocator": "Unihan_Readings.txt:line:105598:U+6D6A:kMandarin"
+    }
+  },
+  "清": {
+    "kRSUnicode": {
+      "value": "85.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:101692:U+6E05:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:101693:U+6E05:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:70336:U+6E05:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セイ ショウ ジョウ シン きよい きよまる きよめる すむ",
+      "sourceLocator": "Unihan_Readings.txt:line:107027:U+6E05:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KIYOI KIYOMERU",
+      "sourceLocator": "Unihan_Readings.txt:line:107028:U+6E05:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEI SHOU",
+      "sourceLocator": "Unihan_Readings.txt:line:107029:U+6E05:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "qīng",
+      "sourceLocator": "Unihan_Readings.txt:line:107031:U+6E05:kMandarin"
+    }
+  },
+  "火": {
+    "kRSUnicode": {
+      "value": "86.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:106563:U+706B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:106564:U+706B:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:75243:U+706B:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "カ コ ひ ほ やく",
+      "sourceLocator": "Unihan_Readings.txt:line:112306:U+706B:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HI YAKU",
+      "sourceLocator": "Unihan_Readings.txt:line:112307:U+706B:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KA KO",
+      "sourceLocator": "Unihan_Readings.txt:line:112308:U+706B:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "huǒ",
+      "sourceLocator": "Unihan_Readings.txt:line:112310:U+706B:kMandarin"
+    }
+  },
+  "然": {
+    "kRSUnicode": {
+      "value": "86.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:108095:U+7136:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:108096:U+7136:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:76769:U+7136:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ゼン ネン しか しかして しからば しかり しかるに しかれども もえる",
+      "sourceLocator": "Unihan_Readings.txt:line:113870:U+7136:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MOERU SHIKAREDOMO SHIKASHITE",
+      "sourceLocator": "Unihan_Readings.txt:line:113871:U+7136:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "ZEN NEN",
+      "sourceLocator": "Unihan_Readings.txt:line:113872:U+7136:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "rán",
+      "sourceLocator": "Unihan_Readings.txt:line:113874:U+7136:kMandarin"
+    }
+  },
+  "瓜": {
+    "kRSUnicode": {
+      "value": "97.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:115491:U+74DC:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:115492:U+74DC:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "カ うり",
+      "sourceLocator": "Unihan_Readings.txt:line:121708:U+74DC:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "URI",
+      "sourceLocator": "Unihan_Readings.txt:line:121709:U+74DC:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KA",
+      "sourceLocator": "Unihan_Readings.txt:line:121710:U+74DC:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "guā",
+      "sourceLocator": "Unihan_Readings.txt:line:121712:U+74DC:kMandarin"
+    }
+  },
+  "生": {
+    "kRSUnicode": {
+      "value": "100.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:116015:U+751F:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:116016:U+751F:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:84783:U+751F:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セイ ショウ ソウ いきる いかす いける うまれる うむ おう はえる はやす き なま うぶ",
+      "sourceLocator": "Unihan_Readings.txt:line:122289:U+751F:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HAERU OU UMARERU",
+      "sourceLocator": "Unihan_Readings.txt:line:122290:U+751F:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEI SHOU",
+      "sourceLocator": "Unihan_Readings.txt:line:122291:U+751F:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shēng",
+      "sourceLocator": "Unihan_Readings.txt:line:122293:U+751F:kMandarin"
+    }
+  },
+  "用": {
+    "kRSUnicode": {
+      "value": "101.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:116086:U+7528:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:116087:U+7528:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:84863:U+7528:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ヨウ ユ もちいる もって",
+      "sourceLocator": "Unihan_Readings.txt:line:122380:U+7528:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MOCHIIRU HATARAKI MOTTE",
+      "sourceLocator": "Unihan_Readings.txt:line:122381:U+7528:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "YOU",
+      "sourceLocator": "Unihan_Readings.txt:line:122382:U+7528:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yòng",
+      "sourceLocator": "Unihan_Readings.txt:line:122384:U+7528:kMandarin"
+    }
+  },
+  "男": {
+    "kRSUnicode": {
+      "value": "102.2",
+      "sourceLocator": "Unihan_IRGSources.txt:line:116211:U+7537:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:116212:U+7537:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:85024:U+7537:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ダン ナン おとこ",
+      "sourceLocator": "Unihan_Readings.txt:line:122554:U+7537:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "OTOKO",
+      "sourceLocator": "Unihan_Readings.txt:line:122555:U+7537:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "DAN NAN",
+      "sourceLocator": "Unihan_Readings.txt:line:122556:U+7537:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "nán",
+      "sourceLocator": "Unihan_Readings.txt:line:122558:U+7537:kMandarin"
+    }
+  },
+  "相": {
+    "kRSUnicode": {
+      "value": "109.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:119759:U+76F8:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:119760:U+76F8:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:88803:U+76F8:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ソウ ショウ ジョウ あい たすける みる",
+      "sourceLocator": "Unihan_Readings.txt:line:126718:U+76F8:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "AI MIRU TASUKERU",
+      "sourceLocator": "Unihan_Readings.txt:line:126719:U+76F8:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHOU SOU",
+      "sourceLocator": "Unihan_Readings.txt:line:126720:U+76F8:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "xiāng",
+      "sourceLocator": "Unihan_Readings.txt:line:126722:U+76F8:kMandarin"
+    }
+  },
+  "眉": {
+    "kRSUnicode": {
+      "value": "109.4",
+      "sourceLocator": "Unihan_IRGSources.txt:line:119902:U+7709:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:119903:U+7709:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:88961:U+7709:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ビ ミ まゆ",
+      "sourceLocator": "Unihan_Readings.txt:line:126890:U+7709:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MAYU",
+      "sourceLocator": "Unihan_Readings.txt:line:126891:U+7709:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "BI MI",
+      "sourceLocator": "Unihan_Readings.txt:line:126892:U+7709:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "méi",
+      "sourceLocator": "Unihan_Readings.txt:line:126894:U+7709:kMandarin"
+    }
+  },
+  "眼": {
+    "kRSUnicode": {
+      "value": "109.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:120311:U+773C:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:120312:U+773C:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:89379:U+773C:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ガン ゲン ゴン まなこ め",
+      "sourceLocator": "Unihan_Readings.txt:line:127347:U+773C:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MANAKO",
+      "sourceLocator": "Unihan_Readings.txt:line:127348:U+773C:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "GAN GEN GON",
+      "sourceLocator": "Unihan_Readings.txt:line:127349:U+773C:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "yǎn",
+      "sourceLocator": "Unihan_Readings.txt:line:127351:U+773C:kMandarin"
+    }
+  },
+  "睛": {
+    "kRSUnicode": {
+      "value": "109.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:120549:U+775B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:120550:U+775B:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "セイ ショウ ひとみ",
+      "sourceLocator": "Unihan_Readings.txt:line:127596:U+775B:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HITOMI",
+      "sourceLocator": "Unihan_Readings.txt:line:127597:U+775B:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEI SHOU",
+      "sourceLocator": "Unihan_Readings.txt:line:127598:U+775B:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "jīng",
+      "sourceLocator": "Unihan_Readings.txt:line:127600:U+775B:kMandarin"
+    }
+  },
+  "睡": {
+    "kRSUnicode": {
+      "value": "109.9 109.8",
+      "sourceLocator": "Unihan_IRGSources.txt:line:120598:U+7761:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:120599:U+7761:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:89662:U+7761:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "スイ ズイ ねむり ねむる",
+      "sourceLocator": "Unihan_Readings.txt:line:127654:U+7761:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "NEMURU NEMURI",
+      "sourceLocator": "Unihan_Readings.txt:line:127655:U+7761:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SUI",
+      "sourceLocator": "Unihan_Readings.txt:line:127656:U+7761:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shuì",
+      "sourceLocator": "Unihan_Readings.txt:line:127658:U+7761:kMandarin"
+    }
+  },
+  "禾": {
+    "kRSUnicode": {
+      "value": "115.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:125245:U+79BE:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "5",
+      "sourceLocator": "Unihan_IRGSources.txt:line:125246:U+79BE:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "カ ワ のぎへん いね のぎ",
+      "sourceLocator": "Unihan_Readings.txt:line:132623:U+79BE:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "INE NOGI",
+      "sourceLocator": "Unihan_Readings.txt:line:132624:U+79BE:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KA",
+      "sourceLocator": "Unihan_Readings.txt:line:132625:U+79BE:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "hé",
+      "sourceLocator": "Unihan_Readings.txt:line:132627:U+79BE:kMandarin"
+    }
+  },
+  "答": {
+    "kRSUnicode": {
+      "value": "118.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:128435:U+7B54:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:128436:U+7B54:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:97649:U+7B54:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "トウ こたえる こたえ",
+      "sourceLocator": "Unihan_Readings.txt:line:136251:U+7B54:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KOTAERU KOTAE",
+      "sourceLocator": "Unihan_Readings.txt:line:136252:U+7B54:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "TOU",
+      "sourceLocator": "Unihan_Readings.txt:line:136253:U+7B54:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "dá",
+      "sourceLocator": "Unihan_Readings.txt:line:136255:U+7B54:kMandarin"
+    }
+  },
+  "群": {
+    "kRSUnicode": {
+      "value": "123.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:136574:U+7FA4:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:136575:U+7FA4:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:105770:U+7FA4:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "グン クン むれる むれ むら むらがる",
+      "sourceLocator": "Unihan_Readings.txt:line:145398:U+7FA4:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MURAGARU MURERU",
+      "sourceLocator": "Unihan_Readings.txt:line:145399:U+7FA4:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "GUN KUN",
+      "sourceLocator": "Unihan_Readings.txt:line:145400:U+7FA4:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "qún",
+      "sourceLocator": "Unihan_Readings.txt:line:145402:U+7FA4:kMandarin"
+    }
+  },
+  "肉": {
+    "kRSUnicode": {
+      "value": "130.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:138377:U+8089:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:138378:U+8089:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:107638:U+8089:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ニク ジク ジュウ ジュ ニュ しし にく",
+      "sourceLocator": "Unihan_Readings.txt:line:147481:U+8089:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "SHISHI",
+      "sourceLocator": "Unihan_Readings.txt:line:147482:U+8089:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "NIKU JUU",
+      "sourceLocator": "Unihan_Readings.txt:line:147483:U+8089:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "ròu",
+      "sourceLocator": "Unihan_Readings.txt:line:147485:U+8089:kMandarin"
+    }
+  },
+  "肚": {
+    "kRSUnicode": {
+      "value": "130.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:138509:U+809A:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:138510:U+809A:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ト ズ はら",
+      "sourceLocator": "Unihan_Readings.txt:line:147627:U+809A:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HARA",
+      "sourceLocator": "Unihan_Readings.txt:line:147628:U+809A:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "TO",
+      "sourceLocator": "Unihan_Readings.txt:line:147629:U+809A:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "dù",
+      "sourceLocator": "Unihan_Readings.txt:line:147631:U+809A:kMandarin"
+    }
+  },
+  "脖": {
+    "kRSUnicode": {
+      "value": "130.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:139467:U+8116:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:139468:U+8116:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ボツ ホツ ボチ うなじ",
+      "sourceLocator": "Unihan_Readings.txt:line:148802:U+8116:kJapanese"
+    },
+    "kJapaneseOn": {
+      "value": "HOTSU BOCHI BOTSU",
+      "sourceLocator": "Unihan_Readings.txt:line:148803:U+8116:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "bó",
+      "sourceLocator": "Unihan_Readings.txt:line:148805:U+8116:kMandarin"
+    }
+  },
+  "腿": {
+    "kRSUnicode": {
+      "value": "130.10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:140286:U+817F:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:140287:U+817F:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "タイ テ もも",
+      "sourceLocator": "Unihan_Readings.txt:line:149753:U+817F:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MOMO",
+      "sourceLocator": "Unihan_Readings.txt:line:149754:U+817F:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "TAI",
+      "sourceLocator": "Unihan_Readings.txt:line:149755:U+817F:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "tuǐ",
+      "sourceLocator": "Unihan_Readings.txt:line:149757:U+817F:kMandarin"
+    }
+  },
+  "臂": {
+    "kRSUnicode": {
+      "value": "130.13",
+      "sourceLocator": "Unihan_IRGSources.txt:line:140820:U+81C2:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "17",
+      "sourceLocator": "Unihan_IRGSources.txt:line:140821:U+81C2:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "ヒ ひじ",
+      "sourceLocator": "Unihan_Readings.txt:line:150362:U+81C2:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HIJI",
+      "sourceLocator": "Unihan_Readings.txt:line:150363:U+81C2:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HI",
+      "sourceLocator": "Unihan_Readings.txt:line:150364:U+81C2:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "bì",
+      "sourceLocator": "Unihan_Readings.txt:line:150366:U+81C2:kMandarin"
+    }
+  },
+  "茶": {
+    "kRSUnicode": {
+      "value": "140.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:143765:U+8336:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:143766:U+8336:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:113460:U+8336:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "チャ サ タ ちゃ",
+      "sourceLocator": "Unihan_Readings.txt:line:153886:U+8336:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "CHA",
+      "sourceLocator": "Unihan_Readings.txt:line:153887:U+8336:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "CHA SA TA",
+      "sourceLocator": "Unihan_Readings.txt:line:153888:U+8336:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "chá",
+      "sourceLocator": "Unihan_Readings.txt:line:153890:U+8336:kMandarin"
+    }
+  },
+  "荷": {
+    "kRSUnicode": {
+      "value": "140.7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:144209:U+8377:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "10",
+      "sourceLocator": "Unihan_IRGSources.txt:line:144210:U+8377:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:113928:U+8377:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "カ に になう はす",
+      "sourceLocator": "Unihan_Readings.txt:line:154394:U+8377:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "NI NINAU",
+      "sourceLocator": "Unihan_Readings.txt:line:154395:U+8377:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KA",
+      "sourceLocator": "Unihan_Readings.txt:line:154396:U+8377:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "hé",
+      "sourceLocator": "Unihan_Readings.txt:line:154398:U+8377:kMandarin"
+    }
+  },
+  "裁": {
+    "kRSUnicode": {
+      "value": "145.6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:154815:U+88C1:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:154816:U+88C1:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:124462:U+88C1:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "サイ ザイ たつ さばく",
+      "sourceLocator": "Unihan_Readings.txt:line:165656:U+88C1:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "TATSU SABAKU",
+      "sourceLocator": "Unihan_Readings.txt:line:165657:U+88C1:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SAI",
+      "sourceLocator": "Unihan_Readings.txt:line:165658:U+88C1:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "cái",
+      "sourceLocator": "Unihan_Readings.txt:line:165660:U+88C1:kMandarin"
+    }
+  },
+  "西": {
+    "kRSUnicode": {
+      "value": "146.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:156287:U+897F:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "6",
+      "sourceLocator": "Unihan_IRGSources.txt:line:156288:U+897F:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:125915:U+897F:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セイ サイ シ セン アク ヤク にし",
+      "sourceLocator": "Unihan_Readings.txt:line:167256:U+897F:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "NISHI",
+      "sourceLocator": "Unihan_Readings.txt:line:167257:U+897F:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SEI SAI",
+      "sourceLocator": "Unihan_Readings.txt:line:167258:U+897F:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "xī",
+      "sourceLocator": "Unihan_Readings.txt:line:167260:U+897F:kMandarin"
+    }
+  },
+  "豆": {
+    "kRSUnicode": {
+      "value": "151.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:161360:U+8C46:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:161361:U+8C46:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:130830:U+8C46:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "トウ ズ シュウ シュ まめ たかつき",
+      "sourceLocator": "Unihan_Readings.txt:line:172859:U+8C46:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MAME TAKATSUKI",
+      "sourceLocator": "Unihan_Readings.txt:line:172860:U+8C46:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "TOU ZU",
+      "sourceLocator": "Unihan_Readings.txt:line:172861:U+8C46:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "dòu",
+      "sourceLocator": "Unihan_Readings.txt:line:172863:U+8C46:kMandarin"
+    }
+  },
+  "身": {
+    "kRSUnicode": {
+      "value": "158.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:165989:U+8EAB:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "7",
+      "sourceLocator": "Unihan_IRGSources.txt:line:165990:U+8EAB:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:135498:U+8EAB:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "シン ケン カン ゲン み みずから",
+      "sourceLocator": "Unihan_Readings.txt:line:178100:U+8EAB:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "MI MIZUKARA",
+      "sourceLocator": "Unihan_Readings.txt:line:178101:U+8EAB:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SHIN KEN",
+      "sourceLocator": "Unihan_Readings.txt:line:178102:U+8EAB:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "shēn",
+      "sourceLocator": "Unihan_Readings.txt:line:178104:U+8EAB:kMandarin"
+    }
+  },
+  "遍": {
+    "kRSUnicode": {
+      "value": "162.9",
+      "sourceLocator": "Unihan_IRGSources.txt:line:169092:U+904D:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:169093:U+904D:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:138620:U+904D:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ヘン あまねし",
+      "sourceLocator": "Unihan_Readings.txt:line:181726:U+904D:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "AMANESHI",
+      "sourceLocator": "Unihan_Readings.txt:line:181727:U+904D:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "HEN",
+      "sourceLocator": "Unihan_Readings.txt:line:181728:U+904D:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "biàn",
+      "sourceLocator": "Unihan_Readings.txt:line:181730:U+904D:kMandarin"
+    }
+  },
+  "雪": {
+    "kRSUnicode": {
+      "value": "173.3",
+      "sourceLocator": "Unihan_IRGSources.txt:line:181188:U+96EA:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "11",
+      "sourceLocator": "Unihan_IRGSources.txt:line:181189:U+96EA:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:150788:U+96EA:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "セツ ゆき すすぐ",
+      "sourceLocator": "Unihan_Readings.txt:line:195086:U+96EA:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "YUKI SUSUGU",
+      "sourceLocator": "Unihan_Readings.txt:line:195087:U+96EA:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "SETSU",
+      "sourceLocator": "Unihan_Readings.txt:line:195088:U+96EA:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "xuě",
+      "sourceLocator": "Unihan_Readings.txt:line:195090:U+96EA:kMandarin"
+    }
+  },
+  "黑": {
+    "kRSUnicode": {
+      "value": "203.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:195518:U+9ED1:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "12",
+      "sourceLocator": "Unihan_IRGSources.txt:line:195519:U+9ED1:kTotalStrokes"
+    },
+    "kJapanese": {
+      "value": "コク くろ くろい",
+      "sourceLocator": "Unihan_Readings.txt:line:210534:U+9ED1:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "KUROI KURO",
+      "sourceLocator": "Unihan_Readings.txt:line:210535:U+9ED1:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "KOKU",
+      "sourceLocator": "Unihan_Readings.txt:line:210536:U+9ED1:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "hēi",
+      "sourceLocator": "Unihan_Readings.txt:line:210538:U+9ED1:kMandarin"
+    }
+  },
+  "鼻": {
+    "kRSUnicode": {
+      "value": "209.0",
+      "sourceLocator": "Unihan_IRGSources.txt:line:196346:U+9F3B:kRSUnicode"
+    },
+    "kTotalStrokes": {
+      "value": "14",
+      "sourceLocator": "Unihan_IRGSources.txt:line:196347:U+9F3B:kTotalStrokes"
+    },
+    "kJoyoKanji": {
+      "value": "2010",
+      "sourceLocator": "Unihan_OtherMappings.txt:line:164899:U+9F3B:kJoyoKanji"
+    },
+    "kJapanese": {
+      "value": "ビ ヒ はな",
+      "sourceLocator": "Unihan_Readings.txt:line:211494:U+9F3B:kJapanese"
+    },
+    "kJapaneseKun": {
+      "value": "HANA",
+      "sourceLocator": "Unihan_Readings.txt:line:211495:U+9F3B:kJapaneseKun"
+    },
+    "kJapaneseOn": {
+      "value": "BI HI",
+      "sourceLocator": "Unihan_Readings.txt:line:211496:U+9F3B:kJapaneseOn"
+    },
+    "kMandarin": {
+      "value": "bí",
+      "sourceLocator": "Unihan_Readings.txt:line:211498:U+9F3B:kMandarin"
+    }
+  }
+}

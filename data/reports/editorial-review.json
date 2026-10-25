@@ -1,0 +1,1919 @@
+[
+  {
+    "characterId": "char:8c46",
+    "primaryReadingId": "reading:char:8c46:dou4",
+    "readingId": [
+      "reading:char:8c46:dou4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:7528",
+    "primaryReadingId": "reading:char:7528:yong4",
+    "readingId": [
+      "reading:char:7528:yong4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:529b",
+    "primaryReadingId": "reading:char:529b:li4",
+    "readingId": [
+      "reading:char:529b:li4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:529e",
+    "primaryReadingId": "reading:char:529e:ban4",
+    "readingId": [
+      "reading:char:529e:ban4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6cd5",
+    "primaryReadingId": "reading:char:6cd5:fa3",
+    "readingId": [
+      "reading:char:6cd5:fa3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8bf7",
+    "primaryReadingId": "reading:char:8bf7:qing3",
+    "readingId": [
+      "reading:char:8bf7:qing3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:624d",
+    "primaryReadingId": "reading:char:624d:cai2",
+    "readingId": [
+      "reading:char:624d:cai2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:7761",
+    "primaryReadingId": "reading:char:7761:shui4",
+    "readingId": [
+      "reading:char:7761:shui4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5de6",
+    "primaryReadingId": "reading:char:5de6:zuo3",
+    "readingId": [
+      "reading:char:5de6:zuo3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:53f3",
+    "primaryReadingId": "reading:char:53f3:you4",
+    "readingId": [
+      "reading:char:53f3:you4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:53ea",
+    "primaryReadingId": "reading:char:53ea:zhi1",
+    "readingId": [
+      "reading:char:53ea:zhi1",
+      "reading:char:53ea:zhi3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:65c1",
+    "primaryReadingId": "reading:char:65c1:pang2",
+    "readingId": [
+      "reading:char:65c1:pang2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:9f9f",
+    "primaryReadingId": "reading:char:9f9f:gui1",
+    "readingId": [
+      "reading:char:9f9f:gui1",
+      "reading:char:9f9f:jun1",
+      "reading:char:9f9f:qiu1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8116",
+    "primaryReadingId": "reading:char:8116:bo2",
+    "readingId": [
+      "reading:char:8116:bo2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:58f3",
+    "primaryReadingId": "reading:char:58f3:ke2",
+    "readingId": [
+      "reading:char:58f3:qiao4",
+      "reading:char:58f3:ke2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5b89",
+    "primaryReadingId": "reading:char:5b89:an1",
+    "readingId": [
+      "reading:char:5b89:an1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:4e8b",
+    "primaryReadingId": "reading:char:4e8b:shi4",
+    "readingId": [
+      "reading:char:4e8b:shi4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:547d",
+    "primaryReadingId": "reading:char:547d:ming4",
+    "readingId": [
+      "reading:char:547d:ming4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:775b",
+    "primaryReadingId": "reading:char:775b:jing1",
+    "readingId": [
+      "reading:char:775b:jing1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5634",
+    "primaryReadingId": "reading:char:5634:zui3",
+    "readingId": [
+      "reading:char:5634:zui3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:809a",
+    "primaryReadingId": "reading:char:809a:du4",
+    "readingId": [
+      "reading:char:809a:du3",
+      "reading:char:809a:du4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5bb3",
+    "primaryReadingId": "reading:char:5bb3:hai4",
+    "readingId": [
+      "reading:char:5bb3:hai4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:4fdd",
+    "primaryReadingId": "reading:char:4fdd:bao3",
+    "readingId": [
+      "reading:char:4fdd:bao3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:627e",
+    "primaryReadingId": "reading:char:627e:zhao3",
+    "readingId": [
+      "reading:char:627e:zhao3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:51a0",
+    "primaryReadingId": "reading:char:51a0:guan1",
+    "readingId": [
+      "reading:char:51a0:guan4",
+      "reading:char:51a0:guan1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:88c1",
+    "primaryReadingId": "reading:char:88c1:cai2",
+    "readingId": [
+      "reading:char:88c1:cai2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:96ea",
+    "primaryReadingId": "reading:char:96ea:xue3",
+    "readingId": [
+      "reading:char:96ea:xue3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:751f",
+    "primaryReadingId": "reading:char:751f:sheng1",
+    "readingId": [
+      "reading:char:751f:sheng1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8bed",
+    "primaryReadingId": "reading:char:8bed:yu3",
+    "readingId": [
+      "reading:char:8bed:yu3",
+      "reading:char:8bed:yu4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:95e8",
+    "primaryReadingId": "reading:char:95e8:men2",
+    "readingId": [
+      "reading:char:95e8:men2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6ca1",
+    "primaryReadingId": "reading:char:6ca1:mei2",
+    "readingId": [
+      "reading:char:6ca1:mei2",
+      "reading:char:6ca1:mo4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:817f",
+    "primaryReadingId": "reading:char:817f:tui3",
+    "readingId": [
+      "reading:char:817f:tui3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5357",
+    "primaryReadingId": "reading:char:5357:nan2",
+    "readingId": [
+      "reading:char:5357:nan2",
+      "reading:char:5357:na1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5317",
+    "primaryReadingId": "reading:char:5317:bei3",
+    "readingId": [
+      "reading:char:5317:bei3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:62cd",
+    "primaryReadingId": "reading:char:62cd:pai1",
+    "readingId": [
+      "reading:char:62cd:pai1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:505a",
+    "primaryReadingId": "reading:char:505a:zuo4",
+    "readingId": [
+      "reading:char:505a:zuo4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:74dc",
+    "primaryReadingId": "reading:char:74dc:gua1",
+    "readingId": [
+      "reading:char:74dc:gua1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6302",
+    "primaryReadingId": "reading:char:6302:gua4",
+    "readingId": [
+      "reading:char:6302:gua4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5446",
+    "primaryReadingId": "reading:char:5446:dai1",
+    "readingId": [
+      "reading:char:5446:dai1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5f53",
+    "primaryReadingId": "reading:char:5f53:dang1",
+    "readingId": [
+      "reading:char:5f53:dang1",
+      "reading:char:5f53:dang4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:53d4",
+    "primaryReadingId": "reading:char:53d4:shu1",
+    "readingId": [
+      "reading:char:53d4:shu1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8bf4",
+    "primaryReadingId": "reading:char:8bf4:shuo1",
+    "readingId": [
+      "reading:char:8bf4:shui4",
+      "reading:char:8bf4:shuo1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:540c",
+    "primaryReadingId": "reading:char:540c:tong2",
+    "readingId": [
+      "reading:char:540c:tong2",
+      "reading:char:540c:tong4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:76f8",
+    "primaryReadingId": "reading:char:76f8:xiang1",
+    "readingId": [
+      "reading:char:76f8:xiang1",
+      "reading:char:76f8:xiang4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:9f3b",
+    "primaryReadingId": "reading:char:9f3b:bi2",
+    "readingId": [
+      "reading:char:9f3b:bi2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:7709",
+    "primaryReadingId": "reading:char:7709:mei2",
+    "readingId": [
+      "reading:char:7709:mei2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:53cc",
+    "primaryReadingId": "reading:char:53cc:shuang1",
+    "readingId": [
+      "reading:char:53cc:shuang1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8fdb",
+    "primaryReadingId": "reading:char:8fdb:jin4",
+    "readingId": [
+      "reading:char:8fdb:jin4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:533b",
+    "primaryReadingId": "reading:char:533b:yi1",
+    "readingId": [
+      "reading:char:533b:yi1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:94b1",
+    "primaryReadingId": "reading:char:94b1:qian2",
+    "readingId": [
+      "reading:char:94b1:qian2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:4e3b",
+    "primaryReadingId": "reading:char:4e3b:zhu3",
+    "readingId": [
+      "reading:char:4e3b:zhu3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:65b9",
+    "primaryReadingId": "reading:char:65b9:fang1",
+    "readingId": [
+      "reading:char:65b9:fang1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:7b54",
+    "primaryReadingId": "reading:char:7b54:da2",
+    "readingId": [
+      "reading:char:7b54:da1",
+      "reading:char:7b54:da2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:59d3",
+    "primaryReadingId": "reading:char:59d3:xing4",
+    "readingId": [
+      "reading:char:59d3:xing4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5973",
+    "primaryReadingId": "reading:char:5973:nv3",
+    "readingId": [
+      "reading:char:5973:nv3",
+      "reading:char:5973:ru3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5b69",
+    "primaryReadingId": "reading:char:5b69:hai2",
+    "readingId": [
+      "reading:char:5b69:hai2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5feb",
+    "primaryReadingId": "reading:char:5feb:kuai4",
+    "readingId": [
+      "reading:char:5feb:kuai4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6b65",
+    "primaryReadingId": "reading:char:6b65:bu4",
+    "readingId": [
+      "reading:char:6b65:bu4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5f88",
+    "primaryReadingId": "reading:char:5f88:hen3",
+    "readingId": [
+      "reading:char:5f88:hen3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8089",
+    "primaryReadingId": "reading:char:8089:rou4",
+    "readingId": [
+      "reading:char:8089:rou4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8eab",
+    "primaryReadingId": "reading:char:8eab:shen1",
+    "readingId": [
+      "reading:char:8eab:shen1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:501f",
+    "primaryReadingId": "reading:char:501f:jie4",
+    "readingId": [
+      "reading:char:501f:jie4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:95ee",
+    "primaryReadingId": "reading:char:95ee:wen4",
+    "readingId": [
+      "reading:char:95ee:wen4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:62db",
+    "primaryReadingId": "reading:char:62db:zhao1",
+    "readingId": [
+      "reading:char:62db:zhao1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6015",
+    "primaryReadingId": "reading:char:6015:pa4",
+    "readingId": [
+      "reading:char:6015:pa4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:60ca",
+    "primaryReadingId": "reading:char:60ca:jing1",
+    "readingId": [
+      "reading:char:60ca:jing1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:904d",
+    "primaryReadingId": "reading:char:904d:bian4",
+    "readingId": [
+      "reading:char:904d:bian4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:539f",
+    "primaryReadingId": "reading:char:539f:yuan2",
+    "readingId": [
+      "reading:char:539f:yuan2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5ddd",
+    "primaryReadingId": "reading:char:5ddd:chuan1",
+    "readingId": [
+      "reading:char:5ddd:chuan1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:89c4",
+    "primaryReadingId": "reading:char:89c4:gui1",
+    "readingId": [
+      "reading:char:89c4:gui1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8695",
+    "primaryReadingId": "reading:char:8695:can2",
+    "readingId": [
+      "reading:char:8695:can2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:63d2",
+    "primaryReadingId": "reading:char:63d2:cha1",
+    "readingId": [
+      "reading:char:63d2:cha1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5468",
+    "primaryReadingId": "reading:char:5468:zhou1",
+    "readingId": [
+      "reading:char:5468:zhou1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:53d1",
+    "primaryReadingId": "reading:char:53d1:fa4",
+    "readingId": [
+      "reading:char:53d1:fa1",
+      "reading:char:53d1:fa4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:81c2",
+    "primaryReadingId": "reading:char:81c2:bi4",
+    "readingId": [
+      "reading:char:81c2:bi4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:7ed9",
+    "primaryReadingId": "reading:char:7ed9:gei3",
+    "readingId": [
+      "reading:char:7ed9:gei3",
+      "reading:char:7ed9:ji3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5b59",
+    "primaryReadingId": "reading:char:5b59:sun1",
+    "readingId": [
+      "reading:char:5b59:sun1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:519b",
+    "primaryReadingId": "reading:char:519b:jun1",
+    "readingId": [
+      "reading:char:519b:jun1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:590f",
+    "primaryReadingId": "reading:char:590f:xia4",
+    "readingId": [
+      "reading:char:590f:xia4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:679c",
+    "primaryReadingId": "reading:char:679c:guo3",
+    "readingId": [
+      "reading:char:679c:guo3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:897f",
+    "primaryReadingId": "reading:char:897f:xi1",
+    "readingId": [
+      "reading:char:897f:xi1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8fb9",
+    "primaryReadingId": "reading:char:8fb9:bian1",
+    "readingId": [
+      "reading:char:8fb9:bian1",
+      "reading:char:8fb9:bian5"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6b22",
+    "primaryReadingId": "reading:char:6b22:huan1",
+    "readingId": [
+      "reading:char:6b22:huan1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6b63",
+    "primaryReadingId": "reading:char:6b63:zheng4",
+    "readingId": [
+      "reading:char:6b63:zheng1",
+      "reading:char:6b63:zheng4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6cc9",
+    "primaryReadingId": "reading:char:6cc9:quan2",
+    "readingId": [
+      "reading:char:6cc9:quan2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:773c",
+    "primaryReadingId": "reading:char:773c:yan3",
+    "readingId": [
+      "reading:char:773c:yan3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8377",
+    "primaryReadingId": "reading:char:8377:he2",
+    "readingId": [
+      "reading:char:8377:he2",
+      "reading:char:8377:he4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5c16",
+    "primaryReadingId": "reading:char:5c16:jian1",
+    "readingId": [
+      "reading:char:5c16:jian1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:65e9",
+    "primaryReadingId": "reading:char:65e9:zao3",
+    "readingId": [
+      "reading:char:65e9:zao3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:591c",
+    "primaryReadingId": "reading:char:591c:ye4",
+    "readingId": [
+      "reading:char:591c:ye4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6240",
+    "primaryReadingId": "reading:char:6240:suo3",
+    "readingId": [
+      "reading:char:6240:suo3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:9ed1",
+    "primaryReadingId": "reading:char:9ed1:hei1",
+    "readingId": [
+      "reading:char:9ed1:hei1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5149",
+    "primaryReadingId": "reading:char:5149:guang1",
+    "readingId": [
+      "reading:char:5149:guang1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:70b9",
+    "primaryReadingId": "reading:char:70b9:dian3",
+    "readingId": [
+      "reading:char:70b9:dian3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6d6a",
+    "primaryReadingId": "reading:char:6d6a:lang4",
+    "readingId": [
+      "reading:char:6d6a:lang4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:548c",
+    "primaryReadingId": "reading:char:548c:he2",
+    "readingId": [
+      "reading:char:548c:he2",
+      "reading:char:548c:he4",
+      "reading:char:548c:hu2",
+      "reading:char:548c:huo2",
+      "reading:char:548c:huo4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:59d0",
+    "primaryReadingId": "reading:char:59d0:jie3",
+    "readingId": [
+      "reading:char:59d0:jie3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:7fa4",
+    "primaryReadingId": "reading:char:7fa4:qun2",
+    "readingId": [
+      "reading:char:7fa4:qun2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:542c",
+    "primaryReadingId": "reading:char:542c:ting1",
+    "readingId": [
+      "reading:char:542c:yin3",
+      "reading:char:542c:ting1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:7537",
+    "primaryReadingId": "reading:char:7537:nan2",
+    "readingId": [
+      "reading:char:7537:nan2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5411",
+    "primaryReadingId": "reading:char:5411:xiang4",
+    "readingId": [
+      "reading:char:5411:xiang4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:51e0",
+    "primaryReadingId": "reading:char:51e0:ji3",
+    "readingId": [
+      "reading:char:51e0:ji1",
+      "reading:char:51e0:ji3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6761",
+    "primaryReadingId": "reading:char:6761:tiao2",
+    "readingId": [
+      "reading:char:6761:tiao2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:4e45",
+    "primaryReadingId": "reading:char:4e45:jiu3",
+    "readingId": [
+      "reading:char:4e45:jiu3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:534a",
+    "primaryReadingId": "reading:char:534a:ban4",
+    "readingId": [
+      "reading:char:534a:ban4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5019",
+    "primaryReadingId": "reading:char:5019:hou4",
+    "readingId": [
+      "reading:char:5019:hou4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:516c",
+    "primaryReadingId": "reading:char:516c:gong1",
+    "readingId": [
+      "reading:char:516c:gong1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:4f11",
+    "primaryReadingId": "reading:char:4f11:xiu1",
+    "readingId": [
+      "reading:char:4f11:xiu1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6c34",
+    "primaryReadingId": "reading:char:6c34:shui3",
+    "readingId": [
+      "reading:char:6c34:shui3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6728",
+    "primaryReadingId": "reading:char:6728:mu4",
+    "readingId": [
+      "reading:char:6728:mu4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6708",
+    "primaryReadingId": "reading:char:6708:yue4",
+    "readingId": [
+      "reading:char:6708:yue4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5c71",
+    "primaryReadingId": "reading:char:5c71:shan1",
+    "readingId": [
+      "reading:char:5c71:shan1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:706b",
+    "primaryReadingId": "reading:char:706b:huo3",
+    "readingId": [
+      "reading:char:706b:huo3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6797",
+    "primaryReadingId": "reading:char:6797:lin2",
+    "readingId": [
+      "reading:char:6797:lin2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:7136",
+    "primaryReadingId": "reading:char:7136:ran2",
+    "readingId": [
+      "reading:char:7136:ran2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:660e",
+    "primaryReadingId": "reading:char:660e:ming2",
+    "readingId": [
+      "reading:char:660e:ming2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6717",
+    "primaryReadingId": "reading:char:6717:lang3",
+    "readingId": [
+      "reading:char:6717:lang3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:6e05",
+    "primaryReadingId": "reading:char:6e05:qing1",
+    "readingId": [
+      "reading:char:6e05:qing1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:79be",
+    "primaryReadingId": "reading:char:79be:he2",
+    "readingId": [
+      "reading:char:79be:he2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:4e2d",
+    "primaryReadingId": "reading:char:4e2d:zhong1",
+    "readingId": [
+      "reading:char:4e2d:zhong1",
+      "reading:char:4e2d:zhong4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:79cb",
+    "primaryReadingId": "reading:char:79cb:qiu1",
+    "readingId": [
+      "reading:char:79cb:qiu1"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:997c",
+    "primaryReadingId": "reading:char:997c:bing3",
+    "readingId": [
+      "reading:char:997c:bing3"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:56e2",
+    "primaryReadingId": "reading:char:56e2:tuan2",
+    "readingId": [
+      "reading:char:56e2:tuan2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:5706",
+    "primaryReadingId": "reading:char:5706:yuan2",
+    "readingId": [
+      "reading:char:5706:yuan2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:8336",
+    "primaryReadingId": "reading:char:8336:cha2",
+    "readingId": [
+      "reading:char:8336:cha2"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  },
+  {
+    "characterId": "char:996d",
+    "primaryReadingId": "reading:char:996d:fan4",
+    "readingId": [
+      "reading:char:996d:fan4"
+    ],
+    "status": "pending",
+    "checks": [
+      "all-readings-and-English-senses",
+      "context-specific-traditional-forms",
+      "visible-structure",
+      "regional-stroke-count"
+    ],
+    "reviewer": null
+  }
+]

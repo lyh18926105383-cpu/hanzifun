@@ -1,0 +1,47 @@
+{
+  "core": {
+    "uniqueCharacters": 126,
+    "legacyOccurrences": 108,
+    "legacyUniqueCharacters": 107,
+    "prototypeUniqueCharacters": 26,
+    "intersection": 7,
+    "dataReady": 126,
+    "strokesAvailable": 126,
+    "informationAvailable": 126,
+    "tier2Available": 0,
+    "tier1Enhanced": 0,
+    "publishablePages": 0
+  },
+  "hsk": {
+    "importStatus": "contract-only-HF-07",
+    "associatedUniqueCharacters": 0,
+    "importedMemberships": 0,
+    "sourceDenominator": null
+  },
+  "words": {
+    "uniqueWords": 85,
+    "dictionaryAttested": 75
+  },
+  "audio": {
+    "uniqueContextRecordings": 107,
+    "mappedOccurrences": 108,
+    "reviewedForNewReading": 0,
+    "missingCoreContextRecordings": 19,
+    "isolatedReadingRequests": 153
+  },
+  "kanji": {
+    "verifiedSameGlyph": 80,
+    "notInConsultedSource": 46
+  },
+  "pinyin": {
+    "scopeVersion": "hanzifun-standard-syllables-v1",
+    "totalSyllables": 410,
+    "syllablesWithAttestation": 410,
+    "attestedSyllableTones": 1323,
+    "reviewedSyllableTones": 0,
+    "reviewedPlayableAudio": 0,
+    "missingAudio": 1323
+  },
+  "status": "data-generated-editorial-and-listening-acceptance-pending",
+  "publicationNote": "Data readiness is not full Tier2 teaching-page readiness; HF-04 supplies/reviews VisualNotes, examples and practice UI. Missing illustrations alone never block Tier2."
+}

@@ -1,0 +1,758 @@
+[
+  {
+    "glyph": "中",
+    "radical": "丨",
+    "decomposition": "⿻口丨",
+    "sourceLocator": "dictionary.txt:line:79"
+  },
+  {
+    "glyph": "主",
+    "radical": "丶",
+    "decomposition": "⿱丶王",
+    "sourceLocator": "dictionary.txt:line:90"
+  },
+  {
+    "glyph": "久",
+    "radical": "丿",
+    "decomposition": "⿻勹？",
+    "sourceLocator": "dictionary.txt:line:96"
+  },
+  {
+    "glyph": "事",
+    "radical": "亅",
+    "decomposition": "⿻⿳一口彐亅",
+    "sourceLocator": "dictionary.txt:line:135"
+  },
+  {
+    "glyph": "休",
+    "radical": "亻",
+    "decomposition": "⿰亻木",
+    "sourceLocator": "dictionary.txt:line:224"
+  },
+  {
+    "glyph": "保",
+    "radical": "亻",
+    "decomposition": "⿰亻呆",
+    "sourceLocator": "dictionary.txt:line:336"
+  },
+  {
+    "glyph": "候",
+    "radical": "亻",
+    "decomposition": "⿰亻矦",
+    "sourceLocator": "dictionary.txt:line:366"
+  },
+  {
+    "glyph": "借",
+    "radical": "亻",
+    "decomposition": "⿰亻昔",
+    "sourceLocator": "dictionary.txt:line:371"
+  },
+  {
+    "glyph": "做",
+    "radical": "亻",
+    "decomposition": "⿰亻故",
+    "sourceLocator": "dictionary.txt:line:395"
+  },
+  {
+    "glyph": "光",
+    "radical": "儿",
+    "decomposition": "⿱⺌兀",
+    "sourceLocator": "dictionary.txt:line:483"
+  },
+  {
+    "glyph": "公",
+    "radical": "八",
+    "decomposition": "⿱八厶",
+    "sourceLocator": "dictionary.txt:line:503"
+  },
+  {
+    "glyph": "军",
+    "radical": "车",
+    "decomposition": "⿱冖车",
+    "sourceLocator": "dictionary.txt:line:539"
+  },
+  {
+    "glyph": "冠",
+    "radical": "冖",
+    "decomposition": "⿱冖⿺元寸",
+    "sourceLocator": "dictionary.txt:line:542"
+  },
+  {
+    "glyph": "几",
+    "radical": "几",
+    "decomposition": "⿰丿乙",
+    "sourceLocator": "dictionary.txt:line:576"
+  },
+  {
+    "glyph": "力",
+    "radical": "力",
+    "decomposition": "⿻丿？",
+    "sourceLocator": "dictionary.txt:line:677"
+  },
+  {
+    "glyph": "办",
+    "radical": "力",
+    "decomposition": "⿻力八",
+    "sourceLocator": "dictionary.txt:line:679"
+  },
+  {
+    "glyph": "北",
+    "radical": "匕",
+    "decomposition": "⿰？匕",
+    "sourceLocator": "dictionary.txt:line:738"
+  },
+  {
+    "glyph": "医",
+    "radical": "匸",
+    "decomposition": "⿷匸矢",
+    "sourceLocator": "dictionary.txt:line:756"
+  },
+  {
+    "glyph": "半",
+    "radical": "十",
+    "decomposition": "⿻丷牛",
+    "sourceLocator": "dictionary.txt:line:769"
+  },
+  {
+    "glyph": "南",
+    "radical": "十",
+    "decomposition": "⿱十⿵冂⿱丷干",
+    "sourceLocator": "dictionary.txt:line:779"
+  },
+  {
+    "glyph": "原",
+    "radical": "厂",
+    "decomposition": "⿸厂泉",
+    "sourceLocator": "dictionary.txt:line:822"
+  },
+  {
+    "glyph": "双",
+    "radical": "又",
+    "decomposition": "⿰又又",
+    "sourceLocator": "dictionary.txt:line:848"
+  },
+  {
+    "glyph": "发",
+    "radical": "又",
+    "decomposition": "⿸？又",
+    "sourceLocator": "dictionary.txt:line:850"
+  },
+  {
+    "glyph": "叔",
+    "radical": "又",
+    "decomposition": "⿰⿱上小又",
+    "sourceLocator": "dictionary.txt:line:852"
+  },
+  {
+    "glyph": "只",
+    "radical": "口",
+    "decomposition": "⿱口八",
+    "sourceLocator": "dictionary.txt:line:869"
+  },
+  {
+    "glyph": "右",
+    "radical": "口",
+    "decomposition": "⿸？口",
+    "sourceLocator": "dictionary.txt:line:878"
+  },
+  {
+    "glyph": "同",
+    "radical": "口",
+    "decomposition": "⿵凡口",
+    "sourceLocator": "dictionary.txt:line:896"
+  },
+  {
+    "glyph": "向",
+    "radical": "口",
+    "decomposition": "⿵？口",
+    "sourceLocator": "dictionary.txt:line:901"
+  },
+  {
+    "glyph": "听",
+    "radical": "口",
+    "decomposition": "⿰口斤",
+    "sourceLocator": "dictionary.txt:line:919"
+  },
+  {
+    "glyph": "呆",
+    "radical": "口",
+    "decomposition": "⿱口木",
+    "sourceLocator": "dictionary.txt:line:937"
+  },
+  {
+    "glyph": "周",
+    "radical": "口",
+    "decomposition": "⿵冂⿱土口",
+    "sourceLocator": "dictionary.txt:line:958"
+  },
+  {
+    "glyph": "命",
+    "radical": "口",
+    "decomposition": "⿹令口",
+    "sourceLocator": "dictionary.txt:line:969"
+  },
+  {
+    "glyph": "和",
+    "radical": "口",
+    "decomposition": "⿰禾口",
+    "sourceLocator": "dictionary.txt:line:976"
+  },
+  {
+    "glyph": "嘴",
+    "radical": "口",
+    "decomposition": "⿰口觜",
+    "sourceLocator": "dictionary.txt:line:1225"
+  },
+  {
+    "glyph": "团",
+    "radical": "囗",
+    "decomposition": "⿴囗才",
+    "sourceLocator": "dictionary.txt:line:1297"
+  },
+  {
+    "glyph": "圆",
+    "radical": "囗",
+    "decomposition": "⿴囗员",
+    "sourceLocator": "dictionary.txt:line:1315"
+  },
+  {
+    "glyph": "壳",
+    "radical": "士",
+    "decomposition": "⿱士冗",
+    "sourceLocator": "dictionary.txt:line:1517"
+  },
+  {
+    "glyph": "夏",
+    "radical": "夊",
+    "decomposition": "⿳一自夂",
+    "sourceLocator": "dictionary.txt:line:1533"
+  },
+  {
+    "glyph": "夜",
+    "radical": "夕",
+    "decomposition": "⿱亠⿰亻夕",
+    "sourceLocator": "dictionary.txt:line:1540"
+  },
+  {
+    "glyph": "女",
+    "radical": "女",
+    "decomposition": "？",
+    "sourceLocator": "dictionary.txt:line:1589"
+  },
+  {
+    "glyph": "姐",
+    "radical": "女",
+    "decomposition": "⿰女且",
+    "sourceLocator": "dictionary.txt:line:1630"
+  },
+  {
+    "glyph": "姓",
+    "radical": "女",
+    "decomposition": "⿰女生",
+    "sourceLocator": "dictionary.txt:line:1633"
+  },
+  {
+    "glyph": "孙",
+    "radical": "子",
+    "decomposition": "⿰子小",
+    "sourceLocator": "dictionary.txt:line:1752"
+  },
+  {
+    "glyph": "孩",
+    "radical": "子",
+    "decomposition": "⿰子亥",
+    "sourceLocator": "dictionary.txt:line:1764"
+  },
+  {
+    "glyph": "安",
+    "radical": "宀",
+    "decomposition": "⿱宀女",
+    "sourceLocator": "dictionary.txt:line:1783"
+  },
+  {
+    "glyph": "害",
+    "radical": "宀",
+    "decomposition": "⿱宀⿱丰口",
+    "sourceLocator": "dictionary.txt:line:1808"
+  },
+  {
+    "glyph": "尖",
+    "radical": "小",
+    "decomposition": "⿱小大",
+    "sourceLocator": "dictionary.txt:line:1866"
+  },
+  {
+    "glyph": "山",
+    "radical": "山",
+    "decomposition": "⿶凵丨",
+    "sourceLocator": "dictionary.txt:line:1927"
+  },
+  {
+    "glyph": "川",
+    "radical": "川",
+    "decomposition": "⿲丿丨丨",
+    "sourceLocator": "dictionary.txt:line:2039"
+  },
+  {
+    "glyph": "左",
+    "radical": "工",
+    "decomposition": "⿸？工",
+    "sourceLocator": "dictionary.txt:line:2046"
+  },
+  {
+    "glyph": "当",
+    "radical": "⺌",
+    "decomposition": "⿱⺌彐",
+    "sourceLocator": "dictionary.txt:line:2234"
+  },
+  {
+    "glyph": "很",
+    "radical": "彳",
+    "decomposition": "⿰彳艮",
+    "sourceLocator": "dictionary.txt:line:2269"
+  },
+  {
+    "glyph": "快",
+    "radical": "忄",
+    "decomposition": "⿰忄夬",
+    "sourceLocator": "dictionary.txt:line:2320"
+  },
+  {
+    "glyph": "怕",
+    "radical": "忄",
+    "decomposition": "⿰忄白",
+    "sourceLocator": "dictionary.txt:line:2343"
+  },
+  {
+    "glyph": "惊",
+    "radical": "忄",
+    "decomposition": "⿰忄京",
+    "sourceLocator": "dictionary.txt:line:2433"
+  },
+  {
+    "glyph": "所",
+    "radical": "户",
+    "decomposition": "⿰户斤",
+    "sourceLocator": "dictionary.txt:line:2601"
+  },
+  {
+    "glyph": "才",
+    "radical": "扌",
+    "decomposition": "⿻扌？",
+    "sourceLocator": "dictionary.txt:line:2611"
+  },
+  {
+    "glyph": "找",
+    "radical": "扌",
+    "decomposition": "⿰扌戈",
+    "sourceLocator": "dictionary.txt:line:2636"
+  },
+  {
+    "glyph": "拍",
+    "radical": "扌",
+    "decomposition": "⿰扌白",
+    "sourceLocator": "dictionary.txt:line:2678"
+  },
+  {
+    "glyph": "招",
+    "radical": "扌",
+    "decomposition": "⿰扌召",
+    "sourceLocator": "dictionary.txt:line:2690"
+  },
+  {
+    "glyph": "挂",
+    "radical": "扌",
+    "decomposition": "⿰扌圭",
+    "sourceLocator": "dictionary.txt:line:2714"
+  },
+  {
+    "glyph": "插",
+    "radical": "扌",
+    "decomposition": "⿰扌臿",
+    "sourceLocator": "dictionary.txt:line:2816"
+  },
+  {
+    "glyph": "方",
+    "radical": "方",
+    "decomposition": "⿱亠？",
+    "sourceLocator": "dictionary.txt:line:3037"
+  },
+  {
+    "glyph": "旁",
+    "radical": "方",
+    "decomposition": "⿱立方",
+    "sourceLocator": "dictionary.txt:line:3041"
+  },
+  {
+    "glyph": "早",
+    "radical": "日",
+    "decomposition": "⿱日十",
+    "sourceLocator": "dictionary.txt:line:3061"
+  },
+  {
+    "glyph": "明",
+    "radical": "日",
+    "decomposition": "⿰日月",
+    "sourceLocator": "dictionary.txt:line:3080"
+  },
+  {
+    "glyph": "月",
+    "radical": "月",
+    "decomposition": "⿵冂二",
+    "sourceLocator": "dictionary.txt:line:3184"
+  },
+  {
+    "glyph": "朗",
+    "radical": "月",
+    "decomposition": "⿰良月",
+    "sourceLocator": "dictionary.txt:line:3192"
+  },
+  {
+    "glyph": "木",
+    "radical": "木",
+    "decomposition": "⿻十八",
+    "sourceLocator": "dictionary.txt:line:3198"
+  },
+  {
+    "glyph": "条",
+    "radical": "木",
+    "decomposition": "⿱夂木",
+    "sourceLocator": "dictionary.txt:line:3228"
+  },
+  {
+    "glyph": "林",
+    "radical": "木",
+    "decomposition": "⿰木木",
+    "sourceLocator": "dictionary.txt:line:3253"
+  },
+  {
+    "glyph": "果",
+    "radical": "木",
+    "decomposition": "⿱田木",
+    "sourceLocator": "dictionary.txt:line:3256"
+  },
+  {
+    "glyph": "欢",
+    "radical": "欠",
+    "decomposition": "⿰又欠",
+    "sourceLocator": "dictionary.txt:line:3587"
+  },
+  {
+    "glyph": "正",
+    "radical": "止",
+    "decomposition": "⿱一止",
+    "sourceLocator": "dictionary.txt:line:3614"
+  },
+  {
+    "glyph": "步",
+    "radical": "止",
+    "decomposition": "⿱止？",
+    "sourceLocator": "dictionary.txt:line:3616"
+  },
+  {
+    "glyph": "水",
+    "radical": "水",
+    "decomposition": "⿻亅？",
+    "sourceLocator": "dictionary.txt:line:3726"
+  },
+  {
+    "glyph": "没",
+    "radical": "氵",
+    "decomposition": "⿰氵殳",
+    "sourceLocator": "dictionary.txt:line:3785"
+  },
+  {
+    "glyph": "泉",
+    "radical": "水",
+    "decomposition": "⿱白水",
+    "sourceLocator": "dictionary.txt:line:3810"
+  },
+  {
+    "glyph": "法",
+    "radical": "氵",
+    "decomposition": "⿰氵去",
+    "sourceLocator": "dictionary.txt:line:3816"
+  },
+  {
+    "glyph": "浪",
+    "radical": "氵",
+    "decomposition": "⿰氵良",
+    "sourceLocator": "dictionary.txt:line:3900"
+  },
+  {
+    "glyph": "清",
+    "radical": "氵",
+    "decomposition": "⿰氵青",
+    "sourceLocator": "dictionary.txt:line:3978"
+  },
+  {
+    "glyph": "火",
+    "radical": "火",
+    "decomposition": "⿻丷人",
+    "sourceLocator": "dictionary.txt:line:4211"
+  },
+  {
+    "glyph": "点",
+    "radical": "灬",
+    "decomposition": "⿱占灬",
+    "sourceLocator": "dictionary.txt:line:4247"
+  },
+  {
+    "glyph": "然",
+    "radical": "灬",
+    "decomposition": "⿱肰灬",
+    "sourceLocator": "dictionary.txt:line:4296"
+  },
+  {
+    "glyph": "瓜",
+    "radical": "瓜",
+    "decomposition": "⿵？厶",
+    "sourceLocator": "dictionary.txt:line:4642"
+  },
+  {
+    "glyph": "生",
+    "radical": "生",
+    "decomposition": "⿻一土",
+    "sourceLocator": "dictionary.txt:line:4666"
+  },
+  {
+    "glyph": "用",
+    "radical": "用",
+    "decomposition": "⿵冂？",
+    "sourceLocator": "dictionary.txt:line:4672"
+  },
+  {
+    "glyph": "男",
+    "radical": "田",
+    "decomposition": "⿱田力",
+    "sourceLocator": "dictionary.txt:line:4685"
+  },
+  {
+    "glyph": "相",
+    "radical": "目",
+    "decomposition": "⿰木目",
+    "sourceLocator": "dictionary.txt:line:4922"
+  },
+  {
+    "glyph": "眉",
+    "radical": "目",
+    "decomposition": "⿸尸目",
+    "sourceLocator": "dictionary.txt:line:4930"
+  },
+  {
+    "glyph": "眼",
+    "radical": "目",
+    "decomposition": "⿰目艮",
+    "sourceLocator": "dictionary.txt:line:4953"
+  },
+  {
+    "glyph": "睛",
+    "radical": "目",
+    "decomposition": "⿰目青",
+    "sourceLocator": "dictionary.txt:line:4965"
+  },
+  {
+    "glyph": "睡",
+    "radical": "目",
+    "decomposition": "⿰目垂",
+    "sourceLocator": "dictionary.txt:line:4968"
+  },
+  {
+    "glyph": "禾",
+    "radical": "禾",
+    "decomposition": "⿱丿木",
+    "sourceLocator": "dictionary.txt:line:5203"
+  },
+  {
+    "glyph": "秋",
+    "radical": "禾",
+    "decomposition": "⿰禾火",
+    "sourceLocator": "dictionary.txt:line:5210"
+  },
+  {
+    "glyph": "答",
+    "radical": "⺮",
+    "decomposition": "⿱⺮合",
+    "sourceLocator": "dictionary.txt:line:5374"
+  },
+  {
+    "glyph": "给",
+    "radical": "纟",
+    "decomposition": "⿰纟合",
+    "sourceLocator": "dictionary.txt:line:5735"
+  },
+  {
+    "glyph": "群",
+    "radical": "羊",
+    "decomposition": "⿰君羊",
+    "sourceLocator": "dictionary.txt:line:5873"
+  },
+  {
+    "glyph": "肉",
+    "radical": "肉",
+    "decomposition": "⿻冂仌",
+    "sourceLocator": "dictionary.txt:line:5981"
+  },
+  {
+    "glyph": "肚",
+    "radical": "⺼",
+    "decomposition": "⿰⺼土",
+    "sourceLocator": "dictionary.txt:line:5988"
+  },
+  {
+    "glyph": "脖",
+    "radical": "⺼",
+    "decomposition": "⿰⺼孛",
+    "sourceLocator": "dictionary.txt:line:6067"
+  },
+  {
+    "glyph": "腿",
+    "radical": "⺼",
+    "decomposition": "⿰⺼退",
+    "sourceLocator": "dictionary.txt:line:6118"
+  },
+  {
+    "glyph": "臂",
+    "radical": "⺼",
+    "decomposition": "⿱辟⺼",
+    "sourceLocator": "dictionary.txt:line:6148"
+  },
+  {
+    "glyph": "茶",
+    "radical": "艹",
+    "decomposition": "⿱艹⿱人木",
+    "sourceLocator": "dictionary.txt:line:6354"
+  },
+  {
+    "glyph": "荷",
+    "radical": "艹",
+    "decomposition": "⿱艹何",
+    "sourceLocator": "dictionary.txt:line:6391"
+  },
+  {
+    "glyph": "蚕",
+    "radical": "虫",
+    "decomposition": "⿱天虫",
+    "sourceLocator": "dictionary.txt:line:6705"
+  },
+  {
+    "glyph": "裁",
+    "radical": "衣",
+    "decomposition": "⿹⿱十戈衣",
+    "sourceLocator": "dictionary.txt:line:6939"
+  },
+  {
+    "glyph": "西",
+    "radical": "西",
+    "decomposition": "⿻兀囗",
+    "sourceLocator": "dictionary.txt:line:7009"
+  },
+  {
+    "glyph": "规",
+    "radical": "见",
+    "decomposition": "⿰夫见",
+    "sourceLocator": "dictionary.txt:line:7031"
+  },
+  {
+    "glyph": "语",
+    "radical": "讠",
+    "decomposition": "⿰讠吾",
+    "sourceLocator": "dictionary.txt:line:7286"
+  },
+  {
+    "glyph": "说",
+    "radical": "讠",
+    "decomposition": "⿰讠兑",
+    "sourceLocator": "dictionary.txt:line:7293"
+  },
+  {
+    "glyph": "请",
+    "radical": "讠",
+    "decomposition": "⿰讠青",
+    "sourceLocator": "dictionary.txt:line:7296"
+  },
+  {
+    "glyph": "豆",
+    "radical": "豆",
+    "decomposition": "⿳一口⿱丷一",
+    "sourceLocator": "dictionary.txt:line:7361"
+  },
+  {
+    "glyph": "身",
+    "radical": "身",
+    "decomposition": "？",
+    "sourceLocator": "dictionary.txt:line:7672"
+  },
+  {
+    "glyph": "边",
+    "radical": "辶",
+    "decomposition": "⿺辶力",
+    "sourceLocator": "dictionary.txt:line:7797"
+  },
+  {
+    "glyph": "进",
+    "radical": "辶",
+    "decomposition": "⿺辶井",
+    "sourceLocator": "dictionary.txt:line:7814"
+  },
+  {
+    "glyph": "遍",
+    "radical": "辶",
+    "decomposition": "⿺辶扁",
+    "sourceLocator": "dictionary.txt:line:7885"
+  },
+  {
+    "glyph": "钱",
+    "radical": "钅",
+    "decomposition": "⿰钅戋",
+    "sourceLocator": "dictionary.txt:line:8278"
+  },
+  {
+    "glyph": "门",
+    "radical": "门",
+    "decomposition": "⿰⿱丶丨？",
+    "sourceLocator": "dictionary.txt:line:8505"
+  },
+  {
+    "glyph": "问",
+    "radical": "门",
+    "decomposition": "⿵门口",
+    "sourceLocator": "dictionary.txt:line:8510"
+  },
+  {
+    "glyph": "雪",
+    "radical": "雨",
+    "decomposition": "⿱雨彐",
+    "sourceLocator": "dictionary.txt:line:8672"
+  },
+  {
+    "glyph": "饭",
+    "radical": "饣",
+    "decomposition": "⿰饣反",
+    "sourceLocator": "dictionary.txt:line:8946"
+  },
+  {
+    "glyph": "饼",
+    "radical": "饣",
+    "decomposition": "⿰饣并",
+    "sourceLocator": "dictionary.txt:line:8959"
+  },
+  {
+    "glyph": "黑",
+    "radical": "黑",
+    "decomposition": "⿱？灬",
+    "sourceLocator": "dictionary.txt:line:9481"
+  },
+  {
+    "glyph": "鼻",
+    "radical": "鼻",
+    "decomposition": "⿱自畀",
+    "sourceLocator": "dictionary.txt:line:9524"
+  },
+  {
+    "glyph": "龟",
+    "radical": "龟",
+    "decomposition": "⿱⺈电",
+    "sourceLocator": "dictionary.txt:line:9569"
+  }
+]

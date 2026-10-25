@@ -1,0 +1,15 @@
+{
+  "version": "hf02-editorial-decisions-v1",
+  "reviewer": "Codex",
+  "reviewType": "AI-assisted source comparison; does not replace human listening acceptance",
+  "date": "2026-10-25",
+  "primaryReadings": {
+    "壳": { "numeric": "ke2", "reason": "Legacy 贝壳 context uses ké, rather than formal qiào." },
+    "肚": { "numeric": "du4", "reason": "Legacy 肚子 context means belly; dǔ means tripe." },
+    "说": { "numeric": "shuo1", "reason": "Legacy 说话 context means speak; shuì means persuade." },
+    "听": { "numeric": "ting1", "reason": "Legacy 听歌 context means listen; yǐn is an archaic homograph." }
+  },
+  "singleComponentGlyphs": "豆用力才生瓜方女肉身川发西水木月山火禾中几久半果门",
+  "structureNote": "Single-component educational classification overrides graphic IDS decompositions for these glyphs. Other layout labels describe visible components in the locked MMH source, not historical etymology.",
+  "scope": "Reviewed all 126 primary reading candidates and all 153 character reading summaries against the locked dictionary; recorded context corrections above. Full English-sense, variant and human audio acceptance remain pending."
+}

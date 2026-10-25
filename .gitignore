@@ -6,3 +6,7 @@ dist/
 .wrangler/
 .video-workbench/
 storyboards/candidates/
+
+# HF-02 raw source archives / local dependencies
+.cache/
+node_modules/

@@ -1,0 +1,1930 @@
+[
+  {
+    "wordId": "word:4f7f-7528",
+    "simplified": "使用",
+    "traditionalForms": [
+      "使用"
+    ],
+    "readingId": [
+      "reading:word:4f7f-7528:shi3-yong4"
+    ],
+    "componentCharacterIds": [
+      "char:4f7f",
+      "char:7528"
+    ],
+    "coreCharacterIds": [
+      "char:7528"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:529e-6cd5",
+    "simplified": "办法",
+    "traditionalForms": [
+      "辦法"
+    ],
+    "readingId": [
+      "reading:word:529e-6cd5:ban4-fa3"
+    ],
+    "componentCharacterIds": [
+      "char:529e",
+      "char:6cd5"
+    ],
+    "coreCharacterIds": [
+      "char:529e",
+      "char:6cd5"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:65b9-6cd5",
+    "simplified": "方法",
+    "traditionalForms": [
+      "方法"
+    ],
+    "readingId": [
+      "reading:word:65b9-6cd5:fang1-fa3"
+    ],
+    "componentCharacterIds": [
+      "char:65b9",
+      "char:6cd5"
+    ],
+    "coreCharacterIds": [
+      "char:65b9",
+      "char:6cd5"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8bf7-5750",
+    "simplified": "请坐",
+    "traditionalForms": [
+      "請坐"
+    ],
+    "readingId": [
+      "reading:word:8bf7-5750:qing3-zuo4"
+    ],
+    "componentCharacterIds": [
+      "char:8bf7",
+      "char:5750"
+    ],
+    "coreCharacterIds": [
+      "char:8bf7"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:521a-624d",
+    "simplified": "刚才",
+    "traditionalForms": [
+      "剛才",
+      "剛纔"
+    ],
+    "readingId": [
+      "reading:word:521a-624d:gang1-cai2"
+    ],
+    "componentCharacterIds": [
+      "char:521a",
+      "char:624d"
+    ],
+    "coreCharacterIds": [
+      "char:624d"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:7761-89c9",
+    "simplified": "睡觉",
+    "traditionalForms": [
+      "睡覺"
+    ],
+    "readingId": [
+      "reading:word:7761-89c9:shui4-jiao4"
+    ],
+    "componentCharacterIds": [
+      "char:7761",
+      "char:89c9"
+    ],
+    "coreCharacterIds": [
+      "char:7761"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4e00-53ea",
+    "simplified": "一只",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:4e00",
+      "char:53ea"
+    ],
+    "coreCharacterIds": [
+      "char:53ea"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:65c1-8fb9",
+    "simplified": "旁边",
+    "traditionalForms": [
+      "旁邊"
+    ],
+    "readingId": [
+      "reading:word:65c1-8fb9:pang2-bian1"
+    ],
+    "componentCharacterIds": [
+      "char:65c1",
+      "char:8fb9"
+    ],
+    "coreCharacterIds": [
+      "char:65c1",
+      "char:8fb9"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8116-5b50",
+    "simplified": "脖子",
+    "traditionalForms": [
+      "脖子"
+    ],
+    "readingId": [
+      "reading:word:8116-5b50:bo2-zi5"
+    ],
+    "componentCharacterIds": [
+      "char:8116",
+      "char:5b50"
+    ],
+    "coreCharacterIds": [
+      "char:8116"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8d1d-58f3",
+    "simplified": "贝壳",
+    "traditionalForms": [
+      "貝殼"
+    ],
+    "readingId": [
+      "reading:word:8d1d-58f3:bei4-ke2"
+    ],
+    "componentCharacterIds": [
+      "char:8d1d",
+      "char:58f3"
+    ],
+    "coreCharacterIds": [
+      "char:58f3"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5b89-5168",
+    "simplified": "安全",
+    "traditionalForms": [
+      "安全"
+    ],
+    "readingId": [
+      "reading:word:5b89-5168:an1-quan2"
+    ],
+    "componentCharacterIds": [
+      "char:5b89",
+      "char:5168"
+    ],
+    "coreCharacterIds": [
+      "char:5b89"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4e8b-60c5",
+    "simplified": "事情",
+    "traditionalForms": [
+      "事情"
+    ],
+    "readingId": [
+      "reading:word:4e8b-60c5:shi4-qing5"
+    ],
+    "componentCharacterIds": [
+      "char:4e8b",
+      "char:60c5"
+    ],
+    "coreCharacterIds": [
+      "char:4e8b"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:751f-547d",
+    "simplified": "生命",
+    "traditionalForms": [
+      "生命"
+    ],
+    "readingId": [
+      "reading:word:751f-547d:sheng1-ming4"
+    ],
+    "componentCharacterIds": [
+      "char:751f",
+      "char:547d"
+    ],
+    "coreCharacterIds": [
+      "char:751f",
+      "char:547d"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:773c-775b",
+    "simplified": "眼睛",
+    "traditionalForms": [
+      "眼睛"
+    ],
+    "readingId": [
+      "reading:word:773c-775b:yan3-jing5"
+    ],
+    "componentCharacterIds": [
+      "char:773c",
+      "char:775b"
+    ],
+    "coreCharacterIds": [
+      "char:773c",
+      "char:775b"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5634-5df4",
+    "simplified": "嘴巴",
+    "traditionalForms": [
+      "嘴巴"
+    ],
+    "readingId": [
+      "reading:word:5634-5df4:zui3-ba5"
+    ],
+    "componentCharacterIds": [
+      "char:5634",
+      "char:5df4"
+    ],
+    "coreCharacterIds": [
+      "char:5634"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:809a-5b50",
+    "simplified": "肚子",
+    "traditionalForms": [
+      "肚子"
+    ],
+    "readingId": [
+      "reading:word:809a-5b50:du4-zi5"
+    ],
+    "componentCharacterIds": [
+      "char:809a",
+      "char:5b50"
+    ],
+    "coreCharacterIds": [
+      "char:809a"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5bb3-6015",
+    "simplified": "害怕",
+    "traditionalForms": [
+      "害怕"
+    ],
+    "readingId": [
+      "reading:word:5bb3-6015:hai4-pa4"
+    ],
+    "componentCharacterIds": [
+      "char:5bb3",
+      "char:6015"
+    ],
+    "coreCharacterIds": [
+      "char:5bb3",
+      "char:6015"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4fdd-62a4",
+    "simplified": "保护",
+    "traditionalForms": [
+      "保護"
+    ],
+    "readingId": [
+      "reading:word:4fdd-62a4:bao3-hu4"
+    ],
+    "componentCharacterIds": [
+      "char:4fdd",
+      "char:62a4"
+    ],
+    "coreCharacterIds": [
+      "char:4fdd"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5bfb-627e",
+    "simplified": "寻找",
+    "traditionalForms": [
+      "尋找"
+    ],
+    "readingId": [
+      "reading:word:5bfb-627e:xun2-zhao3"
+    ],
+    "componentCharacterIds": [
+      "char:5bfb",
+      "char:627e"
+    ],
+    "coreCharacterIds": [
+      "char:627e"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:7687-51a0",
+    "simplified": "皇冠",
+    "traditionalForms": [
+      "皇冠"
+    ],
+    "readingId": [
+      "reading:word:7687-51a0:huang2-guan1"
+    ],
+    "componentCharacterIds": [
+      "char:7687",
+      "char:51a0"
+    ],
+    "coreCharacterIds": [
+      "char:51a0"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:88c1-526a",
+    "simplified": "裁剪",
+    "traditionalForms": [
+      "裁剪"
+    ],
+    "readingId": [
+      "reading:word:88c1-526a:cai2-jian3"
+    ],
+    "componentCharacterIds": [
+      "char:88c1",
+      "char:526a"
+    ],
+    "coreCharacterIds": [
+      "char:88c1"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:751f-957f",
+    "simplified": "生长",
+    "traditionalForms": [
+      "生長"
+    ],
+    "readingId": [
+      "reading:word:751f-957f:sheng1-zhang3"
+    ],
+    "componentCharacterIds": [
+      "char:751f",
+      "char:957f"
+    ],
+    "coreCharacterIds": [
+      "char:751f"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8bed-8a00",
+    "simplified": "语言",
+    "traditionalForms": [
+      "語言"
+    ],
+    "readingId": [
+      "reading:word:8bed-8a00:yu3-yan2"
+    ],
+    "componentCharacterIds": [
+      "char:8bed",
+      "char:8a00"
+    ],
+    "coreCharacterIds": [
+      "char:8bed"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:6ca1-6709",
+    "simplified": "没有",
+    "traditionalForms": [
+      "沒有"
+    ],
+    "readingId": [
+      "reading:word:6ca1-6709:mei2-you3"
+    ],
+    "componentCharacterIds": [
+      "char:6ca1",
+      "char:6709"
+    ],
+    "coreCharacterIds": [
+      "char:6ca1"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5927-817f",
+    "simplified": "大腿",
+    "traditionalForms": [
+      "大腿"
+    ],
+    "readingId": [
+      "reading:word:5927-817f:da4-tui3"
+    ],
+    "componentCharacterIds": [
+      "char:5927",
+      "char:817f"
+    ],
+    "coreCharacterIds": [
+      "char:817f"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5357-65b9",
+    "simplified": "南方",
+    "traditionalForms": [
+      "南方"
+    ],
+    "readingId": [
+      "reading:word:5357-65b9:nan2-fang1"
+    ],
+    "componentCharacterIds": [
+      "char:5357",
+      "char:65b9"
+    ],
+    "coreCharacterIds": [
+      "char:5357",
+      "char:65b9"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5317-65b9",
+    "simplified": "北方",
+    "traditionalForms": [
+      "北方"
+    ],
+    "readingId": [
+      "reading:word:5317-65b9:bei3-fang1"
+    ],
+    "componentCharacterIds": [
+      "char:5317",
+      "char:65b9"
+    ],
+    "coreCharacterIds": [
+      "char:5317",
+      "char:65b9"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:62cd-624b",
+    "simplified": "拍手",
+    "traditionalForms": [
+      "拍手"
+    ],
+    "readingId": [
+      "reading:word:62cd-624b:pai1-shou3"
+    ],
+    "componentCharacterIds": [
+      "char:62cd",
+      "char:624b"
+    ],
+    "coreCharacterIds": [
+      "char:62cd"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:505a-4e8b",
+    "simplified": "做事",
+    "traditionalForms": [
+      "做事"
+    ],
+    "readingId": [
+      "reading:word:505a-4e8b:zuo4-shi4"
+    ],
+    "componentCharacterIds": [
+      "char:505a",
+      "char:4e8b"
+    ],
+    "coreCharacterIds": [
+      "char:505a",
+      "char:4e8b"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:6302-753b",
+    "simplified": "挂画",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:6302",
+      "char:753b"
+    ],
+    "coreCharacterIds": [
+      "char:6302"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:53d1-5446",
+    "simplified": "发呆",
+    "traditionalForms": [
+      "發呆"
+    ],
+    "readingId": [
+      "reading:word:53d1-5446:fa1-dai1"
+    ],
+    "componentCharacterIds": [
+      "char:53d1",
+      "char:5446"
+    ],
+    "coreCharacterIds": [
+      "char:53d1",
+      "char:5446"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5f53-5fc3",
+    "simplified": "当心",
+    "traditionalForms": [
+      "當心"
+    ],
+    "readingId": [
+      "reading:word:5f53-5fc3:dang1-xin1"
+    ],
+    "componentCharacterIds": [
+      "char:5f53",
+      "char:5fc3"
+    ],
+    "coreCharacterIds": [
+      "char:5f53"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:53d4-53d4",
+    "simplified": "叔叔",
+    "traditionalForms": [
+      "叔叔"
+    ],
+    "readingId": [
+      "reading:word:53d4-53d4:shu1-shu5"
+    ],
+    "componentCharacterIds": [
+      "char:53d4",
+      "char:53d4"
+    ],
+    "coreCharacterIds": [
+      "char:53d4",
+      "char:53d4"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8bf4-8bdd",
+    "simplified": "说话",
+    "traditionalForms": [
+      "說話"
+    ],
+    "readingId": [
+      "reading:word:8bf4-8bdd:shuo1-hua4"
+    ],
+    "componentCharacterIds": [
+      "char:8bf4",
+      "char:8bdd"
+    ],
+    "coreCharacterIds": [
+      "char:8bf4"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:76f8-540c",
+    "simplified": "相同",
+    "traditionalForms": [
+      "相同"
+    ],
+    "readingId": [
+      "reading:word:76f8-540c:xiang1-tong2"
+    ],
+    "componentCharacterIds": [
+      "char:76f8",
+      "char:540c"
+    ],
+    "coreCharacterIds": [
+      "char:76f8",
+      "char:540c"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4e00-53cc",
+    "simplified": "一双",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:4e00",
+      "char:53cc"
+    ],
+    "coreCharacterIds": [
+      "char:53cc"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8fdb-95e8",
+    "simplified": "进门",
+    "traditionalForms": [
+      "進門"
+    ],
+    "readingId": [
+      "reading:word:8fdb-95e8:jin4-men2"
+    ],
+    "componentCharacterIds": [
+      "char:8fdb",
+      "char:95e8"
+    ],
+    "coreCharacterIds": [
+      "char:8fdb",
+      "char:95e8"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:533b-751f",
+    "simplified": "医生",
+    "traditionalForms": [
+      "醫生"
+    ],
+    "readingId": [
+      "reading:word:533b-751f:yi1-sheng1"
+    ],
+    "componentCharacterIds": [
+      "char:533b",
+      "char:751f"
+    ],
+    "coreCharacterIds": [
+      "char:533b",
+      "char:751f"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:94b1-5e01",
+    "simplified": "钱币",
+    "traditionalForms": [
+      "錢幣"
+    ],
+    "readingId": [
+      "reading:word:94b1-5e01:qian2-bi4"
+    ],
+    "componentCharacterIds": [
+      "char:94b1",
+      "char:5e01"
+    ],
+    "coreCharacterIds": [
+      "char:94b1"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4e3b-4eba",
+    "simplified": "主人",
+    "traditionalForms": [
+      "主人"
+    ],
+    "readingId": [
+      "reading:word:4e3b-4eba:zhu3-ren2"
+    ],
+    "componentCharacterIds": [
+      "char:4e3b",
+      "char:4eba"
+    ],
+    "coreCharacterIds": [
+      "char:4e3b"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:56de-7b54",
+    "simplified": "回答",
+    "traditionalForms": [
+      "回答"
+    ],
+    "readingId": [
+      "reading:word:56de-7b54:hui2-da2"
+    ],
+    "componentCharacterIds": [
+      "char:56de",
+      "char:7b54"
+    ],
+    "coreCharacterIds": [
+      "char:7b54"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:59d3-540d",
+    "simplified": "姓名",
+    "traditionalForms": [
+      "姓名"
+    ],
+    "readingId": [
+      "reading:word:59d3-540d:xing4-ming2"
+    ],
+    "componentCharacterIds": [
+      "char:59d3",
+      "char:540d"
+    ],
+    "coreCharacterIds": [
+      "char:59d3"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5973-5b69",
+    "simplified": "女孩",
+    "traditionalForms": [
+      "女孩"
+    ],
+    "readingId": [
+      "reading:word:5973-5b69:nv3-hai2"
+    ],
+    "componentCharacterIds": [
+      "char:5973",
+      "char:5b69"
+    ],
+    "coreCharacterIds": [
+      "char:5973",
+      "char:5b69"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5b69-5b50",
+    "simplified": "孩子",
+    "traditionalForms": [
+      "孩子"
+    ],
+    "readingId": [
+      "reading:word:5b69-5b50:hai2-zi5"
+    ],
+    "componentCharacterIds": [
+      "char:5b69",
+      "char:5b50"
+    ],
+    "coreCharacterIds": [
+      "char:5b69"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5feb-8dd1",
+    "simplified": "快跑",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:5feb",
+      "char:8dd1"
+    ],
+    "coreCharacterIds": [
+      "char:5feb"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:811a-6b65",
+    "simplified": "脚步",
+    "traditionalForms": [
+      "腳步"
+    ],
+    "readingId": [
+      "reading:word:811a-6b65:jiao3-bu4"
+    ],
+    "componentCharacterIds": [
+      "char:811a",
+      "char:6b65"
+    ],
+    "coreCharacterIds": [
+      "char:6b65"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5f88-597d",
+    "simplified": "很好",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:5f88",
+      "char:597d"
+    ],
+    "coreCharacterIds": [
+      "char:5f88"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8eab-4f53",
+    "simplified": "身体",
+    "traditionalForms": [
+      "身體"
+    ],
+    "readingId": [
+      "reading:word:8eab-4f53:shen1-ti3"
+    ],
+    "componentCharacterIds": [
+      "char:8eab",
+      "char:4f53"
+    ],
+    "coreCharacterIds": [
+      "char:8eab"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:501f-4e66",
+    "simplified": "借书",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:501f",
+      "char:4e66"
+    ],
+    "coreCharacterIds": [
+      "char:501f"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:95ee-597d",
+    "simplified": "问好",
+    "traditionalForms": [
+      "問好"
+    ],
+    "readingId": [
+      "reading:word:95ee-597d:wen4-hao3"
+    ],
+    "componentCharacterIds": [
+      "char:95ee",
+      "char:597d"
+    ],
+    "coreCharacterIds": [
+      "char:95ee"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:62db-624b",
+    "simplified": "招手",
+    "traditionalForms": [
+      "招手"
+    ],
+    "readingId": [
+      "reading:word:62db-624b:zhao1-shou3"
+    ],
+    "componentCharacterIds": [
+      "char:62db",
+      "char:624b"
+    ],
+    "coreCharacterIds": [
+      "char:62db"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:60ca-8bb6",
+    "simplified": "惊讶",
+    "traditionalForms": [
+      "驚訝"
+    ],
+    "readingId": [
+      "reading:word:60ca-8bb6:jing1-ya4"
+    ],
+    "componentCharacterIds": [
+      "char:60ca",
+      "char:8bb6"
+    ],
+    "coreCharacterIds": [
+      "char:60ca"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4e00-904d",
+    "simplified": "一遍",
+    "traditionalForms": [
+      "一遍"
+    ],
+    "readingId": [
+      "reading:word:4e00-904d:yi1-bian4"
+    ],
+    "componentCharacterIds": [
+      "char:4e00",
+      "char:904d"
+    ],
+    "coreCharacterIds": [
+      "char:904d"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8349-539f",
+    "simplified": "草原",
+    "traditionalForms": [
+      "草原"
+    ],
+    "readingId": [
+      "reading:word:8349-539f:cao3-yuan2"
+    ],
+    "componentCharacterIds": [
+      "char:8349",
+      "char:539f"
+    ],
+    "coreCharacterIds": [
+      "char:539f"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5c71-5ddd",
+    "simplified": "山川",
+    "traditionalForms": [
+      "山川"
+    ],
+    "readingId": [
+      "reading:word:5c71-5ddd:shan1-chuan1"
+    ],
+    "componentCharacterIds": [
+      "char:5c71",
+      "char:5ddd"
+    ],
+    "coreCharacterIds": [
+      "char:5c71",
+      "char:5ddd"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:89c4-5219",
+    "simplified": "规则",
+    "traditionalForms": [
+      "規則"
+    ],
+    "readingId": [
+      "reading:word:89c4-5219:gui1-ze2"
+    ],
+    "componentCharacterIds": [
+      "char:89c4",
+      "char:5219"
+    ],
+    "coreCharacterIds": [
+      "char:89c4"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8695-5b9d-5b9d",
+    "simplified": "蚕宝宝",
+    "traditionalForms": [
+      "蠶寶寶"
+    ],
+    "readingId": [
+      "reading:word:8695-5b9d-5b9d:can2-bao3-bao3"
+    ],
+    "componentCharacterIds": [
+      "char:8695",
+      "char:5b9d",
+      "char:5b9d"
+    ],
+    "coreCharacterIds": [
+      "char:8695"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:63d2-82b1",
+    "simplified": "插花",
+    "traditionalForms": [
+      "插花"
+    ],
+    "readingId": [
+      "reading:word:63d2-82b1:cha1-hua1"
+    ],
+    "componentCharacterIds": [
+      "char:63d2",
+      "char:82b1"
+    ],
+    "coreCharacterIds": [
+      "char:63d2"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:56db-5468",
+    "simplified": "四周",
+    "traditionalForms": [
+      "四周"
+    ],
+    "readingId": [
+      "reading:word:56db-5468:si4-zhou1"
+    ],
+    "componentCharacterIds": [
+      "char:56db",
+      "char:5468"
+    ],
+    "coreCharacterIds": [
+      "char:5468"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:624b-81c2",
+    "simplified": "手臂",
+    "traditionalForms": [
+      "手臂"
+    ],
+    "readingId": [
+      "reading:word:624b-81c2:shou3-bi4"
+    ],
+    "componentCharacterIds": [
+      "char:624b",
+      "char:81c2"
+    ],
+    "coreCharacterIds": [
+      "char:81c2"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:7ed9-4e88",
+    "simplified": "给予",
+    "traditionalForms": [
+      "給予"
+    ],
+    "readingId": [
+      "reading:word:7ed9-4e88:ji3-yu3"
+    ],
+    "componentCharacterIds": [
+      "char:7ed9",
+      "char:4e88"
+    ],
+    "coreCharacterIds": [
+      "char:7ed9"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5b59-5b50",
+    "simplified": "孙子",
+    "traditionalForms": [
+      "孫子"
+    ],
+    "readingId": [
+      "reading:word:5b59-5b50:sun1-zi3",
+      "reading:word:5b59-5b50:sun1-zi5"
+    ],
+    "componentCharacterIds": [
+      "char:5b59",
+      "char:5b50"
+    ],
+    "coreCharacterIds": [
+      "char:5b59"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:519b-4eba",
+    "simplified": "军人",
+    "traditionalForms": [
+      "軍人"
+    ],
+    "readingId": [
+      "reading:word:519b-4eba:jun1-ren2"
+    ],
+    "componentCharacterIds": [
+      "char:519b",
+      "char:4eba"
+    ],
+    "coreCharacterIds": [
+      "char:519b"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:590f-5929",
+    "simplified": "夏天",
+    "traditionalForms": [
+      "夏天"
+    ],
+    "readingId": [
+      "reading:word:590f-5929:xia4-tian1"
+    ],
+    "componentCharacterIds": [
+      "char:590f",
+      "char:5929"
+    ],
+    "coreCharacterIds": [
+      "char:590f"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:897f-8fb9",
+    "simplified": "西边",
+    "traditionalForms": [
+      "西邊"
+    ],
+    "readingId": [
+      "reading:word:897f-8fb9:xi1-bian1"
+    ],
+    "componentCharacterIds": [
+      "char:897f",
+      "char:8fb9"
+    ],
+    "coreCharacterIds": [
+      "char:897f",
+      "char:8fb9"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:6b22-4e50",
+    "simplified": "欢乐",
+    "traditionalForms": [
+      "歡樂"
+    ],
+    "readingId": [
+      "reading:word:6b22-4e50:huan1-le4"
+    ],
+    "componentCharacterIds": [
+      "char:6b22",
+      "char:4e50"
+    ],
+    "coreCharacterIds": [
+      "char:6b22"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:6b63-597d",
+    "simplified": "正好",
+    "traditionalForms": [
+      "正好"
+    ],
+    "readingId": [
+      "reading:word:6b63-597d:zheng4-hao3"
+    ],
+    "componentCharacterIds": [
+      "char:6b63",
+      "char:597d"
+    ],
+    "coreCharacterIds": [
+      "char:6b63"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:8377-82b1",
+    "simplified": "荷花",
+    "traditionalForms": [
+      "荷花"
+    ],
+    "readingId": [
+      "reading:word:8377-82b1:he2-hua1"
+    ],
+    "componentCharacterIds": [
+      "char:8377",
+      "char:82b1"
+    ],
+    "coreCharacterIds": [
+      "char:8377"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:5c16-5c16",
+    "simplified": "尖尖",
+    "traditionalForms": [
+      "尖尖"
+    ],
+    "readingId": [
+      "reading:word:5c16-5c16:jian1-jian1"
+    ],
+    "componentCharacterIds": [
+      "char:5c16",
+      "char:5c16"
+    ],
+    "coreCharacterIds": [
+      "char:5c16",
+      "char:5c16"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:65e9-4e0a",
+    "simplified": "早上",
+    "traditionalForms": [
+      "早上"
+    ],
+    "readingId": [
+      "reading:word:65e9-4e0a:zao3-shang5"
+    ],
+    "componentCharacterIds": [
+      "char:65e9",
+      "char:4e0a"
+    ],
+    "coreCharacterIds": [
+      "char:65e9"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:591c-665a",
+    "simplified": "夜晚",
+    "traditionalForms": [
+      "夜晚"
+    ],
+    "readingId": [
+      "reading:word:591c-665a:ye4-wan3"
+    ],
+    "componentCharacterIds": [
+      "char:591c",
+      "char:665a"
+    ],
+    "coreCharacterIds": [
+      "char:591c"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4e00-6240",
+    "simplified": "一所",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:4e00",
+      "char:6240"
+    ],
+    "coreCharacterIds": [
+      "char:6240"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:70b9-5fc3",
+    "simplified": "点心",
+    "traditionalForms": [
+      "點心"
+    ],
+    "readingId": [
+      "reading:word:70b9-5fc3:dian3-xin5"
+    ],
+    "componentCharacterIds": [
+      "char:70b9",
+      "char:5fc3"
+    ],
+    "coreCharacterIds": [
+      "char:70b9"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:6d77-6d6a",
+    "simplified": "海浪",
+    "traditionalForms": [
+      "海浪"
+    ],
+    "readingId": [
+      "reading:word:6d77-6d6a:hai3-lang4"
+    ],
+    "componentCharacterIds": [
+      "char:6d77",
+      "char:6d6a"
+    ],
+    "coreCharacterIds": [
+      "char:6d6a"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:548c-597d",
+    "simplified": "和好",
+    "traditionalForms": [
+      "和好"
+    ],
+    "readingId": [
+      "reading:word:548c-597d:he2-hao3"
+    ],
+    "componentCharacterIds": [
+      "char:548c",
+      "char:597d"
+    ],
+    "coreCharacterIds": [
+      "char:548c"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4e00-7fa4",
+    "simplified": "一群",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:4e00",
+      "char:7fa4"
+    ],
+    "coreCharacterIds": [
+      "char:7fa4"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:542c-6b4c",
+    "simplified": "听歌",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:542c",
+      "char:6b4c"
+    ],
+    "coreCharacterIds": [
+      "char:542c"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:7537-5b69",
+    "simplified": "男孩",
+    "traditionalForms": [
+      "男孩"
+    ],
+    "readingId": [
+      "reading:word:7537-5b69:nan2-hai2"
+    ],
+    "componentCharacterIds": [
+      "char:7537",
+      "char:5b69"
+    ],
+    "coreCharacterIds": [
+      "char:7537",
+      "char:5b69"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:65b9-5411",
+    "simplified": "方向",
+    "traditionalForms": [
+      "方向"
+    ],
+    "readingId": [
+      "reading:word:65b9-5411:fang1-xiang4"
+    ],
+    "componentCharacterIds": [
+      "char:65b9",
+      "char:5411"
+    ],
+    "coreCharacterIds": [
+      "char:65b9",
+      "char:5411"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:51e0-4e2a",
+    "simplified": "几个",
+    "traditionalForms": [
+      "幾個"
+    ],
+    "readingId": [
+      "reading:word:51e0-4e2a:ji3-ge5"
+    ],
+    "componentCharacterIds": [
+      "char:51e0",
+      "char:4e2a"
+    ],
+    "coreCharacterIds": [
+      "char:51e0"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4e00-6761",
+    "simplified": "一条",
+    "traditionalForms": [],
+    "readingId": [],
+    "componentCharacterIds": [
+      "char:4e00",
+      "char:6761"
+    ],
+    "coreCharacterIds": [
+      "char:6761"
+    ],
+    "coverageStatus": "missing-dictionary",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:957f-4e45",
+    "simplified": "长久",
+    "traditionalForms": [
+      "長久"
+    ],
+    "readingId": [
+      "reading:word:957f-4e45:chang2-jiu3"
+    ],
+    "componentCharacterIds": [
+      "char:957f",
+      "char:4e45"
+    ],
+    "coreCharacterIds": [
+      "char:4e45"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:4e00-534a",
+    "simplified": "一半",
+    "traditionalForms": [
+      "一半"
+    ],
+    "readingId": [
+      "reading:word:4e00-534a:yi1-ban4"
+    ],
+    "componentCharacterIds": [
+      "char:4e00",
+      "char:534a"
+    ],
+    "coreCharacterIds": [
+      "char:534a"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:65f6-5019",
+    "simplified": "时候",
+    "traditionalForms": [
+      "時候"
+    ],
+    "readingId": [
+      "reading:word:65f6-5019:shi2-hou5"
+    ],
+    "componentCharacterIds": [
+      "char:65f6",
+      "char:5019"
+    ],
+    "coreCharacterIds": [
+      "char:5019"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  },
+  {
+    "wordId": "word:516c-56ed",
+    "simplified": "公园",
+    "traditionalForms": [
+      "公園"
+    ],
+    "readingId": [
+      "reading:word:516c-56ed:gong1-yuan2"
+    ],
+    "componentCharacterIds": [
+      "char:516c",
+      "char:56ed"
+    ],
+    "coreCharacterIds": [
+      "char:516c"
+    ],
+    "coverageStatus": "dictionary-attested",
+    "reviewStatus": "draft",
+    "sourceReferences": [
+      "cedict",
+      "legacy-cards"
+    ]
+  }
+]

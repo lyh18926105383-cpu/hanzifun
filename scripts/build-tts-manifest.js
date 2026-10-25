@@ -33,18 +33,21 @@ function findAudioFilePath(item) {
 }
 
 function buildManifestFiles(options = {}) {
-    const voice = options.voice || process.env.TTS_VOICE_NAME || 'pending-audition';
+    const previousVoice = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, 'utf8')).voice : null;
+    const voice = options.voice || process.env.TTS_VOICE_NAME || previousVoice || 'pending-audition';
     const corpus = buildCorpus(library);
-    fs.mkdirSync(audioDirectory, { recursive: true });
-    fs.writeFileSync(corpusPath, `${JSON.stringify({ version: VERSION, cards: corpus }, null, 2)}\n`);
+    if (options.write !== false) {
+        fs.mkdirSync(audioDirectory, { recursive: true });
+        fs.writeFileSync(corpusPath, `${JSON.stringify({ version: VERSION, cards: corpus }, null, 2)}\n`);
+    }
 
     const cards = {};
-    let available = 0;
+    let availableOccurrences = 0;
     for (const item of corpus) {
         const filePath = findAudioFilePath(item);
         if (!filePath) continue;
         const fileName = path.basename(filePath);
-        available += 1;
+        availableOccurrences += 1;
         cards[item.char] = {
             url: `audio/${VERSION}/${fileName}`,
             text: item.text,
@@ -57,11 +60,13 @@ function buildManifestFiles(options = {}) {
         version: VERSION,
         voice,
         generatedAt: new Date().toISOString(),
-        available,
-        total: corpus.length,
+        available: Object.keys(cards).length,
+        total: new Set(corpus.map(item => item.char)).size,
+        availableOccurrences,
+        totalOccurrences: corpus.length,
         cards,
     };
-    fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
+    if (options.write !== false) fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
     return manifest;
 }
 

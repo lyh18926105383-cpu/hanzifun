@@ -1,0 +1,8676 @@
+[
+  {
+    "readingId": "reading:char:8c46:dou4",
+    "itemId": "char:8c46",
+    "pinyin": {
+      "numeric": "dou4",
+      "marked": "dòu",
+      "plain": "dou",
+      "search": [
+        "dou4",
+        "dòu",
+        "dou"
+      ],
+      "syllables": [
+        "dou4"
+      ]
+    },
+    "senses": [
+      "legume; pulse; bean; pea (CL:顆|颗[ke1],粒[li4]) (variant of 豆[dou4])",
+      "legume; pulse; bean; pea (CL:顆|颗[ke1],粒[li4])",
+      "(old) stemmed cup or bowl"
+    ],
+    "traditionalForms": [
+      "荳",
+      "豆"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:94294"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:102723"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7528:yong4",
+    "itemId": "char:7528",
+    "pinyin": {
+      "numeric": "yong4",
+      "marked": "yòng",
+      "plain": "yong",
+      "search": [
+        "yong4",
+        "yòng",
+        "yong"
+      ],
+      "syllables": [
+        "yong4"
+      ]
+    },
+    "senses": [
+      "to use; to make use of; to employ",
+      "(coverb) with; using",
+      "to need; to have to (usu. used in the negative or in questions)",
+      "usefulness; utility",
+      "(bound form) expense; outlay",
+      "(courteous) to eat; to drink",
+      "(literary) hence; therefore"
+    ],
+    "traditionalForms": [
+      "用"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:74739"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:529b:li4",
+    "itemId": "char:529b",
+    "pinyin": {
+      "numeric": "li4",
+      "marked": "lì",
+      "plain": "li",
+      "search": [
+        "li4",
+        "lì",
+        "li"
+      ],
+      "syllables": [
+        "li4"
+      ]
+    },
+    "senses": [
+      "surname Li",
+      "power",
+      "force",
+      "strength",
+      "ability",
+      "strenuously"
+    ],
+    "traditionalForms": [
+      "力"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:15086"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:15087"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:529e:ban4",
+    "itemId": "char:529e",
+    "pinyin": {
+      "numeric": "ban4",
+      "marked": "bàn",
+      "plain": "ban",
+      "search": [
+        "ban4",
+        "bàn",
+        "ban"
+      ],
+      "syllables": [
+        "ban4"
+      ]
+    },
+    "senses": [
+      "to take care of (a matter); to deal with (a task, procedure etc); to organize (an event)",
+      "to establish; to set up; to manage; to run (an enterprise)",
+      "(law) to handle; to investigate; to prosecute (a case or suspect)",
+      "(bound form) office (as in 招辦|招办[zhao1 ban4], admissions office) (abbr. for 辦公室|办公室[ban4 gong1 shi4])"
+    ],
+    "traditionalForms": [
+      "辦"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:106891"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6cd5:fa3",
+    "itemId": "char:6cd5",
+    "pinyin": {
+      "numeric": "fa3",
+      "marked": "fǎ",
+      "plain": "fa",
+      "search": [
+        "fa3",
+        "fǎ",
+        "fa"
+      ],
+      "syllables": [
+        "fa3"
+      ]
+    },
+    "senses": [
+      "variant of 法[fa3]",
+      "France",
+      "French",
+      "abbr. for 法國|法国[Fa3 guo2]",
+      "Taiwan pr. [Fa4]",
+      "law",
+      "method",
+      "way",
+      "to emulate",
+      "(Buddhism) dharma",
+      "(abbr. for 法家[Fa3 jia1]) the Legalists",
+      "(physics) farad (abbr. for 法拉[fa3 la1])",
+      "old variant of 法[fa3]"
+    ],
+    "traditionalForms": [
+      "㳒",
+      "法",
+      "灋"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:276"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:63891"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:63892"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:68921"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8bf7:qing3",
+    "itemId": "char:8bf7",
+    "pinyin": {
+      "numeric": "qing3",
+      "marked": "qǐng",
+      "plain": "qing",
+      "search": [
+        "qing3",
+        "qǐng",
+        "qing"
+      ],
+      "syllables": [
+        "qing3"
+      ]
+    },
+    "senses": [
+      "to ask",
+      "to invite",
+      "please (do sth)",
+      "to treat (to a meal etc)",
+      "to request"
+    ],
+    "traditionalForms": [
+      "請"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:101791"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:624d:cai2",
+    "itemId": "char:624d",
+    "pinyin": {
+      "numeric": "cai2",
+      "marked": "cái",
+      "plain": "cai",
+      "search": [
+        "cai2",
+        "cái",
+        "cai"
+      ],
+      "syllables": [
+        "cai2"
+      ]
+    },
+    "senses": [
+      "ability; talent",
+      "sb of a certain type",
+      "a capable individual",
+      "then and only then",
+      "just now",
+      "(before an expression of quantity) only",
+      "(emphatic, esp. in contrast or correction) really; actually",
+      "(variant of 才[cai2]) just now",
+      "(variant of 才[cai2]) (before an expression of quantity) only"
+    ],
+    "traditionalForms": [
+      "才",
+      "纔"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:44563"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:87445"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7761:shui4",
+    "itemId": "char:7761",
+    "pinyin": {
+      "numeric": "shui4",
+      "marked": "shuì",
+      "plain": "shui",
+      "search": [
+        "shui4",
+        "shuì",
+        "shui"
+      ],
+      "syllables": [
+        "shui4"
+      ]
+    },
+    "senses": [
+      "to sleep",
+      "to lie down"
+    ],
+    "traditionalForms": [
+      "睡"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78759"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5de6:zuo3",
+    "itemId": "char:5de6",
+    "pinyin": {
+      "numeric": "zuo3",
+      "marked": "zuǒ",
+      "plain": "zuo",
+      "search": [
+        "zuo3",
+        "zuǒ",
+        "zuo"
+      ],
+      "syllables": [
+        "zuo3"
+      ]
+    },
+    "senses": [
+      "surname Zuo",
+      "left",
+      "the Left (politics)",
+      "east",
+      "unorthodox",
+      "queer",
+      "wrong",
+      "differing",
+      "opposite",
+      "variant of 佐[zuo3]"
+    ],
+    "traditionalForms": [
+      "左"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:36543"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:36544"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:53f3:you4",
+    "itemId": "char:53f3",
+    "pinyin": {
+      "numeric": "you4",
+      "marked": "yòu",
+      "plain": "you",
+      "search": [
+        "you4",
+        "yòu",
+        "you"
+      ],
+      "syllables": [
+        "you4"
+      ]
+    },
+    "senses": [
+      "(bound form) right; right-hand side",
+      "(bound form) (politics) right of center",
+      "(bound form) (old) west",
+      "(literary) the right side as the side of precedence"
+    ],
+    "traditionalForms": [
+      "右"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:19452"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:53ea:zhi1",
+    "itemId": "char:53ea",
+    "pinyin": {
+      "numeric": "zhi1",
+      "marked": "zhī",
+      "plain": "zhi",
+      "search": [
+        "zhi1",
+        "zhī",
+        "zhi"
+      ],
+      "syllables": [
+        "zhi1"
+      ]
+    },
+    "senses": [
+      "variant of 隻|只[zhi1]",
+      "grain that has begun to ripen",
+      "classifier for birds and certain animals, one of a pair, some utensils, vessels etc"
+    ],
+    "traditionalForms": [
+      "只",
+      "秖",
+      "隻"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:19077"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:81477"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:115850"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:53ea:zhi3",
+    "itemId": "char:53ea",
+    "pinyin": {
+      "numeric": "zhi3",
+      "marked": "zhǐ",
+      "plain": "zhi",
+      "search": [
+        "zhi3",
+        "zhǐ",
+        "zhi"
+      ],
+      "syllables": [
+        "zhi3"
+      ]
+    },
+    "senses": [
+      "only; merely; just",
+      "variant of 只[zhi3]"
+    ],
+    "traditionalForms": [
+      "只",
+      "祇",
+      "衹"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:19078"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:80498"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:98658"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:65c1:pang2",
+    "itemId": "char:65c1",
+    "pinyin": {
+      "numeric": "pang2",
+      "marked": "páng",
+      "plain": "pang",
+      "search": [
+        "pang2",
+        "páng",
+        "pang"
+      ],
+      "syllables": [
+        "pang2"
+      ]
+    },
+    "senses": [
+      "one side",
+      "other",
+      "different",
+      "lateral component of a Chinese character (such as 刂[dao1], 亻[ren2] etc)"
+    ],
+    "traditionalForms": [
+      "旁"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52404"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:9f9f:gui1",
+    "itemId": "char:9f9f",
+    "pinyin": {
+      "numeric": "gui1",
+      "marked": "guī",
+      "plain": "gui",
+      "search": [
+        "gui1",
+        "guī",
+        "gui"
+      ],
+      "syllables": [
+        "gui1"
+      ]
+    },
+    "senses": [
+      "tortoise; turtle",
+      "(coll.) cuckold"
+    ],
+    "traditionalForms": [
+      "龜"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:125285"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:9f9f:jun1",
+    "itemId": "char:9f9f",
+    "pinyin": {
+      "numeric": "jun1",
+      "marked": "jūn",
+      "plain": "jun",
+      "search": [
+        "jun1",
+        "jūn",
+        "jun"
+      ],
+      "syllables": [
+        "jun1"
+      ]
+    },
+    "senses": [
+      "variant of 皸|皲[jun1]"
+    ],
+    "traditionalForms": [
+      "龜"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:125286"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:9f9f:qiu1",
+    "itemId": "char:9f9f",
+    "pinyin": {
+      "numeric": "qiu1",
+      "marked": "qiū",
+      "plain": "qiu",
+      "search": [
+        "qiu1",
+        "qiū",
+        "qiu"
+      ],
+      "syllables": [
+        "qiu1"
+      ]
+    },
+    "senses": [
+      "used in 龜茲|龟兹[Qiu1 ci2]"
+    ],
+    "traditionalForms": [
+      "龜"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:125287"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8116:bo2",
+    "itemId": "char:8116",
+    "pinyin": {
+      "numeric": "bo2",
+      "marked": "bó",
+      "plain": "bo",
+      "search": [
+        "bo2",
+        "bó",
+        "bo"
+      ],
+      "syllables": [
+        "bo2"
+      ]
+    },
+    "senses": [
+      "neck"
+    ],
+    "traditionalForms": [
+      "脖"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:90731"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:58f3:qiao4",
+    "itemId": "char:58f3",
+    "pinyin": {
+      "numeric": "qiao4",
+      "marked": "qiào",
+      "plain": "qiao",
+      "search": [
+        "qiao4",
+        "qiào",
+        "qiao"
+      ],
+      "syllables": [
+        "qiao4"
+      ]
+    },
+    "senses": [
+      "variant of 殼|壳[qiao4]",
+      "(bound form) shell",
+      "Taiwan pr. [ke2]"
+    ],
+    "traditionalForms": [
+      "殻",
+      "殼"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:61385"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:61387"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:58f3:ke2",
+    "itemId": "char:58f3",
+    "pinyin": {
+      "numeric": "ke2",
+      "marked": "ké",
+      "plain": "ke",
+      "search": [
+        "ke2",
+        "ké",
+        "ke"
+      ],
+      "syllables": [
+        "ke2"
+      ]
+    },
+    "senses": [
+      "(coll.) shell (of an egg, nut, crab etc)",
+      "case; casing; housing (of a machine or device)"
+    ],
+    "traditionalForms": [
+      "殼"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:61386"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5b89:an1",
+    "itemId": "char:5b89",
+    "pinyin": {
+      "numeric": "an1",
+      "marked": "ān",
+      "plain": "an",
+      "search": [
+        "an1",
+        "ān",
+        "an"
+      ],
+      "syllables": [
+        "an1"
+      ]
+    },
+    "senses": [
+      "surname An",
+      "(bound form) calm; peaceful",
+      "to calm; to set at ease",
+      "safe; secure; in good health",
+      "content; satisfied (as in 安於|安于[an1 yu2])",
+      "to place (sb) in a suitable position (job)",
+      "to install; to fix; to fit",
+      "to bring (a charge against sb)",
+      "to harbor (certain intentions)",
+      "ampere (abbr. for 安培[an1 pei2])"
+    ],
+    "traditionalForms": [
+      "安"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:31944"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:31945"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:4e8b:shi4",
+    "itemId": "char:4e8b",
+    "pinyin": {
+      "numeric": "shi4",
+      "marked": "shì",
+      "plain": "shi",
+      "search": [
+        "shi4",
+        "shì",
+        "shi"
+      ],
+      "syllables": [
+        "shi4"
+      ]
+    },
+    "senses": [
+      "matter",
+      "thing",
+      "item",
+      "work",
+      "affair",
+      "CL:件[jian4],樁|桩[zhuang1],回[hui2]"
+    ],
+    "traditionalForms": [
+      "事"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:4635"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:547d:ming4",
+    "itemId": "char:547d",
+    "pinyin": {
+      "numeric": "ming4",
+      "marked": "mìng",
+      "plain": "ming",
+      "search": [
+        "ming4",
+        "mìng",
+        "ming"
+      ],
+      "syllables": [
+        "ming4"
+      ]
+    },
+    "senses": [
+      "life",
+      "fate",
+      "order or command",
+      "to assign a name, title etc"
+    ],
+    "traditionalForms": [
+      "命"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:21164"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:775b:jing1",
+    "itemId": "char:775b",
+    "pinyin": {
+      "numeric": "jing1",
+      "marked": "jīng",
+      "plain": "jing",
+      "search": [
+        "jing1",
+        "jīng",
+        "jing"
+      ],
+      "syllables": [
+        "jing1"
+      ]
+    },
+    "senses": [
+      "eye; eyeball"
+    ],
+    "traditionalForms": [
+      "睛"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78746"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5634:zui3",
+    "itemId": "char:5634",
+    "pinyin": {
+      "numeric": "zui3",
+      "marked": "zuǐ",
+      "plain": "zui",
+      "search": [
+        "zui3",
+        "zuǐ",
+        "zui"
+      ],
+      "syllables": [
+        "zui3"
+      ]
+    },
+    "senses": [
+      "mouth",
+      "beak",
+      "nozzle",
+      "spout (of teapot etc)",
+      "CL:張|张[zhang1],個|个[ge4]"
+    ],
+    "traditionalForms": [
+      "嘴"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:23281"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:809a:du3",
+    "itemId": "char:809a",
+    "pinyin": {
+      "numeric": "du3",
+      "marked": "dǔ",
+      "plain": "du",
+      "search": [
+        "du3",
+        "dǔ",
+        "du"
+      ],
+      "syllables": [
+        "du3"
+      ]
+    },
+    "senses": [
+      "tripe"
+    ],
+    "traditionalForms": [
+      "肚"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:90036"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:809a:du4",
+    "itemId": "char:809a",
+    "pinyin": {
+      "numeric": "du4",
+      "marked": "dù",
+      "plain": "du",
+      "search": [
+        "du4",
+        "dù",
+        "du"
+      ],
+      "syllables": [
+        "du4"
+      ]
+    },
+    "senses": [
+      "belly"
+    ],
+    "traditionalForms": [
+      "肚"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:90037"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5bb3:hai4",
+    "itemId": "char:5bb3",
+    "pinyin": {
+      "numeric": "hai4",
+      "marked": "hài",
+      "plain": "hai",
+      "search": [
+        "hai4",
+        "hài",
+        "hai"
+      ],
+      "syllables": [
+        "hai4"
+      ]
+    },
+    "senses": [
+      "to do harm to",
+      "to cause trouble to",
+      "harm",
+      "evil",
+      "calamity"
+    ],
+    "traditionalForms": [
+      "害"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:32796"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:4fdd:bao3",
+    "itemId": "char:4fdd",
+    "pinyin": {
+      "numeric": "bao3",
+      "marked": "bǎo",
+      "plain": "bao",
+      "search": [
+        "bao3",
+        "bǎo",
+        "bao"
+      ],
+      "syllables": [
+        "bao3"
+      ]
+    },
+    "senses": [
+      "Bulgaria (abbr. for 保加利亞|保加利亚[Bao3 jia1 li4 ya4])",
+      "to defend; to protect; to keep",
+      "to guarantee; to ensure",
+      "(old) civil administration unit in the baojia 保甲[bao3 jia3] system"
+    ],
+    "traditionalForms": [
+      "保"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:8115"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:8116"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:627e:zhao3",
+    "itemId": "char:627e",
+    "pinyin": {
+      "numeric": "zhao3",
+      "marked": "zhǎo",
+      "plain": "zhao",
+      "search": [
+        "zhao3",
+        "zhǎo",
+        "zhao"
+      ],
+      "syllables": [
+        "zhao3"
+      ]
+    },
+    "senses": [
+      "to try to find",
+      "to look for",
+      "to call on sb",
+      "to find",
+      "to seek",
+      "to return",
+      "to give change"
+    ],
+    "traditionalForms": [
+      "找"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:45268"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:51a0:guan4",
+    "itemId": "char:51a0",
+    "pinyin": {
+      "numeric": "guan4",
+      "marked": "guàn",
+      "plain": "guan",
+      "search": [
+        "guan4",
+        "guàn",
+        "guan"
+      ],
+      "syllables": [
+        "guan4"
+      ]
+    },
+    "senses": [
+      "surname Guan",
+      "to put on a hat",
+      "to be first",
+      "to dub"
+    ],
+    "traditionalForms": [
+      "冠"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:12493"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:12495"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:51a0:guan1",
+    "itemId": "char:51a0",
+    "pinyin": {
+      "numeric": "guan1",
+      "marked": "guān",
+      "plain": "guan",
+      "search": [
+        "guan1",
+        "guān",
+        "guan"
+      ],
+      "syllables": [
+        "guan1"
+      ]
+    },
+    "senses": [
+      "hat",
+      "crown",
+      "crest",
+      "cap"
+    ],
+    "traditionalForms": [
+      "冠"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:12494"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:88c1:cai2",
+    "itemId": "char:88c1",
+    "pinyin": {
+      "numeric": "cai2",
+      "marked": "cái",
+      "plain": "cai",
+      "search": [
+        "cai2",
+        "cái",
+        "cai"
+      ],
+      "syllables": [
+        "cai2"
+      ]
+    },
+    "senses": [
+      "to cut out (as a dress)",
+      "to cut",
+      "to trim",
+      "to reduce",
+      "to diminish",
+      "to cut back (e.g. on staff)",
+      "decision",
+      "judgment"
+    ],
+    "traditionalForms": [
+      "裁"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:98789"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:96ea:xue3",
+    "itemId": "char:96ea",
+    "pinyin": {
+      "numeric": "xue3",
+      "marked": "xuě",
+      "plain": "xue",
+      "search": [
+        "xue3",
+        "xuě",
+        "xue"
+      ],
+      "syllables": [
+        "xue3"
+      ]
+    },
+    "senses": [
+      "surname Xue",
+      "snow",
+      "CL:場|场[chang2]",
+      "(literary) to wipe away (a humiliation etc)"
+    ],
+    "traditionalForms": [
+      "雪"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:116749"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:116750"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:751f:sheng1",
+    "itemId": "char:751f",
+    "pinyin": {
+      "numeric": "sheng1",
+      "marked": "shēng",
+      "plain": "sheng",
+      "search": [
+        "sheng1",
+        "shēng",
+        "sheng"
+      ],
+      "syllables": [
+        "sheng1"
+      ]
+    },
+    "senses": [
+      "to grow; to give birth; to produce; to be born",
+      "to arise; to occur",
+      "to light (a fire)",
+      "to live; to be alive",
+      "life",
+      "raw; uncooked; unprocessed",
+      "unfamiliar; strange",
+      "(bound form) student; person engaged in a field",
+      "(bound form) male role in traditional opera",
+      "(bound form) life; lifetime",
+      "(bound form) means of livelihood",
+      "(bound form) very; intensely (as in 生疼[sheng1 teng2])",
+      "(bound form) in a forced manner (as in 生拉硬拽[sheng1 la1 ying4 zhuai4])"
+    ],
+    "traditionalForms": [
+      "生"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:74384"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8bed:yu3",
+    "itemId": "char:8bed",
+    "pinyin": {
+      "numeric": "yu3",
+      "marked": "yǔ",
+      "plain": "yu",
+      "search": [
+        "yu3",
+        "yǔ",
+        "yu"
+      ],
+      "syllables": [
+        "yu3"
+      ]
+    },
+    "senses": [
+      "dialect",
+      "language",
+      "speech"
+    ],
+    "traditionalForms": [
+      "語"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:101354"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8bed:yu4",
+    "itemId": "char:8bed",
+    "pinyin": {
+      "numeric": "yu4",
+      "marked": "yù",
+      "plain": "yu",
+      "search": [
+        "yu4",
+        "yù",
+        "yu"
+      ],
+      "syllables": [
+        "yu4"
+      ]
+    },
+    "senses": [
+      "(literary) to tell; to let (sb) know"
+    ],
+    "traditionalForms": [
+      "語"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:101355"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:95e8:men2",
+    "itemId": "char:95e8",
+    "pinyin": {
+      "numeric": "men2",
+      "marked": "mén",
+      "plain": "men",
+      "search": [
+        "men2",
+        "mén",
+        "men"
+      ],
+      "syllables": [
+        "men2"
+      ]
+    },
+    "senses": [
+      "surname Men",
+      "gate; door; doorway; gateway; opening (CL:扇[shan4])",
+      "valve; switch; other door-like or gate-like structure",
+      "way to do sth; knack; method; approach",
+      "family; household; lineage",
+      "(bound form) sect; school; faction (religious or academic)",
+      "(bound form) class; category; division; phylum",
+      "classifier for courses, fields of study, branches of technology, relatives by marriage, guns etc",
+      "(suffix) -gate (scandal)"
+    ],
+    "traditionalForms": [
+      "門"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:113383"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:113384"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6ca1:mei2",
+    "itemId": "char:6ca1",
+    "pinyin": {
+      "numeric": "mei2",
+      "marked": "méi",
+      "plain": "mei",
+      "search": [
+        "mei2",
+        "méi",
+        "mei"
+      ],
+      "syllables": [
+        "mei2"
+      ]
+    },
+    "senses": [
+      "(negative prefix for verbs) have not; not"
+    ],
+    "traditionalForms": [
+      "沒"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:63253"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6ca1:mo4",
+    "itemId": "char:6ca1",
+    "pinyin": {
+      "numeric": "mo4",
+      "marked": "mò",
+      "plain": "mo",
+      "search": [
+        "mo4",
+        "mò",
+        "mo"
+      ],
+      "syllables": [
+        "mo4"
+      ]
+    },
+    "senses": [
+      "drowned",
+      "to end",
+      "to die",
+      "to inundate"
+    ],
+    "traditionalForms": [
+      "沒"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:63254"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:817f:tui3",
+    "itemId": "char:817f",
+    "pinyin": {
+      "numeric": "tui3",
+      "marked": "tuǐ",
+      "plain": "tui",
+      "search": [
+        "tui3",
+        "tuǐ",
+        "tui"
+      ],
+      "syllables": [
+        "tui3"
+      ]
+    },
+    "senses": [
+      "leg",
+      "CL:條|条[tiao2]",
+      "hip bone",
+      "old variant of 腿[tui3]"
+    ],
+    "traditionalForms": [
+      "腿",
+      "骽"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:91248"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:121629"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5357:nan2",
+    "itemId": "char:5357",
+    "pinyin": {
+      "numeric": "nan2",
+      "marked": "nán",
+      "plain": "nan",
+      "search": [
+        "nan2",
+        "nán",
+        "nan"
+      ],
+      "syllables": [
+        "nan2"
+      ]
+    },
+    "senses": [
+      "surname Nan",
+      "south"
+    ],
+    "traditionalForms": [
+      "南"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:17053"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:17055"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5357:na1",
+    "itemId": "char:5357",
+    "pinyin": {
+      "numeric": "na1",
+      "marked": "nā",
+      "plain": "na",
+      "search": [
+        "na1",
+        "nā",
+        "na"
+      ],
+      "syllables": [
+        "na1"
+      ]
+    },
+    "senses": [
+      "used in 南無|南无[na1 mo2]",
+      "Taiwan pr. [na2]"
+    ],
+    "traditionalForms": [
+      "南"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:17054"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5317:bei3",
+    "itemId": "char:5317",
+    "pinyin": {
+      "numeric": "bei3",
+      "marked": "běi",
+      "plain": "bei",
+      "search": [
+        "bei3",
+        "běi",
+        "bei"
+      ],
+      "syllables": [
+        "bei3"
+      ]
+    },
+    "senses": [
+      "north",
+      "(classical) to be defeated"
+    ],
+    "traditionalForms": [
+      "北"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:16222"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:62cd:pai1",
+    "itemId": "char:62cd",
+    "pinyin": {
+      "numeric": "pai1",
+      "marked": "pāi",
+      "plain": "pai",
+      "search": [
+        "pai1",
+        "pāi",
+        "pai"
+      ],
+      "syllables": [
+        "pai1"
+      ]
+    },
+    "senses": [
+      "to pat",
+      "to clap",
+      "to slap",
+      "to swat",
+      "to take (a photo)",
+      "to shoot (a film)",
+      "racket (sports)",
+      "beat (music)"
+    ],
+    "traditionalForms": [
+      "拍"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:46272"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:505a:zuo4",
+    "itemId": "char:505a",
+    "pinyin": {
+      "numeric": "zuo4",
+      "marked": "zuò",
+      "plain": "zuo",
+      "search": [
+        "zuo4",
+        "zuò",
+        "zuo"
+      ],
+      "syllables": [
+        "zuo4"
+      ]
+    },
+    "senses": [
+      "to make; to produce",
+      "to write; to compose",
+      "to do; to engage in; to hold (a party etc)",
+      "(of a person) to be (an intermediary, a good student etc); to become (husband and wife, friends etc)",
+      "(of a thing) to serve as; to be used for",
+      "to assume (an air or manner)"
+    ],
+    "traditionalForms": [
+      "做"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:9174"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:74dc:gua1",
+    "itemId": "char:74dc",
+    "pinyin": {
+      "numeric": "gua1",
+      "marked": "guā",
+      "plain": "gua",
+      "search": [
+        "gua1",
+        "guā",
+        "gua"
+      ],
+      "syllables": [
+        "gua1"
+      ]
+    },
+    "senses": [
+      "melon; gourd; squash",
+      "(slang) a piece of gossip"
+    ],
+    "traditionalForms": [
+      "瓜"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:74085"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6302:gua4",
+    "itemId": "char:6302",
+    "pinyin": {
+      "numeric": "gua4",
+      "marked": "guà",
+      "plain": "gua",
+      "search": [
+        "gua4",
+        "guà",
+        "gua"
+      ],
+      "syllables": [
+        "gua4"
+      ]
+    },
+    "senses": [
+      "to hang; to suspend (from a hook etc)",
+      "to hang up (the phone)",
+      "(of a line) to be dead",
+      "to be worried; to be concerned",
+      "(dialect) to make a phone call",
+      "to register (at a hospital); to make an appointment (with a doctor)",
+      "(slang) to kill; to die; to be finished; to fail (an exam)",
+      "classifier for sets or clusters of objects"
+    ],
+    "traditionalForms": [
+      "掛"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:47735"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5446:dai1",
+    "itemId": "char:5446",
+    "pinyin": {
+      "numeric": "dai1",
+      "marked": "dāi",
+      "plain": "dai",
+      "search": [
+        "dai1",
+        "dāi",
+        "dai"
+      ],
+      "syllables": [
+        "dai1"
+      ]
+    },
+    "senses": [
+      "foolish; stupid",
+      "expressionless; blank",
+      "variant of 待[dai1]",
+      "foolish; stupid (variant of 呆[dai1])",
+      "expressionless; blank (variant of 呆[dai1])"
+    ],
+    "traditionalForms": [
+      "呆",
+      "獃"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:20846"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:72619"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5f53:dang1",
+    "itemId": "char:5f53",
+    "pinyin": {
+      "numeric": "dang1",
+      "marked": "dāng",
+      "plain": "dang",
+      "search": [
+        "dang1",
+        "dāng",
+        "dang"
+      ],
+      "syllables": [
+        "dang1"
+      ]
+    },
+    "senses": [
+      "(onom.) dong",
+      "ding dong (bell)",
+      "to be",
+      "to act as",
+      "manage",
+      "withstand",
+      "when",
+      "during",
+      "ought",
+      "should",
+      "match equally",
+      "equal",
+      "same",
+      "obstruct",
+      "just at (a time or place)",
+      "on the spot",
+      "right",
+      "just at"
+    ],
+    "traditionalForms": [
+      "噹",
+      "當"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:23524"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:75502"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5f53:dang4",
+    "itemId": "char:5f53",
+    "pinyin": {
+      "numeric": "dang4",
+      "marked": "dàng",
+      "plain": "dang",
+      "search": [
+        "dang4",
+        "dàng",
+        "dang"
+      ],
+      "syllables": [
+        "dang4"
+      ]
+    },
+    "senses": [
+      "at or in the very same...",
+      "suitable",
+      "adequate",
+      "fitting",
+      "proper",
+      "to replace",
+      "to regard as",
+      "to think",
+      "to pawn",
+      "(coll.) to fail (a student)"
+    ],
+    "traditionalForms": [
+      "當"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:75503"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:53d4:shu1",
+    "itemId": "char:53d4",
+    "pinyin": {
+      "numeric": "shu1",
+      "marked": "shū",
+      "plain": "shu",
+      "search": [
+        "shu1",
+        "shū",
+        "shu"
+      ],
+      "syllables": [
+        "shu1"
+      ]
+    },
+    "senses": [
+      "uncle",
+      "father's younger brother",
+      "husband's younger brother",
+      "Taiwan pr. [shu2]"
+    ],
+    "traditionalForms": [
+      "叔"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:18533"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8bf4:shui4",
+    "itemId": "char:8bf4",
+    "pinyin": {
+      "numeric": "shui4",
+      "marked": "shuì",
+      "plain": "shui",
+      "search": [
+        "shui4",
+        "shuì",
+        "shui"
+      ],
+      "syllables": [
+        "shui4"
+      ]
+    },
+    "senses": [
+      "to persuade"
+    ],
+    "traditionalForms": [
+      "說"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:101492"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8bf4:shuo1",
+    "itemId": "char:8bf4",
+    "pinyin": {
+      "numeric": "shuo1",
+      "marked": "shuō",
+      "plain": "shuo",
+      "search": [
+        "shuo1",
+        "shuō",
+        "shuo"
+      ],
+      "syllables": [
+        "shuo1"
+      ]
+    },
+    "senses": [
+      "to speak; to talk; to say",
+      "to explain; to comment",
+      "to scold; to tell off",
+      "(bound form) theory; doctrine",
+      "variant of 說|说[shuo1]"
+    ],
+    "traditionalForms": [
+      "說",
+      "説"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:101493"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:101581"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:540c:tong2",
+    "itemId": "char:540c",
+    "pinyin": {
+      "numeric": "tong2",
+      "marked": "tóng",
+      "plain": "tong",
+      "search": [
+        "tong2",
+        "tóng",
+        "tong"
+      ],
+      "syllables": [
+        "tong2"
+      ]
+    },
+    "senses": [
+      "like",
+      "same",
+      "similar",
+      "together",
+      "alike",
+      "with"
+    ],
+    "traditionalForms": [
+      "同"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:20037"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:540c:tong4",
+    "itemId": "char:540c",
+    "pinyin": {
+      "numeric": "tong4",
+      "marked": "tòng",
+      "plain": "tong",
+      "search": [
+        "tong4",
+        "tòng",
+        "tong"
+      ],
+      "syllables": [
+        "tong4"
+      ]
+    },
+    "senses": [
+      "used in 胡同[hu2 tong4]",
+      "used in 衚衕|胡同[hu2 tong4]"
+    ],
+    "traditionalForms": [
+      "同",
+      "衕"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:20038"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:98335"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:76f8:xiang1",
+    "itemId": "char:76f8",
+    "pinyin": {
+      "numeric": "xiang1",
+      "marked": "xiāng",
+      "plain": "xiang",
+      "search": [
+        "xiang1",
+        "xiāng",
+        "xiang"
+      ],
+      "syllables": [
+        "xiang1"
+      ]
+    },
+    "senses": [
+      "surname Xiang",
+      "each other",
+      "one another",
+      "mutually",
+      "fret on the neck of a pipa 琵琶[pi2 pa5] (a fret on the soundboard is called a 品[pin3])"
+    ],
+    "traditionalForms": [
+      "相"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78012"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78013"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:76f8:xiang4",
+    "itemId": "char:76f8",
+    "pinyin": {
+      "numeric": "xiang4",
+      "marked": "xiàng",
+      "plain": "xiang",
+      "search": [
+        "xiang4",
+        "xiàng",
+        "xiang"
+      ],
+      "syllables": [
+        "xiang4"
+      ]
+    },
+    "senses": [
+      "appearance",
+      "portrait",
+      "picture",
+      "government minister",
+      "(physics) phase",
+      "(literary) to appraise (esp. by scrutinizing physical features)",
+      "to read sb's fortune (by physiognomy, palmistry etc)"
+    ],
+    "traditionalForms": [
+      "相"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78014"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:9f3b:bi2",
+    "itemId": "char:9f3b",
+    "pinyin": {
+      "numeric": "bi2",
+      "marked": "bí",
+      "plain": "bi",
+      "search": [
+        "bi2",
+        "bí",
+        "bi"
+      ],
+      "syllables": [
+        "bi2"
+      ]
+    },
+    "senses": [
+      "nose"
+    ],
+    "traditionalForms": [
+      "鼻"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:124886"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7709:mei2",
+    "itemId": "char:7709",
+    "pinyin": {
+      "numeric": "mei2",
+      "marked": "méi",
+      "plain": "mei",
+      "search": [
+        "mei2",
+        "méi",
+        "mei"
+      ],
+      "syllables": [
+        "mei2"
+      ]
+    },
+    "senses": [
+      "eyebrow",
+      "upper margin"
+    ],
+    "traditionalForms": [
+      "眉"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78250"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:53cc:shuang1",
+    "itemId": "char:53cc",
+    "pinyin": {
+      "numeric": "shuang1",
+      "marked": "shuāng",
+      "plain": "shuang",
+      "search": [
+        "shuang1",
+        "shuāng",
+        "shuang"
+      ],
+      "syllables": [
+        "shuang1"
+      ]
+    },
+    "senses": [
+      "variant of 雙|双[shuang1]",
+      "surname Shuang",
+      "two",
+      "double",
+      "pair",
+      "both",
+      "even (number)"
+    ],
+    "traditionalForms": [
+      "双",
+      "雙"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:18283"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:116178"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:116179"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8fdb:jin4",
+    "itemId": "char:8fdb",
+    "pinyin": {
+      "numeric": "jin4",
+      "marked": "jìn",
+      "plain": "jin",
+      "search": [
+        "jin4",
+        "jìn",
+        "jin"
+      ],
+      "syllables": [
+        "jin4"
+      ]
+    },
+    "senses": [
+      "to go forward",
+      "to advance",
+      "to go in",
+      "to enter",
+      "to put in",
+      "to submit",
+      "to take in",
+      "to admit",
+      "(math.) base of a number system",
+      "classifier for sections in a building or residential compound"
+    ],
+    "traditionalForms": [
+      "進"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:108316"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:533b:yi1",
+    "itemId": "char:533b",
+    "pinyin": {
+      "numeric": "yi1",
+      "marked": "yī",
+      "plain": "yi",
+      "search": [
+        "yi1",
+        "yī",
+        "yi"
+      ],
+      "syllables": [
+        "yi1"
+      ]
+    },
+    "senses": [
+      "medical",
+      "medicine",
+      "doctor",
+      "to cure",
+      "to treat"
+    ],
+    "traditionalForms": [
+      "醫"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:110676"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:94b1:qian2",
+    "itemId": "char:94b1",
+    "pinyin": {
+      "numeric": "qian2",
+      "marked": "qián",
+      "plain": "qian",
+      "search": [
+        "qian2",
+        "qián",
+        "qian"
+      ],
+      "syllables": [
+        "qian2"
+      ]
+    },
+    "senses": [
+      "surname Qian",
+      "coin",
+      "money",
+      "CL:筆|笔[bi3]",
+      "unit of weight, one tenth of a tael 兩|两[liang3]"
+    ],
+    "traditionalForms": [
+      "錢"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:112283"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:112284"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:4e3b:zhu3",
+    "itemId": "char:4e3b",
+    "pinyin": {
+      "numeric": "zhu3",
+      "marked": "zhǔ",
+      "plain": "zhu",
+      "search": [
+        "zhu3",
+        "zhǔ",
+        "zhu"
+      ],
+      "syllables": [
+        "zhu3"
+      ]
+    },
+    "senses": [
+      "owner",
+      "master",
+      "host",
+      "individual or party concerned",
+      "God",
+      "Lord",
+      "main",
+      "to indicate or signify",
+      "trump card (in card games)"
+    ],
+    "traditionalForms": [
+      "主"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:3926"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:65b9:fang1",
+    "itemId": "char:65b9",
+    "pinyin": {
+      "numeric": "fang1",
+      "marked": "fāng",
+      "plain": "fang",
+      "search": [
+        "fang1",
+        "fāng",
+        "fang"
+      ],
+      "syllables": [
+        "fang1"
+      ]
+    },
+    "senses": [
+      "surname Fang",
+      "square",
+      "power or involution (math.)",
+      "upright",
+      "honest",
+      "fair and square",
+      "direction",
+      "side",
+      "party (to a contract, dispute etc)",
+      "place",
+      "method",
+      "prescription (medicine)",
+      "just when",
+      "only or just",
+      "classifier for square things",
+      "abbr. for square or cubic meter"
+    ],
+    "traditionalForms": [
+      "方"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52248"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52249"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7b54:da1",
+    "itemId": "char:7b54",
+    "pinyin": {
+      "numeric": "da1",
+      "marked": "dā",
+      "plain": "da",
+      "search": [
+        "da1",
+        "dā",
+        "da"
+      ],
+      "syllables": [
+        "da1"
+      ]
+    },
+    "senses": [
+      "bound form having the same meaning as the free word 答[da2], used in 答應|答应[da1 ying5], 答理[da1 li5] etc"
+    ],
+    "traditionalForms": [
+      "答"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:83270"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7b54:da2",
+    "itemId": "char:7b54",
+    "pinyin": {
+      "numeric": "da2",
+      "marked": "dá",
+      "plain": "da",
+      "search": [
+        "da2",
+        "dá",
+        "da"
+      ],
+      "syllables": [
+        "da2"
+      ]
+    },
+    "senses": [
+      "to answer",
+      "to reply",
+      "to respond"
+    ],
+    "traditionalForms": [
+      "答"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:83271"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:59d3:xing4",
+    "itemId": "char:59d3",
+    "pinyin": {
+      "numeric": "xing4",
+      "marked": "xìng",
+      "plain": "xing",
+      "search": [
+        "xing4",
+        "xìng",
+        "xing"
+      ],
+      "syllables": [
+        "xing4"
+      ]
+    },
+    "senses": [
+      "family name; surname",
+      "to be surnamed ..."
+    ],
+    "traditionalForms": [
+      "姓"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:30549"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5973:nv3",
+    "itemId": "char:5973",
+    "pinyin": {
+      "numeric": "nü3",
+      "marked": "nǚ",
+      "plain": "nü",
+      "search": [
+        "nü3",
+        "nǚ",
+        "nü",
+        "nv",
+        "nu:"
+      ],
+      "syllables": [
+        "nü3"
+      ]
+    },
+    "senses": [
+      "female",
+      "woman",
+      "daughter"
+    ],
+    "traditionalForms": [
+      "女"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:29873"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5973:ru3",
+    "itemId": "char:5973",
+    "pinyin": {
+      "numeric": "ru3",
+      "marked": "rǔ",
+      "plain": "ru",
+      "search": [
+        "ru3",
+        "rǔ",
+        "ru"
+      ],
+      "syllables": [
+        "ru3"
+      ]
+    },
+    "senses": [
+      "old variant of 汝[ru3]"
+    ],
+    "traditionalForms": [
+      "女"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:29874"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5b69:hai2",
+    "itemId": "char:5b69",
+    "pinyin": {
+      "numeric": "hai2",
+      "marked": "hái",
+      "plain": "hai",
+      "search": [
+        "hai2",
+        "hái",
+        "hai"
+      ],
+      "syllables": [
+        "hai2"
+      ]
+    },
+    "senses": [
+      "(bound form) child"
+    ],
+    "traditionalForms": [
+      "孩"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:31659"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5feb:kuai4",
+    "itemId": "char:5feb",
+    "pinyin": {
+      "numeric": "kuai4",
+      "marked": "kuài",
+      "plain": "kuai",
+      "search": [
+        "kuai4",
+        "kuài",
+        "kuai"
+      ],
+      "syllables": [
+        "kuai4"
+      ]
+    },
+    "senses": [
+      "rapid",
+      "quick",
+      "speed",
+      "rate",
+      "soon",
+      "almost",
+      "to make haste",
+      "clever",
+      "sharp (of knives or wits)",
+      "forthright",
+      "plainspoken",
+      "gratified",
+      "pleased",
+      "pleasant"
+    ],
+    "traditionalForms": [
+      "快"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:41271"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6b65:bu4",
+    "itemId": "char:6b65",
+    "pinyin": {
+      "numeric": "bu4",
+      "marked": "bù",
+      "plain": "bu",
+      "search": [
+        "bu4",
+        "bù",
+        "bu"
+      ],
+      "syllables": [
+        "bu4"
+      ]
+    },
+    "senses": [
+      "surname Bu",
+      "a step",
+      "a pace",
+      "walk",
+      "march",
+      "stages in a process",
+      "situation"
+    ],
+    "traditionalForms": [
+      "步"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:60676"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:60677"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5f88:hen3",
+    "itemId": "char:5f88",
+    "pinyin": {
+      "numeric": "hen3",
+      "marked": "hěn",
+      "plain": "hen",
+      "search": [
+        "hen3",
+        "hěn",
+        "hen"
+      ],
+      "syllables": [
+        "hen3"
+      ]
+    },
+    "senses": [
+      "very; quite",
+      "(also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+    ],
+    "traditionalForms": [
+      "很"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:40012"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8089:rou4",
+    "itemId": "char:8089",
+    "pinyin": {
+      "numeric": "rou4",
+      "marked": "ròu",
+      "plain": "rou",
+      "search": [
+        "rou4",
+        "ròu",
+        "rou"
+      ],
+      "syllables": [
+        "rou4"
+      ]
+    },
+    "senses": [
+      "meat",
+      "flesh",
+      "pulp (of a fruit)",
+      "(coll.) (of a fruit) squashy",
+      "(of a person) flabby",
+      "irresolute",
+      "Kangxi radical 130"
+    ],
+    "traditionalForms": [
+      "肉"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:89905"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8eab:shen1",
+    "itemId": "char:8eab",
+    "pinyin": {
+      "numeric": "shen1",
+      "marked": "shēn",
+      "plain": "shen",
+      "search": [
+        "shen1",
+        "shēn",
+        "shen"
+      ],
+      "syllables": [
+        "shen1"
+      ]
+    },
+    "senses": [
+      "body",
+      "life",
+      "oneself",
+      "personally",
+      "one's morality and conduct",
+      "the main part of a structure or body",
+      "pregnant",
+      "classifier for sets of clothes: suit, twinset",
+      "Kangxi radical 158"
+    ],
+    "traditionalForms": [
+      "身"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:105731"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:501f:jie4",
+    "itemId": "char:501f",
+    "pinyin": {
+      "numeric": "jie4",
+      "marked": "jiè",
+      "plain": "jie",
+      "search": [
+        "jie4",
+        "jiè",
+        "jie"
+      ],
+      "syllables": [
+        "jie4"
+      ]
+    },
+    "senses": [
+      "to borrow",
+      "(used in combination with 給|给[gei3] or 出[chu1] etc) to lend",
+      "to make use of; to avail oneself of",
+      "(sometimes followed by 著|着[zhe5]) by; with",
+      "variant of 借[jie4]"
+    ],
+    "traditionalForms": [
+      "借",
+      "藉"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:8805"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:96271"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:95ee:wen4",
+    "itemId": "char:95ee",
+    "pinyin": {
+      "numeric": "wen4",
+      "marked": "wèn",
+      "plain": "wen",
+      "search": [
+        "wen4",
+        "wèn",
+        "wen"
+      ],
+      "syllables": [
+        "wen4"
+      ]
+    },
+    "senses": [
+      "to ask; to inquire"
+    ],
+    "traditionalForms": [
+      "問"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:22287"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:62db:zhao1",
+    "itemId": "char:62db",
+    "pinyin": {
+      "numeric": "zhao1",
+      "marked": "zhāo",
+      "plain": "zhao",
+      "search": [
+        "zhao1",
+        "zhāo",
+        "zhao"
+      ],
+      "syllables": [
+        "zhao1"
+      ]
+    },
+    "senses": [
+      "to recruit",
+      "to provoke",
+      "to beckon",
+      "to incur",
+      "to infect",
+      "contagious",
+      "a move (chess)",
+      "a maneuver",
+      "device",
+      "trick",
+      "to confess"
+    ],
+    "traditionalForms": [
+      "招"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:46526"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6015:pa4",
+    "itemId": "char:6015",
+    "pinyin": {
+      "numeric": "pa4",
+      "marked": "pà",
+      "plain": "pa",
+      "search": [
+        "pa4",
+        "pà",
+        "pa"
+      ],
+      "syllables": [
+        "pa4"
+      ]
+    },
+    "senses": [
+      "surname Pa",
+      "to be afraid",
+      "to fear",
+      "to dread",
+      "to be unable to endure",
+      "perhaps"
+    ],
+    "traditionalForms": [
+      "怕"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:41473"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:41474"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:60ca:jing1",
+    "itemId": "char:60ca",
+    "pinyin": {
+      "numeric": "jing1",
+      "marked": "jīng",
+      "plain": "jing",
+      "search": [
+        "jing1",
+        "jīng",
+        "jing"
+      ],
+      "syllables": [
+        "jing1"
+      ]
+    },
+    "senses": [
+      "to startle",
+      "to be frightened",
+      "to be scared",
+      "alarm"
+    ],
+    "traditionalForms": [
+      "驚"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:121412"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:904d:bian4",
+    "itemId": "char:904d",
+    "pinyin": {
+      "numeric": "bian4",
+      "marked": "biàn",
+      "plain": "bian",
+      "search": [
+        "bian4",
+        "biàn",
+        "bian"
+      ],
+      "syllables": [
+        "bian4"
+      ]
+    },
+    "senses": [
+      "variant of 遍[bian4]",
+      "everywhere",
+      "all over",
+      "classifier for actions: one time"
+    ],
+    "traditionalForms": [
+      "徧",
+      "遍"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:40448"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:108638"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:539f:yuan2",
+    "itemId": "char:539f",
+    "pinyin": {
+      "numeric": "yuan2",
+      "marked": "yuán",
+      "plain": "yuan",
+      "search": [
+        "yuan2",
+        "yuán",
+        "yuan"
+      ],
+      "syllables": [
+        "yuan2"
+      ]
+    },
+    "senses": [
+      "surname Yuan",
+      "(Japanese surname) Hara",
+      "former",
+      "original",
+      "primary",
+      "raw",
+      "level",
+      "cause",
+      "source"
+    ],
+    "traditionalForms": [
+      "原"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:17912"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:17913"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5ddd:chuan1",
+    "itemId": "char:5ddd",
+    "pinyin": {
+      "numeric": "chuan1",
+      "marked": "chuān",
+      "plain": "chuan",
+      "search": [
+        "chuan1",
+        "chuān",
+        "chuan"
+      ],
+      "syllables": [
+        "chuan1"
+      ]
+    },
+    "senses": [
+      "short name for Sichuan 四川[Si4 chuan1]",
+      "(bound form) river",
+      "creek",
+      "plain",
+      "an area of level country"
+    ],
+    "traditionalForms": [
+      "川"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:36332"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:36333"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:89c4:gui1",
+    "itemId": "char:89c4",
+    "pinyin": {
+      "numeric": "gui1",
+      "marked": "guī",
+      "plain": "gui",
+      "search": [
+        "gui1",
+        "guī",
+        "gui"
+      ],
+      "syllables": [
+        "gui1"
+      ]
+    },
+    "senses": [
+      "variant of 規|规[gui1]",
+      "compass",
+      "a rule",
+      "regulation",
+      "to admonish",
+      "to plan",
+      "to scheme"
+    ],
+    "traditionalForms": [
+      "槼",
+      "規"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:59015"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:99906"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8695:can2",
+    "itemId": "char:8695",
+    "pinyin": {
+      "numeric": "can2",
+      "marked": "cán",
+      "plain": "can",
+      "search": [
+        "can2",
+        "cán",
+        "can"
+      ],
+      "syllables": [
+        "can2"
+      ]
+    },
+    "senses": [
+      "silkworm"
+    ],
+    "traditionalForms": [
+      "蠶"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:97937"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:63d2:cha1",
+    "itemId": "char:63d2",
+    "pinyin": {
+      "numeric": "cha1",
+      "marked": "chā",
+      "plain": "cha",
+      "search": [
+        "cha1",
+        "chā",
+        "cha"
+      ],
+      "syllables": [
+        "cha1"
+      ]
+    },
+    "senses": [
+      "to insert",
+      "stick in",
+      "pierce",
+      "to take part in",
+      "to interfere",
+      "to interpose",
+      "old variant of 插[cha1]"
+    ],
+    "traditionalForms": [
+      "插",
+      "揷"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:48365"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:48611"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5468:zhou1",
+    "itemId": "char:5468",
+    "pinyin": {
+      "numeric": "zhou1",
+      "marked": "zhōu",
+      "plain": "zhou",
+      "search": [
+        "zhou1",
+        "zhōu",
+        "zhou"
+      ],
+      "syllables": [
+        "zhou1"
+      ]
+    },
+    "senses": [
+      "surname Zhou",
+      "Zhou Dynasty (1046–256 BC)",
+      "to make a circuit",
+      "to circle",
+      "circle",
+      "circumference",
+      "lap",
+      "cycle",
+      "complete",
+      "all",
+      "all over",
+      "thorough",
+      "to help financially",
+      "week",
+      "weekly",
+      "variant of 周[zhou1]"
+    ],
+    "traditionalForms": [
+      "周",
+      "週"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:20941"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:20942"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:108287"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:53d1:fa1",
+    "itemId": "char:53d1",
+    "pinyin": {
+      "numeric": "fa1",
+      "marked": "fā",
+      "plain": "fa",
+      "search": [
+        "fa1",
+        "fā",
+        "fa"
+      ],
+      "syllables": [
+        "fa1"
+      ]
+    },
+    "senses": [
+      "to send out",
+      "to show (one's feeling)",
+      "to issue",
+      "to develop",
+      "to make a bundle of money",
+      "classifier for gunshots (rounds)"
+    ],
+    "traditionalForms": [
+      "發"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:76294"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:53d1:fa4",
+    "itemId": "char:53d1",
+    "pinyin": {
+      "numeric": "fa4",
+      "marked": "fà",
+      "plain": "fa",
+      "search": [
+        "fa4",
+        "fà",
+        "fa"
+      ],
+      "syllables": [
+        "fa4"
+      ]
+    },
+    "senses": [
+      "hair",
+      "Taiwan pr. [fa3]"
+    ],
+    "traditionalForms": [
+      "髮"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:122199"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:81c2:bi4",
+    "itemId": "char:81c2",
+    "pinyin": {
+      "numeric": "bi4",
+      "marked": "bì",
+      "plain": "bi",
+      "search": [
+        "bi4",
+        "bì",
+        "bi"
+      ],
+      "syllables": [
+        "bi4"
+      ]
+    },
+    "senses": [
+      "arm"
+    ],
+    "traditionalForms": [
+      "臂"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:91476"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7ed9:gei3",
+    "itemId": "char:7ed9",
+    "pinyin": {
+      "numeric": "gei3",
+      "marked": "gěi",
+      "plain": "gei",
+      "search": [
+        "gei3",
+        "gěi",
+        "gei"
+      ],
+      "syllables": [
+        "gei3"
+      ]
+    },
+    "senses": [
+      "to",
+      "for",
+      "for the benefit of",
+      "to give",
+      "to allow",
+      "to do sth (for sb)",
+      "(grammatical equivalent of 被)",
+      "(grammatical equivalent of 把)",
+      "(sentence intensifier)"
+    ],
+    "traditionalForms": [
+      "給"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:85861"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7ed9:ji3",
+    "itemId": "char:7ed9",
+    "pinyin": {
+      "numeric": "ji3",
+      "marked": "jǐ",
+      "plain": "ji",
+      "search": [
+        "ji3",
+        "jǐ",
+        "ji"
+      ],
+      "syllables": [
+        "ji3"
+      ]
+    },
+    "senses": [
+      "(bound form) to supply; to provide",
+      "(literary) sufficient; abundant"
+    ],
+    "traditionalForms": [
+      "給"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:85862"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5b59:sun1",
+    "itemId": "char:5b59",
+    "pinyin": {
+      "numeric": "sun1",
+      "marked": "sūn",
+      "plain": "sun",
+      "search": [
+        "sun1",
+        "sūn",
+        "sun"
+      ],
+      "syllables": [
+        "sun1"
+      ]
+    },
+    "senses": [
+      "surname Sun",
+      "grandson",
+      "descendant"
+    ],
+    "traditionalForms": [
+      "孫"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:31667"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:31668"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:519b:jun1",
+    "itemId": "char:519b",
+    "pinyin": {
+      "numeric": "jun1",
+      "marked": "jūn",
+      "plain": "jun",
+      "search": [
+        "jun1",
+        "jūn",
+        "jun"
+      ],
+      "syllables": [
+        "jun1"
+      ]
+    },
+    "senses": [
+      "(bound form) army",
+      "military"
+    ],
+    "traditionalForms": [
+      "軍"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:105992"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:590f:xia4",
+    "itemId": "char:590f",
+    "pinyin": {
+      "numeric": "xia4",
+      "marked": "xià",
+      "plain": "xia",
+      "search": [
+        "xia4",
+        "xià",
+        "xia"
+      ],
+      "syllables": [
+        "xia4"
+      ]
+    },
+    "senses": [
+      "the Xia or Hsia dynasty c. 2000 BC",
+      "Xia of the Sixteen Kingdoms (407–432)",
+      "surname Xia",
+      "summer"
+    ],
+    "traditionalForms": [
+      "夏"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:27007"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:27008"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:679c:guo3",
+    "itemId": "char:679c",
+    "pinyin": {
+      "numeric": "guo3",
+      "marked": "guǒ",
+      "plain": "guo",
+      "search": [
+        "guo3",
+        "guǒ",
+        "guo"
+      ],
+      "syllables": [
+        "guo3"
+      ]
+    },
+    "senses": [
+      "fruit",
+      "result",
+      "resolute",
+      "indeed",
+      "if really"
+    ],
+    "traditionalForms": [
+      "果"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:56826"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:897f:xi1",
+    "itemId": "char:897f",
+    "pinyin": {
+      "numeric": "xi1",
+      "marked": "xī",
+      "plain": "xi",
+      "search": [
+        "xi1",
+        "xī",
+        "xi"
+      ],
+      "syllables": [
+        "xi1"
+      ]
+    },
+    "senses": [
+      "the West",
+      "abbr. for Spain 西班牙[Xi1 ban1 ya2]",
+      "Spanish",
+      "west"
+    ],
+    "traditionalForms": [
+      "西"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:99450"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:99451"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8fb9:bian1",
+    "itemId": "char:8fb9",
+    "pinyin": {
+      "numeric": "bian1",
+      "marked": "biān",
+      "plain": "bian",
+      "search": [
+        "bian1",
+        "biān",
+        "bian"
+      ],
+      "syllables": [
+        "bian1"
+      ]
+    },
+    "senses": [
+      "side",
+      "edge",
+      "margin",
+      "border",
+      "boundary",
+      "CL:個|个[ge4]",
+      "simultaneously"
+    ],
+    "traditionalForms": [
+      "邊"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:109581"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8fb9:bian5",
+    "itemId": "char:8fb9",
+    "pinyin": {
+      "numeric": "bian5",
+      "marked": "bian",
+      "plain": "bian",
+      "search": [
+        "bian5",
+        "bian"
+      ],
+      "syllables": [
+        "bian5"
+      ]
+    },
+    "senses": [
+      "suffix of a noun of locality"
+    ],
+    "traditionalForms": [
+      "邊"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:109582"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6b22:huan1",
+    "itemId": "char:6b22",
+    "pinyin": {
+      "numeric": "huan1",
+      "marked": "huān",
+      "plain": "huan",
+      "search": [
+        "huan1",
+        "huān",
+        "huan"
+      ],
+      "syllables": [
+        "huan1"
+      ]
+    },
+    "senses": [
+      "variant of 歡|欢[huan1]",
+      "joyous",
+      "happy",
+      "pleased",
+      "hubbub",
+      "clamor",
+      "a breed of horse"
+    ],
+    "traditionalForms": [
+      "懽",
+      "歡",
+      "讙",
+      "驩"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:43671"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:60384"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:102682"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:121522"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6b63:zheng1",
+    "itemId": "char:6b63",
+    "pinyin": {
+      "numeric": "zheng1",
+      "marked": "zhēng",
+      "plain": "zheng",
+      "search": [
+        "zheng1",
+        "zhēng",
+        "zheng"
+      ],
+      "syllables": [
+        "zheng1"
+      ]
+    },
+    "senses": [
+      "first month of the lunar year"
+    ],
+    "traditionalForms": [
+      "正"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:60445"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6b63:zheng4",
+    "itemId": "char:6b63",
+    "pinyin": {
+      "numeric": "zheng4",
+      "marked": "zhèng",
+      "plain": "zheng",
+      "search": [
+        "zheng4",
+        "zhèng",
+        "zheng"
+      ],
+      "syllables": [
+        "zheng4"
+      ]
+    },
+    "senses": [
+      "straight",
+      "upright",
+      "proper",
+      "main",
+      "principal",
+      "to correct",
+      "to rectify",
+      "exactly",
+      "just (at that time)",
+      "right (in that place)",
+      "(math.) positive"
+    ],
+    "traditionalForms": [
+      "正"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:60446"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6cc9:quan2",
+    "itemId": "char:6cc9",
+    "pinyin": {
+      "numeric": "quan2",
+      "marked": "quán",
+      "plain": "quan",
+      "search": [
+        "quan2",
+        "quán",
+        "quan"
+      ],
+      "syllables": [
+        "quan2"
+      ]
+    },
+    "senses": [
+      "spring (small stream)",
+      "mouth of a spring",
+      "coin (archaic)"
+    ],
+    "traditionalForms": [
+      "泉"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:63851"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:773c:yan3",
+    "itemId": "char:773c",
+    "pinyin": {
+      "numeric": "yan3",
+      "marked": "yǎn",
+      "plain": "yan",
+      "search": [
+        "yan3",
+        "yǎn",
+        "yan"
+      ],
+      "syllables": [
+        "yan3"
+      ]
+    },
+    "senses": [
+      "eye (CL:隻|只[zhi1],雙|双[shuang1])",
+      "(often used with 一[yi1]) a look; a glance",
+      "small hole",
+      "(bound form) salient point",
+      "classifier for wells, cave-dwellings etc"
+    ],
+    "traditionalForms": [
+      "眼"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78547"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8377:he2",
+    "itemId": "char:8377",
+    "pinyin": {
+      "numeric": "he2",
+      "marked": "hé",
+      "plain": "he",
+      "search": [
+        "he2",
+        "hé",
+        "he"
+      ],
+      "syllables": [
+        "he2"
+      ]
+    },
+    "senses": [
+      "Holland; the Netherlands (abbr. for 荷蘭|荷兰[He2 lan2])",
+      "lotus"
+    ],
+    "traditionalForms": [
+      "荷"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:94296"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:94297"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8377:he4",
+    "itemId": "char:8377",
+    "pinyin": {
+      "numeric": "he4",
+      "marked": "hè",
+      "plain": "he",
+      "search": [
+        "he4",
+        "hè",
+        "he"
+      ],
+      "syllables": [
+        "he4"
+      ]
+    },
+    "senses": [
+      "to carry on one's shoulder or back",
+      "burden",
+      "responsibility"
+    ],
+    "traditionalForms": [
+      "荷"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:94298"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5c16:jian1",
+    "itemId": "char:5c16",
+    "pinyin": {
+      "numeric": "jian1",
+      "marked": "jiān",
+      "plain": "jian",
+      "search": [
+        "jian1",
+        "jiān",
+        "jian"
+      ],
+      "syllables": [
+        "jian1"
+      ]
+    },
+    "senses": [
+      "pointed; tapering; sharp",
+      "(of a sound) shrill; piercing",
+      "(of one's hearing, sight etc) sharp; acute; keen",
+      "to make (one's voice) shrill",
+      "sharp point; tip",
+      "the best of sth; the cream of the crop"
+    ],
+    "traditionalForms": [
+      "尖"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:34972"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:65e9:zao3",
+    "itemId": "char:65e9",
+    "pinyin": {
+      "numeric": "zao3",
+      "marked": "zǎo",
+      "plain": "zao",
+      "search": [
+        "zao3",
+        "zǎo",
+        "zao"
+      ],
+      "syllables": [
+        "zao3"
+      ]
+    },
+    "senses": [
+      "early",
+      "morning",
+      "Good morning!",
+      "long ago",
+      "prematurely"
+    ],
+    "traditionalForms": [
+      "早"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52778"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:591c:ye4",
+    "itemId": "char:591c",
+    "pinyin": {
+      "numeric": "ye4",
+      "marked": "yè",
+      "plain": "ye",
+      "search": [
+        "ye4",
+        "yè",
+        "ye"
+      ],
+      "syllables": [
+        "ye4"
+      ]
+    },
+    "senses": [
+      "variant of 夜[ye4]",
+      "night"
+    ],
+    "traditionalForms": [
+      "亱",
+      "夜"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:5654"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:27568"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6240:suo3",
+    "itemId": "char:6240",
+    "pinyin": {
+      "numeric": "suo3",
+      "marked": "suǒ",
+      "plain": "suo",
+      "search": [
+        "suo3",
+        "suǒ",
+        "suo"
+      ],
+      "syllables": [
+        "suo3"
+      ]
+    },
+    "senses": [
+      "actually",
+      "place",
+      "classifier for houses, small buildings, institutions etc",
+      "that which",
+      "particle introducing a relative clause or passive",
+      "CL:個|个[ge4]"
+    ],
+    "traditionalForms": [
+      "所"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:44290"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:9ed1:hei1",
+    "itemId": "char:9ed1",
+    "pinyin": {
+      "numeric": "hei1",
+      "marked": "hēi",
+      "plain": "hei",
+      "search": [
+        "hei1",
+        "hēi",
+        "hei"
+      ],
+      "syllables": [
+        "hei1"
+      ]
+    },
+    "senses": [
+      "short name for Heilongjiang 黑龍江|黑龙江[Hei1 long2 jiang1]",
+      "black",
+      "dark",
+      "sinister",
+      "secret",
+      "shady",
+      "illegal",
+      "to hide (sth) away",
+      "to vilify",
+      "(loanword) to hack (computing)"
+    ],
+    "traditionalForms": [
+      "黑"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:124230"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:124231"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5149:guang1",
+    "itemId": "char:5149",
+    "pinyin": {
+      "numeric": "guang1",
+      "marked": "guāng",
+      "plain": "guang",
+      "search": [
+        "guang1",
+        "guāng",
+        "guang"
+      ],
+      "syllables": [
+        "guang1"
+      ]
+    },
+    "senses": [
+      "light; ray (CL:道[dao4])",
+      "bright; shiny",
+      "only; merely",
+      "used up; finished",
+      "to leave (a part of the body) uncovered"
+    ],
+    "traditionalForms": [
+      "光"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:10602"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:70b9:dian3",
+    "itemId": "char:70b9",
+    "pinyin": {
+      "numeric": "dian3",
+      "marked": "diǎn",
+      "plain": "dian",
+      "search": [
+        "dian3",
+        "diǎn",
+        "dian"
+      ],
+      "syllables": [
+        "dian3"
+      ]
+    },
+    "senses": [
+      "to touch briefly; to tap",
+      "to mark with a dot; to check off (on a list)",
+      "to order (food etc); to select",
+      "to mention; to bring up (a topic or person)",
+      "to hint at; to imply",
+      "to administer (eye medicine etc) in drops",
+      "to light (a fire, a lamp etc); to ignite",
+      "to nod (one's head) in agreement; to beckon by moving (one's hand) up and down",
+      "point; dot; spot; speck",
+      "dot stroke in Chinese characters",
+      "(math.) decimal point",
+      "point in time or space",
+      "(after a number) o'clock",
+      "a small amount; a bit; (after a verb or adjective) a bit more",
+      "classifier for small amounts"
+    ],
+    "traditionalForms": [
+      "點"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:124577"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6d6a:lang4",
+    "itemId": "char:6d6a",
+    "pinyin": {
+      "numeric": "lang4",
+      "marked": "làng",
+      "plain": "lang",
+      "search": [
+        "lang4",
+        "làng",
+        "lang"
+      ],
+      "syllables": [
+        "lang4"
+      ]
+    },
+    "senses": [
+      "wave",
+      "breaker",
+      "unrestrained",
+      "dissipated",
+      "to stroll",
+      "to ramble"
+    ],
+    "traditionalForms": [
+      "浪"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:65192"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:548c:he2",
+    "itemId": "char:548c",
+    "pinyin": {
+      "numeric": "he2",
+      "marked": "hé",
+      "plain": "he",
+      "search": [
+        "he2",
+        "hé",
+        "he"
+      ],
+      "syllables": [
+        "he2"
+      ]
+    },
+    "senses": [
+      "old variant of 和[he2]",
+      "surname He",
+      "(joining two nouns) and; together with; with (Taiwan pr. [han4])",
+      "(math.) sum",
+      "to make peace",
+      "(sports) to draw; to tie",
+      "(bound form) harmonious",
+      "(bound form) Japan; Japanese",
+      "(literary) harmonious (variant of 和[he2])"
+    ],
+    "traditionalForms": [
+      "咊",
+      "和",
+      "龢"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:21222"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:21228"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:21229"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:125315"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:548c:he4",
+    "itemId": "char:548c",
+    "pinyin": {
+      "numeric": "he4",
+      "marked": "hè",
+      "plain": "he",
+      "search": [
+        "he4",
+        "hè",
+        "he"
+      ],
+      "syllables": [
+        "he4"
+      ]
+    },
+    "senses": [
+      "to compose a poem in reply (to sb's poem) using the same rhyme sequence",
+      "to join in the singing",
+      "to chime in with others"
+    ],
+    "traditionalForms": [
+      "和"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:21230"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:548c:hu2",
+    "itemId": "char:548c",
+    "pinyin": {
+      "numeric": "hu2",
+      "marked": "hú",
+      "plain": "hu",
+      "search": [
+        "hu2",
+        "hú",
+        "hu"
+      ],
+      "syllables": [
+        "hu2"
+      ]
+    },
+    "senses": [
+      "to complete a set in mahjong or playing cards"
+    ],
+    "traditionalForms": [
+      "和"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:21231"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:548c:huo2",
+    "itemId": "char:548c",
+    "pinyin": {
+      "numeric": "huo2",
+      "marked": "huó",
+      "plain": "huo",
+      "search": [
+        "huo2",
+        "huó",
+        "huo"
+      ],
+      "syllables": [
+        "huo2"
+      ]
+    },
+    "senses": [
+      "to combine a powdery substance (flour, plaster etc) with water",
+      "Taiwan pr. [huo4]"
+    ],
+    "traditionalForms": [
+      "和"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:21232"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:548c:huo4",
+    "itemId": "char:548c",
+    "pinyin": {
+      "numeric": "huo4",
+      "marked": "huò",
+      "plain": "huo",
+      "search": [
+        "huo4",
+        "huò",
+        "huo"
+      ],
+      "syllables": [
+        "huo4"
+      ]
+    },
+    "senses": [
+      "to mix (ingredients) together",
+      "to blend",
+      "classifier for rinses of clothes",
+      "classifier for boilings of medicinal herbs"
+    ],
+    "traditionalForms": [
+      "和"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:21233"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:59d0:jie3",
+    "itemId": "char:59d0",
+    "pinyin": {
+      "numeric": "jie3",
+      "marked": "jiě",
+      "plain": "jie",
+      "search": [
+        "jie3",
+        "jiě",
+        "jie"
+      ],
+      "syllables": [
+        "jie3"
+      ]
+    },
+    "senses": [
+      "older sister"
+    ],
+    "traditionalForms": [
+      "姐"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:30513"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7fa4:qun2",
+    "itemId": "char:7fa4",
+    "pinyin": {
+      "numeric": "qun2",
+      "marked": "qún",
+      "plain": "qun",
+      "search": [
+        "qun2",
+        "qún",
+        "qun"
+      ],
+      "syllables": [
+        "qun2"
+      ]
+    },
+    "senses": [
+      "variant of 群[qun2]",
+      "group",
+      "crowd",
+      "flock, herd, pack etc"
+    ],
+    "traditionalForms": [
+      "羣",
+      "群"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:88202"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:88203"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:542c:yin3",
+    "itemId": "char:542c",
+    "pinyin": {
+      "numeric": "yin3",
+      "marked": "yǐn",
+      "plain": "yin",
+      "search": [
+        "yin3",
+        "yǐn",
+        "yin"
+      ],
+      "syllables": [
+        "yin3"
+      ]
+    },
+    "senses": [
+      "smile (archaic)"
+    ],
+    "traditionalForms": [
+      "听"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:20592"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:542c:ting1",
+    "itemId": "char:542c",
+    "pinyin": {
+      "numeric": "ting1",
+      "marked": "tīng",
+      "plain": "ting",
+      "search": [
+        "ting1",
+        "tīng",
+        "ting"
+      ],
+      "syllables": [
+        "ting1"
+      ]
+    },
+    "senses": [
+      "to listen to; to hear",
+      "to heed; to obey",
+      "a can (loanword from English \"tin\")",
+      "classifier for canned beverages",
+      "to let be; to allow (Taiwan pr. [ting4])",
+      "(literary) to administer; to deal with (Taiwan pr. [ting4])"
+    ],
+    "traditionalForms": [
+      "聽"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:89771"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7537:nan2",
+    "itemId": "char:7537",
+    "pinyin": {
+      "numeric": "nan2",
+      "marked": "nán",
+      "plain": "nan",
+      "search": [
+        "nan2",
+        "nán",
+        "nan"
+      ],
+      "syllables": [
+        "nan2"
+      ]
+    },
+    "senses": [
+      "(bound form) male",
+      "baron, the lowest of the five ranks of nobility 五等爵位[wu3 deng3 jue2 wei4]"
+    ],
+    "traditionalForms": [
+      "男"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:75011"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5411:xiang4",
+    "itemId": "char:5411",
+    "pinyin": {
+      "numeric": "xiang4",
+      "marked": "xiàng",
+      "plain": "xiang",
+      "search": [
+        "xiang4",
+        "xiàng",
+        "xiang"
+      ],
+      "syllables": [
+        "xiang4"
+      ]
+    },
+    "senses": [
+      "surname Xiang",
+      "towards",
+      "to face",
+      "to turn towards",
+      "direction",
+      "to support",
+      "to side with",
+      "shortly before",
+      "formerly",
+      "always",
+      "all along",
+      "(suffix) suitable for ...",
+      "oriented to ...",
+      "to tend toward",
+      "to guide",
+      "variant of 向[xiang4]",
+      "orientation",
+      "to turn toward",
+      "to"
+    ],
+    "traditionalForms": [
+      "向",
+      "嚮",
+      "曏"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:20402"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:20403"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:23590"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:54313"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:51e0:ji1",
+    "itemId": "char:51e0",
+    "pinyin": {
+      "numeric": "ji1",
+      "marked": "jī",
+      "plain": "ji",
+      "search": [
+        "ji1",
+        "jī",
+        "ji"
+      ],
+      "syllables": [
+        "ji1"
+      ]
+    },
+    "senses": [
+      "small table",
+      "(literary) almost"
+    ],
+    "traditionalForms": [
+      "几",
+      "幾"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:12967"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:38213"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:51e0:ji3",
+    "itemId": "char:51e0",
+    "pinyin": {
+      "numeric": "ji3",
+      "marked": "jǐ",
+      "plain": "ji",
+      "search": [
+        "ji3",
+        "jǐ",
+        "ji"
+      ],
+      "syllables": [
+        "ji3"
+      ]
+    },
+    "senses": [
+      "how many; how much",
+      "several; a few"
+    ],
+    "traditionalForms": [
+      "幾"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:38214"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6761:tiao2",
+    "itemId": "char:6761",
+    "pinyin": {
+      "numeric": "tiao2",
+      "marked": "tiáo",
+      "plain": "tiao",
+      "search": [
+        "tiao2",
+        "tiáo",
+        "tiao"
+      ],
+      "syllables": [
+        "tiao2"
+      ]
+    },
+    "senses": [
+      "strip",
+      "item",
+      "article",
+      "clause (of law or treaty)",
+      "classifier for long thin things (ribbon, river, road, trousers etc)"
+    ],
+    "traditionalForms": [
+      "條"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:57994"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:4e45:jiu3",
+    "itemId": "char:4e45",
+    "pinyin": {
+      "numeric": "jiu3",
+      "marked": "jiǔ",
+      "plain": "jiu",
+      "search": [
+        "jiu3",
+        "jiǔ",
+        "jiu"
+      ],
+      "syllables": [
+        "jiu3"
+      ]
+    },
+    "senses": [
+      "(of a period of time) long"
+    ],
+    "traditionalForms": [
+      "久"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:4097"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:534a:ban4",
+    "itemId": "char:534a",
+    "pinyin": {
+      "numeric": "ban4",
+      "marked": "bàn",
+      "plain": "ban",
+      "search": [
+        "ban4",
+        "bàn",
+        "ban"
+      ],
+      "syllables": [
+        "ban4"
+      ]
+    },
+    "senses": [
+      "half",
+      "semi-",
+      "incomplete",
+      "(after a number) and a half"
+    ],
+    "traditionalForms": [
+      "半"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:16821"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5019:hou4",
+    "itemId": "char:5019",
+    "pinyin": {
+      "numeric": "hou4",
+      "marked": "hòu",
+      "plain": "hou",
+      "search": [
+        "hou4",
+        "hòu",
+        "hou"
+      ],
+      "syllables": [
+        "hou4"
+      ]
+    },
+    "senses": [
+      "to wait",
+      "to inquire after",
+      "to watch",
+      "season",
+      "climate",
+      "(old) period of five days"
+    ],
+    "traditionalForms": [
+      "候"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:8769"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:516c:gong1",
+    "itemId": "char:516c",
+    "pinyin": {
+      "numeric": "gong1",
+      "marked": "gōng",
+      "plain": "gong",
+      "search": [
+        "gong1",
+        "gōng",
+        "gong"
+      ],
+      "syllables": [
+        "gong1"
+      ]
+    },
+    "senses": [
+      "public",
+      "collectively owned",
+      "common",
+      "international (e.g. high seas, metric system, calendar)",
+      "make public",
+      "fair",
+      "just",
+      "Duke, highest of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]",
+      "honorable (gentlemen)",
+      "father-in-law",
+      "male (animal)"
+    ],
+    "traditionalForms": [
+      "公"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:11733"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:4f11:xiu1",
+    "itemId": "char:4f11",
+    "pinyin": {
+      "numeric": "xiu1",
+      "marked": "xiū",
+      "plain": "xiu",
+      "search": [
+        "xiu1",
+        "xiū",
+        "xiu"
+      ],
+      "syllables": [
+        "xiu1"
+      ]
+    },
+    "senses": [
+      "surname Xiu",
+      "to rest",
+      "to stop doing sth for a period of time",
+      "to cease",
+      "(imperative) don't"
+    ],
+    "traditionalForms": [
+      "休"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:6885"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:6886"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6c34:shui3",
+    "itemId": "char:6c34",
+    "pinyin": {
+      "numeric": "shui3",
+      "marked": "shuǐ",
+      "plain": "shui",
+      "search": [
+        "shui3",
+        "shuǐ",
+        "shui"
+      ],
+      "syllables": [
+        "shui3"
+      ]
+    },
+    "senses": [
+      "surname Shui",
+      "Shui ethnic group",
+      "water",
+      "(after a name) ... River",
+      "to swim (used mostly in 會水|会水[hui4 shui3] and 水性[shui3 xing4])",
+      "(coll.) lacking in substance; shoddy",
+      "(bound form) additional cost; extra income",
+      "classifier for washings of a garment"
+    ],
+    "traditionalForms": [
+      "水"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:62295"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:62296"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6728:mu4",
+    "itemId": "char:6728",
+    "pinyin": {
+      "numeric": "mu4",
+      "marked": "mù",
+      "plain": "mu",
+      "search": [
+        "mu4",
+        "mù",
+        "mu"
+      ],
+      "syllables": [
+        "mu4"
+      ]
+    },
+    "senses": [
+      "surname Mu",
+      "(bound form) tree",
+      "(bound form) wood",
+      "unresponsive; numb; wooden"
+    ],
+    "traditionalForms": [
+      "木"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:55528"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:55529"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6708:yue4",
+    "itemId": "char:6708",
+    "pinyin": {
+      "numeric": "yue4",
+      "marked": "yuè",
+      "plain": "yue",
+      "search": [
+        "yue4",
+        "yuè",
+        "yue"
+      ],
+      "syllables": [
+        "yue4"
+      ]
+    },
+    "senses": [
+      "moon",
+      "month",
+      "monthly",
+      "CL:個|个[ge4],輪|轮[lun2]"
+    ],
+    "traditionalForms": [
+      "月"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:54820"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5c71:shan1",
+    "itemId": "char:5c71",
+    "pinyin": {
+      "numeric": "shan1",
+      "marked": "shān",
+      "plain": "shan",
+      "search": [
+        "shan1",
+        "shān",
+        "shan"
+      ],
+      "syllables": [
+        "shan1"
+      ]
+    },
+    "senses": [
+      "surname Shan",
+      "mountain; hill (CL:座[zuo4])",
+      "(coll.) small bundle of straw for silkworms to spin cocoons on"
+    ],
+    "traditionalForms": [
+      "山"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:35641"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:35642"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:706b:huo3",
+    "itemId": "char:706b",
+    "pinyin": {
+      "numeric": "huo3",
+      "marked": "huǒ",
+      "plain": "huo",
+      "search": [
+        "huo3",
+        "huǒ",
+        "huo"
+      ],
+      "syllables": [
+        "huo3"
+      ]
+    },
+    "senses": [
+      "surname Huo",
+      "fire",
+      "urgent",
+      "ammunition",
+      "fiery or flaming",
+      "internal heat (Chinese medicine)",
+      "hot (popular)",
+      "classifier for military units (old)",
+      "Kangxi radical 86"
+    ],
+    "traditionalForms": [
+      "火"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:68997"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:68998"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6797:lin2",
+    "itemId": "char:6797",
+    "pinyin": {
+      "numeric": "lin2",
+      "marked": "lín",
+      "plain": "lin",
+      "search": [
+        "lin2",
+        "lín",
+        "lin"
+      ],
+      "syllables": [
+        "lin2"
+      ]
+    },
+    "senses": [
+      "surname Lin",
+      "Japanese surname Hayashi",
+      "(bound form) woods; forest",
+      "(bound form) circle(s) (i.e. specific group of people)",
+      "(bound form) a collection (of similar things)"
+    ],
+    "traditionalForms": [
+      "林"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:56740"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:56741"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:7136:ran2",
+    "itemId": "char:7136",
+    "pinyin": {
+      "numeric": "ran2",
+      "marked": "rán",
+      "plain": "ran",
+      "search": [
+        "ran2",
+        "rán",
+        "ran"
+      ],
+      "syllables": [
+        "ran2"
+      ]
+    },
+    "senses": [
+      "correct",
+      "right",
+      "so",
+      "thus",
+      "like this",
+      "-ly"
+    ],
+    "traditionalForms": [
+      "然"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:70303"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:660e:ming2",
+    "itemId": "char:660e",
+    "pinyin": {
+      "numeric": "ming2",
+      "marked": "míng",
+      "plain": "ming",
+      "search": [
+        "ming2",
+        "míng",
+        "ming"
+      ],
+      "syllables": [
+        "ming2"
+      ]
+    },
+    "senses": [
+      "Ming Dynasty (1368–1644)",
+      "surname Ming",
+      "Ming (c. 2000 BC), fourth of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God",
+      "bright",
+      "opposite: dark 暗[an4]",
+      "(of meaning) clear",
+      "to understand",
+      "next",
+      "public or open",
+      "wise",
+      "generic term for a sacrifice to the gods"
+    ],
+    "traditionalForms": [
+      "明"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52988"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52989"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6717:lang3",
+    "itemId": "char:6717",
+    "pinyin": {
+      "numeric": "lang3",
+      "marked": "lǎng",
+      "plain": "lang",
+      "search": [
+        "lang3",
+        "lǎng",
+        "lang"
+      ],
+      "syllables": [
+        "lang3"
+      ]
+    },
+    "senses": [
+      "clear",
+      "bright"
+    ],
+    "traditionalForms": [
+      "朗"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:55356"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:6e05:qing1",
+    "itemId": "char:6e05",
+    "pinyin": {
+      "numeric": "qing1",
+      "marked": "qīng",
+      "plain": "qing",
+      "search": [
+        "qing1",
+        "qīng",
+        "qing"
+      ],
+      "syllables": [
+        "qing1"
+      ]
+    },
+    "senses": [
+      "Qing (Wade-Giles: Ch'ing) dynasty of China (1644–1911)",
+      "surname Qing",
+      "(of water etc) clear; clean",
+      "quiet; still",
+      "pure; uncorrupted",
+      "clear; distinct",
+      "to clear; to settle (accounts)"
+    ],
+    "traditionalForms": [
+      "清"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:66483"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:66484"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:79be:he2",
+    "itemId": "char:79be",
+    "pinyin": {
+      "numeric": "he2",
+      "marked": "hé",
+      "plain": "he",
+      "search": [
+        "he2",
+        "hé",
+        "he"
+      ],
+      "syllables": [
+        "he2"
+      ]
+    },
+    "senses": [
+      "(bound form) grain plant; cereal crop"
+    ],
+    "traditionalForms": [
+      "禾"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:81153"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:4e2d:zhong1",
+    "itemId": "char:4e2d",
+    "pinyin": {
+      "numeric": "zhong1",
+      "marked": "zhōng",
+      "plain": "zhong",
+      "search": [
+        "zhong1",
+        "zhōng",
+        "zhong"
+      ],
+      "syllables": [
+        "zhong1"
+      ]
+    },
+    "senses": [
+      "(bound form) China; Chinese",
+      "surname Zhong",
+      "within; among; in",
+      "middle; center",
+      "while (doing sth); during",
+      "(dialect) OK; all right"
+    ],
+    "traditionalForms": [
+      "中"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:3261"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:3262"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:4e2d:zhong4",
+    "itemId": "char:4e2d",
+    "pinyin": {
+      "numeric": "zhong4",
+      "marked": "zhòng",
+      "plain": "zhong",
+      "search": [
+        "zhong4",
+        "zhòng",
+        "zhong"
+      ],
+      "syllables": [
+        "zhong4"
+      ]
+    },
+    "senses": [
+      "to hit (a target)",
+      "to be struck by (a bullet, illness etc)",
+      "to win (a prize or lottery)"
+    ],
+    "traditionalForms": [
+      "中"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:3263"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:79cb:qiu1",
+    "itemId": "char:79cb",
+    "pinyin": {
+      "numeric": "qiu1",
+      "marked": "qiū",
+      "plain": "qiu",
+      "search": [
+        "qiu1",
+        "qiū",
+        "qiu"
+      ],
+      "syllables": [
+        "qiu1"
+      ]
+    },
+    "senses": [
+      "surname Qiu",
+      "autumn",
+      "fall",
+      "harvest time",
+      "old variant of 秋[qiu1]",
+      "used in 鞦韆|秋千[qiu1 qian1]"
+    ],
+    "traditionalForms": [
+      "秋",
+      "秌",
+      "鞦"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:81292"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:81293"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:81350"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:118365"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:997c:bing3",
+    "itemId": "char:997c",
+    "pinyin": {
+      "numeric": "bing3",
+      "marked": "bǐng",
+      "plain": "bing",
+      "search": [
+        "bing3",
+        "bǐng",
+        "bing"
+      ],
+      "syllables": [
+        "bing3"
+      ]
+    },
+    "senses": [
+      "round flat cake",
+      "cookie",
+      "cake",
+      "pastry",
+      "CL:張|张[zhang1]"
+    ],
+    "traditionalForms": [
+      "餅"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:120110"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:56e2:tuan2",
+    "itemId": "char:56e2",
+    "pinyin": {
+      "numeric": "tuan2",
+      "marked": "tuán",
+      "plain": "tuan",
+      "search": [
+        "tuan2",
+        "tuán",
+        "tuan"
+      ],
+      "syllables": [
+        "tuan2"
+      ]
+    },
+    "senses": [
+      "round",
+      "lump",
+      "ball",
+      "to roll into a ball",
+      "to gather",
+      "regiment",
+      "group",
+      "society",
+      "classifier for a lump or a soft mass: wad (of paper), ball (of wool), cloud (of smoke)",
+      "dumpling"
+    ],
+    "traditionalForms": [
+      "團",
+      "糰"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:24763"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:84504"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:5706:yuan2",
+    "itemId": "char:5706",
+    "pinyin": {
+      "numeric": "yuan2",
+      "marked": "yuán",
+      "plain": "yuan",
+      "search": [
+        "yuan2",
+        "yuán",
+        "yuan"
+      ],
+      "syllables": [
+        "yuan2"
+      ]
+    },
+    "senses": [
+      "circle",
+      "round",
+      "circular",
+      "spherical",
+      "(of the moon) full",
+      "unit of Chinese currency (yuan)",
+      "tactful",
+      "to make consistent and whole (the narrative of a dream or a lie)"
+    ],
+    "traditionalForms": [
+      "圓"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:24620"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:8336:cha2",
+    "itemId": "char:8336",
+    "pinyin": {
+      "numeric": "cha2",
+      "marked": "chá",
+      "plain": "cha",
+      "search": [
+        "cha2",
+        "chá",
+        "cha"
+      ],
+      "syllables": [
+        "cha2"
+      ]
+    },
+    "senses": [
+      "tea",
+      "tea plant",
+      "CL:杯[bei1],壺|壶[hu2]"
+    ],
+    "traditionalForms": [
+      "茶"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:94049"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:char:996d:fan4",
+    "itemId": "char:996d",
+    "pinyin": {
+      "numeric": "fan4",
+      "marked": "fàn",
+      "plain": "fan",
+      "search": [
+        "fan4",
+        "fàn",
+        "fan"
+      ],
+      "syllables": [
+        "fan4"
+      ]
+    },
+    "senses": [
+      "cooked rice",
+      "CL:碗[wan3]",
+      "meal",
+      "CL:頓|顿[dun4]",
+      "(loanword) fan",
+      "devotee"
+    ],
+    "traditionalForms": [
+      "飯"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:119985"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:4f7f-7528:shi3-yong4",
+    "itemId": "word:4f7f-7528",
+    "pinyin": {
+      "numeric": "shi3 yong4",
+      "marked": "shǐ yòng",
+      "plain": "shi yong",
+      "search": [
+        "shi3 yong4",
+        "shǐ yòng",
+        "shi yong"
+      ],
+      "syllables": [
+        "shi3",
+        "yong4"
+      ]
+    },
+    "senses": [
+      "to use",
+      "to employ",
+      "to apply",
+      "to make use of"
+    ],
+    "traditionalForms": [
+      "使用"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:7644"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:529e-6cd5:ban4-fa3",
+    "itemId": "word:529e-6cd5",
+    "pinyin": {
+      "numeric": "ban4 fa3",
+      "marked": "bàn fǎ",
+      "plain": "ban fa",
+      "search": [
+        "ban4 fa3",
+        "bàn fǎ",
+        "ban fa"
+      ],
+      "syllables": [
+        "ban4",
+        "fa3"
+      ]
+    },
+    "senses": [
+      "way of handling sth; means; measure; (practical) solution to a problem",
+      "CL:條|条[tiao2]"
+    ],
+    "traditionalForms": [
+      "辦法"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:106912"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:65b9-6cd5:fang1-fa3",
+    "itemId": "word:65b9-6cd5",
+    "pinyin": {
+      "numeric": "fang1 fa3",
+      "marked": "fāng fǎ",
+      "plain": "fang fa",
+      "search": [
+        "fang1 fa3",
+        "fāng fǎ",
+        "fang fa"
+      ],
+      "syllables": [
+        "fang1",
+        "fa3"
+      ]
+    },
+    "senses": [
+      "method; way; technique; procedure"
+    ],
+    "traditionalForms": [
+      "方法"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52305"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8bf7-5750:qing3-zuo4",
+    "itemId": "word:8bf7-5750",
+    "pinyin": {
+      "numeric": "qing3 zuo4",
+      "marked": "qǐng zuò",
+      "plain": "qing zuo",
+      "search": [
+        "qing3 zuo4",
+        "qǐng zuò",
+        "qing zuo"
+      ],
+      "syllables": [
+        "qing3",
+        "zuo4"
+      ]
+    },
+    "senses": [
+      "please, have a seat"
+    ],
+    "traditionalForms": [
+      "請坐"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:101802"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:521a-624d:gang1-cai2",
+    "itemId": "word:521a-624d",
+    "pinyin": {
+      "numeric": "gang1 cai2",
+      "marked": "gāng cái",
+      "plain": "gang cai",
+      "search": [
+        "gang1 cai2",
+        "gāng cái",
+        "gang cai"
+      ],
+      "syllables": [
+        "gang1",
+        "cai2"
+      ]
+    },
+    "senses": [
+      "just now",
+      "a moment ago",
+      "just now (variant of 剛才|刚才[gang1 cai2])"
+    ],
+    "traditionalForms": [
+      "剛才",
+      "剛纔"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:14656"
+      },
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:14671"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:7761-89c9:shui4-jiao4",
+    "itemId": "word:7761-89c9",
+    "pinyin": {
+      "numeric": "shui4 jiao4",
+      "marked": "shuì jiào",
+      "plain": "shui jiao",
+      "search": [
+        "shui4 jiao4",
+        "shuì jiào",
+        "shui jiao"
+      ],
+      "syllables": [
+        "shui4",
+        "jiao4"
+      ]
+    },
+    "senses": [
+      "to go to bed",
+      "to sleep"
+    ],
+    "traditionalForms": [
+      "睡覺"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78784"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:65c1-8fb9:pang2-bian1",
+    "itemId": "word:65c1-8fb9",
+    "pinyin": {
+      "numeric": "pang2 bian1",
+      "marked": "páng biān",
+      "plain": "pang bian",
+      "search": [
+        "pang2 bian1",
+        "páng biān",
+        "pang bian"
+      ],
+      "syllables": [
+        "pang2",
+        "bian1"
+      ]
+    },
+    "senses": [
+      "side; adjacent place"
+    ],
+    "traditionalForms": [
+      "旁邊"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52423"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8116-5b50:bo2-zi5",
+    "itemId": "word:8116-5b50",
+    "pinyin": {
+      "numeric": "bo2 zi5",
+      "marked": "bó zi",
+      "plain": "bo zi",
+      "search": [
+        "bo2 zi5",
+        "bó zi",
+        "bo zi"
+      ],
+      "syllables": [
+        "bo2",
+        "zi5"
+      ]
+    },
+    "senses": [
+      "neck",
+      "CL:個|个[ge4]"
+    ],
+    "traditionalForms": [
+      "脖子"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:90732"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8d1d-58f3:bei4-ke2",
+    "itemId": "word:8d1d-58f3",
+    "pinyin": {
+      "numeric": "bei4 ke2",
+      "marked": "bèi ké",
+      "plain": "bei ke",
+      "search": [
+        "bei4 ke2",
+        "bèi ké",
+        "bei ke"
+      ],
+      "syllables": [
+        "bei4",
+        "ke2"
+      ]
+    },
+    "senses": [
+      "shell (of a mollusk)"
+    ],
+    "traditionalForms": [
+      "貝殼"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:103128"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5b89-5168:an1-quan2",
+    "itemId": "word:5b89-5168",
+    "pinyin": {
+      "numeric": "an1 quan2",
+      "marked": "ān quán",
+      "plain": "an quan",
+      "search": [
+        "an1 quan2",
+        "ān quán",
+        "an quan"
+      ],
+      "syllables": [
+        "an1",
+        "quan2"
+      ]
+    },
+    "senses": [
+      "safe; secure",
+      "safety; security"
+    ],
+    "traditionalForms": [
+      "安全"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:31958"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:4e8b-60c5:shi4-qing5",
+    "itemId": "word:4e8b-60c5",
+    "pinyin": {
+      "numeric": "shi4 qing5",
+      "marked": "shì qing",
+      "plain": "shi qing",
+      "search": [
+        "shi4 qing5",
+        "shì qing",
+        "shi qing"
+      ],
+      "syllables": [
+        "shi4",
+        "qing5"
+      ]
+    },
+    "senses": [
+      "affair; matter; thing; business",
+      "CL:件[jian4],樁|桩[zhuang1]"
+    ],
+    "traditionalForms": [
+      "事情"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:4680"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:751f-547d:sheng1-ming4",
+    "itemId": "word:751f-547d",
+    "pinyin": {
+      "numeric": "sheng1 ming4",
+      "marked": "shēng mìng",
+      "plain": "sheng ming",
+      "search": [
+        "sheng1 ming4",
+        "shēng mìng",
+        "sheng ming"
+      ],
+      "syllables": [
+        "sheng1",
+        "ming4"
+      ]
+    },
+    "senses": [
+      "life (as the characteristic of living beings)",
+      "living being; creature (CL:條|条[tiao2])"
+    ],
+    "traditionalForms": [
+      "生命"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:74411"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:773c-775b:yan3-jing5",
+    "itemId": "word:773c-775b",
+    "pinyin": {
+      "numeric": "yan3 jing5",
+      "marked": "yǎn jing",
+      "plain": "yan jing",
+      "search": [
+        "yan3 jing5",
+        "yǎn jing",
+        "yan jing"
+      ],
+      "syllables": [
+        "yan3",
+        "jing5"
+      ]
+    },
+    "senses": [
+      "eye",
+      "CL:隻|只[zhi1],雙|双[shuang1]"
+    ],
+    "traditionalForms": [
+      "眼睛"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78617"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5634-5df4:zui3-ba5",
+    "itemId": "word:5634-5df4",
+    "pinyin": {
+      "numeric": "zui3 ba5",
+      "marked": "zuǐ ba",
+      "plain": "zui ba",
+      "search": [
+        "zui3 ba5",
+        "zuǐ ba",
+        "zui ba"
+      ],
+      "syllables": [
+        "zui3",
+        "ba5"
+      ]
+    },
+    "senses": [
+      "mouth (CL:張|张[zhang1])",
+      "slap in the face"
+    ],
+    "traditionalForms": [
+      "嘴巴"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:23293"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:809a-5b50:du4-zi5",
+    "itemId": "word:809a-5b50",
+    "pinyin": {
+      "numeric": "du4 zi5",
+      "marked": "dù zi",
+      "plain": "du zi",
+      "search": [
+        "du4 zi5",
+        "dù zi",
+        "du zi"
+      ],
+      "syllables": [
+        "du4",
+        "zi5"
+      ]
+    },
+    "senses": [
+      "belly",
+      "abdomen",
+      "stomach",
+      "CL:個|个[ge4]"
+    ],
+    "traditionalForms": [
+      "肚子"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:90040"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5bb3-6015:hai4-pa4",
+    "itemId": "word:5bb3-6015",
+    "pinyin": {
+      "numeric": "hai4 pa4",
+      "marked": "hài pà",
+      "plain": "hai pa",
+      "search": [
+        "hai4 pa4",
+        "hài pà",
+        "hai pa"
+      ],
+      "syllables": [
+        "hai4",
+        "pa4"
+      ]
+    },
+    "senses": [
+      "to be afraid; to be scared"
+    ],
+    "traditionalForms": [
+      "害怕"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:32806"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:4fdd-62a4:bao3-hu4",
+    "itemId": "word:4fdd-62a4",
+    "pinyin": {
+      "numeric": "bao3 hu4",
+      "marked": "bǎo hù",
+      "plain": "bao hu",
+      "search": [
+        "bao3 hu4",
+        "bǎo hù",
+        "bao hu"
+      ],
+      "syllables": [
+        "bao3",
+        "hu4"
+      ]
+    },
+    "senses": [
+      "to protect",
+      "to defend",
+      "to safeguard",
+      "protection",
+      "CL:種|种[zhong3]"
+    ],
+    "traditionalForms": [
+      "保護"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:8223"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5bfb-627e:xun2-zhao3",
+    "itemId": "word:5bfb-627e",
+    "pinyin": {
+      "numeric": "xun2 zhao3",
+      "marked": "xún zhǎo",
+      "plain": "xun zhao",
+      "search": [
+        "xun2 zhao3",
+        "xún zhǎo",
+        "xun zhao"
+      ],
+      "syllables": [
+        "xun2",
+        "zhao3"
+      ]
+    },
+    "senses": [
+      "to seek; to look for"
+    ],
+    "traditionalForms": [
+      "尋找"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:34141"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:7687-51a0:huang2-guan1",
+    "itemId": "word:7687-51a0",
+    "pinyin": {
+      "numeric": "huang2 guan1",
+      "marked": "huáng guān",
+      "plain": "huang guan",
+      "search": [
+        "huang2 guan1",
+        "huáng guān",
+        "huang guan"
+      ],
+      "syllables": [
+        "huang2",
+        "guan1"
+      ]
+    },
+    "senses": [
+      "crown (headgear)"
+    ],
+    "traditionalForms": [
+      "皇冠"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:77210"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:88c1-526a:cai2-jian3",
+    "itemId": "word:88c1-526a",
+    "pinyin": {
+      "numeric": "cai2 jian3",
+      "marked": "cái jiǎn",
+      "plain": "cai jian",
+      "search": [
+        "cai2 jian3",
+        "cái jiǎn",
+        "cai jian"
+      ],
+      "syllables": [
+        "cai2",
+        "jian3"
+      ]
+    },
+    "senses": [
+      "to cut out"
+    ],
+    "traditionalForms": [
+      "裁剪"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:98798"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:751f-957f:sheng1-zhang3",
+    "itemId": "word:751f-957f",
+    "pinyin": {
+      "numeric": "sheng1 zhang3",
+      "marked": "shēng zhǎng",
+      "plain": "sheng zhang",
+      "search": [
+        "sheng1 zhang3",
+        "shēng zhǎng",
+        "sheng zhang"
+      ],
+      "syllables": [
+        "sheng1",
+        "zhang3"
+      ]
+    },
+    "senses": [
+      "to grow",
+      "to grow up",
+      "to be brought up"
+    ],
+    "traditionalForms": [
+      "生長"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:74665"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8bed-8a00:yu3-yan2",
+    "itemId": "word:8bed-8a00",
+    "pinyin": {
+      "numeric": "yu3 yan2",
+      "marked": "yǔ yán",
+      "plain": "yu yan",
+      "search": [
+        "yu3 yan2",
+        "yǔ yán",
+        "yu yan"
+      ],
+      "syllables": [
+        "yu3",
+        "yan2"
+      ]
+    },
+    "senses": [
+      "language",
+      "CL:門|门[men2],種|种[zhong3]"
+    ],
+    "traditionalForms": [
+      "語言"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:101399"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:6ca1-6709:mei2-you3",
+    "itemId": "word:6ca1-6709",
+    "pinyin": {
+      "numeric": "mei2 you3",
+      "marked": "méi yǒu",
+      "plain": "mei you",
+      "search": [
+        "mei2 you3",
+        "méi yǒu",
+        "mei you"
+      ],
+      "syllables": [
+        "mei2",
+        "you3"
+      ]
+    },
+    "senses": [
+      "haven't",
+      "hasn't",
+      "doesn't exist",
+      "to not have",
+      "to not be"
+    ],
+    "traditionalForms": [
+      "沒有"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:63294"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5927-817f:da4-tui3",
+    "itemId": "word:5927-817f",
+    "pinyin": {
+      "numeric": "da4 tui3",
+      "marked": "dà tuǐ",
+      "plain": "da tui",
+      "search": [
+        "da4 tui3",
+        "dà tuǐ",
+        "da tui"
+      ],
+      "syllables": [
+        "da4",
+        "tui3"
+      ]
+    },
+    "senses": [
+      "thigh"
+    ],
+    "traditionalForms": [
+      "大腿"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:28389"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5357-65b9:nan2-fang1",
+    "itemId": "word:5357-65b9",
+    "pinyin": {
+      "numeric": "nan2 fang1",
+      "marked": "nán fāng",
+      "plain": "nan fang",
+      "search": [
+        "nan2 fang1",
+        "nán fāng",
+        "nan fang"
+      ],
+      "syllables": [
+        "nan2",
+        "fang1"
+      ]
+    },
+    "senses": [
+      "south; southern direction",
+      "(in China) southern regions, often referring to areas south of the Yangtze River"
+    ],
+    "traditionalForms": [
+      "南方"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:17141"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5317-65b9:bei3-fang1",
+    "itemId": "word:5317-65b9",
+    "pinyin": {
+      "numeric": "bei3 fang1",
+      "marked": "běi fāng",
+      "plain": "bei fang",
+      "search": [
+        "bei3 fang1",
+        "běi fāng",
+        "bei fang"
+      ],
+      "syllables": [
+        "bei3",
+        "fang1"
+      ]
+    },
+    "senses": [
+      "north",
+      "the northern part a country",
+      "China north of the Yellow River"
+    ],
+    "traditionalForms": [
+      "北方"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:16325"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:62cd-624b:pai1-shou3",
+    "itemId": "word:62cd-624b",
+    "pinyin": {
+      "numeric": "pai1 shou3",
+      "marked": "pāi shǒu",
+      "plain": "pai shou",
+      "search": [
+        "pai1 shou3",
+        "pāi shǒu",
+        "pai shou"
+      ],
+      "syllables": [
+        "pai1",
+        "shou3"
+      ]
+    },
+    "senses": [
+      "to clap one's hands"
+    ],
+    "traditionalForms": [
+      "拍手"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:46279"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:505a-4e8b:zuo4-shi4",
+    "itemId": "word:505a-4e8b",
+    "pinyin": {
+      "numeric": "zuo4 shi4",
+      "marked": "zuò shì",
+      "plain": "zuo shi",
+      "search": [
+        "zuo4 shi4",
+        "zuò shì",
+        "zuo shi"
+      ],
+      "syllables": [
+        "zuo4",
+        "shi4"
+      ]
+    },
+    "senses": [
+      "to work",
+      "to handle matters",
+      "to have a job"
+    ],
+    "traditionalForms": [
+      "做事"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:9178"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:53d1-5446:fa1-dai1",
+    "itemId": "word:53d1-5446",
+    "pinyin": {
+      "numeric": "fa1 dai1",
+      "marked": "fā dāi",
+      "plain": "fa dai",
+      "search": [
+        "fa1 dai1",
+        "fā dāi",
+        "fa dai"
+      ],
+      "syllables": [
+        "fa1",
+        "dai1"
+      ]
+    },
+    "senses": [
+      "to stare blankly",
+      "to be stunned",
+      "to be lost in thought"
+    ],
+    "traditionalForms": [
+      "發呆"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:76323"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5f53-5fc3:dang1-xin1",
+    "itemId": "word:5f53-5fc3",
+    "pinyin": {
+      "numeric": "dang1 xin1",
+      "marked": "dāng xīn",
+      "plain": "dang xin",
+      "search": [
+        "dang1 xin1",
+        "dāng xīn",
+        "dang xin"
+      ],
+      "syllables": [
+        "dang1",
+        "xin1"
+      ]
+    },
+    "senses": [
+      "to take care",
+      "to look out"
+    ],
+    "traditionalForms": [
+      "當心"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:75553"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:53d4-53d4:shu1-shu5",
+    "itemId": "word:53d4-53d4",
+    "pinyin": {
+      "numeric": "shu1 shu5",
+      "marked": "shū shu",
+      "plain": "shu shu",
+      "search": [
+        "shu1 shu5",
+        "shū shu",
+        "shu shu"
+      ],
+      "syllables": [
+        "shu1",
+        "shu5"
+      ]
+    },
+    "senses": [
+      "father's younger brother; paternal uncle",
+      "form of address used by children for a male one generation older"
+    ],
+    "traditionalForms": [
+      "叔叔"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:18538"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8bf4-8bdd:shuo1-hua4",
+    "itemId": "word:8bf4-8bdd",
+    "pinyin": {
+      "numeric": "shuo1 hua4",
+      "marked": "shuō huà",
+      "plain": "shuo hua",
+      "search": [
+        "shuo1 hua4",
+        "shuō huà",
+        "shuo hua"
+      ],
+      "syllables": [
+        "shuo1",
+        "hua4"
+      ]
+    },
+    "senses": [
+      "to speak",
+      "to say",
+      "to talk",
+      "to gossip",
+      "to tell stories",
+      "talk",
+      "word"
+    ],
+    "traditionalForms": [
+      "說話"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:101563"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:76f8-540c:xiang1-tong2",
+    "itemId": "word:76f8-540c",
+    "pinyin": {
+      "numeric": "xiang1 tong2",
+      "marked": "xiāng tóng",
+      "plain": "xiang tong",
+      "search": [
+        "xiang1 tong2",
+        "xiāng tóng",
+        "xiang tong"
+      ],
+      "syllables": [
+        "xiang1",
+        "tong2"
+      ]
+    },
+    "senses": [
+      "identical; same"
+    ],
+    "traditionalForms": [
+      "相同"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:78047"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8fdb-95e8:jin4-men2",
+    "itemId": "word:8fdb-95e8",
+    "pinyin": {
+      "numeric": "jin4 men2",
+      "marked": "jìn mén",
+      "plain": "jin men",
+      "search": [
+        "jin4 men2",
+        "jìn mén",
+        "jin men"
+      ],
+      "syllables": [
+        "jin4",
+        "men2"
+      ]
+    },
+    "senses": [
+      "to enter a door",
+      "to go in",
+      "to learn the basics of a subject",
+      "to join one's husband's household upon marriage"
+    ],
+    "traditionalForms": [
+      "進門"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:108396"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:533b-751f:yi1-sheng1",
+    "itemId": "word:533b-751f",
+    "pinyin": {
+      "numeric": "yi1 sheng1",
+      "marked": "yī shēng",
+      "plain": "yi sheng",
+      "search": [
+        "yi1 sheng1",
+        "yī shēng",
+        "yi sheng"
+      ],
+      "syllables": [
+        "yi1",
+        "sheng1"
+      ]
+    },
+    "senses": [
+      "doctor; medical practitioner"
+    ],
+    "traditionalForms": [
+      "醫生"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:110707"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:94b1-5e01:qian2-bi4",
+    "itemId": "word:94b1-5e01",
+    "pinyin": {
+      "numeric": "qian2 bi4",
+      "marked": "qián bì",
+      "plain": "qian bi",
+      "search": [
+        "qian2 bi4",
+        "qián bì",
+        "qian bi"
+      ],
+      "syllables": [
+        "qian2",
+        "bi4"
+      ]
+    },
+    "senses": [
+      "money (esp. coins)"
+    ],
+    "traditionalForms": [
+      "錢幣"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:112300"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:4e3b-4eba:zhu3-ren2",
+    "itemId": "word:4e3b-4eba",
+    "pinyin": {
+      "numeric": "zhu3 ren2",
+      "marked": "zhǔ rén",
+      "plain": "zhu ren",
+      "search": [
+        "zhu3 ren2",
+        "zhǔ rén",
+        "zhu ren"
+      ],
+      "syllables": [
+        "zhu3",
+        "ren2"
+      ]
+    },
+    "senses": [
+      "owner",
+      "host",
+      "master"
+    ],
+    "traditionalForms": [
+      "主人"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:3927"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:56de-7b54:hui2-da2",
+    "itemId": "word:56de-7b54",
+    "pinyin": {
+      "numeric": "hui2 da2",
+      "marked": "huí dá",
+      "plain": "hui da",
+      "search": [
+        "hui2 da2",
+        "huí dá",
+        "hui da"
+      ],
+      "syllables": [
+        "hui2",
+        "da2"
+      ]
+    },
+    "senses": [
+      "to reply; to answer",
+      "reply; answer"
+    ],
+    "traditionalForms": [
+      "回答"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:24005"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:59d3-540d:xing4-ming2",
+    "itemId": "word:59d3-540d",
+    "pinyin": {
+      "numeric": "xing4 ming2",
+      "marked": "xìng míng",
+      "plain": "xing ming",
+      "search": [
+        "xing4 ming2",
+        "xìng míng",
+        "xing ming"
+      ],
+      "syllables": [
+        "xing4",
+        "ming2"
+      ]
+    },
+    "senses": [
+      "surname and given name; full name"
+    ],
+    "traditionalForms": [
+      "姓名"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:30550"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5973-5b69:nv3-hai2",
+    "itemId": "word:5973-5b69",
+    "pinyin": {
+      "numeric": "nü3 hai2",
+      "marked": "nǚ hái",
+      "plain": "nü hai",
+      "search": [
+        "nü3 hai2",
+        "nǚ hái",
+        "nü hai",
+        "nv hai",
+        "nu: hai"
+      ],
+      "syllables": [
+        "nü3",
+        "hai2"
+      ]
+    },
+    "senses": [
+      "girl; lass"
+    ],
+    "traditionalForms": [
+      "女孩"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:29918"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5b69-5b50:hai2-zi5",
+    "itemId": "word:5b69-5b50",
+    "pinyin": {
+      "numeric": "hai2 zi5",
+      "marked": "hái zi",
+      "plain": "hai zi",
+      "search": [
+        "hai2 zi5",
+        "hái zi",
+        "hai zi"
+      ],
+      "syllables": [
+        "hai2",
+        "zi5"
+      ]
+    },
+    "senses": [
+      "child"
+    ],
+    "traditionalForms": [
+      "孩子"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:31662"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:811a-6b65:jiao3-bu4",
+    "itemId": "word:811a-6b65",
+    "pinyin": {
+      "numeric": "jiao3 bu4",
+      "marked": "jiǎo bù",
+      "plain": "jiao bu",
+      "search": [
+        "jiao3 bu4",
+        "jiǎo bù",
+        "jiao bu"
+      ],
+      "syllables": [
+        "jiao3",
+        "bu4"
+      ]
+    },
+    "senses": [
+      "footstep",
+      "step"
+    ],
+    "traditionalForms": [
+      "腳步"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:91152"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8eab-4f53:shen1-ti3",
+    "itemId": "word:8eab-4f53",
+    "pinyin": {
+      "numeric": "shen1 ti3",
+      "marked": "shēn tǐ",
+      "plain": "shen ti",
+      "search": [
+        "shen1 ti3",
+        "shēn tǐ",
+        "shen ti"
+      ],
+      "syllables": [
+        "shen1",
+        "ti3"
+      ]
+    },
+    "senses": [
+      "the body",
+      "one's health"
+    ],
+    "traditionalForms": [
+      "身體"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:105811"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:95ee-597d:wen4-hao3",
+    "itemId": "word:95ee-597d",
+    "pinyin": {
+      "numeric": "wen4 hao3",
+      "marked": "wèn hǎo",
+      "plain": "wen hao",
+      "search": [
+        "wen4 hao3",
+        "wèn hǎo",
+        "wen hao"
+      ],
+      "syllables": [
+        "wen4",
+        "hao3"
+      ]
+    },
+    "senses": [
+      "to say hello to",
+      "to send one's regards to"
+    ],
+    "traditionalForms": [
+      "問好"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:22295"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:62db-624b:zhao1-shou3",
+    "itemId": "word:62db-624b",
+    "pinyin": {
+      "numeric": "zhao1 shou3",
+      "marked": "zhāo shǒu",
+      "plain": "zhao shou",
+      "search": [
+        "zhao1 shou3",
+        "zhāo shǒu",
+        "zhao shou"
+      ],
+      "syllables": [
+        "zhao1",
+        "shou3"
+      ]
+    },
+    "senses": [
+      "to wave",
+      "to beckon"
+    ],
+    "traditionalForms": [
+      "招手"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:46553"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:60ca-8bb6:jing1-ya4",
+    "itemId": "word:60ca-8bb6",
+    "pinyin": {
+      "numeric": "jing1 ya4",
+      "marked": "jīng yà",
+      "plain": "jing ya",
+      "search": [
+        "jing1 ya4",
+        "jīng yà",
+        "jing ya"
+      ],
+      "syllables": [
+        "jing1",
+        "ya4"
+      ]
+    },
+    "senses": [
+      "amazed",
+      "astonished",
+      "to surprise",
+      "amazing",
+      "astonishment",
+      "awe"
+    ],
+    "traditionalForms": [
+      "驚訝"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:121471"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:4e00-904d:yi1-bian4",
+    "itemId": "word:4e00-904d",
+    "pinyin": {
+      "numeric": "yi1 bian4",
+      "marked": "yī biàn",
+      "plain": "yi bian",
+      "search": [
+        "yi1 bian4",
+        "yī biàn",
+        "yi bian"
+      ],
+      "syllables": [
+        "yi1",
+        "bian4"
+      ]
+    },
+    "senses": [
+      "one time (all the way through)",
+      "once through"
+    ],
+    "traditionalForms": [
+      "一遍"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:963"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8349-539f:cao3-yuan2",
+    "itemId": "word:8349-539f",
+    "pinyin": {
+      "numeric": "cao3 yuan2",
+      "marked": "cǎo yuán",
+      "plain": "cao yuan",
+      "search": [
+        "cao3 yuan2",
+        "cǎo yuán",
+        "cao yuan"
+      ],
+      "syllables": [
+        "cao3",
+        "yuan2"
+      ]
+    },
+    "senses": [
+      "grassland",
+      "prairie",
+      "CL:片[pian4]"
+    ],
+    "traditionalForms": [
+      "草原"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:94142"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5c71-5ddd:shan1-chuan1",
+    "itemId": "word:5c71-5ddd",
+    "pinyin": {
+      "numeric": "shan1 chuan1",
+      "marked": "shān chuān",
+      "plain": "shan chuan",
+      "search": [
+        "shan1 chuan1",
+        "shān chuān",
+        "shan chuan"
+      ],
+      "syllables": [
+        "shan1",
+        "chuan1"
+      ]
+    },
+    "senses": [
+      "mountains and rivers",
+      "landscape"
+    ],
+    "traditionalForms": [
+      "山川"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:35699"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:89c4-5219:gui1-ze2",
+    "itemId": "word:89c4-5219",
+    "pinyin": {
+      "numeric": "gui1 ze2",
+      "marked": "guī zé",
+      "plain": "gui ze",
+      "search": [
+        "gui1 ze2",
+        "guī zé",
+        "gui ze"
+      ],
+      "syllables": [
+        "gui1",
+        "ze2"
+      ]
+    },
+    "senses": [
+      "rule; regulation",
+      "regular; orderly; fixed"
+    ],
+    "traditionalForms": [
+      "規則"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:99909"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8695-5b9d-5b9d:can2-bao3-bao3",
+    "itemId": "word:8695-5b9d-5b9d",
+    "pinyin": {
+      "numeric": "can2 bao3 bao3",
+      "marked": "cán bǎo bǎo",
+      "plain": "can bao bao",
+      "search": [
+        "can2 bao3 bao3",
+        "cán bǎo bǎo",
+        "can bao bao"
+      ],
+      "syllables": [
+        "can2",
+        "bao3",
+        "bao3"
+      ]
+    },
+    "senses": [
+      "silkworm"
+    ],
+    "traditionalForms": [
+      "蠶寶寶"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:97940"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:63d2-82b1:cha1-hua1",
+    "itemId": "word:63d2-82b1",
+    "pinyin": {
+      "numeric": "cha1 hua1",
+      "marked": "chā huā",
+      "plain": "cha hua",
+      "search": [
+        "cha1 hua1",
+        "chā huā",
+        "cha hua"
+      ],
+      "syllables": [
+        "cha1",
+        "hua1"
+      ]
+    },
+    "senses": [
+      "flower arranging",
+      "ikebana"
+    ],
+    "traditionalForms": [
+      "插花"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:48397"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:56db-5468:si4-zhou1",
+    "itemId": "word:56db-5468",
+    "pinyin": {
+      "numeric": "si4 zhou1",
+      "marked": "sì zhōu",
+      "plain": "si zhou",
+      "search": [
+        "si4 zhou1",
+        "sì zhōu",
+        "si zhou"
+      ],
+      "syllables": [
+        "si4",
+        "zhou1"
+      ]
+    },
+    "senses": [
+      "all around"
+    ],
+    "traditionalForms": [
+      "四周"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:23754"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:624b-81c2:shou3-bi4",
+    "itemId": "word:624b-81c2",
+    "pinyin": {
+      "numeric": "shou3 bi4",
+      "marked": "shǒu bì",
+      "plain": "shou bi",
+      "search": [
+        "shou3 bi4",
+        "shǒu bì",
+        "shou bi"
+      ],
+      "syllables": [
+        "shou3",
+        "bi4"
+      ]
+    },
+    "senses": [
+      "arm (from shoulder to wrist); (fig.) assistant; helper"
+    ],
+    "traditionalForms": [
+      "手臂"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:44517"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:7ed9-4e88:ji3-yu3",
+    "itemId": "word:7ed9-4e88",
+    "pinyin": {
+      "numeric": "ji3 yu3",
+      "marked": "jǐ yǔ",
+      "plain": "ji yu",
+      "search": [
+        "ji3 yu3",
+        "jǐ yǔ",
+        "ji yu"
+      ],
+      "syllables": [
+        "ji3",
+        "yu3"
+      ]
+    },
+    "senses": [
+      "(literary) to give; to accord; to render"
+    ],
+    "traditionalForms": [
+      "給予"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:85863"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5b59-5b50:sun1-zi3",
+    "itemId": "word:5b59-5b50",
+    "pinyin": {
+      "numeric": "sun1 zi3",
+      "marked": "sūn zǐ",
+      "plain": "sun zi",
+      "search": [
+        "sun1 zi3",
+        "sūn zǐ",
+        "sun zi"
+      ],
+      "syllables": [
+        "sun1",
+        "zi3"
+      ]
+    },
+    "senses": [
+      "Sun Tzu, also known as Sun Wu 孫武|孙武[Sun1 Wu3] (c. 500 BC, dates of birth and death uncertain), general, strategist and philosopher of the Spring and Autumn Period (700-475 BC), believed to be the author of the “Art of War” 孫子兵法|孙子兵法[Sun1 zi3 Bing1 fa3], one of the Seven Military Classics of ancient China 武經七書|武经七书[Wu3 jing1 Qi1 shu1]"
+    ],
+    "traditionalForms": [
+      "孫子"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:31680"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5b59-5b50:sun1-zi5",
+    "itemId": "word:5b59-5b50",
+    "pinyin": {
+      "numeric": "sun1 zi5",
+      "marked": "sūn zi",
+      "plain": "sun zi",
+      "search": [
+        "sun1 zi5",
+        "sūn zi",
+        "sun zi"
+      ],
+      "syllables": [
+        "sun1",
+        "zi5"
+      ]
+    },
+    "senses": [
+      "grandson",
+      "son's son"
+    ],
+    "traditionalForms": [
+      "孫子"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:31681"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:519b-4eba:jun1-ren2",
+    "itemId": "word:519b-4eba",
+    "pinyin": {
+      "numeric": "jun1 ren2",
+      "marked": "jūn rén",
+      "plain": "jun ren",
+      "search": [
+        "jun1 ren2",
+        "jūn rén",
+        "jun ren"
+      ],
+      "syllables": [
+        "jun1",
+        "ren2"
+      ]
+    },
+    "senses": [
+      "serviceman",
+      "soldier",
+      "military personnel"
+    ],
+    "traditionalForms": [
+      "軍人"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:106014"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:590f-5929:xia4-tian1",
+    "itemId": "word:590f-5929",
+    "pinyin": {
+      "numeric": "xia4 tian1",
+      "marked": "xià tiān",
+      "plain": "xia tian",
+      "search": [
+        "xia4 tian1",
+        "xià tiān",
+        "xia tian"
+      ],
+      "syllables": [
+        "xia4",
+        "tian1"
+      ]
+    },
+    "senses": [
+      "summer",
+      "CL:個|个[ge4]"
+    ],
+    "traditionalForms": [
+      "夏天"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:27018"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:897f-8fb9:xi1-bian1",
+    "itemId": "word:897f-8fb9",
+    "pinyin": {
+      "numeric": "xi1 bian1",
+      "marked": "xī biān",
+      "plain": "xi bian",
+      "search": [
+        "xi1 bian1",
+        "xī biān",
+        "xi bian"
+      ],
+      "syllables": [
+        "xi1",
+        "bian1"
+      ]
+    },
+    "senses": [
+      "west",
+      "west side",
+      "western part",
+      "to the west of"
+    ],
+    "traditionalForms": [
+      "西邊"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:99684"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:6b22-4e50:huan1-le4",
+    "itemId": "word:6b22-4e50",
+    "pinyin": {
+      "numeric": "huan1 le4",
+      "marked": "huān lè",
+      "plain": "huan le",
+      "search": [
+        "huan1 le4",
+        "huān lè",
+        "huan le"
+      ],
+      "syllables": [
+        "huan1",
+        "le4"
+      ]
+    },
+    "senses": [
+      "gaiety",
+      "gladness",
+      "glee",
+      "merriment",
+      "pleasure",
+      "happy",
+      "joyous",
+      "gay"
+    ],
+    "traditionalForms": [
+      "歡樂"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:60404"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:6b63-597d:zheng4-hao3",
+    "itemId": "word:6b63-597d",
+    "pinyin": {
+      "numeric": "zheng4 hao3",
+      "marked": "zhèng hǎo",
+      "plain": "zheng hao",
+      "search": [
+        "zheng4 hao3",
+        "zhèng hǎo",
+        "zheng hao"
+      ],
+      "syllables": [
+        "zheng4",
+        "hao3"
+      ]
+    },
+    "senses": [
+      "just (in time)",
+      "just right",
+      "just enough",
+      "to happen to",
+      "to chance to",
+      "by chance",
+      "it just so happens that"
+    ],
+    "traditionalForms": [
+      "正好"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:60489"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:8377-82b1:he2-hua1",
+    "itemId": "word:8377-82b1",
+    "pinyin": {
+      "numeric": "he2 hua1",
+      "marked": "hé huā",
+      "plain": "he hua",
+      "search": [
+        "he2 hua1",
+        "hé huā",
+        "he hua"
+      ],
+      "syllables": [
+        "he2",
+        "hua1"
+      ]
+    },
+    "senses": [
+      "lotus"
+    ],
+    "traditionalForms": [
+      "荷花"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:94312"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:5c16-5c16:jian1-jian1",
+    "itemId": "word:5c16-5c16",
+    "pinyin": {
+      "numeric": "jian1 jian1",
+      "marked": "jiān jiān",
+      "plain": "jian jian",
+      "search": [
+        "jian1 jian1",
+        "jiān jiān",
+        "jian jian"
+      ],
+      "syllables": [
+        "jian1",
+        "jian1"
+      ]
+    },
+    "senses": [
+      "sharp",
+      "pointed"
+    ],
+    "traditionalForms": [
+      "尖尖"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:34984"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:65e9-4e0a:zao3-shang5",
+    "itemId": "word:65e9-4e0a",
+    "pinyin": {
+      "numeric": "zao3 shang5",
+      "marked": "zǎo shang",
+      "plain": "zao shang",
+      "search": [
+        "zao3 shang5",
+        "zǎo shang",
+        "zao shang"
+      ],
+      "syllables": [
+        "zao3",
+        "shang5"
+      ]
+    },
+    "senses": [
+      "early morning",
+      "CL:個|个[ge4]"
+    ],
+    "traditionalForms": [
+      "早上"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52780"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:591c-665a:ye4-wan3",
+    "itemId": "word:591c-665a",
+    "pinyin": {
+      "numeric": "ye4 wan3",
+      "marked": "yè wǎn",
+      "plain": "ye wan",
+      "search": [
+        "ye4 wan3",
+        "yè wǎn",
+        "ye wan"
+      ],
+      "syllables": [
+        "ye4",
+        "wan3"
+      ]
+    },
+    "senses": [
+      "night",
+      "CL:個|个[ge4]"
+    ],
+    "traditionalForms": [
+      "夜晚"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:27590"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:70b9-5fc3:dian3-xin5",
+    "itemId": "word:70b9-5fc3",
+    "pinyin": {
+      "numeric": "dian3 xin5",
+      "marked": "diǎn xin",
+      "plain": "dian xin",
+      "search": [
+        "dian3 xin5",
+        "diǎn xin",
+        "dian xin"
+      ],
+      "syllables": [
+        "dian3",
+        "xin5"
+      ]
+    },
+    "senses": [
+      "light refreshments",
+      "pastry",
+      "dim sum (in Cantonese cooking)",
+      "dessert"
+    ],
+    "traditionalForms": [
+      "點心"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:124603"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:6d77-6d6a:hai3-lang4",
+    "itemId": "word:6d77-6d6a",
+    "pinyin": {
+      "numeric": "hai3 lang4",
+      "marked": "hǎi làng",
+      "plain": "hai lang",
+      "search": [
+        "hai3 lang4",
+        "hǎi làng",
+        "hai lang"
+      ],
+      "syllables": [
+        "hai3",
+        "lang4"
+      ]
+    },
+    "senses": [
+      "sea wave"
+    ],
+    "traditionalForms": [
+      "海浪"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:65484"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:548c-597d:he2-hao3",
+    "itemId": "word:548c-597d",
+    "pinyin": {
+      "numeric": "he2 hao3",
+      "marked": "hé hǎo",
+      "plain": "he hao",
+      "search": [
+        "he2 hao3",
+        "hé hǎo",
+        "he hao"
+      ],
+      "syllables": [
+        "he2",
+        "hao3"
+      ]
+    },
+    "senses": [
+      "to become reconciled; on good terms with each other"
+    ],
+    "traditionalForms": [
+      "和好"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:21238"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:7537-5b69:nan2-hai2",
+    "itemId": "word:7537-5b69",
+    "pinyin": {
+      "numeric": "nan2 hai2",
+      "marked": "nán hái",
+      "plain": "nan hai",
+      "search": [
+        "nan2 hai2",
+        "nán hái",
+        "nan hai"
+      ],
+      "syllables": [
+        "nan2",
+        "hai2"
+      ]
+    },
+    "senses": [
+      "boy"
+    ],
+    "traditionalForms": [
+      "男孩"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:75058"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:65b9-5411:fang1-xiang4",
+    "itemId": "word:65b9-5411",
+    "pinyin": {
+      "numeric": "fang1 xiang4",
+      "marked": "fāng xiàng",
+      "plain": "fang xiang",
+      "search": [
+        "fang1 xiang4",
+        "fāng xiàng",
+        "fang xiang"
+      ],
+      "syllables": [
+        "fang1",
+        "xiang4"
+      ]
+    },
+    "senses": [
+      "direction; orientation"
+    ],
+    "traditionalForms": [
+      "方向"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:52260"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:51e0-4e2a:ji3-ge5",
+    "itemId": "word:51e0-4e2a",
+    "pinyin": {
+      "numeric": "ji3 ge5",
+      "marked": "jǐ ge",
+      "plain": "ji ge",
+      "search": [
+        "ji3 ge5",
+        "jǐ ge",
+        "ji ge"
+      ],
+      "syllables": [
+        "ji3",
+        "ge5"
+      ]
+    },
+    "senses": [
+      "a few",
+      "several",
+      "how many"
+    ],
+    "traditionalForms": [
+      "幾個"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:38230"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:957f-4e45:chang2-jiu3",
+    "itemId": "word:957f-4e45",
+    "pinyin": {
+      "numeric": "chang2 jiu3",
+      "marked": "cháng jiǔ",
+      "plain": "chang jiu",
+      "search": [
+        "chang2 jiu3",
+        "cháng jiǔ",
+        "chang jiu"
+      ],
+      "syllables": [
+        "chang2",
+        "jiu3"
+      ]
+    },
+    "senses": [
+      "long-time; long-term",
+      "lasting; enduring; permanent",
+      "for a long time"
+    ],
+    "traditionalForms": [
+      "長久"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:113099"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:4e00-534a:yi1-ban4",
+    "itemId": "word:4e00-534a",
+    "pinyin": {
+      "numeric": "yi1 ban4",
+      "marked": "yī bàn",
+      "plain": "yi ban",
+      "search": [
+        "yi1 ban4",
+        "yī bàn",
+        "yi ban"
+      ],
+      "syllables": [
+        "yi1",
+        "ban4"
+      ]
+    },
+    "senses": [
+      "half"
+    ],
+    "traditionalForms": [
+      "一半"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:459"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:65f6-5019:shi2-hou5",
+    "itemId": "word:65f6-5019",
+    "pinyin": {
+      "numeric": "shi2 hou5",
+      "marked": "shí hou",
+      "plain": "shi hou",
+      "search": [
+        "shi2 hou5",
+        "shí hou",
+        "shi hou"
+      ],
+      "syllables": [
+        "shi2",
+        "hou5"
+      ]
+    },
+    "senses": [
+      "time",
+      "length of time",
+      "moment",
+      "period"
+    ],
+    "traditionalForms": [
+      "時候"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:53490"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  },
+  {
+    "readingId": "reading:word:516c-56ed:gong1-yuan2",
+    "itemId": "word:516c-56ed",
+    "pinyin": {
+      "numeric": "gong1 yuan2",
+      "marked": "gōng yuán",
+      "plain": "gong yuan",
+      "search": [
+        "gong1 yuan2",
+        "gōng yuán",
+        "gong yuan"
+      ],
+      "syllables": [
+        "gong1",
+        "yuan2"
+      ]
+    },
+    "senses": [
+      "park (for public recreation)",
+      "CL:座[zuo4]"
+    ],
+    "traditionalForms": [
+      "公園"
+    ],
+    "evidence": [
+      {
+        "sourceReleaseId": "cedict",
+        "sourceLocator": "cedict_ts.u8:line:11827"
+      }
+    ],
+    "sourceReferences": [
+      "cedict"
+    ],
+    "reviewStatus": "draft"
+  }
+]

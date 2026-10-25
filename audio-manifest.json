@@ -2,8 +2,8 @@
   "version": "tts-v1",
   "voice": "tencent-502007",
   "generatedAt": "2026-07-25T04:33:05.274Z",
-  "available": 108,
-  "total": 108,
+  "available": 107,
+  "total": 107,
   "cards": {
     "豆": {
       "url": "audio/tts-v1/076-8c46.mp3",
@@ -647,5 +647,7 @@
       "pronunciation": null,
       "sha256": "08eea81f96d73d7cc2ef6c9dfb923be62f164124a5d4e8d21eeea1e8816e61c0"
     }
-  }
+  },
+  "availableOccurrences": 108,
+  "totalOccurrences": 108
 }

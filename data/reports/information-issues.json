@@ -1,0 +1,121 @@
+[
+  {
+    "characterId": "char:7528",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿵冂？",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:529b",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿻丿？",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:624d",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿻扌？",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:5de6",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿸？工",
+    "structure": "upper-left-enclosure",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:53f3",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿸？口",
+    "structure": "upper-left-enclosure",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:95e8",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿰⿱丶丨？",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:5317",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿰？匕",
+    "structure": "left-right",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:74dc",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿵？厶",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:65b9",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿱亠？",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:5973",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "？",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:6b65",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿱止？",
+    "structure": "top-bottom",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:8eab",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "？",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:53d1",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿸？又",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:9ed1",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿱？灬",
+    "structure": "top-bottom",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:5411",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿵？口",
+    "structure": "upper-enclosure",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:4e45",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿻勹？",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  },
+  {
+    "characterId": "char:6c34",
+    "kind": "incomplete-source-decomposition",
+    "sourceDecomposition": "⿻亅？",
+    "structure": "single-component",
+    "status": "do-not-display-unknown-components"
+  }
+]

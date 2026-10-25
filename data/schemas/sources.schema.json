@@ -1,0 +1,333 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "SourceRelease": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "downloadUrl": {
+          "type": "string",
+          "minLength": 1
+        },
+        "upstreamCommit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "licenseId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "licenseTextPath": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "usageScope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "retrievedAt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rightsStatus": {
+          "enum": [
+            "licensed",
+            "reference-only",
+            "approved-with-scope"
+          ]
+        },
+        "decisionBasis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "changeNotes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "publisher",
+        "version",
+        "file",
+        "url",
+        "licenseId",
+        "licenseTextPath",
+        "usageScope",
+        "sha256",
+        "bytes",
+        "retrievedAt",
+        "rightsStatus",
+        "decisionBasis",
+        "changeNotes"
+      ]
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "lockVersion": {
+      "enum": [
+        1
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "file": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "downloadUrl": {
+            "type": "string",
+            "minLength": 1
+          },
+          "upstreamCommit": {
+            "type": "string",
+            "minLength": 1
+          },
+          "licenseId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "licenseTextPath": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "usageScope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "retrievedAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rightsStatus": {
+            "enum": [
+              "licensed",
+              "reference-only",
+              "approved-with-scope"
+            ]
+          },
+          "decisionBasis": {
+            "type": "string",
+            "minLength": 1
+          },
+          "changeNotes": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "publisher",
+          "version",
+          "file",
+          "url",
+          "licenseId",
+          "licenseTextPath",
+          "usageScope",
+          "sha256",
+          "bytes",
+          "retrievedAt",
+          "rightsStatus",
+          "decisionBasis",
+          "changeNotes"
+        ]
+      }
+    },
+    "licenses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ]
+      }
+    },
+    "strokeFiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ]
+      }
+    },
+    "extracts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ]
+      }
+    },
+    "localInputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ]
+      }
+    },
+    "hskPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rightsStatus": {
+          "enum": [
+            "approved-with-scope"
+          ]
+        },
+        "decisionBasis": {
+          "enum": [
+            "user-confirmed-scope"
+          ]
+        },
+        "usageScope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "importStatus": {
+          "enum": [
+            "contract-only-HF-07"
+          ]
+        }
+      },
+      "required": [
+        "rightsStatus",
+        "decisionBasis",
+        "usageScope",
+        "importStatus"
+      ]
+    }
+  },
+  "required": [
+    "lockVersion",
+    "sources",
+    "licenses",
+    "strokeFiles",
+    "extracts",
+    "localInputs",
+    "hskPolicy"
+  ]
+}

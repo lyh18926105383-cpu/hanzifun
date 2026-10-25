@@ -3,7 +3,7 @@
   "$id": "https://hanzifun.local/contracts/content.schema.json",
   "title": "HanziFun 内容契约",
   "description": "冻结 Character 与 Card 两个核心内容实体及现有 characters.js / audio-manifest 的稳定字段，明确旧“睛”的两个教学位置与唯一字 ID。",
-  "contractVersion": "1.0",
+  "contractVersion": "1.1",
   "frozenAt": "2026-10-25",
   "supersedes": "SPEC.md REQ-05",
   "uniqueCharacterId": {
@@ -65,12 +65,14 @@
     },
     "LegacyAudioManifest": {
       "type": "object",
-      "description": "现有 audio-manifest.json：version=tts-v1，voice=tencent-502007，按字键去重 107 条（声明 available/total=108）。",
+      "description": "现有 audio-manifest.json：version=tts-v1，voice=tencent-502007，按字键去重 107 条；HF-02 按字 available/total=107，按教学位置 availableOccurrences/totalOccurrences=108。",
       "properties": {
         "version": { "const": "tts-v1" },
         "voice": { "const": "tencent-502007" },
-        "available": { "const": 108 },
-        "total": { "const": 108 },
+        "available": { "const": 107 },
+        "total": { "const": 107 },
+        "availableOccurrences": { "const": 108 },
+        "totalOccurrences": { "const": 108 },
         "cards": { "type": "object", "description": "键为汉字字面量，共 107 个唯一键；字段含 url/text/pronunciation/sha256" }
       }
     }
