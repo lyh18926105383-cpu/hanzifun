@@ -18,7 +18,7 @@ P0 为核心、数据保护与发布关口；P1 为当前阶段主线；P2 为�
 | [HF-02 字典、笔顺数据与来源管线](tasks/HF-02-data-foundation.md) 🟡数据实现完成／待人工验收 | P0 | Phase 1 | HF-01 | 126 字/Tier、Information、拼音/笔画；HSK 范围来源 |
 | [HF-03 C 方案框架、七段首页与路由](tasks/HF-03-site-shell.md) ✅已完成（2026-10-25） | P0 | Phase 1 | HF-01 | 七段首页、导航、静态路由/隔离 |
 | [HF-04 真实字典、搜索与视觉笔顺闭环](tasks/HF-04-dictionary.md) 🟡工程交付／待人工与学习联调 | P0 | Phase 1 | HF-02、HF-03 | Tier 2 字页、Tier 1 增强、独立笔顺页与拼音表 |
-| [HF-05 复习调度与闪卡会话组件](tasks/HF-05-review-engine.md) | P0 | Phase 1 | HF-01 | interval-v1、会话状态机与组件 |
+| [HF-05 复习调度与闪卡会话组件](tasks/HF-05-review-engine.md) ✅独立验收完成（2026-10-25） | P0 | Phase 1 | HF-01 | interval-v1、会话状态机与组件 |
 | [HF-06 游客持久化、学习中心与旧记录导入](tasks/HF-06-guest-learning.md) | P0 | Phase 1 | HF-03、HF-04、HF-05 | 本机存储、学习中心、无损导入 |
 | [HF-07 HSK 首级真实字库与两场景连接](tasks/HF-07-hsk-scenarios.md) | P1 | Phase 1 | HF-02、HF-04、HF-06 | 两版 HSK 1 级、餐厅/商务场景 |
 | [HF-08 公开页 SEO、性能与无障碍收口](tasks/HF-08-seo-quality.md) | P0 | Phase 1 | HF-03、HF-04、HF-06 | 按质量放行索引、可见 FAQ、性能/无障碍 |
@@ -144,3 +144,7 @@ flowchart TD
 ## HF-04 执行状态（2026-10-25）
 
 126 个静态字页与 Information、真实按字笔顺和完整静图、410 音节范围表、拼音/部首索引、八对比较、搜索分包及发布审核门槛已接入 HF-03 外壳；126 份原创例词/句与短助记已做 Codex 快审，人工验收仍为 pending。`npm test` 77/77，构建 880 文件、两次构建字节一致，完成本地浏览器与五档宽度抽查。HF-02 人工内容/拼音/音频验收及 HF-05/06 真实学习联调尚未关闭，不标全部完成或 126 字已验收 Tier2，release 保持 noindex 预览。精确证据与后续入口见 [HF-04 验收记录](HF-04-VERIFICATION.md)。
+
+## HF-05 执行状态（2026-10-25）
+
+interval-v1 调度、UTC/IANA 额度、UUID/revision 事件与确定性重放、冻结会话/游标、独立闪卡组件及未保存重试/恢复导出已完成。`npm test` 98/98（原77+新增21）；真实 Chrome 隔离夹具的键盘、焦点、暂停刷新恢复、保存失败与重试、完成刷新去重及五档宽度通过；隔离构建880文件且不发布测试夹具。HF-06 优先按 Repository 契约接 localStorage 确定性快照、旧记录只读导入和隐私模式降级；真实四组卡/字典入口落盘联调仍待 HF-06，不宣称完整学习闭环。见 [HF-05 验收](HF-05-VERIFICATION.md) 与 [接入说明](HF-05-INTEGRATION.md)。

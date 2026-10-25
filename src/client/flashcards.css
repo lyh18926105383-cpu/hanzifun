@@ -1,0 +1,8 @@
+.hf-flashcards { max-width: 42rem; margin-inline: auto; padding: 1rem; }
+.hf-flashcard { min-height: 10rem; display: grid; place-items: center; padding: 1rem; border: 2px solid currentColor; border-radius: 1rem; font-size: clamp(1.5rem, 5vw, 3rem); white-space: pre-wrap; overflow-wrap: anywhere; }
+.hf-flashcard-controls { display: flex; flex-wrap: wrap; gap: .75rem; margin-block: 1rem; }
+.hf-flashcard-controls button { min-height: 44px; padding: .5rem 1rem; font: inherit; cursor: pointer; }
+.hf-flashcard-controls button:focus-visible, .hf-flashcards h2:focus-visible { outline: 3px solid #075985; outline-offset: 3px; }
+.hf-flashcard-controls button:disabled { cursor: default; opacity: .6; }
+.hf-flashcards [hidden] { display: none; }
+.hf-flashcard-summary { font-size: 1.25rem; }

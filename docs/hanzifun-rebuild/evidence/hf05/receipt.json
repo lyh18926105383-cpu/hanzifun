@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-25",
+  "browser": "155.0.8059.85",
+  "syntheticFixture": true,
+  "checks": [
+    "native Enter reveal",
+    "rating shortcut",
+    "focus",
+    "pause/reload/resume",
+    "failed save",
+    "same-transaction retry",
+    "completion/reload idempotency",
+    "two cardIds / one characterId",
+    "no console errors",
+    "no horizontal overflow"
+  ],
+  "widths": [
+    360,
+    390,
+    768,
+    1100,
+    1440
+  ],
+  "practicedCharacters": 1,
+  "events": 3,
+  "sessions": 1
+}

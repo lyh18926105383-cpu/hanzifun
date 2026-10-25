@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-25",
+  "baseCommit": "f586268",
+  "node": "v24.14.0",
+  "npm": "11.9.0",
+  "schedulerVersion": "interval-v1",
+  "npmTest": {
+    "command": "npm test",
+    "passed": 98,
+    "failed": 0,
+    "skipped": 0,
+    "existing": 77,
+    "newHF05": 21,
+    "recordedFrom": "completed tool stdout"
+  },
+  "build": {
+    "command": "HF_BUILD_OUTPUT_DIR=/private/tmp/hf05-build-hanzifun npm run build:site",
+    "files": 880,
+    "prototypePaths": 77,
+    "noindexPreviewPages": 181,
+    "testFixturePublished": false
+  },
+  "sourceSha256": {
+    "src/learning/scheduler.mjs": "66b3fe3e2d6c90b7745e77832785b7491583bf8a863a7878773f87077c460c46",
+    "src/learning/events.mjs": "21c3a0fa70271005bd6b94d5fea431ac26e9d3c7e69a7d59b1e921ab63ddeda6",
+    "src/learning/session.mjs": "8ac2242cc0b03fb058c81ce44c6714939a3eb86d79a2ed5e0097c3ff62add59d",
+    "src/client/flashcards.mjs": "1a51d843331e9654ed181c7a428a7b7454bf09a72885ec99e788405d6887583e",
+    "src/client/flashcards.css": "33c4ee02958141af4bc743c6490d965f699a034d1c1ba00109a9d35422859244",
+    "tests/review-engine.test.mjs": "b5692a957177465dcf02e7bfef8f6a786c5d121113fe6167ffe6f1d9525f4b27",
+    "tests/review-session.test.mjs": "bca9ae0bf4efad6e5c8830bad548a8b676c3d5088739b21e8b4e7bfe56231c53",
+    "tests/flashcards.test.mjs": "faecc6754e83ec29c7cb7c6f35b21f34891663024e6c124291f9eff109631e72",
+    "tests/fixtures/hf05-preview.html": "c7e9160c98a3db4b5189b3a20ec0fbdd04149423cfc87e315795a5cca58f5ee3",
+    "scripts/verify-review-browser.mjs": "bd8bd6adcbdd6f8e2d2c889065c7c5c5ad4a0d1e45df16879356c282f536f9c8"
+  }
+}

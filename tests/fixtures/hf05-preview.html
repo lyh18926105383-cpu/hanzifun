@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HF-05 isolated component verification</title>
+<link rel="stylesheet" href="/src/client/flashcards.css">
+<style>body{font:18px system-ui;margin:0;background:#fffaf0;color:#20332b}main{padding:1rem}h1{font-size:1.3rem}</style>
+<main><h1>HF-05 test fixture — synthetic data only</h1><div id="practice"></div></main>
+<script type="module">
+import {emptyProjection} from '/src/learning/events.mjs';
+import {createSession} from '/src/learning/session.mjs';
+import {createFlashcardController,mountFlashcards} from '/src/client/flashcards.mjs';
+const key='hf05.test.fixture';
+const now=Date.UTC(2026,9,25,8);
+const cards=[{cardId:'fixture:019',characterId:'char:775b',front:'睛',back:'Eye — synthetic test answer'},
+ {cardId:'fixture:087',characterId:'char:775b',front:'睛',back:'Eyes in context — synthetic test answer'}];
+let projection=emptyProjection(), session;
+const saved=sessionStorage.getItem(key);
+if(saved){({projection,snapshot:session}=JSON.parse(saved));}
+else{session=createSession({cards,projection,now,sessionId:crypto.randomUUID(),baseRevision:'hf05-fixture-v1'});}
+const host=window.hf05={fail:false,writes:[],key};
+let sequence=JSON.parse(sessionStorage.getItem(key+'.seq')||'0');
+function store(tx){
+ host.writes.push(tx);
+ if(host.fail)return {saved:false,reason:'Simulated private-mode/quota failure'};
+ const previous=JSON.parse(sessionStorage.getItem(key)||'null');
+ if(previous && tx.snapshot.revision !== previous.snapshot.revision+1)return {saved:false,reason:'Session revision conflict'};
+ sessionStorage.setItem(key,JSON.stringify({projection:tx.projection,snapshot:tx.snapshot}));
+ return {saved:true};
+}
+if(!saved)sessionStorage.setItem(key,JSON.stringify({projection,snapshot:session}));
+host.controller=createFlashcardController({session,projection,commit:store,clock:()=>now,
+ deviceId:'hf05-test-browser',nextSeq:count=>{const start=sequence;sequence+=count;sessionStorage.setItem(key+'.seq',JSON.stringify(sequence));return start;}});
+host.view=mountFlashcards(document.querySelector('#practice'),host.controller);
+</script></html>

@@ -2,8 +2,8 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 1：主站上线（基线整合、126 字字典及 Information、独立笔顺页与拼音表、本机闪卡、两场景、两版 HSK 1 级）
-- **当前执行任务**：HF-04 工程实现与本地自动/浏览器检查已交付；HF-02 人工内容/拼音/音频验收及 HF-05/06 学习联调待关闭。
-- **状态**：HF-01、HF-03 已完成；HF-02 与 HF-04 均保留人工验收缺口。用户 2026-10-25 明确授权 HF-04 按缺项安全降级/noindex 预览实施，工程交付不等于前置人工验收通过；精确接续见记录 05。
+- **当前执行任务**：HF-05 独立引擎/组件验收完成；下一步 HF-06 本机持久化与真实学习联调。HF-02/04 人工内容/拼音/音频验收仍待关闭。
+- **状态**：HF-01、HF-03、HF-05（独立范围）已完成；HF-02 与 HF-04 均保留人工验收缺口。用户 2026-10-25 明确授权 HF-04 按缺项安全降级/noindex 预览实施，工程交付不等于前置人工验收通过；精确接续见记录 05。
 
 ---
 
@@ -93,3 +93,12 @@
   1. 读本记录、TASKS、当前指定任务与 `HF-04-VERIFICATION.md`；继续人工审核时从 HF-02 四份问题报告及 `data/editorial/` 输入开始，不能在生成报告里填假签字。
   2. HF-06 对接 `window.HanziFunLearningAdapter.saveCharacter({characterId})` / `startCharacterPractice({characterId,readingId,source})`，分别明确返回 saved/started，包装真实 Repository/session，不改原v1记录；补做真实落盘/续练联调。
   3. 音节教学审核和真实录音绑定后接入播放；本包仅有失败关闭的帮助模块和夹具，不宣称真实发音完成。HF-08 按审核与标准页质量逐页放行，不能因缺插画阻塞成熟Tier2。
+
+### [记录 06] - HF-05 复习引擎与独立组件完成 (By Codex, 2026-10-25)
+- **工作目录/范围**：指定 Desktop 主仓库，实现前 HEAD `f586268`；仅 HF-05，用户明确授权实现、验证和 git commit。保留既有未跟踪文件；没有修改故事/原中文记录/生产部署/账号同步Billing。
+- **交付**：interval-v1 stage0—6与1/3/7/14/30/60天、again10分钟；到期优先/稳定cardId/独立新额度；固定IANA额度时区与UTC有效时钟；UUID、内容/卡片/会话revision、日志重放与去重。冻结卡序/内容、先翻后评、暂停恢复、free追加再看、唯一完成、未保存重试及恢复导出。睛19/87卡独立排程，char:775b唯一字统计去重。
+- **新增文件**：`src/learning/{scheduler,events,session}.mjs`；`src/client/flashcards.mjs`、`flashcards.css`；`tests/{review-engine,review-session,flashcards}.test.mjs`；`tests/fixtures/hf05-preview.html`；`scripts/verify-review-browser.mjs`；`HF-05-INTEGRATION.md`、`HF-05-VERIFICATION.md` 与 `evidence/hf05/{receipt,checks}.json`、两张真实浏览器截图（文档/证据均位于本目录）。
+- **修改文件**：本 PROGRESS、TASKS、`tasks/HF-05-review-engine.md`。没有改 frozen schema 或 Repository 契约、公开构建/路由、原 dist。
+- **验证**：`npm test` **98/98**，原77+新增21；覆盖到期前后一毫秒/阶段/额度/时区DST/回拨/UUID与评价槽位幂等/120次性质检查/组件提交与焦点/模拟旧标签页revision冲突。隔离构建880文件、77原型路径、181 noindex页且测试夹具未发布。真实Chrome155隔离夹具完成键盘、暂停刷新恢复、失败重试、完成刷新去重及360/390/768/1100/1440无横向溢出。源码指纹、命令及精确范围见HF-05-VERIFICATION。
+- **遗留与边界**：HF-06真实localStorage、旧记录迁移、隐私窗口与跨标签页写锁尚未实现/验收；浏览器夹具用专用sessionStorage及合成内容，不能冒充真实学习闭环。IANA额度账本固定首次排程时区，暂不提供额度时区迁移；立即再看只追加未结束会话，结束重练由宿主新建free会话。HF-02/04人工/音频缺口不变；未测Safari/Firefox/真机/真实屏幕阅读器。
+- **下一个 Agent 精确切入点**：先读本记录、TASKS及当前指定任务，再读 `HF-05-INTEGRATION.md`。按用户决定优先遵循repository-interface.md用localStorage单键确定性快照；保留旧hanzifun.learning.v1只读原文与导入批次，隐私模式失败明确未保存。封装commit事务（event+projection+cursor），检查日志head/length与session revision、相同事务重试优先ack，写锁防跨标签页覆盖。接HF-04 `window.HanziFunLearningAdapter` 的saveCharacter/startCharacterPractice，成功保存初始快照才返回started；真实四组卡和字典入口完成落盘/续练验收后再关闭HF-04学习联调缺口。
