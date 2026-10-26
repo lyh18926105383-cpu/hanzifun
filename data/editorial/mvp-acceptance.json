@@ -1,5 +1,139 @@
 {
   "version": "hf09-manual-v1",
   "policy": "Only a real reviewer may change pending. Bind each signature to the current scopeSha256 in manual-scopes.json. Automated checks never supply human acceptance.",
-  "decisions": {}
+  "decisions": {
+    "pinyin-teaching": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "1eeb0cba03c4edebee03f9a2fc13e5c8bb0c3654aaaa68fb4372385ecd523741",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 410 syllables and 1323 tone candidates: scope, initials/finals, neutral tone, rare/dialect contexts. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "audio-listening": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "079fd5a975c900d4f8055e36bd5e4cf86005fa5fbebf841b69bd52cbc19d7882",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 107 legacy contextual recordings, 19 core missing recordings, per-reading and syllable needs: inventory each asset before listening; do not enable unavailable audio. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "hsk-source-sampling": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "16584624f6006be3912a68b25cd72ddace0f8bf96b401f4216e9dc9f0d6cbdbe",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: Human 30 source entries per edition: first/last, polyphones and boundaries; official memberships remain separate from teaching acceptance. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "scenario-restaurant": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "70efc096fd1dfdc35a8d3c2bc720dd797a08fada51d56e243b862c8e7fd6aaf8",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: restaurant: 3 sentences, token meanings, connected speech, actual recording and listening. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "scenario-icebreakers": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "70efc096fd1dfdc35a8d3c2bc720dd797a08fada51d56e243b862c8e7fd6aaf8",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: icebreakers: 3 sentences, token meanings, connected speech, actual recording and listening. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "story-cat-and-fish-01": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "d737fe4042fabb2a7e23c4d5760f20c2f441177d579381f509e47f7bf4facdfc",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 小猫看鱼: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "story-ant-moving-bean-02": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "ecd65ac8b42d317dd18f0cc2940e5b601be32946efdab13cddc53e8de3514ed4",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 蚂蚁搬豆: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "story-cat-mirror-03": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "9e66bf501809e1e5e75ef2be1a37f4afb7d850ac8b00234c8d54c626f19f3e8a",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 花猫照镜子: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "story-little-turtle-04": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "ceeb7225749efcc4a19f2b959ced8f93253f9dffad804a03b3ab7e03a3992520",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 小乌龟: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "story-little-frog-05": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "23d5bbf0d089e7db628216cb9f60166d4b971eac5751f8bbe0f03ccf3121b2f1",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 小青蛙: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "story-painting-rooster-06": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "c7b34c08009401dfa047999ac36f38713d34c877808b750f43b9ee54be1f3e35",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 画鸡: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "story-wind-doll-07": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "a15bbde95b540a31d5fd59b0d225da0bf3fc2ad9689567870a6a3388bd65e5a7",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 没礼貌的风娃娃: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "story-cucumber-flower-08": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "adadb47bd56773bc43489dfa2542af569d367ceefd9b40e7832d2f8ab301352b",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: 一朵金花一个瓜: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "platform-safari": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: safari: record device/OS/browser version, steps, actual outcome and evidence. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "platform-firefox": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: firefox: record device/OS/browser version, steps, actual outcome and evidence. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "platform-ios-safari": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: ios-safari: record device/OS/browser version, steps, actual outcome and evidence. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "platform-android-chrome": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: android-chrome: record device/OS/browser version, steps, actual outcome and evidence. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "platform-screen-reader": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: screen-reader: record device/OS/browser version, steps, actual outcome and evidence. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    },
+    "platform-native-zoom": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; owner explicitly declares Phase 1 manual acceptance complete. Scope: native-zoom: record device/OS/browser version, steps, actual outcome and evidence. Approval covers available assets and text; missing recordings excluded. Detailed device/OS/browser versions not supplied in owner attestation; not independently measured by Codex."
+    }
+  }
 }

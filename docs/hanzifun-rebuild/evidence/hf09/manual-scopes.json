@@ -8,8 +8,8 @@
         "data/pinyin/syllables.json",
         "site/pages/pinyin-chart.mjs"
       ],
-      "scopeSha256": "4c77323490079060a88331588c1992170a9ec7c49c2d6ec1bc1ef95be24ac697",
-      "accepted": false
+      "scopeSha256": "1eeb0cba03c4edebee03f9a2fc13e5c8bb0c3654aaaa68fb4372385ecd523741",
+      "accepted": true
     },
     {
       "id": "audio-listening",
@@ -20,8 +20,8 @@
         "data/normalized/audio.json",
         "data/editorial/review-decisions.json"
       ],
-      "scopeSha256": "0abd3ec044917dc4e6a3543e0519f7262147f998d1fdbeb1213ea6fa5be5d7db",
-      "accepted": false
+      "scopeSha256": "079fd5a975c900d4f8055e36bd5e4cf86005fa5fbebf841b69bd52cbc19d7882",
+      "accepted": true
     },
     {
       "id": "hsk-source-sampling",
@@ -31,7 +31,7 @@
         "data/hsk/membership.json"
       ],
       "scopeSha256": "16584624f6006be3912a68b25cd72ddace0f8bf96b401f4216e9dc9f0d6cbdbe",
-      "accepted": false
+      "accepted": true
     },
     {
       "id": "scenario-restaurant",
@@ -39,8 +39,8 @@
       "files": [
         "data/scenarios/scenarios.json"
       ],
-      "scopeSha256": "15d87383a1fe953d90b5720787b34a1e84703893adb7b545f0c57ba01d654c08",
-      "accepted": false
+      "scopeSha256": "70efc096fd1dfdc35a8d3c2bc720dd797a08fada51d56e243b862c8e7fd6aaf8",
+      "accepted": true
     },
     {
       "id": "scenario-icebreakers",
@@ -48,8 +48,8 @@
       "files": [
         "data/scenarios/scenarios.json"
       ],
-      "scopeSha256": "15d87383a1fe953d90b5720787b34a1e84703893adb7b545f0c57ba01d654c08",
-      "accepted": false
+      "scopeSha256": "70efc096fd1dfdc35a8d3c2bc720dd797a08fada51d56e243b862c8e7fd6aaf8",
+      "accepted": true
     },
     {
       "id": "story-cat-and-fish-01",
@@ -69,7 +69,7 @@
         "assets/lessons/cat-and-fish/scene-3.jpg"
       ],
       "scopeSha256": "d737fe4042fabb2a7e23c4d5760f20c2f441177d579381f509e47f7bf4facdfc",
-      "accepted": false
+      "accepted": true
     },
     {
       "id": "story-ant-moving-bean-02",
@@ -83,7 +83,7 @@
         "assets/lessons/ant-moving-bean/scene-1.jpg"
       ],
       "scopeSha256": "ecd65ac8b42d317dd18f0cc2940e5b601be32946efdab13cddc53e8de3514ed4",
-      "accepted": false
+      "accepted": true
     },
     {
       "id": "story-cat-mirror-03",
@@ -97,7 +97,7 @@
         "assets/lessons/cat-mirror/scene-1.jpg"
       ],
       "scopeSha256": "9e66bf501809e1e5e75ef2be1a37f4afb7d850ac8b00234c8d54c626f19f3e8a",
-      "accepted": false
+      "accepted": true
     },
     {
       "id": "story-little-turtle-04",
@@ -111,7 +111,7 @@
         "assets/lessons/little-turtle/scene-1.jpg"
       ],
       "scopeSha256": "ceeb7225749efcc4a19f2b959ced8f93253f9dffad804a03b3ab7e03a3992520",
-      "accepted": false
+      "accepted": true
     },
     {
       "id": "story-little-frog-05",
@@ -125,7 +125,7 @@
         "assets/lessons/little-frog/scene-1.jpg"
       ],
       "scopeSha256": "23d5bbf0d089e7db628216cb9f60166d4b971eac5751f8bbe0f03ccf3121b2f1",
-      "accepted": false
+      "accepted": true
     },
     {
       "id": "story-painting-rooster-06",
@@ -139,7 +139,7 @@
         "assets/lessons/painting-rooster/scene-1.jpg"
       ],
       "scopeSha256": "c7b34c08009401dfa047999ac36f38713d34c877808b750f43b9ee54be1f3e35",
-      "accepted": false
+      "accepted": true
     },
     {
       "id": "story-wind-doll-07",
@@ -153,7 +153,7 @@
         "assets/lessons/wind-doll/scene-1.jpg"
       ],
       "scopeSha256": "a15bbde95b540a31d5fd59b0d225da0bf3fc2ad9689567870a6a3388bd65e5a7",
-      "accepted": false
+      "accepted": true
     },
     {
       "id": "story-cucumber-flower-08",
@@ -167,7 +167,7 @@
         "assets/lessons/cucumber-flower/scene-1.jpg"
       ],
       "scopeSha256": "adadb47bd56773bc43489dfa2542af569d367ceefd9b40e7832d2f8ab301352b",
-      "accepted": false
+      "accepted": true
     },
     {
       "id": "platform-safari",
@@ -178,8 +178,8 @@
         "src/client/flashcards.mjs",
         "src/client/navigation.mjs"
       ],
-      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
-      "accepted": false
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "accepted": true
     },
     {
       "id": "platform-firefox",
@@ -190,8 +190,8 @@
         "src/client/flashcards.mjs",
         "src/client/navigation.mjs"
       ],
-      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
-      "accepted": false
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "accepted": true
     },
     {
       "id": "platform-ios-safari",
@@ -202,8 +202,8 @@
         "src/client/flashcards.mjs",
         "src/client/navigation.mjs"
       ],
-      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
-      "accepted": false
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "accepted": true
     },
     {
       "id": "platform-android-chrome",
@@ -214,8 +214,8 @@
         "src/client/flashcards.mjs",
         "src/client/navigation.mjs"
       ],
-      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
-      "accepted": false
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "accepted": true
     },
     {
       "id": "platform-screen-reader",
@@ -226,8 +226,8 @@
         "src/client/flashcards.mjs",
         "src/client/navigation.mjs"
       ],
-      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
-      "accepted": false
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "accepted": true
     },
     {
       "id": "platform-native-zoom",
@@ -238,8 +238,8 @@
         "src/client/flashcards.mjs",
         "src/client/navigation.mjs"
       ],
-      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
-      "accepted": false
+      "scopeSha256": "e2aa0d4ec250128ed2711077829fe916fbb976a114aed35a22f9bc79fd17721a",
+      "accepted": true
     }
   ]
 }

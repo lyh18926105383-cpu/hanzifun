@@ -1,6 +1,6 @@
 # HF-09｜MVP 闭环验收与中文迁移演练
 
-状态：🟡 工程/本地总门控已交付（2026-10-26）；完整候选验收 BLOCKED，人工内容/音频/故事与设备验收待关闭。详见 [总报告](../acceptance/phase-1.md) 与 [人工放行清单](../acceptance/phase-1-checklist.md)。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
+状态：✅ Completed / PASS（2026-10-26正式人工签发）。负责人验收声明、范围与物理缺音/补充字预览边界见 [签发记录](../acceptance/phase-1-signoff.md)；最终自动门控及141个索引URL见 [总报告](../acceptance/phase-1.md)。下方旧执行记录保留历史含义；实际生产部署仍交HF-17/18。
 
 | 项目 | 内容 |
 |---|---|

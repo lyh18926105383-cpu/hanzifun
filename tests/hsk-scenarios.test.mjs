@@ -1,3 +1,4 @@
+import {scenarioData} from '../site/hsk-data.mjs';
 import {characterReviewState} from '../site/publication-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -35,7 +36,8 @@ test('HF07 fixed decks reuse character cards across editions and preserve four l
 test('HF07 source completeness does not open unaccepted dictionary or scenario pages',()=>{
  for(const p of ['/academic/','/academic/hsk-2/','/academic/hsk-3/']){assert.equal(resolveRoutePolicy(p).indexing,'index');assert.doesNotThrow(()=>assertPublicationReady({path:p,indexing:'index'}));}
  if(!characterReviewState('char:60a8').accepted)assert.throws(()=>assertPublicationReady({path:'/dictionary/您/',indexing:'index'}),/pending/);
- assert.throws(()=>assertPublicationReady({path:'/scenarios/travel/restaurant/',indexing:'index'}),/pending/);
+ const old=scenarioData.review.humanAcceptance;try{scenarioData.review.humanAcceptance='pending';assert.throws(()=>assertPublicationReady({path:'/scenarios/travel/restaurant/',indexing:'index'}),/pending/);}finally{scenarioData.review.humanAcceptance=old;}
+ assert.doesNotThrow(()=>assertPublicationReady({path:'/scenarios/travel/restaurant/',indexing:'index'}));
  if(resolveRoutePolicy('/dictionary/您/').indexing==='index')assert.ok(characterReviewState('char:60a8').accepted);
  for(const p of additionalCharacterPages()){const c=lexicon.characters.find(c=>p.path==='/dictionary/'+c.glyph+'/');assert.match(p.content,characterReviewState(c.characterId).accepted?/Human-reviewed Tier 2/:/not yet an accepted Tier 2/);assert.match(p.content,/listening review pending/);assert.doesNotMatch(p.content,/<audio|speechSynthesis/);}
 });

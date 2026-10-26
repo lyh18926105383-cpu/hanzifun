@@ -104,7 +104,8 @@ test('audio rejects unreviewed/context-mismatched bindings and stops the previou
 test('publication fails closed for unaccepted teaching; a missing illustration is not used as a gate',()=>{
  assert.doesNotThrow(()=>assertPublicationReady({path:'/dictionary/水/',indexing:'noindex'}));
  if(!characterReviewState('char:6c34').accepted)assert.throws(()=>assertPublicationReady({path:'/dictionary/水/',indexing:'index'}),/Unreviewed/);
- assert.throws(()=>assertPublicationReady({path:'/pinyin-chart/',indexing:'index'}),/pending/);
+ const old=reviews.pinyin.humanTeaching;try{reviews.pinyin.humanTeaching='pending';assert.throws(()=>assertPublicationReady({path:'/pinyin-chart/',indexing:'index'}),/pending/);}finally{reviews.pinyin.humanTeaching=old;}
+ assert.doesNotThrow(()=>assertPublicationReady({path:'/pinyin-chart/',indexing:'index'}));
  const original=reviews.characters['char:6c34'];
  try {reviews.characters['char:6c34']={humanContent:'approved'};assert.throws(()=>assertPublicationReady({path:'/dictionary/水/',indexing:'index'}),/Unreviewed/);
  reviews.characters['char:6c34']={humanContent:'approved',reviewer:'test-fixture',date:'2026-10-25',evidence:'test-only acceptance fixture',contentSha256:characterReviewState('char:6c34').contentSha256};

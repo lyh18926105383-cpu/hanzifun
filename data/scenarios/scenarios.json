@@ -1,17 +1,213 @@
 {
-  "version":"hf07-scenarios-v1",
-  "review":{"status":"ai-quick-reviewed","reviewer":"Codex","date":"2026-10-26","humanAcceptance":"pending","note":"Checked phrase boundaries, pinyin, meaning and polite context; no human listening approval."},
-  "scenarios":[
-    {"id":"restaurant","path":"/scenarios/travel/restaurant/","title":"At a restaurant","context":"Polite requests to a restaurant server. 请 softens a request; 请问 introduces a question.","sentences":[
-      {"id":"water","text":"请给我一杯水。","pinyin":"Qǐng gěi wǒ yì bēi shuǐ.","translation":"Please give me a glass of water.","tokens":[["请","qǐng","please"],["给","gěi","give"],["我","wǒ","me"],["一","yì","one (connected speech before bēi)"],["杯","bēi","cup / glass measure"],["水","shuǐ","water"]]},
-      {"id":"tea","text":"我想喝茶。","pinyin":"Wǒ xiǎng hē chá.","translation":"I would like to drink tea.","tokens":[["我","wǒ","I"],["想","xiǎng","would like to"],["喝","hē","drink"],["茶","chá","tea"]]},
-      {"id":"price","text":"请问，多少钱？","pinyin":"Qǐngwèn, duōshao qián?","translation":"Excuse me, how much is it?","tokens":[["请问","qǐngwèn","excuse me (before a question)"],["多少","duōshao","how much"],["钱","qián","money"]]}
-    ]},
-    {"id":"icebreakers","path":"/scenarios/business/icebreakers/","title":"Business icebreakers","context":"A courteous first meeting. 您 is a respectful form of you. These are language examples, not universal business etiquette rules.","sentences":[
-      {"id":"greeting","text":"您好，很高兴认识您。","pinyin":"Nín hǎo, hěn gāoxìng rènshi nín.","translation":"Hello, it is a pleasure to meet you.","tokens":[["您好","nín hǎo","hello (respectful greeting)"],["很","hěn","very"],["高兴","gāoxìng","pleased"],["认识","rènshi","meet / become acquainted"],["您","nín","you (respectful)"]]},
-      {"id":"name","text":"请问，您怎么称呼？","pinyin":"Qǐngwèn, nín zěnme chēnghu?","translation":"May I ask how I should address you?","tokens":[["请问","qǐngwèn","may I ask"],["您","nín","you (respectful)"],["怎么","zěnme","how"],["称呼","chēnghu","address someone by name or title"]]},
-      {"id":"thanks","text":"谢谢您的时间。","pinyin":"Xièxie nín de shíjiān.","translation":"Thank you for your time.","tokens":[["谢谢","xièxie","thank you"],["您","nín","you (respectful)"],["的","de","possessive particle"],["时间","shíjiān","time"]]}
-    ]}
+  "version": "hf07-scenarios-v1",
+  "review": {
+    "status": "ai-quick-reviewed",
+    "reviewer": "Project owner (user)",
+    "date": "2026-10-26",
+    "humanAcceptance": "approved",
+    "note": "Owner approved language content; sentence recordings remain missing and disabled.",
+    "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; user explicitly confirmed Phase 1 manual acceptance in the 2026-10-26 release instruction."
+  },
+  "scenarios": [
+    {
+      "id": "restaurant",
+      "path": "/scenarios/travel/restaurant/",
+      "title": "At a restaurant",
+      "context": "Polite requests to a restaurant server. 请 softens a request; 请问 introduces a question.",
+      "sentences": [
+        {
+          "id": "water",
+          "text": "请给我一杯水。",
+          "pinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
+          "translation": "Please give me a glass of water.",
+          "tokens": [
+            [
+              "请",
+              "qǐng",
+              "please"
+            ],
+            [
+              "给",
+              "gěi",
+              "give"
+            ],
+            [
+              "我",
+              "wǒ",
+              "me"
+            ],
+            [
+              "一",
+              "yì",
+              "one (connected speech before bēi)"
+            ],
+            [
+              "杯",
+              "bēi",
+              "cup / glass measure"
+            ],
+            [
+              "水",
+              "shuǐ",
+              "water"
+            ]
+          ]
+        },
+        {
+          "id": "tea",
+          "text": "我想喝茶。",
+          "pinyin": "Wǒ xiǎng hē chá.",
+          "translation": "I would like to drink tea.",
+          "tokens": [
+            [
+              "我",
+              "wǒ",
+              "I"
+            ],
+            [
+              "想",
+              "xiǎng",
+              "would like to"
+            ],
+            [
+              "喝",
+              "hē",
+              "drink"
+            ],
+            [
+              "茶",
+              "chá",
+              "tea"
+            ]
+          ]
+        },
+        {
+          "id": "price",
+          "text": "请问，多少钱？",
+          "pinyin": "Qǐngwèn, duōshao qián?",
+          "translation": "Excuse me, how much is it?",
+          "tokens": [
+            [
+              "请问",
+              "qǐngwèn",
+              "excuse me (before a question)"
+            ],
+            [
+              "多少",
+              "duōshao",
+              "how much"
+            ],
+            [
+              "钱",
+              "qián",
+              "money"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icebreakers",
+      "path": "/scenarios/business/icebreakers/",
+      "title": "Business icebreakers",
+      "context": "A courteous first meeting. 您 is a respectful form of you. These are language examples, not universal business etiquette rules.",
+      "sentences": [
+        {
+          "id": "greeting",
+          "text": "您好，很高兴认识您。",
+          "pinyin": "Nín hǎo, hěn gāoxìng rènshi nín.",
+          "translation": "Hello, it is a pleasure to meet you.",
+          "tokens": [
+            [
+              "您好",
+              "nín hǎo",
+              "hello (respectful greeting)"
+            ],
+            [
+              "很",
+              "hěn",
+              "very"
+            ],
+            [
+              "高兴",
+              "gāoxìng",
+              "pleased"
+            ],
+            [
+              "认识",
+              "rènshi",
+              "meet / become acquainted"
+            ],
+            [
+              "您",
+              "nín",
+              "you (respectful)"
+            ]
+          ]
+        },
+        {
+          "id": "name",
+          "text": "请问，您怎么称呼？",
+          "pinyin": "Qǐngwèn, nín zěnme chēnghu?",
+          "translation": "May I ask how I should address you?",
+          "tokens": [
+            [
+              "请问",
+              "qǐngwèn",
+              "may I ask"
+            ],
+            [
+              "您",
+              "nín",
+              "you (respectful)"
+            ],
+            [
+              "怎么",
+              "zěnme",
+              "how"
+            ],
+            [
+              "称呼",
+              "chēnghu",
+              "address someone by name or title"
+            ]
+          ]
+        },
+        {
+          "id": "thanks",
+          "text": "谢谢您的时间。",
+          "pinyin": "Xièxie nín de shíjiān.",
+          "translation": "Thank you for your time.",
+          "tokens": [
+            [
+              "谢谢",
+              "xièxie",
+              "thank you"
+            ],
+            [
+              "您",
+              "nín",
+              "you (respectful)"
+            ],
+            [
+              "的",
+              "de",
+              "possessive particle"
+            ],
+            [
+              "时间",
+              "shíjiān",
+              "time"
+            ]
+          ]
+        }
+      ]
+    }
   ],
-  "audio":{"reviewStatus":"missing","url":null,"playable":false,"note":"Sentence recordings and human listening review pending; no synthetic or browser speech fallback."}
+  "audio": {
+    "reviewStatus": "missing",
+    "url": null,
+    "playable": false,
+    "note": "Sentence recordings and human listening review pending; no synthetic or browser speech fallback."
+  }
 }

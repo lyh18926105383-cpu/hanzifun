@@ -2,8 +2,8 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 1：主站上线（基线整合、126 字字典及 Information、独立笔顺页与拼音表、本机闪卡、两场景、两版 HSK 1 级）
-- **当前执行任务**：HF-09 工程/本地总门控已交付，完整候选验收仍 BLOCKED；按 acceptance/phase-1-checklist.md 完成人工内容/音频/故事/设备放行后重跑严格门控。未部署生产。
-- **状态**：HF-01、HF-03、HF-05（独立范围）、HF-06 已完成；HF-02 与 HF-04 均保留人工验收缺口。用户 2026-10-25 明确授权 HF-04 按缺项安全降级/noindex 预览实施，工程交付不等于前置人工验收通过；精确接续见记录 05。
+- **当前执行任务**：Phase 1 正式人工签发及候选发布放行完成；HF-02/04/07/08/09 Completed / PASS。实际生产部署交 HF-17/18。
+- **状态**：126核心字逐项哈希批准，15个支持页面签字，生产构建141可索引页面／141 Sitemap URL；213补充字无Tier2编辑继续preview，物理缺音继续不可播。负责人2026-10-26人工确认及范围边界见 acceptance/phase-1-signoff.md。
 
 ---
 
@@ -157,3 +157,12 @@
 - **验证**：`npm test` **138/138**；`npm run build:site` 已重建主目录 `dist/`，1546 个公开文件、401 个 noindex 预览页（dist 按现有规则忽略，不手改/提交构建产物）。Chrome155 闪卡脚本通过正面点击 Familiar、键盘、保存失败/相同事务重试、暂停刷新续练、完成去重、前后卡片尺寸及五档无溢出。实际 dist 在360/390/768/1181/1200/1440宽检查正面评价落盘推进、稳定卡宽高与桌面/手机 Progress 导航；超长释义内部滚动、中文两页360/390/768/1440返回链接通过。HF-08浏览器质量脚本16类页面axe零违规、65档布局及实验室性能检查通过。浏览器收据入上述 evidence；截图及详细质量结果仅留本机 `/private/tmp/hanzifun-ux-browser/`、`/private/tmp/hanzifun-ux-quality/`。
 - **遗留问题/边界**：本轮需求无已知未完成项；不替代既有人工内容/音频/完整课程体验、Safari/Firefox/真机与真实读屏验收；未部署、未推送远程，未引入Phase3代码。
 - **下一个 Agent 精确切入点**：在本地主目录4173刷新验收 `/flashcards/` 并选择卡组、`/account/`、`/zh/` 和 `/story.html?lesson=ant-moving-bean-02`；后续发布工作继续 `acceptance/phase-1-checklist.md`，不要将本次UI通过当作HF-09完整人工放行。正面评价新行为以用户本轮指令和本记录为准，覆盖旧日志中的先翻后评描述。
+
+
+### [记录 12] - Phase 1 正式签发与索引放行完成（By Codex，2026-10-26）
+- **工作目录/范围**：用户指定Desktop主目录main；以负责人本轮“Phase 1人工验收已完成”声明登记签字并提交；保留既有未跟踪文件，未推送/部署或引入Phase3逻辑。
+- **已完成**：126核心字经6批release工具写入逐项哈希签字；107实际语境录音听审登记，19专项scope哈希签收；15支持页面签字，精确发布141个页面。场景文本发布门槛与物理音频拆开，已签字页面移除过期“文字待审”提示，禁播缺音保留。
+- **修改文件列表**：`data/editorial/{review-decisions,mvp-acceptance}.json`、`data/scenarios/scenarios.json`；`site/release.json`、`site/hsk-data.mjs`、`site/pages/{dictionary,pinyin-chart,scenarios}.mjs`；`scripts/validate-hsk-data.mjs`；`tests/{dictionary,hsk-scenarios,seo-quality}.test.mjs`；`docs/hanzifun-rebuild/{TASKS,PROGRESS}.md`、`tasks/HF-{02,04,07,08,09}-*.md`；`acceptance/{phase-1,phase-1-checklist,phase-1-signoff}.md`及`evidence/hf09/`生成的gate/review-inventory/manual-scopes、browser/HF06/HF08、HTTP/benchmark与新增phase-1-release.json收据（具体清单以本次git提交为准）。
+- **验证**：production构建1546文件；npm test **138/138**；SEO PASS；严格`validate-mvp-gate --browser --require-human`退出0，工程/完整候选均PASS、人工阻断0；四构建确定性、数据/HSK、18项Workers及完整Chrome/八课回归全部通过。production **141可索引页面／141 Sitemap URL**，staging/local为空；私有功能页仍noindex。输入SHA-256 `2c4db69d5f2ca25ffd3d4a7f953850267f46d4424c658f1eb2eb521a2dd770cb`。
+- **遗留/诚实边界**：213补充字教学编辑实际仍为空，继续预览并移交HF-14；物理缺音保留missing/按钮禁用。负责人签字依据及未提供详细设备版本的证据限制明确记录，不伪造Codex独立人工观测。现存localStorage容量/冷加载与线上性能边界不变。HF-02/04/07/08/09挂起人工验收正式关闭，Completed/PASS仅适用于本次签发范围；不代表远端已上线。
+- **下一个Agent精确切入点**：先读本记录、TASKS、`acceptance/phase-1.md`及`phase-1-signoff.md`，再执行HF-17发布/回滚准备，后续HF-18实际部署/生产冒烟；保持本release索引范围，补充字必须先完成Tier2再哈希签发，不能为放行盲改审批hash。

@@ -8,9 +8,9 @@
       "supplemental": false,
       "contentSha256": "4d1e11c995fa8c3579eb979c0939566d564791972ee7afcef62eb1b2fd65caa0",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -20,9 +20,9 @@
       "supplemental": false,
       "contentSha256": "22c240db34a1ffa663542495002b40f985f2d9e643a85ed657e772388e4ecb40",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -32,9 +32,9 @@
       "supplemental": false,
       "contentSha256": "243caabb6c5e101b4171e1e8e65b6b1071a26be9a86821497c90e7dab5f4e44b",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -44,9 +44,9 @@
       "supplemental": false,
       "contentSha256": "7bf36c8d5feae869727c0c9fe096823a2fc7cfe307a57caab446be13203e054e",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -56,9 +56,9 @@
       "supplemental": false,
       "contentSha256": "4fdd38d3c821a1566e7ab55c4a52fd05ca857187a3ec78fc363b08088323529b",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -68,9 +68,9 @@
       "supplemental": false,
       "contentSha256": "54ff75d4bd43bd3456ce4ccc4087a78fe25c75e8a1e84f84a277c6255d9e3e73",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -80,9 +80,9 @@
       "supplemental": false,
       "contentSha256": "8ec79f6047c35bf282a26f81f0c27d6d7cbf260aa9f3296360c154409d9b65b7",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -92,9 +92,9 @@
       "supplemental": false,
       "contentSha256": "3945cd8ec0fdfc2a8a4cf7b45a3f74c610fe62e2855341331c627706b296b804",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -104,9 +104,9 @@
       "supplemental": false,
       "contentSha256": "4a0632dc65572194e6081b1b17a8c81f2b32a847770a57f8c5f8ba4a8e7b002a",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -116,9 +116,9 @@
       "supplemental": false,
       "contentSha256": "134555e6b9a9e2e7794b8104bf144723d76e37abb8f9697d4e57cafa95cdb4ba",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -128,9 +128,9 @@
       "supplemental": false,
       "contentSha256": "8a2b6827337f615fb0614980ac4251d3709064bde43df00ba909f39cdc0a8b72",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -140,9 +140,9 @@
       "supplemental": false,
       "contentSha256": "67c3882c4ce0e426c9e99391275170a3599199fc4f415d677ef2784e9c4ee27e",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -152,9 +152,9 @@
       "supplemental": false,
       "contentSha256": "6b6a560c6d6858aa652187d9af236d9be923202e02ac805d7b6f2edc016ef644",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -164,9 +164,9 @@
       "supplemental": false,
       "contentSha256": "d88c167b8f427ca3f2cdb85b8dc1ef93cb163c50989b751b9c85c051b108aaf3",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -176,9 +176,9 @@
       "supplemental": false,
       "contentSha256": "31116fc5d6a32cf003424a0483a23b50cbc76c7fca86596bda12f30c3be66f60",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -188,9 +188,9 @@
       "supplemental": false,
       "contentSha256": "f61da43b72c967aef13f3d1a69086c29f8b8738fc6549d33a8429cdcf4946f74",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -200,9 +200,9 @@
       "supplemental": false,
       "contentSha256": "81dc01890e377c0410260cee3640f248cdb66bf569bdc7700e954785ca6db0e5",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -212,9 +212,9 @@
       "supplemental": false,
       "contentSha256": "dbcffdfef96b5586fc9095bdeafeb8b41a7ad17ec4ff91adcc7e2f5c2ae474e5",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -224,9 +224,9 @@
       "supplemental": false,
       "contentSha256": "bd55f7067992c6b65f8f616171854d583bc16540331631b3c56c1f752a64efc4",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -236,9 +236,9 @@
       "supplemental": false,
       "contentSha256": "dccf40a6dc648e2b1644abf12896d26d4f6e7432a4cb63993da630b78a7bc4c7",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -248,9 +248,9 @@
       "supplemental": false,
       "contentSha256": "2d10b5ad1fe17b16700135df0e6f91bd4b4a21b5ae0069420e3f4b722c518133",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -260,9 +260,9 @@
       "supplemental": false,
       "contentSha256": "4c11b21259d6536672ac4a8ff9a14fc9b572653a1e08135668e5152c5014b60e",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -272,9 +272,9 @@
       "supplemental": false,
       "contentSha256": "40b27387bc47ef8c0d396e984778ffd760965a0bbfbdfca218a5449dbe3c0bc3",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -284,9 +284,9 @@
       "supplemental": false,
       "contentSha256": "a4f1639daa08acee24ae089c31458172c0c8c1af3f6b10ddba8d445abf5c438a",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -296,9 +296,9 @@
       "supplemental": false,
       "contentSha256": "aff6a151c60b0f8c79329e4c146c8d85770050785b4ef1b6a031eb89534668d8",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -308,9 +308,9 @@
       "supplemental": false,
       "contentSha256": "3cd7aa179822cf94620172cc60020309f3658d4260c99c3311aa6d46d07de3b9",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -320,9 +320,9 @@
       "supplemental": false,
       "contentSha256": "993be9450468fd4dea074e4fd47d1edbedc994bb0260f37534116218c1ff3c71",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -332,9 +332,9 @@
       "supplemental": false,
       "contentSha256": "f40405c99a150b61b29314de7adf6cbfd528dd7d35719aa03cf08adea05c5470",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -344,9 +344,9 @@
       "supplemental": false,
       "contentSha256": "7dae94569b4437dd899dff2253b50960511b5d5aa9a88ecbef1509fb7d9ea397",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -356,9 +356,9 @@
       "supplemental": false,
       "contentSha256": "b8020d1aa0047e0f93c6952ed938a1ff599e7c7c95baef245fb844b1cacaa314",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -368,9 +368,9 @@
       "supplemental": false,
       "contentSha256": "cbe24e1771efd3c03bb514a50e55631ef203fad6790e868bf0e80a38d9a9b772",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -380,9 +380,9 @@
       "supplemental": false,
       "contentSha256": "08a19c5ce917c4b448e8bfa51c527517eba1e75c48da476b3db643af98d891e3",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -392,9 +392,9 @@
       "supplemental": false,
       "contentSha256": "b56c600a34490dcd6814d1062da34fa9555f09f8df4a13d64254dbc0d55cd9ef",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -404,9 +404,9 @@
       "supplemental": false,
       "contentSha256": "bfdcf4fff34b89b44cf87b5b0ee2a3c96bc1d40924254c8789482f40226f09d4",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -416,9 +416,9 @@
       "supplemental": false,
       "contentSha256": "897f4317980c9df0f538bf9cdc92f08032f1104f14c32d1022e54b8582a3e812",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -428,9 +428,9 @@
       "supplemental": false,
       "contentSha256": "3807d7f7bc754fc625477a92040c032322f8056f50874da6f95a86be0fe2f895",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -440,9 +440,9 @@
       "supplemental": false,
       "contentSha256": "c156ef3c75c411681c48b8c8fd14e51908ff44dc00a4ed303a9418795aeb0a34",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -452,9 +452,9 @@
       "supplemental": false,
       "contentSha256": "65ad0aa90518945a4e284b530a43dfce84a8ce646bee05267969b8bb764058b7",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -464,9 +464,9 @@
       "supplemental": false,
       "contentSha256": "5341685fb7fd3f6c2256ba1972e5c781a1f6cf0717bf2fce4d683e0a5b8290c1",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -476,9 +476,9 @@
       "supplemental": false,
       "contentSha256": "19a1aca2e0542f50649ec6bc3c2382ec29bb0bce3e8a61bb797f47cb658ddcc5",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -488,9 +488,9 @@
       "supplemental": false,
       "contentSha256": "73f02fafc947c1c446a5d4e87f21094f4b2d5a2d841679674973eee2b7df9e8a",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -500,9 +500,9 @@
       "supplemental": false,
       "contentSha256": "488799e86690568a9f168bdc54bf862d39923b7d9d0e689055521722a107ce0b",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -512,9 +512,9 @@
       "supplemental": false,
       "contentSha256": "86371e47c8ec4a584084bfeb1babf932328af8b31122c4f2f4599dd71dc87bd0",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -524,9 +524,9 @@
       "supplemental": false,
       "contentSha256": "9c86d832f9c7aec9735ceba197f4fcba13db8fa7594476582ae52db7ab4c06ae",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -536,9 +536,9 @@
       "supplemental": false,
       "contentSha256": "17f814f340f866d9059dda703582ae21c7b5183f7865447c42fb7f74abceed10",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -548,9 +548,9 @@
       "supplemental": false,
       "contentSha256": "dc12266a91402555b3cd4d5ae9d1de1d0c24a28824bb04dd0b8d520c79c3817e",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -560,9 +560,9 @@
       "supplemental": false,
       "contentSha256": "89a2c5482c7298686111de6c808872aed2c9c2e321c5564bf07e494b9f2151d0",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -572,9 +572,9 @@
       "supplemental": false,
       "contentSha256": "c10aad8e027edfcd486f5e71547688e9838f7adb078e086d53d1a9c8699708cc",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -584,9 +584,9 @@
       "supplemental": false,
       "contentSha256": "232853b3b1268d133a68979b2542de3b5cb5c38e9f94569f525ea38346321e0f",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -596,9 +596,9 @@
       "supplemental": false,
       "contentSha256": "947f466907ed00ca1099af4459df58dcaea8a8d3390a3d01e8f5639a8acd1228",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -608,9 +608,9 @@
       "supplemental": false,
       "contentSha256": "a1a4106a256424f2869e44f63f5adca1d99cb9a8d47c63f63bbc4634ad8185ab",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -620,9 +620,9 @@
       "supplemental": false,
       "contentSha256": "ec9107b99694a6ab05ca157db42a4f82471ee76a0e44edde846e72c24ec96c3e",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -632,9 +632,9 @@
       "supplemental": false,
       "contentSha256": "7fde55fa39cab2a0f7a974d6f10479a8fd43a7d4e7897e899ad7da063e2c1e9d",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -644,9 +644,9 @@
       "supplemental": false,
       "contentSha256": "9f3eca65433d5da865a9dd4d38da2408450b3ef5dcefa400d0ee8aae1de9347f",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -656,9 +656,9 @@
       "supplemental": false,
       "contentSha256": "6a88ca1e0e76d2a76844264d17a20618fbad992221899f378d10f2d2d7b0df70",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -668,9 +668,9 @@
       "supplemental": false,
       "contentSha256": "ad14f87fd0c24f2c13af18627b1f8b7639400f4a6c5f5ce96b83882859cb27fd",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -680,9 +680,9 @@
       "supplemental": false,
       "contentSha256": "e5910d93ca238e756e82e8dd9d5e23e1ad1a5618b0dc41a5a51e7271421aed4d",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -692,9 +692,9 @@
       "supplemental": false,
       "contentSha256": "6d44daa7eb5df954541ab86c0a6caf224310c3f4da6fb3ce4374eb3716a7a171",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -704,9 +704,9 @@
       "supplemental": false,
       "contentSha256": "445ade61a35c7decc31338ea91db86af915e0eb39abd40c812b2081a9928ea63",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -716,9 +716,9 @@
       "supplemental": false,
       "contentSha256": "1121adc5d02595de02bb0bce7bd6bc8248ed1343a7303374403d16617e68475f",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -728,9 +728,9 @@
       "supplemental": false,
       "contentSha256": "c3a86504e674dfe5229998a3827d6a332149e6fd1c86531f185b10f62e0f2b75",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -740,9 +740,9 @@
       "supplemental": false,
       "contentSha256": "7c72ec82a7ce3a78d2374c7fc70e746a041b5547af9214267ad810a5239a2d3b",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -752,9 +752,9 @@
       "supplemental": false,
       "contentSha256": "e7453f740eb8845bc1bc090fbe3ef0a04c5d79ab68c0795461dfc28c24255c15",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -764,9 +764,9 @@
       "supplemental": false,
       "contentSha256": "1598a93d7f9814f24582d911309d594e41cefeeb46c6b5bb507d1a5674094e75",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -776,9 +776,9 @@
       "supplemental": false,
       "contentSha256": "d3ee8c22a5b38f3a7d43e12b743e60e91fb6c81a62e84b7ae7e91e79bec346f7",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -788,9 +788,9 @@
       "supplemental": false,
       "contentSha256": "415fbe06ebf690bbe6223cec952a446d3c5ceed0bc4456b962451693f11a2940",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -800,9 +800,9 @@
       "supplemental": false,
       "contentSha256": "4046bc8bd61cca3e346c59d3458750c36345c206d903f8e6b6c7ba734ea75ac3",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -812,9 +812,9 @@
       "supplemental": false,
       "contentSha256": "359e7f981ed59e2befe390599c1941e243d492429a6fb0bde5f06437919139f1",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -824,9 +824,9 @@
       "supplemental": false,
       "contentSha256": "ad8c91839abb228209557bb1137a4c166abee3f995263d19c566546fe6ef98f7",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -836,9 +836,9 @@
       "supplemental": false,
       "contentSha256": "f32cae306281b733cf39267474aa997468f1a0cae0019e6f20d9ec09f141b8b5",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -848,9 +848,9 @@
       "supplemental": false,
       "contentSha256": "4f1b95daef61935a91fd430a23f8067f389d0293e6850407c46c20736225c15d",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -860,9 +860,9 @@
       "supplemental": false,
       "contentSha256": "19abd53a5ca90139ac20d6cbe0f519eed080643327e5f81f9bb849eedcc53d39",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -872,9 +872,9 @@
       "supplemental": false,
       "contentSha256": "ec8a6f990442c864ca5f260aec528b3853bb1231f53dea0907357bd089e6d1fb",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -884,9 +884,9 @@
       "supplemental": false,
       "contentSha256": "6f503d25df1f223aa596601ca5a3d8da694b0f153f718c96145dd927c970bb6c",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -896,9 +896,9 @@
       "supplemental": false,
       "contentSha256": "bfd02da6935ae4b04aad643d0a29864eb729d0eabb9bb3df7e85c0136838c5da",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -908,9 +908,9 @@
       "supplemental": false,
       "contentSha256": "9c33294a9a2f02abf5fb38e88707105f6d2506f89fca72f43333e552caabe447",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -920,9 +920,9 @@
       "supplemental": false,
       "contentSha256": "fdc9162f0e40d5fbcf207f46e3f2821133018489e0a6e330c5262eb7431eeac9",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -932,9 +932,9 @@
       "supplemental": false,
       "contentSha256": "d83d94f745ec7ff8ab7f16290da20d9f452b437b5d789dbd042f9a83528a585b",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -944,9 +944,9 @@
       "supplemental": false,
       "contentSha256": "c8365921772d54a4a116d5be2f658ce860e23ecc578842ab99fdb5f63230e974",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -956,9 +956,9 @@
       "supplemental": false,
       "contentSha256": "d1943584f90841c50599280f02aa1aad302b63602e4b40dc06075d68320e2a56",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -968,9 +968,9 @@
       "supplemental": false,
       "contentSha256": "6d0f43261eb189a0ef179948f006358a7020c6b386347b5f4c59e4be4a8cf342",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -980,9 +980,9 @@
       "supplemental": false,
       "contentSha256": "8d8d0db33a82c423ed045801a4db41e57f1945ec5988b67301fb1a0c67817e2a",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -992,9 +992,9 @@
       "supplemental": false,
       "contentSha256": "139a9f8e270ad482a9f1797cec794e6973df51071d10b0c8b8b4b86288d350a0",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1004,9 +1004,9 @@
       "supplemental": false,
       "contentSha256": "f202492c79e884458aaa7798c28bc66be83cd2a9cd35c2584e5bbd8173132d41",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1016,9 +1016,9 @@
       "supplemental": false,
       "contentSha256": "40d10e20e2ebf5887d12f076882cd3c7cf6cfc9c4f54f962dca1ca4a8b047a99",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1028,9 +1028,9 @@
       "supplemental": false,
       "contentSha256": "9a2fd4450482cfa8f0e27c11bd1431353aa47116140ec7ea6ad972c02c7d2fb4",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1040,9 +1040,9 @@
       "supplemental": false,
       "contentSha256": "5662a27c88d8fcb5dc534357bea4fbda190080319a41d72ebad254bf33d74fc3",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1052,9 +1052,9 @@
       "supplemental": false,
       "contentSha256": "7a27a94536afaa64b827521b7da3252419e53de3d6038a4c4a4c426b87bdc733",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1064,9 +1064,9 @@
       "supplemental": false,
       "contentSha256": "cc6bee577451b78e615fc7825abafb5b6820499590e5a6482a4bae094c2a4f19",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1076,9 +1076,9 @@
       "supplemental": false,
       "contentSha256": "0d4caf8e904020827565977df6c28f7a5731023ce71737f98ddd3d7e777cdd5a",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1088,9 +1088,9 @@
       "supplemental": false,
       "contentSha256": "1c2862ec9f89c58de8c48d847aabd7c21de8e3efd758a8aa43f54d3a3f630fb8",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1100,9 +1100,9 @@
       "supplemental": false,
       "contentSha256": "0b9591f6306e461f50e2d71fba7ec5160226cf600fef25829887320d1d83959b",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1112,9 +1112,9 @@
       "supplemental": false,
       "contentSha256": "748d0ae460d366d81ea9ef7bd77c91acbab8d5ae1331746df9e82375d35d18d1",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1124,9 +1124,9 @@
       "supplemental": false,
       "contentSha256": "571084a0306565fb461b7b7302b770f06533cab9ec4d16960ec99d8cf31513d4",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1136,9 +1136,9 @@
       "supplemental": false,
       "contentSha256": "3c01a1632217e6c7aaf7e7908f8b5c77254f07b27c4b3d8ad752a4bd649653cd",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1148,9 +1148,9 @@
       "supplemental": false,
       "contentSha256": "a8254c2fa0807561455ecbadf521c6827a975d9352c0ab67e99ebf259fd6be3a",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1160,9 +1160,9 @@
       "supplemental": false,
       "contentSha256": "12e44263921a63dd6cff9fff362d20ccc6c16303c0ce29a619cab7aec40a549d",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1172,9 +1172,9 @@
       "supplemental": false,
       "contentSha256": "345f1fb5fb140d7f8bd9c04ccd6192524b377047a34e8d443fb9c312e53fea4d",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1184,9 +1184,9 @@
       "supplemental": false,
       "contentSha256": "6fc01606e7ac3943b0e67ecfd0d9d5bb5b660c8480eb7e28dcaf33a1e4b336cc",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1196,9 +1196,9 @@
       "supplemental": false,
       "contentSha256": "5f0ff8a33b77c7a2a44c8f531734862fb021f4155597781ba280e4b89a4b7441",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1208,9 +1208,9 @@
       "supplemental": false,
       "contentSha256": "781b209fcb77e95d9e8e154934fd578307b016699db11f14a7458f20015041b0",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1220,9 +1220,9 @@
       "supplemental": false,
       "contentSha256": "943dcfd332b95d790ac0a39eb1456060be625db370ecc0d11ce6c2fbfb559515",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1232,9 +1232,9 @@
       "supplemental": false,
       "contentSha256": "f6d6a8ee822c0bf7d6af16bda7888d7a134c312abe4c3958ba1d4b0ddda6e4ce",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1244,9 +1244,9 @@
       "supplemental": false,
       "contentSha256": "cac05ca1b388a12703835cb079f65f34b600e04e76b8e50bdca104cabaf4c384",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1256,9 +1256,9 @@
       "supplemental": false,
       "contentSha256": "4130050651fd2282876e0d6ac196b5afd5104e6edad0e999b11aaf06a53a6c11",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1268,9 +1268,9 @@
       "supplemental": false,
       "contentSha256": "d4d78bb82697c902a4e19775ee8b6788b2ca1515de0e87156eb81a762d1d37bb",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1280,9 +1280,9 @@
       "supplemental": false,
       "contentSha256": "d74d3674fdc68704ed955c3e82b166ca144696616fe6551b25ae69d81fac1c8e",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "approved",
       "issues": []
     },
     {
@@ -1292,9 +1292,9 @@
       "supplemental": false,
       "contentSha256": "18cf67766807291f26f649c8f9b492e555b7276de91a87dd04db9b4067060675",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1304,9 +1304,9 @@
       "supplemental": false,
       "contentSha256": "e8e082d87654a8fd4d367ba915c7c5e78dc09b1df986db9ab5c3966a0314d1ed",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1316,9 +1316,9 @@
       "supplemental": false,
       "contentSha256": "0afa2f42a0fa7db3de38e4191190a1cef3f0e70837e757adf5817b2ce2edd271",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1328,9 +1328,9 @@
       "supplemental": false,
       "contentSha256": "779a5d925576938707df6ed2e3f0e2c1064b0f4e01bd728c6aefce5b9fa9e4cf",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1340,9 +1340,9 @@
       "supplemental": false,
       "contentSha256": "ed7534facf73a51f3febd1e4943da8d9eb73fbec90db7fe2ce89cde6179341a2",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1352,9 +1352,9 @@
       "supplemental": false,
       "contentSha256": "63040676b8aeb4527a3c3fea074d9216429d72f1911a704442e330ee3398078f",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1364,9 +1364,9 @@
       "supplemental": false,
       "contentSha256": "bcab859f6ab2688eee7fd4d9d8fe34f4f28e9d1e2255b2aff6153a3230fc4195",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1376,9 +1376,9 @@
       "supplemental": false,
       "contentSha256": "02fb63668a790699f02aae35cd3e0b9f68044d165503367ede2765b5c3bba314",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1388,9 +1388,9 @@
       "supplemental": false,
       "contentSha256": "6910903a012818988d6900e2d36b7210dae2d352d0facb5453e581b9789b1da2",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1400,9 +1400,9 @@
       "supplemental": false,
       "contentSha256": "aee7d2e8de09b3abddf61dc77da788359e8b5f349845685d13098541305c3a34",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1412,9 +1412,9 @@
       "supplemental": false,
       "contentSha256": "97b7c265d78d41b3f641e4e19a91d5f9a625b8fde617335402c1d0cb6df21d60",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1424,9 +1424,9 @@
       "supplemental": false,
       "contentSha256": "ee943826c0323d44ad01b9c93641d6ed4a84836420185c13a63458db5da092e3",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1436,9 +1436,9 @@
       "supplemental": false,
       "contentSha256": "1582fdc2dbbcd515763fe9b0bbb12441189253190454dd56026886c3e91fdf5c",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1448,9 +1448,9 @@
       "supplemental": false,
       "contentSha256": "4a3c276cc7e3978ff661479d1428efb061e2472ef516c4c50bfc45f3accfe008",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1460,9 +1460,9 @@
       "supplemental": false,
       "contentSha256": "95b41600dc42d2bf6b2d03f86491c190c7f6df49304921d64c92683637137510",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1472,9 +1472,9 @@
       "supplemental": false,
       "contentSha256": "6db122756be9500db53a8c9c9949d9b47e45edc281ff3d394f6d95e4e2b18984",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1484,9 +1484,9 @@
       "supplemental": false,
       "contentSha256": "964d86b76460011f1e38684a25bce4a3cfb4566c9c51c079632fafeee3a6e026",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1496,9 +1496,9 @@
       "supplemental": false,
       "contentSha256": "1c75794a5b4abd5f1050f668604b19d8963f2a929741d1ab1dd17d9905816f2c",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1508,9 +1508,9 @@
       "supplemental": false,
       "contentSha256": "2a3b47b068cace87e9a2e8e49ab4fee12b1ffdc9cf825db90b206b87d4c77744",
       "contentComplete": true,
-      "accepted": false,
+      "accepted": true,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": []
     },
     {
@@ -1522,7 +1522,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1544,7 +1544,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1566,7 +1566,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1588,7 +1588,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1610,7 +1610,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1632,7 +1632,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1654,7 +1654,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1676,7 +1676,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1698,7 +1698,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1720,7 +1720,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1742,7 +1742,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1764,7 +1764,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1786,7 +1786,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1808,7 +1808,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1830,7 +1830,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1852,7 +1852,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1874,7 +1874,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1896,7 +1896,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1918,7 +1918,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1940,7 +1940,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1962,7 +1962,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -1984,7 +1984,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2006,7 +2006,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2028,7 +2028,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2050,7 +2050,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2072,7 +2072,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2094,7 +2094,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2116,7 +2116,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2138,7 +2138,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2160,7 +2160,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2182,7 +2182,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2204,7 +2204,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2226,7 +2226,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2248,7 +2248,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2270,7 +2270,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2292,7 +2292,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2314,7 +2314,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2336,7 +2336,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2358,7 +2358,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2380,7 +2380,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2402,7 +2402,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2424,7 +2424,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2446,7 +2446,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2468,7 +2468,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2490,7 +2490,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2512,7 +2512,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2534,7 +2534,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2556,7 +2556,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2578,7 +2578,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2600,7 +2600,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2622,7 +2622,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2644,7 +2644,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2666,7 +2666,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2688,7 +2688,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2710,7 +2710,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2732,7 +2732,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2754,7 +2754,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2776,7 +2776,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2798,7 +2798,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2820,7 +2820,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2842,7 +2842,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2864,7 +2864,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2886,7 +2886,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2908,7 +2908,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2930,7 +2930,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2952,7 +2952,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2974,7 +2974,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -2996,7 +2996,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3018,7 +3018,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3040,7 +3040,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3062,7 +3062,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3084,7 +3084,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3106,7 +3106,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3128,7 +3128,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3150,7 +3150,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3172,7 +3172,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3194,7 +3194,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3216,7 +3216,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3238,7 +3238,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3260,7 +3260,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3282,7 +3282,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3304,7 +3304,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3326,7 +3326,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3348,7 +3348,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3370,7 +3370,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3392,7 +3392,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3414,7 +3414,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3436,7 +3436,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3458,7 +3458,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3480,7 +3480,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3502,7 +3502,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3524,7 +3524,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3546,7 +3546,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3568,7 +3568,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3590,7 +3590,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3612,7 +3612,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3634,7 +3634,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3656,7 +3656,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3678,7 +3678,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3700,7 +3700,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3722,7 +3722,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3744,7 +3744,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3766,7 +3766,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3788,7 +3788,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3810,7 +3810,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3832,7 +3832,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3854,7 +3854,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3876,7 +3876,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3898,7 +3898,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3920,7 +3920,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3942,7 +3942,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3964,7 +3964,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -3986,7 +3986,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4008,7 +4008,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4030,7 +4030,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4052,7 +4052,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4074,7 +4074,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4096,7 +4096,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4118,7 +4118,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4140,7 +4140,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4162,7 +4162,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4184,7 +4184,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4206,7 +4206,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4228,7 +4228,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4250,7 +4250,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4272,7 +4272,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4294,7 +4294,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4316,7 +4316,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4338,7 +4338,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4360,7 +4360,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4382,7 +4382,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4404,7 +4404,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4426,7 +4426,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4448,7 +4448,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4470,7 +4470,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4492,7 +4492,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4514,7 +4514,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4536,7 +4536,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4558,7 +4558,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4580,7 +4580,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4602,7 +4602,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4624,7 +4624,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4646,7 +4646,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4668,7 +4668,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4690,7 +4690,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4712,7 +4712,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4734,7 +4734,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4756,7 +4756,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4778,7 +4778,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4800,7 +4800,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4822,7 +4822,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4844,7 +4844,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4866,7 +4866,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4888,7 +4888,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4910,7 +4910,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4932,7 +4932,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4954,7 +4954,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4976,7 +4976,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -4998,7 +4998,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5020,7 +5020,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5042,7 +5042,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5064,7 +5064,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5086,7 +5086,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5108,7 +5108,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5130,7 +5130,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5152,7 +5152,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5174,7 +5174,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5196,7 +5196,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5218,7 +5218,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5240,7 +5240,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5262,7 +5262,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5284,7 +5284,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5306,7 +5306,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5328,7 +5328,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5350,7 +5350,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5372,7 +5372,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5394,7 +5394,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5416,7 +5416,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5438,7 +5438,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5460,7 +5460,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5482,7 +5482,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5504,7 +5504,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5526,7 +5526,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5548,7 +5548,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5570,7 +5570,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5592,7 +5592,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5614,7 +5614,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5636,7 +5636,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5658,7 +5658,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5680,7 +5680,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5702,7 +5702,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5724,7 +5724,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5746,7 +5746,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5768,7 +5768,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5790,7 +5790,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5812,7 +5812,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5834,7 +5834,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5856,7 +5856,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5878,7 +5878,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5900,7 +5900,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5922,7 +5922,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5944,7 +5944,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5966,7 +5966,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -5988,7 +5988,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -6010,7 +6010,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -6032,7 +6032,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -6054,7 +6054,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -6076,7 +6076,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -6098,7 +6098,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -6120,7 +6120,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -6142,7 +6142,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -6164,7 +6164,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",
@@ -6186,7 +6186,7 @@
       "contentComplete": false,
       "accepted": false,
       "targetTier": "Tier2",
-      "audioListening": "pending",
+      "audioListening": "missing",
       "issues": [
         "Missing teaching readingId",
         "Missing teaching meaning",

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-26",
+  "environment": "production",
+  "pages": 401,
+  "indexablePages": 141,
+  "sitemapUrls": 141,
+  "seoErrors": [],
+  "privatePages": [
+    {
+      "path": "search/index.html",
+      "noindex": true
+    },
+    {
+      "path": "account/index.html",
+      "noindex": true
+    },
+    {
+      "path": "404.html",
+      "noindex": true
+    },
+    {
+      "path": "flashcards/index.html",
+      "noindex": true
+    }
+  ],
+  "pinyinDisabledAudioButtons": 1323,
+  "scenarios": [
+    {
+      "path": "scenarios/travel/restaurant/index.html",
+      "disabledButtons": 3
+    },
+    {
+      "path": "scenarios/business/icebreakers/index.html",
+      "disabledButtons": 3
+    }
+  ],
+  "existingContextualAudioAssets": 107,
+  "audioHashErrors": [],
+  "releaseSha256": "01b5570cc11a1bd270110d630dd421f833f8600c4ce38f44eb913f89ef440be3",
+  "sitemapSha256": "f37d9f0b8b132eea1db7a38c9ef0cf2b0b097e046b1dd4d2909d57e90f83813a"
+}

@@ -26,5 +26,5 @@ export function assertPublicationReady(route){
   const facts=readJson('data/hsk/source-headwords.json');
   if(facts.hsk2.length!==150||facts.hsk3.vocabulary.length!==300||facts.hsk3.recognition.length!==246||facts.hsk3.writing.length!==100||coverage.lists.some(l=>l.mappedCount!==l.sourceCount)||coverage.missing.length)throw Error('Incomplete HSK source mapping');
  }
- if(scenarioData.scenarios.some(s=>s.path===route.path)&&scenarioData.audio.reviewStatus!=='approved')throw Error('Scenario listening acceptance pending');
+ if(scenarioData.scenarios.some(s=>s.path===route.path)&&scenarioData.review.humanAcceptance!=='approved')throw Error('Scenario human language acceptance pending');
 }

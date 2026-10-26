@@ -1,3 +1,4 @@
+import {scenarioData} from '../site/hsk-data.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -35,7 +36,8 @@ test('effective indexing fails closed in staging/local and refuses private publi
  for(const p of ['/account/','/search/','/sign-in/','/flashcards/?session=secret','/404.html'])assert.throws(()=>effectivePolicy({...published,path:p},'production'),/Unsafe indexable/);
  assert.throws(()=>buildEnvironment('prodution'),/Unknown/);
  assert.equal(buildEnvironment('local'),'local');
- assert.throws(()=>assertEditorialReady({path:'/scenarios/travel/restaurant/',indexing:'index'}),/human language acceptance pending/);
+ const old=scenarioData.review.humanAcceptance;try{scenarioData.review.humanAcceptance='pending';assert.throws(()=>assertEditorialReady({path:'/scenarios/travel/restaurant/',indexing:'index'}),/human language acceptance pending/);}finally{scenarioData.review.humanAcceptance=old;}
+ assert.doesNotThrow(()=>assertEditorialReady({path:'/scenarios/travel/restaurant/',indexing:'index'}));
  assert.throws(()=>effectivePolicy({...published,robots:'noindex,follow'},'production'),/Contradictory/);
  assert.equal(canonicalUrl('/stroke-order/?char=水#play',origin),origin+'/stroke-order/');assert.equal(canonicalUrl('/dictionary/水/?returnTo=secret',origin),origin+'/dictionary/%E6%B0%B4/');
 });

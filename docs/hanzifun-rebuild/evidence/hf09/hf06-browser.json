@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
   "browser": "155.0.8059.85",
-  "origin": "http://127.0.0.1:55776",
+  "origin": "http://127.0.0.1:53049",
   "publicBuild": "/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun/.cache/hf09/production",
   "checks": [
     "web-locks: dictionary save → practice → again → reload completion once",

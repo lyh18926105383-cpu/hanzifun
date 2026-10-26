@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-26T03:22:24.198Z",
-  "origin": "http://127.0.0.1:56113",
+  "date": "2026-10-26T06:21:21.840Z",
+  "origin": "http://127.0.0.1:53440",
   "engine": "155.0.8059.85",
   "axeVersion": "4.10.3",
   "checks": [
@@ -549,21 +549,27 @@
     {
       "route": "/",
       "run": 1,
-      "lcp": 696,
+      "lcp": 720,
       "cls": 0,
-      "domContentLoaded": 689.9000000357628,
+      "domContentLoaded": 709.5,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
         },
         {
           "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
         },
         {
           "name": "/site-assets/site-data.hf03-v1.js",
@@ -576,12 +582,6 @@
           "transferSize": 1068,
           "encodedBodySize": 768,
           "decodedBodySize": 2182
-        },
-        {
-          "name": "/site-assets/site-preview.hf03-v1.js",
-          "transferSize": 2806,
-          "encodedBodySize": 2506,
-          "decodedBodySize": 6580
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -612,21 +612,21 @@
     {
       "route": "/",
       "run": 2,
-      "lcp": 692,
+      "lcp": 700,
       "cls": 0,
-      "domContentLoaded": 682.3999999761581,
+      "domContentLoaded": 696.2999999523163,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
         },
         {
-          "name": "/site-assets/navigation.hf03-v1.mjs",
-          "transferSize": 1068,
-          "encodedBodySize": 768,
-          "decodedBodySize": 2182
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
         },
         {
           "name": "/site-assets/site-preview.hf03-v1.js",
@@ -641,10 +641,10 @@
           "decodedBodySize": 10884
         },
         {
-          "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -675,21 +675,27 @@
     {
       "route": "/",
       "run": 3,
-      "lcp": 692,
+      "lcp": 752,
       "cls": 0,
-      "domContentLoaded": 686.2999999523163,
+      "domContentLoaded": 730.6999999880791,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
         },
         {
           "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
         },
         {
           "name": "/site-assets/navigation.hf03-v1.mjs",
@@ -702,12 +708,6 @@
           "transferSize": 2806,
           "encodedBodySize": 2506,
           "decodedBodySize": 6580
-        },
-        {
-          "name": "/site-assets/site-data.hf03-v1.js",
-          "transferSize": 4496,
-          "encodedBodySize": 4196,
-          "decodedBodySize": 10884
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -738,21 +738,27 @@
     {
       "route": "/dictionary/水/",
       "run": 1,
-      "lcp": 612,
+      "lcp": 652,
       "cls": 0,
-      "domContentLoaded": 777.9000000357628,
+      "domContentLoaded": 643,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
         },
         {
           "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
         },
         {
           "name": "/site-assets/site-preview.hf03-v1.js",
@@ -765,12 +771,6 @@
           "transferSize": 4496,
           "encodedBodySize": 4196,
           "decodedBodySize": 10884
-        },
-        {
-          "name": "/site-assets/navigation.hf03-v1.mjs",
-          "transferSize": 1068,
-          "encodedBodySize": 768,
-          "decodedBodySize": 2182
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -821,22 +821,22 @@
           "decodedBodySize": 481
         },
         {
-          "name": "/site-assets/hf06/learning/legacy-import.mjs",
-          "transferSize": 1897,
-          "encodedBodySize": 1597,
-          "decodedBodySize": 4244
-        },
-        {
           "name": "/site-assets/hf06/learning/repository.mjs",
           "transferSize": 5314,
           "encodedBodySize": 5014,
           "decodedBodySize": 16712
         },
         {
+          "name": "/site-assets/hf06/learning/legacy-import.mjs",
+          "transferSize": 1897,
+          "encodedBodySize": 1597,
+          "decodedBodySize": 4244
+        },
+        {
           "name": "/site-assets/hf06/learning/session.mjs",
-          "transferSize": 2001,
-          "encodedBodySize": 1701,
-          "decodedBodySize": 5407
+          "transferSize": 1993,
+          "encodedBodySize": 1693,
+          "decodedBodySize": 5386
         },
         {
           "name": "/site-assets/hf06/learning/events.mjs",
@@ -846,9 +846,9 @@
         },
         {
           "name": "/site-assets/hf06/client/flashcards.mjs",
-          "transferSize": 3167,
-          "encodedBodySize": 2867,
-          "decodedBodySize": 8436
+          "transferSize": 3280,
+          "encodedBodySize": 2980,
+          "decodedBodySize": 8723
         },
         {
           "name": "/site-assets/hf06/learning/scheduler.mjs",
@@ -873,21 +873,21 @@
     {
       "route": "/dictionary/水/",
       "run": 2,
-      "lcp": 624,
+      "lcp": 684,
       "cls": 0,
-      "domContentLoaded": 806.5999999642372,
+      "domContentLoaded": 858.8000000119209,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
         },
         {
-          "name": "/site-assets/site-preview.hf03-v1.js",
-          "transferSize": 2806,
-          "encodedBodySize": 2506,
-          "decodedBodySize": 6580
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
         },
         {
           "name": "/site-assets/site-data.hf03-v1.js",
@@ -896,16 +896,16 @@
           "decodedBodySize": 10884
         },
         {
-          "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
-        },
-        {
           "name": "/site-assets/navigation.hf03-v1.mjs",
           "transferSize": 1068,
           "encodedBodySize": 768,
           "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -926,16 +926,16 @@
           "decodedBodySize": 1689
         },
         {
-          "name": "/site-assets/stroke-order.hf04-v1.mjs",
-          "transferSize": 1961,
-          "encodedBodySize": 1661,
-          "decodedBodySize": 4143
-        },
-        {
           "name": "/site-assets/learning-entry.hf04-v1.mjs",
           "transferSize": 729,
           "encodedBodySize": 429,
           "decodedBodySize": 1125
+        },
+        {
+          "name": "/site-assets/stroke-order.hf04-v1.mjs",
+          "transferSize": 1961,
+          "encodedBodySize": 1661,
+          "decodedBodySize": 4143
         },
         {
           "name": "/site-assets/hf06/client/guest-learning.mjs",
@@ -956,12 +956,6 @@
           "decodedBodySize": 481
         },
         {
-          "name": "/site-assets/hf06/learning/repository.mjs",
-          "transferSize": 5314,
-          "encodedBodySize": 5014,
-          "decodedBodySize": 16712
-        },
-        {
           "name": "/site-assets/hf06/learning/legacy-import.mjs",
           "transferSize": 1897,
           "encodedBodySize": 1597,
@@ -969,9 +963,9 @@
         },
         {
           "name": "/site-assets/hf06/learning/session.mjs",
-          "transferSize": 2001,
-          "encodedBodySize": 1701,
-          "decodedBodySize": 5407
+          "transferSize": 1993,
+          "encodedBodySize": 1693,
+          "decodedBodySize": 5386
         },
         {
           "name": "/site-assets/hf06/learning/events.mjs",
@@ -981,9 +975,15 @@
         },
         {
           "name": "/site-assets/hf06/client/flashcards.mjs",
-          "transferSize": 3167,
-          "encodedBodySize": 2867,
-          "decodedBodySize": 8436
+          "transferSize": 3280,
+          "encodedBodySize": 2980,
+          "decodedBodySize": 8723
+        },
+        {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
         },
         {
           "name": "/site-assets/hf06/learning/scheduler.mjs",
@@ -1008,15 +1008,27 @@
     {
       "route": "/dictionary/水/",
       "run": 3,
-      "lcp": 624,
+      "lcp": 608,
       "cls": 0,
-      "domContentLoaded": 806.3000000119209,
+      "domContentLoaded": 784.6999999880791,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
         },
         {
           "name": "/site-assets/site-preview.hf03-v1.js",
@@ -1029,18 +1041,6 @@
           "transferSize": 4496,
           "encodedBodySize": 4196,
           "decodedBodySize": 10884
-        },
-        {
-          "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
-        },
-        {
-          "name": "/site-assets/navigation.hf03-v1.mjs",
-          "transferSize": 1068,
-          "encodedBodySize": 768,
-          "decodedBodySize": 2182
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -1061,16 +1061,16 @@
           "decodedBodySize": 1689
         },
         {
-          "name": "/site-assets/stroke-order.hf04-v1.mjs",
-          "transferSize": 1961,
-          "encodedBodySize": 1661,
-          "decodedBodySize": 4143
-        },
-        {
           "name": "/site-assets/learning-entry.hf04-v1.mjs",
           "transferSize": 729,
           "encodedBodySize": 429,
           "decodedBodySize": 1125
+        },
+        {
+          "name": "/site-assets/stroke-order.hf04-v1.mjs",
+          "transferSize": 1961,
+          "encodedBodySize": 1661,
+          "decodedBodySize": 4143
         },
         {
           "name": "/site-assets/hf06/client/guest-learning.mjs",
@@ -1091,22 +1091,22 @@
           "decodedBodySize": 481
         },
         {
-          "name": "/site-assets/hf06/learning/repository.mjs",
-          "transferSize": 5314,
-          "encodedBodySize": 5014,
-          "decodedBodySize": 16712
-        },
-        {
           "name": "/site-assets/hf06/learning/legacy-import.mjs",
           "transferSize": 1897,
           "encodedBodySize": 1597,
           "decodedBodySize": 4244
         },
         {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
+        },
+        {
           "name": "/site-assets/hf06/learning/session.mjs",
-          "transferSize": 2001,
-          "encodedBodySize": 1701,
-          "decodedBodySize": 5407
+          "transferSize": 1993,
+          "encodedBodySize": 1693,
+          "decodedBodySize": 5386
         },
         {
           "name": "/site-assets/hf06/learning/events.mjs",
@@ -1116,9 +1116,9 @@
         },
         {
           "name": "/site-assets/hf06/client/flashcards.mjs",
-          "transferSize": 3167,
-          "encodedBodySize": 2867,
-          "decodedBodySize": 8436
+          "transferSize": 3280,
+          "encodedBodySize": 2980,
+          "decodedBodySize": 8723
         },
         {
           "name": "/site-assets/hf06/learning/scheduler.mjs",
@@ -1143,21 +1143,15 @@
     {
       "route": "/pinyin-chart/",
       "run": 1,
-      "lcp": 772,
+      "lcp": 784,
       "cls": 0,
-      "domContentLoaded": 787.8999999761581,
+      "domContentLoaded": 792.6000000238419,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
-        },
-        {
-          "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
         },
         {
           "name": "/site-assets/navigation.hf03-v1.mjs",
@@ -1176,6 +1170,12 @@
           "transferSize": 4496,
           "encodedBodySize": 4196,
           "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -1196,16 +1196,16 @@
           "decodedBodySize": 1689
         },
         {
-          "name": "/site-assets/learning-entry.hf04-v1.mjs",
-          "transferSize": 729,
-          "encodedBodySize": 429,
-          "decodedBodySize": 1125
-        },
-        {
           "name": "/site-assets/stroke-order.hf04-v1.mjs",
           "transferSize": 1961,
           "encodedBodySize": 1661,
           "decodedBodySize": 4143
+        },
+        {
+          "name": "/site-assets/learning-entry.hf04-v1.mjs",
+          "transferSize": 729,
+          "encodedBodySize": 429,
+          "decodedBodySize": 1125
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -1218,15 +1218,21 @@
     {
       "route": "/pinyin-chart/",
       "run": 2,
-      "lcp": 804,
+      "lcp": 784,
       "cls": 0,
-      "domContentLoaded": 809.3000000119209,
+      "domContentLoaded": 797.6999999880791,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
         },
         {
           "name": "/site-assets/site-data.hf03-v1.js",
@@ -1235,22 +1241,16 @@
           "decodedBodySize": 10884
         },
         {
-          "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
         },
         {
           "name": "/site-assets/site-preview.hf03-v1.js",
           "transferSize": 2806,
           "encodedBodySize": 2506,
           "decodedBodySize": 6580
-        },
-        {
-          "name": "/site-assets/navigation.hf03-v1.mjs",
-          "transferSize": 1068,
-          "encodedBodySize": 768,
-          "decodedBodySize": 2182
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -1293,27 +1293,27 @@
     {
       "route": "/pinyin-chart/",
       "run": 3,
-      "lcp": 800,
+      "lcp": 760,
       "cls": 0,
-      "domContentLoaded": 808.0999999642372,
+      "domContentLoaded": 771.5,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
         },
         {
           "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
-        },
-        {
-          "name": "/site-assets/navigation.hf03-v1.mjs",
-          "transferSize": 1068,
-          "encodedBodySize": 768,
-          "decodedBodySize": 2182
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
         },
         {
           "name": "/site-assets/site-preview.hf03-v1.js",
@@ -1322,10 +1322,10 @@
           "decodedBodySize": 6580
         },
         {
-          "name": "/site-assets/site-data.hf03-v1.js",
-          "transferSize": 4496,
-          "encodedBodySize": 4196,
-          "decodedBodySize": 10884
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -1346,16 +1346,16 @@
           "decodedBodySize": 1689
         },
         {
-          "name": "/site-assets/learning-entry.hf04-v1.mjs",
-          "transferSize": 729,
-          "encodedBodySize": 429,
-          "decodedBodySize": 1125
-        },
-        {
           "name": "/site-assets/stroke-order.hf04-v1.mjs",
           "transferSize": 1961,
           "encodedBodySize": 1661,
           "decodedBodySize": 4143
+        },
+        {
+          "name": "/site-assets/learning-entry.hf04-v1.mjs",
+          "transferSize": 729,
+          "encodedBodySize": 429,
+          "decodedBodySize": 1125
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -1368,27 +1368,21 @@
     {
       "route": "/academic/hsk-3/",
       "run": 1,
-      "lcp": 704,
+      "lcp": 712,
       "cls": 0,
-      "domContentLoaded": 1351.5,
+      "domContentLoaded": 1422,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
-        },
-        {
-          "name": "/site-assets/site-data.hf03-v1.js",
-          "transferSize": 4496,
-          "encodedBodySize": 4196,
-          "decodedBodySize": 10884
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
         },
         {
           "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
         },
         {
           "name": "/site-assets/navigation.hf03-v1.mjs",
@@ -1401,6 +1395,12 @@
           "transferSize": 2806,
           "encodedBodySize": 2506,
           "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -1427,22 +1427,22 @@
           "decodedBodySize": 481
         },
         {
-          "name": "/site-assets/hf06/learning/repository.mjs",
-          "transferSize": 5314,
-          "encodedBodySize": 5014,
-          "decodedBodySize": 16712
-        },
-        {
           "name": "/site-assets/hf06/learning/legacy-import.mjs",
           "transferSize": 1897,
           "encodedBodySize": 1597,
           "decodedBodySize": 4244
         },
         {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
+        },
+        {
           "name": "/site-assets/hf06/learning/session.mjs",
-          "transferSize": 2001,
-          "encodedBodySize": 1701,
-          "decodedBodySize": 5407
+          "transferSize": 1993,
+          "encodedBodySize": 1693,
+          "decodedBodySize": 5386
         },
         {
           "name": "/site-assets/hf06/learning/events.mjs",
@@ -1452,9 +1452,9 @@
         },
         {
           "name": "/site-assets/hf06/client/flashcards.mjs",
-          "transferSize": 3167,
-          "encodedBodySize": 2867,
-          "decodedBodySize": 8436
+          "transferSize": 3280,
+          "encodedBodySize": 2980,
+          "decodedBodySize": 8723
         },
         {
           "name": "/site-assets/hf06/learning/scheduler.mjs",
@@ -1485,21 +1485,15 @@
     {
       "route": "/academic/hsk-3/",
       "run": 2,
-      "lcp": 696,
+      "lcp": 732,
       "cls": 0,
-      "domContentLoaded": 1401.300000011921,
+      "domContentLoaded": 1453.3999999761581,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
-        },
-        {
-          "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
         },
         {
           "name": "/site-assets/navigation.hf03-v1.mjs",
@@ -1518,6 +1512,12 @@
           "transferSize": 4496,
           "encodedBodySize": 4196,
           "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
         },
         {
           "name": "/site-assets/seal.hf03-v1.svg",
@@ -1550,16 +1550,16 @@
           "decodedBodySize": 4244
         },
         {
-          "name": "/site-assets/hf06/learning/session.mjs",
-          "transferSize": 2001,
-          "encodedBodySize": 1701,
-          "decodedBodySize": 5407
-        },
-        {
           "name": "/site-assets/hf06/learning/repository.mjs",
           "transferSize": 5314,
           "encodedBodySize": 5014,
           "decodedBodySize": 16712
+        },
+        {
+          "name": "/site-assets/hf06/learning/session.mjs",
+          "transferSize": 1993,
+          "encodedBodySize": 1693,
+          "decodedBodySize": 5386
         },
         {
           "name": "/site-assets/hf06/learning/events.mjs",
@@ -1569,9 +1569,9 @@
         },
         {
           "name": "/site-assets/hf06/client/flashcards.mjs",
-          "transferSize": 3167,
-          "encodedBodySize": 2867,
-          "decodedBodySize": 8436
+          "transferSize": 3280,
+          "encodedBodySize": 2980,
+          "decodedBodySize": 8723
         },
         {
           "name": "/site-assets/hf06/learning/scheduler.mjs",
@@ -1602,33 +1602,33 @@
     {
       "route": "/academic/hsk-3/",
       "run": 3,
-      "lcp": 692,
+      "lcp": 732,
       "cls": 0,
-      "domContentLoaded": 1393.9000000357628,
+      "domContentLoaded": 1435.199999988079,
       "resources": [
         {
           "name": "/site-assets/hf06/client/flashcards.css",
-          "transferSize": 694,
-          "encodedBodySize": 394,
-          "decodedBodySize": 788
-        },
-        {
-          "name": "/site-assets/site-styles.hf03-v1.css",
-          "transferSize": 10872,
-          "encodedBodySize": 10572,
-          "decodedBodySize": 53736
-        },
-        {
-          "name": "/site-assets/site-preview.hf03-v1.js",
-          "transferSize": 2806,
-          "encodedBodySize": 2506,
-          "decodedBodySize": 6580
+          "transferSize": 1117,
+          "encodedBodySize": 817,
+          "decodedBodySize": 1842
         },
         {
           "name": "/site-assets/site-data.hf03-v1.js",
           "transferSize": 4496,
           "encodedBodySize": 4196,
           "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 11062,
+          "encodedBodySize": 10762,
+          "decodedBodySize": 54501
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
         },
         {
           "name": "/site-assets/navigation.hf03-v1.mjs",
@@ -1661,6 +1661,12 @@
           "decodedBodySize": 481
         },
         {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
+        },
+        {
           "name": "/site-assets/hf06/learning/legacy-import.mjs",
           "transferSize": 1897,
           "encodedBodySize": 1597,
@@ -1668,15 +1674,9 @@
         },
         {
           "name": "/site-assets/hf06/learning/session.mjs",
-          "transferSize": 2001,
-          "encodedBodySize": 1701,
-          "decodedBodySize": 5407
-        },
-        {
-          "name": "/site-assets/hf06/learning/repository.mjs",
-          "transferSize": 5314,
-          "encodedBodySize": 5014,
-          "decodedBodySize": 16712
+          "transferSize": 1993,
+          "encodedBodySize": 1693,
+          "decodedBodySize": 5386
         },
         {
           "name": "/site-assets/hf06/learning/events.mjs",
@@ -1686,9 +1686,9 @@
         },
         {
           "name": "/site-assets/hf06/client/flashcards.mjs",
-          "transferSize": 3167,
-          "encodedBodySize": 2867,
-          "decodedBodySize": 8436
+          "transferSize": 3280,
+          "encodedBodySize": 2980,
+          "decodedBodySize": 8723
         },
         {
           "name": "/site-assets/hf06/learning/scheduler.mjs",
@@ -1731,22 +1731,22 @@
   "performanceMedians": [
     {
       "route": "/",
-      "lcpMs": 692,
+      "lcpMs": 720,
       "cls": 0
     },
     {
       "route": "/dictionary/水/",
-      "lcpMs": 624,
+      "lcpMs": 652,
       "cls": 0
     },
     {
       "route": "/pinyin-chart/",
-      "lcpMs": 800,
+      "lcpMs": 784,
       "cls": 0
     },
     {
       "route": "/academic/hsk-3/",
-      "lcpMs": 696,
+      "lcpMs": 732,
       "cls": 0
     }
   ],

@@ -5,9 +5,9 @@
   "events": 10000,
   "sessions": 1000,
   "bytes": 11392070,
-  "replayMs": 644.2005,
-  "coldLoadMs": 862.343625,
-  "dashboardMs": 42.390290999999934,
-  "roundTripMs": 940.5377080000001,
+  "replayMs": 645.822834,
+  "coldLoadMs": 923.1748750000002,
+  "dashboardMs": 41.25824999999986,
+  "roundTripMs": 980.762917,
   "scope": "Synthetic catalog and in-memory Storage measure CPU/recovery semantics. This snapshot exceeds typical localStorage capacity; actual quota failures are tested separately in Chrome. No claim of durable 10000-event capacity."
 }
