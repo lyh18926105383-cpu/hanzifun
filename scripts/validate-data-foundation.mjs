@@ -30,7 +30,7 @@ export function validateMembership(row, sources) {
     const source = sources.find(s => s.id === row.sourceReleaseId);
     assert.ok(source?.sha256 && source?.version && source?.url, 'Missing actual locked HSK source');
     assert.equal(source.rightsStatus, 'approved-with-scope');
-    const ordinal = level => level === '7-9' ? 7 : Number(level);
+    const ordinal = level => level === '7-9' ? 7 : level === '1-2' ? 1 : Number(level);
     assert.ok(ordinal(row.firstIntroducedLevel) <= ordinal(row.level), 'Introduced level exceeds membership level');
     if (!row.cumulative) assert.equal(row.firstIntroducedLevel, row.level, 'Incremental list must identify its introducing level');
     if (row.itemType.endsWith('character')) assert.match(row.itemId, /^char:[0-9a-f]{4,6}$/);

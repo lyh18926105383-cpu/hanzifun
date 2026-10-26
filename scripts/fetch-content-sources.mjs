@@ -9,6 +9,7 @@ const cache = path.join(root, '.cache/hf02');
 const updating = process.argv.includes('--refresh');
 const existing = fs.existsSync(path.join(root, 'data/sources.lock.json')) ? readJSON('data/sources.lock.json') : null;
 const commit = 'bddc96d41bef78427ed0e034e9f7e31d71fd1b92';
+if (updating && existing?.hskPolicy?.importStatus === 'level-one-facts-imported-HF-07') throw new Error('HF-07 imports depend on locked HF-02 sources. Prepare a coordinated source upgrade and HSK rebuild before refreshing.');
 const specifications = [
     { id: 'cedict', publisher: 'CC-CEDICT contributors / MDBG', version: 'header', file: 'cedict.gz',
         url: 'https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz',
@@ -147,6 +148,13 @@ const lock = { lockVersion: 1, sources,
     extracts: extractPaths.map(p => ({ path: p, sha256: fileHash(p) })),
     localInputs: localPaths.map(p => ({ path: p, sha256: fileHash(p) })),
     hskPolicy: { rightsStatus: 'approved-with-scope', decisionBasis: 'user-confirmed-scope', usageScope: 'Headwords, edition, level and list membership only; no official definitions/examples/layout; not a third-party license', importStatus: 'contract-only-HF-07' } };
+// Preserve scoped downstream imports when refreshing only the core source cache.
+if(existing?.hskPolicy?.importStatus === 'level-one-facts-imported-HF-07'){
+    lock.hskPolicy=existing.hskPolicy;
+    lock.sources=lock.sources.map(source=>existing.sources.find(s=>s.id===source.id&&s.sha256===source.sha256)||source);
+    for(const source of existing.sources)if(!lock.sources.some(s=>s.id===source.id))lock.sources.push(source);
+    for(const license of existing.licenses)if(!lock.licenses.some(l=>l.path===license.path))lock.licenses.push(license);
+}
 writeJSON('data/sources.lock.json', lock);
 if (updating && existing) writeJSON('data/reports/source-upgrade.json', { before: existing, after: lock, reviewStatus: 'pending', note: 'Review source hashes, field changes, licensing and normalized diff before accepting this upgrade.' });
 console.log(`Extracted ${glyphs.length} core glyphs, ${selectedEntries.length} dictionary rows, ${examples.size} pinyin tone examples. Raw archives remain in .cache/hf02/.`);

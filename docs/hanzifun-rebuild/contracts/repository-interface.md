@@ -85,3 +85,11 @@ commit 输入维持HF-05的events/projection/snapshot/expectedLog/expectedSessio
 Web Locks 可用则使用，但缺少/受限时不阻断单标签。所有能力路径共用本地bakery写者标记（`hanzifun.guest.lock.*`），配合候选原文比对与写后核验。CAS本身非原子，不能无锁整库互盖；暂停/崩溃标记不自动抢占，UI要求关闭其他学习标签后显式清理标记。精确验证和边界见[HF-06验收](../HF-06-VERIFICATION.md)。
 
 三源导入经预览后确认；sourceKey/sourceOrigin/SHA-256原文hash/schemaVersion去重，旧原文与全部批次保留。同来源/origin新版快照替代显示摘要，不重复加总。32MiB输入上限。guest整库备份恢复要求空新仓储；旧记录批次可与现有数据合并；失败pending需原历史匹配；临时练习导出携带实际生成的free事件，可恢复且不推迟dueAt。新旧域只能文件搬运。localStorage满额明确未保存，保留pending并导出，不默默丢弃历史。
+
+## 6. HF-07 学习入口扩展（2026-10-26）
+
+`window.HanziFunLearningAdapter.saveCharacter({characterId})` 和 `startCharacterPractice({characterId,readingId,source})` 继续沿用 HF-06 返回语义；HF-07 追加异步 `startDeckPractice({deckId,characterIds?,returnTo?}) → {started,reason?}`。只接受学习卡库中已冻结的卡组 slug；可选 characterIds 必须是非空组成字子集，不能从页面任意注入 cards。卡组源标识包含版次与选择卡 ID 摘要；相同选择可续练，不同版本/清单不误续到对方会话。同一字的基础卡 ID 与收藏仍共用，既有 v1/guest 数据不会迁移或重置。
+
+两版 HSK 词项的释义与候选读音显示在范围页，练习/收藏明确针对组成字；不把整词评价伪造为首字评价，不引入未经定义的 word-rated 事件。新版书写卡组保留官方 `1-2` 联合范围。HSK 筛选使用 fragment URL（一个 canonical 库地址，无额外筛选 HTML），returnTo 仅接受本地已知 HSK/场景路径，刷新保留 URL，词语返回可重开原 token。
+
+场景当前组选字是非评分的 tab/sessionStorage 暂存（`hanzifun.hf07.selection:{pathname}`），存储失败明确提示临时状态；正式收藏/会话只由同一 Repository 成功落盘后确认。未引入账号、同步、Billing 或调度内核变更。

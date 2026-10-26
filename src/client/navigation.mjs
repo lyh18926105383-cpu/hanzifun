@@ -60,3 +60,6 @@ menuGroups.forEach(group => {
 window.addEventListener('resize', () => {
   if (window.matchMedia('(min-width: 1051px)').matches) closeMobileMenu();
 });
+
+// Exact current location highlights the correct HSK edition in both menus.
+for(const a of document.querySelectorAll('nav a')){if(a.getAttribute('href')===location.pathname)a.setAttribute('aria-current','page');}

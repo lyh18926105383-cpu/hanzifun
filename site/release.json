@@ -1,5 +1,5 @@
 {
-  "releaseId": "hf04-dictionary-review-preview",
+  "releaseId": "hf07-hsk-level-one-and-scenario-preview",
   "prototypePathCount": 77,
   "defaultStatus": "preview",
   "statusPolicies": {
@@ -28,9 +28,9 @@
     "/scenarios/": "preview",
     "/scenarios/travel/restaurant/": "preview",
     "/scenarios/business/icebreakers/": "preview",
-    "/academic/": "preview",
-    "/academic/hsk-2/": "preview",
-    "/academic/hsk-3/": "preview",
+    "/academic/": "published",
+    "/academic/hsk-2/": "published",
+    "/academic/hsk-3/": "published",
     "/academic/textbooks/": "planned",
     "/dictionary/": "preview",
     "/dictionary/pinyin/": "preview",
@@ -67,5 +67,14 @@
     "/dictionary/{char}/": "preview",
     "/flashcards/decks/{slug}/": "preview",
     "/blog/{slug}/": "planned"
+  },
+  "siteOrigin": "https://hanzifun.online",
+  "hf07": {
+    "membership": "source-mapping-verified",
+    "characterTeaching": "human-pending",
+    "scenarioLanguage": "human-pending",
+    "scenarioAudio": "missing",
+    "writingScope": "levels-1-2-combined",
+    "filterAddressing": "fragment-only; canonical library address"
   }
 }

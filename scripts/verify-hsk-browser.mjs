@@ -1,0 +1,104 @@
+// Real local public-build journeys. Only a small JSON receipt belongs in Git.
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {pathToFileURL} from 'node:url';
+const build=process.env.HF_BUILD_OUTPUT_DIR||'/private/tmp/hf07-build-hanzifun';
+const output=process.env.HF07_EVIDENCE_DIR||'/private/tmp/hf07-browser-evidence';
+const {chromium}=await import(pathToFileURL(process.env.HF07_PLAYWRIGHT_MODULE||'/Users/graceshi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs').href);
+const server=http.createServer(async(req,res)=>{try{
+ let name=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(name.endsWith('/'))name+='index.html';
+ const target=path.resolve(build,'.'+name);if(!target.startsWith(build+'/')){res.writeHead(403).end();return;}
+ const mime={'.html':'text/html','.mjs':'text/javascript','.js':'text/javascript','.json':'application/json','.css':'text/css','.svg':'image/svg+xml','.jpg':'image/jpeg','.png':'image/png','.mp3':'audio/mpeg'};
+ res.setHeader('Content-Type',mime[path.extname(target)]||'application/octet-stream');res.end(await fs.readFile(target));
+}catch{res.writeHead(404).end();}});
+await new Promise(r=>server.listen(0,'127.0.0.1',r));
+const origin='http://127.0.0.1:'+server.address().port,key='hanzifun.guest.snapshot.v1';
+const checks=[],errors=[],requests=[];let browser;
+const saved=async p=>p.waitForFunction(()=>document.querySelector('.hf-flashcards [role=status]')?.textContent==='Saved on this device.');
+const data=p=>p.evaluate(k=>JSON.parse(localStorage.getItem(k)),key);
+const ready=p=>p.waitForFunction(()=>!!window.HanziFunLearningAdapter);
+const rating=async p=>{await p.locator('[data-action=flip]').click();await saved(p);await p.locator('[data-action=again]').click();await saved(p);};
+try{
+ await fs.mkdir(output,{recursive:true});browser=await chromium.launch({headless:true,channel:'chrome'});
+ const context=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});context.on('page',p=>{p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>requests.push(new URL(r.url()).pathname));});
+ const p=await context.newPage();
+ await p.goto(origin+'/academic/hsk-2/');await ready(p);
+ await p.evaluate(()=>localStorage.setItem('hanzifun.learning.v1','original-legacy-text'));
+ assert.equal(await p.locator('[data-hsk-list=vocabulary] .hf07-entry').count(),150);
+ assert.equal(await p.locator('meta[name=robots]').getAttribute('content'),'index,follow');
+ assert.equal(await p.locator('link[rel=canonical]').getAttribute('href'),'https://hanzifun.online/academic/hsk-2/');
+ await p.locator('[data-hsk-filter] [name=type]').selectOption('derived-character');
+ assert.match(p.url(),/#level=1&type=derived-character$/);await p.reload();
+ assert.equal(await p.locator('[data-hsk-list=derived-character]:visible .hf07-entry').count(),174);await ready(p);
+ const row=p.locator('[data-hsk-list=derived-character] .hf07-entry').filter({has:p.locator('strong',{hasText:/^爱$/})});
+ await row.locator('input').check();await p.locator('[data-hsk-list=derived-character] [data-save-selected]').click();
+ await p.locator('[data-hf07-status]').filter({hasText:'1 characters saved'}).waitFor();
+ await row.getByRole('link',{name:'爱',exact:true}).click();await ready(p);
+ assert.equal(await p.locator('meta[name=robots]').getAttribute('content'),'noindex,follow');
+ const strokesBefore=requests.filter(s=>s.startsWith('/data/strokes/')).length;
+ await p.locator('[data-stroke=next]').click();await p.locator('[data-stroke-status]').filter({hasText:'1 /'}).waitFor();
+ assert.equal(requests.filter(s=>s.startsWith('/data/strokes/')).length,strokesBefore+1);
+ await p.locator('[data-hf-practice]').click();await p.waitForURL('**/flashcards/?session=*&returnTo=*');
+ await p.locator('[data-action=flip]').waitFor();await rating(p);
+ let snapshot=await data(p);const firstId=new URL(p.url()).searchParams.get('session');
+ assert.equal(snapshot.sessions[firstId].queue[0].card.front,'爱');assert.equal(snapshot.projection.completions.length,1);
+ await p.reload();await p.locator('.hf-flashcards').waitFor();assert.equal((await data(p)).projection.completions.length,1);
+ await p.getByRole('link',{name:'Return to learning context'}).click();await ready(p);
+ assert.match(p.url(),/hsk-2/);assert.equal(await p.locator('[name=type]').inputValue(),'derived-character');
+ checks.push('HSK2 150/174 → supplemental 爱 → save → on-demand strokes → practice → again → reload once → source return; legacy key unchanged');
+ // Fixed-version group and selection guard, without depending on daily queue length.
+ await p.goto(origin+'/academic/hsk-3/');await ready(p);
+ await p.locator('[name=type]').selectOption('writing-character');
+ assert.equal(await p.locator('[name=level]').inputValue(),'1-2');assert.equal(await p.locator('[data-hsk-list=writing-character]:visible .hf07-entry').count(),100);
+ await p.locator('[name=level]').selectOption('2');await p.locator('[data-hsk-filter-status]').filter({hasText:'not available'}).waitFor();
+ await p.locator('[name=level]').selectOption('1');await p.locator('[name=type]').selectOption('recognition-character');
+ const reject=await p.evaluate(()=>window.HanziFunLearningAdapter.startDeckPractice({deckId:'hsk-3-2025-level-1-recognition-character',characterIds:['char:9f98']}));assert.equal(reject.started,false);
+ await p.locator('[data-hsk-list=recognition-character] input').nth(1).check();
+ await p.locator('[data-hsk-list=recognition-character] [data-practice-selected]').click();await p.waitForURL('**/flashcards/?session=*&returnTo=*');await p.locator('[data-action=flip]').waitFor();
+ snapshot=await data(p);let sid=new URL(p.url()).searchParams.get('session');assert.equal(snapshot.sessions[sid].cardIds.length,1);assert.match(snapshot.sessions[sid].source,/hsk-3-2025/);
+ await p.getByRole('link',{name:'Return to learning context'}).click();
+ assert.equal(await p.locator('[name=type]').inputValue(),'recognition-character');
+ checks.push('HSK3 300/246/100 combined writing filter, planned empty state, hash refresh, outside-list rejection and exact selected subset');
+ // Phrase meaning and current group survive a real dictionary/practice round trip.
+ await p.goto(origin+'/scenarios/travel/restaurant/');await ready(p);
+ assert.equal(await p.locator('.hf07-sentence').count(),3);assert.equal(await p.getByRole('button',{name:'Play sentence'}).count(),3);
+ await p.locator('#price-token-1 summary').click();assert.match(await p.locator('#price-token-1').innerText(),/how much/);
+ await p.locator('#price-token-1 [data-token-add]').click();
+ await p.locator('#price-token-1 [data-token-save]').click();await p.locator('[data-hf07-status]').filter({hasText:'2 characters saved'}).waitFor();
+ await p.locator('#price-token-1 a').first().click();await ready(p);await p.getByRole('link',{name:'Return to learning context'}).click();
+ assert.equal(await p.locator('#price-token-1').getAttribute('open'),'');assert.match(await p.locator('[data-context-group-items]').innerText(),/多 · 少/);
+ await p.locator('[data-context-group-practice]').click();await p.waitForURL('**/flashcards/?session=*&returnTo=*');await p.locator('[data-action=flip]').waitFor();
+ snapshot=await data(p);sid=new URL(p.url()).searchParams.get('session');assert.equal(snapshot.sessions[sid].cardIds.length,2);
+ await rating(p);await p.reload();await p.locator('.hf-flashcards').waitFor();
+ await p.getByRole('link',{name:'Return to learning context'}).click();assert.match(p.url(),/restaurant/);
+ checks.push('Restaurant 3 sentences: intact 多少 phrase meaning → current group/save → dictionary → exact reopened token → 2-character frozen practice → reload → scenario return');
+ await p.goto(origin+'/scenarios/business/icebreakers/');await ready(p);await p.locator('#greeting-token-0 summary').click();
+ await p.locator('#greeting-token-0 [data-token-save]').click();await p.locator('[data-hf07-status]').filter({hasText:'2 characters saved'}).waitFor();
+ await p.locator('#greeting-token-0 a').first().click();await ready(p);await p.locator('[data-hf-practice]').click();await p.waitForURL('**/flashcards/?session=*&returnTo=*');await p.locator('[data-action=flip]').waitFor();
+ snapshot=await data(p);sid=new URL(p.url()).searchParams.get('session');assert.equal(snapshot.sessions[sid].queue[0].card.front,'您');await rating(p);
+ await p.getByRole('link',{name:'Return to learning context'}).click();assert.equal(await p.locator('#greeting-token-0').getAttribute('open'),'');
+ await p.goto(origin+'/account/');await p.locator('[data-guest-dashboard] .learning-stats').waitFor();assert.match(await p.locator('[data-guest-dashboard]').innerText(),/Saved characters/);
+ await p.goto(origin+'/flashcards/my-words/');await p.locator('[data-guest-words] .tile-grid').waitFor();assert.match(await p.locator('[data-guest-words]').innerText(),/您/);
+ assert.equal(await p.evaluate(()=>localStorage.getItem('hanzifun.learning.v1')),'original-legacy-text');
+ checks.push('Business 3 sentences: respectful 您好 phrase → saved constituent characters → 您 import → practice → context return → real learning centre/favorites; original v1 text untouched');
+ // Every scoped public page at five widths; no media has been falsely enabled.
+ const widths=[360,390,768,1100,1440],pages=['/academic/hsk-2/','/academic/hsk-3/','/scenarios/travel/restaurant/','/scenarios/business/icebreakers/','/dictionary/您/'];
+ for(const route of pages)for(const width of widths){await p.setViewportSize({width,height:900});await p.goto(origin+encodeURI(route));assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),route+' '+width);}
+ await p.setViewportSize({width:1440,height:900});await p.goto(origin+'/dictionary/');
+ await p.locator('.desktop-nav [data-dictionary-menu] summary').click();await p.locator('.desktop-nav a[href="/academic/hsk-2/"]').click();
+ assert.ok(await p.locator('.desktop-nav a[href="/academic/hsk-2/"][aria-current=page]').count());
+ await p.setViewportSize({width:390,height:844});await p.goto(origin+'/academic/hsk-3/');await p.locator('[data-menu-toggle]').click();
+ assert.ok(await p.locator('#mobile-menu a[href="/academic/hsk-3/"][aria-current=page]').count());await p.keyboard.press('Escape');
+ await p.screenshot({path:path.join(output,'hsk-mobile.png'),fullPage:false});
+ await p.goto(origin+'/scenarios/business/icebreakers/');await p.locator('#greeting-token-0 summary').click();await p.screenshot({path:path.join(output,'scenario-mobile.png'),fullPage:false});
+ checks.push('5 page types × 360/390/768/1100/1440 no horizontal overflow; desktop dictionary menu reaches and highlights HSK2; mobile menu current HSK3 and Escape; real screenshots kept outside Git');
+ const nojs=await browser.newContext({javaScriptEnabled:false});const readable=await nojs.newPage();await readable.goto(origin+'/academic/hsk-3/');assert.equal(await readable.locator('.hf07-entry').count(),646);await readable.goto(origin+'/scenarios/travel/restaurant/');assert.equal(await readable.locator('.hf07-sentence').count(),3);await nojs.close();
+ checks.push('No-JS source lists (300+246+100) and all scenario sentences remain readable');
+ const denied=await browser.newContext();await denied.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw Error('Storage denied');}}));const fail=await denied.newPage();await fail.goto(origin+'/scenarios/travel/restaurant/');await ready(fail);await fail.locator('#water-token-0 summary').click();await fail.locator('#water-token-0 [data-token-save]').click();await fail.locator('[data-hf07-status]').filter({hasText:'not saved'}).waitFor();assert.doesNotMatch(await fail.locator('[data-hf07-status]').innerText(),/characters saved on this device/);await denied.close();
+ checks.push('Storage denied: scenario save reports failure, no false success');
+ assert.equal(requests.filter(s=>s.endsWith('.mp3')).length,0);assert.deepEqual(errors,[]);
+ await fs.writeFile(path.join(output,'browser.json'),JSON.stringify({status:'PASS',date:'2026-10-26',browser:await browser.version(),build,checks,pageErrors:errors,audioRequests:0,widths,limitations:['No human audio/listening acceptance','No Safari/Firefox/real device tests','No production deployment']},null,2)+'\n');
+ console.log(JSON.stringify({status:'PASS',checks:checks.length,output},null,2));
+}finally{await browser?.close();await new Promise(r=>server.close(r));}

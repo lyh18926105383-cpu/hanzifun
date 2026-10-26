@@ -24,10 +24,10 @@ const setup=(options={})=>{
 };
 const control=(repo,session,projection,commit=t=>repo.commit(t))=>{let seq=0;return createFlashcardController({session,projection,deviceId:randomUUID(),nextSeq:n=>{const first=seq;seq+=n;return first;},clock:()=>now,uuid:randomUUID,commit});};
 test('HF06 four real decks, 126 characters and two separate 睛 teaching positions are mapped',()=>{
-  assert.equal(library.decks.length,4);assert.equal(new Set(library.catalog.map(c=>c.characterId)).size,126);
+  assert.deepEqual(library.decks.slice(0,4).map(d=>d.slug),['first-six','at-the-tea-house','mid-autumn','ants-and-a-bean']);assert.equal(new Set(library.catalog.filter(c=>c.source!=='hsk-import').map(c=>c.characterId)).size,126);
   assert.equal(library.catalog.filter(c=>c.front==='睛'&&c.source==='characters.js').length,2);
   for(const d of library.decks)assert.deepEqual(d.cardIds.map(id=>library.catalog.find(c=>c.cardId===id).front),d.chars);
-  assert.equal(learningPages().length,8);
+  assert.equal(learningPages().length,4+library.decks.length);
 });
 test('HF06 fallback without navigator.locks persists initial queue, every rating, refresh and unique completion',async()=>{
   const {repo,storage}=setup();const initial=await repo.start({cards:[water],title:'水'});assert.equal(initial.saved,true);

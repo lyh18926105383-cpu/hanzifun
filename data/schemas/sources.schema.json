@@ -309,8 +309,13 @@
         },
         "importStatus": {
           "enum": [
-            "contract-only-HF-07"
+            "contract-only-HF-07",
+            "level-one-facts-imported-HF-07"
           ]
+        },
+        "headwordsSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
         }
       },
       "required": [

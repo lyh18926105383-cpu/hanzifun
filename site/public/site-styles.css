@@ -40,3 +40,19 @@
 .guest-learning .learning-stats {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(180px,100%),1fr));gap:16px}
 .guest-learning .learning-stats article {padding:18px;border:1px solid #d5ccba;border-radius:12px}
 .guest-learning .learning-stats h2 {font-size:16px}
+
+/* HF07: compact source lists and phrase contexts share the dictionary layout. */
+.hf07 { padding-bottom: 4rem; overflow-wrap: anywhere; }
+.hf07 form { display:flex; flex-wrap:wrap; gap:1rem; align-items:end; margin:1.5rem 0; }
+.hf07 select { max-width:100%; }
+.hf07-list { padding-left:1.6rem; }
+.hf07-entry { padding:1rem; margin:0 0 .75rem; border:1px solid var(--line,#d5cbbc); border-radius:12px; }
+.hf07-entry strong { font-size:1.5rem; }
+.hf07-entry p { margin:.5rem 0; }
+.hf07-entry small { color:#635a50; }
+.hf07-sentence { margin:2rem 0; padding:1.25rem; border:1px solid #d5cbbc; border-radius:12px; scroll-margin-top:6rem; }
+.hf07-token { margin:.75rem 0; padding:.75rem; background:#f5efdf; border-radius:8px; scroll-margin-top:6rem; }
+.hf07-token summary { font-size:1.2rem; cursor:pointer; }
+.hf07 [hidden] { display:none!important; }
+nav a[aria-current="page"] { text-decoration:underline; text-underline-offset:.3em; }
+@media(max-width:600px) { .hf07 form label { width:100%; } .hf07-entry { padding:.7rem; } }

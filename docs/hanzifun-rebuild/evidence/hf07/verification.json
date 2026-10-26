@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-26",
+  "branch": "main",
+  "baseCommit": "8bb1e13",
+  "status": "engineering-delivered-human-and-audio-pending",
+  "tests": {
+    "command": "npm test",
+    "passed": 119,
+    "failed": 0,
+    "baseline": 112,
+    "newHF07": 7
+  },
+  "validation": {
+    "status": "PASS",
+    "sourceRows": {
+      "hsk2Vocabulary": 150,
+      "hsk3Vocabulary": 300,
+      "recognition": 246,
+      "writingCombined": 100
+    },
+    "core": 126,
+    "additional": 213,
+    "union": 339,
+    "sourceMappingComplete": true,
+    "teachingAcceptance": "pending",
+    "audioAcceptance": "pending",
+    "rebuild": true
+  },
+  "build": {
+    "files": 1544,
+    "byteDifferences": 0,
+    "indexed": [
+      "/academic/",
+      "/academic/hsk-2/",
+      "/academic/hsk-3/"
+    ],
+    "coreManifestRoutes": 126,
+    "supplementalManifestRoutes": 213
+  },
+  "browser": {
+    "checks": 7,
+    "errors": 0,
+    "receipt": "browser.json"
+  },
+  "hf06Regression": {
+    "checks": 18,
+    "errors": 0,
+    "receipt": "hf06-regression.json"
+  },
+  "sourceReview": {
+    "samplesPerVersion": 30,
+    "humanAcceptance": "pending",
+    "receipt": "source-review.json"
+  },
+  "changedArtifactFingerprint": {
+    "files": 249,
+    "sha256": "bbb2ecc4c5f5cc99b9184e565c793f05918c86cc20d2b215a4e4c11c763a59b9",
+    "method": "Sorted changed non-doc paths plus all HF07 source/data files; path + NUL + file bytes; excludes this evidence directory."
+  },
+  "binaryEvidenceCommitted": false
+}

@@ -10,6 +10,7 @@ import {fetchStroke} from '../src/client/stroke-order.mjs';
 import {saveCharacter,startCharacterPractice} from '../src/client/learning-entry.mjs';
 import {approvedAudio,createAudioPlayer} from '../src/client/audio-player.mjs';
 import {characters,editorial,readings,kanji,strokes,syllables,scope,comparisons,reviews,escapeHtml,searchShards,assertPublicationReady,readJson} from '../site/dictionary-data.mjs';
+import {lexicon} from '../site/hsk-data.mjs';
 import {characterPage,dictionaryPages} from '../site/pages/dictionary.mjs';
 import {pinyinChartPage} from '../site/pages/pinyin-chart.mjs';
 import {staticStrokeSvg} from '../site/components/stroke-order.mjs';
@@ -115,14 +116,16 @@ test('isolated static build verifies all references, per-character assets, previ
   const result=spawnSync(process.execPath,['scripts/build-site.js'],{cwd:root,env:{...process.env,HF_BUILD_OUTPUT_DIR:output},encoding:'utf8'});
   assert.equal(result.status,0,result.stderr);const get=p=>fs.readFileSync(path.join(output,p),'utf8');
   for(const c of characters){const html=get('dictionary/'+c.glyph+'/index.html');assert.match(html,/noindex,follow/);assert.match(html,/Information/);}
-  assert.equal(fs.readdirSync(path.join(output,'data/strokes')).length,126);
+  assert.equal(fs.readdirSync(path.join(output,'data/strokes')).length,126+lexicon.characters.length);
   for(const asset of strokes)assert.deepEqual(fs.readFileSync(path.join(output,asset.url)),fs.readFileSync(path.join(root,asset.url)));
   assert.equal(JSON.parse(get('content-manifest.json')).contentVersion,readJson('data/core-manifest.json').version);
-  assert.ok(!fs.existsSync(path.join(output,'dictionary/狗/index.html')));
-  assert.equal(fs.readdirSync(path.join(output,'site-assets/stroke-static')).length,126);
+  assert.ok(fs.existsSync(path.join(output,'dictionary/狗/index.html')));
+  assert.ok(!fs.existsSync(path.join(output,'dictionary/龘/index.html')));
+  assert.equal(fs.readdirSync(path.join(output,'site-assets/stroke-static')).length,126+lexicon.characters.length);
   for(const file of fs.readdirSync(path.join(output,'site-assets')).filter(f=>/\.(js|mjs)$/.test(f)))assert.doesNotMatch(get('site-assets/'+file),/"medians"|"strokes"\s*:/);
   assert.ok(!fs.existsSync(path.join(output,'data/source-extracts')));assert.ok(!fs.existsSync(path.join(output,'.cache')));
-  assert.match(get('sitemap.xml'),/<urlset[^>]*><\/urlset>/);
+  assert.match(get('sitemap.xml'),/https:\/\/hanzifun.online\/academic\/hsk-2\//);
+  assert.doesNotMatch(get('sitemap.xml'),/dictionary|scenarios|flashcards/);
   assert.equal(JSON.parse(get('content-manifest.json')).pages.length,134);
  }finally{fs.rmSync(output,{recursive:true,force:true});}
 });

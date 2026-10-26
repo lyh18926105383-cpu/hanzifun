@@ -1,4 +1,4 @@
-if(document.querySelector('[data-hf-save], [data-hf-practice]')) {
+if(document.querySelector('[data-hf-save], [data-hf-practice]')&&!window.HanziFunLearningAdapter) {
   document.querySelectorAll('[data-hf-save], [data-hf-practice]').forEach(b=>b.disabled=true);
   window.addEventListener('hanzifun-learning-ready',()=>document.querySelectorAll('[data-hf-save], [data-hf-practice]').forEach(b=>b.disabled=false),{once:true});
   import('./hf06/client/guest-learning.mjs').catch(()=>{document.querySelector('[data-hf-save-status]').textContent='Learning could not load. Reload to retry.';});
@@ -19,7 +19,7 @@ if(form && resultRoot) {
     try {
       if(!shards)shards=(await Promise.all(['characters','words','library'].map(name=>json('/site-assets/search/'+name+'.hf04-v1.json')))).flat();
       if(current!==request)return;
-      const results=searchEntries(shards,value,{relaxTone});resultRoot.replaceChildren(node('p',`${results.length} results · core 126 characters, linked words and site previews`));
+      const results=searchEntries(shards,value,{relaxTone});resultRoot.replaceChildren(node('p',`${results.length} results · 126 core characters, HSK imports and linked content`));
       for(const group of ['Characters & words','Flashcard sets','Scenarios & articles']) {
         const items=results.filter(item=>item.type===group);if(!items.length)continue;
         resultRoot.append(node('h2',group));const ul=node('ul');
@@ -61,7 +61,7 @@ if(picker && stroke){
       if(!manifest)manifest=await json('/site-assets/dictionary/stroke-manifest.hf04-v1.json');
       if(current!==revision)return;
       const glyph=supportedCharacter(value,manifest.map(item=>item.glyph));
-      if(!glyph){status.textContent='This character is not in the supported 126-character collection. Choose one from the list.';return;}
+      if(!glyph){status.textContent='This character is not in the supported collection. Choose one from the list.';return;}
       picker.elements.char.value=glyph;stroke.select(manifest.find(item=>item.glyph===glyph));
       status.textContent=`Selected ${glyph}. Load or play to fetch only this character’s strokes.`;
     }catch{status.textContent='The character list could not load. Submit again to retry, or use the dictionary links below.';}
@@ -84,4 +84,10 @@ if(pinyinForm){
   pinyinForm.addEventListener('input',filter);pinyinForm.addEventListener('change',filter);
   pinyinForm.addEventListener('reset',()=>queueMicrotask(filter));
   if(location.hash){try{const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(target?.matches('[data-syllable]'))target.open=true;}catch{/* Malformed fragments leave the readable chart intact. */}}
+}
+
+// Context return is limited to local HSK/scenario pages, never arbitrary redirects.
+const contextReturn=params.get('returnTo');
+if(contextReturn&&/^\/(?:academic\/hsk-[23]\/|scenarios\/(?:travel\/restaurant|business\/icebreakers)\/)(?:[#?]|$)/.test(contextReturn)&&!/[\r\n\\]/.test(contextReturn)){
+ const a=node('a','Return to learning context');a.href=contextReturn;document.querySelector('main')?.prepend(a);
 }

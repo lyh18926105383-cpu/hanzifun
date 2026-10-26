@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "date": "2026-10-26",
+  "browser": "155.0.8059.85",
+  "build": "/private/tmp/hf07-build-hanzifun",
+  "checks": [
+    "HSK2 150/174 → supplemental 爱 → save → on-demand strokes → practice → again → reload once → source return; legacy key unchanged",
+    "HSK3 300/246/100 combined writing filter, planned empty state, hash refresh, outside-list rejection and exact selected subset",
+    "Restaurant 3 sentences: intact 多少 phrase meaning → current group/save → dictionary → exact reopened token → 2-character frozen practice → reload → scenario return",
+    "Business 3 sentences: respectful 您好 phrase → saved constituent characters → 您 import → practice → context return → real learning centre/favorites; original v1 text untouched",
+    "5 page types × 360/390/768/1100/1440 no horizontal overflow; desktop dictionary menu reaches and highlights HSK2; mobile menu current HSK3 and Escape; real screenshots kept outside Git",
+    "No-JS source lists (300+246+100) and all scenario sentences remain readable",
+    "Storage denied: scenario save reports failure, no false success"
+  ],
+  "pageErrors": [],
+  "audioRequests": 0,
+  "widths": [
+    360,
+    390,
+    768,
+    1100,
+    1440
+  ],
+  "limitations": [
+    "No human audio/listening acceptance",
+    "No Safari/Firefox/real device tests",
+    "No production deployment"
+  ]
+}

@@ -36,7 +36,7 @@ export function staticOutputPath(routePath) {
   return routePath.slice(1);
 }
 
-export function buildRouteManifest({ prototypePaths, characters = [], contract = routeContract, release = releaseConfig }) {
+export function buildRouteManifest({ prototypePaths, characters = [], additionalCharacters = [], additionalPaths = [], contract = routeContract, release = releaseConfig }) {
   const uniquePrototypePaths = [...new Set(prototypePaths)];
   const expected = release.prototypePathCount;
   if (uniquePrototypePaths.length !== expected || prototypePaths.length !== expected) {
@@ -83,6 +83,9 @@ export function buildRouteManifest({ prototypePaths, characters = [], contract =
       pattern: false
     });
   }
+
+  for(const character of additionalCharacters) add('/dictionary/'+character+'/', 'hsk-supplemental-character-manifest', {character,pattern:false});
+  for(const routePath of additionalPaths) add(routePath, 'hf07-fixed-practice-set');
 
   return {
     contractVersion: contract.contractVersion,

@@ -108,11 +108,12 @@ function replacePrototypeAssets(html) {
 function htmlForPage(layout, page, route, header, footer) {
     const robots = route.robots === 'inherit' ? '' :
         '<meta name="robots" content="' + escapeHtml(route.robots) + '">';
+    const canonical=page.canonical ? '<link rel="canonical" href="'+escapeHtml(page.canonical)+'">' : '';
     let html = layout
         .replaceAll('{{lang}}', escapeHtml(page.lang || 'en'))
         .replaceAll('{{title}}', escapeHtml(page.title))
         .replaceAll('{{description}}', escapeHtml(page.description || page.title))
-        .replaceAll('{{robots}}', robots)
+        .replaceAll('{{robots}}', robots+canonical)
         .replaceAll('{{header}}', header())
         .replaceAll('{{content}}', page.content)
         .replaceAll('{{footer}}', footer());
@@ -231,9 +232,14 @@ async function buildSite() {
     ];
     const prototypePaths = prototypePages.map(page => page.path);
     const coreChars = coreCharacters();
+    const hf07 = await import('../site/hsk-data.mjs');
+    const {learningData} = await import('../site/learning-data.mjs');
+    const learningLibrary=learningData();
     const manifest = routesModule.buildRouteManifest({
         prototypePaths,
         characters: coreChars,
+        additionalCharacters: hf07.lexicon.characters.map(c=>c.glyph),
+        additionalPaths: learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),
         contract: routesModule.routeContract,
         release: routesModule.releaseConfig,
     });
@@ -252,6 +258,9 @@ async function buildSite() {
     const { strokeOrderPage } = await import('../site/pages/stroke-order.mjs');
     const { pinyinChartPage } = await import('../site/pages/pinyin-chart.mjs');
     const { staticStrokeSvg } = await import('../site/components/stroke-order.mjs');
+    const {hskPages,additionalCharacterPages} = await import('../site/pages/hsk.mjs');
+    const {scenarioPages} = await import('../site/pages/scenarios.mjs');
+    [...hskPages(),...additionalCharacterPages(),...scenarioPages()].forEach(page=>pages.set(page.path,page));
     const hf04Pages = [...dictionaryPages(), sourcePage(), strokeOrderPage(), pinyinChartPage()];
     hf04Pages.forEach(page => pages.set(page.path, page));
     const writePublic = (relative, value) => {
@@ -262,7 +271,6 @@ async function buildSite() {
     for (const name of ['dictionary','search-core','stroke-order','learning-entry','audio-player']) {
         fs.copyFileSync(path.join(projectRoot,'src/client',name+'.mjs'), path.join(outputRoot,'site-assets',name+'.hf04-v1.mjs'));
     }
-    const {learningData} = await import('../site/learning-data.mjs');
     const {learningPages} = await import('../site/pages/learning.mjs');
     learningPages().forEach(page => pages.set(page.path, page));
     writePublic('site-assets/hf06/learning-data.json', learningData());
@@ -270,7 +278,11 @@ async function buildSite() {
         ['learning', ['scheduler.mjs','events.mjs','session.mjs','repository.mjs','legacy-import.mjs','write-lock.mjs','identity.mjs']],
         ['client', ['flashcards.mjs','flashcards.css','guest-learning.mjs']],
     ]) for (const name of names) writePublic('site-assets/hf06/'+directory+'/'+name, fs.readFileSync(path.join(projectRoot,'src',directory,name),'utf8'));
+    writePublic('site-assets/hf07.mjs',fs.readFileSync(path.join(projectRoot,'src/client/hf07.mjs'),'utf8'));
+    for(const name of ['coverage.json','membership.json','lexicon.json','source-headwords.json']) writePublic('site-assets/hf07/'+name,fs.readFileSync(path.join(projectRoot,'data/hsk',name),'utf8'));
+    writePublic('site-assets/hf07/build-hsk-data.mjs',fs.readFileSync(path.join(projectRoot,'scripts/build-hsk-data.mjs'),'utf8'));
     const shards = dictionary.searchShards();
+    shards.characters.push(...hf07.lexicon.characters.map(c=>{const r=hf07.findReading(c.primaryReadingId);return {id:c.characterId,type:'Characters & words',glyph:c.glyph,label:c.glyph+' · '+r.pinyin.marked+' · import draft',url:'/dictionary/'+c.glyph+'/',aliases:[c.glyph,...c.readingId.flatMap(id=>{const r=hf07.findReading(id);return [...r.pinyin.search,...r.senses];})]};}));
     for (const [name, entries] of Object.entries(shards)) writePublic('site-assets/search/'+name+'.hf04-v1.json', entries);
     const library = [
         ...decks.map(d=>({id:'deck:'+d.slug,type:'Flashcard sets',label:d.title,url:'/flashcards/decks/'+d.slug+'/',aliases:[d.title,d.description,...d.chars]})),
@@ -279,11 +291,12 @@ async function buildSite() {
         {id:'scenario:business',type:'Scenarios & articles',label:'Business icebreakers · preview',url:'/scenarios/business/icebreakers/',aliases:['business','introductions','polite']}
     ];
     writePublic('site-assets/search/library.hf04-v1.json',library);
-    const strokeManifest = dictionary.strokes.map(asset=>({glyph:asset.glyph,codepoint:asset.characterId.slice(5),version:asset.sha256,strokeCount:asset.strokeCount}));
+    const allStrokes=[...dictionary.strokes,...hf07.lexicon.strokes];
+    const strokeManifest = allStrokes.map(asset=>({glyph:asset.glyph,codepoint:asset.characterId.slice(5),version:asset.sha256,strokeCount:asset.strokeCount}));
     writePublic('site-assets/dictionary/stroke-manifest.hf04-v1.json',strokeManifest);
-    for (const asset of dictionary.strokes) {
+    for (const asset of allStrokes) {
         // Raw paths stay in separate, unchanged per-character JSON files.
-        copyFile(asset.url);
+        writePublic('data/strokes/'+asset.characterId.slice(5)+'.json',fs.readFileSync(path.join(projectRoot,asset.url),'utf8'));
         writePublic('site-assets/stroke-static/'+asset.characterId.slice(5)+'.svg',staticStrokeSvg(asset.glyph,dictionary.readJson(asset.url)));
     }
     fs.cpSync(path.join(projectRoot,'data/licenses'),path.join(outputRoot,'site-assets/licenses'),{recursive:true});
@@ -294,9 +307,10 @@ async function buildSite() {
     writePublic('site-assets/dictionary/review-summary.json',{
         coreCharacters:dictionary.characters.length,teachingDrafts:dictionary.editorial.entries.length,humanAcceptedCharacters:dictionary.characters.filter(c=>dictionary.contentAccepted(c.characterId)).length,verifiedKanji:dictionary.kanji.filter(k=>k.status==='verified').length,
         pinyinScope:dictionary.syllables.length,toneCandidates:dictionary.syllables.reduce((n,s)=>n+s.tones.length,0),approvedPinyinAudio:0,tier2Accepted:0,
-        unresolved:['HF-02 human content acceptance','HF-02 pinyin teaching review','Audio listening and missing recordings','HF-06 repository integration']
+        unresolved:['HF-02 human content acceptance','HF-02 pinyin teaching review','Audio listening and missing recordings','HF-07 supplemental teaching drafts and scenario listening review']
     });
     writePublic('content-manifest.json',{
+        hf07:{version:'hf07-v1',pages:[...hskPages(),...additionalCharacterPages(),...scenarioPages()].map(page=>page.path),coreCharacters:126,additionalCharacters:hf07.lexicon.characters.length,sourceMappingComplete:true,teachingAcceptance:'pending',audioAcceptance:'pending',inputs:['data/hsk/source-headwords.json','data/hsk/membership.json','data/hsk/lexicon.json','data/scenarios/scenarios.json'].map(file=>({file,sha256:require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(projectRoot,file))).digest('hex')}))},
         version:'hf04-v1',contentVersion:dictionary.readJson('data/core-manifest.json').version,
         pages:hf04Pages.map(page=>page.path),
         inputs:['data/editorial/characters.json','data/editorial/comparisons.json','data/editorial/review-decisions.json'].map(file=>({file,sha256:require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(projectRoot,file))).digest('hex')}))
@@ -321,6 +335,7 @@ async function buildSite() {
         const route = concreteRoutes.get(page.path);
         if (!route) throw new Error('No release manifest entry for page: ' + page.path);
         dictionary.assertPublicationReady(route, release);
+        hf07.assertPublicationReady(route);
         const html = htmlForPage(layout, page, route, header, footer);
         writeRoutePage(page.path, html);
         generated.push({ path: page.path, html });
@@ -374,7 +389,7 @@ async function buildSite() {
 
     console.log('Built ' + fileCount + ' public files in ' + path.relative(projectRoot, outputRoot) +
         '/; mapped ' + manifest.prototypePathCount + ' prototype paths and generated ' +
-        generated.length + ' noindex preview pages.');
+        robotsPages + ' noindex preview pages.');
 }
 
 module.exports = { buildSite };

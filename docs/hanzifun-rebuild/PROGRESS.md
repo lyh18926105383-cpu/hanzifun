@@ -2,7 +2,7 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 1：主站上线（基线整合、126 字字典及 Information、独立笔顺页与拼音表、本机闪卡、两场景、两版 HSK 1 级）
-- **当前执行任务**：HF-06 本机持久化与真实学习闭环完成；下一步 HF-07/HF-08。HF-02/04 人工内容/拼音/音频验收仍待关闭。
+- **当前执行任务**：HF-07 工程交付与自动/浏览器验证完成；待人工内容/来源抽查签收与场景录音听审。HF-08 可继续，HF-02/04 人工内容/拼音/音频缺口保留。
 - **状态**：HF-01、HF-03、HF-05（独立范围）、HF-06 已完成；HF-02 与 HF-04 均保留人工验收缺口。用户 2026-10-25 明确授权 HF-04 按缺项安全降级/noindex 预览实施，工程交付不等于前置人工验收通过；精确接续见记录 05。
 
 ---
@@ -111,3 +111,12 @@
 - **验证**：`npm test` **112/112**（原98+新增14）；公开隔离构建891文件、77原型路径、181 noindex页，全部资源引用检查通过。真实 Chrome155在有锁、无锁及混合能力下验证双标签竞争、陈旧写入拒绝、刷新/关页续练、四组真实卡、字典again十分钟到期、原键不变的三源重复导入和备份往返、存储拒绝/实际配额满/释放重试、临时free导出恢复与已载会话断网；5档宽度无横向溢出，截图实际查看。最终收据/指纹见HF-06-VERIFICATION。
 - **明确边界**：合成1000卡/10000事件快照11.39MB，内存Storage测CPU/往返，不冒充localStorage足够容量；真实满额时明确未保存、保留pending/导出，不静默截断日志。合作式协调不是数据库原子CAS；暂停/崩溃残留标记不自动抢占，关闭其他标签后显式恢复。备份恢复需空guest仓储；跨origin需文件搬运。未测Safari/Firefox/真实旧WebView/真机/系统级隐私策略；HF-02/04人工与音频缺口不变，未改故事内容或验收故事视听、未部署或引入Phase3功能。
 - **下一个 Agent 精确切入点**：读取本记录、TASKS与用户指定的HF-07或HF-08单个任务。持久化 API/键/容量/故障语义读contracts/repository-interface.md与HF-06-VERIFICATION；真实卡数据入口site/learning-data.mjs，宿主src/client/guest-learning.mjs。HF-04学习联调已关闭，但人工签字需从data/editorial与原问题报告继续，不能因工程闭环完成而关闭人工缺口。
+
+### [记录 08] - HF-07 两版首级与两场景工程交付，人工/音频缺口保留 (By Codex, 2026-10-26)
+- **目录/分支**：Desktop指定主目录main，实施前HEAD `8bb1e13`；源码与提交均直接在此目录。保留原有未跟踪用户文件和原dist，无其他worktree施工。
+- **交付**：官方2015源XLSX（通过存档传输，当前官方Jina150词逐条对齐）和当前2025大纲PDF锁hash；只取字词头/版本/等级/成员事实。旧150词/174派生字，新300词/246认读字/100个一级～二级联合书写字；schema真实保留1-2。自动从既有锁定CC-CEDICT/Unihan/MMH/笔画提取213新字，原126不动，总339；HSK范围并集255与教学覆盖分开。5个HSK组+2个场景组与原4组共用Repository；词项语义保留整词，评分与收藏明确为组成字。两场景各3句，逐token解释、当前组、字典/笔顺、受控子集、精确返回/刷新与学习中心接通。3个HSK主范围页index，其余教学/场景草稿仍noindex；音频缺失明确禁用。
+- **新增文件**：`scripts/extract-hsk-sources.py`、`scripts/{fetch-hsk-sources,build-hsk-data,validate-hsk-data,verify-hsk-browser}.mjs`；`data/hsk/README.md`、`data/hsk/{source-headwords,membership,lexicon,coverage}.json`与213个`strokes/*.json`、`data/scenarios/scenarios.json`、`data/licenses/HSK-SCOPE.md`；`site/hsk-data.mjs`、`site/pages/{hsk,scenarios}.mjs`、`src/client/hf07.mjs`、`tests/hsk-scenarios.test.mjs`、`HF-07-VERIFICATION.md`及`evidence/hf07/`轻量JSON。
+- **修改文件**：`data/{sources.lock.json,schemas/hsk-membership.schema.json,schemas/sources.schema.json}`；`scripts/{build-site.js,fetch-content-sources.mjs,validate-data-foundation.mjs}`；`site/{learning-data.mjs,routes.mjs,release.json,pages/dictionary.mjs,pages/learning.mjs,public/site-styles.css}`；`src/client/{dictionary,guest-learning,navigation}.mjs`；`tests/{dictionary,guest-learning}.test.mjs`；Repository接口契约、本PROGRESS、TASKS及当前HF07任务。原核心数据和共享调度内核未改。
+- **验证**：npm test 119/119（112原+7新）；validate-hsk-data PASS含213笔画hash与隔离重建字节一致；普通HF02 fetch保留下游源锁，HF02完整数据重建仍过。两次公开隔离构建1544文件差异0，77原型路由保留，398 noindex+3 HSK index，资源引用检查通过；路由区分126核心/213新增。真实Chrome155 HF07 7组闭环（两HSK/两场景/存储拒绝/无JS/桌面手机导航及5档宽度）通过，实际查看手机与PDF边界截图；HF06回归18项errors=[]。截图、原文件、整包和日志均未入库。
+- **遗留/不可冒充**：新增213字及原核心仍有人类教学审核缺口；不把自动词典导入称为已验收Tier2。场景6句录音缺失/听审pending；30条/套来源抽查由Codex完成，不能伪造人类签字。没有新增音频/调用付费TTS/部署/账号同步Billing/故事制作；未测Safari/Firefox/真机/真实p75/生产。
+- **下一Agent精确切入点**：先读本记录、TASKS与用户指定单任务。HF07收口见HF-07-VERIFICATION遗留1–3：从`data/scenarios/scenarios.json`录音/审句、`evidence/hf07/source-review.json`源定位、`data/hsk/README.md`与lexicon草稿逐批完善；保持characterId/URL并将审批持久化，达Tier2再逐页放行，不以缺插画/新书面授权阻断。HF08可继续全站质量，但不得清空HF02/04/07人工缺口。

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "HSK import boundary; no source lists imported by HF-02",
+  "title": "HSK membership facts including official combined 1\u20132 writing scope",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -26,7 +26,8 @@
         "4",
         "5",
         "6",
-        "7-9"
+        "7-9",
+        "1-2"
       ]
     },
     "itemType": {
@@ -57,7 +58,8 @@
         "4",
         "5",
         "6",
-        "7-9"
+        "7-9",
+        "1-2"
       ]
     },
     "cumulative": {
@@ -81,6 +83,18 @@
       "enum": [
         "headword-edition-level-membership-only"
       ]
+    },
+    "ordinal": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "glyph": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceLabel": {
+      "type": "string",
+      "minLength": 1
     }
   },
   "required": [
@@ -207,6 +221,28 @@
         "properties": {
           "membershipKind": {
             "const": "derived-from-vocabulary"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "level": {
+            "const": "1-2"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "system": {
+            "const": "hsk-3"
+          },
+          "itemType": {
+            "const": "writing-character"
+          },
+          "firstIntroducedLevel": {
+            "const": "1-2"
           }
         }
       }

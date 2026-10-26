@@ -14,7 +14,9 @@ const download=(name,raw)=>{const url=URL.createObjectURL(new Blob([raw],{type:'
 const params=new URLSearchParams(location.search);
 let library, repo, view, controller;
 const deviceId=uuid(); let sequence=0;
-const practiceURL=id=>'/flashcards/?session='+encodeURIComponent(id);
+const safeReturn=value=>typeof value==='string'&&/^\/(?:academic\/hsk-[23]\/|scenarios\/(?:travel\/restaurant|business\/icebreakers)\/)(?:[#?]|$)/.test(value)&&!/[\r\n\\]/.test(value)?value:null;
+let returnTarget=safeReturn(params.get('returnTo'));
+const practiceURL=id=>'/flashcards/?session='+encodeURIComponent(id)+(returnTarget?'&returnTo='+encodeURIComponent(returnTarget):'');
 const cardFor=(characterId,readingId)=>{
   const choices=library.catalog.filter(c=>c.characterId===characterId&&(!readingId||c.readingId===readingId));
   return choices.find(c=>repo.getData().projection.cards[c.cardId])||choices.find(c=>library.primary.includes(c.cardId))||choices[0];
@@ -25,6 +27,7 @@ function mount(session,projection,temporary=false) {
   controller=createFlashcardController({session,projection,deviceId,uuid,nextSeq:count=>{const n=sequence;sequence+=count;return n;},
     temporary, commit:temporary?()=>({temporary:true}):t=>repo.commit(t)});
   view=mountFlashcards($('[data-guest-practice]'),controller);
+  if(returnTarget)$('[data-guest-practice]').append(link('Return to learning context',returnTarget));
   if(!temporary){
     const controls=node('p'),free=button('Practise this set freely',()=>launch((session.cardIds||session.queue.map(e=>e.card.cardId)).map(id=>library.catalog.find(c=>c.cardId===id)).filter(Boolean),session.title||'Free practice',{free:true,source:'free'}));
     const update=()=>{const state=controller.getState();free.hidden=!['complete','empty'].includes(state.session.status);free.disabled=state.blocked;};
@@ -125,6 +128,16 @@ async function init(){
   let locks;try{locks=navigator.locks;}catch{/* Feature detection also handles restricted contexts. */}
   repo=createRepository({storage:repoStorage,catalog:library.catalog,locks,origin:location.origin,lessonIds:library.lessonIds,contentVersion:library.contentVersion,timeZone:Intl.DateTimeFormat().resolvedOptions().timeZone||'UTC'});
   window.HanziFunLearningAdapter={
+    async startDeckPractice({deckId,characterIds,returnTo}){
+      const deck=library.decks.find(d=>d.slug===deckId);if(!deck)return {started:false,reason:'Unknown practice set.'};
+      let cards=deck.cardIds.map(id=>library.catalog.find(c=>c.cardId===id));
+      if(characterIds!==undefined){if(!Array.isArray(characterIds)||!characterIds.length||characterIds.some(id=>!cards.some(c=>c.characterId===id)))return {started:false,reason:'Selection is outside this source list.'};cards=cards.filter(c=>characterIds.includes(c.characterId));}
+      const digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(cards.map(c=>c.cardId).join('|'))))].map(n=>n.toString(16).padStart(2,'0')).join('').slice(0,16);
+      const source='deck:'+deck.slug+':'+digest;returnTarget=safeReturn(returnTo);
+      const existing=Object.values(repo.getData().sessions).find(s=>['active','paused'].includes(s.status)&&s.source===source);
+      if(existing&&!repo.getStatus().error){location.assign(practiceURL(existing.sessionId));return {started:true};}
+      return launch(cards,deck.title,{source,navigate:true});
+    },
     saveCharacter:({characterId})=>repo.setFavorite(characterId),
     async startCharacterPractice({characterId,readingId,source}){
       const card=cardFor(characterId,readingId);if(!card)return {started:false};

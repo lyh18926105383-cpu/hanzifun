@@ -20,7 +20,7 @@ P0 为核心、数据保护与发布关口；P1 为当前阶段主线；P2 为�
 | [HF-04 真实字典、搜索与视觉笔顺闭环](tasks/HF-04-dictionary.md) 🟡工程交付／待人工与学习联调 | P0 | Phase 1 | HF-02、HF-03 | Tier 2 字页、Tier 1 增强、独立笔顺页与拼音表 |
 | [HF-05 复习调度与闪卡会话组件](tasks/HF-05-review-engine.md) ✅独立验收完成（2026-10-25） | P0 | Phase 1 | HF-01 | interval-v1、会话状态机与组件 |
 | [HF-06 游客持久化、学习中心与旧记录导入](tasks/HF-06-guest-learning.md) ✅已完成（2026-10-26） | P0 | Phase 1 | HF-03、HF-04、HF-05 | 本机存储、学习中心、无损导入 |
-| [HF-07 HSK 首级真实字库与两场景连接](tasks/HF-07-hsk-scenarios.md) | P1 | Phase 1 | HF-02、HF-04、HF-06 | 两版 HSK 1 级、餐厅/商务场景 |
+| [HF-07 HSK 首级真实字库与两场景连接](tasks/HF-07-hsk-scenarios.md) 🟡工程交付／待人工内容与场景音频验收（2026-10-26） | P1 | Phase 1 | HF-02、HF-04、HF-06 | 两版 HSK 1 级、餐厅/商务场景 |
 | [HF-08 公开页 SEO、性能与无障碍收口](tasks/HF-08-seo-quality.md) | P0 | Phase 1 | HF-03、HF-04、HF-06 | 按质量放行索引、可见 FAQ、性能/无障碍 |
 | [HF-09 MVP 闭环验收与中文迁移演练](tasks/HF-09-mvp-gate.md) | P0 | Phase 1 发布前 | HF-01、HF-06、HF-07、HF-08 | 首发候选验收，交 HF-17/18 发布 |
 | [HF-12 四项文化工具的受控首版](tasks/HF-12-culture-tools.md) | P1 | Phase 2 | HF-09 | 四工具，浏览器运算/静态数据、本机收藏 |
@@ -152,3 +152,7 @@ interval-v1 调度、UTC/IANA 额度、UUID/revision 事件与确定性重放、
 ## HF-06 执行状态（2026-10-26）
 
 localStorage 确定性 Repository、特性检测/共享写者协调/乐观校验、四组真实卡与字典 saveCharacter/startCharacterPractice、本机学习概览/收藏/历史分页/续练、三旧源预览去重与导出恢复已交付。`npm test` 112/112；真实 Chrome 有锁/无锁/混合能力双标签、刷新/关页续练、实际配额满/失败重试/临时导出恢复、当前已载会话断网通过。HF-04 学习联调缺口关闭，人工内容/拼音/音频缺口仍保留，release 仍 noindex。大日志测试明确受 localStorage 容量限制，未宣称10000事件可真实落盘。证据与下个切入点见 [HF-06 验收](HF-06-VERIFICATION.md)。
+
+## HF-07 执行状态（2026-10-26）
+
+两版首级源事实已全量映射：HSK2 150词/174派生字，HSK3 300词/246认读字及100个一级～二级联合书写字（不伪拆一级）。从HF-02锁源自动提取213个补充字，核心126保留，站点并集339；各清单分母/核心交集/教学审核分开。餐厅和商务各3句、词界释义、精确返回、当前组、字典/独立笔顺/受控卡组/本机收藏已接通。npm test 119/119、HSK验证及确定性重建、HF07真实Chrome7组闭环和HF06回归18项通过。3个HSK主范围页可索引；补充字教学草稿/两场景音频缺失保持预览。按用户允许的精简模板与待审核方案交付，不冒充全量Tier2或人工听审完成。证据/遗留/精确切入点见 [HF-07验证](HF-07-VERIFICATION.md)。

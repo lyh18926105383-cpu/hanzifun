@@ -42,7 +42,7 @@
       "upstreamCommit": "ad1a9905cada18d07630acc27d438b070d753ec0",
       "licenseId": "Arphic-Public-License",
       "licenseTextPath": "data/licenses/Arphic-Public-License.txt",
-      "usageScope": "126 unchanged graphics files, Mainland China stroke-order convention; renderer code is separate",
+      "usageScope": "126 unchanged core graphics files plus 213 HF-07 supplemental unchanged graphics files; Mainland China stroke-order convention; renderer code is separate",
       "sha256": "72baf3d82b114e60d6e40ea05f24d2262a05cd39d544e2f322ba2fceb7beff15",
       "bytes": 13484680,
       "retrievedAt": "2026-10-25T01:34:42.547Z",
@@ -58,7 +58,7 @@
       "url": "https://raw.githubusercontent.com/skishore/makemeahanzi/bddc96d41bef78427ed0e034e9f7e31d71fd1b92/dictionary.txt",
       "licenseId": "LGPL-3.0-or-later",
       "licenseTextPath": "data/licenses/LGPL-3.0.txt",
-      "usageScope": "126 radical/decomposition source records only; no etymology claims; derivative fields LGPL-3.0-or-later",
+      "usageScope": "126 core plus 213 HF-07 supplemental radical/decomposition records; no etymology claims; derivative fields LGPL-3.0-or-later",
       "sha256": "744bb05d5b0742e9ee35c37791f94d56a173349b3367569e7ca11e510364d203",
       "bytes": 2570140,
       "retrievedAt": "2026-10-25T01:34:42.548Z",
@@ -146,6 +146,40 @@
       "rightsStatus": "approved-with-scope",
       "decisionBasis": "user-authorized-existing-project-reuse",
       "changeNotes": "Local source unchanged; preserve original semantics"
+    },
+    {
+      "id": "hsk-2-2015",
+      "publisher": "Chinese Testing International / 中文考试服务网",
+      "version": "2015-vocabulary",
+      "file": "HSK-2015.xlsx",
+      "url": "https://admin.chinesetest.cn/userfiles/file/HSK/HSK-2015.xlsx",
+      "downloadUrl": "https://web.archive.org/web/20231029193623id_/https://www.chinesetest.cn/userfiles/file/HSK/HSK-2015.xlsx",
+      "sha256": "7e3c8cac7f8c2be9c0f8b48ed155db234d065b1d874bb98bdc8b845e7a70c76c",
+      "bytes": 90619,
+      "retrievedAt": "2026-10-26",
+      "rightsStatus": "approved-with-scope",
+      "decisionBasis": "user-confirmed-scope",
+      "usageScope": "headword-edition-level-membership-only",
+      "licenseId": "scope-decision-not-third-party-license",
+      "changeNotes": "HSK2 original XLSX transported by Internet Archive after official host TLS failure; official Jina text cross-check. HSK3 PDF direct download. Archives not redistributed.",
+      "licenseTextPath": "data/licenses/HSK-SCOPE.md"
+    },
+    {
+      "id": "hsk-3-2025",
+      "publisher": "Chinese Testing International / 中文考试服务网",
+      "version": "2025-11-syllabus-effective-2026-07",
+      "file": "hsk3.pdf",
+      "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf",
+      "downloadUrl": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf",
+      "sha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+      "bytes": 4636209,
+      "retrievedAt": "2026-10-26",
+      "rightsStatus": "approved-with-scope",
+      "decisionBasis": "user-confirmed-scope",
+      "usageScope": "headword-edition-level-membership-only",
+      "licenseId": "scope-decision-not-third-party-license",
+      "changeNotes": "Official PDF linked from current syllabus page; only list membership extracted.",
+      "licenseTextPath": "data/licenses/HSK-SCOPE.md"
     }
   ],
   "licenses": [
@@ -176,6 +210,10 @@
     {
       "path": "data/licenses/PROJECT-PROVENANCE.md",
       "sha256": "dbc11678d32098c40fb5f3ad5a47773c5877376fead1503d115fa036f5481e5e"
+    },
+    {
+      "path": "data/licenses/HSK-SCOPE.md",
+      "sha256": "980b5b68885be8098ec02e8b9ea126f319fcfe422bb9fb5f5a09dd0af41d80e2"
     }
   ],
   "strokeFiles": [
@@ -732,6 +770,7 @@
     "rightsStatus": "approved-with-scope",
     "decisionBasis": "user-confirmed-scope",
     "usageScope": "Headwords, edition, level and list membership only; no official definitions/examples/layout; not a third-party license",
-    "importStatus": "contract-only-HF-07"
+    "importStatus": "level-one-facts-imported-HF-07",
+    "headwordsSha256": "8378704bb04cf305832cb19ed51f1d703a7eb1e737a26757002fa178d21c5b8e"
   }
 }

@@ -1,0 +1,330 @@
+{
+  "date": "2026-10-26",
+  "reviewer": "Codex",
+  "reviewKind": "AI source comparison and visual PDF boundary inspection; not human acceptance",
+  "humanAcceptance": "pending",
+  "hsk2": {
+    "sourceTransport": "Internet Archive 20231029193623, original official XLSX",
+    "currentOfficialTextTransport": "Jina Reader of https://admin.chinesetest.cn/userfiles/file/HSK/HSK-2015.xlsx",
+    "textSha256": "638549a6c20fa04855a9eafc31a2e9b665916de4fd8b09c7bb08d35eb4efa7a6",
+    "currentOfficialFirstLevelCount": 150,
+    "normalizedHeadwordsEqual": true,
+    "samples": [
+      {
+        "ordinal": 1,
+        "glyph": "爱",
+        "sourceLocator": "xlsx:新HSK5000词:A2:B2"
+      },
+      {
+        "ordinal": 6,
+        "glyph": "本",
+        "sourceLocator": "xlsx:新HSK5000词:A7:B7"
+      },
+      {
+        "ordinal": 11,
+        "glyph": "吃",
+        "sourceLocator": "xlsx:新HSK5000词:A12:B12"
+      },
+      {
+        "ordinal": 16,
+        "glyph": "点",
+        "sourceLocator": "xlsx:新HSK5000词:A17:B17"
+      },
+      {
+        "ordinal": 22,
+        "glyph": "读",
+        "sourceLocator": "xlsx:新HSK5000词:A23:B23"
+      },
+      {
+        "ordinal": 27,
+        "glyph": "二",
+        "sourceLocator": "xlsx:新HSK5000词:A28:B28"
+      },
+      {
+        "ordinal": 32,
+        "glyph": "个",
+        "sourceLocator": "xlsx:新HSK5000词:A33:B33"
+      },
+      {
+        "ordinal": 37,
+        "glyph": "号",
+        "sourceLocator": "xlsx:新HSK5000词:A38:B38"
+      },
+      {
+        "ordinal": 42,
+        "glyph": "回",
+        "sourceLocator": "xlsx:新HSK5000词:A43:B43"
+      },
+      {
+        "ordinal": 47,
+        "glyph": "今天",
+        "sourceLocator": "xlsx:新HSK5000词:A48:B48"
+      },
+      {
+        "ordinal": 52,
+        "glyph": "块",
+        "sourceLocator": "xlsx:新HSK5000词:A53:B53"
+      },
+      {
+        "ordinal": 58,
+        "glyph": "六",
+        "sourceLocator": "xlsx:新HSK5000词:A59:B59"
+      },
+      {
+        "ordinal": 63,
+        "glyph": "没关系",
+        "sourceLocator": "xlsx:新HSK5000词:A64:B64"
+      },
+      {
+        "ordinal": 68,
+        "glyph": "哪",
+        "sourceLocator": "xlsx:新HSK5000词:A69:B69"
+      },
+      {
+        "ordinal": 73,
+        "glyph": "你",
+        "sourceLocator": "xlsx:新HSK5000词:A74:B74"
+      },
+      {
+        "ordinal": 78,
+        "glyph": "苹果",
+        "sourceLocator": "xlsx:新HSK5000词:A79:B79"
+      },
+      {
+        "ordinal": 83,
+        "glyph": "去",
+        "sourceLocator": "xlsx:新HSK5000词:A84:B84"
+      },
+      {
+        "ordinal": 88,
+        "glyph": "商店",
+        "sourceLocator": "xlsx:新HSK5000词:A89:B89"
+      },
+      {
+        "ordinal": 93,
+        "glyph": "什么",
+        "sourceLocator": "xlsx:新HSK5000词:A94:B94"
+      },
+      {
+        "ordinal": 99,
+        "glyph": "水果",
+        "sourceLocator": "xlsx:新HSK5000词:A100:B100"
+      },
+      {
+        "ordinal": 104,
+        "glyph": "他",
+        "sourceLocator": "xlsx:新HSK5000词:A105:B105"
+      },
+      {
+        "ordinal": 109,
+        "glyph": "同学",
+        "sourceLocator": "xlsx:新HSK5000词:A110:B110"
+      },
+      {
+        "ordinal": 114,
+        "glyph": "喜欢",
+        "sourceLocator": "xlsx:新HSK5000词:A115:B115"
+      },
+      {
+        "ordinal": 119,
+        "glyph": "现在",
+        "sourceLocator": "xlsx:新HSK5000词:A120:B120"
+      },
+      {
+        "ordinal": 124,
+        "glyph": "写",
+        "sourceLocator": "xlsx:新HSK5000词:A125:B125"
+      },
+      {
+        "ordinal": 129,
+        "glyph": "学校",
+        "sourceLocator": "xlsx:新HSK5000词:A130:B130"
+      },
+      {
+        "ordinal": 135,
+        "glyph": "椅子",
+        "sourceLocator": "xlsx:新HSK5000词:A136:B136"
+      },
+      {
+        "ordinal": 140,
+        "glyph": "怎么",
+        "sourceLocator": "xlsx:新HSK5000词:A141:B141"
+      },
+      {
+        "ordinal": 145,
+        "glyph": "住",
+        "sourceLocator": "xlsx:新HSK5000词:A146:B146"
+      },
+      {
+        "ordinal": 150,
+        "glyph": "做",
+        "sourceLocator": "xlsx:新HSK5000词:A151:B151"
+      }
+    ]
+  },
+  "hsk3": {
+    "samples": [
+      {
+        "ordinal": 1,
+        "glyph": "爱",
+        "sourceLocator": "pdf:page:80:line:2:row:1"
+      },
+      {
+        "ordinal": 11,
+        "glyph": "边",
+        "sourceLocator": "pdf:page:80:line:12:row:11"
+      },
+      {
+        "ordinal": 22,
+        "glyph": "出租车",
+        "sourceLocator": "pdf:page:80:line:23:row:22"
+      },
+      {
+        "ordinal": 32,
+        "glyph": "弟弟",
+        "sourceLocator": "pdf:page:80:line:33:row:32"
+      },
+      {
+        "ordinal": 42,
+        "glyph": "读",
+        "sourceLocator": "pdf:page:81:line:3:row:42"
+      },
+      {
+        "ordinal": 53,
+        "glyph": "非常",
+        "sourceLocator": "pdf:page:81:line:14:row:53"
+      },
+      {
+        "ordinal": 63,
+        "glyph": "工作",
+        "sourceLocator": "pdf:page:81:line:24:row:63"
+      },
+      {
+        "ordinal": 73,
+        "glyph": "好看",
+        "sourceLocator": "pdf:page:81:line:34:row:73"
+      },
+      {
+        "ordinal": 83,
+        "glyph": "火车",
+        "sourceLocator": "pdf:page:82:line:4:row:83"
+      },
+      {
+        "ordinal": 94,
+        "glyph": "今天",
+        "sourceLocator": "pdf:page:82:line:15:row:94"
+      },
+      {
+        "ordinal": 104,
+        "glyph": "口",
+        "sourceLocator": "pdf:page:82:line:25:row:104"
+      },
+      {
+        "ordinal": 114,
+        "glyph": "妈妈",
+        "sourceLocator": "pdf:page:82:line:35:row:114"
+      },
+      {
+        "ordinal": 125,
+        "glyph": "米饭",
+        "sourceLocator": "pdf:page:83:line:6:row:125"
+      },
+      {
+        "ordinal": 135,
+        "glyph": "哪些",
+        "sourceLocator": "pdf:page:83:line:16:row:135"
+      },
+      {
+        "ordinal": 145,
+        "glyph": "能",
+        "sourceLocator": "pdf:page:83:line:26:row:145"
+      },
+      {
+        "ordinal": 156,
+        "glyph": "朋友",
+        "sourceLocator": "pdf:page:83:line:37:row:156"
+      },
+      {
+        "ordinal": 166,
+        "glyph": "请问",
+        "sourceLocator": "pdf:page:84:line:7:row:166"
+      },
+      {
+        "ordinal": 176,
+        "glyph": "上班",
+        "sourceLocator": "pdf:page:84:line:17:row:176"
+      },
+      {
+        "ordinal": 187,
+        "glyph": "事",
+        "sourceLocator": "pdf:page:84:line:28:row:187"
+      },
+      {
+        "ordinal": 197,
+        "glyph": "说话",
+        "sourceLocator": "pdf:page:84:line:38:row:197"
+      },
+      {
+        "ordinal": 207,
+        "glyph": "天",
+        "sourceLocator": "pdf:page:85:line:8:row:207"
+      },
+      {
+        "ordinal": 218,
+        "glyph": "喂",
+        "sourceLocator": "pdf:page:85:line:19:row:218"
+      },
+      {
+        "ordinal": 228,
+        "glyph": "下班",
+        "sourceLocator": "pdf:page:85:line:29:row:228"
+      },
+      {
+        "ordinal": 238,
+        "glyph": "小学生",
+        "sourceLocator": "pdf:page:85:line:39:row:238"
+      },
+      {
+        "ordinal": 248,
+        "glyph": "学生",
+        "sourceLocator": "pdf:page:86:line:9:row:248"
+      },
+      {
+        "ordinal": 259,
+        "glyph": "一下",
+        "sourceLocator": "pdf:page:86:line:20:row:259"
+      },
+      {
+        "ordinal": 269,
+        "glyph": "月",
+        "sourceLocator": "pdf:page:86:line:30:row:269"
+      },
+      {
+        "ordinal": 279,
+        "glyph": "这",
+        "sourceLocator": "pdf:page:86:line:40:row:279"
+      },
+      {
+        "ordinal": 290,
+        "glyph": "中文",
+        "sourceLocator": "pdf:page:87:line:11:row:290"
+      },
+      {
+        "ordinal": 300,
+        "glyph": "做饭",
+        "sourceLocator": "pdf:page:87:line:21:row:300"
+      }
+    ],
+    "visualSourcePages": [
+      87,
+      377
+    ],
+    "boundaryCheck": "PDF page 87: row 300 做饭 is level 1; row 301 啊 starts level 2. PDF page 377 title explicitly says levels 1–2 writing; rows 1–100.",
+    "extraChecks": [
+      "Source sense labels 本1、和1、会1、喂1 retain sourceLabel but are not duplicated word spelling",
+      "Recognition 246 versus vocabulary constituent union 248: 店 and 饺 are not in recognition list",
+      "Writing starts 爱 and ends 作; combined scope is never split",
+      "Single-character polyphones 长 chang2/zhang3 remain separate candidate readings"
+    ]
+  }
+}
