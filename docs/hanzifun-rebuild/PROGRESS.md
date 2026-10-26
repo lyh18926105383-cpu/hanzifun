@@ -139,3 +139,21 @@
 - **明确遗留**：完整候选仍BLOCKED，核心126和补充213人工已验收均0；补充字尚缺独立例词/句/助记。410音节/1323候选、107语境录音/19核心缺音、两场景6句录音、八课适用人工确认及Safari/Firefox/真机/真实读屏/原生缩放待补。原第一课保留旧分段能力，没有凭空新增逐字cue。10000事件快照约11.39MB，摘要约40ms，冷加载约0.9s/恢复预检约1s（精确值见本次收据）；不宣称可全部localStorage落盘或所有恢复≤300ms。未生成或修改故事/音频，未调用付费TTS，未部署或引入Phase3功能。
 - **产物纪律**：所有大构建、日志、截图、下载备份及Workers状态位于已忽略`.cache/hf09/`；仅轻量JSON和文档入库，截图hash清单记录本机位置。
 - **下一Agent精确切入点**：先读本记录、TASKS、用户指定单任务；人工收口读`acceptance/phase-1-checklist.md`。字页从`evidence/hf09/review-inventory.json`定位缺项，实际修改`data/editorial/`输入；`review-release-batch --prepare=core-01`导出pending模板，人工逐项填真实签字后dry-run再--apply；不要修改生成收据。专项审批填`data/editorial/mvp-acceptance.json`并绑定manual-scopes当前hash；未录音不可听审通过。重跑`node scripts/validate-mvp-gate.mjs --browser --require-human`，人工未齐返回2；只在完整条件通过后关闭HF09，不能因为工程PASS开启后续阶段或标已上线。
+
+
+### [记录 11] - 四项 UI/UX 体验修订完成（By Codex，2026-10-26）
+- **工作目录/范围**：用户指定 Desktop 主目录 main；保留原有全部未跟踪文件。本次只改闪卡交互、尺寸、学习记录入口和中文页面英文返回入口。
+- **已完成**：
+  - 用户明确替代 HF-05 原“先翻后评”约束：会话引擎、controller、按钮与 1/2 快捷键允许正面 Familiar/Again；一个评价事务完成保存/游标推进，保存中和失败未重试前仍禁止重复提交。
+  - 桌面 24rem、手机 21rem 统一卡片边框盒；沿用中文闪卡 STKaiti/KaiTi 楷体栈，大字居中；背面按内容密度调整字号，超长内容内部滚动且可键盘聚焦。
+  - 学习页副标题工具栏新增带 SVG 的 Learning History / Progress & review stats 胶囊；全站桌面/移动导航 My Progress 指向 `/account/`。
+  - `index.html`、`story.html` 头部新增 English / 返回英文版，目标 `/`，更新中文 CSS 缓存版本。完整阅读故事生产流程；本次没有制作或变更故事、视频、TTS、字幕或逐字高亮，不产生新的课程审批。
+- **修改文件列表**：
+  - `src/learning/session.mjs`、`src/client/flashcards.{mjs,css}`。
+  - `site/pages/learning.mjs`、`site/site.mjs`、`site/public/site-styles.css`。
+  - `index.html`、`styles.css`、`story.html`、`story.css`。
+  - `tests/{flashcards,review-session,site-shell}.test.mjs`、`tests/lessons.test.js`、`scripts/verify-review-browser.mjs`。
+  - `docs/hanzifun-rebuild/{TASKS,PROGRESS,HF-05-INTEGRATION}.md`、`tasks/HF-05-review-engine.md`、`evidence/ux-2026-10-26/receipt.json`。
+- **验证**：`npm test` **138/138**；`npm run build:site` 已重建主目录 `dist/`，1546 个公开文件、401 个 noindex 预览页（dist 按现有规则忽略，不手改/提交构建产物）。Chrome155 闪卡脚本通过正面点击 Familiar、键盘、保存失败/相同事务重试、暂停刷新续练、完成去重、前后卡片尺寸及五档无溢出。实际 dist 在360/390/768/1181/1200/1440宽检查正面评价落盘推进、稳定卡宽高与桌面/手机 Progress 导航；超长释义内部滚动、中文两页360/390/768/1440返回链接通过。HF-08浏览器质量脚本16类页面axe零违规、65档布局及实验室性能检查通过。浏览器收据入上述 evidence；截图及详细质量结果仅留本机 `/private/tmp/hanzifun-ux-browser/`、`/private/tmp/hanzifun-ux-quality/`。
+- **遗留问题/边界**：本轮需求无已知未完成项；不替代既有人工内容/音频/完整课程体验、Safari/Firefox/真机与真实读屏验收；未部署、未推送远程，未引入Phase3代码。
+- **下一个 Agent 精确切入点**：在本地主目录4173刷新验收 `/flashcards/` 并选择卡组、`/account/`、`/zh/` 和 `/story.html?lesson=ant-moving-bean-02`；后续发布工作继续 `acceptance/phase-1-checklist.md`，不要将本次UI通过当作HF-09完整人工放行。正面评价新行为以用户本轮指令和本记录为准，覆盖旧日志中的先翻后评描述。

@@ -41,7 +41,7 @@ export function createFlashcardController({session, projection, commit = () => (
     flip: () => checkpoint(flip), pause: () => checkpoint(pause), resume: () => checkpoint(resume),
     revisit: position => checkpoint(s => revisit(s, position)),
     async rate(rating) {
-      if (saving || pending || current.status !== 'active' || current.face !== 'back') return false;
+      if (saving || pending || current.status !== 'active') return false;
       const transaction = rate(current, progress, rating, {now: clock(), id: uuid(), completionId: uuid(),
         deviceId, deviceSeq: nextSeq(2)});
       pending = {...transaction, expectedLog: expectedLog(), expectedSessionRevision: current.revision};
@@ -95,9 +95,14 @@ export function mountFlashcards(root, controller) {
       s.status === 'paused' ? 'Practice paused' : `Card ${s.cursor + 1} of ${s.queue.length}`;
     card.textContent = active ? s.queue[s.cursor].card[s.face] : s.status === 'complete' ?
       `Practiced: ${state.summary.practiced}. Again: ${state.summary.again}. Next due: ${state.summary.earliestDueAt === null ? 'None' : new Date(state.summary.earliestDueAt).toISOString()}.` : '';
+    card.dataset.face = active ? s.face : 'summary';
+    card.dataset.density = card.textContent.length > 240 ? 'compact' : 'comfortable';
+    card.tabIndex = active && s.face === 'back' ? 0 : -1;
+    card.setAttribute('aria-label', active ? (s.face === 'front' ? 'Character' : 'Answer — scroll for more') : 'Practice summary');
+    if ('scrollTop' in card) card.scrollTop = 0;
     warning.textContent = s.clockWarning ? 'Device time moved backwards. Check your clock; your records are preserved.' : '';
     buttons.flip.hidden = !active; buttons.flip.textContent = s.face === 'front' ? 'Reveal answer' : 'Show front';
-    for (const name of ['familiar', 'again']) { buttons[name].hidden = !active; buttons[name].disabled = state.blocked || s.face !== 'back'; }
+    for (const name of ['familiar', 'again']) { buttons[name].hidden = !active; buttons[name].disabled = state.blocked; }
     buttons.revisit.hidden = !active || s.cursor === 0;
     buttons.pause.hidden = !active; buttons.resume.hidden = s.status !== 'paused';
     for (const name of ['flip', 'pause', 'resume', 'revisit']) buttons[name].disabled = state.blocked;
@@ -121,7 +126,6 @@ export function mountFlashcards(root, controller) {
     if (s.blocked || s.session.status !== 'active') return;
     // Space/Enter retain native button behavior, avoiding a double activation.
     if (event.key === '1' || event.key === '2') {
-      if (s.session.face !== 'back') return;
       event.preventDefault(); void controller.rate(event.key === '1' ? 'familiar' : 'unfamiliar');
     }
   }

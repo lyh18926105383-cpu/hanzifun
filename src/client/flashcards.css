@@ -1,5 +1,13 @@
 .hf-flashcards { max-width: 42rem; margin-inline: auto; padding: 1rem; }
-.hf-flashcard { min-height: 10rem; display: grid; place-items: center; padding: 1rem; border: 2px solid currentColor; border-radius: 1rem; font-size: clamp(1.5rem, 5vw, 3rem); white-space: pre-wrap; overflow-wrap: anywhere; }
+/* Both faces share one border box; long answers scroll inside it. */
+.hf-flashcard { box-sizing: border-box; width: 100%; height: 24rem; display: flex; flex-direction: column; justify-content: safe center; align-items: center; padding: 2rem; border: 1px solid #d6c9b5; border-radius: 1.5rem; background: #fffdf7; color: #29483d; box-shadow: 0 14px 34px #43352214, 0 3px 6px #4335220c; white-space: pre-wrap; overflow-wrap: anywhere; overflow-y: auto; scrollbar-gutter: stable both-edges; line-height: 1.65; }
+.hf-flashcard[data-face="front"] { font-family: 'STKaiti', 'KaiTi', '楷体', 'Noto Serif SC', 'Songti SC', 'STSong', serif; font-size: clamp(7rem, 24vw, 11rem); line-height: 1.2; text-align: center; }
+.hf-flashcard[data-face="back"] { align-items: stretch; font-size: 1.35rem; }
+.hf-flashcard[data-face="back"][data-density="compact"] { font-size: 1.1rem; line-height: 1.55; }
+.hf-flashcard:focus-visible { outline: 3px solid #075985; outline-offset: 3px; }
+.hf-flashcard-controls [data-action="familiar"] { background: #294f40; color: #fff; border: 1px solid #294f40; border-radius: .65rem; }
+@media (max-width: 480px) { .hf-flashcards { padding: .5rem 0; } .hf-flashcard { height: 21rem; padding: 1.25rem; } .hf-flashcard[data-face="back"] { font-size: 1.15rem; } }
+
 .hf-flashcard-controls { display: flex; flex-wrap: wrap; gap: .75rem; margin-block: 1rem; }
 .hf-flashcard-controls button { min-height: 44px; padding: .5rem 1rem; font: inherit; cursor: pointer; }
 .hf-flashcard-controls button:focus-visible, .hf-flashcards h2:focus-visible { outline: 3px solid #075985; outline-offset: 3px; }

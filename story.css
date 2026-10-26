@@ -254,3 +254,9 @@ button, a { font: inherit; }
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+.english-site-link { display: inline-flex; align-items: center; justify-content: center; gap: .35rem; min-height: 44px; padding: .5rem .85rem; border: 1px solid #d5c6af; border-radius: 999px; background: #fffdf7; color: #294f40; font-size: 13px; font-weight: 700; text-decoration: none; box-shadow: 0 3px 10px #4335220c; }
+.english-site-link:hover { background: #edf5ef; }
+.english-site-link:focus-visible { outline: 3px solid #294f40; outline-offset: 3px; }
+
+.story-header .english-site-link { grid-column: 2 / -1; justify-self: end; }

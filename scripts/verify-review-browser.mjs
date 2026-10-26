@@ -26,17 +26,19 @@ try {
   const errors = []; page.on('pageerror', error => errors.push(error.message));
   await page.goto(`http://127.0.0.1:${server.address().port}/tests/fixtures/hf05-preview.html`);
   const button = action => page.locator(`[data-action="${action}"]`);
-  await button('flip').waitFor(); assert.equal(await button('familiar').isDisabled(), true);
-  await button('flip').press('Enter'); await page.waitForFunction(() => hf05.controller.getState().saveState === 'saved');
-  assert.equal(await button('familiar').evaluate(el => el === document.activeElement), true);
-  await page.keyboard.press('1'); await page.waitForFunction(() => hf05.controller.getState().session.cursor === 1);
+  await button('flip').waitFor(); assert.equal(await button('familiar').isDisabled(), false);
+  assert.equal(await page.evaluate(() => hf05.controller.getState().session.face), 'front');
+  await button('familiar').click(); await page.waitForFunction(() => hf05.controller.getState().session.cursor === 1);
   await button('pause').click(); await page.waitForFunction(() => hf05.controller.getState().session.status === 'paused');
   await page.reload(); await button('resume').waitFor();
   assert.equal(await page.evaluate(() => hf05.controller.getState().session.cursor), 1);
   await button('resume').click(); await page.waitForFunction(() => !hf05.controller.getState().saving);
+  const frontBox = await page.locator('.hf-flashcard').boundingBox();
   await page.evaluate(() => {hf05.fail = true;});
   await button('flip').click(); await button('retry').waitFor();
   assert.match(await page.locator('[role="status"]').innerText(), /Not saved/);
+  const backBox = await page.locator('.hf-flashcard').boundingBox();
+  assert.equal(backBox.width, frontBox.width); assert.equal(backBox.height, frontBox.height);
   assert.equal(await button('familiar').isDisabled(), true);
   assert.equal(await button('retry').evaluate(el => el === document.activeElement), true);
   await page.screenshot({path: path.join(output, 'mobile-unsaved.png'), fullPage: true});
@@ -57,8 +59,8 @@ try {
   }
   await page.screenshot({path: path.join(output, 'desktop-complete.png'), fullPage: true});
   assert.deepEqual(errors, []);
-  const receipt = {date: '2026-10-25', browser: await browser.version(), syntheticFixture: true,
-    checks: ['native Enter reveal', 'rating shortcut', 'focus', 'pause/reload/resume', 'failed save', 'same-transaction retry',
+  const receipt = {date: '2026-10-26', browser: await browser.version(), syntheticFixture: true,
+    checks: ['front Familiar click advances cursor', 'stable front/back card dimensions', 'rating shortcut', 'focus', 'pause/reload/resume', 'failed save', 'same-transaction retry',
       'completion/reload idempotency', 'two cardIds / one characterId', 'no console errors', 'no horizontal overflow'], widths,
     practicedCharacters: new Set(Object.values(complete.projection.cards).map(c => c.characterId)).size,
     events: complete.projection.eventIds.length, sessions: complete.projection.completions.length};

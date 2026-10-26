@@ -122,3 +122,16 @@ test('unknown paths use the real 404 asset instead of a single-page fallback', (
   assert.doesNotMatch(wrangler, /single-page-application/);
   assert.ok(routeManifest.routes.some(route => route.path === '/404.html' && route.robots === 'noindex,follow'));
 });
+
+test('desktop and mobile navigation expose local progress and practice has a history capsule', async () => {
+  const navigation = header();
+  for (const label of ['Main navigation', 'Mobile navigation']) {
+    const nav = navigation.split(`aria-label="${label}"`)[1].split('</nav>')[0];
+    assert.match(nav, /href="\/account\/">My Progress<\/a>/);
+  }
+  const {learningPages} = await import('../site/pages/learning.mjs');
+  const practice = learningPages().find(p => p.path === '/flashcards/').content;
+  assert.ok(practice.includes('class="learning-history-link" href="/account/"'));
+  assert.match(practice, /<svg[^>]*.*aria-hidden="true"/);
+  assert.match(practice, /Learning History/);
+});

@@ -164,3 +164,11 @@ localStorage 确定性 Repository、特性检测/共享写者协调/乐观校验
 ## HF-09 执行状态（2026-10-26）
 
 主目录main交付总门控、逐项内容hash审批、6个核心/11个补充字批次模板及精确路由放行工具；213补充字统一禁发改为Tier2完整性+逐项人工签字门槛，未补造内容或批准。npm test 133/133；数据/HSK、四构建确定性、18项本机Workers HTTP、HF06/07/08浏览器及四种水搜索/跨origin文件迁移/八课全程通过。工程PASS，完整候选仍BLOCKED：126/213字人工验收均0，拼音/音频/场景/故事/真机与跨浏览器/读屏缺口保留。见[总报告](acceptance/phase-1.md)、[人工清单](acceptance/phase-1-checklist.md)。未部署；大构建/截图/备份仅存忽略的.cache，Git只含轻量证据。
+
+## UI/UX 修订完成（2026-10-26）
+
+- [x] HF-05/06：正面 Familiar/Again 按钮及数字 1/2 可直接评价并推进游标；保留防连点、失败重试、完成去重与续练。
+- [x] HF-05：桌面 24rem／手机 21rem 固定卡高，楷体大字正面、背面密度调整与内部滚动。
+- [x] HF-03/06/08：闪卡工具栏 Learning History SVG 胶囊，以及共享桌面/移动导航 My Progress → `/account/`。
+- [x] 中文首页/故事播放器头部 English 返回 `/`；只修改导航及样式，不变更课程内容或视听资源。
+- 验证：`npm test` 138/138；`npm run build:site` 更新主目录 dist（1546文件）；Chrome 闪卡回归、实际页面六档宽度及 HF-08 质量检查通过。原人工发布门槛保持 pending。详情见 PROGRESS 记录 11。

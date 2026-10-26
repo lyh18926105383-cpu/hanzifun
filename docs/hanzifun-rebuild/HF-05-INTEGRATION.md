@@ -21,7 +21,7 @@
 - 已到期卡按 dueAt、二进制 cardId 字符串升序，然后新卡；默认新卡 10/日、20/次，均支持 5/10/20。新卡额度不限制到期旧卡；下一页重新计算队列。建会话和提交事件时均检查新额度，竞争耗尽时保留练习历史，不额外推进新卡。
 - 新卡首次或 dueAt<=effectiveNow 且 scheduleRevision 匹配才能推进；提前练习、立即再看、过期 revision 仅留历史，不推迟 dueAt。不提供“已掌握”承诺。
 - `createSession` 深拷贝初始卡序与文本，续练调用 `restoreSession`，不能按新内容重新拼队列。`revisit(session, answeredPosition)` 只在未结束会话中追加旧卡的 free 副本，不重排初始队列；最后结束后若要重练，宿主创建新的 free 会话。
-- `flip/pause/resume/revisit` 增加会话 revision；翻面前不能评价。最后一次评价和唯一完成事件在同一个事务中返回；空队列不产生完成事件。每次评价槽位以 sessionId+position 去重；完成以 sessionId 去重。
+- `flip/pause/resume/revisit` 增加会话 revision；正反面均可直接评价（2026-10-26 用户体验修订）；Familiar/Again 与数字 1/2 快捷键共用同一评价事务。最后一次评价和唯一完成事件在同一个事务中返回；空队列不产生完成事件。每次评价槽位以 sessionId+position 去重；完成以 sessionId 去重。
 - `summary` 返回本轮练习次数（含显式 free 再看）、again 次数、整个传入投影下一次最早 dueAt；唯一字数通过 dashboard 单独展示。dashboard 的 dueCards 使用 projection.lastNow，宿主需要“当前到期”时传入经 effectiveClock 校正的 now 副本，不能用旧投影时间当实时计数。
 
 UTC 毫秒用于所有排程；同一已提交日志顺序+算法版本得到相同投影，不按客户端时间重新排序。effectiveNow 不低于已保存 lastNow；倒退超过 10 分钟显示异常提示，保留历史。首次正式排程的 IANA 时区固定为额度账本时区；改展示时区不会重发额度，夏令时重复小时仍是同一日。当前不提供重置额度时区的入口；将来如迁移额度时区，需保留当前窗口/已用额度，不能清空 quota。此限制应在 HF-06 设置说明中保留。

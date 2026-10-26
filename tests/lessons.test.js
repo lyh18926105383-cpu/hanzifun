@@ -385,3 +385,11 @@ test('故事课结果保存在独立的本机记录中', () => {
     assert.equal(saved, true);
     assert.equal(JSON.parse(values.get(STORY_STORAGE_KEY)).sessions[0].quizCorrect, 3);
 });
+
+test('中文首页与故事页提供返回英文主站入口', () => {
+    for (const file of ['index.html', 'story.html']) {
+        const html = fs.readFileSync(path.resolve(__dirname, '..', file), 'utf8');
+        assert.match(html, /<a class="english-site-link" href="\/"[^>]*>/);
+        assert.match(html, /返回英文版/);
+    }
+});

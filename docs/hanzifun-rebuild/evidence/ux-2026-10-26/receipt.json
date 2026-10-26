@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-26",
+  "browser": "Chrome 155.0.8059.85",
+  "tests": {
+    "passed": 138,
+    "failed": 0
+  },
+  "build": {
+    "files": 1546,
+    "previewPages": 401
+  },
+  "actualBuildBrowser": {
+    "checks": [
+      {
+        "width": 360,
+        "stableCard": 336,
+        "frontRating": true,
+        "progressNav": true
+      },
+      {
+        "width": 390,
+        "stableCard": 336,
+        "frontRating": true,
+        "progressNav": true
+      },
+      {
+        "width": 768,
+        "stableCard": 384,
+        "frontRating": true,
+        "progressNav": true
+      },
+      {
+        "width": 1181,
+        "stableCard": 384,
+        "frontRating": true,
+        "progressNav": true
+      },
+      {
+        "width": 1200,
+        "stableCard": 384,
+        "frontRating": true,
+        "progressNav": true
+      },
+      {
+        "width": 1440,
+        "stableCard": 384,
+        "frontRating": true,
+        "progressNav": true
+      }
+    ],
+    "longAnswerScroll": true,
+    "chineseReturnLinks": true,
+    "errors": []
+  },
+  "quality": {
+    "axeRoutes": 16,
+    "violations": 0,
+    "layouts": 65,
+    "consoleErrors": 0
+  },
+  "scope": "UI navigation and flashcard interaction only; no story media/content re-approval"
+}

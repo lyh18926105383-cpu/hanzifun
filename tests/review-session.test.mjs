@@ -22,10 +22,9 @@ test('session freezes deep content/queue and restores exact front/back/cursor in
   assert.throws(() => restoreSession({...s, snapshotVersion: 2}), /damaged/);
   assert.throws(() => createSession({cards, projection: emptyProjection(), now}), /identity/);
 });
-test('reveal precedes rating, last rating and completion form one transaction and repeated completion counts once', () => {
+test('front rating is accepted, last rating and completion form one transaction and repeated completion counts once', () => {
   const s = make({cards: cards.slice(0, 1)});
-  assert.throws(() => rate(s, emptyProjection(), 'familiar', meta()), /Reveal/);
-  const last = rate(flip(s), emptyProjection(), 'familiar', meta());
+  const last = rate(s, emptyProjection(), 'familiar', meta());
   assert.equal(last.events.length, 2); assert.equal(last.snapshot.status, 'complete');
   assert.equal(last.projection.completions.length, 1);
   assert.equal(replay([...last.events, ...last.events]).completions.length, 1);

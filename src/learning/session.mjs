@@ -49,7 +49,7 @@ export function revisit(session, position) {
 }
 
 export function rate(session, projection, rating, {now, id, completionId, deviceId, deviceSeq}) {
-  if (session.status !== 'active' || session.face !== 'back') throw new Error('Reveal the answer before rating');
+  if (session.status !== 'active') throw new Error('An active card is required for rating');
   const clock = effectiveClock(now, Math.max(session.lastNow, projection.lastNow));
   const entry = session.queue[session.cursor];
   const event = createEvent({type: 'card-rated', sessionId: session.sessionId,

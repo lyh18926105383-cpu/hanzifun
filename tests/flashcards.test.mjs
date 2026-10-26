@@ -32,7 +32,7 @@ function dom() {
 test('controller blocks rapid double submit and accepts only confirmed saved:true', async () => {
   const writes = []; let release;
   const c = controller(tx => { writes.push(tx); return tx.events.length ? new Promise(resolve => { release = resolve; }) : {saved: true}; });
-  assert.equal(await c.rate('familiar'), false); await c.flip();
+  assert.equal(c.getState().session.face, 'front');
   const pending = c.rate('familiar'); assert.equal(c.getState().saving, true);
   assert.equal(await c.rate('unfamiliar'), false); release({saved: true}); await pending;
   assert.equal(writes.filter(tx => tx.events.length).length, 1);
@@ -56,13 +56,14 @@ test('missing/rejected storage and pause checkpoint never claim success; frozen 
   const state = ok.exportState(); const restored = controller(() => ({saved: true}), {session: state.snapshot});
   await restored.resume(); assert.equal(restored.getState().session.status, 'active'); assert.equal(restored.getState().session.cursor, 0);
 });
-test('component renders inert text, semantic buttons, flip-first rating, focus and keyboard completion', async () => {
+test('component renders inert text, semantic buttons, front rating, focus and keyboard completion', async () => {
   const {root, document} = dom(); const c = controller(); const view = mountFlashcards(root, c);
   const section = root.children[0], controls = section.children[3];
   const get = action => controls.children.find(button => button.dataset.action === action);
   assert.equal(section.attributes['aria-label'], 'Flashcard practice');
   assert.equal(section.children[4].attributes['role'], 'status');
-  assert.equal(get('familiar').disabled, true); assert.equal(document.activeElement, get('flip'));
+  assert.equal(get('familiar').disabled, false); assert.equal(document.activeElement, get('flip'));
+  assert.equal(section.children[1].dataset.face, 'front');
   await get('flip').click(); assert.equal(get('familiar').disabled, false);
   assert.equal(section.children[1].textContent, cards[0].back); assert.equal(document.activeElement, get('familiar'));
   let prevented = false;
@@ -72,12 +73,12 @@ test('component renders inert text, semantic buttons, flip-first rating, focus a
   assert.equal(document.activeElement, section.children[0]); assert.match(section.children[4].textContent, /Saved on this device/);
   view.destroy(); assert.equal(section.removed, true); assert.equal(section.listeners.keydown, undefined);
 });
-test('component ignores premature/repeating/text-input shortcuts, exposes failed save and retry focus', async () => {
+test('component ignores repeating/text-input shortcuts, exposes failed save and retry focus', async () => {
   const {root, document} = dom(); let fail = true;
   const c = controller(() => ({saved: !fail})); mountFlashcards(root, c);
   const section = root.children[0], controls = section.children[3];
   const get = action => controls.children.find(button => button.dataset.action === action);
-  for (const event of [{key: '1'}, {key: '2', repeat: true}, {key: '2', target: {tagName: 'INPUT'}}]) section.listeners.keydown(event);
+  for (const event of [{key: '1', isComposing: true}, {key: '2', repeat: true}, {key: '2', target: {tagName: 'INPUT'}}]) section.listeners.keydown(event);
   assert.equal(c.getState().session.cursor, 0);
   await get('flip').click(); assert.match(section.children[4].textContent, /Not saved/);
   assert.equal(document.activeElement, get('retry')); assert.equal(get('familiar').disabled, true);
@@ -100,4 +101,22 @@ test('transaction carries log and session revisions so a host can reject a stale
   await first.flip(); assert.equal(await other.flip(), false);
   assert.match(other.getState().error, /Revision conflict/); assert.equal(stored.snapshot.face, 'back');
   assert.equal(stored.events.length, 0);
+});
+
+for (const rating of ['familiar', 'unfamiliar']) test(`front ${rating} button saves and advances to next front`, async () => {
+  const projection = emptyProjection();
+  const session = createSession({cards: [...cards, {...cards[0], cardId: 'fixture:2'}], projection, now, sessionId: uuid(), baseRevision: 'front-rating'});
+  const writes = []; const c = controller(tx => {writes.push(tx); return {saved: true};}, {session, projection});
+  const {root} = dom(); mountFlashcards(root, c);
+  const controls = root.children[0].children[3];
+  await controls.children.find(b => b.dataset.action === (rating === 'familiar' ? 'familiar' : 'again')).click();
+  assert.equal(writes.length, 1); assert.equal(writes[0].events[0].rating, rating);
+  assert.equal(writes[0].expectedSessionRevision, 0);
+  assert.equal(c.getState().session.cursor, 1); assert.equal(c.getState().session.face, 'front');
+});
+test('front numeric shortcut submits without revealing', async () => {
+  const c = controller(); const {root} = dom(); mountFlashcards(root, c);
+  root.children[0].listeners.keydown({key: '1', preventDefault() {}});
+  await new Promise(resolve => setImmediate(resolve));
+  assert.equal(c.getState().session.status, 'complete');
 });

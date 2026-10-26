@@ -1771,3 +1771,10 @@ body {
         transform: none;
     }
 }
+
+.english-site-link { display: inline-flex; align-items: center; justify-content: center; gap: .35rem; min-height: 44px; padding: .5rem .85rem; border: 1px solid #d5c6af; border-radius: 999px; background: #fffdf7; color: #294f40; font-size: 13px; font-weight: 700; text-decoration: none; box-shadow: 0 3px 10px #4335220c; }
+.english-site-link:hover { background: #edf5ef; }
+.english-site-link:focus-visible { outline: 3px solid #294f40; outline-offset: 3px; }
+
+.site-header { flex-wrap: wrap; max-width: calc(100% - 32px); }
+@media(max-width:600px) { .site-header { position: relative; left: auto; padding: 0 0 16px; width: 100%; } .site-header .english-site-link { margin-left: auto; } }
