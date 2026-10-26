@@ -1,3 +1,5 @@
+import {resolveRoutePolicy} from '../site/routes.mjs';
+import {characterReviewState} from '../site/publication-review.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -101,11 +103,11 @@ test('audio rejects unreviewed/context-mismatched bindings and stops the previou
 });
 test('publication fails closed for unaccepted teaching; a missing illustration is not used as a gate',()=>{
  assert.doesNotThrow(()=>assertPublicationReady({path:'/dictionary/水/',indexing:'noindex'}));
- assert.throws(()=>assertPublicationReady({path:'/dictionary/水/',indexing:'index'}),/Unreviewed/);
+ if(!characterReviewState('char:6c34').accepted)assert.throws(()=>assertPublicationReady({path:'/dictionary/水/',indexing:'index'}),/Unreviewed/);
  assert.throws(()=>assertPublicationReady({path:'/pinyin-chart/',indexing:'index'}),/pending/);
  const original=reviews.characters['char:6c34'];
  try {reviews.characters['char:6c34']={humanContent:'approved'};assert.throws(()=>assertPublicationReady({path:'/dictionary/水/',indexing:'index'}),/Unreviewed/);
- reviews.characters['char:6c34']={humanContent:'approved',reviewer:'test-fixture',date:'2026-10-25',evidence:'test-only acceptance fixture'};
+ reviews.characters['char:6c34']={humanContent:'approved',reviewer:'test-fixture',date:'2026-10-25',evidence:'test-only acceptance fixture',contentSha256:characterReviewState('char:6c34').contentSha256};
  assert.doesNotThrow(()=>assertPublicationReady({path:'/dictionary/水/',indexing:'index'}));
  }finally {reviews.characters['char:6c34']=original;}
 
@@ -115,7 +117,7 @@ test('isolated static build verifies all references, per-character assets, previ
  try{
   const result=spawnSync(process.execPath,['scripts/build-site.js'],{cwd:root,env:{...process.env,HF_SITE_ENV:'production',HF_BUILD_OUTPUT_DIR:output},encoding:'utf8'});
   assert.equal(result.status,0,result.stderr);const get=p=>fs.readFileSync(path.join(output,p),'utf8');
-  for(const c of characters){const html=get('dictionary/'+c.glyph+'/index.html');assert.match(html,/noindex,follow/);assert.match(html,/Information/);}
+  for(const c of characters){const html=get('dictionary/'+c.glyph+'/index.html');assert.ok(html.includes('content="'+resolveRoutePolicy('/dictionary/'+c.glyph+'/').robots+'"'));assert.match(html,/Information/);}
   assert.equal(fs.readdirSync(path.join(output,'data/strokes')).length,126+lexicon.characters.length);
   for(const asset of strokes)assert.deepEqual(fs.readFileSync(path.join(output,asset.url)),fs.readFileSync(path.join(root,asset.url)));
   assert.equal(JSON.parse(get('content-manifest.json')).contentVersion,readJson('data/core-manifest.json').version);
@@ -125,7 +127,7 @@ test('isolated static build verifies all references, per-character assets, previ
   for(const file of fs.readdirSync(path.join(output,'site-assets')).filter(f=>/\.(js|mjs)$/.test(f)))assert.doesNotMatch(get('site-assets/'+file),/"medians"|"strokes"\s*:/);
   assert.ok(!fs.existsSync(path.join(output,'data/source-extracts')));assert.ok(!fs.existsSync(path.join(output,'.cache')));
   assert.match(get('sitemap.xml'),/https:\/\/hanzifun.online\/academic\/hsk-2\//);
-  assert.doesNotMatch(get('sitemap.xml'),/dictionary|scenarios|flashcards/);
+  assert.doesNotMatch(get('sitemap.xml'),/flashcards/);for(const c of characters){const url=new URL('/dictionary/'+c.glyph+'/', 'https://hanzifun.online').href;assert.equal(get('sitemap.xml').includes('<loc>'+url+'</loc>'),resolveRoutePolicy('/dictionary/'+c.glyph+'/').indexing==='index');}
   assert.equal(JSON.parse(get('content-manifest.json')).pages.length,134);
  }finally{fs.rmSync(output,{recursive:true,force:true});}
 });

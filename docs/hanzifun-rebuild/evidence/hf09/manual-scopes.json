@@ -1,0 +1,245 @@
+{
+  "scopes": [
+    {
+      "id": "pinyin-teaching",
+      "scope": "410 syllables and 1323 tone candidates: scope, initials/finals, neutral tone, rare/dialect contexts",
+      "files": [
+        "data/pinyin/scope.json",
+        "data/pinyin/syllables.json",
+        "site/pages/pinyin-chart.mjs"
+      ],
+      "scopeSha256": "4c77323490079060a88331588c1992170a9ec7c49c2d6ec1bc1ef95be24ac697",
+      "accepted": false
+    },
+    {
+      "id": "audio-listening",
+      "scope": "107 legacy contextual recordings, 19 core missing recordings, per-reading and syllable needs: inventory each asset before listening; do not enable unavailable audio",
+      "files": [
+        "audio-manifest.json",
+        "data/reports/audio-requests.json",
+        "data/normalized/audio.json",
+        "data/editorial/review-decisions.json"
+      ],
+      "scopeSha256": "0abd3ec044917dc4e6a3543e0519f7262147f998d1fdbeb1213ea6fa5be5d7db",
+      "accepted": false
+    },
+    {
+      "id": "hsk-source-sampling",
+      "scope": "Human 30 source entries per edition: first/last, polyphones and boundaries; official memberships remain separate from teaching acceptance",
+      "files": [
+        "data/hsk/source-headwords.json",
+        "data/hsk/membership.json"
+      ],
+      "scopeSha256": "16584624f6006be3912a68b25cd72ddace0f8bf96b401f4216e9dc9f0d6cbdbe",
+      "accepted": false
+    },
+    {
+      "id": "scenario-restaurant",
+      "scope": "restaurant: 3 sentences, token meanings, connected speech, actual recording and listening",
+      "files": [
+        "data/scenarios/scenarios.json"
+      ],
+      "scopeSha256": "15d87383a1fe953d90b5720787b34a1e84703893adb7b545f0c57ba01d654c08",
+      "accepted": false
+    },
+    {
+      "id": "scenario-icebreakers",
+      "scope": "icebreakers: 3 sentences, token meanings, connected speech, actual recording and listening",
+      "files": [
+        "data/scenarios/scenarios.json"
+      ],
+      "scopeSha256": "15d87383a1fe953d90b5720787b34a1e84703893adb7b545f0c57ba01d654c08",
+      "accepted": false
+    },
+    {
+      "id": "story-cat-and-fish-01",
+      "scope": "小猫看鱼: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+      "files": [
+        "lessons.js",
+        "story.js",
+        "assets/lessons/cat-and-fish/audio/story-full.mp3",
+        "assets/lessons/cat-and-fish/video/scene-1.mp4",
+        "assets/lessons/cat-and-fish/audio/story-scene-1.mp3",
+        "assets/lessons/cat-and-fish/scene-1.jpg",
+        "assets/lessons/cat-and-fish/video/scene-2.mp4",
+        "assets/lessons/cat-and-fish/audio/story-scene-2.mp3",
+        "assets/lessons/cat-and-fish/scene-2.jpg",
+        "assets/lessons/cat-and-fish/video/scene-3.mp4",
+        "assets/lessons/cat-and-fish/audio/story-scene-3.mp3",
+        "assets/lessons/cat-and-fish/scene-3.jpg"
+      ],
+      "scopeSha256": "d737fe4042fabb2a7e23c4d5760f20c2f441177d579381f509e47f7bf4facdfc",
+      "accepted": false
+    },
+    {
+      "id": "story-ant-moving-bean-02",
+      "scope": "蚂蚁搬豆: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+      "files": [
+        "lessons.js",
+        "story.js",
+        "assets/lessons/ant-moving-bean/audio/story-full.mp3",
+        "assets/lessons/ant-moving-bean/video/story.mp4",
+        "assets/lessons/ant-moving-bean/audio/story-scene-1.mp3",
+        "assets/lessons/ant-moving-bean/scene-1.jpg"
+      ],
+      "scopeSha256": "ecd65ac8b42d317dd18f0cc2940e5b601be32946efdab13cddc53e8de3514ed4",
+      "accepted": false
+    },
+    {
+      "id": "story-cat-mirror-03",
+      "scope": "花猫照镜子: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+      "files": [
+        "lessons.js",
+        "story.js",
+        "assets/lessons/cat-mirror/audio/story-full.mp3",
+        "assets/lessons/cat-mirror/video/story.mp4?v=silent-v1",
+        "assets/lessons/cat-mirror/audio/story-scene-1.mp3",
+        "assets/lessons/cat-mirror/scene-1.jpg"
+      ],
+      "scopeSha256": "9e66bf501809e1e5e75ef2be1a37f4afb7d850ac8b00234c8d54c626f19f3e8a",
+      "accepted": false
+    },
+    {
+      "id": "story-little-turtle-04",
+      "scope": "小乌龟: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+      "files": [
+        "lessons.js",
+        "story.js",
+        "assets/lessons/little-turtle/audio/story-full.mp3",
+        "assets/lessons/little-turtle/video/story.mp4?v=silent-v1",
+        "assets/lessons/little-turtle/audio/story-scene-1.mp3",
+        "assets/lessons/little-turtle/scene-1.jpg"
+      ],
+      "scopeSha256": "ceeb7225749efcc4a19f2b959ced8f93253f9dffad804a03b3ab7e03a3992520",
+      "accepted": false
+    },
+    {
+      "id": "story-little-frog-05",
+      "scope": "小青蛙: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+      "files": [
+        "lessons.js",
+        "story.js",
+        "assets/lessons/little-frog/audio/story-full.mp3",
+        "assets/lessons/little-frog/video/story.mp4?v=silent-v1",
+        "assets/lessons/little-frog/audio/story-scene-1.mp3",
+        "assets/lessons/little-frog/scene-1.jpg"
+      ],
+      "scopeSha256": "23d5bbf0d089e7db628216cb9f60166d4b971eac5751f8bbe0f03ccf3121b2f1",
+      "accepted": false
+    },
+    {
+      "id": "story-painting-rooster-06",
+      "scope": "画鸡: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+      "files": [
+        "lessons.js",
+        "story.js",
+        "assets/lessons/painting-rooster/audio/story-full.mp3",
+        "assets/lessons/painting-rooster/video/story.mp4?v=silent-v1",
+        "assets/lessons/painting-rooster/audio/story-scene-1.mp3",
+        "assets/lessons/painting-rooster/scene-1.jpg"
+      ],
+      "scopeSha256": "c7b34c08009401dfa047999ac36f38713d34c877808b750f43b9ee54be1f3e35",
+      "accepted": false
+    },
+    {
+      "id": "story-wind-doll-07",
+      "scope": "没礼貌的风娃娃: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+      "files": [
+        "lessons.js",
+        "story.js",
+        "assets/lessons/wind-doll/audio/story-full.mp3",
+        "assets/lessons/wind-doll/video/story.mp4?v=silent-v1",
+        "assets/lessons/wind-doll/audio/story-scene-1.mp3",
+        "assets/lessons/wind-doll/scene-1.jpg"
+      ],
+      "scopeSha256": "a15bbde95b540a31d5fd59b0d225da0bf3fc2ad9689567870a6a3388bd65e5a7",
+      "accepted": false
+    },
+    {
+      "id": "story-cucumber-flower-08",
+      "scope": "一朵金花一个瓜: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+      "files": [
+        "lessons.js",
+        "story.js",
+        "assets/lessons/cucumber-flower/audio/story-full.mp3",
+        "assets/lessons/cucumber-flower/video/story.mp4?v=silent-v1",
+        "assets/lessons/cucumber-flower/audio/story-scene-1.mp3",
+        "assets/lessons/cucumber-flower/scene-1.jpg"
+      ],
+      "scopeSha256": "adadb47bd56773bc43489dfa2542af569d367ceefd9b40e7832d2f8ab301352b",
+      "accepted": false
+    },
+    {
+      "id": "platform-safari",
+      "scope": "safari: record device/OS/browser version, steps, actual outcome and evidence",
+      "files": [
+        "site/public/site-styles.css",
+        "src/client/guest-learning.mjs",
+        "src/client/flashcards.mjs",
+        "src/client/navigation.mjs"
+      ],
+      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
+      "accepted": false
+    },
+    {
+      "id": "platform-firefox",
+      "scope": "firefox: record device/OS/browser version, steps, actual outcome and evidence",
+      "files": [
+        "site/public/site-styles.css",
+        "src/client/guest-learning.mjs",
+        "src/client/flashcards.mjs",
+        "src/client/navigation.mjs"
+      ],
+      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
+      "accepted": false
+    },
+    {
+      "id": "platform-ios-safari",
+      "scope": "ios-safari: record device/OS/browser version, steps, actual outcome and evidence",
+      "files": [
+        "site/public/site-styles.css",
+        "src/client/guest-learning.mjs",
+        "src/client/flashcards.mjs",
+        "src/client/navigation.mjs"
+      ],
+      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
+      "accepted": false
+    },
+    {
+      "id": "platform-android-chrome",
+      "scope": "android-chrome: record device/OS/browser version, steps, actual outcome and evidence",
+      "files": [
+        "site/public/site-styles.css",
+        "src/client/guest-learning.mjs",
+        "src/client/flashcards.mjs",
+        "src/client/navigation.mjs"
+      ],
+      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
+      "accepted": false
+    },
+    {
+      "id": "platform-screen-reader",
+      "scope": "screen-reader: record device/OS/browser version, steps, actual outcome and evidence",
+      "files": [
+        "site/public/site-styles.css",
+        "src/client/guest-learning.mjs",
+        "src/client/flashcards.mjs",
+        "src/client/navigation.mjs"
+      ],
+      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
+      "accepted": false
+    },
+    {
+      "id": "platform-native-zoom",
+      "scope": "native-zoom: record device/OS/browser version, steps, actual outcome and evidence",
+      "files": [
+        "site/public/site-styles.css",
+        "src/client/guest-learning.mjs",
+        "src/client/flashcards.mjs",
+        "src/client/navigation.mjs"
+      ],
+      "scopeSha256": "646445db3c34e767abb03bb9a44d096c9081b006230f467d8baa4c929c9b79e3",
+      "accepted": false
+    }
+  ]
+}

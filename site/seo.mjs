@@ -1,3 +1,4 @@
+import {characterReviewState} from './publication-review.mjs';
 // One content contract for core landing templates and one indexing policy for every output.
 import {editorFor, escapeHtml as e} from './dictionary-data.mjs';
 import {findCharacter,findReading,scenarioData} from './hsk-data.mjs';
@@ -38,7 +39,7 @@ export function coreSeo(routePath) {
  if(fixed[routePath])return fixed[routePath];
  const m=/^\/dictionary\/([^/]+)\/$/.exec(routePath),c=m&&findCharacter(decodeURIComponent(m[1]));
  if(!c)return null;
- const reading=findReading(c.primaryReadingId),meaning=editorFor(c.characterId)?.meaning||reading.senses[0];
+ const reading=findReading(c.primaryReadingId),meaning=characterReviewState(c.characterId).teaching?.meaning||reading.senses[0];
  if(!meaning||!reading.pinyin.marked||!Number.isInteger(c.strokeCount)||!c.radical)throw Error('Incomplete character SEO data: '+routePath);
  const label=`${c.glyph} (${reading.pinyin.marked})`;
  return {title:`${label} Meaning, Stroke Order & Examples`,h1:`${label}: ${meaning}`,lead:`${label} means "${meaning}" in Chinese, written with ${c.strokeCount} strokes under the ${c.radical} radical.`};

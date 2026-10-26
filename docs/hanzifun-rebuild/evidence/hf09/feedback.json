@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-26T03:20:05.871Z",
+  "browser": "155.0.8059.85",
+  "samples": [
+    {
+      "action": "flip",
+      "domFeedbackMs": 0.40000003576278687
+    },
+    {
+      "action": "familiar",
+      "domFeedbackMs": 1.100000023841858
+    },
+    {
+      "action": "flip",
+      "domFeedbackMs": 0.2999999523162842
+    },
+    {
+      "action": "familiar",
+      "domFeedbackMs": 0.6000000238418579
+    },
+    {
+      "action": "flip",
+      "domFeedbackMs": 0.30000001192092896
+    },
+    {
+      "action": "familiar",
+      "domFeedbackMs": 0.7000000476837158
+    },
+    {
+      "action": "flip",
+      "domFeedbackMs": 0.30000001192092896
+    },
+    {
+      "action": "familiar",
+      "domFeedbackMs": 0.800000011920929
+    }
+  ],
+  "maxMs": 1.100000023841858,
+  "budgetMs": 100,
+  "status": "PASS",
+  "scope": "Local desktop Chrome, real loaded six-card deck/localStorage; trusted click event capture to actual card DOM mutation, not network/startup/persistence latency or field INP"
+}

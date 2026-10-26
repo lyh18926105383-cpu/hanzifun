@@ -1,3 +1,4 @@
+import {resolveRoutePolicy} from '../site/routes.mjs';
 // Real local public-build journeys. Only a small JSON receipt belongs in Git.
 import http from 'node:http';
 import fs from 'node:fs/promises';
@@ -36,7 +37,7 @@ try{
  await row.locator('input').check();await p.locator('[data-hsk-list=derived-character] [data-save-selected]').click();
  await p.locator('[data-hf07-status]').filter({hasText:'1 characters saved'}).waitFor();
  await row.getByRole('link',{name:'爱',exact:true}).click();await ready(p);
- assert.equal(await p.locator('meta[name=robots]').getAttribute('content'),'noindex,follow');
+ assert.equal(await p.locator('meta[name=robots]').getAttribute('content'),resolveRoutePolicy('/dictionary/爱/').robots);
  const strokesBefore=requests.filter(s=>s.startsWith('/data/strokes/')).length;
  await p.locator('[data-stroke=next]').click();await p.locator('[data-stroke-status]').filter({hasText:'1 /'}).waitFor();
  assert.equal(requests.filter(s=>s.startsWith('/data/strokes/')).length,strokesBefore+1);

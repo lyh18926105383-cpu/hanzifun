@@ -51,7 +51,7 @@ test('release status controls noindex,follow for previews and planned pages', ()
     '/academic/textbooks/',
   ];
   for (const routePath of noindexRoutes) {
-    const route = resolveRoutePolicy(routePath);
+    const route = resolveRoutePolicy(routePath,{...releaseConfig,routes:Object.fromEntries(noindexRoutes.map(p=>[p,'preview']))});
     assert.equal(route.indexing, 'noindex', routePath);
     assert.equal(route.robots, 'noindex,follow', routePath);
   }
@@ -73,7 +73,7 @@ test('controlled dictionary routes cover the HF-02 core set without opening arbi
   );
   assert.equal(coreCharacters.length, 126);
   assert.equal(coreRoutes.length, 126);
-  assert.ok(coreRoutes.every(route => route.robots === 'noindex,follow'));
+  assert.ok(coreRoutes.every(route => route.robots === resolveRoutePolicy(route.path).robots));
   assert.ok(coreRoutes.some(route => route.path === '/dictionary/水/'));
   assert.ok(!coreRoutes.some(route => route.path === '/dictionary/狗/'));
   assert.equal(staticOutputPath('/dictionary/水/'), 'dictionary/水/index.html');

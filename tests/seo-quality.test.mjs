@@ -11,7 +11,7 @@ import {coreSeo,withCoreSeo,safeJsonLd,structuredData,effectivePolicy,canonicalU
 import {releaseConfig,resolveRoutePolicy} from '../site/routes.mjs';
 import {validatePage,validateJsonLd,validateBuild} from '../scripts/validate-seo-quality.mjs';
 const origin=releaseConfig.siteOrigin,routePath='/dictionary/水/',route={path:routePath,...resolveRoutePolicy(routePath)};
-function fixture(){const seo=coreSeo(routePath),canonical=canonicalUrl(routePath,origin);return `<html lang="en"><head><title>${seo.title} · HanziFun</title><meta name="description" content="Water entry"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${canonical}">${structuredData({path:routePath,title:seo.title,description:'Water entry'},canonical,origin)}</head><body><main><h1>${seo.h1}</h1><p data-seo-lead>${seo.lead.replaceAll('"','&quot;')}</p></main></body></html>`;}
+function fixture(){const seo=coreSeo(routePath),canonical=canonicalUrl(routePath,origin);return `<html lang="en"><head><title>${seo.title} · HanziFun</title><meta name="description" content="Water entry"><meta name="robots" content="${route.robots}"><link rel="canonical" href="${canonical}">${structuredData({path:routePath,title:seo.title,description:'Water entry'},canonical,origin)}</head><body><main><h1>${seo.h1}</h1><p data-seo-lead>${seo.lead.replaceAll('"','&quot;')}</p></main></body></html>`;}
 const verify=html=>validatePage(html,route,{origin});
 test('Three Kings reject duplicated/missing headings, banner paragraphs and stale answers in actual DOM',()=>{
  assert.equal(verify(fixture()).core,true);
@@ -61,14 +61,14 @@ test('future accepted Unicode character pages use exactly their encoded canonica
 });
 
 test('HTML robots and canonical cannot contradict the release manifest',()=>{
- assert.throws(()=>verify(fixture().replace('content="noindex,follow"','content="index,follow"')),/Robots agrees/);
+ assert.throws(()=>verify(fixture().replace('content="'+route.robots+'"','content="'+(route.robots==='noindex,follow'?'index,follow':'noindex,follow')+'"')),/Robots agrees/);
  assert.throws(()=>verify(fixture().replace('rel="canonical" href="'+canonicalUrl(routePath,origin)+'"','rel="canonical" href="'+origin+'/dictionary/"')),/Self canonical/);
 });
 test('production and staging builds enforce the exact sitemap set, all JSON-LD blocks and resource budgets',()=>{
  const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'hf08-test-'));
  try{for(const environment of ['production','staging']){
   const output=path.join(tmp,environment),build=spawnSync(process.execPath,['scripts/build-site.js'],{cwd:new URL('../',import.meta.url),env:{...process.env,HF_BUILD_OUTPUT_DIR:output,HF_SITE_ENV:environment},encoding:'utf8'});assert.equal(build.status,0,build.stderr);
-  const report=validateBuild(output);assert.deepEqual(report.errors,[]);assert.equal(report.corePages,354);assert.equal(report.sitemap.length,environment==='production'?3:0);
+  const report=validateBuild(output);assert.deepEqual(report.errors,[]);assert.equal(report.corePages,354);assert.equal(report.sitemap.length,environment==='production'?JSON.parse(fs.readFileSync(path.join(output,'route-manifest.json'))).routes.filter(r=>r.output&&r.indexing==='index').length:0);
   // A wrongly inserted URL or a corrupt JSON-LD block must break the same deployment gate.
   fs.appendFileSync(path.join(output,'sitemap.xml'),'<loc>https://hanzifun.online/search/?q=water</loc>');assert.ok(validateBuild(output).errors.some(e=>e.includes('Sitemap')));
  }}finally{fs.rmSync(tmp,{recursive:true,force:true});}

@@ -17,12 +17,12 @@ P0 为核心、数据保护与发布关口；P1 为当前阶段主线；P2 为�
 | [HF-01 基线整合、资产保全与施工契约](tasks/HF-01-baseline.md) ✅已完成 | P0 | Phase 1 基线 | 无 | 统一基线、原型保全、数据/路由契约 |
 | [HF-02 字典、笔顺数据与来源管线](tasks/HF-02-data-foundation.md) 🟡数据实现完成／待人工验收 | P0 | Phase 1 | HF-01 | 126 字/Tier、Information、拼音/笔画；HSK 范围来源 |
 | [HF-03 C 方案框架、七段首页与路由](tasks/HF-03-site-shell.md) ✅已完成（2026-10-25） | P0 | Phase 1 | HF-01 | 七段首页、导航、静态路由/隔离 |
-| [HF-04 真实字典、搜索与视觉笔顺闭环](tasks/HF-04-dictionary.md) 🟡工程交付／待人工与学习联调 | P0 | Phase 1 | HF-02、HF-03 | Tier 2 字页、Tier 1 增强、独立笔顺页与拼音表 |
+| [HF-04 真实字典、搜索与视觉笔顺闭环](tasks/HF-04-dictionary.md) 🟡工程交付／待人工内容与音频（HF06联调已关闭） | P0 | Phase 1 | HF-02、HF-03 | Tier 2 字页、Tier 1 增强、独立笔顺页与拼音表 |
 | [HF-05 复习调度与闪卡会话组件](tasks/HF-05-review-engine.md) ✅独立验收完成（2026-10-25） | P0 | Phase 1 | HF-01 | interval-v1、会话状态机与组件 |
 | [HF-06 游客持久化、学习中心与旧记录导入](tasks/HF-06-guest-learning.md) ✅已完成（2026-10-26） | P0 | Phase 1 | HF-03、HF-04、HF-05 | 本机存储、学习中心、无损导入 |
 | [HF-07 HSK 首级真实字库与两场景连接](tasks/HF-07-hsk-scenarios.md) 🟡工程交付／待人工内容与场景音频验收（2026-10-26） | P1 | Phase 1 | HF-02、HF-04、HF-06 | 两版 HSK 1 级、餐厅/商务场景 |
 | [HF-08 公开页 SEO、性能与无障碍收口](tasks/HF-08-seo-quality.md) 🟡工程/本地门控完成；跨浏览器与真实读屏待验收（2026-10-26） | P0 | Phase 1 | HF-03、HF-04、HF-06 | 按质量放行索引、可见 FAQ、性能/无障碍 |
-| [HF-09 MVP 闭环验收与中文迁移演练](tasks/HF-09-mvp-gate.md) | P0 | Phase 1 发布前 | HF-01、HF-06、HF-07、HF-08 | 首发候选验收，交 HF-17/18 发布 |
+| [HF-09 MVP 闭环验收与中文迁移演练](tasks/HF-09-mvp-gate.md) 🟡工程/本地总门控完成；人工放行待关闭（2026-10-26） | P0 | Phase 1 发布前 | HF-01、HF-06、HF-07、HF-08 | 首发候选验收，交 HF-17/18 发布 |
 | [HF-12 四项文化工具的受控首版](tasks/HF-12-culture-tools.md) | P1 | Phase 2 | HF-09 | 四工具，浏览器运算/静态数据、本机收藏 |
 | [HF-13 正式 Blog、场景编辑与打印资源](tasks/HF-13-editorial.md) | P1 | Phase 2 | HF-09 | 首批 3–5 篇正式文章、两组打印卡 |
 | [HF-14 HSK 全量覆盖与学术索引扩展](tasks/HF-14-hsk-expansion.md) | P1 | Phase 2 起持续扩充 | HF-07、HF-09 | 先扩至两版 2 级，后逐级发布；Tier 2 为默认 |
@@ -160,3 +160,7 @@ localStorage 确定性 Repository、特性检测/共享写者协调/乐观校验
 ## HF-08 执行状态（2026-10-26）
 
 三个国王静态 DOM 契约、发布/环境索引联动、self-canonical/sitemap/robots、全部 JSON-LD 解析和字段校验、六 FAQ、资源预算及构建必经门控已交付。npm test 127/127；401 英文页/354 核心页/402 JSON-LD，production 仅3个既有 HSK页入 sitemap，staging/local为空；缺省 local 安全 noindex。Chrome155+axe4.10.3 在16类页面零违规、65档布局及5模板200% CSS放大、键盘/无JS通过；本机Workers4.152.0真实404、旧中文301、故事默认307保留query与staging头通过。4模板三轮4G实验室LCP/CLS中位数达标、构建1546文件两次字节一致。跨浏览器/真机/真实屏幕阅读器与原生缩放仍未验收，HF-02/04/07人工及音频缺口保留，未部署。证据与精确切入点见 [HF-08验收记录](HF-08-VERIFICATION.md)。
+
+## HF-09 执行状态（2026-10-26）
+
+主目录main交付总门控、逐项内容hash审批、6个核心/11个补充字批次模板及精确路由放行工具；213补充字统一禁发改为Tier2完整性+逐项人工签字门槛，未补造内容或批准。npm test 133/133；数据/HSK、四构建确定性、18项本机Workers HTTP、HF06/07/08浏览器及四种水搜索/跨origin文件迁移/八课全程通过。工程PASS，完整候选仍BLOCKED：126/213字人工验收均0，拼音/音频/场景/故事/真机与跨浏览器/读屏缺口保留。见[总报告](acceptance/phase-1.md)、[人工清单](acceptance/phase-1-checklist.md)。未部署；大构建/截图/备份仅存忽略的.cache，Git只含轻量证据。

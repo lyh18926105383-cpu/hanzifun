@@ -1,9 +1,10 @@
+import {assertCharacterPublication,characterReviewState} from './publication-review.mjs';
 import {readJson,characters as core,readingFor as coreReading,editorFor} from './dictionary-data.mjs';
 export const membership=readJson('data/hsk/membership.json');
 export const lexicon=readJson('data/hsk/lexicon.json');
 export const coverage=readJson('data/hsk/coverage.json');
 export const scenarioData=readJson('data/scenarios/scenarios.json');
-export const allCharacters=[...core,...lexicon.characters];
+export const allCharacters=[...core,...lexicon.characters.map(c=>({...c,primaryReadingId:characterReviewState(c.characterId).teaching?.readingId||c.primaryReadingId}))];
 export const findCharacter=glyph=>allCharacters.find(c=>c.glyph===glyph);
 export const findReading=id=>coreReading(id)||lexicon.readings.find(r=>r.readingId===id);
 export const wordFor=id=>lexicon.words.find(w=>w.itemId===id);
@@ -20,7 +21,7 @@ export function hskDecks(primary) {
 }
 export function assertPublicationReady(route){
  if(route.indexing!=='index')return;
- if(/^\/dictionary\/[^/]+\/$/.test(route.path)&&lexicon.characters.some(c=>route.path==='/dictionary/'+c.glyph+'/'))throw Error('HF07 dictionary teaching acceptance pending: '+route.path);
+ if(/^\/dictionary\/[^/]+\/$/.test(route.path)&&lexicon.characters.some(c=>route.path==='/dictionary/'+c.glyph+'/'))assertCharacterPublication(lexicon.characters.find(c=>route.path==='/dictionary/'+c.glyph+'/').characterId);
  if(['/academic/','/academic/hsk-2/','/academic/hsk-3/'].includes(route.path)){
   const facts=readJson('data/hsk/source-headwords.json');
   if(facts.hsk2.length!==150||facts.hsk3.vocabulary.length!==300||facts.hsk3.recognition.length!==246||facts.hsk3.writing.length!==100||coverage.lists.some(l=>l.mappedCount!==l.sourceCount)||coverage.missing.length)throw Error('Incomplete HSK source mapping');

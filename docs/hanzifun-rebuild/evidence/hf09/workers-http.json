@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-26T03:21:57.571Z",
+  "runtime": "4.152.0",
+  "mode": "local dev only",
+  "responses": [
+    {
+      "environment": "production",
+      "route": "/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/academic/hsk-2/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/zh/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/story.html?lesson=cat-and-fish-01",
+      "status": 307,
+      "location": "/story?lesson=cat-and-fish-01",
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/index.html",
+      "status": 301,
+      "location": "/zh/",
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/legacy/index.html",
+      "status": 301,
+      "location": "/zh/",
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/legacy/story.html?lesson=cat-and-fish-01",
+      "status": 301,
+      "location": "/story?lesson=cat-and-fish-01",
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/missing-hf09/",
+      "status": 404,
+      "location": null,
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/dictionary/不存在/",
+      "status": 404,
+      "location": null,
+      "xRobotsTag": null
+    },
+    {
+      "environment": "staging",
+      "route": "/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/academic/hsk-2/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/zh/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/story.html?lesson=cat-and-fish-01",
+      "status": 307,
+      "location": "/story?lesson=cat-and-fish-01",
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/index.html",
+      "status": 301,
+      "location": "/zh/",
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/legacy/index.html",
+      "status": 301,
+      "location": "/zh/",
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/legacy/story.html?lesson=cat-and-fish-01",
+      "status": 301,
+      "location": "/story?lesson=cat-and-fish-01",
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/missing-hf09/",
+      "status": 404,
+      "location": null,
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/dictionary/不存在/",
+      "status": 404,
+      "location": null,
+      "xRobotsTag": "noindex, follow"
+    }
+  ],
+  "errors": []
+}

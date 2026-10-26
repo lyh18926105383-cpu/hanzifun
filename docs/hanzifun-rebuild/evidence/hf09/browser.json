@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-26T03:22:02.866Z",
+  "status": "PASS",
+  "checks": [
+    "verify-guest-browser.mjs PASS",
+    "verify-hsk-browser.mjs PASS",
+    "verify-quality-browser.mjs PASS",
+    "All four water search forms → real detail → stroke → independent tool preserves 水",
+    "Pinyin shui → explicit unavailable audio → 水 detail; 410 static syllables",
+    "Three old sources including unknown character/story → preview/confirm → real download → different port origin file restore; original keys unchanged; no invented events",
+    "Eight real Chinese homepage links → full media playback → all practice characters → wrong feedback + all correct answers → result"
+  ],
+  "stories": [
+    {
+      "id": "cat-and-fish-01",
+      "title": "小猫看鱼",
+      "practice": 5,
+      "quiz": 3,
+      "captions": [
+        "小猫轻轻走到池塘边。",
+        "小猫看见水里有一条小鱼。",
+        "小鱼跳出水面，小猫开心地笑了。"
+      ],
+      "highlighted": [],
+      "muted": true,
+      "audioError": null,
+      "status": "AUTOMATED PASS",
+      "humanAcceptance": "pending"
+    },
+    {
+      "id": "ant-moving-bean-02",
+      "title": "蚂蚁搬豆",
+      "practice": 6,
+      "quiz": 3,
+      "captions": [
+        "小蚂蚁用力搬豆，搬不动。",
+        "想出办法，请来朋友。",
+        "一起抬回家。"
+      ],
+      "highlighted": [
+        "用",
+        "力",
+        "豆",
+        "办",
+        "法",
+        "请"
+      ],
+      "muted": true,
+      "audioError": null,
+      "status": "AUTOMATED PASS",
+      "humanAcceptance": "pending"
+    },
+    {
+      "id": "cat-mirror-03",
+      "title": "花猫照镜子",
+      "practice": 6,
+      "quiz": 3,
+      "captions": [
+        "小花猫才睡醒，没洗脸。",
+        "左看右看，还怪镜子脏。",
+        "旁边一只小老鼠笑了！"
+      ],
+      "highlighted": [
+        "才",
+        "睡",
+        "左",
+        "右",
+        "旁",
+        "只"
+      ],
+      "muted": true,
+      "audioError": null,
+      "status": "AUTOMATED PASS",
+      "humanAcceptance": "pending"
+    },
+    {
+      "id": "little-turtle-04",
+      "title": "小乌龟",
+      "practice": 6,
+      "quiz": 3,
+      "captions": [
+        "小乌龟，脖子长，背上有硬壳。",
+        "遇到事情就缩头，平平安安。",
+        "它的寿命很长！"
+      ],
+      "highlighted": [
+        "龟",
+        "脖",
+        "壳",
+        "事",
+        "安",
+        "命"
+      ],
+      "muted": true,
+      "audioError": null,
+      "status": "AUTOMATED PASS",
+      "humanAcceptance": "pending"
+    },
+    {
+      "id": "little-frog-05",
+      "title": "小青蛙",
+      "practice": 6,
+      "quiz": 3,
+      "captions": [
+        "小青蛙，呱呱呱。",
+        "眼睛鼓，嘴巴大，肚皮白，背儿花。",
+        "捉害虫，是专家；",
+        "保护庄稼就找它！"
+      ],
+      "highlighted": [
+        "睛",
+        "嘴",
+        "肚",
+        "害",
+        "保",
+        "找"
+      ],
+      "muted": true,
+      "audioError": null,
+      "status": "AUTOMATED PASS",
+      "humanAcceptance": "pending"
+    },
+    {
+      "id": "painting-rooster-06",
+      "title": "画鸡",
+      "practice": 6,
+      "quiz": 3,
+      "captions": [
+        "红冠不用裁，",
+        "满身雪白走过来。",
+        "天生大嗓门，不会轻声细语。",
+        "一叫，家家都开门！"
+      ],
+      "highlighted": [
+        "冠",
+        "裁",
+        "雪",
+        "生",
+        "语",
+        "门"
+      ],
+      "muted": true,
+      "audioError": null,
+      "status": "AUTOMATED PASS",
+      "humanAcceptance": "pending"
+    },
+    {
+      "id": "wind-doll-07",
+      "title": "没礼貌的风娃娃",
+      "practice": 6,
+      "quiz": 3,
+      "captions": [
+        "风娃娃没礼貌，撒开腿到处跑。",
+        "南边撞倒小树，北边踩疼麦苗。",
+        "还拍手笑。",
+        "别学它，做人要有礼貌！"
+      ],
+      "highlighted": [
+        "没",
+        "腿",
+        "南",
+        "北",
+        "拍",
+        "做"
+      ],
+      "muted": true,
+      "audioError": null,
+      "status": "AUTOMATED PASS",
+      "humanAcceptance": "pending"
+    },
+    {
+      "id": "cucumber-flower-08",
+      "title": "一朵金花一个瓜",
+      "practice": 6,
+      "quiz": 3,
+      "captions": [
+        "黄瓜藤上挂金花，",
+        "摘朵金花当喇叭。",
+        "叔叔忙说不能摘，",
+        "一朵金花一个瓜。"
+      ],
+      "highlighted": [
+        "瓜",
+        "挂",
+        "朵",
+        "当",
+        "叔",
+        "说"
+      ],
+      "muted": true,
+      "audioError": null,
+      "status": "AUTOMATED PASS",
+      "humanAcceptance": "pending"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Automated Chrome media playback; no human listening or visual sign-off",
+    "No Safari/Firefox/physical devices/real screen reader/native zoom",
+    "Static Node HTTP server; Workers redirect semantics are checked separately"
+  ],
+  "browser": "155.0.8059.85",
+  "searchPerformance": {
+    "queries": 100,
+    "p95Ms": 3.199999988079071,
+    "scope": "Warm loaded index; Chrome desktop CPU, no network time"
+  }
+}

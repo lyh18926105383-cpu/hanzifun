@@ -1,3 +1,4 @@
+import {characterReviewState,reviewInputs} from './publication-review.mjs';
 import fs from 'node:fs';
 const root = new URL('../', import.meta.url);
 export const readJson = name => JSON.parse(fs.readFileSync(new URL(name, root), 'utf8'));
@@ -12,7 +13,7 @@ export const scope = readJson('data/pinyin/scope.json');
 export const editorial = readJson('data/editorial/characters.json');
 export const characters = rawCharacters.map(c=>({...c, primaryReadingId:editorial.entries.find(e=>e.characterId===c.characterId)?.readingId || c.primaryReadingId}));
 export const comparisons = readJson('data/editorial/comparisons.json');
-export const reviews = readJson('data/editorial/review-decisions.json');
+export const reviews = reviewInputs.reviews;
 export const readingFor = id => readings.find(r => r.readingId === id);
 export const editorFor = id => editorial.entries.find(entry => entry.characterId === id);
 export const charUrl = glyph => '/dictionary/' + glyph + '/';
@@ -24,8 +25,7 @@ export function searchShards() {
   };
 }
 export function contentAccepted(id) {
-  const review=reviews.characters[id];
-  return review?.humanContent==='approved' && typeof review.reviewer==='string' && review.reviewer.trim().length>0 && /^\d{4}-\d{2}-\d{2}$/.test(review.date || '') && typeof review.evidence==='string' && review.evidence.trim().length>0;
+  return characterReviewState(id).accepted;
 }
 export function assertPublicationReady(route) {
   if (route.indexing !== 'index') return;

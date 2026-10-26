@@ -1,0 +1,5 @@
+{
+  "version": "hf09-manual-v1",
+  "policy": "Only a real reviewer may change pending. Bind each signature to the current scopeSha256 in manual-scopes.json. Automated checks never supply human acceptance.",
+  "decisions": {}
+}

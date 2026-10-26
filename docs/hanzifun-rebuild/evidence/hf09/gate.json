@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-26T03:21:34.097Z",
+  "head": "bf3c62c4d80093fd140b10b9fcfe536205280003",
+  "branch": "main",
+  "deployment": "NOT DEPLOYED",
+  "checks": [
+    {
+      "name": "tests",
+      "status": "PASS",
+      "logSha256": "688998aacf65f5d9245324d193c78bad0cb1403c87ba2342e7411b40fe348d3a"
+    },
+    {
+      "name": "benchmark",
+      "status": "PASS",
+      "logSha256": "ca50fef66d8200ff92d33b39debe6364ea697edf572d97153d79331ee1c9caeb"
+    },
+    {
+      "name": "data",
+      "status": "PASS",
+      "logSha256": "45fdfc545b39dee2c579c6f90b924e8494f3e712f025d8bdc03705e68346d6db"
+    },
+    {
+      "name": "hsk",
+      "status": "PASS",
+      "logSha256": "444f94005c5562ca28057bedf54652aa3ca7b18a05669f627b7f4322df90b8ef"
+    },
+    {
+      "name": "build-production",
+      "status": "PASS",
+      "logSha256": "0ec47c0f2c7aaee7cc6e08f76b01557b8e834393db5e166df5daa8d5264a41d7"
+    },
+    {
+      "name": "build-production-repeat",
+      "status": "PASS",
+      "logSha256": "76be89c8c87dbab45aefa388c1dc249b1947225496322317fede57190c88b20e"
+    },
+    {
+      "name": "build-staging",
+      "status": "PASS",
+      "logSha256": "c12f677f904dbb8072c93ab6b98bc16ef6204020671fe3fce0a85b674fce8ebd"
+    },
+    {
+      "name": "build-local",
+      "status": "PASS",
+      "logSha256": "922feb3a3a28b119d9979ee439cce13e5bc0446a999dd6e348a30993b1e118e7"
+    },
+    {
+      "name": "workers-http",
+      "status": "PASS",
+      "logSha256": "287881c0928a60ccee962b3da4f4c781da56428d34134e12894b5a93ba12a7ce"
+    },
+    {
+      "name": "browser",
+      "status": "PASS",
+      "logSha256": "27547b0be10f7dd20020d7733699a2e29806de93799b89d8c88f9a5a7ed3f5e1"
+    }
+  ],
+  "builds": {
+    "production": {
+      "files": 1546,
+      "sha256": "e06078a98b890cb7d93a9fdff5beb73930f6a6ac56fdff125d8659766cf6a4b2",
+      "environment": "production",
+      "releaseId": "hf09-mvp-candidate",
+      "pages": 401,
+      "corePages": 354,
+      "jsonLdBlocks": 402,
+      "englishJsonLdBlocks": 401,
+      "sitemap": [
+        "https://hanzifun.online/academic/",
+        "https://hanzifun.online/academic/hsk-2/",
+        "https://hanzifun.online/academic/hsk-3/"
+      ],
+      "budget": {
+        "jsGzipBytes": 7470,
+        "cssGzipBytes": 10966,
+        "eagerImageBytes": 355447
+      },
+      "errors": []
+    },
+    "production-repeat": {
+      "files": 1546,
+      "sha256": "e06078a98b890cb7d93a9fdff5beb73930f6a6ac56fdff125d8659766cf6a4b2",
+      "environment": "production",
+      "releaseId": "hf09-mvp-candidate",
+      "pages": 401,
+      "corePages": 354,
+      "jsonLdBlocks": 402,
+      "englishJsonLdBlocks": 401,
+      "sitemap": [
+        "https://hanzifun.online/academic/",
+        "https://hanzifun.online/academic/hsk-2/",
+        "https://hanzifun.online/academic/hsk-3/"
+      ],
+      "budget": {
+        "jsGzipBytes": 7470,
+        "cssGzipBytes": 10966,
+        "eagerImageBytes": 355447
+      },
+      "errors": []
+    },
+    "staging": {
+      "files": 1546,
+      "sha256": "7871e057da81a263f73d2b105b9044dc00c6b1a98465f61f67f1085f536e8ae1",
+      "environment": "staging",
+      "releaseId": "hf09-mvp-candidate",
+      "pages": 401,
+      "corePages": 354,
+      "jsonLdBlocks": 402,
+      "englishJsonLdBlocks": 401,
+      "sitemap": [],
+      "budget": {
+        "jsGzipBytes": 7470,
+        "cssGzipBytes": 10966,
+        "eagerImageBytes": 355447
+      },
+      "errors": []
+    },
+    "local": {
+      "files": 1546,
+      "sha256": "43667559ae7de76dc08dc40631830e09608ddae09e5af00db5476e4968cf663e",
+      "environment": "local",
+      "releaseId": "hf09-mvp-candidate",
+      "pages": 401,
+      "corePages": 354,
+      "jsonLdBlocks": 402,
+      "englishJsonLdBlocks": 401,
+      "sitemap": [],
+      "budget": {
+        "jsGzipBytes": 7470,
+        "cssGzipBytes": 10966,
+        "eagerImageBytes": 355447
+      },
+      "errors": []
+    }
+  },
+  "failures": [],
+  "manualBlockers": [
+    "126 core Tier2 human acceptance incomplete",
+    "pinyin-teaching: 410 syllables and 1323 tone candidates: scope, initials/finals, neutral tone, rare/dialect contexts",
+    "audio-listening: 107 legacy contextual recordings, 19 core missing recordings, per-reading and syllable needs: inventory each asset before listening; do not enable unavailable audio",
+    "hsk-source-sampling: Human 30 source entries per edition: first/last, polyphones and boundaries; official memberships remain separate from teaching acceptance",
+    "scenario-restaurant: restaurant: 3 sentences, token meanings, connected speech, actual recording and listening",
+    "scenario-icebreakers: icebreakers: 3 sentences, token meanings, connected speech, actual recording and listening",
+    "story-cat-and-fish-01: 小猫看鱼: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+    "story-ant-moving-bean-02: 蚂蚁搬豆: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+    "story-cat-mirror-03: 花猫照镜子: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+    "story-little-turtle-04: 小乌龟: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+    "story-little-frog-05: 小青蛙: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+    "story-painting-rooster-06: 画鸡: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+    "story-wind-doll-07: 没礼貌的风娃娃: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+    "story-cucumber-flower-08: 一朵金花一个瓜: board/candidate provenance, subtitles, every keyword cue, TTS listening and complete local experience",
+    "platform-safari: safari: record device/OS/browser version, steps, actual outcome and evidence",
+    "platform-firefox: firefox: record device/OS/browser version, steps, actual outcome and evidence",
+    "platform-ios-safari: ios-safari: record device/OS/browser version, steps, actual outcome and evidence",
+    "platform-android-chrome: android-chrome: record device/OS/browser version, steps, actual outcome and evidence",
+    "platform-screen-reader: screen-reader: record device/OS/browser version, steps, actual outcome and evidence",
+    "platform-native-zoom: native-zoom: record device/OS/browser version, steps, actual outcome and evidence"
+  ],
+  "limitations": [
+    "Human content/listening, real device/browser/screen-reader acceptance is never inferred",
+    "Local production-mode package is not a production deployment"
+  ],
+  "fingerprintScope": "Product/code/data files and explicit root config; includes nonignored new sources, excludes docs and pre-existing unrelated user files",
+  "inputSha256": "0cc2525cd1af4a552e8d1ec71662371258efebe7ddcdbd027b7e54f629d4bc76",
+  "preservation": {
+    "intentionalTransform": "story.html: href=index.html → href=/zh/ only; .DS_Store and nonpublic corpus excluded",
+    "positions": 108,
+    "uniqueCharacters": 107,
+    "lessons": [
+      "cat-and-fish-01",
+      "ant-moving-bean-02",
+      "cat-mirror-03",
+      "little-turtle-04",
+      "little-frog-05",
+      "painting-rooster-06",
+      "wind-doll-07",
+      "cucumber-flower-08"
+    ],
+    "files": 403,
+    "changedSinceHead": "",
+    "buildMismatches": []
+  },
+  "coverage": {
+    "core": 126,
+    "supplemental": 213,
+    "coreHumanAccepted": 0,
+    "supplementalHumanAccepted": 0,
+    "coreContentComplete": 126
+  },
+  "engineeringStatus": "PASS",
+  "candidateAcceptance": "BLOCKED"
+}

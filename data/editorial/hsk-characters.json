@@ -1,0 +1,5 @@
+{
+  "version": "hf09-hsk-teaching-v1",
+  "policy": "Add individually authored Tier2 entries using the core editorial fields. Empty is intentional; no automatic teaching acceptance.",
+  "entries": []
+}

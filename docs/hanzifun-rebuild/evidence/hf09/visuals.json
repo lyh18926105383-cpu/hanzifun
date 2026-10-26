@@ -1,0 +1,50 @@
+{
+  "policy": "Images remain in ignored .cache; dictionary-390 and pinyin-390 were inspected by Codex. This is not human sign-off.",
+  "images": [
+    {
+      "path": ".cache/hf09/browser/HF06/learning-desktop.png",
+      "bytes": 110719,
+      "sha256": "f00650732a8bde6d7423e533315ba34dda348a463353f0d6135b9427654c9f1e"
+    },
+    {
+      "path": ".cache/hf09/browser/HF06/learning-mobile.png",
+      "bytes": 302763,
+      "sha256": "c1015f23b210228e272b68486adb1b27733d76f4e648c6dd0f417e2b1361791e"
+    },
+    {
+      "path": ".cache/hf09/browser/HF07/hsk-mobile.png",
+      "bytes": 88297,
+      "sha256": "fa6019f27f38279a33396e1a91e93aa9e0cd65bf3042f1017b9419e9cb097ff3"
+    },
+    {
+      "path": ".cache/hf09/browser/HF07/scenario-mobile.png",
+      "bytes": 76578,
+      "sha256": "530df99df9d94debe49d7ea4556ab532c94e3386523ba2f055afde02c848abe4"
+    },
+    {
+      "path": ".cache/hf09/browser/HF08/dictionary-390.png",
+      "bytes": 384749,
+      "sha256": "04394eede5e2eb7da269f9c9a2bee83adf0b19bda4d170df93d3585f4e2ea69c"
+    },
+    {
+      "path": ".cache/hf09/browser/HF08/home-1440.png",
+      "bytes": 1786563,
+      "sha256": "f42ed270ed861ad89d2d1b695d21191e18d4ad6297c44c13145c365d4a302d45"
+    },
+    {
+      "path": ".cache/hf09/browser/HF08/home-390-viewport.png",
+      "bytes": 65544,
+      "sha256": "1116956ec83671c2136f4d5fadb8f7a8bde4eff1665d6f32f0b856fe6b483c2a"
+    },
+    {
+      "path": ".cache/hf09/browser/HF08/home-390.png",
+      "bytes": 1557157,
+      "sha256": "f628b628182401a8ac2f5628f0a8c9eb3737145096867fda289a0eb0d9739c16"
+    },
+    {
+      "path": ".cache/hf09/browser/HF08/pinyin-390.png",
+      "bytes": 235212,
+      "sha256": "9875a04987a896bbeb85f33d48ffc370e5085bb9a5b9c713181c87fc4db2fcc7"
+    }
+  ]
+}

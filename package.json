@@ -23,7 +23,10 @@
     "validate:seo": "node scripts/validate-seo-quality.mjs",
     "verify:quality:browser": "node scripts/verify-quality-browser.mjs",
     "build:production": "HF_SITE_ENV=production node scripts/build-site.js",
-    "build:staging": "HF_SITE_ENV=staging node scripts/build-site.js"
+    "build:staging": "HF_SITE_ENV=staging node scripts/build-site.js",
+    "validate:mvp": "node scripts/validate-mvp-gate.mjs",
+    "verify:mvp:browser": "node scripts/verify-mvp-browser.mjs",
+    "review:release": "node scripts/review-release-batch.mjs"
   },
   "devDependencies": {
     "ajv": "8.20.0",

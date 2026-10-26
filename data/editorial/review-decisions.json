@@ -1,5 +1,5 @@
 {
-  "version": "hf04-review-input-v1",
+  "version": "hf09-review-input-v2",
   "date": "2026-10-25",
   "characters": {
     "char:8c46": {
@@ -628,6 +628,1071 @@
       "targetTier": "Tier2"
     },
     "char:996d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e00": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e03": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e09": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e0a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e0b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e0d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e1c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e24": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e2a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e3a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e48": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e5d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e5f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e60": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e66": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e70": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e86": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e8c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e94": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4e9b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4eac": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4eae": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4eba": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4ec0": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4eca": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4ed6": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4ee5": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4eec": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4ef6": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4f1a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4f4f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4f5c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4f60": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:4fbf": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:513f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5143": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5148": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:516b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:516d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5173": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5174": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:518d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5199": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:51b7": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:51fa": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5206": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5230": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:524d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5305": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5341": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5343": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5348": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5356": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53bb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53cb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53e3": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53eb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53ef": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53f7": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:53f8": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5403": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:540d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:540e": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5417": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5427": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5462": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:547c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:54e5": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:54ea": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5531": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5546": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5582": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:559c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:559d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:56db": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:56de": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:56fd": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5728": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5730": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5750": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5757": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:58eb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5916": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:591a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5927": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5929": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:592a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5976": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5979": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:597d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5988": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:59b9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5b50": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5b57": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5b66": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5b83": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5b9c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5ba2": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5bb6": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5bf9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5c0f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5c11": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5c81": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5de5": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5e02": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5e08": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5e38": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5e74": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5e8a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5e97": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5f00": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5f1f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5f71": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5f97": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:5fd9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:600e": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:606f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:60a8": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:60f3": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6211": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:623f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:624b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6253": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6587": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:65b0": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:65e5": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:65f6": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:661f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6628": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:662f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:665a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6709": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:670b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:670d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:671f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:672c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:673a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6765": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:676f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6821": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6837": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:684c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6905": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6b4c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6bd4": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6c14": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6c49": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:6f02": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:70ed": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7231": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7238": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:725b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:72d7": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:732b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:73a9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:73b0": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:73ed": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7535": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:75c5": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:767d": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:767e": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7684": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:770b": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:771f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:77e5": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:79df": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:79f0": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7a7f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7b2c": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7c73": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:7cfb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8001": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:80fd": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8111": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:82f9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:83dc": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:86cb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8863": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8981": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:89c1": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:89c6": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:89c9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8ba4": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8bc6": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8bdd": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8bfb": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8bfe": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8c01": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8c22": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8d35": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8d77": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8d85": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8f66": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8fc7": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8fd8": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:8fd9": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:9053": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:90a3": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:90fd": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:91cc": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:949f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:957f": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:95f4": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:9662": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:96e8": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:96f6": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:975e": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:9762": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:9898": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:98de": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:997a": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:9ad8": {
+      "humanContent": "pending",
+      "audioListening": "pending",
+      "targetTier": "Tier2"
+    },
+    "char:9e21": {
       "humanContent": "pending",
       "audioListening": "pending",
       "targetTier": "Tier2"

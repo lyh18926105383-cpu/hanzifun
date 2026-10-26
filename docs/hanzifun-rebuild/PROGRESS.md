@@ -2,7 +2,7 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 1：主站上线（基线整合、126 字字典及 Information、独立笔顺页与拼音表、本机闪卡、两场景、两版 HSK 1 级）
-- **当前执行任务**：HF-08 工程/自动门控、Chrome 与本机 Workers 验证已交付；跨浏览器、真机与真实屏幕阅读器待补。HF-09 可接续本地候选，HF-02/04/07 人工教学/拼音/音频缺口保留。
+- **当前执行任务**：HF-09 工程/本地总门控已交付，完整候选验收仍 BLOCKED；按 acceptance/phase-1-checklist.md 完成人工内容/音频/故事/设备放行后重跑严格门控。未部署生产。
 - **状态**：HF-01、HF-03、HF-05（独立范围）、HF-06 已完成；HF-02 与 HF-04 均保留人工验收缺口。用户 2026-10-25 明确授权 HF-04 按缺项安全降级/noindex 预览实施，工程交付不等于前置人工验收通过；精确接续见记录 05。
 
 ---
@@ -129,3 +129,13 @@
 - **验证**：npm test **127/127**；三环境每个401英文页、354核心页、全量402JSON-LD errors=[]；production3 sitemap/398 noindex，staging/local0 sitemap/401 noindex。1546文件两次production SHA-256差异0，77原型路由保留、资源引用与白名单通过。Chrome155.0.8059.85/axe4.10.3：16类页面零WCAG违规、13路由×5断点65次、5模板CSS200%放大、键盘/无JS/AX树通过。4模板各3轮固定移动4G/4×CPU，LCP中位数764/612/772/744ms、CLS均0；首页JS7.30KiB/CSS10.71KiB gzip、关键图347.12KiB。Workers4.152.0本机环境404、301单跳、默认307保留课程参数与staging noindex头通过。
 - **边界/遗留**：仅工程与本地范围交付，不把HF08跨浏览器/真机/系统读屏标完整验收；CSS zoom与CDP AX不冒充真实VoiceOver/NVDA或原生缩放。axe incomplete留收据，不等同人工通过。HF-02/04/07人类教学、场景与音频缺口均保留。未测真实p75/INP、生产主机/实际迁移/恢复；无部署、账号、同步、Billing、追踪器或故事制作。
 - **下一Agent精确切入点**：读本记录、TASKS与用户指定单个任务，再读HF-08-VERIFICATION及evidence/hf08。HF09/17补Safari/Firefox/真机/真实读屏/原生缩放证据与源内容审核；HF17/18先核对生产域名与旧入口，再发布显式production候选。运行build:site缺省local，生产用build:production，预览用build:staging；不得因门控通过清空人工pending。
+
+### [记录 10] - HF-09 工程总门控与中文迁移演练交付，人工候选放行待完成 (By Codex, 2026-10-26)
+- **目录/分支**：Desktop指定主目录main；实施前HEAD `bf3c62c4d80093fd140b10b9fcfe536205280003`。保留原dist和所有既有未跟踪用户文件；未在旧worktree施工。
+- **交付**：总门控、133项原/新增测试、三环境四构建确定性、旧中文资源hash保全、本机Workers HTTP、复用HF06/07/08浏览器与新增搜索/跨origin迁移/八课全程；逐项source+teaching hash审批、339条审核输入、6个核心与11个HSK待审批次导出及dry-run/显式apply。213补充字解除统一硬编码禁发，但必须先补Tier2实质教学内容并真实逐项审核，未审继续失败关闭。
+- **新增文件**：`site/publication-review.mjs`；`data/editorial/{hsk-characters,mvp-acceptance}.json`；`scripts/{validate-mvp-gate,review-release-batch,mvp-manual-scopes,verify-mvp-browser,verify-mvp-http}.mjs`；`tests/mvp-gate.test.mjs`；本目录`acceptance/{phase-1,phase-1-checklist}.md`及`evidence/hf09/`轻量JSON。
+- **修改文件**：`data/editorial/review-decisions.json`、`package.json`、`site/{dictionary-data,hsk-data,seo}.mjs`、`site/pages/{dictionary,hsk}.mjs`、`site/release.json`；`scripts/verify-hsk-browser.mjs`；`tests/{dictionary,hsk-scenarios,seo-quality,site-shell}.test.mjs`；TASKS、PROGRESS、HF09任务状态。
+- **验证**：`node scripts/validate-mvp-gate.mjs --browser`工程PASS；npm test133/133；production重复构建字节一致，1546文件；三环境401英文页/354核心页/402JSON-LD，sitemap3/0/0；18项Workers本机404/301/307/query/noindex通过；HF06持久化故障/双标签/导入、HF07两版/两场景、HF08axe/布局/实验室预算通过；新增四种水搜索/拼音回字页、不同端口origin真实备份文件往返及八课播放/跟读/错题重试/完成页通过。具体hash、性能数值、DOM字幕/高亮观察见acceptance/phase-1.md及收据。
+- **明确遗留**：完整候选仍BLOCKED，核心126和补充213人工已验收均0；补充字尚缺独立例词/句/助记。410音节/1323候选、107语境录音/19核心缺音、两场景6句录音、八课适用人工确认及Safari/Firefox/真机/真实读屏/原生缩放待补。原第一课保留旧分段能力，没有凭空新增逐字cue。10000事件快照约11.39MB，摘要约40ms，冷加载约0.9s/恢复预检约1s（精确值见本次收据）；不宣称可全部localStorage落盘或所有恢复≤300ms。未生成或修改故事/音频，未调用付费TTS，未部署或引入Phase3功能。
+- **产物纪律**：所有大构建、日志、截图、下载备份及Workers状态位于已忽略`.cache/hf09/`；仅轻量JSON和文档入库，截图hash清单记录本机位置。
+- **下一Agent精确切入点**：先读本记录、TASKS、用户指定单任务；人工收口读`acceptance/phase-1-checklist.md`。字页从`evidence/hf09/review-inventory.json`定位缺项，实际修改`data/editorial/`输入；`review-release-batch --prepare=core-01`导出pending模板，人工逐项填真实签字后dry-run再--apply；不要修改生成收据。专项审批填`data/editorial/mvp-acceptance.json`并绑定manual-scopes当前hash；未录音不可听审通过。重跑`node scripts/validate-mvp-gate.mjs --browser --require-human`，人工未齐返回2；只在完整条件通过后关闭HF09，不能因为工程PASS开启后续阶段或标已上线。
