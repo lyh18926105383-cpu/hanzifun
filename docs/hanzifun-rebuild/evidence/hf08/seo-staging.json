@@ -1,0 +1,15 @@
+{
+  "environment": "staging",
+  "releaseId": "hf08-seo-quality-candidate",
+  "pages": 401,
+  "corePages": 354,
+  "jsonLdBlocks": 402,
+  "englishJsonLdBlocks": 401,
+  "sitemap": [],
+  "budget": {
+    "jsGzipBytes": 7470,
+    "cssGzipBytes": 10966,
+    "eagerImageBytes": 355447
+  },
+  "errors": []
+}

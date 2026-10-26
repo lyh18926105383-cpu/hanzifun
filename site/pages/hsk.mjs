@@ -1,8 +1,9 @@
+import {withCoreSeo} from '../seo.mjs';
 import {escapeHtml as e,readJson} from '../dictionary-data.mjs';
 import {strokePanel} from '../components/stroke-order.mjs';
 import {membership,lexicon,allCharacters,findCharacter,findReading,wordFor,coverage,listId,listMembers,scenarioData,readingLabel} from '../hsk-data.mjs';
 const nav=system=>`<nav class="subnav" aria-label="HSK versions"><a href="/academic/">About HSK</a><a ${system==='hsk-2'?'aria-current="page"':''} href="/academic/hsk-2/">HSK 2.0 · 2015</a><a ${system==='hsk-3'?'aria-current="page"':''} href="/academic/hsk-3/">HSK 3.0 · 2025 syllabus</a><a href="/dictionary/">Core dictionary</a><a href="/account/">My learning</a></nav>`;
-const page=(path,title,body)=>({path,title,canonical:path.startsWith('/academic/')?'https://hanzifun.online'+path:undefined,description:title+' — source lists, coverage and local character practice.',content:`<div class="container hf04 hf07"><h1>${e(title)}</h1>${body}<p role="status" data-hf07-status></p></div><script type="module" src="/site-assets/hf07.mjs"></script><script type="module" src="/site-assets/hf06/client/guest-learning.mjs"></script>`});
+const page=(path,title,body)=>withCoreSeo({path,title,canonical:path.startsWith('/academic/')?'https://hanzifun.online'+path:undefined,description:title+' — source lists, coverage and local character practice.',content:`<div class="container hf04 hf07"><h1>${e(title)}</h1>${body}<p role="status" data-hf07-status></p></div><script type="module" src="/site-assets/hf07.mjs"></script><script type="module" src="/site-assets/hf06/client/guest-learning.mjs"></script>`});
 const charLinks=(glyph,returnTo)=>[...new Set([...glyph])].map(g=>findCharacter(g)?`<a lang="zh-CN" href="/dictionary/${encodeURIComponent(g)}/?returnTo=${encodeURIComponent(returnTo)}">${e(g)}</a>`:`<span>${e(g)} · dictionary pending</span>`).join(' · ');
 const labels={'vocabulary':'Vocabulary','derived-character':'Characters derived from vocabulary','recognition-character':'Recognition characters','writing-character':'Writing characters · levels 1–2 combined'};
 function row(m,path){

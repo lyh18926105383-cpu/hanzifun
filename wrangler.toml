@@ -2,7 +2,7 @@ name = "hanzifun"
 compatibility_date = "2026-07-15"
 
 [build]
-command = "npm run build:site"
+command = "HF_SITE_ENV=production npm run build:site"
 
 [assets]
 directory = "./dist"

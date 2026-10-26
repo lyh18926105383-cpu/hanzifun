@@ -1,0 +1,584 @@
+{
+  "date": "2026-10-26T02:40:50.413Z",
+  "origin": "http://localhost:8788",
+  "engine": "155.0.8059.85",
+  "axeVersion": "4.10.3",
+  "checks": [
+    "13 core routes × 5 viewport widths; 5 templates CSS 200% zoom",
+    "Keyboard: skip link → main, mobile menu Escape/focus return, hero flip hidden semantics, six FAQ toggles, stroke next, pinyin filter and summary; CDP AX heading/textbox",
+    "No-JS answer paragraphs, dictionary static content, full pinyin and HSK lists"
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/dictionary/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/dictionary/水/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "route": "/dictionary/发/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "route": "/dictionary/爱/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/stroke-order/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/pinyin-chart/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "route": "/academic/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/flashcards/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/account/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "route": "/search/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "route": "/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/academic/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/academic/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/academic/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/academic/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/academic/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    }
+  ],
+  "http": [
+    {
+      "route": "/missing-hf08/",
+      "status": 404
+    },
+    {
+      "route": "/dictionary/不存在/",
+      "status": 404
+    },
+    {
+      "route": "/zh/",
+      "status": 200
+    },
+    {
+      "route": "/story.html?lesson=cat-and-fish-01",
+      "status": 200
+    },
+    {
+      "route": "/audio/tts-v1/076-8c46.mp3",
+      "status": 200
+    },
+    {
+      "route": "/index.html",
+      "status": 301,
+      "location": "/zh/"
+    },
+    {
+      "route": "/legacy/index.html",
+      "status": 301,
+      "location": "/zh/"
+    },
+    {
+      "route": "/legacy/story.html?lesson=cat-and-fish-01",
+      "status": 301,
+      "location": "/story?lesson=cat-and-fish-01"
+    }
+  ],
+  "performance": [],
+  "performanceConfig": {
+    "viewport": "390x844",
+    "deviceScaleFactor": 1,
+    "latencyMs": 150,
+    "downloadMbps": 1.6,
+    "uploadKbps": 750,
+    "cpuSlowdown": 4,
+    "runs": 3,
+    "cache": "disabled, fresh browser context",
+    "server": "Node gzip; external Workers run optional"
+  },
+  "performanceMedians": [],
+  "errors": [],
+  "limitations": [
+    "Chrome desktop emulation; not physical Android/iOS, Safari or Firefox",
+    "CDP accessibility tree and keyboard checked; no spoken VoiceOver/NVDA session",
+    "CSS zoom and equivalent reflow viewport; not native browser zoom UI",
+    "Local lab LCP/CLS; not field p75 or INP",
+    "Local Node server is not Cloudflare; external Workers run is recorded separately"
+  ]
+}

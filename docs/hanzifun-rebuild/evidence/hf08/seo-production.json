@@ -1,0 +1,19 @@
+{
+  "environment": "production",
+  "releaseId": "hf08-seo-quality-candidate",
+  "pages": 401,
+  "corePages": 354,
+  "jsonLdBlocks": 402,
+  "englishJsonLdBlocks": 401,
+  "sitemap": [
+    "https://hanzifun.online/academic/",
+    "https://hanzifun.online/academic/hsk-2/",
+    "https://hanzifun.online/academic/hsk-3/"
+  ],
+  "budget": {
+    "jsGzipBytes": 7470,
+    "cssGzipBytes": 10966,
+    "eagerImageBytes": 355447
+  },
+  "errors": []
+}

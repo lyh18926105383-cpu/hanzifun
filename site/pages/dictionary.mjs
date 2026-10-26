@@ -1,9 +1,10 @@
+import {withCoreSeo} from '../seo.mjs';
 import { characters, readings, kanji, strokes, editorial, comparisons, scope, syllables, reviews, readJson, readingFor, editorFor, escapeHtml as e, charLink, charUrl } from '../dictionary-data.mjs';
 import { strokePanel } from '../components/stroke-order.mjs';
 const links = `<nav class="subnav" aria-label="Dictionary views"><a href="/dictionary/">All 126 characters</a><a href="/dictionary/pinyin/">By pinyin</a><a href="/dictionary/radicals/">By radical</a><a href="/dictionary/compare/">Compare</a><a href="/stroke-order/">Stroke Order</a><a href="/pinyin-chart/">Pinyin Chart</a><a href="/academic/hsk-2/">HSK 2.0</a><a href="/academic/hsk-3/">HSK 3.0</a></nav>`;
 const script = '<script type="module" src="/site-assets/dictionary.hf04-v1.mjs"></script>';
 const notice = '<p class="preview-note">Content review preview. Dictionary imports and HanziFun teaching drafts await human acceptance. Audio is enabled only after listening review.</p>';
-export const page = (path,title,body,description=title)=>({path,title,description,content:`<div class="container hf04"><p class="eyebrow">Visual Dictionary · Core learning collection</p><h1>${e(title)}</h1>${links}${body}</div>${script}`});
+export const page = (path,title,body,description=title)=>withCoreSeo({path,title,description,content:`<div class="container hf04"><span class="eyebrow">Visual Dictionary · Core learning collection</span><h1>${e(title)}</h1>${links}${body}</div>${script}`});
 const searchForm = (label='Search core and HSK characters and linked words')=>`<form action="/search/" data-hf-search role="search"><label for="hf-query">${e(label)}</label><div class="hf-search-row"><input id="hf-query" name="q" maxlength="100" placeholder="水, shuǐ, shui3, water" autocomplete="off"><button type="submit">Search</button></div></form><div data-hf-results role="region" aria-label="Search results" aria-live="polite"></div>`;
 const tiles = chars=>`<div class="char-grid">${chars.map(c=>`<a class="char-tile" href="${charUrl(c.glyph)}"><span lang="zh-CN">${e(c.glyph)}</span><strong>${e(readingFor(c.primaryReadingId).pinyin.marked)}</strong><small>${e(editorFor(c.characterId).meaning)}</small></a>`).join('')}</div>`;
 const list = values=>'<ul>'+values.map(value=>'<li>'+value+'</li>').join('')+'</ul>';

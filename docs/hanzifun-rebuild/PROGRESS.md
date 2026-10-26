@@ -2,7 +2,7 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 1：主站上线（基线整合、126 字字典及 Information、独立笔顺页与拼音表、本机闪卡、两场景、两版 HSK 1 级）
-- **当前执行任务**：HF-07 工程交付与自动/浏览器验证完成；待人工内容/来源抽查签收与场景录音听审。HF-08 可继续，HF-02/04 人工内容/拼音/音频缺口保留。
+- **当前执行任务**：HF-08 工程/自动门控、Chrome 与本机 Workers 验证已交付；跨浏览器、真机与真实屏幕阅读器待补。HF-09 可接续本地候选，HF-02/04/07 人工教学/拼音/音频缺口保留。
 - **状态**：HF-01、HF-03、HF-05（独立范围）、HF-06 已完成；HF-02 与 HF-04 均保留人工验收缺口。用户 2026-10-25 明确授权 HF-04 按缺项安全降级/noindex 预览实施，工程交付不等于前置人工验收通过；精确接续见记录 05。
 
 ---
@@ -120,3 +120,12 @@
 - **验证**：npm test 119/119（112原+7新）；validate-hsk-data PASS含213笔画hash与隔离重建字节一致；普通HF02 fetch保留下游源锁，HF02完整数据重建仍过。两次公开隔离构建1544文件差异0，77原型路由保留，398 noindex+3 HSK index，资源引用检查通过；路由区分126核心/213新增。真实Chrome155 HF07 7组闭环（两HSK/两场景/存储拒绝/无JS/桌面手机导航及5档宽度）通过，实际查看手机与PDF边界截图；HF06回归18项errors=[]。截图、原文件、整包和日志均未入库。
 - **遗留/不可冒充**：新增213字及原核心仍有人类教学审核缺口；不把自动词典导入称为已验收Tier2。场景6句录音缺失/听审pending；30条/套来源抽查由Codex完成，不能伪造人类签字。没有新增音频/调用付费TTS/部署/账号同步Billing/故事制作；未测Safari/Firefox/真机/真实p75/生产。
 - **下一Agent精确切入点**：先读本记录、TASKS与用户指定单任务。HF07收口见HF-07-VERIFICATION遗留1–3：从`data/scenarios/scenarios.json`录音/审句、`evidence/hf07/source-review.json`源定位、`data/hsk/README.md`与lexicon草稿逐批完善；保持characterId/URL并将审批持久化，达Tier2再逐页放行，不以缺插画/新书面授权阻断。HF08可继续全站质量，但不得清空HF02/04/07人工缺口。
+
+### [记录 09] - HF-08 SEO、质量与无障碍门控工程交付 (By Codex, 2026-10-26)
+- **目录/分支**：Desktop 指定主目录 main，施工前 HEAD `c3665e36bb0f5fa451e0093046d0258769565ccd`；所有源码/新增证据/提交均在主目录。保留既有未跟踪用户文件、原 dist。
+- **交付**：354 核心落地页的 Title/唯一 main H1/紧邻首个直答 p；共享 metadata/self-canonical、WebPage/WebSite/BreadcrumbList 与安全 JSON-LD；构建后 parse5 DOM/JSON.parse/必填字段/robots/sitemap/FAQ/预算必经校验。Production 显式启用；缺省 local 和 staging 全包 noindex、sitemap为空。保留3个既有 HSK 范围页放行，不替待审内容签字。补场景人工语言门槛；未来成熟字页的 Unicode canonical/sitemap 编码有回归测试。修对比、skip焦点、200%容器断点、下方插画lazy，更新过时FAQ和闪卡重名。旧中文index/legacy301、Workers故事默认307 query分开验证。
+- **新增文件**：`site/seo.mjs`；`scripts/{validate-seo-quality,verify-quality-browser}.mjs`；`tests/seo-quality.test.mjs`；`HF-08-VERIFICATION.md`、`evidence/hf08/`（后两者在本交接目录）。
+- **修改文件**：`scripts/build-site.js`；`site/{layouts/base.html,pages/dictionary.mjs,pages/hsk.mjs,pages/scenarios.mjs,pages/learning.mjs,pages/home.html,site.mjs,public/site-styles.css,release.json}`；`tests/dictionary.test.mjs`；`package.json`、`package-lock.json`、`wrangler.toml`；TASKS、PROGRESS、当前HF08任务。
+- **验证**：npm test **127/127**；三环境每个401英文页、354核心页、全量402JSON-LD errors=[]；production3 sitemap/398 noindex，staging/local0 sitemap/401 noindex。1546文件两次production SHA-256差异0，77原型路由保留、资源引用与白名单通过。Chrome155.0.8059.85/axe4.10.3：16类页面零WCAG违规、13路由×5断点65次、5模板CSS200%放大、键盘/无JS/AX树通过。4模板各3轮固定移动4G/4×CPU，LCP中位数764/612/772/744ms、CLS均0；首页JS7.30KiB/CSS10.71KiB gzip、关键图347.12KiB。Workers4.152.0本机环境404、301单跳、默认307保留课程参数与staging noindex头通过。
+- **边界/遗留**：仅工程与本地范围交付，不把HF08跨浏览器/真机/系统读屏标完整验收；CSS zoom与CDP AX不冒充真实VoiceOver/NVDA或原生缩放。axe incomplete留收据，不等同人工通过。HF-02/04/07人类教学、场景与音频缺口均保留。未测真实p75/INP、生产主机/实际迁移/恢复；无部署、账号、同步、Billing、追踪器或故事制作。
+- **下一Agent精确切入点**：读本记录、TASKS与用户指定单个任务，再读HF-08-VERIFICATION及evidence/hf08。HF09/17补Safari/Firefox/真机/真实读屏/原生缩放证据与源内容审核；HF17/18先核对生产域名与旧入口，再发布显式production候选。运行build:site缺省local，生产用build:production，预览用build:staging；不得因门控通过清空人工pending。

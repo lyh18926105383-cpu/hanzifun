@@ -1,6 +1,6 @@
 # HF-08｜公开页 SEO、性能与无障碍收口
 
-状态：待执行（本轮只生成任务文档）。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
+状态：工程实现、自动门控、Chrome 与本机 Workers 验证完成（2026-10-26）；跨浏览器/真机/真实屏幕阅读器及原生缩放待补，不标全部人工验收完成。详见 [本包验收记录](../HF-08-VERIFICATION.md)。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
 
 | 项目 | 内容 |
 |---|---|
@@ -49,13 +49,13 @@
 
 ## 验收条件
 
-- [ ] 可索引清单只有实际成熟公开页；私人/占位/搜索页 noindex；sitemap 零非规范 URL。
-- [ ] Tier 2 与 Tier 1 都可开放索引；缺插画/长故事、HSK 未取得单独书面授权不是自动 noindex 条件，具体质量问题只影响对应条目。六 FAQ 在静态 HTML 中有问有答、有实际相关链接。
-- [ ] 未知 URL 404、无跳转循环、已知中文路径保留；noindex 与 robots 不互相抵消。
-- [ ] 所有 SPEC 断点无横向溢出、键盘闭环可完成；自动发现的严重可访问性问题归零。
-- [ ] 首页 JS/CSS/首屏图片预算达到 SPEC；测量口径明确，不把 Lighthouse 值称为真实 p75。
-- [ ] 独立笔顺页与拼音表拥有不同且与正文相符的 title/H1/description；可索引时各有 sitemap 主地址，参数页不入 sitemap，字页仍使用自身 canonical。
-- [ ] 拼音表在手机、键盘、读屏及无音频/无 JS 情况下仍可理解和使用可用功能；宽表不造成整页横向溢出。
+- [x] 可索引清单只有实际成熟公开页；私人/占位/搜索页 noindex；sitemap 零非规范 URL。
+- [x] Tier 2 与 Tier 1 都可开放索引；缺插画/长故事、HSK 未取得单独书面授权不是自动 noindex 条件，具体质量问题只影响对应条目。六 FAQ 在静态 HTML 中有问有答、有实际相关链接。
+- [x] 未知 URL 404、无跳转循环、已知中文路径保留；noindex 与 robots 不互相抵消。
+- [x] 所有 SPEC 断点无横向溢出、键盘闭环可完成；自动发现的严重可访问性问题归零。
+- [x] 首页 JS/CSS/首屏图片预算达到 SPEC；测量口径明确，不把 Lighthouse 值称为真实 p75。
+- [x] 独立笔顺页与拼音表拥有不同且与正文相符的 title/H1/description；可索引时各有 sitemap 主地址，参数页不入 sitemap，字页仍使用自身 canonical。
+- [ ] 拼音表在手机、键盘、读屏及无音频/无 JS 情况下仍可理解和使用可用功能；宽表不造成整页横向溢出。（Chrome 手机模拟、键盘、AX 树、无音频/无 JS 与宽表已通过；真实读屏待补。）
 
 ## 验证方法
 
@@ -74,3 +74,15 @@
 可将下面整段直接作为后续开发对话的请求：
 
 > 请执行 HanziFun 的 HF-08「公开页 SEO、性能与无障碍收口」。工作目录是 /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun。先完整阅读 docs/hanzifun-rebuild/tasks/HF-08-seo-quality.md、docs/hanzifun-rebuild/SPEC.md 的映射要求、docs/hanzifun-rebuild/TASKS.md、docs/hanzifun-rebuild/BASELINE.md，并核验当前 git status 与前置任务交付，不把本轮规划当作功能已经完成。目标是：建立按发布状态放行的 SEO 与可用性检查，确保 MVP 不带原型索引/假 404 问题上线。 只完成该工作包的范围、交付物和验收，不顺带启动其他包或生产部署，不覆盖用户未提交文件。原型和父树既有工作最初位于 /Users/graceshi/.codex/worktrees/ec5f/汉字饭hanzifun，若 HF-01 已保全则采用其记录的新基线；不能因为主目录原先没有规则就忽略故事流程。凡涉及故事新增/修改/生成/验收，先完整阅读 STORY_COURSE_PRODUCTION_WORKFLOW.md，再查目标故事板、lessons.js 与人工确认点。按任务文件验证并报告真实结果、文件链接、未完成项和后续依赖；缺少外部配置时完成不依赖它的本地工作，但不要伪造接通或验收证据。
+
+## 本次验收边界（2026-10-26）
+
+上方自动/本地实现条件在 HF-08-VERIFICATION 所列范围内通过；不把浏览器实验室结果扩大为全设备/真实p75验收。
+
+- [x] 三个国王静态 DOM 与构建必经门控；402个 JSON-LD 块语法/必填字段/安全字符验证。
+- [x] 三环境索引矩阵、Unicode/参数 canonical/sitemap、真实本机Workers HTTP与单跳301/默认307区分。
+- [x] Chrome/axe16类页面0违规、65档宽度、CSS200%放大、键盘/无JS/辅助技术树与4模板三轮实验室测量。
+- [ ] Safari/Firefox当前及前一主版本、真机移动Safari/Android Chrome。
+- [ ] 真实VoiceOver/NVDA完整旅程、原生浏览器200%缩放与axe incomplete人工复核。
+
+后两项及生产核验转HF09/17接续，不关闭HF02/04/07人工内容或音频缺口。

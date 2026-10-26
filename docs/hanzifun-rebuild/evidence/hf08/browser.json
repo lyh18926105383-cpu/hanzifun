@@ -1,0 +1,1761 @@
+{
+  "date": "2026-10-26T02:42:44.609Z",
+  "origin": "http://127.0.0.1:55482",
+  "engine": "155.0.8059.85",
+  "axeVersion": "4.10.3",
+  "checks": [
+    "13 core routes × 5 viewport widths; 5 templates CSS 200% zoom",
+    "Keyboard: skip link → main, mobile menu Escape/focus return, hero flip hidden semantics, six FAQ toggles, stroke next, pinyin filter and summary; CDP AX heading/textbox",
+    "No-JS answer paragraphs, dictionary static content, full pinyin and HSK lists"
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/dictionary/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/dictionary/水/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "route": "/dictionary/发/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "route": "/dictionary/爱/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/stroke-order/",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/pinyin-chart/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "route": "/academic/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/flashcards/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/account/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "route": "/search/",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "route": "/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/爱/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/academic/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/academic/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/academic/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/academic/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/academic/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/academic/hsk-2/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 360,
+      "client": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 390,
+      "client": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 1100,
+      "client": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/scenarios/business/icebreakers/",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    }
+  ],
+  "http": [
+    {
+      "route": "/missing-hf08/",
+      "status": 404
+    },
+    {
+      "route": "/dictionary/不存在/",
+      "status": 404
+    },
+    {
+      "route": "/zh/",
+      "status": 200
+    },
+    {
+      "route": "/story.html?lesson=cat-and-fish-01",
+      "status": 200
+    },
+    {
+      "route": "/audio/tts-v1/076-8c46.mp3",
+      "status": 200
+    }
+  ],
+  "performance": [
+    {
+      "route": "/",
+      "run": 1,
+      "lcp": 780,
+      "cls": 0,
+      "domContentLoaded": 775.8999999761581,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/hero.hf03-v1.jpg",
+          "transferSize": 355387,
+          "encodedBodySize": 355087,
+          "decodedBodySize": 355087
+        },
+        {
+          "name": "/site-assets/audiences.hf03-v1.jpg",
+          "transferSize": 241947,
+          "encodedBodySize": 241647,
+          "decodedBodySize": 241647
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "run": 2,
+      "lcp": 764,
+      "cls": 0,
+      "domContentLoaded": 761.5,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/hero.hf03-v1.jpg",
+          "transferSize": 355387,
+          "encodedBodySize": 355087,
+          "decodedBodySize": 355087
+        },
+        {
+          "name": "/site-assets/audiences.hf03-v1.jpg",
+          "transferSize": 241947,
+          "encodedBodySize": 241647,
+          "decodedBodySize": 241647
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "run": 3,
+      "lcp": 712,
+      "cls": 0,
+      "domContentLoaded": 709.2000000476837,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/hero.hf03-v1.jpg",
+          "transferSize": 355387,
+          "encodedBodySize": 355087,
+          "decodedBodySize": 355087
+        },
+        {
+          "name": "/site-assets/audiences.hf03-v1.jpg",
+          "transferSize": 241947,
+          "encodedBodySize": 241647,
+          "decodedBodySize": 241647
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        }
+      ]
+    },
+    {
+      "route": "/dictionary/水/",
+      "run": 1,
+      "lcp": 612,
+      "cls": 0,
+      "domContentLoaded": 797,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/dictionary.hf04-v1.mjs",
+          "transferSize": 2930,
+          "encodedBodySize": 2630,
+          "decodedBodySize": 7548
+        },
+        {
+          "name": "/site-assets/search-core.hf04-v1.mjs",
+          "transferSize": 1206,
+          "encodedBodySize": 906,
+          "decodedBodySize": 1689
+        },
+        {
+          "name": "/site-assets/stroke-order.hf04-v1.mjs",
+          "transferSize": 1961,
+          "encodedBodySize": 1661,
+          "decodedBodySize": 4143
+        },
+        {
+          "name": "/site-assets/learning-entry.hf04-v1.mjs",
+          "transferSize": 729,
+          "encodedBodySize": 429,
+          "decodedBodySize": 1125
+        },
+        {
+          "name": "/site-assets/hf06/client/guest-learning.mjs",
+          "transferSize": 6473,
+          "encodedBodySize": 6173,
+          "decodedBodySize": 18105
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/hf06/learning/identity.mjs",
+          "transferSize": 609,
+          "encodedBodySize": 309,
+          "decodedBodySize": 481
+        },
+        {
+          "name": "/site-assets/hf06/learning/legacy-import.mjs",
+          "transferSize": 1897,
+          "encodedBodySize": 1597,
+          "decodedBodySize": 4244
+        },
+        {
+          "name": "/site-assets/hf06/learning/session.mjs",
+          "transferSize": 2001,
+          "encodedBodySize": 1701,
+          "decodedBodySize": 5407
+        },
+        {
+          "name": "/site-assets/hf06/learning/events.mjs",
+          "transferSize": 1872,
+          "encodedBodySize": 1572,
+          "decodedBodySize": 4368
+        },
+        {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
+        },
+        {
+          "name": "/site-assets/hf06/client/flashcards.mjs",
+          "transferSize": 3167,
+          "encodedBodySize": 2867,
+          "decodedBodySize": 8436
+        },
+        {
+          "name": "/site-assets/hf06/learning/scheduler.mjs",
+          "transferSize": 1945,
+          "encodedBodySize": 1645,
+          "decodedBodySize": 4063
+        },
+        {
+          "name": "/site-assets/hf06/learning/write-lock.mjs",
+          "transferSize": 1531,
+          "encodedBodySize": 1231,
+          "decodedBodySize": 2791
+        },
+        {
+          "name": "/site-assets/hf06/learning-data.json",
+          "transferSize": 46936,
+          "encodedBodySize": 46636,
+          "decodedBodySize": 249945
+        }
+      ]
+    },
+    {
+      "route": "/dictionary/水/",
+      "run": 2,
+      "lcp": 612,
+      "cls": 0,
+      "domContentLoaded": 798.6999999880791,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/dictionary.hf04-v1.mjs",
+          "transferSize": 2930,
+          "encodedBodySize": 2630,
+          "decodedBodySize": 7548
+        },
+        {
+          "name": "/site-assets/search-core.hf04-v1.mjs",
+          "transferSize": 1206,
+          "encodedBodySize": 906,
+          "decodedBodySize": 1689
+        },
+        {
+          "name": "/site-assets/learning-entry.hf04-v1.mjs",
+          "transferSize": 729,
+          "encodedBodySize": 429,
+          "decodedBodySize": 1125
+        },
+        {
+          "name": "/site-assets/stroke-order.hf04-v1.mjs",
+          "transferSize": 1961,
+          "encodedBodySize": 1661,
+          "decodedBodySize": 4143
+        },
+        {
+          "name": "/site-assets/hf06/client/guest-learning.mjs",
+          "transferSize": 6473,
+          "encodedBodySize": 6173,
+          "decodedBodySize": 18105
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/hf06/learning/identity.mjs",
+          "transferSize": 609,
+          "encodedBodySize": 309,
+          "decodedBodySize": 481
+        },
+        {
+          "name": "/site-assets/hf06/learning/legacy-import.mjs",
+          "transferSize": 1897,
+          "encodedBodySize": 1597,
+          "decodedBodySize": 4244
+        },
+        {
+          "name": "/site-assets/hf06/learning/session.mjs",
+          "transferSize": 2001,
+          "encodedBodySize": 1701,
+          "decodedBodySize": 5407
+        },
+        {
+          "name": "/site-assets/hf06/learning/events.mjs",
+          "transferSize": 1872,
+          "encodedBodySize": 1572,
+          "decodedBodySize": 4368
+        },
+        {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
+        },
+        {
+          "name": "/site-assets/hf06/client/flashcards.mjs",
+          "transferSize": 3167,
+          "encodedBodySize": 2867,
+          "decodedBodySize": 8436
+        },
+        {
+          "name": "/site-assets/hf06/learning/scheduler.mjs",
+          "transferSize": 1945,
+          "encodedBodySize": 1645,
+          "decodedBodySize": 4063
+        },
+        {
+          "name": "/site-assets/hf06/learning/write-lock.mjs",
+          "transferSize": 1531,
+          "encodedBodySize": 1231,
+          "decodedBodySize": 2791
+        },
+        {
+          "name": "/site-assets/hf06/learning-data.json",
+          "transferSize": 46936,
+          "encodedBodySize": 46636,
+          "decodedBodySize": 249945
+        }
+      ]
+    },
+    {
+      "route": "/dictionary/水/",
+      "run": 3,
+      "lcp": 616,
+      "cls": 0,
+      "domContentLoaded": 799.8999999761581,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/dictionary.hf04-v1.mjs",
+          "transferSize": 2930,
+          "encodedBodySize": 2630,
+          "decodedBodySize": 7548
+        },
+        {
+          "name": "/site-assets/search-core.hf04-v1.mjs",
+          "transferSize": 1206,
+          "encodedBodySize": 906,
+          "decodedBodySize": 1689
+        },
+        {
+          "name": "/site-assets/stroke-order.hf04-v1.mjs",
+          "transferSize": 1961,
+          "encodedBodySize": 1661,
+          "decodedBodySize": 4143
+        },
+        {
+          "name": "/site-assets/learning-entry.hf04-v1.mjs",
+          "transferSize": 729,
+          "encodedBodySize": 429,
+          "decodedBodySize": 1125
+        },
+        {
+          "name": "/site-assets/hf06/client/guest-learning.mjs",
+          "transferSize": 6473,
+          "encodedBodySize": 6173,
+          "decodedBodySize": 18105
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/hf06/learning/identity.mjs",
+          "transferSize": 609,
+          "encodedBodySize": 309,
+          "decodedBodySize": 481
+        },
+        {
+          "name": "/site-assets/hf06/learning/legacy-import.mjs",
+          "transferSize": 1897,
+          "encodedBodySize": 1597,
+          "decodedBodySize": 4244
+        },
+        {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
+        },
+        {
+          "name": "/site-assets/hf06/learning/session.mjs",
+          "transferSize": 2001,
+          "encodedBodySize": 1701,
+          "decodedBodySize": 5407
+        },
+        {
+          "name": "/site-assets/hf06/learning/events.mjs",
+          "transferSize": 1872,
+          "encodedBodySize": 1572,
+          "decodedBodySize": 4368
+        },
+        {
+          "name": "/site-assets/hf06/client/flashcards.mjs",
+          "transferSize": 3167,
+          "encodedBodySize": 2867,
+          "decodedBodySize": 8436
+        },
+        {
+          "name": "/site-assets/hf06/learning/scheduler.mjs",
+          "transferSize": 1945,
+          "encodedBodySize": 1645,
+          "decodedBodySize": 4063
+        },
+        {
+          "name": "/site-assets/hf06/learning/write-lock.mjs",
+          "transferSize": 1531,
+          "encodedBodySize": 1231,
+          "decodedBodySize": 2791
+        },
+        {
+          "name": "/site-assets/hf06/learning-data.json",
+          "transferSize": 46936,
+          "encodedBodySize": 46636,
+          "decodedBodySize": 249945
+        }
+      ]
+    },
+    {
+      "route": "/pinyin-chart/",
+      "run": 1,
+      "lcp": 772,
+      "cls": 0,
+      "domContentLoaded": 783.6999999880791,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/dictionary.hf04-v1.mjs",
+          "transferSize": 2930,
+          "encodedBodySize": 2630,
+          "decodedBodySize": 7548
+        },
+        {
+          "name": "/site-assets/search-core.hf04-v1.mjs",
+          "transferSize": 1206,
+          "encodedBodySize": 906,
+          "decodedBodySize": 1689
+        },
+        {
+          "name": "/site-assets/learning-entry.hf04-v1.mjs",
+          "transferSize": 729,
+          "encodedBodySize": 429,
+          "decodedBodySize": 1125
+        },
+        {
+          "name": "/site-assets/stroke-order.hf04-v1.mjs",
+          "transferSize": 1961,
+          "encodedBodySize": 1661,
+          "decodedBodySize": 4143
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        }
+      ]
+    },
+    {
+      "route": "/pinyin-chart/",
+      "run": 2,
+      "lcp": 772,
+      "cls": 0,
+      "domContentLoaded": 786.8999999761581,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/dictionary.hf04-v1.mjs",
+          "transferSize": 2930,
+          "encodedBodySize": 2630,
+          "decodedBodySize": 7548
+        },
+        {
+          "name": "/site-assets/search-core.hf04-v1.mjs",
+          "transferSize": 1206,
+          "encodedBodySize": 906,
+          "decodedBodySize": 1689
+        },
+        {
+          "name": "/site-assets/learning-entry.hf04-v1.mjs",
+          "transferSize": 729,
+          "encodedBodySize": 429,
+          "decodedBodySize": 1125
+        },
+        {
+          "name": "/site-assets/stroke-order.hf04-v1.mjs",
+          "transferSize": 1961,
+          "encodedBodySize": 1661,
+          "decodedBodySize": 4143
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        }
+      ]
+    },
+    {
+      "route": "/pinyin-chart/",
+      "run": 3,
+      "lcp": 772,
+      "cls": 0,
+      "domContentLoaded": 782.5,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/dictionary.hf04-v1.mjs",
+          "transferSize": 2930,
+          "encodedBodySize": 2630,
+          "decodedBodySize": 7548
+        },
+        {
+          "name": "/site-assets/search-core.hf04-v1.mjs",
+          "transferSize": 1206,
+          "encodedBodySize": 906,
+          "decodedBodySize": 1689
+        },
+        {
+          "name": "/site-assets/stroke-order.hf04-v1.mjs",
+          "transferSize": 1961,
+          "encodedBodySize": 1661,
+          "decodedBodySize": 4143
+        },
+        {
+          "name": "/site-assets/learning-entry.hf04-v1.mjs",
+          "transferSize": 729,
+          "encodedBodySize": 429,
+          "decodedBodySize": 1125
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        }
+      ]
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "run": 1,
+      "lcp": 716,
+      "cls": 0,
+      "domContentLoaded": 1434.800000011921,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/hf07.mjs",
+          "transferSize": 2433,
+          "encodedBodySize": 2133,
+          "decodedBodySize": 5690
+        },
+        {
+          "name": "/site-assets/hf06/client/guest-learning.mjs",
+          "transferSize": 6473,
+          "encodedBodySize": 6173,
+          "decodedBodySize": 18105
+        },
+        {
+          "name": "/site-assets/hf06/learning/identity.mjs",
+          "transferSize": 609,
+          "encodedBodySize": 309,
+          "decodedBodySize": 481
+        },
+        {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
+        },
+        {
+          "name": "/site-assets/hf06/learning/legacy-import.mjs",
+          "transferSize": 1897,
+          "encodedBodySize": 1597,
+          "decodedBodySize": 4244
+        },
+        {
+          "name": "/site-assets/hf06/learning/session.mjs",
+          "transferSize": 2001,
+          "encodedBodySize": 1701,
+          "decodedBodySize": 5407
+        },
+        {
+          "name": "/site-assets/hf06/learning/events.mjs",
+          "transferSize": 1872,
+          "encodedBodySize": 1572,
+          "decodedBodySize": 4368
+        },
+        {
+          "name": "/site-assets/hf06/client/flashcards.mjs",
+          "transferSize": 3167,
+          "encodedBodySize": 2867,
+          "decodedBodySize": 8436
+        },
+        {
+          "name": "/site-assets/hf06/learning/scheduler.mjs",
+          "transferSize": 1945,
+          "encodedBodySize": 1645,
+          "decodedBodySize": 4063
+        },
+        {
+          "name": "/site-assets/hf06/learning/write-lock.mjs",
+          "transferSize": 1531,
+          "encodedBodySize": 1231,
+          "decodedBodySize": 2791
+        },
+        {
+          "name": "/site-assets/hf06/learning-data.json",
+          "transferSize": 46936,
+          "encodedBodySize": 46636,
+          "decodedBodySize": 249945
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        }
+      ]
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "run": 2,
+      "lcp": 744,
+      "cls": 0,
+      "domContentLoaded": 1478.3999999761581,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/hf07.mjs",
+          "transferSize": 2433,
+          "encodedBodySize": 2133,
+          "decodedBodySize": 5690
+        },
+        {
+          "name": "/site-assets/hf06/client/guest-learning.mjs",
+          "transferSize": 6473,
+          "encodedBodySize": 6173,
+          "decodedBodySize": 18105
+        },
+        {
+          "name": "/site-assets/hf06/learning/identity.mjs",
+          "transferSize": 609,
+          "encodedBodySize": 309,
+          "decodedBodySize": 481
+        },
+        {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
+        },
+        {
+          "name": "/site-assets/hf06/learning/legacy-import.mjs",
+          "transferSize": 1897,
+          "encodedBodySize": 1597,
+          "decodedBodySize": 4244
+        },
+        {
+          "name": "/site-assets/hf06/learning/session.mjs",
+          "transferSize": 2001,
+          "encodedBodySize": 1701,
+          "decodedBodySize": 5407
+        },
+        {
+          "name": "/site-assets/hf06/learning/events.mjs",
+          "transferSize": 1872,
+          "encodedBodySize": 1572,
+          "decodedBodySize": 4368
+        },
+        {
+          "name": "/site-assets/hf06/client/flashcards.mjs",
+          "transferSize": 3167,
+          "encodedBodySize": 2867,
+          "decodedBodySize": 8436
+        },
+        {
+          "name": "/site-assets/hf06/learning/scheduler.mjs",
+          "transferSize": 1945,
+          "encodedBodySize": 1645,
+          "decodedBodySize": 4063
+        },
+        {
+          "name": "/site-assets/hf06/learning/write-lock.mjs",
+          "transferSize": 1531,
+          "encodedBodySize": 1231,
+          "decodedBodySize": 2791
+        },
+        {
+          "name": "/site-assets/hf06/learning-data.json",
+          "transferSize": 46936,
+          "encodedBodySize": 46636,
+          "decodedBodySize": 249945
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        }
+      ]
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "run": 3,
+      "lcp": 760,
+      "cls": 0,
+      "domContentLoaded": 1436.0999999642372,
+      "resources": [
+        {
+          "name": "/site-assets/hf06/client/flashcards.css",
+          "transferSize": 694,
+          "encodedBodySize": 394,
+          "decodedBodySize": 788
+        },
+        {
+          "name": "/site-assets/site-styles.hf03-v1.css",
+          "transferSize": 10872,
+          "encodedBodySize": 10572,
+          "decodedBodySize": 53736
+        },
+        {
+          "name": "/site-assets/navigation.hf03-v1.mjs",
+          "transferSize": 1068,
+          "encodedBodySize": 768,
+          "decodedBodySize": 2182
+        },
+        {
+          "name": "/site-assets/site-preview.hf03-v1.js",
+          "transferSize": 2806,
+          "encodedBodySize": 2506,
+          "decodedBodySize": 6580
+        },
+        {
+          "name": "/site-assets/site-data.hf03-v1.js",
+          "transferSize": 4496,
+          "encodedBodySize": 4196,
+          "decodedBodySize": 10884
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        },
+        {
+          "name": "/site-assets/hf07.mjs",
+          "transferSize": 2433,
+          "encodedBodySize": 2133,
+          "decodedBodySize": 5690
+        },
+        {
+          "name": "/site-assets/hf06/client/guest-learning.mjs",
+          "transferSize": 6473,
+          "encodedBodySize": 6173,
+          "decodedBodySize": 18105
+        },
+        {
+          "name": "/site-assets/hf06/learning/identity.mjs",
+          "transferSize": 609,
+          "encodedBodySize": 309,
+          "decodedBodySize": 481
+        },
+        {
+          "name": "/site-assets/hf06/learning/legacy-import.mjs",
+          "transferSize": 1897,
+          "encodedBodySize": 1597,
+          "decodedBodySize": 4244
+        },
+        {
+          "name": "/site-assets/hf06/learning/session.mjs",
+          "transferSize": 2001,
+          "encodedBodySize": 1701,
+          "decodedBodySize": 5407
+        },
+        {
+          "name": "/site-assets/hf06/learning/repository.mjs",
+          "transferSize": 5314,
+          "encodedBodySize": 5014,
+          "decodedBodySize": 16712
+        },
+        {
+          "name": "/site-assets/hf06/learning/events.mjs",
+          "transferSize": 1872,
+          "encodedBodySize": 1572,
+          "decodedBodySize": 4368
+        },
+        {
+          "name": "/site-assets/hf06/client/flashcards.mjs",
+          "transferSize": 3167,
+          "encodedBodySize": 2867,
+          "decodedBodySize": 8436
+        },
+        {
+          "name": "/site-assets/hf06/learning/scheduler.mjs",
+          "transferSize": 1945,
+          "encodedBodySize": 1645,
+          "decodedBodySize": 4063
+        },
+        {
+          "name": "/site-assets/hf06/learning/write-lock.mjs",
+          "transferSize": 1531,
+          "encodedBodySize": 1231,
+          "decodedBodySize": 2791
+        },
+        {
+          "name": "/site-assets/hf06/learning-data.json",
+          "transferSize": 46936,
+          "encodedBodySize": 46636,
+          "decodedBodySize": 249945
+        },
+        {
+          "name": "/site-assets/seal.hf03-v1.svg",
+          "transferSize": 553,
+          "encodedBodySize": 253,
+          "decodedBodySize": 360
+        }
+      ]
+    }
+  ],
+  "performanceConfig": {
+    "viewport": "390x844",
+    "deviceScaleFactor": 1,
+    "latencyMs": 150,
+    "downloadMbps": 1.6,
+    "uploadKbps": 750,
+    "cpuSlowdown": 4,
+    "runs": 3,
+    "cache": "disabled, fresh browser context",
+    "server": "Node gzip; external Workers run optional"
+  },
+  "performanceMedians": [
+    {
+      "route": "/",
+      "lcpMs": 764,
+      "cls": 0
+    },
+    {
+      "route": "/dictionary/水/",
+      "lcpMs": 612,
+      "cls": 0
+    },
+    {
+      "route": "/pinyin-chart/",
+      "lcpMs": 772,
+      "cls": 0
+    },
+    {
+      "route": "/academic/hsk-3/",
+      "lcpMs": 744,
+      "cls": 0
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Chrome desktop emulation; not physical Android/iOS, Safari or Firefox",
+    "CDP accessibility tree and keyboard checked; no spoken VoiceOver/NVDA session",
+    "CSS zoom and equivalent reflow viewport; not native browser zoom UI",
+    "Local lab LCP/CLS; not field p75 or INP",
+    "Local Node server is not Cloudflare; external Workers run is recorded separately"
+  ]
+}

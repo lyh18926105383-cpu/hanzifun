@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-26T02:51:28.641Z",
+  "baseCommit": "c3665e36bb0f5fa451e0093046d0258769565ccd",
+  "branch": "main",
+  "releaseId": "hf08-seo-quality-candidate",
+  "tests": {
+    "total": 127,
+    "pass": 127,
+    "fail": 0
+  },
+  "runtime": {
+    "node": "v24.14.0",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "sourceSha256": {
+    "package-lock.json": "33d1114820369f455645680b72f60000786390cdb4a2f33d70a3138f155c0fea",
+    "package.json": "c5dc03bf4ee233e04967f8bb27ea0cd2aa8b2dde9990493c4516690408b74905",
+    "scripts/build-site.js": "d4659c1632ba039c86ad6f16af926505b514c6a162031c3503e4446b12b604ef",
+    "scripts/validate-seo-quality.mjs": "1c08c6efa509045519401c26b12b2ac2e054c244081eb1670489dfb7bd574f19",
+    "scripts/verify-quality-browser.mjs": "0c5b44ab01771142479beecf9f70f41d0b9ea95dc2a448a11d6a9d0083951149",
+    "site/layouts/base.html": "e109b88f9c4114ffd993f16ec001dbd2a8a19886be93065508eed9614fc55603",
+    "site/pages/dictionary.mjs": "ae5e08d60de72613c2a65e48150f7e728bb9ba76578597bcd4c1c9f01aab5974",
+    "site/pages/home.html": "a7871078b6724243b39a98271ecbfe96f1752b4447e7f19e39846c1d6fbf485e",
+    "site/pages/hsk.mjs": "6ca8268d4d7dbffaa71f7fd4d530b7f3d5e6d083167113f142a6a0d6f17341e1",
+    "site/pages/learning.mjs": "3f8ba63f6b5996142bd350a3cb546ff788414f711138e70d9d315d12c845e211",
+    "site/pages/scenarios.mjs": "caefb98ab80294e3e7986f5b80f51c13857777615e89b22b08b3550329c4350e",
+    "site/public/site-styles.css": "291b077864449d0c82f64c63cf35c6107efd363bd8d4fa1726a1739d3a64a2d5",
+    "site/release.json": "731532afe5cbf5524017afa7f640d8586d2c2e76bc01576cda20980e0a3382c9",
+    "site/seo.mjs": "9549bddd21894bd303120c62b29e255cfd0883ceb8cfb8d7c03aeff86a3dd451",
+    "site/site.mjs": "eb0a49c4920ff32d923de06596c0b3a176a315a77217d37638ed8065bd1fa457",
+    "tests/dictionary.test.mjs": "81ce28d00624a41a86713896458ced22475fad0c6c7e65313e1b580677e1931a",
+    "tests/seo-quality.test.mjs": "08ab36ba7bbca00854c2478a8ef5230fc9a878cc779bd91c4e1f8612bb2d138c",
+    "wrangler.toml": "46ef82a7b75d834df52561622a6d50ada230d19dacdc29787e8c3c7f50eaba40"
+  },
+  "limitations": [
+    "No production deployment",
+    "No actual Safari/Firefox/mobile hardware or spoken screen-reader session",
+    "HF02/04/07 human content/audio review remains pending"
+  ]
+}

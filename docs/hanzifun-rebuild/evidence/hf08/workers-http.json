@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-26T02:46:02.532Z",
+  "runtime": "Wrangler 4.152.0 local Workers Assets; compatibility_date 2026-07-15",
+  "responses": [
+    {
+      "environment": "production",
+      "route": "/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": null,
+      "canonical": "https://hanzifun.online/",
+      "metaRobots": "noindex,follow"
+    },
+    {
+      "environment": "production",
+      "route": "/academic/hsk-2/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": null,
+      "canonical": "https://hanzifun.online/academic/hsk-2/",
+      "metaRobots": "index,follow"
+    },
+    {
+      "environment": "production",
+      "route": "/zh/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": null,
+      "canonical": "https://hanzifun.online/zh/"
+    },
+    {
+      "environment": "production",
+      "route": "/story.html?lesson=cat-and-fish-01",
+      "status": 307,
+      "location": "/story?lesson=cat-and-fish-01",
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/index.html",
+      "status": 301,
+      "location": "/zh/",
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/legacy/index.html",
+      "status": 301,
+      "location": "/zh/",
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/legacy/story.html?lesson=cat-and-fish-01",
+      "status": 301,
+      "location": "/story?lesson=cat-and-fish-01",
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/missing-hf08/",
+      "status": 404,
+      "location": null,
+      "xRobotsTag": null,
+      "canonical": "https://hanzifun.online/404.html",
+      "metaRobots": "noindex,follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": "noindex, follow",
+      "canonical": "https://hanzifun.online/",
+      "metaRobots": "noindex,follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/academic/hsk-2/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": "noindex, follow",
+      "canonical": "https://hanzifun.online/academic/hsk-2/",
+      "metaRobots": "noindex,follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/zh/",
+      "status": 200,
+      "location": null,
+      "xRobotsTag": "noindex, follow",
+      "canonical": "https://hanzifun.online/zh/",
+      "metaRobots": "noindex,follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/story.html?lesson=cat-and-fish-01",
+      "status": 307,
+      "location": "/story?lesson=cat-and-fish-01",
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/index.html",
+      "status": 301,
+      "location": "/zh/",
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/legacy/index.html",
+      "status": 301,
+      "location": "/zh/",
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/legacy/story.html?lesson=cat-and-fish-01",
+      "status": 301,
+      "location": "/story?lesson=cat-and-fish-01",
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/missing-hf08/",
+      "status": 404,
+      "location": null,
+      "xRobotsTag": "noindex, follow",
+      "canonical": "https://hanzifun.online/404.html",
+      "metaRobots": "noindex,follow"
+    }
+  ],
+  "finalDestinations": [
+    {
+      "environment": "production",
+      "route": "/zh/",
+      "status": 200,
+      "xRobotsTag": null
+    },
+    {
+      "environment": "production",
+      "route": "/story?lesson=cat-and-fish-01",
+      "status": 200,
+      "xRobotsTag": null
+    },
+    {
+      "environment": "staging",
+      "route": "/zh/",
+      "status": 200,
+      "xRobotsTag": "noindex, follow"
+    },
+    {
+      "environment": "staging",
+      "route": "/story?lesson=cat-and-fish-01",
+      "status": 200,
+      "xRobotsTag": "noindex, follow"
+    }
+  ]
+}

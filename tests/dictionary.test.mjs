@@ -113,7 +113,7 @@ test('publication fails closed for unaccepted teaching; a missing illustration i
 test('isolated static build verifies all references, per-character assets, preview robots and deploy exclusions',()=>{
  const output=fs.mkdtempSync(path.join(os.tmpdir(),'hf04-test-'));
  try{
-  const result=spawnSync(process.execPath,['scripts/build-site.js'],{cwd:root,env:{...process.env,HF_BUILD_OUTPUT_DIR:output},encoding:'utf8'});
+  const result=spawnSync(process.execPath,['scripts/build-site.js'],{cwd:root,env:{...process.env,HF_SITE_ENV:'production',HF_BUILD_OUTPUT_DIR:output},encoding:'utf8'});
   assert.equal(result.status,0,result.stderr);const get=p=>fs.readFileSync(path.join(output,p),'utf8');
   for(const c of characters){const html=get('dictionary/'+c.glyph+'/index.html');assert.match(html,/noindex,follow/);assert.match(html,/Information/);}
   assert.equal(fs.readdirSync(path.join(output,'data/strokes')).length,126+lexicon.characters.length);

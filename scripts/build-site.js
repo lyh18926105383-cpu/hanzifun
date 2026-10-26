@@ -114,6 +114,7 @@ function htmlForPage(layout, page, route, header, footer) {
         .replaceAll('{{title}}', escapeHtml(page.title))
         .replaceAll('{{description}}', escapeHtml(page.description || page.title))
         .replaceAll('{{robots}}', robots+canonical)
+        .replaceAll('{{seo}}', page.structuredData || '')
         .replaceAll('{{header}}', header())
         .replaceAll('{{content}}', page.content)
         .replaceAll('{{footer}}', footer());
@@ -179,7 +180,7 @@ function makeSitemap(manifest, release) {
     }
     const origin = release.siteOrigin.replace(/\/+$/, '');
     const urls = published.map(route =>
-        '  <url><loc>' + origin + route.path + '</loc></url>'
+        '  <url><loc>' + escapeHtml(new URL(route.path, origin).href) + '</loc></url>'
     ).join('\n');
     return '<?xml version="1.0" encoding="UTF-8"?>\n' +
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls +
@@ -220,6 +221,8 @@ async function buildSite() {
     );
 
 
+    const seo = await import('../site/seo.mjs');
+    const environment = seo.buildEnvironment();
     const home = fs.readFileSync(path.join(siteRoot, 'pages/home.html'), 'utf8').replace('{{journal}}', journal());
     const prototypePages = [
         {
@@ -244,6 +247,9 @@ async function buildSite() {
         release: routesModule.releaseConfig,
     });
 
+    manifest.environment = environment;
+    manifest.siteOrigin = routesModule.releaseConfig.siteOrigin;
+    manifest.routes = manifest.routes.map(route=>seo.effectivePolicy(route,environment));
     const pages = new Map();
     const addPage = page => {
         if (pages.has(page.path)) throw new Error('Duplicate static route page: ' + page.path);
@@ -336,14 +342,18 @@ async function buildSite() {
         if (!route) throw new Error('No release manifest entry for page: ' + page.path);
         dictionary.assertPublicationReady(route, release);
         hf07.assertPublicationReady(route);
-        const html = htmlForPage(layout, page, route, header, footer);
+        seo.assertEditorialReady(route);
+        const canonical=seo.canonicalUrl(page.path, release.siteOrigin);
+        const prepared={...seo.withCoreSeo(page),canonical};
+        prepared.structuredData=seo.structuredData(prepared,canonical,release.siteOrigin);
+        const html = htmlForPage(layout, prepared, route, header, footer);
         writeRoutePage(page.path, html);
         generated.push({ path: page.path, html });
     }
 
     // The original Chinese app stays at /zh/ with its relative resources resolving
     // from the site root. The story player and its media keep their legacy URLs.
-    const chineseEntry = makeLegacyChineseEntry();
+    const chineseEntry = makeLegacyChineseEntry().replace('\"url\": \"https://hanzifun.online\"','\"url\": \"'+release.siteOrigin+'/zh/\"').replace('</head>', '<link rel="canonical" href="'+escapeHtml(release.siteOrigin+'/zh/')+'">'+(environment==='production'?'':'<meta name="robots" content="noindex,follow">')+'</head>');
     const zhDestination = path.join(outputRoot, 'zh/index.html');
     fs.mkdirSync(path.dirname(zhDestination), { recursive: true });
     fs.writeFileSync(zhDestination, chineseEntry);
@@ -356,7 +366,11 @@ async function buildSite() {
 
 
     fs.writeFileSync(path.join(outputRoot, 'route-manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
-    fs.writeFileSync(path.join(outputRoot, 'robots.txt'), 'User-agent: *\nAllow: /\n');
+    fs.writeFileSync(path.join(outputRoot, 'robots.txt'), 'User-agent: *\nAllow: /\n'+(environment==='production'?'Sitemap: '+release.siteOrigin+'/sitemap.xml\n':''));
+    fs.writeFileSync(path.join(outputRoot, '_headers'), '/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n'+(environment==='production'?'':'  X-Robots-Tag: noindex, follow\n'));
+    // Candidate-only legacy mappings; production host checks remain HF-17/18.
+    // /story is the Workers Assets normalized address for story.html; preserve its query.
+    fs.writeFileSync(path.join(outputRoot, '_redirects'), '/index.html /zh/ 301\n/legacy/index.html /zh/ 301\n/legacy/story.html /story 301\n');
     fs.writeFileSync(path.join(outputRoot, 'sitemap.xml'), makeSitemap(manifest, release));
 
     const stylesheet = fs.readFileSync(path.join(outputRoot, 'site-assets/site-styles.hf03-v1.css'), 'utf8');
@@ -387,12 +401,16 @@ async function buildSite() {
     if (manifest.prototypePathCount !== 77) throw new Error('The original prototype path count changed.');
     if (fs.existsSync(path.join(outputRoot, 'legacy'))) throw new Error('Do not publish a duplicate /legacy tree.');
 
+    const {validateBuild}=await import('./validate-seo-quality.mjs');
+    const seoReport=validateBuild(outputRoot);
+    if(seoReport.errors.length)throw new Error('SEO quality gate failed:\n'+seoReport.errors.join('\n'));
+
     console.log('Built ' + fileCount + ' public files in ' + path.relative(projectRoot, outputRoot) +
         '/; mapped ' + manifest.prototypePathCount + ' prototype paths and generated ' +
         robotsPages + ' noindex preview pages.');
 }
 
-module.exports = { buildSite };
+module.exports = { buildSite, makeSitemap };
 if (require.main === module) {
     buildSite().catch(error => {
         console.error(error.stack || error);

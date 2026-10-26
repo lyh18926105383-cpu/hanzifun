@@ -1,5 +1,5 @@
 {
-  "releaseId": "hf07-hsk-level-one-and-scenario-preview",
+  "releaseId": "hf08-seo-quality-candidate",
   "prototypePathCount": 77,
   "defaultStatus": "preview",
   "statusPolicies": {
@@ -76,5 +76,10 @@
     "scenarioAudio": "missing",
     "writingScope": "levels-1-2-combined",
     "filterAddressing": "fragment-only; canonical library address"
+  },
+  "hf08": {
+    "buildEnvironment": "HF_SITE_ENV=production|staging|local; default local (noindex). Production must be explicit.",
+    "policy": "effective route policy drives robots, canonical and sitemap; no draft approval inferred",
+    "canonicalParameters": "strip query/fragment; stroke char, pinyin filters, returnTo and practice state never enter sitemap"
   }
 }
