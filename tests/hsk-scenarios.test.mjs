@@ -22,7 +22,7 @@ test('HF07 writing keeps combined 1–2 scope; vocabulary and recognition have d
  const w=membership.filter(m=>m.itemType==='writing-character');assert.equal(w.length,100);assert.ok(w.every(m=>m.level==='1-2'));
  assert.equal(coverage.lists.find(l=>l.system==='hsk-3'&&l.itemType==='vocabulary').uniqueCharacters,248);
  assert.equal(coverage.lists.find(l=>l.itemType==='recognition-character').uniqueCharacters,246);
- const html=hskPages().find(p=>p.path==='/academic/hsk-3/').content;assert.match(html,/not provide a standalone level-1/);assert.match(html,/fragment URL/);
+ const html=hskPages().find(p=>p.path==='/academic/hsk-3/').content;assert.match(html,/not provide a standalone level-1/);assert.match(html,/copying the page address/);
 });
 test('HF07 fixed decks reuse character cards across editions and preserve four legacy sets',()=>{
  const lib=learningData();assert.equal(new Set(lib.catalog.map(c=>c.cardId)).size,lib.catalog.length);
@@ -39,12 +39,12 @@ test('HF07 source completeness does not open unaccepted dictionary or scenario p
  const old=scenarioData.review.humanAcceptance;try{scenarioData.review.humanAcceptance='pending';assert.throws(()=>assertPublicationReady({path:'/scenarios/travel/restaurant/',indexing:'index'}),/pending/);}finally{scenarioData.review.humanAcceptance=old;}
  assert.doesNotThrow(()=>assertPublicationReady({path:'/scenarios/travel/restaurant/',indexing:'index'}));
  if(resolveRoutePolicy('/dictionary/您/').indexing==='index')assert.ok(characterReviewState('char:60a8').accepted);
- for(const p of additionalCharacterPages()){const c=lexicon.characters.find(c=>p.path==='/dictionary/'+c.glyph+'/');assert.match(p.content,characterReviewState(c.characterId).accepted?/Human-reviewed Tier 2/:/not yet an accepted Tier 2/);assert.match(p.content,/listening review pending/);assert.doesNotMatch(p.content,/<audio|speechSynthesis/);}
+ for(const p of additionalCharacterPages()){assert.match(p.content,/data-hf-practice/);assert.doesNotMatch(p.content,/Tier [12]|pending|unavailable|stable ID|<audio|speechSynthesis/i);}
 });
 test('HF07 phrase boundaries retain full context and real links for every sentence token',()=>{
  const pages=scenarioPages().filter(p=>p.path.endsWith('restaurant/')||p.path.endsWith('icebreakers/'));
  assert.equal(pages.length,2);
- for(const p of pages){assert.equal((p.content.match(/class="hf07-sentence"/g)||[]).length,3);assert.equal((p.content.match(/disabled aria-describedby="audio-/g)||[]).length,3);assert.match(p.content,/data-token-add/);assert.match(p.content,/returnTo=/);assert.doesNotMatch(p.content,/data-word-reveal|speechSynthesis/);}
+ for(const p of pages){assert.equal((p.content.match(/class="hf07-sentence"/g)||[]).length,3);assert.doesNotMatch(p.content,/Play sentence|Audio unavailable|listening review|Codex/i);assert.match(p.content,/data-token-add/);assert.match(p.content,/returnTo=/);assert.doesNotMatch(p.content,/data-word-reveal|speechSynthesis/);}
 });
 test('HF07 supplemental readings keep separate polyphones and traditional forms with provenance',()=>{
  const x=lexicon.characters.find(c=>c.glyph==='长');assert.ok(x.readingId.length>1);

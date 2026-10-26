@@ -10,7 +10,7 @@ const {makeSitemap}=createRequire(import.meta.url)('../scripts/build-site.js');
 import {parse} from 'parse5';
 import {coreSeo,withCoreSeo,safeJsonLd,structuredData,effectivePolicy,canonicalUrl,buildEnvironment,assertEditorialReady} from '../site/seo.mjs';
 import {releaseConfig,resolveRoutePolicy} from '../site/routes.mjs';
-import {validatePage,validateJsonLd,validateBuild} from '../scripts/validate-seo-quality.mjs';
+import {validatePage,validateJsonLd,validateBuild,assertLearnerCopy} from '../scripts/validate-seo-quality.mjs';
 const origin=releaseConfig.siteOrigin,routePath='/dictionary/水/',route={path:routePath,...resolveRoutePolicy(routePath)};
 function fixture(){const seo=coreSeo(routePath),canonical=canonicalUrl(routePath,origin);return `<html lang="en"><head><title>${seo.title} · HanziFun</title><meta name="description" content="Water entry"><meta name="robots" content="${route.robots}"><link rel="canonical" href="${canonical}">${structuredData({path:routePath,title:seo.title,description:'Water entry'},canonical,origin)}</head><body><main><h1>${seo.h1}</h1><p data-seo-lead>${seo.lead.replaceAll('"','&quot;')}</p></main></body></html>`;}
 const verify=html=>validatePage(html,route,{origin});
@@ -23,6 +23,16 @@ test('Three Kings reject duplicated/missing headings, banner paragraphs and stal
  assert.throws(()=>verify(fixture().replace('<p data-seo-lead>','<p data-seo-lead hidden>')),/visible/);
  assert.throws(()=>verify(fixture().replace(coreSeo(routePath).title,'Welcome')),/Core keyword/);
  const titles=new Map([[coreSeo(routePath).title+' · HanziFun','/other/']]);assert.throws(()=>validatePage(fixture(),route,{origin,titles}),/Duplicate title/);
+});
+test('learner-copy gate rejects pipeline text in body and collapsed details, while allowing machine metadata',()=>{
+ for(const phrase of ['Human-reviewed Tier 2','review pending','Audio unavailable','Codex quick review','stable ID','char:6c34','sense_id','HF-04 batch','source row: 42','待审核']) {
+  assert.throws(()=>assertLearnerCopy(parse(`<body><main><details><summary>Definitions</summary><p>${phrase}</p></details></main></body>`)),/Internal pipeline text/);
+ }
+ assert.doesNotThrow(()=>assertLearnerCopy(parse('<body><main data-character-id="char:6c34" data-source-locator="row:42"><p>Meanings and definitions</p><script>{"review":"pending"}</script></main></body>')));
+ const muted='<button disabled aria-disabled="true" data-audio-state="muted" aria-label="Pronunciation audio">▶</button>';
+ assert.doesNotThrow(()=>assertLearnerCopy(parse(muted)));
+ assert.throws(()=>assertLearnerCopy(parse(muted.replace(' disabled',''))),/must be disabled/);
+ assert.throws(()=>assertLearnerCopy(parse(muted.replace(' aria-label="Pronunciation audio"',''))),/accessible label/);
 });
 test('core templates share explicit keyword and answer contracts, including supplemental and polyphonic characters',()=>{
  for(const p of ['/','/dictionary/','/dictionary/pinyin/','/stroke-order/','/pinyin-chart/','/academic/','/academic/hsk-2/','/academic/hsk-3/','/scenarios/travel/restaurant/','/scenarios/business/icebreakers/','/dictionary/发/','/dictionary/爱/']){
@@ -70,7 +80,7 @@ test('production and staging builds enforce the exact sitemap set, all JSON-LD b
  const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'hf08-test-'));
  try{for(const environment of ['production','staging']){
   const output=path.join(tmp,environment),build=spawnSync(process.execPath,['scripts/build-site.js'],{cwd:new URL('../',import.meta.url),env:{...process.env,HF_BUILD_OUTPUT_DIR:output,HF_SITE_ENV:environment},encoding:'utf8'});assert.equal(build.status,0,build.stderr);
-  const report=validateBuild(output);assert.deepEqual(report.errors,[]);assert.equal(report.corePages,354);assert.equal(report.sitemap.length,environment==='production'?JSON.parse(fs.readFileSync(path.join(output,'route-manifest.json'))).routes.filter(r=>r.output&&r.indexing==='index').length:0);
+  const report=validateBuild(output);assert.deepEqual(report.errors,[]);assert.equal(report.corePages,354);const manifest=JSON.parse(fs.readFileSync(path.join(output,'route-manifest.json')));assert.equal(manifest.routes.filter(r=>r.output&&r.path!=='/zh/'&&r.indexing==='index').length,environment==='production'?141:0);assert.equal(manifest.routes.filter(r=>r.output&&r.path!=='/zh/'&&r.indexing==='noindex').length,environment==='production'?260:401);assert.equal(report.sitemap.length,environment==='production'?JSON.parse(fs.readFileSync(path.join(output,'route-manifest.json'))).routes.filter(r=>r.output&&r.indexing==='index').length:0);
   // A wrongly inserted URL or a corrupt JSON-LD block must break the same deployment gate.
   fs.appendFileSync(path.join(output,'sitemap.xml'),'<loc>https://hanzifun.online/search/?q=water</loc>');assert.ok(validateBuild(output).errors.some(e=>e.includes('Sitemap')));
  }}finally{fs.rmSync(tmp,{recursive:true,force:true});}

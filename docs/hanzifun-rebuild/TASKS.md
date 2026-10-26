@@ -176,3 +176,13 @@ localStorage 确定性 Repository、特性检测/共享写者协调/乐观校验
 - [x] HF-03/06/08：闪卡工具栏 Learning History SVG 胶囊，以及共享桌面/移动导航 My Progress → `/account/`。
 - [x] 中文首页/故事播放器头部 English 返回 `/`；只修改导航及样式，不变更课程内容或视听资源。
 - 验证：`npm test` 138/138；`npm run build:site` 更新主目录 dist（1546文件）；Chrome 闪卡回归、实际页面六档宽度及 HF-08 质量检查通过。原人工发布门槛保持 pending。详情见 PROGRESS 记录 11。
+
+## HF-08 学习者正文清理（2026-10-26）
+
+- [x] 字典/补充字/HSK/拼音/场景和共享正文移除管线审核、分级、缺音长句及可见调试定位。
+- [x] 缺音静默降级，自动门控与原测试同步；139/139测试通过，生产141 index / 260 noindex及354核心页SEO结构保持。
+- [x] 底层schema、审核输入和release索引策略不变；未改用户未跟踪文件。
+- [ ] 本轮浏览器复验受环境限制：本地监听EPERM且Chrome工具不可用，留待可用环境补测。
+- 审计、文件范围与验证边界见 [正文清理验证](HF-08-LEARNER-COPY-VERIFICATION.md)。
+
+- [ ] Git提交受环境阻断：`.git/index.lock` 写入报 Operation not permitted，改动保留main工作目录，尚未提交。

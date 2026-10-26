@@ -166,3 +166,13 @@
 - **验证**：production构建1546文件；npm test **138/138**；SEO PASS；严格`validate-mvp-gate --browser --require-human`退出0，工程/完整候选均PASS、人工阻断0；四构建确定性、数据/HSK、18项Workers及完整Chrome/八课回归全部通过。production **141可索引页面／141 Sitemap URL**，staging/local为空；私有功能页仍noindex。输入SHA-256 `2c4db69d5f2ca25ffd3d4a7f953850267f46d4424c658f1eb2eb521a2dd770cb`。
 - **遗留/诚实边界**：213补充字教学编辑实际仍为空，继续预览并移交HF-14；物理缺音保留missing/按钮禁用。负责人签字依据及未提供详细设备版本的证据限制明确记录，不伪造Codex独立人工观测。现存localStorage容量/冷加载与线上性能边界不变。HF-02/04/07/08/09挂起人工验收正式关闭，Completed/PASS仅适用于本次签发范围；不代表远端已上线。
 - **下一个Agent精确切入点**：先读本记录、TASKS、`acceptance/phase-1.md`及`phase-1-signoff.md`，再执行HF-17发布/回滚准备，后续HF-18实际部署/生产冒烟；保持本release索引范围，补充字必须先完成Tier2再哈希签发，不能为放行盲改审批hash。
+
+### [记录 13] - HF-08 学习者HTML与审核管线解耦（By Codex，2026-10-26）
+
+- **范围**：指定主目录main。清理核心/补充字、HSK、场景、拼音表、首页FAQ、学习入口与共享页脚的审核/分级/缺音正文；保留来源许可、简繁语境及联合书写范围。缺音字页/场景省略按钮，拼音表1323个控件使用禁用图标。
+- **修改文件**：`site/pages/{dictionary,hsk,scenarios,pinyin-chart,learning,route-stubs}.mjs`、`site/pages/home.html`、`site/site.mjs`；`src/client/{dictionary,learning-entry,audio-player}.mjs`；`scripts/{validate-seo-quality,verify-mvp-browser}.mjs`；`tests/{dictionary,hsk-scenarios,mvp-gate,seo-quality}.test.mjs`；新增 `docs/hanzifun-rebuild/HF-08-LEARNER-COPY-VERIFICATION.md`，更新TASKS和本日志。
+- **验证**：139/139测试通过；生产隔离构建1546文件、401英文页（141 index / 260 noindex）、141 Sitemap URL、354核心页“三个国王”及402 JSON-LD通过。新增构建正文门控覆盖折叠内容且允许机器属性，反例覆盖审核词、char键/稳定ID、行号和缺音控件语义。数据、审核输入、release.json、原发布门控及SEO数据契约未修改；107旧录音仍无批准可播绑定。未改未跟踪个人文件、既有dist、课程/媒体、部署或Phase3。
+- **遗留问题**：既有浏览器回归因 `listen EPERM 127.0.0.1` 启动失败，备用Chrome工具不可用；本轮不宣称浏览器交互/axe/布局/性能通过。详见正文清理验证。
+- **下一个Agent精确切入点**：在可连接Chrome且允许本地监听的环境，以本轮代码重新构建production，运行 `verify-quality-browser.mjs`（输出隔离到临时目录）；抽查发/长多音、拼音筛选及禁用图标、两场景练习，再按HF-17/18流程部署。不要修改release或伪造音频批准来消除正文提示。
+
+- **提交阻断**：按显式文件白名单执行git add失败：`.git/index.lock: Operation not permitted`（当前.git只读）。本轮改动未暂存、未生成提交；后续具备写权限时仅提交上述20个文件，不加入原有个人未跟踪文件。

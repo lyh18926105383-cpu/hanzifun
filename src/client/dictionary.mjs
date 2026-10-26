@@ -78,7 +78,7 @@ if(pinyinForm){
       const match=(!query||normalizeQuery(detail.dataset.syllable)===query)&&(!pinyinForm.elements.initial.value||pinyinForm.elements.initial.value===detail.dataset.initial)&&(!pinyinForm.elements.final.value||pinyinForm.elements.final.value===detail.dataset.final);
       detail.hidden=!match;if(match)count++;
     });
-    document.querySelector('[data-pinyin-count]').textContent=`${count} syllables match. Tone candidates still await teaching review.`;
+    document.querySelector('[data-pinyin-count]').textContent=`${count} syllables match. Explore their tones and example characters.`;
   };
   pinyinForm.addEventListener('submit',event=>{event.preventDefault();filter();});
   pinyinForm.addEventListener('input',filter);pinyinForm.addEventListener('change',filter);

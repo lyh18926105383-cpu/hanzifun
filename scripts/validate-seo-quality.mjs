@@ -45,6 +45,23 @@ export function validateJsonLd(document,expectedCanonical) {
  }
  return count;
 }
+// Inspect text nodes, including collapsed details and alternate readings. Attributes,
+// scripts and styles carry machine data and are deliberately outside this contract.
+export function learnerText(node) {
+ if (['script','style','template'].includes(node.tagName)) return '';
+ return node.nodeName==='#text' ? node.value : (node.childNodes||[]).map(learnerText).join(' ');
+}
+export function assertLearnerCopy(document) {
+ const body=nodes(document).find(n=>n.tagName==='body')||document;
+ const copy=learnerText(body).replace(/\s+/g,' ');
+ const internal=/\b(?:tier\s+[12]|human[- ]reviewed|human acceptance|human teaching acceptance|human language acceptance|Codex|quick review|listening review|sign[- ]off|signed off|pending|unavailable|unverified|todo|coming soon|stable ID|sense_id)\b|char:[0-9a-f]+|待审核|未完成|\b(?:teaching|template|editorial|memory) drafts?\b|\bHF-\d+\s+batch\b|\b(?:source\s+)?(?:row|page)\s*[:#]\s*\d+/i;
+ const found=copy.match(internal);
+ requireValue(!found,'Internal pipeline text in learner HTML: '+found?.[0]);
+ for(const button of nodes(body).filter(n=>n.tagName==='button'&&attr(n,'data-audio-state')==='muted')) {
+  requireValue(attr(button,'disabled')!==undefined&&attr(button,'aria-disabled')==='true','Muted audio must be disabled');
+  requireValue(!!attr(button,'aria-label'),'Muted audio needs an accessible label');
+ }
+}
 export function validatePage(html,route,{origin,environment='production',titles=new Map()}={}) {
  const document=parse(html),all=nodes(document),head=all.find(n=>n.tagName==='head'),main=all.filter(n=>n.tagName==='main');
  equal(main.length,1,'Exactly one main required');const h1=nodes(main[0]).filter(n=>n.tagName==='h1');equal(h1.length,1,'Exactly one H1 inside main');equal(all.filter(n=>n.tagName==='h1').length,1,'No H1 outside main');
@@ -66,6 +83,7 @@ export function validatePage(html,route,{origin,environment='production',titles=
  }
  equal(attr(all.find(n=>n.tagName==='html'),'lang'),'en','English template language');
  requireValue(!all.some(n=>attr(n,'hreflang')),'No unverified translation alternates');
+ assertLearnerCopy(document);
  const jsonLd=validateJsonLd(document,canonical);requireValue(jsonLd>0,'Structured data required');
  if(route.path==='/'){
   const faq=all.find(n=>attr(n,'id')==='faq'),questions=nodes(faq).filter(n=>n.tagName==='details');equal(questions.length,6,'Six static FAQs');

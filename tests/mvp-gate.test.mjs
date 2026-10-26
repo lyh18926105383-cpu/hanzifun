@@ -31,7 +31,7 @@ test('HF09 supplement approval drives real renderer and publication gate without
  try{
   reviewInputs.supplementalTeaching.entries.push({characterId:id,readingId:c.primaryReadingId,meaning:'love',word:'爱好',wordPinyin:'àihào',wordMeaning:'hobby',sentence:'我爱妈妈。',pinyin:'Wǒ ài māma.',translation:'I love Mum.',mnemonic:'Imagine caring for someone.',reviewStatus:'human-reviewed'});
   reviewInputs.reviews.characters[id]=approve(id);assert.doesNotThrow(()=>hskPublication({path:'/dictionary/爱/',indexing:'index'}));
-  const html=additionalCharacterPages().find(p=>p.path==='/dictionary/爱/').content;assert.match(html,/Human-reviewed Tier 2/);assert.match(html,/I love Mum/);assert.doesNotMatch(html,/not yet an accepted Tier 2/);
+  const html=additionalCharacterPages().find(p=>p.path==='/dictionary/爱/').content;assert.doesNotMatch(html,/Human-reviewed Tier 2|pending|unavailable|stable ID/i);assert.match(html,/I love Mum/);assert.doesNotMatch(html,/not yet an accepted Tier 2/);
   const other=reviewInputs.supplemental.characters.find(c=>c.characterId!==id&&!characterReviewState(c.characterId).accepted);if(other)assert.throws(()=>hskPublication({path:'/dictionary/'+other.glyph+'/',indexing:'index'}),/pending/);
  }finally{reviewInputs.reviews.characters[id]=old;reviewInputs.supplementalTeaching.entries.pop();}
 });

@@ -34,7 +34,7 @@ try{
  await p.goto(origin+'/pinyin-chart/');assert.equal(await p.locator('details[id^=syllable-]').count(),410);
  const shui=p.locator('[id="syllable-shui"]');await shui.locator('summary').click();assert.ok(await shui.getByRole('button').first().isDisabled());
  await shui.locator('a[href="/dictionary/水/"]').first().click();assert.match(decodeURI(new URL(p.url()).pathname),/水/);
- report.checks.push('Pinyin shui → explicit unavailable audio → 水 detail; 410 static syllables');
+ report.checks.push('Pinyin shui → disabled audio icon → 水 detail; 410 static syllables');
  // Genuine file export on one origin and user-file preview/confirm on a second origin.
  await p.goto(origin+'/account/');await p.getByRole('button',{name:'Preview old records in this browser',exact:true}).waitFor();
  const raws=[JSON.stringify({version:1,sessions:[],characters:{'睛':{seenCount:2,familiarCount:1,unfamiliarCount:1,needsReview:true},'龘':{seenCount:1,familiarCount:0,unfamiliarCount:1}}}),JSON.stringify({sessions:[{lessonId:'unknown-lesson',completedAt:1,quizCorrect:1,quizTotal:2}]}),JSON.stringify({version:1,characters:{'水':{known:true,attempts:1}},saved:['水'],sessions:[]})];

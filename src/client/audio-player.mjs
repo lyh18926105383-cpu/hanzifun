@@ -6,9 +6,9 @@ export function createAudioPlayer(makeAudio = url => new Audio(url)) {
   let active=null;
   const stop=()=>{if(active){active.pause();active.currentTime=0;active=null;}};
   return {stop, async play(record,readingId,onError=()=>{}) {
-    stop();if(!approvedAudio(record,readingId)){onError('Recording review pending');return false;}
+    stop();if(!approvedAudio(record,readingId)){onError('Choose another recording.');return false;}
     const player=makeAudio('/'+record.url.replace(/^\//,''));active=player;
-    player.onerror=()=>{if(active===player){stop();onError('Audio unavailable. Pinyin remains readable.');}};
-    try{await player.play();return active===player;}catch{if(active===player)stop();onError('Audio unavailable. Pinyin remains readable.');return false;}
+    player.onerror=()=>{if(active===player){stop();onError('Try playing again. Pinyin remains readable.');}};
+    try{await player.play();return active===player;}catch{if(active===player)stop();onError('Try playing again. Pinyin remains readable.');return false;}
   }};
 }
