@@ -298,7 +298,7 @@ Phase 2 / HF-14：第一批优先把两版本扩至 **2 级**，随后按级扩�
 <a id="req-10"></a>
 ## 11. REQ-10｜游客记录与学习中心
 
-建议以 IndexedDB 事务存储新版 `hanzifun.learning.v2` 数据库；localStorage 只放小型偏好及旧键。HF-06 提供 Repository 接口，使闪卡无需知道本机/账号实现。
+2026-10-25/26 用户决定：Phase 1 采用 Repository 契约的 localStorage 单键确定性快照 `hanzifun.guest.snapshot.v1`，不在 HF-06 引入 IndexedDB。旧键只读导入；`hanzifun.learning.v2` IndexedDB 仍为后续阶段规划。HF-06 提供 Repository 接口，使闪卡无需知道本机/账号实现。容量满额须显式失败并提供导出，不能截断历史或声称无限持久容量。
 
 一次评价以同一事务写 event、进度投影、会话游标。成功落盘后显示“已保存在此设备”；失败时显示“暂未保存”并保留内存状态、重试/导出入口，不能悄悄报成功。多标签页通过事务及 revision 检测防重复，不能用两份整库快照互相覆盖。新版本/损坏数据进入只读恢复或导出，不自动删除。
 

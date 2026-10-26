@@ -2,8 +2,8 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 1：主站上线（基线整合、126 字字典及 Information、独立笔顺页与拼音表、本机闪卡、两场景、两版 HSK 1 级）
-- **当前执行任务**：HF-05 独立引擎/组件验收完成；下一步 HF-06 本机持久化与真实学习联调。HF-02/04 人工内容/拼音/音频验收仍待关闭。
-- **状态**：HF-01、HF-03、HF-05（独立范围）已完成；HF-02 与 HF-04 均保留人工验收缺口。用户 2026-10-25 明确授权 HF-04 按缺项安全降级/noindex 预览实施，工程交付不等于前置人工验收通过；精确接续见记录 05。
+- **当前执行任务**：HF-06 本机持久化与真实学习闭环完成；下一步 HF-07/HF-08。HF-02/04 人工内容/拼音/音频验收仍待关闭。
+- **状态**：HF-01、HF-03、HF-05（独立范围）、HF-06 已完成；HF-02 与 HF-04 均保留人工验收缺口。用户 2026-10-25 明确授权 HF-04 按缺项安全降级/noindex 预览实施，工程交付不等于前置人工验收通过；精确接续见记录 05。
 
 ---
 
@@ -102,3 +102,12 @@
 - **验证**：`npm test` **98/98**，原77+新增21；覆盖到期前后一毫秒/阶段/额度/时区DST/回拨/UUID与评价槽位幂等/120次性质检查/组件提交与焦点/模拟旧标签页revision冲突。隔离构建880文件、77原型路径、181 noindex页且测试夹具未发布。真实Chrome155隔离夹具完成键盘、暂停刷新恢复、失败重试、完成刷新去重及360/390/768/1100/1440无横向溢出。源码指纹、命令及精确范围见HF-05-VERIFICATION。
 - **遗留与边界**：HF-06真实localStorage、旧记录迁移、隐私窗口与跨标签页写锁尚未实现/验收；浏览器夹具用专用sessionStorage及合成内容，不能冒充真实学习闭环。IANA额度账本固定首次排程时区，暂不提供额度时区迁移；立即再看只追加未结束会话，结束重练由宿主新建free会话。HF-02/04人工/音频缺口不变；未测Safari/Firefox/真机/真实屏幕阅读器。
 - **下一个 Agent 精确切入点**：先读本记录、TASKS及当前指定任务，再读 `HF-05-INTEGRATION.md`。按用户决定优先遵循repository-interface.md用localStorage单键确定性快照；保留旧hanzifun.learning.v1只读原文与导入批次，隐私模式失败明确未保存。封装commit事务（event+projection+cursor），检查日志head/length与session revision、相同事务重试优先ack，写锁防跨标签页覆盖。接HF-04 `window.HanziFunLearningAdapter` 的saveCharacter/startCharacterPractice，成功保存初始快照才返回started；真实四组卡和字典入口完成落盘/续练验收后再关闭HF-04学习联调缺口。
+
+### [记录 07] - HF-06 本机学习持久化与字典闭环完成 (By Codex, 2026-10-26)
+- **工作目录/分支**：Desktop 指定主目录 main，实施前 HEAD `f9815c20`；所有源码直接落盘主目录，临时目录仅构建产物/下载/验证证据。保留原有未跟踪用户文件与原 dist。
+- **交付**：新 guest 单键确定性快照、逐次事件/投影/游标保存、丢失回执幂等 ack、UUID/revision/设备序号保护；Web Locks 特性检测，共享 bakery 标记让无锁/受限/混合能力标签继续安全协作，CAS以候选原文为基准，写后核验，残留标记显式恢复。旧v1/prototype只读，三源预览/原文hash批次/重复无新增、独立故事历史、不补造事件/阶段；备份/失败pending/临时free事件恢复。真实四组、字典选readingId、收藏/取消、到期/薄弱字/导入字、概览最近8轮分页、冻结会话续练与免费重练接通。
+- **新增文件**：`src/learning/{repository,legacy-import,write-lock,identity}.mjs`、`src/client/guest-learning.mjs`、`site/learning-data.mjs`、`site/pages/learning.mjs`、`tests/guest-learning.test.mjs`、`scripts/{verify-guest-browser,benchmark-guest-learning}.mjs`、`HF-06-VERIFICATION.md` 与 `evidence/hf06/`（文档/证据位于本目录）。
+- **修改文件**：`src/learning/events.mjs`（保持语义的批量重放性能改进）、`src/client/{flashcards.mjs,dictionary.mjs,site-preview.js}`（移除活动英文站的原型存储处理）、`site/layouts/base.html`、`site/pages/dictionary.mjs`、`site/public/site-styles.css`、`scripts/build-site.js`；本日志、TASKS、HF-06任务、SPEC/Repository契约中的本包存储决定。
+- **验证**：`npm test` **112/112**（原98+新增14）；公开隔离构建891文件、77原型路径、181 noindex页，全部资源引用检查通过。真实 Chrome155在有锁、无锁及混合能力下验证双标签竞争、陈旧写入拒绝、刷新/关页续练、四组真实卡、字典again十分钟到期、原键不变的三源重复导入和备份往返、存储拒绝/实际配额满/释放重试、临时free导出恢复与已载会话断网；5档宽度无横向溢出，截图实际查看。最终收据/指纹见HF-06-VERIFICATION。
+- **明确边界**：合成1000卡/10000事件快照11.39MB，内存Storage测CPU/往返，不冒充localStorage足够容量；真实满额时明确未保存、保留pending/导出，不静默截断日志。合作式协调不是数据库原子CAS；暂停/崩溃残留标记不自动抢占，关闭其他标签后显式恢复。备份恢复需空guest仓储；跨origin需文件搬运。未测Safari/Firefox/真实旧WebView/真机/系统级隐私策略；HF-02/04人工与音频缺口不变，未改故事内容或验收故事视听、未部署或引入Phase3功能。
+- **下一个 Agent 精确切入点**：读取本记录、TASKS与用户指定的HF-07或HF-08单个任务。持久化 API/键/容量/故障语义读contracts/repository-interface.md与HF-06-VERIFICATION；真实卡数据入口site/learning-data.mjs，宿主src/client/guest-learning.mjs。HF-04学习联调已关闭，但人工签字需从data/editorial与原问题报告继续，不能因工程闭环完成而关闭人工缺口。

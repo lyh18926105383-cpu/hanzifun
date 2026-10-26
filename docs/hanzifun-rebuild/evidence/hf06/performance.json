@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-26",
+  "node": "v24.14.0",
+  "cards": 1000,
+  "events": 10000,
+  "sessions": 1000,
+  "bytes": 11392070,
+  "replayMs": 634.019042,
+  "coldLoadMs": 867.543042,
+  "dashboardMs": 39.171957999999904,
+  "roundTripMs": 959.4904590000001,
+  "scope": "Synthetic catalog and in-memory Storage measure CPU/recovery semantics. This snapshot exceeds typical localStorage capacity; actual quota failures are tested separately in Chrome. No claim of durable 10000-event capacity."
+}

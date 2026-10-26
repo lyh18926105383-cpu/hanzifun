@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-26",
+  "browser": "155.0.8059.85",
+  "origin": "http://127.0.0.1:53624",
+  "publicBuild": "/private/tmp/hf06-build-hanzifun",
+  "checks": [
+    "web-locks: dictionary save → practice → again → reload completion once",
+    "web-locks: real due route after ten minutes",
+    "web-locks: stale-tab conflict, frozen face/cursor reload",
+    "web-locks: 24 competing favorite writes retained across two tabs",
+    "web-locks: close/reopen resumes persisted session",
+    "mixed-capability tabs share coordination; old WebView UUID fallback saves normally",
+    "fallback: dictionary save → practice → again → reload completion once",
+    "fallback: real due route after ten minutes",
+    "fallback: stale-tab conflict, frozen face/cursor reload",
+    "fallback: 24 competing favorite writes retained across two tabs",
+    "fallback: close/reopen resumes persisted session",
+    "all four real decks: one rating, pause/reload/resume, original queue preserved",
+    "three legacy sources: preview/confirm, duplicate import, original keys unchanged, backup download/clear cancel/restore",
+    "SecurityError: no false ack, temporary practice rates, exports and restores real free events",
+    "QuotaExceededError: no false ack, temporary practice rates, exports and restores real free events",
+    "actual localStorage quota filled: explicit failure, free space, retry; loaded current session still saves offline",
+    "isolated incognito context: normal storage works, reload supported",
+    "restricted Web Locks request rejects: fallback still saves"
+  ],
+  "results": {
+    "web-locks": {
+      "events": 4,
+      "favorites": 25
+    },
+    "fallback": {
+      "events": 4,
+      "favorites": 25
+    },
+    "widths": [
+      360,
+      390,
+      768,
+      1100,
+      1440
+    ],
+    "capacity": {
+      "large": 10,
+      "small": 504
+    }
+  },
+  "errors": []
+}

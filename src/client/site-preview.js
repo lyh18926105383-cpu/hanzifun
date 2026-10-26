@@ -8,43 +8,6 @@
   const charLink=char=>'/dictionary/'+encodeURIComponent(char)+'/';
   const normalize=value=>String(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[-–—]/g,' ').trim();
   const params=new URLSearchParams(location.search);
-  const storageKey='hanzifun.prototype.learning.v1';
-  const validChars=new Set(data.characters.map(c=>c.char));
-  const emptyLearning=()=>({version:1,characters:{},saved:[],sessions:[]});
-  const loadLearning=()=>{
-    try{
-      const value=JSON.parse(localStorage.getItem(storageKey));
-      if(!value||value.version!==1||!value.characters||!Array.isArray(value.saved)||!Array.isArray(value.sessions))return emptyLearning();
-      const clean=emptyLearning();
-      for(const [char,record] of Object.entries(value.characters)){
-        if(validChars.has(char)&&record&&typeof record.known==='boolean'&&Number.isFinite(record.attempts)&&record.attempts>=1){
-          clean.characters[char]={known:record.known,attempts:Math.floor(record.attempts),seenAt:typeof record.seenAt==='string'?record.seenAt:''};
-        }
-      }
-      clean.saved=[...new Set(value.saved.filter(c=>validChars.has(c)))];
-      clean.sessions=value.sessions.filter(s=>s&&data.decks.some(d=>d.slug===s.deck)&&Array.isArray(s.chars)&&s.chars.length&&s.chars.every(c=>validChars.has(c))&&Number.isFinite(s.count)&&s.count>0&&Number.isFinite(s.again)&&s.again>=0&&s.again<=s.count&&typeof s.title==='string'&&Number.isFinite(Date.parse(s.finishedAt))).slice(0,30);
-      return clean;
-    }catch{return emptyLearning();}
-  };
-  const learning=loadLearning();
-  let savedOnDevice=true;
-  const saveLearning=()=>{
-    try{localStorage.setItem(storageKey,JSON.stringify(learning));savedOnDevice=true;}
-    catch{savedOnDevice=false;const toast=$('#toast');toast.hidden=false;toast.textContent='This browser cannot save progress right now. You can still practise on this page.';}
-  };
-  const wordCollection=()=>[...new Set([...learning.saved,...Object.keys(learning.characters)])];
-  const wordsToReview=()=>Object.keys(learning.characters).filter(c=>!learning.characters[c].known);
-  const dateLabel=value=>new Date(value).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
-  const learningCards=chars=>'<div class="saved-word-grid">'+chars.map(char=>{
-    const item=data.characters.find(c=>c.char===char),record=learning.characters[char];
-    return '<article class="saved-word"><a href="'+charLink(char)+'"><span lang="zh-CN">'+char+'</span><strong>'+item.pinyin+'</strong><small>'+item.meaning+'</small></a><span class="word-status '+(record?.known?'familiar':'')+'">'+(record?(record.known?'Familiar':'Ready to review'):'Saved · not practised')+'</span><a class="text-link" href="/flashcards/?char='+encodeURIComponent(char)+'">Practise →</a></article>';
-  }).join('')+'</div>';
-  $$('[data-save-char]').forEach(button=>{
-    const char=button.dataset.saveChar;
-    const update=()=>{const saved=wordCollection().includes(char);button.setAttribute('aria-pressed',String(saved));button.textContent=saved?'Saved to my words ✓':'Save to my words';button.disabled=saved;};
-    button.addEventListener('click',()=>{if(!validChars.has(char))return;learning.saved=[...new Set([...learning.saved,char])];saveLearning();update();});
-    update();
-  });
   $('[data-print]')?.addEventListener('click',()=>window.print());
   $('[data-hero-flip]')?.addEventListener('click',event=>{
     const button=event.currentTarget;
@@ -70,74 +33,6 @@
     const reveal=$('[data-word-reveal]',button.closest('.scenario-demo'));
     reveal.innerHTML='<span class="word-char" lang="zh-CN">'+item.char+'</span><div><strong>'+item.pinyin+' · '+item.meaning+'</strong><p>'+(item.char==='请'?'A polite beginning to a request.':'The character for water.')+'</p></div><a href="'+charLink(item.char)+'" aria-label="Explore '+item.char+'">↗</a>';
   }));
-  const practice=$('[data-practice]');
-  if(practice){
-    const selected=data.decks.find(d=>d.slug===practice.dataset.deck)||data.decks[0];
-    const single=data.characters.find(c=>c.char===params.get('char'));
-    const reviewType=params.get('review');
-    const reviewChars=reviewType==='weak'?wordsToReview():reviewType==='saved'?wordCollection():null;
-    if(reviewChars&&!reviewChars.length){
-      practice.innerHTML='<div class="empty-state"><h2>A fresh start.</h2><p>There are no characters in this collection yet.</p><a class="text-link" href="/flashcards/decks/first-six/">Try the starter set →</a></div>';
-      return;
-    }
-    const previousWords=params.has('words')?[...new Set(Array.from(params.get('words')))].filter(c=>validChars.has(c)):null;
-    const original=reviewChars||(previousWords?.length?previousWords:single?[single.char]:selected.chars);
-    const sessionTitle=reviewChars?(reviewType==='weak'?'Another look':'My saved words'):previousWords?.length?'Revisited practice set':single?'Character: '+single.char:selected.title;
-    let queue=[...original],index=0,revealed=false,again=[],sessionSaved=false;
-    const flip=$('[data-practice-flip]',practice),controls=$('.practice-controls',practice),summary=$('[data-summary]',practice),instruction=$('[data-practice-instruction]',practice);
-    const render=()=>{
-      if(index>=queue.length){
-        if(!sessionSaved){
-          learning.sessions.unshift({deck:selected.slug,title:sessionTitle,chars:[...queue],count:queue.length,again:again.length,finishedAt:new Date().toISOString()});
-          learning.sessions=learning.sessions.slice(0,30);
-          saveLearning();sessionSaved=true;
-        }
-        flip.hidden=true;controls.hidden=true;instruction.hidden=true;summary.hidden=false;
-        $('[data-progress]',practice).textContent='Set complete';
-        summary.innerHTML='<p class="eyebrow">A small step forward</p><h2>You met '+queue.length+' character'+(queue.length===1?'':'s')+'.</h2><p>'+again.length+' marked for another look.</p><div class="actions">'+(again.length?'<button class="button" data-review-again>Review these '+again.length+'</button>':'')+'<button class="button button-outline" data-restart>Start again</button></div><p class="muted" style="font-size:12px;margin-top:24px">'+(savedOnDevice?'Saved on this device.':'Progress could not be saved in this browser.')+' <a href="/account/">View my learning →</a></p>';
-        $('[data-review-again]',summary)?.addEventListener('click',()=>{queue=[...again];index=0;again=[];revealed=false;sessionSaved=false;render();flip.focus();});
-        $('[data-restart]',summary).addEventListener('click',()=>{queue=[...original];index=0;again=[];revealed=false;sessionSaved=false;render();flip.focus();});
-        summary.querySelector('button').focus();
-        return;
-      }
-      flip.hidden=false;controls.hidden=false;instruction.hidden=false;summary.hidden=true;
-      const item=data.characters.find(c=>c.char===queue[index]);
-      $('[data-progress]',practice).textContent=(index+1)+' / '+queue.length;
-      flip.setAttribute('aria-pressed',String(revealed));
-      flip.setAttribute('aria-label',revealed?'Show the front of '+item.char:'Reveal the meaning of '+item.char);
-      flip.classList.toggle('has-art',Boolean(item.art&&!revealed));
-      flip.innerHTML=(!revealed&&item.art?'<img class="practice-art" src="/assets/hero.png" alt="">':'')+'<span class="practice-hanzi" lang="zh-CN">'+item.char+'</span>'+
-        (revealed?'<span class="practice-pinyin">'+item.pinyin+' · '+item.meaning+'</span><span class="practice-meaning">'+item.cue+'</span><span class="practice-hint">'+item.example+' — '+item.translation+'</span>':'<span class="practice-hint">Tap to reveal the meaning ⟳</span>');
-      $$('[data-rate]',practice).forEach(button=>button.disabled=!revealed);
-      instruction.textContent=revealed?'How familiar did it feel?':'Try to recall the meaning, then flip the card.';
-    };
-    flip.addEventListener('click',()=>{revealed=!revealed;render();});
-    $$('[data-rate]',practice).forEach(button=>button.addEventListener('click',()=>{
-      if(!revealed)return;
-      if(button.dataset.rate==='again')again.push(queue[index]);
-      const char=queue[index];
-      learning.characters[char]={known:button.dataset.rate==='known',attempts:(learning.characters[char]?.attempts||0)+1,seenAt:new Date().toISOString()};
-      saveLearning();
-      index++;revealed=false;render();
-      if(index<queue.length)flip.focus();
-    }));
-    render();
-  }
-  const dashboard=$('[data-learning-dashboard]');
-  if(dashboard){
-    const studied=Object.keys(learning.characters),weak=wordsToReview(),known=studied.filter(c=>learning.characters[c].known),saved=wordCollection();
-    dashboard.innerHTML='<div class="learning-stats"><article><span class="eyebrow">Characters practised</span><strong>'+studied.length+'</strong><small>'+known.length+' feeling familiar</small></article><article><span class="eyebrow">Ready for another look</span><strong>'+weak.length+'</strong><small>Based on your latest choices</small></article><article><span class="eyebrow">Practice sessions</span><strong>'+learning.sessions.length+'</strong><small>Completed sets · latest 30</small></article></div>'+
-      '<section class="learning-next"><div><p class="eyebrow">Your next small step</p><h2>'+(weak.length?'Make a familiar connection.':'Discover a little more.')+'</h2><p>'+(weak.length?'Return to the characters you marked for another look.':'Begin with a short set. Your choices will build your learning record.')+'</p></div><a class="button" href="'+(weak.length?'/flashcards/?review=weak':'/flashcards/decks/first-six/')+'">'+(weak.length?'Review '+weak.length+' characters':'Try your first set')+' →</a></section>'+
-      '<div class="section-heading learning-heading"><div><p class="eyebrow">Your collection</p><h2>Words to come back to.</h2></div><a class="text-link" href="/flashcards/my-words/">All '+saved.length+' words →</a></div>'+
-      (saved.length?learningCards(saved.slice(0,6)):'<div class="empty-state"><h3>A collection begins with one character.</h3><p>Save a character from the dictionary, or practise a small set.</p><a class="text-link" href="/dictionary/">Explore the dictionary →</a></div>')+
-      '<section class="learning-history"><p class="eyebrow">A record of your practice</p><h2>Recent sessions.</h2>'+
-      (learning.sessions.length?'<ol class="session-list">'+learning.sessions.slice(0,8).map(s=>'<li><div><strong>'+escape(s.title)+'</strong><small>'+escape(dateLabel(s.finishedAt))+'</small></div><p>'+s.count+' practised <span>·</span> '+s.again+' for another look</p><a href="/flashcards/?words='+encodeURIComponent(s.chars.join(''))+'">Revisit set ↗</a></li>').join('')+'</ol>':'<p class="muted">Finish a practice set to see your first session here.</p>')+'</section>';
-  }
-  const myWords=$('[data-my-words]');
-  if(myWords){
-    const saved=wordCollection(),weak=wordsToReview();
-    myWords.innerHTML=saved.length?'<div class="actions" style="margin-bottom:30px"><a class="button" href="/flashcards/?review=saved">Practise all '+saved.length+' words →</a>'+(weak.length?'<a class="button button-outline" href="/flashcards/?review=weak">Review '+weak.length+' less familiar →</a>':'')+'</div>'+learningCards(saved):'<div class="empty-state"><h2>Your collection begins here.</h2><p>Save a character from the dictionary, or practise a set. Both will appear in this collection.</p><a class="text-link" href="/dictionary/">Find your first character →</a></div>';
-  }
   const nameForm=$('[data-name-form]');
   if(nameForm){
     const nameInput=$('[name=name]',nameForm),styleInput=$('[name=style]',nameForm);

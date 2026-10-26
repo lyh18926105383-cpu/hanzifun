@@ -19,7 +19,7 @@ P0 为核心、数据保护与发布关口；P1 为当前阶段主线；P2 为�
 | [HF-03 C 方案框架、七段首页与路由](tasks/HF-03-site-shell.md) ✅已完成（2026-10-25） | P0 | Phase 1 | HF-01 | 七段首页、导航、静态路由/隔离 |
 | [HF-04 真实字典、搜索与视觉笔顺闭环](tasks/HF-04-dictionary.md) 🟡工程交付／待人工与学习联调 | P0 | Phase 1 | HF-02、HF-03 | Tier 2 字页、Tier 1 增强、独立笔顺页与拼音表 |
 | [HF-05 复习调度与闪卡会话组件](tasks/HF-05-review-engine.md) ✅独立验收完成（2026-10-25） | P0 | Phase 1 | HF-01 | interval-v1、会话状态机与组件 |
-| [HF-06 游客持久化、学习中心与旧记录导入](tasks/HF-06-guest-learning.md) | P0 | Phase 1 | HF-03、HF-04、HF-05 | 本机存储、学习中心、无损导入 |
+| [HF-06 游客持久化、学习中心与旧记录导入](tasks/HF-06-guest-learning.md) ✅已完成（2026-10-26） | P0 | Phase 1 | HF-03、HF-04、HF-05 | 本机存储、学习中心、无损导入 |
 | [HF-07 HSK 首级真实字库与两场景连接](tasks/HF-07-hsk-scenarios.md) | P1 | Phase 1 | HF-02、HF-04、HF-06 | 两版 HSK 1 级、餐厅/商务场景 |
 | [HF-08 公开页 SEO、性能与无障碍收口](tasks/HF-08-seo-quality.md) | P0 | Phase 1 | HF-03、HF-04、HF-06 | 按质量放行索引、可见 FAQ、性能/无障碍 |
 | [HF-09 MVP 闭环验收与中文迁移演练](tasks/HF-09-mvp-gate.md) | P0 | Phase 1 发布前 | HF-01、HF-06、HF-07、HF-08 | 首发候选验收，交 HF-17/18 发布 |
@@ -148,3 +148,7 @@ flowchart TD
 ## HF-05 执行状态（2026-10-25）
 
 interval-v1 调度、UTC/IANA 额度、UUID/revision 事件与确定性重放、冻结会话/游标、独立闪卡组件及未保存重试/恢复导出已完成。`npm test` 98/98（原77+新增21）；真实 Chrome 隔离夹具的键盘、焦点、暂停刷新恢复、保存失败与重试、完成刷新去重及五档宽度通过；隔离构建880文件且不发布测试夹具。HF-06 优先按 Repository 契约接 localStorage 确定性快照、旧记录只读导入和隐私模式降级；真实四组卡/字典入口落盘联调仍待 HF-06，不宣称完整学习闭环。见 [HF-05 验收](HF-05-VERIFICATION.md) 与 [接入说明](HF-05-INTEGRATION.md)。
+
+## HF-06 执行状态（2026-10-26）
+
+localStorage 确定性 Repository、特性检测/共享写者协调/乐观校验、四组真实卡与字典 saveCharacter/startCharacterPractice、本机学习概览/收藏/历史分页/续练、三旧源预览去重与导出恢复已交付。`npm test` 112/112；真实 Chrome 有锁/无锁/混合能力双标签、刷新/关页续练、实际配额满/失败重试/临时导出恢复、当前已载会话断网通过。HF-04 学习联调缺口关闭，人工内容/拼音/音频缺口仍保留，release 仍 noindex。大日志测试明确受 localStorage 容量限制，未宣称10000事件可真实落盘。证据与下个切入点见 [HF-06 验收](HF-06-VERIFICATION.md)。

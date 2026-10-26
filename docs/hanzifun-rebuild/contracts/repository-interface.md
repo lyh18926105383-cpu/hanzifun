@@ -1,6 +1,6 @@
 # Repository 接口契约与短 ADR
 
-冻结日期：2026-10-25 · 契约版本 1.0 · 对应 SPEC REQ-04 / REQ-09 / REQ-11。
+冻结日期：2026-10-25 · 契约版本 1.1（HF-06：2026-10-26） · 对应 SPEC REQ-04 / REQ-09 / REQ-11。
 
 ## 1. 短 ADR：目录与构建方案
 
@@ -75,3 +75,13 @@ interface LearningRepository {
 `id、publisher、URL、retrievedAt、version、sha256、licenseId/licenseTextPath（适用时）、rightsStatus、usageScope、decisionBasis、changeNotes`。
 
 主要来源（详见 SOURCES.md）：CC-CEDICT（字/词英义）、Unicode Unihan（码点/部首/笔画）、Hanzi Writer + Make Me a Hanzi（笔顺，Arphic Public License）、《汉语拼音方案》（拼音表）、复用 `tts-v1` 与腾讯云故事静态音频。
+
+## 5. HF-06 已落地扩展（2026-10-26）
+
+实现：`src/learning/repository.mjs`，新键 `hanzifun.guest.snapshot.v1`。`getData/getDashboard/getStatus/exportJSON` 同步读取；所有写入 `start/commit/setFavorite/setSettings/record/importLegacy/restoreBackup/restoreRecovery/clear` 返回 Promise，调用者必须 await 并检查 saved:true。`record` 兼容会话摘要输入并返回 `{data,saved}`，不会凭摘要制造逐次 SRS 评价；正式练习必须逐次使用 commit。clear 保留全部旧键/偏好，UI明确范围且可取消。
+
+commit 输入维持HF-05的events/projection/snapshot/expectedLog/expectedSessionRevision。事件+投影+会话游标同次写入，重复事务优先ack。快照版本、原文、内容ID、日志head/length、会话revision与恢复游标均校验；数据损坏/未知版本只读保全导出，只有明确清理确认才重置。getDashboard把新SRS统计与LegacySnapshot/故事统计分开，最近8条之外仍可分页，不截断事件。
+
+Web Locks 可用则使用，但缺少/受限时不阻断单标签。所有能力路径共用本地bakery写者标记（`hanzifun.guest.lock.*`），配合候选原文比对与写后核验。CAS本身非原子，不能无锁整库互盖；暂停/崩溃标记不自动抢占，UI要求关闭其他学习标签后显式清理标记。精确验证和边界见[HF-06验收](../HF-06-VERIFICATION.md)。
+
+三源导入经预览后确认；sourceKey/sourceOrigin/SHA-256原文hash/schemaVersion去重，旧原文与全部批次保留。同来源/origin新版快照替代显示摘要，不重复加总。32MiB输入上限。guest整库备份恢复要求空新仓储；旧记录批次可与现有数据合并；失败pending需原历史匹配；临时练习导出携带实际生成的free事件，可恢复且不推迟dueAt。新旧域只能文件搬运。localStorage满额明确未保存，保留pending并导出，不默默丢弃历史。

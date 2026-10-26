@@ -3,10 +3,11 @@ import {flip, pause, resume, rate, restoreSession, revisit, summary} from '../le
 // commit({events, projection, snapshot, expectedLog}) must save atomically and
 // deduplicate events/session completion. Both synchronous and async adapters work.
 export function createFlashcardController({session, projection, commit = () => ({saved: false}),
-  clock = Date.now, uuid = () => globalThis.crypto.randomUUID(), deviceId, nextSeq}) {
+  clock = Date.now, uuid = () => globalThis.crypto.randomUUID(), deviceId, nextSeq, temporary = false}) {
   let current = restoreSession(session);
   let progress = structuredClone(projection);
   let pending = null;
+  const temporaryEvents=[];
   let saving = false;
   let saveState = 'idle';
   let error = '';
@@ -18,6 +19,7 @@ export function createFlashcardController({session, projection, commit = () => (
     saving = true; saveState = 'saving'; notify();
     try {
       const result = await commit(structuredClone(pending));
+      if (temporary && result?.temporary === true) {temporaryEvents.push(...structuredClone(pending.events));pending=null;saveState='temporary';error='';return true;}
       if (result?.saved !== true) throw new Error(result?.reason || 'Could not save on this device.');
       pending = null; saveState = 'saved'; error = ''; return true;
     } catch (failure) {
@@ -47,7 +49,7 @@ export function createFlashcardController({session, projection, commit = () => (
       return persist();
     },
     retry: persist,
-    exportState: () => structuredClone({snapshot: current, projection: progress, pending}),
+    exportState: () => structuredClone({snapshot: current, projection: progress, pending, ...(temporary?{temporaryEvents}: {})}),
     // Host persists the initial frozen queue before showing the practice route.
   };
 }
@@ -100,8 +102,8 @@ export function mountFlashcards(root, controller) {
     buttons.pause.hidden = !active; buttons.resume.hidden = s.status !== 'paused';
     for (const name of ['flip', 'pause', 'resume', 'revisit']) buttons[name].disabled = state.blocked;
     buttons.retry.hidden = state.saveState !== 'unsaved'; buttons.retry.disabled = state.saving;
-    exportButton.hidden = state.saveState !== 'unsaved';
-    status.textContent = state.saveState === 'saved' ? 'Saved on this device.' : state.saveState === 'unsaved' ?
+    exportButton.hidden = state.saveState !== 'unsaved' && state.saveState !== 'temporary';
+    status.textContent = state.saveState === 'temporary' ? 'Temporary practice. Not saved; export recovery before closing.' : state.saveState === 'saved' ? 'Saved on this device.' : state.saveState === 'unsaved' ?
       `Not saved. ${state.error}` : state.saving ? 'Saving on this device…' : s.status === 'complete' ?
       'Session complete.' : s.status === 'empty' ? 'No cards are due and no new cards are available.' : 'Ready to practice.';
     const key = `${s.cursor}:${s.face}:${s.status}:${state.saveState === 'unsaved'}`;

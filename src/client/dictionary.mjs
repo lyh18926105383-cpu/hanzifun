@@ -1,3 +1,8 @@
+if(document.querySelector('[data-hf-save], [data-hf-practice]')) {
+  document.querySelectorAll('[data-hf-save], [data-hf-practice]').forEach(b=>b.disabled=true);
+  window.addEventListener('hanzifun-learning-ready',()=>document.querySelectorAll('[data-hf-save], [data-hf-practice]').forEach(b=>b.disabled=false),{once:true});
+  import('./hf06/client/guest-learning.mjs').catch(()=>{document.querySelector('[data-hf-save-status]').textContent='Learning could not load. Reload to retry.';});
+}
 import { normalizeQuery, searchEntries, supportedCharacter } from './search-core.hf04-v1.mjs';
 import { mountStrokePanel } from './stroke-order.hf04-v1.mjs';
 import { saveCharacter, startCharacterPractice } from './learning-entry.hf04-v1.mjs';

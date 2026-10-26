@@ -262,6 +262,14 @@ async function buildSite() {
     for (const name of ['dictionary','search-core','stroke-order','learning-entry','audio-player']) {
         fs.copyFileSync(path.join(projectRoot,'src/client',name+'.mjs'), path.join(outputRoot,'site-assets',name+'.hf04-v1.mjs'));
     }
+    const {learningData} = await import('../site/learning-data.mjs');
+    const {learningPages} = await import('../site/pages/learning.mjs');
+    learningPages().forEach(page => pages.set(page.path, page));
+    writePublic('site-assets/hf06/learning-data.json', learningData());
+    for (const [directory, names] of [
+        ['learning', ['scheduler.mjs','events.mjs','session.mjs','repository.mjs','legacy-import.mjs','write-lock.mjs','identity.mjs']],
+        ['client', ['flashcards.mjs','flashcards.css','guest-learning.mjs']],
+    ]) for (const name of names) writePublic('site-assets/hf06/'+directory+'/'+name, fs.readFileSync(path.join(projectRoot,'src',directory,name),'utf8'));
     const shards = dictionary.searchShards();
     for (const [name, entries] of Object.entries(shards)) writePublic('site-assets/search/'+name+'.hf04-v1.json', entries);
     const library = [

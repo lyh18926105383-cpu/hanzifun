@@ -32,20 +32,19 @@ export function validateEvent(event) {
 }
 
 // Input order is the committed log order, never a sort by an untrusted wall clock.
-export function applyEvent(projection, event) {
+function reduceEvent(next, event, indexes) {
   validateEvent(event);
-  if (projection.schedulerVersion !== VERSION) throw new Error('Unsupported projection version');
-  if (projection.eventIds.includes(event.eventId)) return projection;
-  const next = structuredClone(projection);
-  next.eventIds.push(event.eventId);
+  if (next.schedulerVersion !== VERSION) throw new Error('Unsupported projection version');
+  if (indexes.ids.has(event.eventId)) return next;
+  indexes.ids.add(event.eventId); next.eventIds.push(event.eventId);
   next.lastNow = effectiveClock(event.occurredAt, next.lastNow).now;
   if (event.type === 'session-completed') {
-    if (!next.completions.includes(event.sessionId)) next.completions.push(event.sessionId);
+    if (!indexes.completions.has(event.sessionId)) {indexes.completions.add(event.sessionId);next.completions.push(event.sessionId);}
     return next;
   }
   const key = JSON.stringify([event.sessionId, event.position]);
-  if (next.evaluationKeys.includes(key)) return next;
-  next.evaluationKeys.push(key);
+  if (indexes.keys.has(key)) return next;
+  indexes.keys.add(key);next.evaluationKeys.push(key);
   const previous = next.cards[event.cardId] ?? initialProgress(event.cardId, event.characterId);
   if (previous.characterId !== event.characterId) throw new Error('Card identity changed');
   const quota = quotaAt(next.quota, next.lastNow, event.timeZone);
@@ -60,9 +59,18 @@ export function applyEvent(projection, event) {
   }
   return next;
 }
-
+const indexesFor = p => ({ids:new Set(p.eventIds),keys:new Set(p.evaluationKeys),completions:new Set(p.completions)});
+export function applyEvent(projection, event) {
+  // Preserve the public immutable reducer while bulk replay clones only once.
+  validateEvent(event);
+  if(projection.schedulerVersion!==VERSION)throw new Error('Unsupported projection version');
+  if(projection.eventIds.includes(event.eventId))return projection;
+  return reduceEvent(structuredClone(projection),event,indexesFor(projection));
+}
 export function replay(events, initial = emptyProjection()) {
-  return events.reduce(applyEvent, initial);
+  const next=structuredClone(initial), indexes=indexesFor(next);
+  for(const event of events)reduceEvent(next,event,indexes);
+  return next;
 }
 
 export function dashboard(projection) {
