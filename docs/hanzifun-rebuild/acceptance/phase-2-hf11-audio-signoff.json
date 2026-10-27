@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-27",
+  "reviewer": "Project owner (user)",
+  "status": "approved",
+  "evidence": "Owner Phase 2 closeout instruction: physical-device listening accepted for current 1268 static recordings and Mandarin browser TTS fallback.",
+  "manifestSha256": "58bdd2386b941176c56dbceaf1601a73a0c29acb9d9993b4373a802cbe882aa6",
+  "scope": {
+    "staticRecordings": 1268,
+    "fallbackReadings": 57,
+    "fallbackWordSentenceGroups": 738
+  },
+  "deliveryStrategy": "static-mp3-with-mandarin-device-speech-fallback",
+  "tencentSynthesis": "deferred-by-owner; not a release blocker",
+  "limits": "Owner acceptance of current device listening and fallback experience; does not claim 57 additional MP3 files or exhaustive individual syllable signoff."
+}

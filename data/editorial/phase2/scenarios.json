@@ -1,6 +1,6 @@
 {
   "version": "hf12-scenarios-v1",
-  "review": {"status":"ai-quick-reviewed","reviewer":"Codex","date":"2026-10-27","humanAcceptance":"pending","scope":"Original Chinese phrases, pinyin, translation and token boundaries; no human approval inferred from Phase 1."},
+  "review": {"status":"human-reviewed","reviewer":"Project owner (user)","date":"2026-10-27","humanAcceptance":"approved","contentSha256":"1472b2c4a10d0875bb966b1ccad11dfe62f07c08a41d1ef19dd2563cf7d6788e","evidence":"docs/hanzifun-rebuild/acceptance/phase-2-hf12-language-review.md; Owner explicitly accepted all 15 sentences and physical-device checks in the 2026-10-27 Phase 2 closeout instruction.","scope":"All three scenarios: Chinese, pinyin, English translations, token meanings and context, plus physical-device acceptance."},
   "scenarios": [
     {"id":"airport","path":"/scenarios/travel/airport/","category":"travel","title":"Airport transport in Chinese","context":"Ask about a flight arrival, find a taxi and check a fare. Use these Mandarin phrases when speaking with Chinese-speaking staff or fellow travellers.","sentences":[
       {"id":"arrival","text":"飞机几点到？","pinyin":"Fēijī jǐ diǎn dào?","translation":"What time does the plane arrive?","tokens":[["飞机","fēijī","plane"],["几点","jǐ diǎn","what time"],["到","dào","arrive"]]},

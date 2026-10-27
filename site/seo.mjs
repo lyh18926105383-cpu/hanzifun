@@ -1,7 +1,7 @@
 import {characterReviewState} from './publication-review.mjs';
 // One content contract for core landing templates and one indexing policy for every output.
 import {editorFor, escapeHtml as e} from './dictionary-data.mjs';
-import {findCharacter,findReading,scenarioData} from './hsk-data.mjs';
+import {findCharacter,findReading,scenarioData,assertScenarioAcceptance} from './hsk-data.mjs';
 export const canonicalUrl=(routePath,origin)=>new URL(routePath.split(/[?#]/)[0],origin).href;
 export const privateRoute=p=>/^\/(?:account|search|sign-in|pricing)(?:\/|$)/.test(p)||/^\/flashcards\//.test(p)||p==='/flashcards/'||p==='/404.html';
 export function buildEnvironment(value=process.env.HF_SITE_ENV||'local') {
@@ -17,7 +17,7 @@ export function effectivePolicy(route,environment) {
 }
 export function assertEditorialReady(route) {
  const scenario=scenarioData.scenarios.find(s=>s.path===route.path);
- if(route.indexing==='index'&&scenario&&(scenario.review||scenarioData.review).humanAcceptance!=='approved')throw Error('Scenario human language acceptance pending: '+route.path);
+ if(route.indexing==='index'&&scenario)assertScenarioAcceptance(scenario);
 }
 const fixed={
  '/':{title:'Learn Chinese Characters Visually: Dictionary, HSK & Flashcards',h1:'Learn Chinese Characters Visually',lead:'Learn Chinese characters with a visual dictionary, stroke order, HSK level 1 lists and flashcards that save practice on this device.'},

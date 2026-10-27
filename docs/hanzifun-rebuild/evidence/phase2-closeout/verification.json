@@ -1,0 +1,37 @@
+{
+  "environment": "production",
+  "releaseId": "phase-2-closeout-2026-10-27",
+  "pages": 409,
+  "corePages": 358,
+  "jsonLdBlocks": 410,
+  "englishJsonLdBlocks": 409,
+  "budget": {
+    "jsGzipBytes": 7470,
+    "cssGzipBytes": 12436,
+    "eagerImageBytes": 355447
+  },
+  "errors": [],
+  "sitemapUrlCount": 358,
+  "newScenarioUrls": [
+    "https://hanzifun.online/scenarios/travel/airport/",
+    "https://hanzifun.online/scenarios/travel/hotel/",
+    "https://hanzifun.online/scenarios/travel/supermarket/"
+  ],
+  "validation": {
+    "productionBuild": {
+      "status": "pass",
+      "publicFiles": 2824,
+      "englishPages": 409,
+      "index": 358,
+      "noindex": 51
+    },
+    "npmTest": {
+      "pass": 161,
+      "fail": 0,
+      "skip": 0,
+      "cancelled": 0
+    },
+    "ownerScenarioContentSha256": "1472b2c4a10d0875bb966b1ccad11dfe62f07c08a41d1ef19dd2563cf7d6788e",
+    "productionDeployment": "not executed"
+  }
+}

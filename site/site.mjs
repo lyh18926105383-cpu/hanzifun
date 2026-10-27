@@ -124,7 +124,13 @@ export function renderPages(){
     ])+'<div class="actions" style="margin-top:32px">'+action('/scenarios/travel/restaurant/','Try a simple request')+'</div>','Culture / Menu sample');
   add('/tools/zodiac-elements-calculator/','Stories behind the symbols.','A future guide to the Chinese zodiac, five-element traditions, and the characters within them.',
     note('The calculator is planned. This preview does not calculate a birth sign or make personality predictions.')+
-    tiles([tile('Meet 木','Explore the character for wood, one of the five elements in the traditional system.','/dictionary/木/','Explore 木','木'),tile('Meet 火','Explore the character for fire.','/dictionary/火/','Explore 火','火'),tile('Meet 水','Explore the character for water.','/dictionary/水/','Explore 水','水')]),'Culture / Planned tool');
+    '<div class="five-elements-grid">'+[
+      ['金','jīn','Metal','金 / 钅','钱','money'],
+      ['木','mù','Wood','木','林','woods'],
+      ['水','shuǐ','Water','水 / 氵','清','clear'],
+      ['火','huǒ','Fire','火 / 灬','秋','autumn'],
+      ['土','tǔ','Earth','土','地','ground']
+    ].map(([glyph,pinyin,meaning,component,example,gloss])=>'<article class="tile" data-five-element="'+glyph+'"><span class="tile-glyph" lang="zh-CN">'+glyph+'</span><h2>'+meaning+' · <span lang="zh-CN">'+glyph+'</span></h2><p>'+pinyin+' · '+meaning.toLowerCase()+'</p><p>Component: <span lang="zh-CN">'+component+'</span></p><p>Example: <a class="element-example" href="/dictionary/'+example+'/"><span lang="zh-CN">'+example+'</span> · '+gloss+'</a></p>'+action('/dictionary/'+(['金','土'].includes(glyph)?example:glyph)+'/','Explore '+(['金','土'].includes(glyph)?example:glyph))+'</article>').join('')+'</div>','Culture / Planned tool');
   add('/tools/tattoo-character-checker/','Give a character its full meaning.','A future guide to pronunciation, usage, and context before choosing a written symbol.',
     note('The checking tool is planned. There is no image recognition, translation verification, or personal tattoo recommendation in this preview.')+tiles([tile('Start with context','Explore 安 in a word and a sentence, beyond a one-word translation.','/dictionary/安/','Explore 安','安'),tile('Look more closely','Compare similar shapes and notice their different components.','/dictionary/compare/','Compare characters','休')]),'Culture / Planned guide');
   add('/blog/','A journal for the curious.','Culture, useful moments, and ways to bring Chinese into everyday life.',journal(),'The HanziFun journal');

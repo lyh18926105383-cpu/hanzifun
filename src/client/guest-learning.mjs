@@ -6,8 +6,8 @@ import {emptyProjection} from '../learning/events.mjs';
 import {createFlashcardController, mountFlashcards} from './flashcards.mjs';
 const $=s=>document.querySelector(s);
 const node=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;};
-const link=(label,href)=>{const n=node('a',label);n.href=href;return n;};
-const button=(label,fn)=>{const b=node('button',label);b.type='button';b.addEventListener('click',async()=>{b.disabled=true;try{await fn();}catch(e){status(e.message);}finally{b.disabled=false;}});return b;};
+const link=(label,href)=>{const n=node('a',label);n.href=href;n.className='learning-button';return n;};
+const button=(label,fn)=>{const b=node('button',label);b.type='button';b.className='learning-button';b.addEventListener('click',async()=>{b.disabled=true;try{await fn();}catch(e){status(e.message);}finally{b.disabled=false;}});return b;};
 const status=text=>{const n=$('[data-guest-status]')||$('[data-hf-save-status]');if(n)n.textContent=text;};
 const report=r=>{status(r.saved?'Saved on this device.':'Not saved. '+r.reason);return r.saved;};
 const download=(name,raw)=>{const url=URL.createObjectURL(new Blob([raw],{type:'application/json'}));const a=link('',url);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
@@ -27,7 +27,7 @@ function mount(session,projection,temporary=false) {
   controller=createFlashcardController({session,projection,deviceId,uuid,nextSeq:count=>{const n=sequence;sequence+=count;return n;},
     temporary, commit:temporary?()=>({temporary:true}):t=>repo.commit(t)});
   view=mountFlashcards($('[data-guest-practice]'),controller);
-  const listen=node('button','Listen to character');listen.type='button';listen.dataset.pronunciation='';listen.setAttribute('aria-pressed','false');
+  const listen=node('button','Listen to character');listen.type='button';listen.className='learning-button';listen.dataset.pronunciation='';listen.setAttribute('aria-pressed','false');
   $('[data-guest-practice]').append(listen);let lastCard;
   const audioUpdate=()=>{const state=controller.getState(),s=state.session,card=s.queue[s.cursor]?.card;
     const key=s.status==='active'?card?.cardId:null;
@@ -65,7 +65,7 @@ async function launch(cards,title,{free=false,source='flashcards',navigate=false
 }
 function renderWords(){
   const root=$('[data-guest-words]');if(!root)return;
-  const data=repo.getData(); root.replaceChildren(node('p',`${data.favorites.length} saved characters. Saving and practising are separate.`),link('Practise saved characters','/flashcards/?review=saved'));
+  const data=repo.getData(); root.replaceChildren(node('p',`${data.favorites.length} saved characters`),link('Practise saved characters','/flashcards/?review=saved'));
   const grid=node('div');grid.className='tile-grid';
   for(const id of data.favorites){const c=cardFor(id),tile=node('article');tile.className='tile';tile.append(link(c.front,'/dictionary/'+encodeURIComponent(c.front)+'/'),node('p',c.back),
     link('Practise','/flashcards/?characterId='+encodeURIComponent(id)),button('Remove from saved characters',async()=>{if(report(await repo.setFavorite(id,false)))renderWords();}));grid.append(tile);}
@@ -74,35 +74,54 @@ function renderWords(){
 function renderDashboard(){
   const root=$('[data-guest-dashboard]');if(!root)return;
   const d=repo.getDashboard();root.replaceChildren();
+  const group=(title)=>{const section=node('section');section.className='learning-panel';section.append(node('h2',title));root.append(section);return section;};
+  const actions=(...items)=>{const row=node('div');row.className='learning-actions';row.append(...items);return row;};
   const stats=node('div');stats.className='learning-stats';
   for(const [label,n] of [['Unique characters practised',d.practicedCharacters],['Cards practised',d.practicedCards],['Due cards',d.dueCards],['Saved characters',d.favorites],['Completed sessions',d.completedSessions]]){const t=node('article');t.append(node('h2',label),node('strong',String(n)));stats.append(t);}
-  root.append(stats,node('p','Next due: '+(d.earliestDueAt===null?'None':new Date(d.earliestDueAt).toLocaleString())+'. Familiar does not mean permanently mastered.'),link('Practise due cards','/flashcards/?review=due'),node('h2','Continue practice'));
-  for(const s of d.unfinished)root.append(link((s.title||'Practice')+` · ${s.cursor}/${s.queue.length}`,practiceURL(s.sessionId)),node('br'));
-  root.append(node('h2','Recent sessions'));
-  let page=0;const list=node('ol'),pager=node('div');
+  root.append(stats);
+  const review=group('Ready for review');
+  review.append(node('p',d.earliestDueAt===null?'Start a practice set to build your review routine.':'Next review: '+new Date(d.earliestDueAt).toLocaleString()),
+    actions(link('Practise due cards','/flashcards/?review=due'),link('Review weak characters ('+d.weakCharacters.length+')','/flashcards/?review=weak')));
+  const ongoing=group('Continue practice');
+  if(!d.unfinished.length)ongoing.append(node('p','No unfinished sessions. Choose a set to get started.'));
+  const ongoingList=node('ul');ongoingList.className='learning-session-list';
+  for(const s of d.unfinished){const item=node('li'),copy=node('div');copy.append(node('strong',s.title||'Practice'),node('small',`${s.cursor} of ${s.queue.length} cards completed`));item.append(copy,link('Continue',practiceURL(s.sessionId)));ongoingList.append(item);}
+  if(d.unfinished.length)ongoing.append(ongoingList);
+  const recent=group('Recent sessions');
+  let page=0;const list=node('ol'),pager=node('div');list.className='learning-session-list';pager.className='learning-actions learning-pagination';
   const history=()=>{list.replaceChildren();for(const h of d.history.slice(page*8,page*8+8)){
-    const li=node('li',`${h.title} · ${h.count} practised · ${h.again} again · ${new Date(h.completedAt).toLocaleString()}`);
-    if(repo.getData().sessions[h.id])li.append(link('Open completed session',practiceURL(h.id)));list.append(li);
-  }pager.replaceChildren(node('span',`Page ${page+1} · ${d.history.length} sessions `),button('Previous',()=>{page=Math.max(0,page-1);history();}),button('Next',()=>{if((page+1)*8<d.history.length)page++;history();}));};
-  history();root.append(list,pager,node('h2','Characters for another look'));
-  root.append(link(`${d.weakCharacters.length} unique characters · practise`,'/flashcards/?review=weak'));
-  root.append(node('h2','Legacy records (separate from scheduled practice)'));
-  for(const b of d.legacy){const detail=node('details');detail.append(node('summary',`${b.sourceKey} · ${b.sourceOrigin}: ${b.summary.sessions} retained rounds; ${b.summary.characters} character summaries.`),node('p',b.summary.note),node('p','Unmatched: '+(b.unresolved.join(', ')||'None')));
-    for(const [glyph,stats] of Object.entries(b.characters))detail.append(node('p',glyph+' · '+JSON.stringify(stats)));
-    for(const s of b.sessions)detail.append(node('p',b.story?s.lessonId:(s.results?.map(r=>r.char+' '+(r.status?'familiar':'again')).join(' → ')||s.chars?.join(' → '))+' · '+(s.completedAt?new Date(s.completedAt).toLocaleString():s.finishedAt||'Time unavailable')));root.append(detail);}
-  root.append(link(`${d.legacyPending.length} imported characters awaiting first scheduling`,'/flashcards/?review=imported'),node('h3','Story history'));
-  for(const s of d.storyHistory)root.append(node('p',`${s.lessonId} · ${s.quizCorrect??'?'} / ${s.quizTotal??'?'} · ${s.completedAt?new Date(s.completedAt).toLocaleString():'Time unavailable'}`));
+    const li=node('li'),copy=node('div');copy.append(node('strong',h.title),node('small',`${h.count} practised · ${h.again} to revisit · ${new Date(h.completedAt).toLocaleString()}`));li.append(copy);
+    const session=repo.getData().sessions[h.id];
+    if(session)li.append(actions(link('Open completed session',practiceURL(h.id)),button('Practise again',()=>launch((session.cardIds||session.queue.map(e=>e.card.cardId)).map(id=>library.catalog.find(c=>c.cardId===id)).filter(Boolean),session.title||'Free practice',{free:true,source:'free',navigate:true}))));list.append(li);
+  }
+    const previous=button('Previous',()=>{page=Math.max(0,page-1);history();}),next=button('Next',()=>{if((page+1)*8<d.history.length)page++;history();});
+    previous.disabled=page===0;next.disabled=(page+1)*8>=d.history.length;
+    pager.replaceChildren(node('span',`Page ${page+1} of ${Math.max(1,Math.ceil(d.history.length/8))}`),previous,next);pager.hidden=d.history.length<=8;
+  };
+  history();if(!d.history.length)recent.append(node('p','Your completed practice sessions will appear here.'));recent.append(list,pager);
+  if(d.legacy.length){
+    const legacy=group('Imported learning');legacy.append(node('p','Earlier records are kept separately from your current review schedule.'));
+    if(d.legacyPending.length)legacy.append(link(`Practise imported characters (${d.legacyPending.length})`,'/flashcards/?review=imported'));
+    for(const b of d.legacy){const detail=node('details');detail.className='learning-details';
+      const label=b.story?'Story records':b.sourceKey==='hanzifun.prototype.learning.v1'?'Earlier flashcards':'Earlier character practice';
+      detail.append(node('summary',`${label} · ${b.summary.sessions} sessions · ${b.summary.characters} characters`));
+      for(const [glyph,stats] of Object.entries(b.characters)){const line=node('p');line.append(link(glyph,'/dictionary/'+encodeURIComponent(glyph)+'/'),node('span',`${stats.seenCount??stats.attempts??0} practised · ${stats.familiarCount??0} familiar`));detail.append(line);}
+      if(b.unresolved.length)detail.append(node('p',`${b.unresolved.length} entries are kept in your backup without a character match.`));
+      if(b.story)for(const s of b.sessions)detail.append(node('p',`${s.lessonId.replaceAll('-',' ')} · ${s.quizCorrect??'?'} / ${s.quizTotal??'?'} · ${s.completedAt?new Date(s.completedAt).toLocaleString():'Date unavailable'}`));
+      legacy.append(detail);
+    }
+  }
 }
 function renderSettings(){
   const root=$('[data-guest-settings]');if(!root)return;
-  root.replaceChildren(node('h2','Practice settings'),node('p','New cards per day and cards per session. Due cards do not consume new-card allowance. The quota time zone is fixed at first scheduling; changing display time zone does not reset it.'));
-  const form=node('form');
+  root.replaceChildren(node('h2','Practice settings'),node('p','Choose a comfortable pace. Due reviews do not use your daily new-card allowance.'));
+  const form=node('form');form.className='learning-settings-form';
   for(const [key,label] of [['dailyNew','New cards per day'],['limit','Cards per session']]){const l=node('label',label+' '),s=node('select');s.name=key;for(const n of [5,10,20]){const o=node('option',String(n));o.value=n;s.append(o);}s.value=repo.getData().settings[key];l.append(s);form.append(l);}
   form.append(button('Save settings',async()=>report(await repo.setSettings({dailyNew:Number(form.elements.dailyNew.value),limit:Number(form.elements.limit.value)}))));root.append(form);
 }
 function renderImport(){
   const root=$('[data-guest-import]');if(!root)return;
-  root.replaceChildren(node('h2','Import, export and recovery'),node('p','Records are isolated by origin: '+location.origin+'. Other domains and localhost ports need export/import. Old keys remain unchanged. JSON import limit: 32 MiB.'));
+  root.replaceChildren(node('h2','Import, export and recovery'),node('p','Export a backup to keep your progress or move it to another browser. Import JSON files up to 32 MiB; original records stay unchanged.'));
   const preview=node('div');let pending=[];
   const show=()=>{
     preview.replaceChildren();for(const b of pending)preview.append(node('p',b.kind==='PracticeRecovery'?`Practice recovery: session ${b.snapshot.sessionId}, cursor ${b.snapshot.cursor}. Missing prior events require the full guest backup first.`:b.kind==='HanziFunGuestExport'?`Guest backup: ${b.data.events.length} events. Restore only into an empty repository.`:
@@ -112,7 +131,8 @@ function renderImport(){
       pending=[];show();renderDashboard();renderWords();status('Import saved. Repeating the same batch adds nothing.');
     }),button('Cancel import',()=>{pending=[];show();}));
   };
-  root.append(button('Export all guest data',()=>download('hanzifun-guest.json',repo.exportJSON())),button('Preview old records in this browser',async()=>{
+  const backupActions=node('div');backupActions.className='learning-actions';root.append(backupActions);
+  backupActions.append(button('Export all guest data',()=>download('hanzifun-guest.json',repo.exportJSON())),button('Preview old records in this browser',async()=>{
     pending=[];for(const sourceKey of LEGACY_KEYS){const raw=repoStorage.getItem(sourceKey);if(raw)pending.push(await repo.previewLegacy({raw,sourceKey,sourceOrigin:location.origin}));}
     show();if(!pending.length)status('No legacy records found on this origin.');
   }));
@@ -120,14 +140,16 @@ function renderImport(){
   for(const value of ['Guest backup','Practice recovery',...LEGACY_KEYS]){const o=node('option',value);o.value=value;select.append(o);}sourceLabel.append(select);
   const originLabel=node('label','Original source origin '),originInput=node('input');originInput.type='url';originInput.value=location.origin;originLabel.append(originInput);
   const fileLabel=node('label','Import JSON file '),file=node('input');file.type='file';file.accept='.json,application/json';fileLabel.append(file);
-  root.append(sourceLabel,originLabel,fileLabel,button('Preview selected file',async()=>{
+  const fileForm=node('div');fileForm.className='learning-import-form';root.append(fileForm);
+  fileForm.append(sourceLabel,originLabel,fileLabel,button('Preview selected file',async()=>{
     pending=[];show();const f=file.files[0];if(!f)throw new Error('Choose a JSON file first');if(f.size>MAX_IMPORT_BYTES)throw new Error('File exceeds 32 MiB; original untouched');
     const raw=await f.text();pending=[select.value==='Practice recovery'?await repo.previewRecovery(raw):select.value==='Guest backup'?await repo.previewBackup(raw):await repo.previewLegacy({raw,sourceKey:select.value,sourceOrigin:originInput.value})];show();
   }),preview,button('Clear guest data on this device',async()=>{
     if(!confirm('Clear the NEW guest snapshot, including practice, favorites and imported copies on this origin? Original v1/prototype keys stay unchanged. Export first if needed.'))return;
     if(report(await repo.clear())){renderDashboard();renderWords();renderSettings();}
   }));
-  root.append(button('Recover stale write coordination',()=>{if(!confirm('Close ALL other HanziFun learning tabs first. Reset only coordination markers? Guest records and old keys stay unchanged.'))return;const r=repo.resetWriteCoordination();status(r.reset?'Write markers reset. Retry saving.':'Could not reset markers. '+r.reason);}));
+  const recovery=node('details');recovery.className='learning-details';recovery.append(node('summary','Trouble saving?'),node('p','Close other learning tabs before resetting the save connection. Your records stay unchanged.'),button('Recover stale write coordination',()=>{if(!confirm('Close ALL other HanziFun learning tabs first. Reset only coordination markers? Guest records and old keys stay unchanged.'))return;const r=repo.resetWriteCoordination();status(r.reset?'Write markers reset. Retry saving.':'Could not reset markers. '+r.reason);}));root.append(recovery);
+  const clear=fileForm.querySelector('button:last-child');clear.classList.add('learning-button-danger');
   if(repo.getStatus().error)status('Not saved / recovery required. '+repo.getStatus().error);
 }
 let repoStorage;

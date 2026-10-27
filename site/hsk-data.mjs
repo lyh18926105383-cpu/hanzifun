@@ -1,4 +1,4 @@
-import {assertCharacterPublication,characterReviewState} from './publication-review.mjs';
+import {assertCharacterPublication,characterReviewState,contentHash} from './publication-review.mjs';
 import {readJson,characters as core,readingFor as coreReading,editorFor} from './dictionary-data.mjs';
 import {additionalScenarios,levelTwo} from './phase2-content.mjs';
 export const membership=readJson('data/hsk/membership.json');
@@ -26,6 +26,13 @@ export function hskDecks(primary) {
  decks.push(make('hsk-2-2015-level-2-core','HSK 2.0 · Level 2 · 86 core words',constituentIds(levelTwo.entries),{system:'hsk-2',level:'2',itemType:'vocabulary',contentVersion:levelTwo.version}));
  return decks;
 }
+export function assertScenarioAcceptance(scenario){
+ const review=scenario.review||scenarioData.review;
+ if(review.humanAcceptance!=='approved')throw Error('Scenario human language acceptance pending');
+ if(additionalScenarios.scenarios.some(s=>s.path===scenario.path)&&
+   (review.contentSha256!==contentHash(additionalScenarios.scenarios)||!review.reviewer?.trim()||!review.evidence?.trim()||!/^\d{4}-\d{2}-\d{2}$/.test(review.date||'')))
+  throw Error('Scenario human language acceptance pending: missing or stale independent content signature');
+}
 export function assertPublicationReady(route){
  if(route.indexing!=='index')return;
  if(/^\/dictionary\/[^/]+\/$/.test(route.path)&&lexicon.characters.some(c=>route.path==='/dictionary/'+c.glyph+'/'))assertCharacterPublication(lexicon.characters.find(c=>route.path==='/dictionary/'+c.glyph+'/').characterId);
@@ -34,5 +41,5 @@ export function assertPublicationReady(route){
   if(facts.hsk2.length!==150||facts.hsk3.vocabulary.length!==300||facts.hsk3.recognition.length!==246||facts.hsk3.writing.length!==100||coverage.lists.some(l=>l.mappedCount!==l.sourceCount)||coverage.missing.length)throw Error('Incomplete HSK source mapping');
  }
  const scenario=scenarioData.scenarios.find(s=>s.path===route.path);
- if(scenario&&(scenario.review||scenarioData.review).humanAcceptance!=='approved')throw Error('Scenario human language acceptance pending');
+ if(scenario)assertScenarioAcceptance(scenario);
 }

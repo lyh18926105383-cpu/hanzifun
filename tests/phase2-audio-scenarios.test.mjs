@@ -11,6 +11,9 @@ import {findCharacter,scenarioData,assertPublicationReady} from '../site/hsk-dat
 import {scenarioPages} from '../site/pages/scenarios.mjs';
 import {levelTwoPage} from '../site/pages/hsk.mjs';
 import {learningData} from '../site/learning-data.mjs';
+import {assertEditorialReady} from '../site/seo.mjs';
+import {renderPages} from '../site/site.mjs';
+import {characterReviewState} from '../site/publication-review.mjs';
 import {resolveRoutePolicy} from '../site/routes.mjs';
 import {levelTwoCore} from '../scripts/build-level-two-core.mjs';
 const root=new URL('../',import.meta.url);
@@ -60,7 +63,38 @@ test('HF12 three new scenarios keep token boundaries, complete character links, 
  assert.equal(lib.decks.find(d=>d.slug==='hsk-2-2015-level-2-core').chars.length,new Set(levelTwo.entries.flatMap(w=>[...w.glyph])).size);
  assert.match(phaseTwoLinks('房'),/scenarios\/travel\/hotel/);assert.match(phaseTwoLinks('贵'),/academic\/hsk-2\/level-2\/#item-word:/);
 });
-test('HF12 new scenarios cannot inherit the old human acceptance or enter the sitemap before their own review',()=>{
- assert.equal(scenarioData.review.humanAcceptance,'approved');
- for(const s of additionalScenarios.scenarios){assert.equal(resolveRoutePolicy(s.path).indexing,'noindex');assert.throws(()=>assertPublicationReady({path:s.path,indexing:'index'}),/human language acceptance pending/);}
+test('HF12 owner-approved scenarios publish only with their independent current content signature',()=>{
+ const review=additionalScenarios.review;
+ assert.equal(review.humanAcceptance,'approved');
+ assert.equal(review.contentSha256,createHash('sha256').update(JSON.stringify(additionalScenarios.scenarios)).digest('hex'));
+ for(const s of additionalScenarios.scenarios){
+  assert.equal(resolveRoutePolicy(s.path).indexing,'index');
+  assert.doesNotThrow(()=>assertPublicationReady({path:s.path,indexing:'index'}));
+  assert.doesNotThrow(()=>assertEditorialReady({path:s.path,indexing:'index'}));
+ }
+ const first=additionalScenarios.scenarios[0],original=first.sentences[0].translation;
+ const reject=()=>{for(const s of additionalScenarios.scenarios){assert.throws(()=>assertPublicationReady({path:s.path,indexing:'index'}),/human language acceptance pending/);assert.throws(()=>assertEditorialReady({path:s.path,indexing:'index'}),/human language acceptance pending/);}};
+ try{
+  first.sentences[0].translation='Changed since review';reject();first.sentences[0].translation=original;
+  for(const field of ['humanAcceptance','contentSha256','reviewer','date','evidence']){const value=review[field];try{delete review[field];reject();}finally{review[field]=value;}}
+ }finally{first.sentences[0].translation=original;}
+});
+test('Five Elements has five distinct complete cards and every character link targets approved published teaching',()=>{
+ const page=renderPages().find(p=>p.path==='/tools/zodiac-elements-calculator/'),tree=nodes(parse(page.content));
+ const cards=tree.filter(n=>attr(n,'data-five-element')!==undefined);
+ assert.deepEqual(cards.map(n=>attr(n,'data-five-element')),['金','木','水','火','土']);
+ for(const card of cards){
+  const content=nodes(card),links=content.filter(n=>n.tagName==='a');
+  assert.equal(links.length,2);assert.ok(content.some(n=>n.tagName==='h2'));
+  const text=content.filter(n=>n.nodeName==='#text').map(n=>n.value).join(' ');
+  assert.match(text,/Component:/);assert.match(text,/Example:/);assert.match(text,/Metal|Wood|Water|Fire|Earth/);
+  for(const a of links){const path=attr(a,'href'),glyph=decodeURIComponent(path.split('/')[2]),c=findCharacter(glyph);assert.ok(c);assert.equal(resolveRoutePolicy(path).indexing,'index');assert.equal(characterReviewState(c.characterId).accepted,true);}
+ }
+});
+test('HF11 owner audio strategy approval is bound to the current manifest and preserves static coverage facts',()=>{
+ const receipt=JSON.parse(fs.readFileSync(new URL('docs/hanzifun-rebuild/acceptance/phase-2-hf11-audio-signoff.json',root)));
+ assert.equal(receipt.status,'approved');assert.equal(receipt.manifestSha256,createHash('sha256').update(fs.readFileSync(new URL('data/audio/pronunciation.json',root))).digest('hex'));
+ assert.equal(receipt.scope.staticRecordings,Object.values(pronunciationManifest.syllables).filter(r=>r.url).length);
+ assert.equal(receipt.scope.fallbackReadings,Object.values(pronunciationManifest.syllables).filter(r=>!r.url).length);
+ assert.equal(receipt.scope.fallbackWordSentenceGroups,Object.keys(pronunciationManifest.utterances).length);
 });

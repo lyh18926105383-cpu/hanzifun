@@ -2,8 +2,8 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 2（2026-10-27用户明确启动）；Phase 1签发历史保留，本轮未核实实际生产部署。
-- **当前执行任务**：用户指定 Phase 2 HF-11（音频）与 HF-12（场景/HSK 2级核心）本地工程与验证已交付；原同号同步/文化工具任务未执行。HF-10 A-D 213 字独立签发成果保留。
-- **状态**：159/159 测试 PASS；生产构建2824文件，409英文页（355 index / 54 noindex），Sitemap355 URL；releaseId=`phase-2-hf11-hf12-2026-10-27`。1268录音全部浏览器解码且非静音；55表内候选+2额外读音及738词句仍依赖中文设备语音；腾讯云TLS失败、真实设备TTS与听审待补。3新场景待独立人工语言签收，暂noindex。本轮未commit/push/部署。
+- **当前执行任务**：Phase 2 HF-11 音频策略与真机听审、HF-12 三场景/86词当前范围已按 Owner 正式决策收口；学习记录 UI 与五行五卡修复完成。原同号同步/文化工具任务未执行；HF-10 A-D 213 字签发保留。
+- **状态**：161/161 测试 PASS；生产构建2824文件，409英文页（358 index / 51 noindex），Sitemap358 URL；releaseId=`phase-2-closeout-2026-10-27`。三个新场景按独立正文hash批准published。Owner 真机试听通过，1268静态录音+设备中文TTS回退为正式方案，57读音/738词句无需腾讯云补录，不再阻塞。HSK2剩余64词 Deferred / Backlog。原HF-06浏览器18项及本轮5组交互/15档布局/axe通过；本轮未commit/push/线上部署。
 
 ---
 
@@ -262,3 +262,22 @@
 - **验证**：`node --test tests/data-foundation.test.mjs` **11/11 PASS**，包括两次离线重建逐字节一致；`HF_SITE_ENV=production npm run build:site && npm test`完整顺序执行，退出0，构建2824公开文件/54 noindex页，全量 **159/159 PASS**（0 fail、skip、cancelled）。`git diff --check`在收尾检查。本轮无前端改动，不重复声称浏览器/真人听审或旧完整MVP通过。
 - **本轮文件**：`scripts/validate-data-foundation.mjs`、`tests/data-foundation.test.mjs`、`docs/hanzifun-rebuild/TASKS.md`、`docs/hanzifun-rebuild/PROGRESS.md`。
 - **遗留与下一Agent精确切入点**：本轮主目录已全绿；若其他会话仍出现旧失败，先核对实际cwd/分支/Node版本与完整断言堆栈，区分负例预期异常与测试最终失败，不能把`char:773c5b`设成合法别名或改正式775b身份。HF-11的腾讯云补音/真实设备TTS和HF-12三场景独立人工签收继续按记录19处理，本轮没有关闭这些边界。
+
+
+### [记录 21] - Phase 2 Owner 收口签收与学习记录/五行卡片修复（By Codex，2026-10-27）
+
+- **目录与范围**：按用户要求在 `/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun` 的 `main` 修改，开工 tracked 干净；既有未跟踪个人文件保留。本轮以 Owner 新决定取代记录19/20中的新场景待签收、真机听审待补和腾讯云补音阻塞，不改写历史原始事实；没有账号、云同步、Billing、故事课或源字库扩充。
+- **HF-12 正式签发**：Owner 已独立完成三场景15句人工语言审核与真机验收。`data/editorial/phase2/scenarios.json.review` 和 release 的三个精确 `pageReviews` 绑定正文 SHA-256 `1472b2c4a10d0875bb966b1ccad11dfe62f07c08a41d1ef19dd2563cf7d6788e`（原文未变），人、日期、证据落盘。机场/酒店/超市路由 published / index,follow；通用构建与 SEO 门控共享独立签名校验，待审/缺字段/正文变化均拒绝发布，不沿用旧餐厅/商务签字。releaseId=`phase-2-closeout-2026-10-27`。
+- **HF-11 策略锁定**：Owner 真机实际试听已通过；1268静态MP3 + 中文设备语音平滑回退是当前阶段正式交付。剩余57读音与738组词句不补腾讯云，历史TLS不再阻塞。独立 [正式音频签收](acceptance/phase-2-hf11-audio-signoff.md) 及 JSON 绑定现有manifest原始字节SHA-256 `58bdd2386b941176c56dbceaf1601a73a0c29acb9d9993b4373a802cbe882aa6`；不把整体实际体验签收扩大成每个候选逐条音准批准，不伪造57份静态音频，旧逐项听审审计字段保留历史含义。
+- **范围解耦**：86个现有HSK2.0二级词数据原样保留，剩余64词明确 Deferred / Backlog、后续阶段再补，与当前HF-12交付解耦；HSK3.0二级不在范围。
+- **学习 UI**：清理来源key/raw JSON/冗长管线文案，按统计、复习、续练、历史和导入分组，旧数据折叠查看；按钮统一边框/背景/hover/active/focus态。增加历史轮次新建自由练习，旧完成记录保留；分页8条且首尾正确禁用。卡组预览截为前8字。导入导出/清空确认/恢复入口保留，Repository、LocalStorage键、事件、调度和队列恢复代码未改。
+- **五行 UI**：在 `/tools/zodiac-elements-calculator/` 原模板补齐金木水火土五张卡，桌面等宽五列、中屏3+2居中、手机2+2+1居中；含拼音、Metal/Wood/Water/Fire/Earth、部件变体及钱/林/清/秋/地例字。金、土未有独立字典页，卡内按钮分别链接已签发的钱、地；十条单字链接均HTTP200且index,follow，未制造不存在的详情页，也未将计划中的计算器解锁索引。
+- **本轮文件清单**：
+  - 发布/数据：`data/editorial/phase2/scenarios.json`、`site/{release.json,hsk-data.mjs,seo.mjs}`。
+  - 展示：`site/pages/learning.mjs`、`src/client/guest-learning.mjs`、`site/site.mjs`、`site/public/site-styles.css`。
+  - 回归：`tests/{phase2-audio-scenarios,seo-quality}.test.mjs`、新增 `scripts/verify-phase2-closeout-browser.mjs`。
+  - 签收与交接：`acceptance/phase-2-hf12-language-review.md`、新增 `acceptance/phase-2-hf11-audio-signoff.{md,json}`、`tasks/HF-11-audio-phase2.md`、`tasks/HF-12-scenarios-level2-phase2.md`、`HF-11-HF-12-VERIFICATION.md`、`TASKS.md`、本日志。
+  - 证据：新增 `evidence/phase2-closeout/{verification,guest-browser,ui-browser}.json` 与学习记录/五行桌面及手机四张PNG。上述文档相对目录均为 `docs/hanzifun-rebuild/`。
+- **依次执行门控**：`HF_SITE_ENV=production npm run build:site` PASS，2824公开文件/409英文页，358 index/51 noindex；`node scripts/validate-seo-quality.mjs` PASS，358 Sitemap URL（精确含三个新场景）/358核心SEO页/410 JSON-LD，`errors=[]`；`npm test` **161/161 PASS**，0 fail/skip/cancel。新增五行卡片完整性及全部链接已批准断言、场景独立签名过期拒绝和音频方案签收manifest匹配检查；原MVP/HF06测试保持通过。`git diff --check`通过。
+- **本地浏览器**：实际Chrome155，隔离访客上下文，不操作Owner存储。原`verify-guest-browser.mjs`18项全PASS（双标签/锁降级/迁移原key保留/备份与取消清空/恢复/真实配额失败/刷新和关页续练等）；本轮脚本5组交互PASS（9轮历史8/1分页、续练保留cursor/queue、自由重练不覆盖旧会话、设置/导出、全部五行链接及键盘激活）。3页×360/390/768/1100/1440共15档无溢出，3页axe WCAG A/AA零违规，页面错误0；桌面/手机截图已实际查看。原浏览器脚本硬编码旧日期，本轮摘要显式记录实际执行日，未冒充旧回执。
+- **遗留与精确下一步**：本轮五项请求已完成，没有腾讯云或64词阻塞。真实线上部署尚未执行，本地发布配置与生产dist已准备；后续若执行发布，从HF-17/18核对本releaseId、既有部署配置及生产冒烟开始，不再重复场景人工签收或主动生成腾讯云音频。64词/HSK3.0二级仅按后续明确范围处理。旧Workers/MVP总门控失败回执保持历史，不据本轮三项全绿声称重跑了完整MVP/所有浏览器或线上验收。本轮未commit/push/部署。

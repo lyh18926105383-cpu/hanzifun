@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-27T15:47:30.440Z",
+  "checks": [
+    "Nine completed rounds paginate 8/1 with correctly disabled boundary buttons",
+    "Dashboard Continue resumes paused session after refresh with frozen queue and cursor unchanged",
+    "Practise again creates a new free session and preserves all previous sessions and completion counts",
+    "Settings save and backup export remain functional",
+    "All ten Five Elements links return indexed dictionary pages; keyboard activation works"
+  ],
+  "layouts": [
+    {
+      "route": "/account/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/account/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/account/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/account/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/account/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/my-words/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/my-words/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/my-words/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/my-words/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/my-words/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "route": "/account/",
+      "violations": []
+    },
+    {
+      "route": "/flashcards/my-words/",
+      "violations": []
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "browser": "155.0.8059.85"
+}

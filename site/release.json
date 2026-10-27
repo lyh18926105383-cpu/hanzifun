@@ -1,5 +1,5 @@
 {
-  "releaseId": "phase-2-hf11-hf12-2026-10-27",
+  "releaseId": "phase-2-closeout-2026-10-27",
   "prototypePathCount": 77,
   "defaultStatus": "preview",
   "statusPolicies": {
@@ -403,9 +403,9 @@
     "/dictionary/呼/": "published",
     "/dictionary/称/": "published",
     "/academic/hsk-2/level-2/": "published",
-    "/scenarios/travel/airport/": "preview",
-    "/scenarios/travel/hotel/": "preview",
-    "/scenarios/travel/supermarket/": "preview"
+    "/scenarios/travel/airport/": "published",
+    "/scenarios/travel/hotel/": "published",
+    "/scenarios/travel/supermarket/": "published"
   },
   "patterns": {
     "/kids/stories/{slug}/": "preview",
@@ -532,15 +532,44 @@
       "date": "2026-10-26",
       "evidence": "docs/hanzifun-rebuild/acceptance/phase-1-signoff.md; user explicitly confirmed Phase 1 manual acceptance in the 2026-10-26 release instruction.",
       "scope": "Phase 1 existing text, navigation and interaction; unavailable audio excluded"
+    },
+    "/scenarios/travel/airport/": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-27",
+      "humanAcceptance": "approved",
+      "contentSha256": "1472b2c4a10d0875bb966b1ccad11dfe62f07c08a41d1ef19dd2563cf7d6788e",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-hf12-language-review.md; Owner explicitly accepted all 15 sentences and physical-device checks in the 2026-10-27 Phase 2 closeout instruction.",
+      "scope": "All three scenarios: Chinese, pinyin, English translations, token meanings and context, plus physical-device acceptance."
+    },
+    "/scenarios/travel/hotel/": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-27",
+      "humanAcceptance": "approved",
+      "contentSha256": "1472b2c4a10d0875bb966b1ccad11dfe62f07c08a41d1ef19dd2563cf7d6788e",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-hf12-language-review.md; Owner explicitly accepted all 15 sentences and physical-device checks in the 2026-10-27 Phase 2 closeout instruction.",
+      "scope": "All three scenarios: Chinese, pinyin, English translations, token meanings and context, plus physical-device acceptance."
+    },
+    "/scenarios/travel/supermarket/": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-27",
+      "humanAcceptance": "approved",
+      "contentSha256": "1472b2c4a10d0875bb966b1ccad11dfe62f07c08a41d1ef19dd2563cf7d6788e",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-hf12-language-review.md; Owner explicitly accepted all 15 sentences and physical-device checks in the 2026-10-27 Phase 2 closeout instruction.",
+      "scope": "All three scenarios: Chinese, pinyin, English translations, token meanings and context, plus physical-device acceptance."
     }
   },
   "hf11": {
-    "audioAssets": "source-mapped; human listening pending",
-    "fallback": "Chinese device voice; never Latin-letter pinyin or English voice",
-    "ttsProduction": "Tencent probe failed TLS; no generated speech assets claimed"
+    "audioAssets": "1268 static recordings; owner physical-device listening accepted 2026-10-27",
+    "fallback": "Chinese device voice; accepted for 57 readings and 738 word/sentence groups, including static playback failure fallback",
+    "ttsProduction": "Deferred by owner decision; no Tencent synthesis required for current delivery",
+    "acceptance": "docs/hanzifun-rebuild/acceptance/phase-2-hf11-audio-signoff.md"
   },
   "hf12": {
-    "levelTwo": "86 of 150 additional HSK 2.0 level-2 words; HSK 3.0 remains level 1",
-    "newScenarios": "3 functional previews; human language approval required before indexing"
+    "levelTwo": "86 of 150 additional HSK 2.0 level-2 words delivered; remaining 64 Deferred backlog; HSK 3.0 remains level 1",
+    "newScenarios": "3 published scenarios; 15 sentences independently accepted by owner 2026-10-27",
+    "contentSha256": "1472b2c4a10d0875bb966b1ccad11dfe62f07c08a41d1ef19dd2563cf7d6788e"
   }
 }
