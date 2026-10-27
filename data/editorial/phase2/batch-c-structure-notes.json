@@ -1,0 +1,46 @@
+{
+  "reviewer": "John Ling",
+  "date": "2026-10-26",
+  "notes": {
+    "米": {
+      "layout": "overlapping",
+      "description": "Short upper strokes and side strokes meet around a central vertical and crossing horizontal strokes. This describes the visible layout, not the character's historical origin."
+    },
+    "亮": {
+      "layout": "top-bottom",
+      "description": "A top cover sits above a central opening, with a lower roof-like form and 几-shaped base below. This describes placement, not historical origin."
+    },
+    "先": {
+      "layout": "top-bottom",
+      "description": "The upper strokes sit above 土, with 儿-shaped strokes forming the lower part. The note describes visible placement without naming the unresolved upper subpart."
+    },
+    "衣": {
+      "layout": "top-bottom",
+      "description": "A short top cover sits above the central crossing strokes, with long slanting strokes extending downward. This describes the visible layout only."
+    },
+    "坐": {
+      "layout": "overlapping",
+      "description": "Two 人-shaped sets of strokes meet above 土, forming one compact character. This describes the visible layout, not the character's historical origin."
+    },
+    "京": {
+      "layout": "top-bottom",
+      "description": "A top cover sits above a central 口-shaped form, with 小-shaped strokes below. This describes visible placement, not historical origin."
+    },
+    "以": {
+      "layout": "left-right",
+      "description": "A narrow left-side form sits beside 人 on the right. The note describes placement only and does not assign a name or meaning to the unresolved left part."
+    },
+    "可": {
+      "layout": "overlapping",
+      "description": "The upper horizontal and vertical strokes join the lower 口-shaped strokes in one compact form. This describes the visible layout, not historical origin."
+    },
+    "也": {
+      "layout": "overlapping",
+      "description": "A short upper stroke leads into a curved lower stroke and rightward hook. The note describes the visible form without identifying an unresolved component."
+    },
+    "为": {
+      "layout": "overlapping",
+      "description": "Short dot strokes sit around a central curved and enclosed form. This describes the visible layout, not the character's historical origin."
+    }
+  }
+}

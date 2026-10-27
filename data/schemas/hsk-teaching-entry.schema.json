@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://hanzifun.online/schemas/hsk-teaching-entry.schema.json",
+  "title": "HF-10 Phase 2 reviewed editorial teaching entry",
+  "$comment": "Matches supplemental editorial entries. Human-approved metadata records an explicit owner declaration; authoritative publication still requires semantic checks and hash-bound review-decisions. Structure review describes visible layout, never historical etymology.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "characterId",
+    "readingId",
+    "meaning",
+    "word",
+    "wordPinyin",
+    "wordMeaning",
+    "sentence",
+    "pinyin",
+    "translation",
+    "mnemonic",
+    "reviewer",
+    "reviewDate",
+    "generationBatch",
+    "kind",
+    "targetTier",
+    "reviewStatus",
+    "humanAcceptance"
+  ],
+  "properties": {
+    "characterId": {
+      "type": "string",
+      "pattern": "^char:[0-9a-f]{4,6}$"
+    },
+    "readingId": {
+      "type": "string",
+      "pattern": "^reading:char:[0-9a-f]{4,6}:.+$"
+    },
+    "meaning": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "word": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "wordPinyin": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "wordMeaning": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "sentence": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "pinyin": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "translation": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "mnemonic": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "reviewer": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "reviewDate": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "generationBatch": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "kind": {
+      "const": "mnemonic"
+    },
+    "targetTier": {
+      "const": "Tier2"
+    },
+    "reviewStatus": {
+      "enum": [
+        "ai-quick-reviewed",
+        "human-reviewed"
+      ]
+    },
+    "humanAcceptance": {
+      "enum": [
+        "pending",
+        "approved"
+      ]
+    },
+    "structureReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "layout",
+        "description",
+        "reviewer",
+        "date",
+        "sourceSha256"
+      ],
+      "properties": {
+        "status": {
+          "const": "reviewed"
+        },
+        "layout": {
+          "enum": [
+            "single-component",
+            "left-right",
+            "top-bottom",
+            "full-enclosure",
+            "upper-left-enclosure",
+            "upper-right-enclosure",
+            "lower-left-enclosure",
+            "upper-enclosure",
+            "overlapping"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "reviewer": {
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "sourceSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    }
+  }
+}

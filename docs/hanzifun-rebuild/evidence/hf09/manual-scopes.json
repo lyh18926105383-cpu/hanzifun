@@ -8,8 +8,8 @@
         "data/pinyin/syllables.json",
         "site/pages/pinyin-chart.mjs"
       ],
-      "scopeSha256": "1eeb0cba03c4edebee03f9a2fc13e5c8bb0c3654aaaa68fb4372385ecd523741",
-      "accepted": true
+      "scopeSha256": "1f3b569851dd380c326cbfbb154fb6b35e47b1aeb93fbd09e49568824df4cd56",
+      "accepted": false
     },
     {
       "id": "audio-listening",
@@ -20,8 +20,8 @@
         "data/normalized/audio.json",
         "data/editorial/review-decisions.json"
       ],
-      "scopeSha256": "079fd5a975c900d4f8055e36bd5e4cf86005fa5fbebf841b69bd52cbc19d7882",
-      "accepted": true
+      "scopeSha256": "87ddd752152c741fee452ac7baad6d7499922eea86d447470a4aad8e336ddf5a",
+      "accepted": false
     },
     {
       "id": "hsk-source-sampling",

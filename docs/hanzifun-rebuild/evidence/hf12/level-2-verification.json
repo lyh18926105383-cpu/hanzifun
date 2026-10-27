@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "sourceSha256": "7e3c8cac7f8c2be9c0f8b48ed155db234d065b1d874bb98bdc8b845e7a70c76c",
+  "contentSha256": "f5ee42ab38305555b110cb8fb82e37e0ab4b3897e2e660de23d2d69fb5bc6282",
+  "coveredCount": 86,
+  "deferredCount": 64,
+  "sourceCount": 150,
+  "system": "hsk-2",
+  "edition": "2015-vocabulary",
+  "scope": "additional level-2 subset; not cumulative; HSK 3.0 unchanged",
+  "scenarioReview": "pending; separate from Phase 1",
+  "browserEvidence": "../hf11/browser.json"
+}

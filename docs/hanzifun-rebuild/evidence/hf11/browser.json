@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-27T10:10:56.458Z",
+  "routes": [
+    {
+      "route": "/pinyin-chart/",
+      "status": 200,
+      "violations": [],
+      "robots": "index,follow"
+    },
+    {
+      "route": "/dictionary/发/",
+      "status": 200,
+      "violations": [],
+      "robots": "index,follow"
+    },
+    {
+      "route": "/dictionary/房/",
+      "status": 200,
+      "violations": [],
+      "robots": "index,follow"
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "status": 200,
+      "violations": [],
+      "robots": "index,follow"
+    },
+    {
+      "route": "/scenarios/travel/airport/",
+      "status": 200,
+      "violations": [],
+      "robots": "noindex,follow"
+    },
+    {
+      "route": "/scenarios/travel/hotel/",
+      "status": 200,
+      "violations": [],
+      "robots": "noindex,follow"
+    },
+    {
+      "route": "/scenarios/travel/supermarket/",
+      "status": 200,
+      "violations": [],
+      "robots": "noindex,follow"
+    }
+  ],
+  "layouts": [
+    {
+      "route": "/pinyin-chart/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/发/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/房/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/房/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/房/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/travel/airport/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/travel/airport/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/travel/airport/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/travel/hotel/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/travel/hotel/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/travel/hotel/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/travel/supermarket/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/travel/supermarket/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/travel/supermarket/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "interaction": [
+    "Actual pinyin recording started; 1323 enabled chart controls.",
+    "Saved 飞机 as 2 characters; current group contains both.",
+    "New scenario starts real saved practice, plays the exact card reading and accepts a rating.",
+    "Dictionary and practice return to the exact airport token context."
+  ],
+  "errors": [],
+  "limitations": [
+    "Chrome desktop emulation, not Safari/Firefox or physical devices.",
+    "MP3 decoding and sample energy are verified; no human listening acceptance inferred.",
+    "Browser speech requires a Mandarin device voice; this headless environment may supply none."
+  ],
+  "engine": "155.0.8059.85",
+  "mandarinVoices": [
+    "zh-CN",
+    "zh-CN",
+    "zh-TW",
+    "zh-CN",
+    "zh-TW",
+    "zh-CN",
+    "zh-TW",
+    "zh-CN",
+    "zh-TW",
+    "zh-CN",
+    "zh-TW",
+    "zh-CN",
+    "zh-TW",
+    "zh-CN",
+    "zh-TW",
+    "zh-CN",
+    "zh-TW",
+    "zh-TW"
+  ],
+  "decode": {
+    "decoded": 1268,
+    "nonSilent": 1268,
+    "errors": [],
+    "minDuration": 0.5746875,
+    "maxDuration": 2.481625
+  },
+  "status": "PASS"
+}

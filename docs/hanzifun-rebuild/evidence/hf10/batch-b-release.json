@@ -1,0 +1,429 @@
+{
+  "batchId": "hf10-phase2-b",
+  "decisions": [
+    {
+      "characterId": "char:540d",
+      "contentSha256": "a2d912cda83f52c4a3149f6b742694b9b8a9537fdfc1e83225628afba1d9ce9b",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:4e03",
+      "contentSha256": "ca54c8133700819443673beaa740dab6f44084d80c072abd81f81699e703b97e",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:4e09",
+      "contentSha256": "f5e0d6db74158474815fe6de4783abf19200a76587b3e768b9a2aaad2353acd5",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:4ec0",
+      "contentSha256": "1b43a03a27cf337cb52125b574fa3f33db12d36621e73fc12b7d893305399cab",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:5341",
+      "contentSha256": "79369b90350b666cc6b67a2eff2380c0432705f8b9f3227b48d987112ea5ade9",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:662f",
+      "contentSha256": "b2e86d3f5ee6c63716e6b50ddb15f1278f3188ac9b0fb5c97bbcc7cbf6037a03",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:56db",
+      "contentSha256": "15e73a4d335f203baf600df57adf89da8a28596dfecbb74afb3754a3f036aee6",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:5c81",
+      "contentSha256": "77306bbfa8ee9178378196b45192fe21d939da6ae1a978279ff90f66d998d776",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:4e94",
+      "contentSha256": "bcb192f309220f857840dba4dfd390dcecd263dc50c7c0ff6d1e40c0afb1414b",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:73b0",
+      "contentSha256": "127eecb91a3c91cbefbda2d9c97c105801799621e7db85330547a9e8a2d46c4b",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:5199",
+      "contentSha256": "b70042e7565b1af314683f2f7ff8500d161d87b13ec26e8dd2cea0272cd9c821",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:4e60",
+      "contentSha256": "043ff13f9ccd8d997e33bcd25fdf24d37ae08a7f68afa307a2116da79d30458d",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:7535",
+      "contentSha256": "0d2cddd464a2666b3c02943c463b818f5d611bc58f390bd9b7279073078182c4",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:54ea",
+      "contentSha256": "9d5f3eb902a203538de73502c32e9d172f6d7c14fdc6b7fe8fe388d8bf92500e",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:4e9b",
+      "contentSha256": "8e6f24536ada89bcb701f253555af212024b22105a36da4c2fe81b48fcfb68c7",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:770b",
+      "contentSha256": "407b807cdc6c996c3614e5256ed56554949cb0dce53b43ec5f8cb9d0a2d9b180",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:89c1",
+      "contentSha256": "33be5f800a3ea40c4ca147fa47c1449451e7d8a6d5d2fc6393502d45e5671c48",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:8f66",
+      "contentSha256": "0f6cc1c790432e362ba4c17f371979c436edd25783324dc3885e79b109554cfc",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:91cc",
+      "contentSha256": "27bf9b1dedd348a488185f63528dde2e37b4a46e545da5231cd5104263df92ec",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:53cb",
+      "contentSha256": "621ecaac984215d2f9bad29653ac2733a992ca0011ee10211bcb0dd0e21157eb",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:670b",
+      "contentSha256": "b5cd5e5fa948ac1b6004b63a158db162bbadd35c50157371b488bf154b1e6fb7",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:6c14",
+      "contentSha256": "22a426eae577fb5843596dd67a3362ffe0c135e6b3950a9a550e1dde32ce26c7",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:8bdd",
+      "contentSha256": "e881204594c22e901f7099b3d424d2235e7f094d6b93bf723a52d3b897e1ad3c",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:9762",
+      "contentSha256": "b9a85ae233115cf37bb73ad6de5aa4f037746ee6a907fdd17b39875de27230b3",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:661f",
+      "contentSha256": "11830dbf6d51e925e21cf9b5e23c5ae7a77b7e153f1529a38f624b679cd69900",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:671f",
+      "contentSha256": "d38094f1cbfbece5fc76fbe525aabd11eb2a5b157a6d6d07a430ba3b4e4b0498",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:600e",
+      "contentSha256": "884ba6417f2fec6ef8d251064815d5f0ac64c89518299e97981590f155009338",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:5403",
+      "contentSha256": "e6d8220caaa590fe6bee3068fc3fd6ddfb30f34ad04238bed86dcecf070a58d8",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:5f71",
+      "contentSha256": "6e5a0f1678346d1ba1d843850fedc3638d825718684abaaed01e7e34657a0ee4",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:8bfb",
+      "contentSha256": "bf2f2b4c731e4bea5b404e1a81b0ca505a2e9883e4b98407e21df1a39f58e1e6",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:8d77",
+      "contentSha256": "8cd74ce4f40df721a9f81c121d34224078622f4b5aef66d8aff0476f7f1ff9dc",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:673a",
+      "contentSha256": "896d009afb01a3f6dc029fa9abda08b6e18ab1afef0f38499e07d68a87fd341a",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:9662",
+      "contentSha256": "46d93672d32a2cf2df617041568762cd64d7ac999393b79e4a3ca6adff747adb",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:5f00",
+      "contentSha256": "49cb392c6f37ad46e85ce35037c877da352fa17fe05bec59bb8881f1e888691d",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:89c9",
+      "contentSha256": "3a093dcd45eea57096c92b3801f973e8e59f27b662449c998654afa58315e07b",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:96e8",
+      "contentSha256": "4a07c9c713035c9c94a729967a54c4d48a0d9aa6d13d7296b7037d9d2a6344aa",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:518d",
+      "contentSha256": "ed590fabb328c8752bbcd7a4091a8568a747a260a0712c4585fafa360ddf3f8c",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:676f",
+      "contentSha256": "7d874d1640f5c142bf35702eb4d4c317bda4cbe67fb3417f7f27f830a5806fbd",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:672c",
+      "contentSha256": "a25afba85073804cdffc1d1cc26bbc0c087a1f0a1cb3ba581a50a8e18d984712",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:5ba2",
+      "contentSha256": "fefc8d65358b6103feab3708936845dad49b8c78213748be6a5eb214a34faaaa",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:83dc",
+      "contentSha256": "f96f43a63e9c7c53bb5cfd6f2498599d5246f6703e50c713e651e4ce30053bb4",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:51fa",
+      "contentSha256": "ea9b3c90f7261b987dac4a7bcb1e033c6386df2a0f1bd8ce6c205f49159f0593",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:79df",
+      "contentSha256": "d8a6bfbbdc8b8ae76d4190b2811e821ce5cf2e500bd8799d821b1fc220534358",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:8111",
+      "contentSha256": "f20c0db0849c7764de4e7ff9f0f54465142643cb41c642068253da37b8294a65",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:89c6",
+      "contentSha256": "3612decacb96b550f5d84bd22f16af723436893272959ac1d44936d4d522c6f4",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:4e1c",
+      "contentSha256": "81e93bf331763659fe09cf591708c77b43444172d4c6f00b35ca411db33f2fcc",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:90fd",
+      "contentSha256": "e724471088ce0c8c6ad0038fe71581adfba56d91e7f7d416acafe4dff5d6664f",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:98de",
+      "contentSha256": "fa3863915b7b1616b3318db3c39fbb386a5a827cf65985fa0c3f149aef28255a",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:949f",
+      "contentSha256": "bfa4e15e9caeef376efa31d0346dd30272769911d54bfb608e2be3a16728239c",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:5174",
+      "contentSha256": "1635575278b069caa9649b132a2b992c372539ed7d9568030eea3f6bb69d3a0a",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:9ad8",
+      "contentSha256": "5ad189373797611240c038f965c9fb9c80136b8d176d471f1f82b5eb78fffe52",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:72d7",
+      "contentSha256": "65bd5b83e890fcf0e6246526feb5ae86bf062ca118a05f8aecc87d7162bc44ea",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    },
+    {
+      "characterId": "char:53f7",
+      "contentSha256": "87e08305863a198cdf3632c92c84c031f5b153ecaff180a53b9fcf41f6ad02f1",
+      "humanContent": "approved",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved."
+    }
+  ]
+}

@@ -2,9 +2,9 @@
 const status=message=>{const el=document.querySelector('[data-hf07-status]');if(el)el.textContent=message;};
 const characterIds=glyph=>[...new Set([...glyph])].filter(g=>/\p{Script=Han}/u.test(g)).map(g=>'char:'+g.codePointAt(0).toString(16));
 const adapter=()=>{const value=window.HanziFunLearningAdapter;if(!value)throw Error('Learning is still loading. Please retry.');return value;};
-const returnTo=()=>location.pathname+location.hash;
+const returnTo=element=>location.pathname+(element?.closest('details[id]')?'#'+element.closest('details[id]').id:location.hash);
 async function save(ids){if(!ids.length)throw Error('Select at least one character first.');let count=0;for(const characterId of ids){const r=await adapter().saveCharacter({characterId});if(r?.saved!==true)throw Error(`${count} saved; remaining characters were not saved. Retry after checking browser storage.`);count++;}status(`${count} characters saved on this device.`);}
-async function practise(deckId,ids){const r=await adapter().startDeckPractice({deckId,characterIds:ids,returnTo:returnTo()});if(!r?.started)throw Error(r?.reason||'Practice was not saved. Please retry.');}
+async function practise(deckId,ids,context=returnTo()){const r=await adapter().startDeckPractice({deckId,characterIds:ids,returnTo:context});if(!r?.started)throw Error(r?.reason||'Practice was not saved. Please retry.');}
 const groupRoot=document.querySelector('[data-context-group]');
 const groupKey='hanzifun.hf07.selection:'+location.pathname;
 let group=[];
@@ -27,7 +27,7 @@ document.addEventListener('click',async event=>{
   else if(b.hasAttribute('data-practice-selected')){const ids=selected(b.closest('[data-hsk-list]'));if(!ids.length)throw Error('Select at least one entry first.');await practise(b.dataset.practiceSelected,ids);}
   else if(b.hasAttribute('data-save-selected'))await save(selected(b.closest('[data-hsk-list]')));
   else if(b.hasAttribute('data-token-save'))await save(characterIds(b.dataset.tokenSave));
-  else await practise(b.dataset.deck,characterIds(b.dataset.tokenPractice));
+  else await practise(b.dataset.deck,characterIds(b.dataset.tokenPractice),returnTo(b));
  }catch(error){status(error.message);}finally{b.disabled=false;}
 });
 const filter=document.querySelector('[data-hsk-filter]');

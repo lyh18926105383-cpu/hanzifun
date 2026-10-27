@@ -1389,1069 +1389,2347 @@
       "batchId": "core-06"
     },
     "char:4e00": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e00",
+      "contentSha256": "e87628b7b4d4a255744b30cd005168d09234591db997b8e25f6af7f62a7f5299",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e03": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e03",
+      "contentSha256": "ca54c8133700819443673beaa740dab6f44084d80c072abd81f81699e703b97e",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:4e09": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e09",
+      "contentSha256": "f5e0d6db74158474815fe6de4783abf19200a76587b3e768b9a2aaad2353acd5",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:4e0a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e0a",
+      "contentSha256": "12767e6ed0d42a1714e970446b863d8ccf9acb1fc7dbbf26d6fb365f1b98918b",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e0b": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e0b",
+      "contentSha256": "e674ad1d7cacb8c124389a67fee503e93d684cf1824307e90fd5fb0aa50fbd60",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e0d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e0d",
+      "contentSha256": "28327e3b1bd572cfe154cf40146b71910a598bc2d8fd0e934b754a2b465d8540",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e1c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e1c",
+      "contentSha256": "81e93bf331763659fe09cf591708c77b43444172d4c6f00b35ca411db33f2fcc",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:4e24": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e24",
+      "contentSha256": "a199f30d59bc0dbb3d1e3fe24281982169adf2c947a9bc0ee3662e25b76ea957",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:4e2a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e2a",
+      "contentSha256": "4e0e5f542e9ee3b0dbeb450dadd26dbe62636c370ab7737decfad66adf37d76f",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e3a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e3a",
+      "contentSha256": "e72e772ca67fe0d817350c8d0efb05e2a506074f0c2c5ba72625a4c8bda50d2b",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:4e48": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e48",
+      "contentSha256": "f551700dd28b7119d48003f1fa620364d2b6fbbc05e667eaf084cf7add093914",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e5d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e5d",
+      "contentSha256": "74f62d84f0a341d06dac8088c8f98ffaff6b620c7dd75dcdc07c528c3c8155ed",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e5f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e5f",
+      "contentSha256": "ddb1908418c20e0748add6716a69f0d5dba42c3d47fa3775401bedce16f70ee7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:4e60": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e60",
+      "contentSha256": "043ff13f9ccd8d997e33bcd25fdf24d37ae08a7f68afa307a2116da79d30458d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:4e66": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e66",
+      "contentSha256": "0364b41fd3fbe009c4bf2dc4c31a8a833d564f8a60de2c1f4bda8079c5a25ecd",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e70": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e70",
+      "contentSha256": "f58c5de345926b2d415dab08e17c586d6855855060e5c9d8810c73294b7a7606",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:4e86": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e86",
+      "contentSha256": "9c77cb180efc6549ee0697b7ea0abfa3adec9123d6591cadc56b39934bcbede0",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e8c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e8c",
+      "contentSha256": "808541a89afe8a2200779b1f3ddd5c1609c61702ae4651947f5f6f22bd2d55b6",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4e94": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e94",
+      "contentSha256": "bcb192f309220f857840dba4dfd390dcecd263dc50c7c0ff6d1e40c0afb1414b",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:4e9b": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4e9b",
+      "contentSha256": "8e6f24536ada89bcb701f253555af212024b22105a36da4c2fe81b48fcfb68c7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:4eac": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4eac",
+      "contentSha256": "8e5b99af05b05ffc332f6861a4ed54b5c3b0599140fbc1b67136e860c813e38d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:4eae": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4eae",
+      "contentSha256": "7025471c600eb374e051262ba4a10cf6a733e76d380e596c804da240f188bc88",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:4eba": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4eba",
+      "contentSha256": "8ce5d6c8ddf1a4640b22f148ec92fd214a39f47edeed78e1d574d6836cb885ce",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4ec0": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4ec0",
+      "contentSha256": "1b43a03a27cf337cb52125b574fa3f33db12d36621e73fc12b7d893305399cab",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:4eca": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4eca",
+      "contentSha256": "2663abc4150edbe1ccfd66d79746ac4689e3a070ff91bad960ec9943a5ca39cc",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4ed6": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4ed6",
+      "contentSha256": "b9712870b044004f8e98ca5ab7063d94aace5d9bcfdbccb11d8e748866360f5d",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4ee5": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4ee5",
+      "contentSha256": "1ffc4dba2ccefec1eae0d7a183af168371ebb8a69a66180f3866e30c0f7c1da5",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:4eec": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4eec",
+      "contentSha256": "8eae2f73c832f3d0af8c280b4f1ab440f2eb004847dce4a34dc22c9b67fcfdc6",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4ef6": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4ef6",
+      "contentSha256": "583abbd17dfaee38b69c756ecfe57e2b40be1ec76f9d91cf2684635927385cc6",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:4f1a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4f1a",
+      "contentSha256": "77e0e96ed6436ca77801dbac86b596bef6b6add6f62e8bc7acaceca3c72a4587",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4f4f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4f4f",
+      "contentSha256": "9022becd0c6aebe15b0c3d632eb8ccfaa587a6d023bf8882891821ab1369cce3",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:4f5c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4f5c",
+      "contentSha256": "5a367cace0acad62a992ae6b072099a7a431bd83c7a839c2eaf5b50978458e38",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4f60": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4f60",
+      "contentSha256": "a7b52ebb6500d8cbd935dc2148ef073b9fada36326a889ad8f77e99d3fb5c65e",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:4fbf": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:4fbf",
+      "contentSha256": "60ce0ab7d1de121d19459da94d0c7fc8fd72a6e87ebf6d6d196ebb8daddfd2b0",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:513f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:513f",
+      "contentSha256": "a2b7cbf024510f595c7595f0ceebff0f41f7f2a634346a9e5e65a0e05a45b9b5",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5143": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5143",
+      "contentSha256": "4e9e46e5df09eaff6e01ddb3dfc083068a5bf2c34d485810a48ab43c0f85d378",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5148": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5148",
+      "contentSha256": "a82e9a1e7a31da265ef952202e907acc82657c191797215c9502e28d976c3009",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:516b": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:516b",
+      "contentSha256": "62514ddfafacb4f0138ef42b107ce341ead2224c616ed0cff1df434941c72f42",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:516d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:516d",
+      "contentSha256": "a794d0d1ea0114af1349ac8810f8200a788a3db21b4caabcdd7fe030adcafb3d",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5173": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5173",
+      "contentSha256": "7dde9e5c688d31ab1450d7fa14a233b37e225707321db98f52feff59fd3d7e25",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:5174": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5174",
+      "contentSha256": "1635575278b069caa9649b132a2b992c372539ed7d9568030eea3f6bb69d3a0a",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:518d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:518d",
+      "contentSha256": "ed590fabb328c8752bbcd7a4091a8568a747a260a0712c4585fafa360ddf3f8c",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:5199": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5199",
+      "contentSha256": "b70042e7565b1af314683f2f7ff8500d161d87b13ec26e8dd2cea0272cd9c821",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:51b7": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:51b7",
+      "contentSha256": "52dc9c66b92515910812e0ddffe8df3080fddfc7e262a14a96be2165324f16e3",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:51fa": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:51fa",
+      "contentSha256": "ea9b3c90f7261b987dac4a7bcb1e033c6386df2a0f1bd8ce6c205f49159f0593",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:5206": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5206",
+      "contentSha256": "9893c78b5e383bdf380408ceae57dbd7ceb72b7d31c0a71389e66ee8516bde6f",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5230": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5230",
+      "contentSha256": "e6cda966023f270276278fe45b80656d2b3493acb828990f11ab6cbfef01ad2e",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:524d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:524d",
+      "contentSha256": "73b7cfab61a1bf2ad7da2f429a2c9567ba26b6652ca61b04e6cd625e7d1262b1",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:5305": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5305",
+      "contentSha256": "f5e9172fc0533c147d177c1ee749c98e3c354defd50016426b06deb98db3cf30",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5341": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5341",
+      "contentSha256": "79369b90350b666cc6b67a2eff2380c0432705f8b9f3227b48d987112ea5ade9",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:5343": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5343",
+      "contentSha256": "f6b12d0a969b61a1e60bfb79e648b78cc0cedb8e9aa9c602c012f44a94919f1d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5348": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5348",
+      "contentSha256": "b1fe13bbdacb0f04d672907b49312d7ba7d519aec03ea6ea6d1911a1dfcd2d84",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5356": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5356",
+      "contentSha256": "9f3c6cfdef0ec5cc39db9269411fabd726e01ad4d9bbe9ebdc0815c1374bf73f",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:53bb": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:53bb",
+      "contentSha256": "03003d8929d0a736c6a05e07a4f271c4f7dd0dbe01093478a0089df614578464",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:53cb": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:53cb",
+      "contentSha256": "621ecaac984215d2f9bad29653ac2733a992ca0011ee10211bcb0dd0e21157eb",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:53e3": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:53e3",
+      "contentSha256": "6794f033abff647003891c497dca46036904b7b2307f55760cf8ffb5e6784c95",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:53eb": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:53eb",
+      "contentSha256": "e45cb76a1f58e7859802a4bb29c65254f267ab5bbed94f63d46ea2415df66d02",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:53ef": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:53ef",
+      "contentSha256": "5d70481f2cca5357d417c2ed980d1776da391404cfd262c7d269cd520c83a1e5",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:53f7": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:53f7",
+      "contentSha256": "87e08305863a198cdf3632c92c84c031f5b153ecaff180a53b9fcf41f6ad02f1",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:53f8": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:53f8",
+      "contentSha256": "c957cb2c71a45bf8ad090049ffdd42769aecaa8cf7b8e9aff619eb8bae78aac2",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5403": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5403",
+      "contentSha256": "e6d8220caaa590fe6bee3068fc3fd6ddfb30f34ad04238bed86dcecf070a58d8",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:540d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:540d",
+      "contentSha256": "a2d912cda83f52c4a3149f6b742694b9b8a9537fdfc1e83225628afba1d9ce9b",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:540e": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:540e",
+      "contentSha256": "1aa2682ca9f968d481db2b2d75989b05209975848b685f09ac3115ca39805e04",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5417": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5417",
+      "contentSha256": "74c2e9981c77aafdb275030d916212f2de12b2179765f04593673fca48a224f3",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5427": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5427",
+      "contentSha256": "2e7b1d669922a5a6c2f955d92433378d79a29aec4cb67f7c4322033f452c0eaa",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5462": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5462",
+      "contentSha256": "db5227fb2e95ded9275ad62e6b46a935e8340dfd8acdf28dee32c33672f1fda7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:547c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:547c",
+      "contentSha256": "fcab5e23387c8571072cfff02b9da7f8a71db6cfae18866cda265aa18302c2cf",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:54e5": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:54e5",
+      "contentSha256": "e739643f8d17225faa61ea712a35322e11208bf429d23759924cc7b88737b016",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:54ea": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:54ea",
+      "contentSha256": "9d5f3eb902a203538de73502c32e9d172f6d7c14fdc6b7fe8fe388d8bf92500e",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:5531": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5531",
+      "contentSha256": "83bff31a921c3fab35f4063c6de52eb047980896cd233940938277a3b9f6ef09",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5546": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5546",
+      "contentSha256": "5301212dbeb86cb4c192a2d977c3517eb97f3d65d94ad7cfc485ae77867657a5",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:5582": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5582",
+      "contentSha256": "d609baae98eeb21cccf231dfbb4bc1182e28db3452c43ea7fec41b3ddc29f4cb",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:559c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:559c",
+      "contentSha256": "84cc8a391f2ea3613303577722204ee1d30ca8be191cf432edfda4fda4c6c9d0",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:559d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:559d",
+      "contentSha256": "d2d846e415d86fe2de7c3e38c1f4944d1a0df9ea0f136be5c52b118ebdb29119",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:56db": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:56db",
+      "contentSha256": "15e73a4d335f203baf600df57adf89da8a28596dfecbb74afb3754a3f036aee6",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:56de": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:56de",
+      "contentSha256": "744f00c6bc0ddc6c0733daee7386906457036a6e512372a76a23600007367fd5",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:56fd": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:56fd",
+      "contentSha256": "c1b1537971d9eb5e90e8a7426f0ad9e0d6bb630e66556d42bf1f5c7d0502ec18",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5728": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5728",
+      "contentSha256": "09410dba3c0b6d6a1c589a87a4a95318ebe2e268da26ee840fe2947b8bbf2dda",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5730": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5730",
+      "contentSha256": "bbbc9b09a292fe41e2a3ac0ac16124558f8c0d52b956bf08c6911aeb8c24e9d7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:5750": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5750",
+      "contentSha256": "88a3484c1e0884289f81b94a8067f1e82df89406ff4df54d5523fde32fc0e78a",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:5757": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5757",
+      "contentSha256": "2029803c9ffde6e45b3bda4e0284a92d908a331745170146e4f9da54364b273b",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:58eb": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:58eb",
+      "contentSha256": "4557e33bb8bb1a1420f3acc564787bc3e0902958efee0c2b14ab500da12f7dbc",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5916": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5916",
+      "contentSha256": "d0bea0be366426f83c8b3e941dbade563d11edcc0e3f21336ed4a8a145441f29",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:591a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:591a",
+      "contentSha256": "49767ac2c5bc51ae060a233544a16e01d132252189c9543cf56067368498eb18",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5927": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5927",
+      "contentSha256": "e67f11385b2958a4a087740e147cd9a3a2988d8c42f83978869e28c6a9580542",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5929": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5929",
+      "contentSha256": "c7f9dfedcd8bc42a0a16fb4c1ff4c355a9abd539ad94239e441f0f143610af8c",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:592a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:592a",
+      "contentSha256": "b5d9595ed8cb5a0af8c35861f041a2c8af72880f28e5bb19e0ede68d80dde9a7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:5976": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5976",
+      "contentSha256": "533e3a04e19d3cccbf847cd073c6c784e4d37b60ec94f89b1ba54527ccc8b57d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5979": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5979",
+      "contentSha256": "7800e6bf01b5253b116fbf41998b317e8f75376f8207fa27196c117b380f267b",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:597d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:597d",
+      "contentSha256": "c16b47d7948d237b664cfa7de5cc51f5d598c50e6fe758dd02cdd52430a26cdb",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5988": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5988",
+      "contentSha256": "30b93fde55a47a0479a148cf19cbe0e554bba1a01baaa133830348f89c63aa4f",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:59b9": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:59b9",
+      "contentSha256": "0b6875bcf65b8c20208ffb5b6b768c4cf724f77c51aea2019530755219443ad3",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5b50": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5b50",
+      "contentSha256": "c7955bfa945bcf8739f3485defda63d2bf980867083aaaad8d741da74664a115",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5b57": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5b57",
+      "contentSha256": "299e2a41e146cbbfc0fdd322116148a8fe3e12a33926b1f4603a0ffddc690bb4",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5b66": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5b66",
+      "contentSha256": "29e26115f50da66f43af9ba82333d6ab9504604a9df8160b645e2d702e208f14",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5b83": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5b83",
+      "contentSha256": "ef2604c370f778b145a382de7e2dedef32bb40670f58cd02f932d243b6942dc8",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5b9c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5b9c",
+      "contentSha256": "04604f79420cc784ca86bbc136e743665e8c2ee7ca48e49b55c8809ce30757cf",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5ba2": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5ba2",
+      "contentSha256": "fefc8d65358b6103feab3708936845dad49b8c78213748be6a5eb214a34faaaa",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:5bb6": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5bb6",
+      "contentSha256": "b92661514d528b549d0ce5d02a13cb62f74f0e80cb7a57f663b528cd79d06c59",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5bf9": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5bf9",
+      "contentSha256": "d2d3a7dbac43d4c1d0c495b1c5f8ce0bb64b92b2d60fb4bcc5633f5959c4bbed",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5c0f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5c0f",
+      "contentSha256": "5a712c9f34beb288d6549a13d2c64a81ab37364219b4892c8b5945c40636ecd9",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5c11": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5c11",
+      "contentSha256": "952179251c059263079010aa39a185448b10feac7bdec695526440201551ba43",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5c81": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5c81",
+      "contentSha256": "77306bbfa8ee9178378196b45192fe21d939da6ae1a978279ff90f66d998d776",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:5de5": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5de5",
+      "contentSha256": "b62d78e3ded6cde45ad701b2efc9de3f521c2dea4a1147f78cbd74a6ae4436a1",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5e02": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5e02",
+      "contentSha256": "bb0a4193199a1a5a06c2e14448e485e8ffaa8c3eb5c1e8a2a8fbeafa1f5fef76",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5e08": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5e08",
+      "contentSha256": "1a913ad5daade13c57c65e8cec2b887a84ff3864e31040f42d4a2a944111aba2",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:5e38": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5e38",
+      "contentSha256": "393f116e46e7ce2f09b7d9b5c820bdbec1e00a97bb897258fec9ed46940b557d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5e74": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5e74",
+      "contentSha256": "e8a73b8099175dfc72405a9f3ab04a4ee4f01be2ca5c6ef6aa1662e6d7c522bf",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:5e8a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5e8a",
+      "contentSha256": "761edc4bdb7e8dc92a8270daa7a3068aa70596934651d3b69efc7cf0e38e29c5",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5e97": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5e97",
+      "contentSha256": "626a2bffe72fddd7b7cbd0094f03fd5da2198e9211e539644ba31b3f1ad6ed7b",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:5f00": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5f00",
+      "contentSha256": "49cb392c6f37ad46e85ce35037c877da352fa17fe05bec59bb8881f1e888691d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:5f1f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5f1f",
+      "contentSha256": "370d2b903ba7bb15bdcbc27cda0dfbfd1ea6b0026f9a8551c5340b41eab80e3b",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5f71": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5f71",
+      "contentSha256": "6e5a0f1678346d1ba1d843850fedc3638d825718684abaaed01e7e34657a0ee4",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:5f97": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5f97",
+      "contentSha256": "9d2d7b73e07661a094950c99f54a7b62bb643a0d6884aa5646a922e59b689e9e",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:5fd9": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:5fd9",
+      "contentSha256": "ecd1214061c62bd8bd1990f92bb533e93872bae0f4d8e84099ca39818aa7e3f6",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:600e": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:600e",
+      "contentSha256": "884ba6417f2fec6ef8d251064815d5f0ac64c89518299e97981590f155009338",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:606f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:606f",
+      "contentSha256": "51ffad1cd77f1fc7a7569892253a285aa7aca7c0e887c137ff8a4e6ec49386a9",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:60a8": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:60a8",
+      "contentSha256": "7b1ad0cbc071968290f178e7c7df1dae4d23a75c80498c51e199d387bba0ca03",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:60f3": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:60f3",
+      "contentSha256": "f75157a8f6811e3390fb9dc35e2ea7644988538681a94a2c88b5f2eba8bd8e5f",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:6211": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6211",
+      "contentSha256": "7c15d989b47970f7484b74a63919e3bf1c38067778a385c1943dad03ec425fce",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:623f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:623f",
+      "contentSha256": "3ef630777e646d929a285a7ee1ff646b293aa1d4b80a39ab5b4df384c67c0d71",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:624b": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:624b",
+      "contentSha256": "c92a4459f4bfdd056e21421c8cfb9b7afe147dd9e01431f1b7315b7c4cd8d249",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:6253": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6253",
+      "contentSha256": "f84b92434facfedb13c959e816b6bf9d81b50304ecc7a848a90330e5316281a3",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:6587": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6587",
+      "contentSha256": "64c527ba301596fc2c6b4f0eb397bcdb432836f3d7a3455f6d8f377376781976",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:65b0": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:65b0",
+      "contentSha256": "7ac7373643bd3b243aaffcd8a4d0a8027398e98a681db75d774f1ab8b4a18b43",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:65e5": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:65e5",
+      "contentSha256": "b41af7fc9c66c70a00c24287fa58e18f9c39232b50b7416e71bce61f9e4cd4ff",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:65f6": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:65f6",
+      "contentSha256": "761cfbec6740769766c1338f20e32840a616bb1db38e2eba87f20d9915f1bd83",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:661f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:661f",
+      "contentSha256": "11830dbf6d51e925e21cf9b5e23c5ae7a77b7e153f1529a38f624b679cd69900",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:6628": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6628",
+      "contentSha256": "b7830afcbc761eeb876045c5d06169c7591d90fbc0cd368b5b9805feff40fbc7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:662f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:662f",
+      "contentSha256": "b2e86d3f5ee6c63716e6b50ddb15f1278f3188ac9b0fb5c97bbcc7cbf6037a03",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:665a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:665a",
+      "contentSha256": "b58df5d937127989ddf3f3d636587d9d0cc7fef86ee2862d290b670201ddd400",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:6709": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6709",
+      "contentSha256": "1cc02775335f27b4e491738e35c86008864aa63facf0acdc06de74f9efe10920",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:670b": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:670b",
+      "contentSha256": "b5cd5e5fa948ac1b6004b63a158db162bbadd35c50157371b488bf154b1e6fb7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:670d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:670d",
+      "contentSha256": "b65bac48930626f4717316d61f019675c4f90d3068ab644f4dfa4d7d4487f911",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:671f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:671f",
+      "contentSha256": "d38094f1cbfbece5fc76fbe525aabd11eb2a5b157a6d6d07a430ba3b4e4b0498",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:672c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:672c",
+      "contentSha256": "a25afba85073804cdffc1d1cc26bbc0c087a1f0a1cb3ba581a50a8e18d984712",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:673a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:673a",
+      "contentSha256": "896d009afb01a3f6dc029fa9abda08b6e18ab1afef0f38499e07d68a87fd341a",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:6765": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6765",
+      "contentSha256": "52ccef4366ec2473faca1da12f311128092fb5676a9a5f2c8d799a25ad7c549f",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:676f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:676f",
+      "contentSha256": "7d874d1640f5c142bf35702eb4d4c317bda4cbe67fb3417f7f27f830a5806fbd",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:6821": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6821",
+      "contentSha256": "ea5799baa4bec7d3862a9ac243d7f469198a34b4588640e911da965291755df5",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:6837": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6837",
+      "contentSha256": "a8fa561b552324146fd68a5fcacf9327aee6fe84ac9d508c787761737f2bed77",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:684c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:684c",
+      "contentSha256": "d51cec56985348480429605fae03bb59d4aaea1840f727f1b5ccbca396b4a2b8",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:6905": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6905",
+      "contentSha256": "c44bee876a67432d91edae595ac776499aeff57685f78d7cc799cc172569447a",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:6b4c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6b4c",
+      "contentSha256": "914cc26acc0683f73104482ca5dc2fa69b4f2e9ca24856b381e71f2669de9d0a",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:6bd4": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6bd4",
+      "contentSha256": "ee327bf4fdebe5c0d20b965f12c65dd05d8b618dfe1f2e64b74f6e4321103a34",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:6c14": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6c14",
+      "contentSha256": "22a426eae577fb5843596dd67a3362ffe0c135e6b3950a9a550e1dde32ce26c7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:6c49": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6c49",
+      "contentSha256": "6f376b0fef26cea6963a238b3aefb9b28111a13fc5f89baaa09e8e2728db788d",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:6f02": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:6f02",
+      "contentSha256": "a176269fc2474f679783244898703e47b5e93057d8757a235469a0067cf9e50c",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:70ed": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:70ed",
+      "contentSha256": "8ae2f3dd1a64a58a324ff1c083b3a7787ac654580cb24c9c39fa71d2a156928d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:7231": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:7231",
+      "contentSha256": "128a3ff950545f0286a5e5e64070fe20c7ef133fcb38abeabb5596ee37835644",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:7238": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:7238",
+      "contentSha256": "6eee2df2592bc693d3e0c1b7b4243408fe70f8166bedd28e57b9826f9fbab98f",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:725b": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:725b",
+      "contentSha256": "4019c8525e9b74e7b320267fda36515db40a7d7f44b4484899c2bc9e35489811",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:72d7": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:72d7",
+      "contentSha256": "65bd5b83e890fcf0e6246526feb5ae86bf062ca118a05f8aecc87d7162bc44ea",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:732b": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:732b",
+      "contentSha256": "8fcb3364060157bf0cef1c97d7f9ee5c9a8bf5eedeb4730df306bc1398b8a7b0",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:73a9": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:73a9",
+      "contentSha256": "578d7c42a0093718d3d5399e3258901d6a92d4852f8b983fde582ebf7360ac5c",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:73b0": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:73b0",
+      "contentSha256": "127eecb91a3c91cbefbda2d9c97c105801799621e7db85330547a9e8a2d46c4b",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:73ed": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:73ed",
+      "contentSha256": "7dcf889b7ccbed65dd03b0e02399582f90a312e782c25514bd9d4149ad25ae16",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:7535": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:7535",
+      "contentSha256": "0d2cddd464a2666b3c02943c463b818f5d611bc58f390bd9b7279073078182c4",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:75c5": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:75c5",
+      "contentSha256": "4befc21ef2e2ebe5329416d46994bb655b5a3665dc374fc69c63bbf27bd09353",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:767d": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:767d",
+      "contentSha256": "9bdfceb38abf18417ad4b052ef87a01650fd5e49e17832b36071a5fdc551290e",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:767e": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:767e",
+      "contentSha256": "01bdd79a36e6aa0ef9667d11931dd47e62ba43839481984017cdb4d75ad29a7a",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:7684": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:7684",
+      "contentSha256": "7479eb43240146e7ac8b8d6731c00f24d8cfde24c3051814dd71b9f37eb7fb9f",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:770b": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:770b",
+      "contentSha256": "407b807cdc6c996c3614e5256ed56554949cb0dce53b43ec5f8cb9d0a2d9b180",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:771f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:771f",
+      "contentSha256": "1a2d665486c1ed37e09ad08cfc9162db424b6305610d5353c3588f01ac3c51f2",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:77e5": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:77e5",
+      "contentSha256": "07593a0f2034c882bad701b9aa92bd47aad89772c04e30678cf2dcd8fdf12dc3",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:79df": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:79df",
+      "contentSha256": "d8a6bfbbdc8b8ae76d4190b2811e821ce5cf2e500bd8799d821b1fc220534358",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:79f0": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:79f0",
+      "contentSha256": "57f6636072f72fd775b25aa6aa547bcdfd56f70ff6842c4273dc2eb822cc117e",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:7a7f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:7a7f",
+      "contentSha256": "3ccc8ca3bcac355c78fb71f5dd348655d19d7a30f5afe30466029b8454ccb28d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:7b2c": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:7b2c",
+      "contentSha256": "baa88d985c97c0d60b4047f0e9c08945f7f4b7d923fbb362cb89136e8d6acc4f",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:7c73": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:7c73",
+      "contentSha256": "3cdc4d06055076e7b71b6b8287c91f16e2fb5777252e271855de12ac89dc47ee",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:7cfb": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:7cfb",
+      "contentSha256": "410f210559e821926b7fec001141d362adb42558d4f4b9d0d348ba330b095a32",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:8001": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8001",
+      "contentSha256": "da2dd18d00ee2bce935139c7cd74a987fdc00e5b84a3d7879531591f9b0609bf",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:80fd": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:80fd",
+      "contentSha256": "558e3b25fbbab3129cd95b5845a0c98f2290fa0fb6eebf83021b366c7f05524d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:8111": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8111",
+      "contentSha256": "f20c0db0849c7764de4e7ff9f0f54465142643cb41c642068253da37b8294a65",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:82f9": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:82f9",
+      "contentSha256": "41e05619ca932bfbe3ab83e3d7a5c301b0ca0c04235226e49fd93e75bf604ba7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:83dc": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:83dc",
+      "contentSha256": "f96f43a63e9c7c53bb5cfd6f2498599d5246f6703e50c713e651e4ce30053bb4",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:86cb": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:86cb",
+      "contentSha256": "0f9b2eb40a8a5de0899ed0d248ec62a8781577302ce2e50fbbad9d0c5c1065ab",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:8863": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8863",
+      "contentSha256": "f08bc37e4c71179d66f03545210b22b8ca088968a1b773ab63e5d9eeb7fb694b",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:8981": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8981",
+      "contentSha256": "dcd4807e34abbca25ef3073c6a6a5271b0fe0473253694ffcd83fbccf9a5fb5c",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:89c1": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:89c1",
+      "contentSha256": "33be5f800a3ea40c4ca147fa47c1449451e7d8a6d5d2fc6393502d45e5671c48",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:89c6": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:89c6",
+      "contentSha256": "3612decacb96b550f5d84bd22f16af723436893272959ac1d44936d4d522c6f4",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:89c9": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:89c9",
+      "contentSha256": "3a093dcd45eea57096c92b3801f973e8e59f27b662449c998654afa58315e07b",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:8ba4": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8ba4",
+      "contentSha256": "87c0b47099c6c51f2da4b982ded6588ccf2cf72295616b557aebeab38d832fc8",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:8bc6": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8bc6",
+      "contentSha256": "5e3068c2e47f8a4802808ecc321de5a20ec8c5dac126839b53bfcddc8f572ed4",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:8bdd": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8bdd",
+      "contentSha256": "e881204594c22e901f7099b3d424d2235e7f094d6b93bf723a52d3b897e1ad3c",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:8bfb": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8bfb",
+      "contentSha256": "bf2f2b4c731e4bea5b404e1a81b0ca505a2e9883e4b98407e21df1a39f58e1e6",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:8bfe": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8bfe",
+      "contentSha256": "93a66a5a656d943ba0067bbf6741c2f9d404fb1363a5c71322496d6de2ec5d5e",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:8c01": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8c01",
+      "contentSha256": "13b0bbc392cfd3b8a0ed061955be54d9fd196bbe3db4180f87d77d18f2b9beb9",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:8c22": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8c22",
+      "contentSha256": "c1d5bcd14dcc89c47aacd72d56aa57ccc88cdbe1ca241f5c11b17a7b8991a2b3",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:8d35": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8d35",
+      "contentSha256": "bd4880e773f4a5ea66d065d9d5cc7c63ee7c896c021483440ff61e221e817be6",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:8d77": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8d77",
+      "contentSha256": "8cd74ce4f40df721a9f81c121d34224078622f4b5aef66d8aff0476f7f1ff9dc",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:8d85": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8d85",
+      "contentSha256": "ea09f4e81d39b0554d1fffd5f688283d8afbb03c8ff2329197ce2c9ec5c7be7d",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:8f66": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8f66",
+      "contentSha256": "0f6cc1c790432e362ba4c17f371979c436edd25783324dc3885e79b109554cfc",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:8fc7": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8fc7",
+      "contentSha256": "3ebdb4deb2fade28a4deff040cc72d2cf5330778cb07d73889017ccfc77823c7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:8fd8": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8fd8",
+      "contentSha256": "8fc262a7de664bf5ca76c9bcb9dcb7d5f8c2ba141cb76a3dd0c753ba98a109df",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:8fd9": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:8fd9",
+      "contentSha256": "5596eaa15203dee1869f88e7f7988038353faee990ed6347f25ae8d35f82e7b2",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:9053": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:9053",
+      "contentSha256": "cb5c6f31931ddac78bba9d23b5ea0c758ceb5bc4037b02e7a545e3a3d584ddf2",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:90a3": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:90a3",
+      "contentSha256": "494eb60be3228ec5fd6f4241a78df20775a7a418b526b711a648a6a16b0e4269",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+      "batchId": "hf10-phase2-a"
     },
     "char:90fd": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:90fd",
+      "contentSha256": "e724471088ce0c8c6ad0038fe71581adfba56d91e7f7d416acafe4dff5d6664f",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:91cc": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:91cc",
+      "contentSha256": "27bf9b1dedd348a488185f63528dde2e37b4a46e545da5231cd5104263df92ec",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:949f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:949f",
+      "contentSha256": "bfa4e15e9caeef376efa31d0346dd30272769911d54bfb608e2be3a16728239c",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:957f": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:957f",
+      "contentSha256": "4119cfea3c3c488e6a08e4773ac93f9bcd6e34f29829474be1804f54e068d173",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:95f4": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:95f4",
+      "contentSha256": "47870689b813de2144961113437f3231e9dc3024d6676e39086faea84ddf57eb",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch C HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-c"
     },
     "char:9662": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:9662",
+      "contentSha256": "46d93672d32a2cf2df617041568762cd64d7ac999393b79e4a3ca6adff747adb",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:96e8": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:96e8",
+      "contentSha256": "4a07c9c713035c9c94a729967a54c4d48a0d9aa6d13d7296b7037d9d2a6344aa",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:96f6": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:96f6",
+      "contentSha256": "5890d64533b27c74292a24eeecdc4ca5ba5ee684fc2ef1a3895ed1189b2a0251",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:975e": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:975e",
+      "contentSha256": "50aaaa2455c7d049bd3032d6762c479ec3e1887c235ba5a60e78e75cb71d11b7",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:9762": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:9762",
+      "contentSha256": "b9a85ae233115cf37bb73ad6de5aa4f037746ee6a907fdd17b39875de27230b3",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:9898": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:9898",
+      "contentSha256": "fe613c0942602260e62cf99fd6e3e9a5bd42d7dc082a550d2cb38f740f3723af",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:98de": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:98de",
+      "contentSha256": "fa3863915b7b1616b3318db3c39fbb386a5a827cf65985fa0c3f149aef28255a",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:997a": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:997a",
+      "contentSha256": "4b0909d82f29828c36677f6e670103c8f623c157e60369cec2a21898e631b3e8",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     },
     "char:9ad8": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:9ad8",
+      "contentSha256": "5ad189373797611240c038f965c9fb9c80136b8d176d471f1f82b5eb78fffe52",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch B HSK supplemental characters corrected human review approved.",
+      "batchId": "hf10-phase2-b"
     },
     "char:9e21": {
-      "humanContent": "pending",
+      "humanContent": "approved",
       "audioListening": "missing",
-      "targetTier": "Tier2"
+      "targetTier": "Tier2",
+      "characterId": "char:9e21",
+      "contentSha256": "9e9096a32e4d8ee0147d2a1b67d4da029d4f2b4e8ed68ce0ab87b9f9dcbd80a1",
+      "reviewer": "John Ling",
+      "date": "2026-10-26",
+      "evidence": "Batch D HSK supplemental characters human review approved.",
+      "batchId": "hf10-phase2-d"
     }
   },
   "pinyin": {

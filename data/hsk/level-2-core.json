@@ -1,0 +1,4587 @@
+{
+  "version": "hf12-level-two-core-v1",
+  "sourceReleaseId": "hsk-2-2015",
+  "sourceSha256": "7e3c8cac7f8c2be9c0f8b48ed155db234d065b1d874bb98bdc8b845e7a70c76c",
+  "dictionarySourceSha256": "e6e14c761ebc1e66ae2ad7b08fc4c577d6927472bb059d70db6111f0c06abee9",
+  "sourceCount": 150,
+  "coveredCount": 86,
+  "scope": "Additional HSK 2.0 level-2 headwords whose constituent characters already have complete site pages; a subset, not the complete level-2 syllabus. HSK 3.0 remains level 1.",
+  "entries": [
+    {
+      "glyph": "吧",
+      "sourceLabel": "吧",
+      "sourceLocator": "xlsx:新HSK5000词:A152:B152",
+      "ordinal": 1,
+      "itemId": "word:5427",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5427"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ba1",
+            "marked": "bā",
+            "plain": "ba",
+            "search": [
+              "ba1",
+              "bā",
+              "ba"
+            ],
+            "syllables": [
+              "ba1"
+            ]
+          },
+          "senses": [
+            "bar (loanword) (serving drinks, or providing Internet access etc)",
+            "to puff (on a pipe etc)",
+            "(onom.) bang",
+            "abbr. for 貼吧|贴吧[tie1 ba1]"
+          ],
+          "traditional": "吧",
+          "sourceLocator": "cedict_ts.u8:line:20530"
+        },
+        {
+          "pinyin": {
+            "numeric": "ba5",
+            "marked": "ba",
+            "plain": "ba",
+            "search": [
+              "ba5",
+              "ba"
+            ],
+            "syllables": [
+              "ba5"
+            ]
+          },
+          "senses": [
+            "(modal particle indicating suggestion or surmise)",
+            "...right?",
+            "...OK?",
+            "...I presume."
+          ],
+          "traditional": "吧",
+          "sourceLocator": "cedict_ts.u8:line:20531"
+        },
+        {
+          "pinyin": {
+            "numeric": "bia1",
+            "marked": "biā",
+            "plain": "bia",
+            "search": [
+              "bia1",
+              "biā",
+              "bia"
+            ],
+            "syllables": [
+              "bia1"
+            ]
+          },
+          "senses": [
+            "(onom.) smack!"
+          ],
+          "traditional": "吧",
+          "sourceLocator": "cedict_ts.u8:line:20532"
+        }
+      ]
+    },
+    {
+      "glyph": "白",
+      "sourceLabel": "白",
+      "sourceLocator": "xlsx:新HSK5000词:A153:B153",
+      "ordinal": 2,
+      "itemId": "word:767d",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:767d"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "bai2",
+            "marked": "bái",
+            "plain": "bai",
+            "search": [
+              "bai2",
+              "bái",
+              "bai"
+            ],
+            "syllables": [
+              "bai2"
+            ]
+          },
+          "senses": [
+            "surname Bai",
+            "Bai ethnic group"
+          ],
+          "traditional": "白",
+          "sourceLocator": "cedict_ts.u8:line:76534"
+        },
+        {
+          "pinyin": {
+            "numeric": "bai2",
+            "marked": "bái",
+            "plain": "bai",
+            "search": [
+              "bai2",
+              "bái",
+              "bai"
+            ],
+            "syllables": [
+              "bai2"
+            ]
+          },
+          "senses": [
+            "white",
+            "in vain",
+            "free of charge",
+            "(bound form) (of facts, the truth, a situation) clear; evident (e.g. 真相大白[zhen1 xiang4 da4 bai2])",
+            "(bound form) plain; without additions (e.g. 白飯|白饭[bai2 fan4])",
+            "(bound form) to explain; to state (e.g. 辯白|辩白[bian4 bai2])",
+            "(bound form) to give a disdainful look (e.g. 白了他一眼[bai2 le5 ta1 yi1 yan3])",
+            "(bound form) vernacular (e.g. 白話|白话[bai2 hua4])",
+            "(bound form) spoken lines in opera (e.g. 念白[nian4 bai2])",
+            "(bound form) reactionary; anti-communist (e.g. 白區|白区[bai2 qu1])"
+          ],
+          "traditional": "白",
+          "sourceLocator": "cedict_ts.u8:line:76535"
+        }
+      ]
+    },
+    {
+      "glyph": "百",
+      "sourceLabel": "百",
+      "sourceLocator": "xlsx:新HSK5000词:A154:B154",
+      "ordinal": 3,
+      "itemId": "word:767e",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:767e"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "bai3",
+            "marked": "bǎi",
+            "plain": "bai",
+            "search": [
+              "bai3",
+              "bǎi",
+              "bai"
+            ],
+            "syllables": [
+              "bai3"
+            ]
+          },
+          "senses": [
+            "surname Bai"
+          ],
+          "traditional": "百",
+          "sourceLocator": "cedict_ts.u8:line:77002"
+        },
+        {
+          "pinyin": {
+            "numeric": "bai3",
+            "marked": "bǎi",
+            "plain": "bai",
+            "search": [
+              "bai3",
+              "bǎi",
+              "bai"
+            ],
+            "syllables": [
+              "bai3"
+            ]
+          },
+          "senses": [
+            "hundred",
+            "numerous",
+            "all kinds of"
+          ],
+          "traditional": "百",
+          "sourceLocator": "cedict_ts.u8:line:77003"
+        }
+      ]
+    },
+    {
+      "glyph": "比",
+      "sourceLabel": "比",
+      "sourceLocator": "xlsx:新HSK5000词:A157:B157",
+      "ordinal": 6,
+      "itemId": "word:6bd4",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:6bd4"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "bi3",
+            "marked": "bǐ",
+            "plain": "bi",
+            "search": [
+              "bi3",
+              "bǐ",
+              "bi"
+            ],
+            "syllables": [
+              "bi3"
+            ]
+          },
+          "senses": [
+            "Belgium",
+            "Belgian",
+            "abbr. for 比利時|比利时[Bi3 li4 shi2]"
+          ],
+          "traditional": "比",
+          "sourceLocator": "cedict_ts.u8:line:61574"
+        },
+        {
+          "pinyin": {
+            "numeric": "bi1",
+            "marked": "bī",
+            "plain": "bi",
+            "search": [
+              "bi1",
+              "bī",
+              "bi"
+            ],
+            "syllables": [
+              "bi1"
+            ]
+          },
+          "senses": [
+            "euphemistic variant of 屄[bi1]"
+          ],
+          "traditional": "比",
+          "sourceLocator": "cedict_ts.u8:line:61575"
+        },
+        {
+          "pinyin": {
+            "numeric": "bi3",
+            "marked": "bǐ",
+            "plain": "bi",
+            "search": [
+              "bi3",
+              "bǐ",
+              "bi"
+            ],
+            "syllables": [
+              "bi3"
+            ]
+          },
+          "senses": [
+            "to compare",
+            "(followed by a noun and adjective) more {adj.} than {noun}",
+            "ratio",
+            "to gesture",
+            "(Taiwan pr. [bi4] in some compounds derived from Classical Chinese)"
+          ],
+          "traditional": "比",
+          "sourceLocator": "cedict_ts.u8:line:61576"
+        }
+      ]
+    },
+    {
+      "glyph": "长",
+      "sourceLabel": "长（形容词）",
+      "sourceLocator": "xlsx:新HSK5000词:A160:B160",
+      "ordinal": 9,
+      "itemId": "word:957f",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:957f"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "chang2",
+            "marked": "cháng",
+            "plain": "chang",
+            "search": [
+              "chang2",
+              "cháng",
+              "chang"
+            ],
+            "syllables": [
+              "chang2"
+            ]
+          },
+          "senses": [
+            "long",
+            "(bound form) length",
+            "(bound form) strong point; forte",
+            "(bound form) to be good at",
+            "(literary) surplus; spare (Taiwan pr. [zhang4])"
+          ],
+          "traditional": "長",
+          "sourceLocator": "cedict_ts.u8:line:113094"
+        },
+        {
+          "pinyin": {
+            "numeric": "zhang3",
+            "marked": "zhǎng",
+            "plain": "zhang",
+            "search": [
+              "zhang3",
+              "zhǎng",
+              "zhang"
+            ],
+            "syllables": [
+              "zhang3"
+            ]
+          },
+          "senses": [
+            "chief",
+            "head",
+            "elder",
+            "to grow",
+            "to develop",
+            "to increase",
+            "to enhance"
+          ],
+          "traditional": "長",
+          "sourceLocator": "cedict_ts.u8:line:113095"
+        }
+      ]
+    },
+    {
+      "glyph": "唱歌",
+      "sourceLabel": "唱歌",
+      "sourceLocator": "xlsx:新HSK5000词:A161:B161",
+      "ordinal": 10,
+      "itemId": "word:5531-6b4c",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5531",
+        "char:6b4c"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "chang4 ge1",
+            "marked": "chàng gē",
+            "plain": "chang ge",
+            "search": [
+              "chang4 ge1",
+              "chàng gē",
+              "chang ge"
+            ],
+            "syllables": [
+              "chang4",
+              "ge1"
+            ]
+          },
+          "senses": [
+            "to sing a song"
+          ],
+          "traditional": "唱歌",
+          "sourceLocator": "cedict_ts.u8:line:22106"
+        }
+      ]
+    },
+    {
+      "glyph": "出",
+      "sourceLabel": "出",
+      "sourceLocator": "xlsx:新HSK5000词:A162:B162",
+      "ordinal": 11,
+      "itemId": "word:51fa",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:51fa"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "chu1",
+            "marked": "chū",
+            "plain": "chu",
+            "search": [
+              "chu1",
+              "chū",
+              "chu"
+            ],
+            "syllables": [
+              "chu1"
+            ]
+          },
+          "senses": [
+            "to go out; to come out",
+            "to arise; to occur",
+            "to produce; to yield",
+            "to go beyond; to exceed",
+            "(used after a verb to indicate an outward direction or a positive result)",
+            "classifier for dramas, plays, operas etc"
+          ],
+          "traditional": "出",
+          "sourceLocator": "cedict_ts.u8:line:13105"
+        },
+        {
+          "pinyin": {
+            "numeric": "chu1",
+            "marked": "chū",
+            "plain": "chu",
+            "search": [
+              "chu1",
+              "chū",
+              "chu"
+            ],
+            "syllables": [
+              "chu1"
+            ]
+          },
+          "senses": [
+            "variant of 出[chu1] (classifier for plays or chapters of classical novels)"
+          ],
+          "traditional": "齣",
+          "sourceLocator": "cedict_ts.u8:line:125063"
+        }
+      ]
+    },
+    {
+      "glyph": "穿",
+      "sourceLabel": "穿",
+      "sourceLocator": "xlsx:新HSK5000词:A163:B163",
+      "ordinal": 12,
+      "itemId": "word:7a7f",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:7a7f"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "chuan1",
+            "marked": "chuān",
+            "plain": "chuan",
+            "search": [
+              "chuan1",
+              "chuān",
+              "chuan"
+            ],
+            "syllables": [
+              "chuan1"
+            ]
+          },
+          "senses": [
+            "to bore through; to pierce; to perforate",
+            "to go through (e.g. a tunnel); to cross (e.g. a street)",
+            "to thread; to string together",
+            "to wear; to put on (clothes, shoes etc.)",
+            "verb complement indicating thoroughness or completion"
+          ],
+          "traditional": "穿",
+          "sourceLocator": "cedict_ts.u8:line:82286"
+        }
+      ]
+    },
+    {
+      "glyph": "大家",
+      "sourceLabel": "大家",
+      "sourceLocator": "xlsx:新HSK5000词:A168:B168",
+      "ordinal": 17,
+      "itemId": "word:5927-5bb6",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5927",
+        "char:5bb6"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "da4 jia1",
+            "marked": "dà jiā",
+            "plain": "da jia",
+            "search": [
+              "da4 jia1",
+              "dà jiā",
+              "da jia"
+            ],
+            "syllables": [
+              "da4",
+              "jia1"
+            ]
+          },
+          "senses": [
+            "everyone",
+            "influential family",
+            "great expert"
+          ],
+          "traditional": "大家",
+          "sourceLocator": "cedict_ts.u8:line:27934"
+        }
+      ]
+    },
+    {
+      "glyph": "到",
+      "sourceLabel": "到",
+      "sourceLocator": "xlsx:新HSK5000词:A169:B169",
+      "ordinal": 18,
+      "itemId": "word:5230",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5230"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "dao4",
+            "marked": "dào",
+            "plain": "dao",
+            "search": [
+              "dao4",
+              "dào",
+              "dao"
+            ],
+            "syllables": [
+              "dao4"
+            ]
+          },
+          "senses": [
+            "to reach; to arrive",
+            "to leave for; to go to",
+            "to (a place); until (a time); up to (a point)",
+            "(verb complement indicating arriving at a place or reaching a point)",
+            "considerate; thoughtful; thorough"
+          ],
+          "traditional": "到",
+          "sourceLocator": "cedict_ts.u8:line:14175"
+        }
+      ]
+    },
+    {
+      "glyph": "得",
+      "sourceLabel": "得（助词）",
+      "sourceLocator": "xlsx:新HSK5000词:A170:B170",
+      "ordinal": 19,
+      "itemId": "word:5f97",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5f97"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "de2",
+            "marked": "dé",
+            "plain": "de",
+            "search": [
+              "de2",
+              "dé",
+              "de"
+            ],
+            "syllables": [
+              "de2"
+            ]
+          },
+          "senses": [
+            "to obtain",
+            "to get",
+            "to gain",
+            "to catch (a disease)",
+            "proper",
+            "suitable",
+            "proud",
+            "contented",
+            "to allow",
+            "to permit",
+            "ready",
+            "finished"
+          ],
+          "traditional": "得",
+          "sourceLocator": "cedict_ts.u8:line:40262"
+        },
+        {
+          "pinyin": {
+            "numeric": "de4",
+            "marked": "dè",
+            "plain": "de",
+            "search": [
+              "de4",
+              "dè",
+              "de"
+            ],
+            "syllables": [
+              "de4"
+            ]
+          },
+          "senses": [
+            "used in 得瑟[de4 se5]"
+          ],
+          "traditional": "得",
+          "sourceLocator": "cedict_ts.u8:line:40263"
+        },
+        {
+          "pinyin": {
+            "numeric": "de5",
+            "marked": "de",
+            "plain": "de",
+            "search": [
+              "de5",
+              "de"
+            ],
+            "syllables": [
+              "de5"
+            ]
+          },
+          "senses": [
+            "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
+          ],
+          "traditional": "得",
+          "sourceLocator": "cedict_ts.u8:line:40264"
+        },
+        {
+          "pinyin": {
+            "numeric": "dei3",
+            "marked": "děi",
+            "plain": "dei",
+            "search": [
+              "dei3",
+              "děi",
+              "dei"
+            ],
+            "syllables": [
+              "dei3"
+            ]
+          },
+          "senses": [
+            "to have to",
+            "must",
+            "ought to",
+            "to need to"
+          ],
+          "traditional": "得",
+          "sourceLocator": "cedict_ts.u8:line:40265"
+        }
+      ]
+    },
+    {
+      "glyph": "弟弟",
+      "sourceLabel": "弟弟",
+      "sourceLocator": "xlsx:新HSK5000词:A172:B172",
+      "ordinal": 21,
+      "itemId": "word:5f1f-5f1f",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5f1f"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "di4 di5",
+            "marked": "dì di",
+            "plain": "di di",
+            "search": [
+              "di4 di5",
+              "dì di",
+              "di di"
+            ],
+            "syllables": [
+              "di4",
+              "di5"
+            ]
+          },
+          "senses": [
+            "younger brother",
+            "CL:個|个[ge4],位[wei4]"
+          ],
+          "traditional": "弟弟",
+          "sourceLocator": "cedict_ts.u8:line:39253"
+        }
+      ]
+    },
+    {
+      "glyph": "第一",
+      "sourceLabel": "第一",
+      "sourceLocator": "xlsx:新HSK5000词:A173:B173",
+      "ordinal": 22,
+      "itemId": "word:7b2c-4e00",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:7b2c",
+        "char:4e00"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "di4 yi1",
+            "marked": "dì yī",
+            "plain": "di yi",
+            "search": [
+              "di4 yi1",
+              "dì yī",
+              "di yi"
+            ],
+            "syllables": [
+              "di4",
+              "yi1"
+            ]
+          },
+          "senses": [
+            "first",
+            "most important; primary; foremost"
+          ],
+          "traditional": "第一",
+          "sourceLocator": "cedict_ts.u8:line:83037"
+        }
+      ]
+    },
+    {
+      "glyph": "对",
+      "sourceLabel": "对",
+      "sourceLocator": "xlsx:新HSK5000词:A175:B175",
+      "ordinal": 24,
+      "itemId": "word:5bf9",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5bf9"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "dui4",
+            "marked": "duì",
+            "plain": "dui",
+            "search": [
+              "dui4",
+              "duì",
+              "dui"
+            ],
+            "syllables": [
+              "dui4"
+            ]
+          },
+          "senses": [
+            "right; correct",
+            "towards; at; for",
+            "concerning; regarding",
+            "to treat (sb a certain way)",
+            "to face",
+            "(bound form) opposite; facing; matching",
+            "to match together; to adjust",
+            "to fit; to suit",
+            "to answer; to reply",
+            "to add; to pour in (a fluid)",
+            "to check; to compare",
+            "classifier: couple; pair"
+          ],
+          "traditional": "對",
+          "sourceLocator": "cedict_ts.u8:line:34170"
+        }
+      ]
+    },
+    {
+      "glyph": "房间",
+      "sourceLabel": "房间",
+      "sourceLocator": "xlsx:新HSK5000词:A176:B176",
+      "ordinal": 25,
+      "itemId": "word:623f-95f4",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:623f",
+        "char:95f4"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "fang2 jian1",
+            "marked": "fáng jiān",
+            "plain": "fang jian",
+            "search": [
+              "fang2 jian1",
+              "fáng jiān",
+              "fang jian"
+            ],
+            "syllables": [
+              "fang2",
+              "jian1"
+            ]
+          },
+          "senses": [
+            "room",
+            "CL:間|间[jian1]"
+          ],
+          "traditional": "房間",
+          "sourceLocator": "cedict_ts.u8:line:44286"
+        }
+      ]
+    },
+    {
+      "glyph": "非常",
+      "sourceLabel": "非常",
+      "sourceLocator": "xlsx:新HSK5000词:A177:B177",
+      "ordinal": 26,
+      "itemId": "word:975e-5e38",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:975e",
+        "char:5e38"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "fei1 chang2",
+            "marked": "fēi cháng",
+            "plain": "fei chang",
+            "search": [
+              "fei1 chang2",
+              "fēi cháng",
+              "fei chang"
+            ],
+            "syllables": [
+              "fei1",
+              "chang2"
+            ]
+          },
+          "senses": [
+            "very; really",
+            "unusual; extraordinary"
+          ],
+          "traditional": "非常",
+          "sourceLocator": "cedict_ts.u8:line:118014"
+        }
+      ]
+    },
+    {
+      "glyph": "高",
+      "sourceLabel": "高",
+      "sourceLocator": "xlsx:新HSK5000词:A179:B179",
+      "ordinal": 28,
+      "itemId": "word:9ad8",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:9ad8"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "gao1",
+            "marked": "gāo",
+            "plain": "gao",
+            "search": [
+              "gao1",
+              "gāo",
+              "gao"
+            ],
+            "syllables": [
+              "gao1"
+            ]
+          },
+          "senses": [
+            "surname Gao"
+          ],
+          "traditional": "高",
+          "sourceLocator": "cedict_ts.u8:line:121779"
+        },
+        {
+          "pinyin": {
+            "numeric": "gao1",
+            "marked": "gāo",
+            "plain": "gao",
+            "search": [
+              "gao1",
+              "gāo",
+              "gao"
+            ],
+            "syllables": [
+              "gao1"
+            ]
+          },
+          "senses": [
+            "high",
+            "tall",
+            "above average",
+            "loud",
+            "your (honorific)"
+          ],
+          "traditional": "高",
+          "sourceLocator": "cedict_ts.u8:line:121780"
+        }
+      ]
+    },
+    {
+      "glyph": "哥哥",
+      "sourceLabel": "哥哥",
+      "sourceLocator": "xlsx:新HSK5000词:A181:B181",
+      "ordinal": 30,
+      "itemId": "word:54e5-54e5",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:54e5"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ge1 ge5",
+            "marked": "gē ge",
+            "plain": "ge ge",
+            "search": [
+              "ge1 ge5",
+              "gē ge",
+              "ge ge"
+            ],
+            "syllables": [
+              "ge1",
+              "ge5"
+            ]
+          },
+          "senses": [
+            "older brother",
+            "CL:個|个[ge4],位[wei4]"
+          ],
+          "traditional": "哥哥",
+          "sourceLocator": "cedict_ts.u8:line:21777"
+        }
+      ]
+    },
+    {
+      "glyph": "给",
+      "sourceLabel": "给",
+      "sourceLocator": "xlsx:新HSK5000词:A182:B182",
+      "ordinal": 31,
+      "itemId": "word:7ed9",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:7ed9"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "gei3",
+            "marked": "gěi",
+            "plain": "gei",
+            "search": [
+              "gei3",
+              "gěi",
+              "gei"
+            ],
+            "syllables": [
+              "gei3"
+            ]
+          },
+          "senses": [
+            "to",
+            "for",
+            "for the benefit of",
+            "to give",
+            "to allow",
+            "to do sth (for sb)",
+            "(grammatical equivalent of 被)",
+            "(grammatical equivalent of 把)",
+            "(sentence intensifier)"
+          ],
+          "traditional": "給",
+          "sourceLocator": "cedict_ts.u8:line:85861"
+        },
+        {
+          "pinyin": {
+            "numeric": "ji3",
+            "marked": "jǐ",
+            "plain": "ji",
+            "search": [
+              "ji3",
+              "jǐ",
+              "ji"
+            ],
+            "syllables": [
+              "ji3"
+            ]
+          },
+          "senses": [
+            "(bound form) to supply; to provide",
+            "(literary) sufficient; abundant"
+          ],
+          "traditional": "給",
+          "sourceLocator": "cedict_ts.u8:line:85862"
+        }
+      ]
+    },
+    {
+      "glyph": "公司",
+      "sourceLabel": "公司",
+      "sourceLocator": "xlsx:新HSK5000词:A184:B184",
+      "ordinal": 33,
+      "itemId": "word:516c-53f8",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:516c",
+        "char:53f8"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "gong1 si1",
+            "marked": "gōng sī",
+            "plain": "gong si",
+            "search": [
+              "gong1 si1",
+              "gōng sī",
+              "gong si"
+            ],
+            "syllables": [
+              "gong1",
+              "si1"
+            ]
+          },
+          "senses": [
+            "company; firm; corporation",
+            "CL:家[jia1]"
+          ],
+          "traditional": "公司",
+          "sourceLocator": "cedict_ts.u8:line:11811"
+        }
+      ]
+    },
+    {
+      "glyph": "贵",
+      "sourceLabel": "贵",
+      "sourceLocator": "xlsx:新HSK5000词:A185:B185",
+      "ordinal": 34,
+      "itemId": "word:8d35",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:8d35"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "gui4",
+            "marked": "guì",
+            "plain": "gui",
+            "search": [
+              "gui4",
+              "guì",
+              "gui"
+            ],
+            "syllables": [
+              "gui4"
+            ]
+          },
+          "senses": [
+            "short name for Guizhou 貴州|贵州[Gui4 zhou1]"
+          ],
+          "traditional": "貴",
+          "sourceLocator": "cedict_ts.u8:line:103476"
+        },
+        {
+          "pinyin": {
+            "numeric": "gui4",
+            "marked": "guì",
+            "plain": "gui",
+            "search": [
+              "gui4",
+              "guì",
+              "gui"
+            ],
+            "syllables": [
+              "gui4"
+            ]
+          },
+          "senses": [
+            "expensive",
+            "(bound form) highly valued; precious",
+            "(bound form) noble; of high rank",
+            "(prefix) (honorific) your"
+          ],
+          "traditional": "貴",
+          "sourceLocator": "cedict_ts.u8:line:103477"
+        }
+      ]
+    },
+    {
+      "glyph": "过",
+      "sourceLabel": "过（助词）",
+      "sourceLocator": "xlsx:新HSK5000词:A186:B186",
+      "ordinal": 35,
+      "itemId": "word:8fc7",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:8fc7"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "guo1",
+            "marked": "guō",
+            "plain": "guo",
+            "search": [
+              "guo1",
+              "guō",
+              "guo"
+            ],
+            "syllables": [
+              "guo1"
+            ]
+          },
+          "senses": [
+            "surname Guo"
+          ],
+          "traditional": "過",
+          "sourceLocator": "cedict_ts.u8:line:108647"
+        },
+        {
+          "pinyin": {
+            "numeric": "guo4",
+            "marked": "guò",
+            "plain": "guo",
+            "search": [
+              "guo4",
+              "guò",
+              "guo"
+            ],
+            "syllables": [
+              "guo4"
+            ]
+          },
+          "senses": [
+            "to cross",
+            "to go over",
+            "to pass (time)",
+            "to celebrate (a holiday)",
+            "to live",
+            "to get along",
+            "excessively",
+            "too-"
+          ],
+          "traditional": "過",
+          "sourceLocator": "cedict_ts.u8:line:108648"
+        },
+        {
+          "pinyin": {
+            "numeric": "guo5",
+            "marked": "guo",
+            "plain": "guo",
+            "search": [
+              "guo5",
+              "guo"
+            ],
+            "syllables": [
+              "guo5"
+            ]
+          },
+          "senses": [
+            "(experienced action marker)"
+          ],
+          "traditional": "過",
+          "sourceLocator": "cedict_ts.u8:line:108649"
+        }
+      ]
+    },
+    {
+      "glyph": "还",
+      "sourceLabel": "还（副词）",
+      "sourceLocator": "xlsx:新HSK5000词:A187:B187",
+      "ordinal": 36,
+      "itemId": "word:8fd8",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:8fd8"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "huan2",
+            "marked": "huán",
+            "plain": "huan",
+            "search": [
+              "huan2",
+              "huán",
+              "huan"
+            ],
+            "syllables": [
+              "huan2"
+            ]
+          },
+          "senses": [
+            "surname Huan"
+          ],
+          "traditional": "還",
+          "sourceLocator": "cedict_ts.u8:line:109535"
+        },
+        {
+          "pinyin": {
+            "numeric": "hai2",
+            "marked": "hái",
+            "plain": "hai",
+            "search": [
+              "hai2",
+              "hái",
+              "hai"
+            ],
+            "syllables": [
+              "hai2"
+            ]
+          },
+          "senses": [
+            "still",
+            "still in progress",
+            "still more",
+            "yet",
+            "even more",
+            "in addition",
+            "fairly",
+            "passably (good)",
+            "as early as",
+            "even",
+            "also",
+            "else"
+          ],
+          "traditional": "還",
+          "sourceLocator": "cedict_ts.u8:line:109536"
+        },
+        {
+          "pinyin": {
+            "numeric": "huan2",
+            "marked": "huán",
+            "plain": "huan",
+            "search": [
+              "huan2",
+              "huán",
+              "huan"
+            ],
+            "syllables": [
+              "huan2"
+            ]
+          },
+          "senses": [
+            "to pay back",
+            "to return"
+          ],
+          "traditional": "還",
+          "sourceLocator": "cedict_ts.u8:line:109537"
+        }
+      ]
+    },
+    {
+      "glyph": "孩子",
+      "sourceLabel": "孩子",
+      "sourceLocator": "xlsx:新HSK5000词:A188:B188",
+      "ordinal": 37,
+      "itemId": "word:5b69-5b50",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5b69",
+        "char:5b50"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "hai2 zi5",
+            "marked": "hái zi",
+            "plain": "hai zi",
+            "search": [
+              "hai2 zi5",
+              "hái zi",
+              "hai zi"
+            ],
+            "syllables": [
+              "hai2",
+              "zi5"
+            ]
+          },
+          "senses": [
+            "child"
+          ],
+          "traditional": "孩子",
+          "sourceLocator": "cedict_ts.u8:line:31662"
+        }
+      ]
+    },
+    {
+      "glyph": "好吃",
+      "sourceLabel": "好吃",
+      "sourceLocator": "xlsx:新HSK5000词:A189:B189",
+      "ordinal": 38,
+      "itemId": "word:597d-5403",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:597d",
+        "char:5403"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "hao3 chi1",
+            "marked": "hǎo chī",
+            "plain": "hao chi",
+            "search": [
+              "hao3 chi1",
+              "hǎo chī",
+              "hao chi"
+            ],
+            "syllables": [
+              "hao3",
+              "chi1"
+            ]
+          },
+          "senses": [
+            "tasty; delicious"
+          ],
+          "traditional": "好吃",
+          "sourceLocator": "cedict_ts.u8:line:30111"
+        },
+        {
+          "pinyin": {
+            "numeric": "hao4 chi1",
+            "marked": "hào chī",
+            "plain": "hao chi",
+            "search": [
+              "hao4 chi1",
+              "hào chī",
+              "hao chi"
+            ],
+            "syllables": [
+              "hao4",
+              "chi1"
+            ]
+          },
+          "senses": [
+            "to be fond of eating; to be gluttonous"
+          ],
+          "traditional": "好吃",
+          "sourceLocator": "cedict_ts.u8:line:30112"
+        }
+      ]
+    },
+    {
+      "glyph": "黑",
+      "sourceLabel": "黑",
+      "sourceLocator": "xlsx:新HSK5000词:A190:B190",
+      "ordinal": 39,
+      "itemId": "word:9ed1",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:9ed1"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "hei1",
+            "marked": "hēi",
+            "plain": "hei",
+            "search": [
+              "hei1",
+              "hēi",
+              "hei"
+            ],
+            "syllables": [
+              "hei1"
+            ]
+          },
+          "senses": [
+            "short name for Heilongjiang 黑龍江|黑龙江[Hei1 long2 jiang1]"
+          ],
+          "traditional": "黑",
+          "sourceLocator": "cedict_ts.u8:line:124230"
+        },
+        {
+          "pinyin": {
+            "numeric": "hei1",
+            "marked": "hēi",
+            "plain": "hei",
+            "search": [
+              "hei1",
+              "hēi",
+              "hei"
+            ],
+            "syllables": [
+              "hei1"
+            ]
+          },
+          "senses": [
+            "black",
+            "dark",
+            "sinister",
+            "secret",
+            "shady",
+            "illegal",
+            "to hide (sth) away",
+            "to vilify",
+            "(loanword) to hack (computing)"
+          ],
+          "traditional": "黑",
+          "sourceLocator": "cedict_ts.u8:line:124231"
+        }
+      ]
+    },
+    {
+      "glyph": "鸡蛋",
+      "sourceLabel": "鸡蛋",
+      "sourceLocator": "xlsx:新HSK5000词:A194:B194",
+      "ordinal": 43,
+      "itemId": "word:9e21-86cb",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:9e21",
+        "char:86cb"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ji1 dan4",
+            "marked": "jī dàn",
+            "plain": "ji dan",
+            "search": [
+              "ji1 dan4",
+              "jī dàn",
+              "ji dan"
+            ],
+            "syllables": [
+              "ji1",
+              "dan4"
+            ]
+          },
+          "senses": [
+            "(chicken) egg",
+            "hen's egg",
+            "CL:個|个[ge4],打[da2]"
+          ],
+          "traditional": "雞蛋",
+          "sourceLocator": "cedict_ts.u8:line:116540"
+        }
+      ]
+    },
+    {
+      "glyph": "件",
+      "sourceLabel": "件",
+      "sourceLocator": "xlsx:新HSK5000词:A195:B195",
+      "ordinal": 44,
+      "itemId": "word:4ef6",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:4ef6"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "jian4",
+            "marked": "jiàn",
+            "plain": "jian",
+            "search": [
+              "jian4",
+              "jiàn",
+              "jian"
+            ],
+            "syllables": [
+              "jian4"
+            ]
+          },
+          "senses": [
+            "item",
+            "component",
+            "classifier for events, things, clothes etc"
+          ],
+          "traditional": "件",
+          "sourceLocator": "cedict_ts.u8:line:6605"
+        }
+      ]
+    },
+    {
+      "glyph": "姐姐",
+      "sourceLabel": "姐姐",
+      "sourceLocator": "xlsx:新HSK5000词:A197:B197",
+      "ordinal": 46,
+      "itemId": "word:59d0-59d0",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:59d0"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "jie3 jie5",
+            "marked": "jiě jie",
+            "plain": "jie jie",
+            "search": [
+              "jie3 jie5",
+              "jiě jie",
+              "jie jie"
+            ],
+            "syllables": [
+              "jie3",
+              "jie5"
+            ]
+          },
+          "senses": [
+            "older sister",
+            "CL:個|个[ge4]"
+          ],
+          "traditional": "姐姐",
+          "sourceLocator": "cedict_ts.u8:line:30521"
+        }
+      ]
+    },
+    {
+      "glyph": "进",
+      "sourceLabel": "进",
+      "sourceLocator": "xlsx:新HSK5000词:A199:B199",
+      "ordinal": 48,
+      "itemId": "word:8fdb",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:8fdb"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "jin4",
+            "marked": "jìn",
+            "plain": "jin",
+            "search": [
+              "jin4",
+              "jìn",
+              "jin"
+            ],
+            "syllables": [
+              "jin4"
+            ]
+          },
+          "senses": [
+            "to go forward",
+            "to advance",
+            "to go in",
+            "to enter",
+            "to put in",
+            "to submit",
+            "to take in",
+            "to admit",
+            "(math.) base of a number system",
+            "classifier for sections in a building or residential compound"
+          ],
+          "traditional": "進",
+          "sourceLocator": "cedict_ts.u8:line:108316"
+        }
+      ]
+    },
+    {
+      "glyph": "觉得",
+      "sourceLabel": "觉得",
+      "sourceLocator": "xlsx:新HSK5000词:A202:B202",
+      "ordinal": 51,
+      "itemId": "word:89c9-5f97",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:89c9",
+        "char:5f97"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "jue2 de5",
+            "marked": "jué de",
+            "plain": "jue de",
+            "search": [
+              "jue2 de5",
+              "jué de",
+              "jue de"
+            ],
+            "syllables": [
+              "jue2",
+              "de5"
+            ]
+          },
+          "senses": [
+            "to think that ...; to feel that ...",
+            "to feel (uncomfortable etc)"
+          ],
+          "traditional": "覺得",
+          "sourceLocator": "cedict_ts.u8:line:100124"
+        }
+      ]
+    },
+    {
+      "glyph": "可能",
+      "sourceLabel": "可能",
+      "sourceLocator": "xlsx:新HSK5000词:A206:B206",
+      "ordinal": 55,
+      "itemId": "word:53ef-80fd",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:53ef",
+        "char:80fd"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ke3 neng2",
+            "marked": "kě néng",
+            "plain": "ke neng",
+            "search": [
+              "ke3 neng2",
+              "kě néng",
+              "ke neng"
+            ],
+            "syllables": [
+              "ke3",
+              "neng2"
+            ]
+          },
+          "senses": [
+            "might (happen)",
+            "possible",
+            "probable",
+            "possibility",
+            "probability",
+            "maybe",
+            "perhaps",
+            "CL:個|个[ge4]"
+          ],
+          "traditional": "可能",
+          "sourceLocator": "cedict_ts.u8:line:19288"
+        }
+      ]
+    },
+    {
+      "glyph": "可以",
+      "sourceLabel": "可以",
+      "sourceLocator": "xlsx:新HSK5000词:A207:B207",
+      "ordinal": 56,
+      "itemId": "word:53ef-4ee5",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:53ef",
+        "char:4ee5"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ke3 yi3",
+            "marked": "kě yǐ",
+            "plain": "ke yi",
+            "search": [
+              "ke3 yi3",
+              "kě yǐ",
+              "ke yi"
+            ],
+            "syllables": [
+              "ke3",
+              "yi3"
+            ]
+          },
+          "senses": [
+            "can",
+            "may",
+            "possible",
+            "able to",
+            "not bad",
+            "pretty good"
+          ],
+          "traditional": "可以",
+          "sourceLocator": "cedict_ts.u8:line:19168"
+        }
+      ]
+    },
+    {
+      "glyph": "课",
+      "sourceLabel": "课",
+      "sourceLocator": "xlsx:新HSK5000词:A208:B208",
+      "ordinal": 57,
+      "itemId": "word:8bfe",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:8bfe"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ke4",
+            "marked": "kè",
+            "plain": "ke",
+            "search": [
+              "ke4",
+              "kè",
+              "ke"
+            ],
+            "syllables": [
+              "ke4"
+            ]
+          },
+          "senses": [
+            "subject",
+            "course",
+            "CL:門|门[men2]",
+            "class",
+            "lesson",
+            "CL:堂[tang2],節|节[jie2]",
+            "to levy",
+            "tax",
+            "form of divination"
+          ],
+          "traditional": "課",
+          "sourceLocator": "cedict_ts.u8:line:101591"
+        }
+      ]
+    },
+    {
+      "glyph": "快",
+      "sourceLabel": "快",
+      "sourceLocator": "xlsx:新HSK5000词:A209:B209",
+      "ordinal": 58,
+      "itemId": "word:5feb",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5feb"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "kuai4",
+            "marked": "kuài",
+            "plain": "kuai",
+            "search": [
+              "kuai4",
+              "kuài",
+              "kuai"
+            ],
+            "syllables": [
+              "kuai4"
+            ]
+          },
+          "senses": [
+            "rapid",
+            "quick",
+            "speed",
+            "rate",
+            "soon",
+            "almost",
+            "to make haste",
+            "clever",
+            "sharp (of knives or wits)",
+            "forthright",
+            "plainspoken",
+            "gratified",
+            "pleased",
+            "pleasant"
+          ],
+          "traditional": "快",
+          "sourceLocator": "cedict_ts.u8:line:41271"
+        }
+      ]
+    },
+    {
+      "glyph": "两",
+      "sourceLabel": "两",
+      "sourceLocator": "xlsx:新HSK5000词:A213:B213",
+      "ordinal": 62,
+      "itemId": "word:4e24",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:4e24"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "liang3",
+            "marked": "liǎng",
+            "plain": "liang",
+            "search": [
+              "liang3",
+              "liǎng",
+              "liang"
+            ],
+            "syllables": [
+              "liang3"
+            ]
+          },
+          "senses": [
+            "two",
+            "both",
+            "some",
+            "a few",
+            "tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤[jin1] (old)"
+          ],
+          "traditional": "兩",
+          "sourceLocator": "cedict_ts.u8:line:11485"
+        }
+      ]
+    },
+    {
+      "glyph": "零",
+      "sourceLabel": "零",
+      "sourceLocator": "xlsx:新HSK5000词:A214:B214",
+      "ordinal": 63,
+      "itemId": "word:96f6",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:96f6"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ling2",
+            "marked": "líng",
+            "plain": "ling",
+            "search": [
+              "ling2",
+              "líng",
+              "ling"
+            ],
+            "syllables": [
+              "ling2"
+            ]
+          },
+          "senses": [
+            "zero",
+            "nought",
+            "zero sign",
+            "fractional",
+            "fragmentary",
+            "odd (of numbers)",
+            "(placed between two numbers to indicate a smaller quantity followed by a larger one)",
+            "fraction",
+            "(in mathematics) remainder (after division)",
+            "extra",
+            "to wither and fall",
+            "to wither"
+          ],
+          "traditional": "零",
+          "sourceLocator": "cedict_ts.u8:line:116917"
+        }
+      ]
+    },
+    {
+      "glyph": "卖",
+      "sourceLabel": "卖",
+      "sourceLocator": "xlsx:新HSK5000词:A217:B217",
+      "ordinal": 66,
+      "itemId": "word:5356",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5356"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "mai4",
+            "marked": "mài",
+            "plain": "mai",
+            "search": [
+              "mai4",
+              "mài",
+              "mai"
+            ],
+            "syllables": [
+              "mai4"
+            ]
+          },
+          "senses": [
+            "to sell",
+            "to betray",
+            "to spare no effort",
+            "to show off or flaunt"
+          ],
+          "traditional": "賣",
+          "sourceLocator": "cedict_ts.u8:line:103952"
+        }
+      ]
+    },
+    {
+      "glyph": "忙",
+      "sourceLabel": "忙",
+      "sourceLocator": "xlsx:新HSK5000词:A219:B219",
+      "ordinal": 68,
+      "itemId": "word:5fd9",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5fd9"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "mang2",
+            "marked": "máng",
+            "plain": "mang",
+            "search": [
+              "mang2",
+              "máng",
+              "mang"
+            ],
+            "syllables": [
+              "mang2"
+            ]
+          },
+          "senses": [
+            "busy",
+            "hurriedly",
+            "to hurry",
+            "to rush"
+          ],
+          "traditional": "忙",
+          "sourceLocator": "cedict_ts.u8:line:41222"
+        }
+      ]
+    },
+    {
+      "glyph": "妹妹",
+      "sourceLabel": "妹妹",
+      "sourceLocator": "xlsx:新HSK5000词:A221:B221",
+      "ordinal": 70,
+      "itemId": "word:59b9-59b9",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:59b9"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "mei4 mei5",
+            "marked": "mèi mei",
+            "plain": "mei mei",
+            "search": [
+              "mei4 mei5",
+              "mèi mei",
+              "mei mei"
+            ],
+            "syllables": [
+              "mei4",
+              "mei5"
+            ]
+          },
+          "senses": [
+            "younger sister",
+            "young woman",
+            "CL:個|个[ge4]"
+          ],
+          "traditional": "妹妹",
+          "sourceLocator": "cedict_ts.u8:line:30453"
+        }
+      ]
+    },
+    {
+      "glyph": "门",
+      "sourceLabel": "门",
+      "sourceLocator": "xlsx:新HSK5000词:A222:B222",
+      "ordinal": 71,
+      "itemId": "word:95e8",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:95e8"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "men2",
+            "marked": "mén",
+            "plain": "men",
+            "search": [
+              "men2",
+              "mén",
+              "men"
+            ],
+            "syllables": [
+              "men2"
+            ]
+          },
+          "senses": [
+            "surname Men"
+          ],
+          "traditional": "門",
+          "sourceLocator": "cedict_ts.u8:line:113383"
+        },
+        {
+          "pinyin": {
+            "numeric": "men2",
+            "marked": "mén",
+            "plain": "men",
+            "search": [
+              "men2",
+              "mén",
+              "men"
+            ],
+            "syllables": [
+              "men2"
+            ]
+          },
+          "senses": [
+            "gate; door; doorway; gateway; opening (CL:扇[shan4])",
+            "valve; switch; other door-like or gate-like structure",
+            "way to do sth; knack; method; approach",
+            "family; household; lineage",
+            "(bound form) sect; school; faction (religious or academic)",
+            "(bound form) class; category; division; phylum",
+            "classifier for courses, fields of study, branches of technology, relatives by marriage, guns etc",
+            "(suffix) -gate (scandal)"
+          ],
+          "traditional": "門",
+          "sourceLocator": "cedict_ts.u8:line:113384"
+        }
+      ]
+    },
+    {
+      "glyph": "面条",
+      "sourceLabel": "面条",
+      "sourceLocator": "xlsx:新HSK5000词:A223:B223",
+      "ordinal": 72,
+      "itemId": "word:9762-6761",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:9762",
+        "char:6761"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "mian4 tiao2",
+            "marked": "miàn tiáo",
+            "plain": "mian tiao",
+            "search": [
+              "mian4 tiao2",
+              "miàn tiáo",
+              "mian tiao"
+            ],
+            "syllables": [
+              "mian4",
+              "tiao2"
+            ]
+          },
+          "senses": [
+            "noodles"
+          ],
+          "traditional": "麵條",
+          "sourceLocator": "cedict_ts.u8:line:123769"
+        }
+      ]
+    },
+    {
+      "glyph": "男",
+      "sourceLabel": "男",
+      "sourceLocator": "xlsx:新HSK5000词:A224:B224",
+      "ordinal": 73,
+      "itemId": "word:7537",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:7537"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "nan2",
+            "marked": "nán",
+            "plain": "nan",
+            "search": [
+              "nan2",
+              "nán",
+              "nan"
+            ],
+            "syllables": [
+              "nan2"
+            ]
+          },
+          "senses": [
+            "(bound form) male",
+            "baron, the lowest of the five ranks of nobility 五等爵位[wu3 deng3 jue2 wei4]"
+          ],
+          "traditional": "男",
+          "sourceLocator": "cedict_ts.u8:line:75011"
+        }
+      ]
+    },
+    {
+      "glyph": "您",
+      "sourceLabel": "您",
+      "sourceLocator": "xlsx:新HSK5000词:A225:B225",
+      "ordinal": 74,
+      "itemId": "word:60a8",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:60a8"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "nin2",
+            "marked": "nín",
+            "plain": "nin",
+            "search": [
+              "nin2",
+              "nín",
+              "nin"
+            ],
+            "syllables": [
+              "nin2"
+            ]
+          },
+          "senses": [
+            "you (courteous, as opposed to informal 你[ni3])"
+          ],
+          "traditional": "您",
+          "sourceLocator": "cedict_ts.u8:line:42179"
+        }
+      ]
+    },
+    {
+      "glyph": "牛奶",
+      "sourceLabel": "牛奶",
+      "sourceLocator": "xlsx:新HSK5000词:A226:B226",
+      "ordinal": 75,
+      "itemId": "word:725b-5976",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:725b",
+        "char:5976"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "niu2 nai3",
+            "marked": "niú nǎi",
+            "plain": "niu nai",
+            "search": [
+              "niu2 nai3",
+              "niú nǎi",
+              "niu nai"
+            ],
+            "syllables": [
+              "niu2",
+              "nai3"
+            ]
+          },
+          "senses": [
+            "cow's milk",
+            "CL:瓶[ping2],杯[bei1]"
+          ],
+          "traditional": "牛奶",
+          "sourceLocator": "cedict_ts.u8:line:71663"
+        }
+      ]
+    },
+    {
+      "glyph": "女",
+      "sourceLabel": "女",
+      "sourceLocator": "xlsx:新HSK5000词:A227:B227",
+      "ordinal": 76,
+      "itemId": "word:5973",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5973"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "nü3",
+            "marked": "nǚ",
+            "plain": "nü",
+            "search": [
+              "nü3",
+              "nǚ",
+              "nü",
+              "nv",
+              "nu:"
+            ],
+            "syllables": [
+              "nü3"
+            ]
+          },
+          "senses": [
+            "female",
+            "woman",
+            "daughter"
+          ],
+          "traditional": "女",
+          "sourceLocator": "cedict_ts.u8:line:29873"
+        },
+        {
+          "pinyin": {
+            "numeric": "ru3",
+            "marked": "rǔ",
+            "plain": "ru",
+            "search": [
+              "ru3",
+              "rǔ",
+              "ru"
+            ],
+            "syllables": [
+              "ru3"
+            ]
+          },
+          "senses": [
+            "old variant of 汝[ru3]"
+          ],
+          "traditional": "女",
+          "sourceLocator": "cedict_ts.u8:line:29874"
+        }
+      ]
+    },
+    {
+      "glyph": "旁边",
+      "sourceLabel": "旁边",
+      "sourceLocator": "xlsx:新HSK5000词:A228:B228",
+      "ordinal": 77,
+      "itemId": "word:65c1-8fb9",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:65c1",
+        "char:8fb9"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "pang2 bian1",
+            "marked": "páng biān",
+            "plain": "pang bian",
+            "search": [
+              "pang2 bian1",
+              "páng biān",
+              "pang bian"
+            ],
+            "syllables": [
+              "pang2",
+              "bian1"
+            ]
+          },
+          "senses": [
+            "side; adjacent place"
+          ],
+          "traditional": "旁邊",
+          "sourceLocator": "cedict_ts.u8:line:52423"
+        }
+      ]
+    },
+    {
+      "glyph": "便宜",
+      "sourceLabel": "便宜",
+      "sourceLocator": "xlsx:新HSK5000词:A230:B230",
+      "ordinal": 79,
+      "itemId": "word:4fbf-5b9c",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:4fbf",
+        "char:5b9c"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "bian4 yi2",
+            "marked": "biàn yí",
+            "plain": "bian yi",
+            "search": [
+              "bian4 yi2",
+              "biàn yí",
+              "bian yi"
+            ],
+            "syllables": [
+              "bian4",
+              "yi2"
+            ]
+          },
+          "senses": [
+            "convenient"
+          ],
+          "traditional": "便宜",
+          "sourceLocator": "cedict_ts.u8:line:7962"
+        },
+        {
+          "pinyin": {
+            "numeric": "pian2 yi5",
+            "marked": "pián yi",
+            "plain": "pian yi",
+            "search": [
+              "pian2 yi5",
+              "pián yi",
+              "pian yi"
+            ],
+            "syllables": [
+              "pian2",
+              "yi5"
+            ]
+          },
+          "senses": [
+            "cheap; inexpensive",
+            "a petty advantage",
+            "to let sb off lightly"
+          ],
+          "traditional": "便宜",
+          "sourceLocator": "cedict_ts.u8:line:7963"
+        }
+      ]
+    },
+    {
+      "glyph": "起床",
+      "sourceLabel": "起床",
+      "sourceLocator": "xlsx:新HSK5000词:A233:B233",
+      "ordinal": 82,
+      "itemId": "word:8d77-5e8a",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:8d77",
+        "char:5e8a"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "qi3 chuang2",
+            "marked": "qǐ chuáng",
+            "plain": "qi chuang",
+            "search": [
+              "qi3 chuang2",
+              "qǐ chuáng",
+              "qi chuang"
+            ],
+            "syllables": [
+              "qi3",
+              "chuang2"
+            ]
+          },
+          "senses": [
+            "to get out of bed; to get up"
+          ],
+          "traditional": "起床",
+          "sourceLocator": "cedict_ts.u8:line:104585"
+        }
+      ]
+    },
+    {
+      "glyph": "千",
+      "sourceLabel": "千",
+      "sourceLocator": "xlsx:新HSK5000词:A234:B234",
+      "ordinal": 83,
+      "itemId": "word:5343",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5343"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "qian1",
+            "marked": "qiān",
+            "plain": "qian",
+            "search": [
+              "qian1",
+              "qiān",
+              "qian"
+            ],
+            "syllables": [
+              "qian1"
+            ]
+          },
+          "senses": [
+            "thousand"
+          ],
+          "traditional": "千",
+          "sourceLocator": "cedict_ts.u8:line:16661"
+        },
+        {
+          "pinyin": {
+            "numeric": "qian1",
+            "marked": "qiān",
+            "plain": "qian",
+            "search": [
+              "qian1",
+              "qiān",
+              "qian"
+            ],
+            "syllables": [
+              "qian1"
+            ]
+          },
+          "senses": [
+            "used in 鞦韆|秋千[qiu1 qian1]"
+          ],
+          "traditional": "韆",
+          "sourceLocator": "cedict_ts.u8:line:118408"
+        }
+      ]
+    },
+    {
+      "glyph": "去年",
+      "sourceLabel": "去年",
+      "sourceLocator": "xlsx:新HSK5000词:A237:B237",
+      "ordinal": 86,
+      "itemId": "word:53bb-5e74",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:53bb",
+        "char:5e74"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "qu4 nian2",
+            "marked": "qù nián",
+            "plain": "qu nian",
+            "search": [
+              "qu4 nian2",
+              "qù nián",
+              "qu nian"
+            ],
+            "syllables": [
+              "qu4",
+              "nian2"
+            ]
+          },
+          "senses": [
+            "last year"
+          ],
+          "traditional": "去年",
+          "sourceLocator": "cedict_ts.u8:line:18101"
+        }
+      ]
+    },
+    {
+      "glyph": "日",
+      "sourceLabel": "日",
+      "sourceLocator": "xlsx:新HSK5000词:A239:B239",
+      "ordinal": 88,
+      "itemId": "word:65e5",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:65e5"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ri4",
+            "marked": "rì",
+            "plain": "ri",
+            "search": [
+              "ri4",
+              "rì",
+              "ri"
+            ],
+            "syllables": [
+              "ri4"
+            ]
+          },
+          "senses": [
+            "(bound form) sun",
+            "day",
+            "day of the month",
+            "(bound form) Japan (abbr. for 日本[Ri4 ben3])",
+            "(vulgar) to fuck; to have sex with"
+          ],
+          "traditional": "日",
+          "sourceLocator": "cedict_ts.u8:line:52598"
+        }
+      ]
+    },
+    {
+      "glyph": "上班",
+      "sourceLabel": "上班",
+      "sourceLocator": "xlsx:新HSK5000词:A240:B240",
+      "ordinal": 89,
+      "itemId": "word:4e0a-73ed",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:4e0a",
+        "char:73ed"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "shang4 ban1",
+            "marked": "shàng bān",
+            "plain": "shang ban",
+            "search": [
+              "shang4 ban1",
+              "shàng bān",
+              "shang ban"
+            ],
+            "syllables": [
+              "shang4",
+              "ban1"
+            ]
+          },
+          "senses": [
+            "to go to work",
+            "to be on duty",
+            "to start work",
+            "to go to the office"
+          ],
+          "traditional": "上班",
+          "sourceLocator": "cedict_ts.u8:line:1775"
+        }
+      ]
+    },
+    {
+      "glyph": "生病",
+      "sourceLabel": "生病",
+      "sourceLocator": "xlsx:新HSK5000词:A242:B242",
+      "ordinal": 91,
+      "itemId": "word:751f-75c5",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:751f",
+        "char:75c5"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "sheng1 bing4",
+            "marked": "shēng bìng",
+            "plain": "sheng bing",
+            "search": [
+              "sheng1 bing4",
+              "shēng bìng",
+              "sheng bing"
+            ],
+            "syllables": [
+              "sheng1",
+              "bing4"
+            ]
+          },
+          "senses": [
+            "to fall ill"
+          ],
+          "traditional": "生病",
+          "sourceLocator": "cedict_ts.u8:line:74617"
+        }
+      ]
+    },
+    {
+      "glyph": "生日",
+      "sourceLabel": "生日",
+      "sourceLocator": "xlsx:新HSK5000词:A243:B243",
+      "ordinal": 92,
+      "itemId": "word:751f-65e5",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:751f",
+        "char:65e5"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "sheng1 ri4",
+            "marked": "shēng rì",
+            "plain": "sheng ri",
+            "search": [
+              "sheng1 ri4",
+              "shēng rì",
+              "sheng ri"
+            ],
+            "syllables": [
+              "sheng1",
+              "ri4"
+            ]
+          },
+          "senses": [
+            "birthday",
+            "CL:個|个[ge4]"
+          ],
+          "traditional": "生日",
+          "sourceLocator": "cedict_ts.u8:line:74476"
+        }
+      ]
+    },
+    {
+      "glyph": "时间",
+      "sourceLabel": "时间",
+      "sourceLocator": "xlsx:新HSK5000词:A244:B244",
+      "ordinal": 93,
+      "itemId": "word:65f6-95f4",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:65f6",
+        "char:95f4"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "shi2 jian1",
+            "marked": "shí jiān",
+            "plain": "shi jian",
+            "search": [
+              "shi2 jian1",
+              "shí jiān",
+              "shi jian"
+            ],
+            "syllables": [
+              "shi2",
+              "jian1"
+            ]
+          },
+          "senses": [
+            "(concept of) time",
+            "(duration of) time",
+            "(point in) time"
+          ],
+          "traditional": "時間",
+          "sourceLocator": "cedict_ts.u8:line:53565"
+        }
+      ]
+    },
+    {
+      "glyph": "手机",
+      "sourceLabel": "手机",
+      "sourceLocator": "xlsx:新HSK5000词:A247:B247",
+      "ordinal": 96,
+      "itemId": "word:624b-673a",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:624b",
+        "char:673a"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "shou3 ji1",
+            "marked": "shǒu jī",
+            "plain": "shou ji",
+            "search": [
+              "shou3 ji1",
+              "shǒu jī",
+              "shou ji"
+            ],
+            "syllables": [
+              "shou3",
+              "ji1"
+            ]
+          },
+          "senses": [
+            "cell phone; mobile phone",
+            "CL:部[bu4],臺|台[tai2]"
+          ],
+          "traditional": "手機",
+          "sourceLocator": "cedict_ts.u8:line:44474"
+        }
+      ]
+    },
+    {
+      "glyph": "说话",
+      "sourceLabel": "说话",
+      "sourceLocator": "xlsx:新HSK5000词:A248:B248",
+      "ordinal": 97,
+      "itemId": "word:8bf4-8bdd",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:8bf4",
+        "char:8bdd"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "shuo1 hua4",
+            "marked": "shuō huà",
+            "plain": "shuo hua",
+            "search": [
+              "shuo1 hua4",
+              "shuō huà",
+              "shuo hua"
+            ],
+            "syllables": [
+              "shuo1",
+              "hua4"
+            ]
+          },
+          "senses": [
+            "to speak",
+            "to say",
+            "to talk",
+            "to gossip",
+            "to tell stories",
+            "talk",
+            "word"
+          ],
+          "traditional": "說話",
+          "sourceLocator": "cedict_ts.u8:line:101563"
+        }
+      ]
+    },
+    {
+      "glyph": "它",
+      "sourceLabel": "它",
+      "sourceLocator": "xlsx:新HSK5000词:A251:B251",
+      "ordinal": 100,
+      "itemId": "word:5b83",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5b83"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ta1",
+            "marked": "tā",
+            "plain": "ta",
+            "search": [
+              "ta1",
+              "tā",
+              "ta"
+            ],
+            "syllables": [
+              "ta1"
+            ]
+          },
+          "senses": [
+            "it"
+          ],
+          "traditional": "它",
+          "sourceLocator": "cedict_ts.u8:line:31852"
+        },
+        {
+          "pinyin": {
+            "numeric": "ta1",
+            "marked": "tā",
+            "plain": "ta",
+            "search": [
+              "ta1",
+              "tā",
+              "ta"
+            ],
+            "syllables": [
+              "ta1"
+            ]
+          },
+          "senses": [
+            "it (pronoun for an animal)"
+          ],
+          "traditional": "牠",
+          "sourceLocator": "cedict_ts.u8:line:71776"
+        }
+      ]
+    },
+    {
+      "glyph": "题",
+      "sourceLabel": "题",
+      "sourceLocator": "xlsx:新HSK5000词:A253:B253",
+      "ordinal": 102,
+      "itemId": "word:9898",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:9898"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ti2",
+            "marked": "tí",
+            "plain": "ti",
+            "search": [
+              "ti2",
+              "tí",
+              "ti"
+            ],
+            "syllables": [
+              "ti2"
+            ]
+          },
+          "senses": [
+            "surname Ti"
+          ],
+          "traditional": "題",
+          "sourceLocator": "cedict_ts.u8:line:119269"
+        },
+        {
+          "pinyin": {
+            "numeric": "ti2",
+            "marked": "tí",
+            "plain": "ti",
+            "search": [
+              "ti2",
+              "tí",
+              "ti"
+            ],
+            "syllables": [
+              "ti2"
+            ]
+          },
+          "senses": [
+            "topic",
+            "problem for discussion",
+            "exam question",
+            "subject",
+            "to inscribe",
+            "to mention",
+            "CL:個|个[ge4],道[dao4]"
+          ],
+          "traditional": "題",
+          "sourceLocator": "cedict_ts.u8:line:119270"
+        }
+      ]
+    },
+    {
+      "glyph": "外",
+      "sourceLabel": "外",
+      "sourceLocator": "xlsx:新HSK5000词:A255:B255",
+      "ordinal": 104,
+      "itemId": "word:5916",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5916"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "wai4",
+            "marked": "wài",
+            "plain": "wai",
+            "search": [
+              "wai4",
+              "wài",
+              "wai"
+            ],
+            "syllables": [
+              "wai4"
+            ]
+          },
+          "senses": [
+            "outside",
+            "in addition",
+            "foreign",
+            "external"
+          ],
+          "traditional": "外",
+          "sourceLocator": "cedict_ts.u8:line:27069"
+        }
+      ]
+    },
+    {
+      "glyph": "玩",
+      "sourceLabel": "玩",
+      "sourceLocator": "xlsx:新HSK5000词:A257:B257",
+      "ordinal": 106,
+      "itemId": "word:73a9",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:73a9"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "wan2",
+            "marked": "wán",
+            "plain": "wan",
+            "search": [
+              "wan2",
+              "wán",
+              "wan"
+            ],
+            "syllables": [
+              "wan2"
+            ]
+          },
+          "senses": [
+            "to play",
+            "to have fun",
+            "to trifle with",
+            "toy",
+            "sth used for amusement",
+            "curio or antique (Taiwan pr. [wan4])",
+            "to keep sth for entertainment"
+          ],
+          "traditional": "玩",
+          "sourceLocator": "cedict_ts.u8:line:73185"
+        },
+        {
+          "pinyin": {
+            "numeric": "wan2",
+            "marked": "wán",
+            "plain": "wan",
+            "search": [
+              "wan2",
+              "wán",
+              "wan"
+            ],
+            "syllables": [
+              "wan2"
+            ]
+          },
+          "senses": [
+            "variant of 玩[wan2]",
+            "Taiwan pr. [wan4]"
+          ],
+          "traditional": "翫",
+          "sourceLocator": "cedict_ts.u8:line:88472"
+        }
+      ]
+    },
+    {
+      "glyph": "晚上",
+      "sourceLabel": "晚上",
+      "sourceLocator": "xlsx:新HSK5000词:A258:B258",
+      "ordinal": 107,
+      "itemId": "word:665a-4e0a",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:665a",
+        "char:4e0a"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "wan3 shang5",
+            "marked": "wǎn shang",
+            "plain": "wan shang",
+            "search": [
+              "wan3 shang5",
+              "wǎn shang",
+              "wan shang"
+            ],
+            "syllables": [
+              "wan3",
+              "shang5"
+            ]
+          },
+          "senses": [
+            "evening",
+            "night",
+            "CL:個|个[ge4]",
+            "in the evening"
+          ],
+          "traditional": "晚上",
+          "sourceLocator": "cedict_ts.u8:line:53639"
+        }
+      ]
+    },
+    {
+      "glyph": "为什么",
+      "sourceLabel": "为什么",
+      "sourceLocator": "xlsx:新HSK5000词:A260:B260",
+      "ordinal": 109,
+      "itemId": "word:4e3a-4ec0-4e48",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:4e3a",
+        "char:4ec0",
+        "char:4e48"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "wei4 shen2 me5",
+            "marked": "wèi shén me",
+            "plain": "wei shen me",
+            "search": [
+              "wei4 shen2 me5",
+              "wèi shén me",
+              "wei shen me"
+            ],
+            "syllables": [
+              "wei4",
+              "shen2",
+              "me5"
+            ]
+          },
+          "senses": [
+            "why?",
+            "for what reason?"
+          ],
+          "traditional": "為什麼",
+          "sourceLocator": "cedict_ts.u8:line:69486"
+        }
+      ]
+    },
+    {
+      "glyph": "问",
+      "sourceLabel": "问",
+      "sourceLocator": "xlsx:新HSK5000词:A261:B261",
+      "ordinal": 110,
+      "itemId": "word:95ee",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:95ee"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "wen4",
+            "marked": "wèn",
+            "plain": "wen",
+            "search": [
+              "wen4",
+              "wèn",
+              "wen"
+            ],
+            "syllables": [
+              "wen4"
+            ]
+          },
+          "senses": [
+            "to ask; to inquire"
+          ],
+          "traditional": "問",
+          "sourceLocator": "cedict_ts.u8:line:22287"
+        }
+      ]
+    },
+    {
+      "glyph": "问题",
+      "sourceLabel": "问题",
+      "sourceLocator": "xlsx:新HSK5000词:A262:B262",
+      "ordinal": 111,
+      "itemId": "word:95ee-9898",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:95ee",
+        "char:9898"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "wen4 ti2",
+            "marked": "wèn tí",
+            "plain": "wen ti",
+            "search": [
+              "wen4 ti2",
+              "wèn tí",
+              "wen ti"
+            ],
+            "syllables": [
+              "wen4",
+              "ti2"
+            ]
+          },
+          "senses": [
+            "question",
+            "problem",
+            "issue",
+            "topic",
+            "CL:個|个[ge4]"
+          ],
+          "traditional": "問題",
+          "sourceLocator": "cedict_ts.u8:line:22317"
+        }
+      ]
+    },
+    {
+      "glyph": "西瓜",
+      "sourceLabel": "西瓜",
+      "sourceLocator": "xlsx:新HSK5000词:A263:B263",
+      "ordinal": 112,
+      "itemId": "word:897f-74dc",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:897f",
+        "char:74dc"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "xi1 gua1",
+            "marked": "xī guā",
+            "plain": "xi gua",
+            "search": [
+              "xi1 gua1",
+              "xī guā",
+              "xi gua"
+            ],
+            "syllables": [
+              "xi1",
+              "gua1"
+            ]
+          },
+          "senses": [
+            "watermelon",
+            "CL:顆|颗[ke1]"
+          ],
+          "traditional": "西瓜",
+          "sourceLocator": "cedict_ts.u8:line:99623"
+        }
+      ]
+    },
+    {
+      "glyph": "小时",
+      "sourceLabel": "小时",
+      "sourceLocator": "xlsx:新HSK5000词:A266:B266",
+      "ordinal": 115,
+      "itemId": "word:5c0f-65f6",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5c0f",
+        "char:65f6"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "xiao3 shi2",
+            "marked": "xiǎo shí",
+            "plain": "xiao shi",
+            "search": [
+              "xiao3 shi2",
+              "xiǎo shí",
+              "xiao shi"
+            ],
+            "syllables": [
+              "xiao3",
+              "shi2"
+            ]
+          },
+          "senses": [
+            "hour"
+          ],
+          "traditional": "小時",
+          "sourceLocator": "cedict_ts.u8:line:34616"
+        }
+      ]
+    },
+    {
+      "glyph": "新",
+      "sourceLabel": "新",
+      "sourceLocator": "xlsx:新HSK5000词:A268:B268",
+      "ordinal": 117,
+      "itemId": "word:65b0",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:65b0"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "xin1",
+            "marked": "xīn",
+            "plain": "xin",
+            "search": [
+              "xin1",
+              "xīn",
+              "xin"
+            ],
+            "syllables": [
+              "xin1"
+            ]
+          },
+          "senses": [
+            "abbr. for Xinjiang 新疆[Xin1 jiang1]",
+            "abbr. for Singapore 新加坡[Xin1 jia1 po1]",
+            "surname Xin"
+          ],
+          "traditional": "新",
+          "sourceLocator": "cedict_ts.u8:line:51856"
+        },
+        {
+          "pinyin": {
+            "numeric": "xin1",
+            "marked": "xīn",
+            "plain": "xin",
+            "search": [
+              "xin1",
+              "xīn",
+              "xin"
+            ],
+            "syllables": [
+              "xin1"
+            ]
+          },
+          "senses": [
+            "new",
+            "newly",
+            "meso- (chemistry)"
+          ],
+          "traditional": "新",
+          "sourceLocator": "cedict_ts.u8:line:51857"
+        }
+      ]
+    },
+    {
+      "glyph": "姓",
+      "sourceLabel": "姓",
+      "sourceLocator": "xlsx:新HSK5000词:A269:B269",
+      "ordinal": 118,
+      "itemId": "word:59d3",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:59d3"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "xing4",
+            "marked": "xìng",
+            "plain": "xing",
+            "search": [
+              "xing4",
+              "xìng",
+              "xing"
+            ],
+            "syllables": [
+              "xing4"
+            ]
+          },
+          "senses": [
+            "family name; surname",
+            "to be surnamed ..."
+          ],
+          "traditional": "姓",
+          "sourceLocator": "cedict_ts.u8:line:30549"
+        }
+      ]
+    },
+    {
+      "glyph": "休息",
+      "sourceLabel": "休息",
+      "sourceLocator": "xlsx:新HSK5000词:A270:B270",
+      "ordinal": 119,
+      "itemId": "word:4f11-606f",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:4f11",
+        "char:606f"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "xiu1 xi5",
+            "marked": "xiū xi",
+            "plain": "xiu xi",
+            "search": [
+              "xiu1 xi5",
+              "xiū xi",
+              "xiu xi"
+            ],
+            "syllables": [
+              "xiu1",
+              "xi5"
+            ]
+          },
+          "senses": [
+            "rest",
+            "to rest"
+          ],
+          "traditional": "休息",
+          "sourceLocator": "cedict_ts.u8:line:6900"
+        }
+      ]
+    },
+    {
+      "glyph": "雪",
+      "sourceLabel": "雪",
+      "sourceLocator": "xlsx:新HSK5000词:A271:B271",
+      "ordinal": 120,
+      "itemId": "word:96ea",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:96ea"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "xue3",
+            "marked": "xuě",
+            "plain": "xue",
+            "search": [
+              "xue3",
+              "xuě",
+              "xue"
+            ],
+            "syllables": [
+              "xue3"
+            ]
+          },
+          "senses": [
+            "surname Xue"
+          ],
+          "traditional": "雪",
+          "sourceLocator": "cedict_ts.u8:line:116749"
+        },
+        {
+          "pinyin": {
+            "numeric": "xue3",
+            "marked": "xuě",
+            "plain": "xue",
+            "search": [
+              "xue3",
+              "xuě",
+              "xue"
+            ],
+            "syllables": [
+              "xue3"
+            ]
+          },
+          "senses": [
+            "snow",
+            "CL:場|场[chang2]",
+            "(literary) to wipe away (a humiliation etc)"
+          ],
+          "traditional": "雪",
+          "sourceLocator": "cedict_ts.u8:line:116750"
+        }
+      ]
+    },
+    {
+      "glyph": "眼睛",
+      "sourceLabel": "眼睛",
+      "sourceLocator": "xlsx:新HSK5000词:A273:B273",
+      "ordinal": 122,
+      "itemId": "word:773c-775b",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:773c",
+        "char:775b"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "yan3 jing5",
+            "marked": "yǎn jing",
+            "plain": "yan jing",
+            "search": [
+              "yan3 jing5",
+              "yǎn jing",
+              "yan jing"
+            ],
+            "syllables": [
+              "yan3",
+              "jing5"
+            ]
+          },
+          "senses": [
+            "eye",
+            "CL:隻|只[zhi1],雙|双[shuang1]"
+          ],
+          "traditional": "眼睛",
+          "sourceLocator": "cedict_ts.u8:line:78617"
+        }
+      ]
+    },
+    {
+      "glyph": "要",
+      "sourceLabel": "要",
+      "sourceLocator": "xlsx:新HSK5000词:A276:B276",
+      "ordinal": 125,
+      "itemId": "word:8981",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:8981"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "yao1",
+            "marked": "yāo",
+            "plain": "yao",
+            "search": [
+              "yao1",
+              "yāo",
+              "yao"
+            ],
+            "syllables": [
+              "yao1"
+            ]
+          },
+          "senses": [
+            "(bound form) to demand; to coerce"
+          ],
+          "traditional": "要",
+          "sourceLocator": "cedict_ts.u8:line:99723"
+        },
+        {
+          "pinyin": {
+            "numeric": "yao4",
+            "marked": "yào",
+            "plain": "yao",
+            "search": [
+              "yao4",
+              "yào",
+              "yao"
+            ],
+            "syllables": [
+              "yao4"
+            ]
+          },
+          "senses": [
+            "to want; to need; to ask for",
+            "will; shall; about to",
+            "need to; should",
+            "if (same as 要是[yao4 shi5])",
+            "(bound form) important"
+          ],
+          "traditional": "要",
+          "sourceLocator": "cedict_ts.u8:line:99724"
+        }
+      ]
+    },
+    {
+      "glyph": "也",
+      "sourceLabel": "也",
+      "sourceLocator": "xlsx:新HSK5000词:A277:B277",
+      "ordinal": 126,
+      "itemId": "word:4e5f",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:4e5f"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "ye3",
+            "marked": "yě",
+            "plain": "ye",
+            "search": [
+              "ye3",
+              "yě",
+              "ye"
+            ],
+            "syllables": [
+              "ye3"
+            ]
+          },
+          "senses": [
+            "surname Ye"
+          ],
+          "traditional": "也",
+          "sourceLocator": "cedict_ts.u8:line:4373"
+        },
+        {
+          "pinyin": {
+            "numeric": "ye3",
+            "marked": "yě",
+            "plain": "ye",
+            "search": [
+              "ye3",
+              "yě",
+              "ye"
+            ],
+            "syllables": [
+              "ye3"
+            ]
+          },
+          "senses": [
+            "also; too; as well; (not ...) either",
+            "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+            "(literary) particle having functions similar to 啊[a5]"
+          ],
+          "traditional": "也",
+          "sourceLocator": "cedict_ts.u8:line:4374"
+        }
+      ]
+    },
+    {
+      "glyph": "一起",
+      "sourceLabel": "一起",
+      "sourceLocator": "xlsx:新HSK5000词:A278:B278",
+      "ordinal": 127,
+      "itemId": "word:4e00-8d77",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:4e00",
+        "char:8d77"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "yi1 qi3",
+            "marked": "yī qǐ",
+            "plain": "yi qi",
+            "search": [
+              "yi1 qi3",
+              "yī qǐ",
+              "yi qi"
+            ],
+            "syllables": [
+              "yi1",
+              "qi3"
+            ]
+          },
+          "senses": [
+            "(in) the same place",
+            "together; in company (with)",
+            "altogether; in total",
+            "an instance of; a case of (murder, accident, dispute etc)"
+          ],
+          "traditional": "一起",
+          "sourceLocator": "cedict_ts.u8:line:934"
+        }
+      ]
+    },
+    {
+      "glyph": "一下",
+      "sourceLabel": "一下",
+      "sourceLocator": "xlsx:新HSK5000词:A279:B279",
+      "ordinal": 128,
+      "itemId": "word:4e00-4e0b",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:4e00",
+        "char:4e0b"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "yi1 xia4",
+            "marked": "yī xià",
+            "plain": "yi xia",
+            "search": [
+              "yi1 xia4",
+              "yī xià",
+              "yi xia"
+            ],
+            "syllables": [
+              "yi1",
+              "xia4"
+            ]
+          },
+          "senses": [
+            "(after a verb) a bit; a little (indicating brief duration, or softening the tone, or suggesting giving sth a try)",
+            "all at once; suddenly"
+          ],
+          "traditional": "一下",
+          "sourceLocator": "cedict_ts.u8:line:378"
+        }
+      ]
+    },
+    {
+      "glyph": "右边",
+      "sourceLabel": "右边",
+      "sourceLocator": "xlsx:新HSK5000词:A285:B285",
+      "ordinal": 134,
+      "itemId": "word:53f3-8fb9",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:53f3",
+        "char:8fb9"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "you4 bian5",
+            "marked": "yòu bian",
+            "plain": "you bian",
+            "search": [
+              "you4 bian5",
+              "yòu bian",
+              "you bian"
+            ],
+            "syllables": [
+              "you4",
+              "bian5"
+            ]
+          },
+          "senses": [
+            "right side",
+            "right, to the right"
+          ],
+          "traditional": "右邊",
+          "sourceLocator": "cedict_ts.u8:line:19475"
+        }
+      ]
+    },
+    {
+      "glyph": "再",
+      "sourceLabel": "再",
+      "sourceLocator": "xlsx:新HSK5000词:A289:B289",
+      "ordinal": 138,
+      "itemId": "word:518d",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:518d"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "zai4",
+            "marked": "zài",
+            "plain": "zai",
+            "search": [
+              "zai4",
+              "zài",
+              "zai"
+            ],
+            "syllables": [
+              "zai4"
+            ]
+          },
+          "senses": [
+            "again; once more; re-",
+            "further; beyond this point of time",
+            "(before an adjective) more",
+            "then (after sth, and not until then)",
+            "no matter how ... (followed by an adjective or verb, and then (usually) 也[ye3] or 都[dou1] for emphasis)",
+            "(used to introduce additional information, as in 再則|再则[zai4 ze2], 再就是[zai4 jiu4 shi4] etc)",
+            "(literary) to reappear; to reoccur"
+          ],
+          "traditional": "再",
+          "sourceLocator": "cedict_ts.u8:line:12348"
+        }
+      ]
+    },
+    {
+      "glyph": "早上",
+      "sourceLabel": "早上",
+      "sourceLocator": "xlsx:新HSK5000词:A290:B290",
+      "ordinal": 139,
+      "itemId": "word:65e9-4e0a",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:65e9",
+        "char:4e0a"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "zao3 shang5",
+            "marked": "zǎo shang",
+            "plain": "zao shang",
+            "search": [
+              "zao3 shang5",
+              "zǎo shang",
+              "zao shang"
+            ],
+            "syllables": [
+              "zao3",
+              "shang5"
+            ]
+          },
+          "senses": [
+            "early morning",
+            "CL:個|个[ge4]"
+          ],
+          "traditional": "早上",
+          "sourceLocator": "cedict_ts.u8:line:52780"
+        }
+      ]
+    },
+    {
+      "glyph": "找",
+      "sourceLabel": "找",
+      "sourceLocator": "xlsx:新HSK5000词:A292:B292",
+      "ordinal": 141,
+      "itemId": "word:627e",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:627e"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "zhao3",
+            "marked": "zhǎo",
+            "plain": "zhao",
+            "search": [
+              "zhao3",
+              "zhǎo",
+              "zhao"
+            ],
+            "syllables": [
+              "zhao3"
+            ]
+          },
+          "senses": [
+            "to try to find",
+            "to look for",
+            "to call on sb",
+            "to find",
+            "to seek",
+            "to return",
+            "to give change"
+          ],
+          "traditional": "找",
+          "sourceLocator": "cedict_ts.u8:line:45268"
+        }
+      ]
+    },
+    {
+      "glyph": "真",
+      "sourceLabel": "真",
+      "sourceLocator": "xlsx:新HSK5000词:A294:B294",
+      "ordinal": 143,
+      "itemId": "word:771f",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:771f"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "zhen1",
+            "marked": "zhēn",
+            "plain": "zhen",
+            "search": [
+              "zhen1",
+              "zhēn",
+              "zhen"
+            ],
+            "syllables": [
+              "zhen1"
+            ]
+          },
+          "senses": [
+            "really",
+            "truly",
+            "indeed",
+            "real",
+            "true",
+            "genuine"
+          ],
+          "traditional": "真",
+          "sourceLocator": "cedict_ts.u8:line:78390"
+        }
+      ]
+    },
+    {
+      "glyph": "正在",
+      "sourceLabel": "正在",
+      "sourceLocator": "xlsx:新HSK5000词:A295:B295",
+      "ordinal": 144,
+      "itemId": "word:6b63-5728",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:6b63",
+        "char:5728"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "zheng4 zai4",
+            "marked": "zhèng zài",
+            "plain": "zheng zai",
+            "search": [
+              "zheng4 zai4",
+              "zhèng zài",
+              "zheng zai"
+            ],
+            "syllables": [
+              "zheng4",
+              "zai4"
+            ]
+          },
+          "senses": [
+            "to be in the process of (doing sth); to be currently ...-ing"
+          ],
+          "traditional": "正在",
+          "sourceLocator": "cedict_ts.u8:line:60481"
+        }
+      ]
+    },
+    {
+      "glyph": "只",
+      "sourceLabel": "只（量词）",
+      "sourceLocator": "xlsx:新HSK5000词:A296:B296",
+      "ordinal": 145,
+      "itemId": "word:53ea",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:53ea"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "zhi1",
+            "marked": "zhī",
+            "plain": "zhi",
+            "search": [
+              "zhi1",
+              "zhī",
+              "zhi"
+            ],
+            "syllables": [
+              "zhi1"
+            ]
+          },
+          "senses": [
+            "variant of 隻|只[zhi1]"
+          ],
+          "traditional": "只",
+          "sourceLocator": "cedict_ts.u8:line:19077"
+        },
+        {
+          "pinyin": {
+            "numeric": "zhi3",
+            "marked": "zhǐ",
+            "plain": "zhi",
+            "search": [
+              "zhi3",
+              "zhǐ",
+              "zhi"
+            ],
+            "syllables": [
+              "zhi3"
+            ]
+          },
+          "senses": [
+            "only; merely; just"
+          ],
+          "traditional": "只",
+          "sourceLocator": "cedict_ts.u8:line:19078"
+        },
+        {
+          "pinyin": {
+            "numeric": "zhi3",
+            "marked": "zhǐ",
+            "plain": "zhi",
+            "search": [
+              "zhi3",
+              "zhǐ",
+              "zhi"
+            ],
+            "syllables": [
+              "zhi3"
+            ]
+          },
+          "senses": [
+            "variant of 只[zhi3]"
+          ],
+          "traditional": "祇",
+          "sourceLocator": "cedict_ts.u8:line:80498"
+        },
+        {
+          "pinyin": {
+            "numeric": "zhi1",
+            "marked": "zhī",
+            "plain": "zhi",
+            "search": [
+              "zhi1",
+              "zhī",
+              "zhi"
+            ],
+            "syllables": [
+              "zhi1"
+            ]
+          },
+          "senses": [
+            "grain that has begun to ripen"
+          ],
+          "traditional": "秖",
+          "sourceLocator": "cedict_ts.u8:line:81477"
+        },
+        {
+          "pinyin": {
+            "numeric": "zhi3",
+            "marked": "zhǐ",
+            "plain": "zhi",
+            "search": [
+              "zhi3",
+              "zhǐ",
+              "zhi"
+            ],
+            "syllables": [
+              "zhi3"
+            ]
+          },
+          "senses": [
+            "variant of 只[zhi3]"
+          ],
+          "traditional": "衹",
+          "sourceLocator": "cedict_ts.u8:line:98658"
+        },
+        {
+          "pinyin": {
+            "numeric": "zhi1",
+            "marked": "zhī",
+            "plain": "zhi",
+            "search": [
+              "zhi1",
+              "zhī",
+              "zhi"
+            ],
+            "syllables": [
+              "zhi1"
+            ]
+          },
+          "senses": [
+            "classifier for birds and certain animals, one of a pair, some utensils, vessels etc"
+          ],
+          "traditional": "隻",
+          "sourceLocator": "cedict_ts.u8:line:115850"
+        }
+      ]
+    },
+    {
+      "glyph": "知道",
+      "sourceLabel": "知道",
+      "sourceLocator": "xlsx:新HSK5000词:A297:B297",
+      "ordinal": 146,
+      "itemId": "word:77e5-9053",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:77e5",
+        "char:9053"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "zhi1 dao4",
+            "marked": "zhī dào",
+            "plain": "zhi dao",
+            "search": [
+              "zhi1 dao4",
+              "zhī dào",
+              "zhi dao"
+            ],
+            "syllables": [
+              "zhi1",
+              "dao4"
+            ]
+          },
+          "senses": [
+            "to know; to become aware of",
+            "also pr. [zhi1dao5]"
+          ],
+          "traditional": "知道",
+          "sourceLocator": "cedict_ts.u8:line:79090"
+        }
+      ]
+    },
+    {
+      "glyph": "左边",
+      "sourceLabel": "左边",
+      "sourceLocator": "xlsx:新HSK5000词:A301:B301",
+      "ordinal": 150,
+      "itemId": "word:5de6-8fb9",
+      "system": "hsk-2",
+      "edition": "2015-vocabulary",
+      "level": "2",
+      "cumulative": false,
+      "characterIds": [
+        "char:5de6",
+        "char:8fb9"
+      ],
+      "readings": [
+        {
+          "pinyin": {
+            "numeric": "zuo3 bian5",
+            "marked": "zuǒ bian",
+            "plain": "zuo bian",
+            "search": [
+              "zuo3 bian5",
+              "zuǒ bian",
+              "zuo bian"
+            ],
+            "syllables": [
+              "zuo3",
+              "bian5"
+            ]
+          },
+          "senses": [
+            "left",
+            "the left side",
+            "to the left of"
+          ],
+          "traditional": "左邊",
+          "sourceLocator": "cedict_ts.u8:line:36603"
+        }
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "glyph": "帮助",
+      "sourceLabel": "帮助",
+      "sourceLocator": "xlsx:新HSK5000词:A155:B155",
+      "ordinal": 4
+    },
+    {
+      "glyph": "报纸",
+      "sourceLabel": "报纸",
+      "sourceLocator": "xlsx:新HSK5000词:A156:B156",
+      "ordinal": 5
+    },
+    {
+      "glyph": "别",
+      "sourceLabel": "别",
+      "sourceLocator": "xlsx:新HSK5000词:A158:B158",
+      "ordinal": 7
+    },
+    {
+      "glyph": "宾馆",
+      "sourceLabel": "宾馆",
+      "sourceLocator": "xlsx:新HSK5000词:A159:B159",
+      "ordinal": 8
+    },
+    {
+      "glyph": "次",
+      "sourceLabel": "次",
+      "sourceLocator": "xlsx:新HSK5000词:A164:B164",
+      "ordinal": 13
+    },
+    {
+      "glyph": "从",
+      "sourceLabel": "从",
+      "sourceLocator": "xlsx:新HSK5000词:A165:B165",
+      "ordinal": 14
+    },
+    {
+      "glyph": "错",
+      "sourceLabel": "错",
+      "sourceLocator": "xlsx:新HSK5000词:A166:B166",
+      "ordinal": 15
+    },
+    {
+      "glyph": "打篮球",
+      "sourceLabel": "打篮球",
+      "sourceLocator": "xlsx:新HSK5000词:A167:B167",
+      "ordinal": 16
+    },
+    {
+      "glyph": "等",
+      "sourceLabel": "等（动词）",
+      "sourceLocator": "xlsx:新HSK5000词:A171:B171",
+      "ordinal": 20
+    },
+    {
+      "glyph": "懂",
+      "sourceLabel": "懂",
+      "sourceLocator": "xlsx:新HSK5000词:A174:B174",
+      "ordinal": 23
+    },
+    {
+      "glyph": "服务员",
+      "sourceLabel": "服务员",
+      "sourceLocator": "xlsx:新HSK5000词:A178:B178",
+      "ordinal": 27
+    },
+    {
+      "glyph": "告诉",
+      "sourceLabel": "告诉",
+      "sourceLocator": "xlsx:新HSK5000词:A180:B180",
+      "ordinal": 29
+    },
+    {
+      "glyph": "公共汽车",
+      "sourceLabel": "公共汽车",
+      "sourceLocator": "xlsx:新HSK5000词:A183:B183",
+      "ordinal": 32
+    },
+    {
+      "glyph": "红",
+      "sourceLabel": "红",
+      "sourceLocator": "xlsx:新HSK5000词:A191:B191",
+      "ordinal": 40
+    },
+    {
+      "glyph": "火车站",
+      "sourceLabel": "火车站",
+      "sourceLocator": "xlsx:新HSK5000词:A192:B192",
+      "ordinal": 41
+    },
+    {
+      "glyph": "机场",
+      "sourceLabel": "机场",
+      "sourceLocator": "xlsx:新HSK5000词:A193:B193",
+      "ordinal": 42
+    },
+    {
+      "glyph": "教室",
+      "sourceLabel": "教室",
+      "sourceLocator": "xlsx:新HSK5000词:A196:B196",
+      "ordinal": 45
+    },
+    {
+      "glyph": "介绍",
+      "sourceLabel": "介绍",
+      "sourceLocator": "xlsx:新HSK5000词:A198:B198",
+      "ordinal": 47
+    },
+    {
+      "glyph": "近",
+      "sourceLabel": "近",
+      "sourceLocator": "xlsx:新HSK5000词:A200:B200",
+      "ordinal": 49
+    },
+    {
+      "glyph": "就",
+      "sourceLabel": "就",
+      "sourceLocator": "xlsx:新HSK5000词:A201:B201",
+      "ordinal": 50
+    },
+    {
+      "glyph": "咖啡",
+      "sourceLabel": "咖啡",
+      "sourceLocator": "xlsx:新HSK5000词:A203:B203",
+      "ordinal": 52
+    },
+    {
+      "glyph": "开始",
+      "sourceLabel": "开始",
+      "sourceLocator": "xlsx:新HSK5000词:A204:B204",
+      "ordinal": 53
+    },
+    {
+      "glyph": "考试",
+      "sourceLabel": "考试",
+      "sourceLocator": "xlsx:新HSK5000词:A205:B205",
+      "ordinal": 54
+    },
+    {
+      "glyph": "快乐",
+      "sourceLabel": "快乐",
+      "sourceLocator": "xlsx:新HSK5000词:A210:B210",
+      "ordinal": 59
+    },
+    {
+      "glyph": "累",
+      "sourceLabel": "累",
+      "sourceLocator": "xlsx:新HSK5000词:A211:B211",
+      "ordinal": 60
+    },
+    {
+      "glyph": "离",
+      "sourceLabel": "离",
+      "sourceLocator": "xlsx:新HSK5000词:A212:B212",
+      "ordinal": 61
+    },
+    {
+      "glyph": "路",
+      "sourceLabel": "路",
+      "sourceLocator": "xlsx:新HSK5000词:A215:B215",
+      "ordinal": 64
+    },
+    {
+      "glyph": "旅游",
+      "sourceLabel": "旅游",
+      "sourceLocator": "xlsx:新HSK5000词:A216:B216",
+      "ordinal": 65
+    },
+    {
+      "glyph": "慢",
+      "sourceLabel": "慢",
+      "sourceLocator": "xlsx:新HSK5000词:A218:B218",
+      "ordinal": 67
+    },
+    {
+      "glyph": "每",
+      "sourceLabel": "每",
+      "sourceLocator": "xlsx:新HSK5000词:A220:B220",
+      "ordinal": 69
+    },
+    {
+      "glyph": "跑步",
+      "sourceLabel": "跑步",
+      "sourceLocator": "xlsx:新HSK5000词:A229:B229",
+      "ordinal": 78
+    },
+    {
+      "glyph": "票",
+      "sourceLabel": "票",
+      "sourceLocator": "xlsx:新HSK5000词:A231:B231",
+      "ordinal": 80
+    },
+    {
+      "glyph": "妻子",
+      "sourceLabel": "妻子",
+      "sourceLocator": "xlsx:新HSK5000词:A232:B232",
+      "ordinal": 81
+    },
+    {
+      "glyph": "铅笔",
+      "sourceLabel": "铅笔",
+      "sourceLocator": "xlsx:新HSK5000词:A235:B235",
+      "ordinal": 84
+    },
+    {
+      "glyph": "晴",
+      "sourceLabel": "晴",
+      "sourceLocator": "xlsx:新HSK5000词:A236:B236",
+      "ordinal": 85
+    },
+    {
+      "glyph": "让",
+      "sourceLabel": "让",
+      "sourceLocator": "xlsx:新HSK5000词:A238:B238",
+      "ordinal": 87
+    },
+    {
+      "glyph": "身体",
+      "sourceLabel": "身体",
+      "sourceLocator": "xlsx:新HSK5000词:A241:B241",
+      "ordinal": 90
+    },
+    {
+      "glyph": "事情",
+      "sourceLabel": "事情",
+      "sourceLocator": "xlsx:新HSK5000词:A245:B245",
+      "ordinal": 94
+    },
+    {
+      "glyph": "手表",
+      "sourceLabel": "手表",
+      "sourceLocator": "xlsx:新HSK5000词:A246:B246",
+      "ordinal": 95
+    },
+    {
+      "glyph": "送",
+      "sourceLabel": "送",
+      "sourceLocator": "xlsx:新HSK5000词:A249:B249",
+      "ordinal": 98
+    },
+    {
+      "glyph": "虽然……但是……",
+      "sourceLabel": "虽然……但是……",
+      "sourceLocator": "xlsx:新HSK5000词:A250:B250",
+      "ordinal": 99
+    },
+    {
+      "glyph": "踢足球",
+      "sourceLabel": "踢足球",
+      "sourceLocator": "xlsx:新HSK5000词:A252:B252",
+      "ordinal": 101
+    },
+    {
+      "glyph": "跳舞",
+      "sourceLabel": "跳舞",
+      "sourceLocator": "xlsx:新HSK5000词:A254:B254",
+      "ordinal": 103
+    },
+    {
+      "glyph": "完",
+      "sourceLabel": "完",
+      "sourceLocator": "xlsx:新HSK5000词:A256:B256",
+      "ordinal": 105
+    },
+    {
+      "glyph": "往",
+      "sourceLabel": "往",
+      "sourceLocator": "xlsx:新HSK5000词:A259:B259",
+      "ordinal": 108
+    },
+    {
+      "glyph": "希望",
+      "sourceLabel": "希望",
+      "sourceLocator": "xlsx:新HSK5000词:A264:B264",
+      "ordinal": 113
+    },
+    {
+      "glyph": "洗",
+      "sourceLabel": "洗",
+      "sourceLocator": "xlsx:新HSK5000词:A265:B265",
+      "ordinal": 114
+    },
+    {
+      "glyph": "笑",
+      "sourceLabel": "笑",
+      "sourceLocator": "xlsx:新HSK5000词:A267:B267",
+      "ordinal": 116
+    },
+    {
+      "glyph": "颜色",
+      "sourceLabel": "颜色",
+      "sourceLocator": "xlsx:新HSK5000词:A272:B272",
+      "ordinal": 121
+    },
+    {
+      "glyph": "羊肉",
+      "sourceLabel": "羊肉",
+      "sourceLocator": "xlsx:新HSK5000词:A274:B274",
+      "ordinal": 123
+    },
+    {
+      "glyph": "药",
+      "sourceLabel": "药",
+      "sourceLocator": "xlsx:新HSK5000词:A275:B275",
+      "ordinal": 124
+    },
+    {
+      "glyph": "已经",
+      "sourceLabel": "已经",
+      "sourceLocator": "xlsx:新HSK5000词:A280:B280",
+      "ordinal": 129
+    },
+    {
+      "glyph": "意思",
+      "sourceLabel": "意思",
+      "sourceLocator": "xlsx:新HSK5000词:A281:B281",
+      "ordinal": 130
+    },
+    {
+      "glyph": "因为……所以……",
+      "sourceLabel": "因为……所以……",
+      "sourceLocator": "xlsx:新HSK5000词:A282:B282",
+      "ordinal": 131
+    },
+    {
+      "glyph": "阴",
+      "sourceLabel": "阴",
+      "sourceLocator": "xlsx:新HSK5000词:A283:B283",
+      "ordinal": 132
+    },
+    {
+      "glyph": "游泳",
+      "sourceLabel": "游泳",
+      "sourceLocator": "xlsx:新HSK5000词:A284:B284",
+      "ordinal": 133
+    },
+    {
+      "glyph": "鱼",
+      "sourceLabel": "鱼",
+      "sourceLocator": "xlsx:新HSK5000词:A286:B286",
+      "ordinal": 135
+    },
+    {
+      "glyph": "远",
+      "sourceLabel": "远",
+      "sourceLocator": "xlsx:新HSK5000词:A287:B287",
+      "ordinal": 136
+    },
+    {
+      "glyph": "运动",
+      "sourceLabel": "运动",
+      "sourceLocator": "xlsx:新HSK5000词:A288:B288",
+      "ordinal": 137
+    },
+    {
+      "glyph": "丈夫",
+      "sourceLabel": "丈夫",
+      "sourceLocator": "xlsx:新HSK5000词:A291:B291",
+      "ordinal": 140
+    },
+    {
+      "glyph": "着",
+      "sourceLabel": "着",
+      "sourceLocator": "xlsx:新HSK5000词:A293:B293",
+      "ordinal": 142
+    },
+    {
+      "glyph": "准备",
+      "sourceLabel": "准备",
+      "sourceLocator": "xlsx:新HSK5000词:A298:B298",
+      "ordinal": 147
+    },
+    {
+      "glyph": "走",
+      "sourceLabel": "走",
+      "sourceLocator": "xlsx:新HSK5000词:A299:B299",
+      "ordinal": 148
+    },
+    {
+      "glyph": "最",
+      "sourceLabel": "最",
+      "sourceLocator": "xlsx:新HSK5000词:A300:B300",
+      "ordinal": 149
+    }
+  ],
+  "contentSha256": "f5ee42ab38305555b110cb8fb82e37e0ab4b3897e2e660de23d2d69fb5bc6282"
+}

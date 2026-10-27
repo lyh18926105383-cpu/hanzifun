@@ -1,0 +1,46 @@
+{
+  "reviewer": "John Ling",
+  "date": "2026-10-26",
+  "notes": {
+    "长": {
+      "layout": "overlapping",
+      "description": "A top horizontal stroke crosses the central form, with a long hooked stroke extending down and to the right. This describes the visible layout only."
+    },
+    "包": {
+      "layout": "upper-right-enclosure",
+      "description": "A bent outer stroke wraps around the right and lower part of the inner 巳-shaped form. This describes visible placement, not historical origin."
+    },
+    "班": {
+      "layout": "left-right",
+      "description": "A 王-shaped form appears on each side of a central vertical stroke. This describes the visible left-to-right arrangement, not historical origin."
+    },
+    "白": {
+      "layout": "overlapping",
+      "description": "A short top stroke meets the upper edge of the 日-shaped body. This describes the visible layout, not the character's historical origin."
+    },
+    "弟": {
+      "layout": "top-bottom",
+      "description": "Small upper strokes sit above the curved central strokes, with long lower strokes extending downward. The note does not identify the unresolved source subpart."
+    },
+    "非": {
+      "layout": "left-right",
+      "description": "Two opposed vertical stroke groups sit on the left and right, joined by horizontal strokes. This describes the visible arrangement only."
+    },
+    "司": {
+      "layout": "upper-right-enclosure",
+      "description": "The outer top and right strokes turn around the 口-shaped form. This describes visible placement, not historical origin."
+    },
+    "牛": {
+      "layout": "single-component",
+      "description": "The character is written as one compact form with a top stroke, central vertical, and lower crossing strokes. No subparts are named."
+    },
+    "士": {
+      "layout": "single-component",
+      "description": "The character is written as one compact form with two horizontal strokes crossed by a central vertical. No subparts are named."
+    },
+    "手": {
+      "layout": "single-component",
+      "description": "The character is written as one compact form with a top slant, crossing strokes, and a lower vertical hook. No subparts are named."
+    }
+  }
+}

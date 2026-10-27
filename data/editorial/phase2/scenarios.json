@@ -1,0 +1,27 @@
+{
+  "version": "hf12-scenarios-v1",
+  "review": {"status":"ai-quick-reviewed","reviewer":"Codex","date":"2026-10-27","humanAcceptance":"pending","scope":"Original Chinese phrases, pinyin, translation and token boundaries; no human approval inferred from Phase 1."},
+  "scenarios": [
+    {"id":"airport","path":"/scenarios/travel/airport/","category":"travel","title":"Airport transport in Chinese","context":"Ask about a flight arrival, find a taxi and check a fare. Use these Mandarin phrases when speaking with Chinese-speaking staff or fellow travellers.","sentences":[
+      {"id":"arrival","text":"飞机几点到？","pinyin":"Fēijī jǐ diǎn dào?","translation":"What time does the plane arrive?","tokens":[["飞机","fēijī","plane"],["几点","jǐ diǎn","what time"],["到","dào","arrive"]]},
+      {"id":"taxi","text":"请问，出租车在哪儿？","pinyin":"Qǐngwèn, chūzūchē zài nǎr?","translation":"Excuse me, where are the taxis?","tokens":[["请问","qǐngwèn","excuse me; may I ask"],["出租车","chūzūchē","taxi"],["在","zài","be located at"],["哪儿","nǎr","where; 儿 joins the preceding syllable"]]},
+      {"id":"destination","text":"我想去市里。","pinyin":"Wǒ xiǎng qù shì lǐ.","translation":"I would like to go into town.","tokens":[["我","wǒ","I"],["想","xiǎng","would like to"],["去","qù","go to"],["市里","shì lǐ","in town; the city area"]]},
+      {"id":"fare","text":"到饭店多少钱？","pinyin":"Dào fàndiàn duōshao qián?","translation":"How much is it to get to the hotel?","tokens":[["到","dào","to; as far as"],["饭店","fàndiàn","hotel here; can also mean restaurant"],["多少","duōshao","how much"],["钱","qián","money"]]},
+      {"id":"thanks","text":"谢谢，再见。","pinyin":"Xièxie, zàijiàn.","translation":"Thank you. Goodbye.","tokens":[["谢谢","xièxie","thank you"],["再见","zàijiàn","goodbye"]]}
+    ]},
+    {"id":"hotel","path":"/scenarios/travel/hotel/","category":"travel","title":"Hotel check-in in Chinese","context":"Ask for a room, confirm the length of the stay and ask about breakfast. 饭店 means hotel in this setting; confirm the destination with your host.","sentences":[
+      {"id":"room","text":"您好，我要一个房间。","pinyin":"Nín hǎo, wǒ yào yí ge fángjiān.","translation":"Hello, I would like a room.","tokens":[["您好","nín hǎo","hello; respectful greeting"],["我","wǒ","I"],["要","yào","would like; want"],["一个","yí ge","one; general measure word"],["房间","fángjiān","room"]]},
+      {"id":"nights","text":"我想住两天。","pinyin":"Wǒ xiǎng zhù liǎng tiān.","translation":"I would like to stay for two days.","tokens":[["我","wǒ","I"],["想","xiǎng","would like to"],["住","zhù","stay"],["两天","liǎng tiān","two days; confirm the checkout date separately"]]},
+      {"id":"price","text":"房间多少钱？","pinyin":"Fángjiān duōshao qián?","translation":"How much is the room?","tokens":[["房间","fángjiān","room"],["多少","duōshao","how much"],["钱","qián","money"]]},
+      {"id":"breakfast","text":"有早饭吗？","pinyin":"Yǒu zǎofàn ma?","translation":"Is breakfast available?","tokens":[["有","yǒu","have; there is"],["早饭","zǎofàn","breakfast"],["吗","ma","yes-or-no question particle"]]},
+      {"id":"checkout","text":"我明天回家。","pinyin":"Wǒ míngtiān huí jiā.","translation":"I am going home tomorrow.","tokens":[["我","wǒ","I"],["明天","míngtiān","tomorrow"],["回家","huí jiā","go home"]]}
+    ]},
+    {"id":"supermarket","path":"/scenarios/travel/supermarket/","category":"travel","title":"Supermarket shopping in Chinese","context":"Find a supermarket, ask for everyday groceries and compare prices. Prices depend on the shop and package; these sentences make no claims about ingredients or food safety.","sentences":[
+      {"id":"location","text":"超市在哪儿？","pinyin":"Chāoshì zài nǎr?","translation":"Where is the supermarket?","tokens":[["超市","chāoshì","supermarket"],["在","zài","be located at"],["哪儿","nǎr","where; 儿 joins the preceding syllable"]]},
+      {"id":"milk","text":"我想买牛奶。","pinyin":"Wǒ xiǎng mǎi niúnǎi.","translation":"I would like to buy milk.","tokens":[["我","wǒ","I"],["想","xiǎng","would like to"],["买","mǎi","buy"],["牛奶","niúnǎi","milk"]]},
+      {"id":"eggs","text":"鸡蛋多少钱？","pinyin":"Jīdàn duōshao qián?","translation":"How much are the eggs?","tokens":[["鸡蛋","jīdàn","egg; eggs"],["多少","duōshao","how much"],["钱","qián","money"]]},
+      {"id":"price","text":"这个太贵了。","pinyin":"Zhège tài guì le.","translation":"This is too expensive.","tokens":[["这个","zhège","this one"],["太","tài","too; excessively"],["贵","guì","expensive"],["了","le","particle marking the current situation"]]},
+      {"id":"alternative","text":"有便宜的吗？","pinyin":"Yǒu piányi de ma?","translation":"Do you have a cheaper one?","tokens":[["有","yǒu","have; there is"],["便宜","piányi","inexpensive"],["的","de","turns the description into one(s)"],["吗","ma","yes-or-no question particle"]]}
+    ]}
+  ]
+}

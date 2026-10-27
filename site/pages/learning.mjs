@@ -7,7 +7,7 @@ export function learningPages() {
     '<div class="container guest-learning"><header class="page-intro"><h1>'+e(title)+'</h1>'+intro+'</header>'+body+
     '<p role="status" data-guest-status></p><noscript><p>Practice and local records need JavaScript. <a href="/dictionary/">Read the dictionary</a>.</p></noscript></div><script type="module" src="/site-assets/hf06/client/guest-learning.mjs"></script>'});
   const sets='<div class="tile-grid">'+decks.map(d=>'<article class="tile"><h2>'+e(d.title)+'</h2><p>'+e(d.description)+'</p><p lang="zh-CN">'+d.chars.join(' · ')+'</p><a class="button" href="/flashcards/decks/'+d.slug+'/">Open set →</a></article>').join('')+'</div>';
-  const practice='<section data-guest-practice><p>Loading practice…</p></section>';
+  const practice='<section data-guest-practice data-pronunciation-host><p>Loading practice…</p></section>';
   return [page('/flashcards/','Flashcards',practice+sets),page('/flashcards/decks/','Choose a practice set',sets),
     ...decks.map(d=>page('/flashcards/decks/'+d.slug+'/',d.title+' · Character Flashcards',practice)),
     page('/flashcards/my-words/','Saved characters','<section data-guest-words></section>'),

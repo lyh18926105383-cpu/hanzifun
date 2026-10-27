@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-27",
+  "branch": "main",
+  "before": {
+    "indexablePages": 354,
+    "chartSyllables": 410,
+    "disabledChartToneButtons": 1323,
+    "newSiteRecordingBindings": 0
+  },
+  "after": {
+    "chartToneControls": 1323,
+    "disabledChartToneControls": 0,
+    "readingMappings": 1325,
+    "staticRecordings": 1268,
+    "browserExampleMappings": 57,
+    "wordAndSentenceSpeechMappings": 738,
+    "mp3Bytes": 25028239,
+    "hsk2Level2CoreWords": 86,
+    "hsk2Level2SourceAdditions": 150,
+    "newScenarios": 3,
+    "newScenarioSentences": 15,
+    "sitemapUrls": 355
+  },
+  "verification": {
+    "build": "PASS",
+    "tests": {
+      "pass": 159,
+      "fail": 0,
+      "skipped": 0
+    },
+    "seoErrors": [],
+    "browserStatus": "PASS",
+    "decodedMp3": {
+      "decoded": 1268,
+      "nonSilent": 1268,
+      "errors": [],
+      "minDuration": 0.5746875,
+      "maxDuration": 2.481625
+    }
+  },
+  "limitations": [
+    "55 chart candidates plus 2 extra character-reading bindings require a Mandarin device voice.",
+    "738 word/sentence mappings use browser speech. No generated Tencent audio is claimed; API probe failed TLS wrong version number.",
+    "Headless Chrome exposes no Mandarin voices. Successful TTS and failure/retry behavior are covered by injected-voice tests, not actual human listening.",
+    "Three new scenes are functional noindex previews until independent human language acceptance. HSK 2.0 level-2 subset is 86/150; HSK 3.0 expansion not claimed.",
+    "No deployment, git commit/push, story production, authentication, cloud sync or billing in this work."
+  ]
+}

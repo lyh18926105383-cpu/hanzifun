@@ -1,0 +1,70 @@
+{
+  "reviewer": "John Ling",
+  "date": "2026-10-26",
+  "notes": {
+    "七": {
+      "layout": "overlapping",
+      "description": "A short horizontal stroke crosses a longer bent stroke to form one compact character. This describes the visible layout, not the character's historical origin."
+    },
+    "十": {
+      "layout": "overlapping",
+      "description": "One horizontal and one vertical stroke cross at the center. This describes the visible layout, not the character's historical origin."
+    },
+    "五": {
+      "layout": "full-enclosure",
+      "description": "Outer strokes frame shorter strokes inside the character. The note describes the visible form and does not assign meanings to the individual strokes."
+    },
+    "习": {
+      "layout": "upper-right-enclosure",
+      "description": "A hooked upper stroke turns around toward the right above two lower strokes. This describes the visible layout, not the character's historical origin."
+    },
+    "电": {
+      "layout": "overlapping",
+      "description": "A box-like center joins a descending hooked stroke into one compact form. This describes the visible layout, not the character's historical origin."
+    },
+    "车": {
+      "layout": "overlapping",
+      "description": "Horizontal strokes cross a central vertical stroke, with a lower crossbar completing the compact form. This describes the visible layout, not the character's historical origin."
+    },
+    "友": {
+      "layout": "upper-left-enclosure",
+      "description": "The upper-left strokes sit above and along the left side of the lower 又-shaped strokes. This describes placement only, not historical origin."
+    },
+    "气": {
+      "layout": "top-bottom",
+      "description": "Short slanting strokes sit above a longer horizontal stroke that turns at the right. This describes the visible layout, not the character's historical origin."
+    },
+    "面": {
+      "layout": "top-bottom",
+      "description": "A broad top stroke sits over a framed center with shorter strokes inside. This describes the visible layout, not the character's historical origin."
+    },
+    "觉": {
+      "layout": "top-bottom",
+      "description": "Small strokes sit at the top, a short roof-like bar is below them, and the lower 見 form completes the character. This describes placement, not historical origin."
+    },
+    "雨": {
+      "layout": "upper-enclosure",
+      "description": "A broad top cover sits over a central vertical stroke and pairs of short interior strokes. This describes the visible layout, not the character's historical origin."
+    },
+    "本": {
+      "layout": "overlapping",
+      "description": "A horizontal stroke crosses the lower part of the 木-shaped form. This describes the visible layout, not the character's historical origin."
+    },
+    "东": {
+      "layout": "overlapping",
+      "description": "A top horizontal stroke crosses the central form, with short lower strokes extending beneath it. This describes the visible layout, not the character's historical origin."
+    },
+    "飞": {
+      "layout": "overlapping",
+      "description": "Three strokes curve and cross within a compact form. The note describes the visible strokes only, not their historical origin."
+    },
+    "兴": {
+      "layout": "top-bottom",
+      "description": "Small upper strokes sit above a central horizontal stroke and two lower strokes. This describes the visible layout, not the character's historical origin."
+    },
+    "高": {
+      "layout": "top-bottom",
+      "description": "A top cover sits above a central opening and a wider lower framed form. This describes the visible layout, not the character's historical origin."
+    }
+  }
+}

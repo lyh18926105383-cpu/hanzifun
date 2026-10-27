@@ -1,9 +1,9 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
 ## 当前所处阶段
-- **大阶段**：Phase 1：主站上线（基线整合、126 字字典及 Information、独立笔顺页与拼音表、本机闪卡、两场景、两版 HSK 1 级）
-- **当前执行任务**：Phase 1 正式人工签发及候选发布放行完成；HF-02/04/07/08/09 Completed / PASS。实际生产部署交 HF-17/18。
-- **状态**：126核心字逐项哈希批准，15个支持页面签字，生产构建141可索引页面／141 Sitemap URL；213补充字无Tier2编辑继续preview，物理缺音继续不可播。负责人2026-10-26人工确认及范围边界见 acceptance/phase-1-signoff.md。
+- **大阶段**：Phase 2（2026-10-27用户明确启动）；Phase 1签发历史保留，本轮未核实实际生产部署。
+- **当前执行任务**：用户指定 Phase 2 HF-11（音频）与 HF-12（场景/HSK 2级核心）本地工程与验证已交付；原同号同步/文化工具任务未执行。HF-10 A-D 213 字独立签发成果保留。
+- **状态**：159/159 测试 PASS；生产构建2824文件，409英文页（355 index / 54 noindex），Sitemap355 URL；releaseId=`phase-2-hf11-hf12-2026-10-27`。1268录音全部浏览器解码且非静音；55表内候选+2额外读音及738词句仍依赖中文设备语音；腾讯云TLS失败、真实设备TTS与听审待补。3新场景待独立人工语言签收，暂noindex。本轮未commit/push/部署。
 
 ---
 
@@ -176,3 +176,89 @@
 - **下一个Agent精确切入点**：在可连接Chrome且允许本地监听的环境，以本轮代码重新构建production，运行 `verify-quality-browser.mjs`（输出隔离到临时目录）；抽查发/长多音、拼音筛选及禁用图标、两场景练习，再按HF-17/18流程部署。不要修改release或伪造音频批准来消除正文提示。
 
 - **提交阻断**：按显式文件白名单执行git add失败：`.git/index.lock: Operation not permitted`（当前.git只读）。本轮改动未暂存、未生成提交；后续具备写权限时仅提交上述20个文件，不加入原有个人未跟踪文件。
+
+
+### [记录 14] - Phase 2 HF-10 补充字盘点与管道规划（By Codex，2026-10-27）
+
+- **目录/范围**：指定主目录main，无worktree。用户明确启动Phase 2，并将本项命名HF-10；记录与原HF-10-auth的区别，本项承接HF-14现存补充字补齐。未引入账号/同步/Billing、未制作故事/媒体或213字正文，未修改源锁/核心字/审批/release。
+- **Git同步**：开始时tracked工作区干净，main与现存origin/main均`ada1a1a63caa032aacfc038d27e6702d370102c1`，领先0；两次`git push origin main`均退出128，`Could not resolve host: github.com`。真实远端状态未核验；本轮没有commit或部署。初次收尾因exec-server断连中断，环境恢复后续写本记录和TASKS，不重复生成教学。
+- **盘点**：213唯一字全部preview/noindex，hsk-characters.entries为空；基础读音/词典义项、部首/笔画、213笔顺资源及简繁关系已有。九项教学字段各缺213条；29字部件不完整、38字结构未核实、54字有多读音候选，逐字标记保留。来源共同145/仅旧版1（京）/仅新版65/场景2（呼、称），即211字与HSK membership关联，不能把213都称官方HSK字。
+- **批次与门控**：两版共同→旧版独有→新版独有→场景，再按联合书写/一级认读/源词头覆盖/源ordinal/Unicode排序；A54/B53/C53/D53，不声称词频。Schema兼容现有扁平字段mnemonic、word/例句及审核元数据；基础/简繁字段由现有ID关联，非重复手填。已有hash人工签字与review-release-batch发布器保留；4制作批次用自定义decisions文件，不能混用旧21字hsk-01..11切片。
+- **本包文件列表**：新增 `scripts/audit-phase2-hsk.mjs`、`data/schemas/hsk-teaching-entry.schema.json`、`docs/hanzifun-rebuild/{phase-2-plan.md,hf10-inventory.json,hf10-batches.json}`；修改 `docs/hanzifun-rebuild/{TASKS,PROGRESS}.md`。
+- **已完成验证**：npm test **140/140 PASS**；HSK结构验证`validate-hsk-data --no-rebuild` PASS（126+213=339，源映射完整）；Schema接受全部126现有editorial条目，并拒绝九项缺失/纯空白/未快审/未知memoryAid字段。四批ID无遗漏/重复并集213，每字仍未批准preview；`audit-phase2-hsk --check`重现一致。隔离`HF_BUILD_OUTPUT_DIR=/tmp/hf10-production npm run build:production`成功1546文件、260 noindex，未改原dist。独立SEO及个人未跟踪文件hash检查结果见下方收尾补记。本轮没有UI改动，不宣称重跑浏览器/真机/生产冒烟。
+- **遗留**：推送DNS阻断；实际远端/生产部署未核验。四批正文0、签发0、转正0；教学注入器只有方案，尚待实现。结构/简繁/多音风险必须在实际教学中逐字处理；缺音不阻断文本，但仍不可播。审计脚本固定本轮213预览快照，首次实际转正后需显式更新基线契约，不得静默重排或覆盖历史批次；teaching=null的当前hash不能用作未来正文签字。
+- **下一Agent精确切入点**：读本记录、TASKS及phase-2-plan.md，不进入HF-10-auth。先实现`import-hsk-teaching-batch.mjs`的dry-run/显式apply、批次范围/Schema/读音/含字/覆盖防护/原子写入和实质边界测试；按hf10-batches.json的Batch A54个ID制作经源义核对的原创教学草稿，再注入hsk-characters.entries。正文冻结后重新导出hash审阅包，真实逐字人工批准后release工具dry-run及显式apply，每批验证索引与本机学习闭环后交HF-17/18。网络恢复后重试已授权的Phase1同步；不把本轮盘点完成标为整个HF-10/HF-14完成。
+
+- **收尾补记**：环境恢复后独立SEO校验通过（errors=[]，401英文页、354核心页、402 JSON-LD、141 sitemap URL）；213字审计`--check`再次通过。开始前11个既有未跟踪文件逐项SHA-256一致，计划Markdown本地链接检查及`git diff --check`通过。TASKS与本日志已实际更新。推送再次尝试仍DNS失败，未提交/部署本次产物。
+
+
+### [记录 15] - HF-10 Phase 2 注入器与Batch A54字正式内容签发（By Codex，2026-10-27）
+
+- **工作目录/授权**：指定Desktop主目录main。用户明确提供54行原始教学数据，并声明已于2026-10-26亲自审核八项正文、授权humanAcceptance=approved及hash签发；本轮未push、未commit、未生产部署、未修改故事/音频/账号/同步/Billing。前轮个人文件与未提交产物保留。
+- **已完成**：`inject-phase2-batch.mjs`解析9列PSV、严格对照冻结54字范围与inventory的稳定ID、按metadata匹配底层常用语境readingId并核验Schema/含字/来源与结构风险。默认dry-run；显式apply才备份+临时文件rename写正式hsk-characters。拒绝重复/漏字/跨批字/无效读音/占位文本/无核实说明；相同输入幂等，已发布内容改变则拒绝覆盖。注入器仅导出独立签发文件，现有review-release-batch仍负责真正发布。
+- **数据与签字**：54条八项正文与用户PSV原样相同；reviewStatus=human-reviewed、humanAcceptance=approved、reviewDate=2026-10-26。好hao3/少shao3/分fen1/会hui4/了le5/的de5/吗ma5/么me5；子选孩子中的zi5；一yi1/不bu4保留词典本调，原句变调不改。54条编辑层structureReview绑定原components与笔顺sha（实际核对日期2026-10-27、审读者Codex），补齐不完整/未核实形体的可见结构说明；保留原始缺项，不捏造IDS/历史字源。Schema兼容approved与该结构字段，发布门控检查缺失/过期结构hash。负责人声明与边界保存在acceptance/phase-2-batch-a-signoff.md。
+- **发布路径**：注入dry-run→apply→发布dry-run→apply均已执行；正式逐字contentSha256绑定完整源字/所有读音/本条教学含形体核实/笔顺/sources.lock。review-decisions新增54项精确签字，release精确54路由published、releaseId改为phase-2-batch-a-2026-10-27；未改全局字典pattern。当前补充字54accepted/published、159preview；核心126与剩余159审批原样，所有audioListening状态不变，原mvp-acceptance输入不变。
+- **显示/学习接入**：字页Information消费结构编辑层；助记显式为学习联想，非历史字源。新建单字/HSK组卡主音与正文读取教学条目，保留所有稳定cardId及旧冻结会话。搜索使用同一教学主音/英义，补例词别名并移除搜索中的import draft/preview标签，不泄露状态管线词。
+- **修改/新增文件列表**：
+  - 新增 `scripts/inject-phase2-batch.mjs`、`scripts/verify-phase2-batch-browser.mjs`、`tests/phase2-injection.test.mjs`。
+  - 新增 `data/editorial/phase2/{batch-a.psv,batch-a-review.json}`；更新 `data/schemas/hsk-teaching-entry.schema.json`、`data/editorial/{hsk-characters,review-decisions}.json`。
+  - 更新 `site/{publication-review,hsk-data,learning-data}.mjs`、`site/pages/hsk.mjs`、`site/release.json`、`scripts/build-site.js`；调整原 `tests/{mvp-gate,seo-quality}.test.mjs` 的合成夹具隔离及195页发布断言。
+  - 新增 `acceptance/phase-2-batch-a-signoff.md`、`evidence/hf10/{batch-a-release,batch-a-verification}.json`；更新TASKS、PROGRESS、phase-2-plan。执行原MVP门控会更新evidence/hf09的gate/review-inventory/manual-scopes/learning-benchmark当前回执，原Phase1签发文档不改，原始回执可由Git ada1a1a追溯。
+- **验证结果**：最终数值与命令见下方收尾补记及evidence/hf10/batch-a-verification.json；Schema54/54、全54页八项原文/主音/结构说明静态DOM回归、源HSK/data验证、生产/staging/local四构建与确定性校验均执行。主dist按用户请求以`HF_SITE_ENV=production npm run build:site`构建；仅local production包不等于线上部署。
+- **完整门控限制**：`validate-mvp-gate.mjs`实际退出1，唯一工程失败项workers-http，因为127.0.0.1 listen EPERM。普通本地浏览器脚本同样受端口限制；改为不监听端口的Playwright本地文件请求响应方案后，Chrome仍启动即退出（Target closed），真实页面/交互验证0，不伪报通过。MVP同时记录Browser E2E未运行、pinyin-teaching及audio-listening专项scope签字不匹配（audio scope包含整个review-decisions文件，文本签发也会改变其hash）；没有据此伪造音频/拼音复审或改写原专项批准。54字文本哈希签发和195页静态索引已通过，不代表完整运行验收PASS；生产部署待HF-17/18。
+- **下一Agent精确切入点**：先读本记录、TASKS和phase-2-plan当前实施记录。待用户提供B/C/D的PSV及本批审核声明后创建独立metadata（新batchId、实际读音/结构核对、证据），用inject-phase2-batch默认dry-run→显式apply导出decisions，再用review-release-batch签发；不可复制A批准当作后批授权，不重排冻结字表。制作前inventory/batches是初始快照，不能覆盖为实时报告；原audit脚本全213字preview断言不再适用。可用运行环境中执行HF10浏览器复验与完整MVP Workers检查；专项scope的旧hash边界需按真实证据收口，不为追求绿灯批量刷新。保留原缺音/未听审状态，下一批目标仅53个对应ID。
+
+- **收尾补记**：最终`npm test`（由MVP脚本实际调用）**149/149 PASS**；`HF_SITE_ENV=production npm run build:site`成功1546公开文件、401英文页（**195 index / 206 noindex**），`node scripts/validate-seo-quality.mjs` PASS（195 sitemap URL、354核心页、402 JSON-LD，errors=[]）。Schema54/54、八项字段PSV逐值往返原样、54条签字/结构hash校验、搜索显示无管线标签、重复注入changed=false均通过。MVP内tests/benchmark/data/HSK/四环境构建与生产重复hash一致均PASS，staging/local sitemap=0；总门控**FAIL / exit1**仅workers-http因listen EPERM，浏览器启动失败不可验收，未忽略错误。11个原个人未跟踪文件SHA-256一致，所有126核心及剩余159字决策、所有audioListening和原专项签字输入保留；git diff --check通过。本轮未push/commit/部署。
+
+### [记录 16] - HF-10 Batch B/C/D 预检与结构映射管道完善（By Codex，2026-10-27）
+
+- **工作范围**：在指定主目录main继续HF-10 Phase 2；未push、未commit、未部署，未覆盖根目录用户提供的`batch-b.psv`/`review-b.json`及其他未跟踪个人文件。
+- **注入器改进**：`scripts/inject-phase2-batch.mjs`新增独立`--reading-selections`和`--structure-notes`输入，检查映射不越过冻结批次、结构核对者/日期有效；schema允许精确描述`习`的`upper-right-enclosure`可见布局。增加独立映射/越批拒绝测试。
+- **Batch B预检**：现有53行PSV通过完整dry-run，稳定characterId共53、Schema/字词包含/读音归属/结构说明均通过。12个歧义字主音映射见`data/editorial/phase2/batch-b-reading-selections.json`；16个结构需核实字说明见`batch-b-structure-notes.json`。发现`五|星期五|星期五|...|Friday|...`：meaning列误填成例词，正确核心义应表达“five”。因此未apply、未导出签发包、未改变B路由或任何内容hash审批；原审批hash不能覆盖修订内容。
+- **批次材料缺口**：未找到Batch C/D的53行教学PSV和各自真实审核声明。没有编造正文或仿用A/B签字；B/C/D的159条路由维持preview。
+- **文件**：修改`inject-phase2-batch.mjs`、`hsk-teaching-entry.schema.json`、`tests/phase2-injection.test.mjs`；新增B批读音/结构映射；更新`TASKS.md`、`PROGRESS.md`、`phase-2-plan.md`。运行MVP门控更新`evidence/hf09/{gate,review-inventory,manual-scopes,learning-benchmark}.json`当前回执。
+- **验证**：`npm test` **151/151 PASS**；`HF_SITE_ENV=production npm run build:site` PASS，1546 public files、401英文页，其中195 index/206 noindex；`node scripts/validate-seo-quality.mjs` PASS，195 sitemap URL、402 JSON-LD、errors=[]。`node scripts/validate-mvp-gate.mjs` **FAIL / exit 1**，tests/benchmark/data/HSK及production/repeat/staging/local构建通过，唯一工程失败为workers-http监听`127.0.0.1`返回`EPERM`；完整候选因此FAIL。当前SEO与sitemap数字只覆盖已签发Batch A。本轮未做浏览器成功验收。
+- **精确切入点**：先修订Batch B“五”的meaning并获得变更后内容的真实签字；用上述两份映射文件再次dry-run，确认后才apply/release。提供Batch C/D九列PSV和本批独立审核元数据后按冻结ID批次依次处理。保持当前无越权写入，最终再跑四项命令与可用环境的Workers/浏览器验收。
+
+### [记录 17] - HF-10 后续批次文件复查与门控复跑（By Codex，2026-10-27）
+
+- **文件复查**：用户表示B/C/D修订正文和独立审核配置已准备。本轮按指定主目录检查普通/隐藏匹配文件、仓库根目录和`data/editorial/phase2/`最近文件；仍只有`batch-b.psv`与`review-b.json`，没有Batch C/D输入。B文件中“五”的meaning仍是“星期五”。没有覆盖或改写这些源文件，没有执行apply/release。
+- **验证复跑**：`HF_SITE_ENV=production npm run build:site` PASS（1546文件、401英文页、206 noindex）；`npm test` **151/151 PASS**；`node scripts/validate-seo-quality.mjs` PASS（195 sitemap URL、402 JSON-LD、errors=[]）。`node scripts/validate-mvp-gate.mjs` **FAIL / exit 1**，唯一失败workers-http，因为`127.0.0.1`监听返回`EPERM`；其余tests/benchmark/data/HSK及production/repeat/staging/local构建通过。当前本地release仍是`phase-2-batch-a-2026-10-27`，B/C/D各53字均preview。
+- **下一个动作**：将用户的修正版PSV及B/C/D各自配置文件放入指定工作目录（包含读音选择、完整结构说明、独立审核者/日期/依据）；重新核验内容后逐批注入、单独hash签发与release。本地文件到位前不生成缺失正文或签字。
+
+### [记录 18] - HF-10 Batch B/C/D 注入与独立签发（By Codex，2026-10-27）
+
+- **工作范围**：使用用户本轮粘贴的修订后Batch B、Batch C、Batch D正文及各自审核配置；不尝试git push，不commit或部署。
+- **独立注入与签发**：B/C/D各53字分别使用独立PSV、审核JSON、读音映射、structureNotes与release决策文件完成校验、注入、内容哈希签名及发布。Batch B「五」meaning为`five`。decision批次ID分别为`hf10-phase2-b/c/d`，签发数各53；Batch A 54字原签名保留。四批审核总数213，逐字内容完整且当前哈希匹配。
+- **发布状态**：`site/release.json` 更新为`phase-2-hf10-a-d-2026-10-27`；213个补充字published。生产构建生成1546公开文件、401个英文页（354 index/47 noindex），Sitemap 354条。线上实际部署尚未验证。
+- **验证**：`npm test` **151/151 PASS**；`HF_SITE_ENV=production npm run build:site` PASS；`node scripts/validate-seo-quality.mjs` PASS，354条Sitemap URL、402 JSON-LD、`errors=[]`。`node scripts/validate-mvp-gate.mjs` **FAIL / exit 1**：tests、benchmark、data、HSK、production重复构建、staging和local均PASS；唯一失败Workers HTTP，Node在`127.0.0.1`监听返回`EPERM`。Chrome浏览器验收仍未完成，因此不记为全部门控全绿。
+- **文件**：输入和独立配置位于`data/editorial/phase2/batch-{b,c,d}*`；hash签发记录位于`docs/hanzifun-rebuild/evidence/hf10/batch-{b,c,d}-release.json`；更新`data/editorial/hsk-characters.json`、`data/editorial/review-decisions.json`、`site/release.json`、`tests/seo-quality.test.mjs`及本日志、`TASKS.md`、`phase-2-plan.md`。注入器支持独立读音/结构映射输入。
+- **精确切入点**：在允许本机回环监听并具备浏览器的环境中重跑Workers HTTP和浏览器复验；继续核验本地release与线上部署状态。B/C/D已无需再次注入或复签，原三份批次决策保留各自内容哈希。
+
+
+### [记录 19] - Phase 2 HF-11 音频与 HF-12 场景/二级核心工程（By Codex，2026-10-27）
+
+- **范围/命名**：指定 Desktop 主目录main，保留开工时HF-10及其他所有未提交/个人文件。用户本轮HF-11/12定义与历史同步/文化工具不同，新建任务说明单独承接；未进入账号/云同步/Billing、故事生产或生产部署，未commit/push。
+- **HF-11资产**：盘点410音节/1323原禁用声调控件；源固定到davinfifield/mp3-chinese-pinyin-sound commit `aa25ecce7b7fb02757b2c2b8e3c01aa975812edc` / Unlicense。1325读音映射、1268原样MP3（25,028,239 bytes）逐条核验源Blob与本地SHA-256；ü→上游uu/内部v显式映射，lu/lü不混音。表内55候选和另2额外读音采用CEDICT词境的中文设备语音示例；738词句映射也用设备声线。旧音频audioListening和旧批准均未改，不把源映射称人工听审。
+- **HF-11交互**：共享发音模块接拼音、339字详情各读音、例词/句、HSK词表、5场景及动态闪卡。单一播放、停止、换读音/卡片/离页停止、静态错误回退、voiceschanged等待、加载超时、过期事件隔离、缺中文声线可重试；不使用英语或粤语读拼音。构建只复制精确manifest白名单并核验文件hash，不读凭据/调用TTS。
+- **HF-12内容/内链**：独立新增机场/酒店/超市各5句（共15句），逐句token拼音/英译与真实收藏/组卡/练习；全部组成字已有详情。新增86个HSK2.0（2015）二级增量词，来自已锁XLSX的150条源事实并限定现有字页覆盖，64条延期；不是全量二级/不是HSK3.0二级。字页↔场景↔词表锚点↔原稳定cardId互链，修复原token练习返回只到页顶，现精确回到并展开`#token-id`。
+- **放行/审核边界**：新增`/academic/hsk-2/level-2/`独立来源词表页published，354→355条Sitemap。新场景单独AI快审、人审pending，三条精确路由保持preview/noindex，未继承Phase1餐厅/商务批准。已生成含15句和正文hash的人工签收包；其他状态不变时，真实签收后可增到358。原339字/HF-10各批签名未改。
+- **文件清单**：
+  - 新增 `data/audio/pronunciation.json`、`audio/pronunciation-v1/*.mp3`（1268）、`data/licenses/Pinyin-Audio-Unlicense.txt`、`data/editorial/phase2/scenarios.json`、`data/hsk/level-2-core.json`。
+  - 新增 `site/{pronunciation,phase2-content}.mjs`、`src/client/pronunciation.mjs`、`scripts/{prepare-pronunciation-assets,produce-pronunciation-assets,build-level-two-core,verify-phase2-audio-browser}.mjs`、`tests/phase2-audio-scenarios.test.mjs`。
+  - 修改 `site/{hsk-data,learning-data,seo}.mjs`、`site/pages/{dictionary,hsk,learning,pinyin-chart,scenarios}.mjs`、`site/public/site-styles.css`、`site/release.json`、`src/client/{dictionary,guest-learning,hf07}.mjs`、`scripts/build-site.js`、`tests/{dictionary,seo-quality}.test.mjs`；只在原HF-10未提交文件上追加本轮范围，不撤回其已有改动。
+  - 新增 `tasks/HF-11-audio-phase2.md`、`tasks/HF-12-scenarios-level2-phase2.md`、`HF-11-HF-12-VERIFICATION.md`、`acceptance/phase-2-hf12-language-review.md`、`evidence/hf11/`与`evidence/hf12/`；更新TASKS/PROGRESS。
+- **验收**：`HF_SITE_ENV=production npm run build:site` PASS（2824公开文件、409英文页、355 index/54 noindex）；`npm test` **159/159 PASS**（新增8项含资产hash、声线选择/失败/竞态、源重建、场景和独立审核边界）；SEO PASS（355 Sitemap URL、358核心SEO页、410 JSON-LD、errors=[]）；二级离线重建check及diff空白检查通过。Chrome155实际全部1268 MP3解码且非静音（0.5746875–2.481625秒）；7类页面axe零违规、21档布局无溢出，录音/保存飞机2字/场景练习与评价/闪卡播放/返回原token/字典返回真实通过，回执与两张截图持久化在evidence/hf11。
+- **遗留/不可冒充**：腾讯云实际API探测及备用区域/浏览器请求TLS均报wrong version number，未成功生成音频；headless Chrome中文声线列表为空，真实设备TTS和人工逐条听审未过，不能称所有物理录音完整。未补造humanAcceptance或刷新历史MVP总门控签字。本轮只声明上述三项命令与本轮浏览器检查通过，不把旧MVP回执失败抹掉；无Safari/Firefox/真机/真人听审或线上冒烟结论。
+- **下一个Agent精确切入点**：先读本记录、TASKS和新HF-11/12任务文件。接口网络恢复后用`node scripts/produce-pronunciation-assets.mjs --apply --synthesize`显式补录（构建/播放器已支持合成词句资产）；验收语音与人审，不用英文拼音或静音文件凑数。按`acceptance/phase-2-hf12-language-review.md`取得真实15句人工签收，绑定本批正文hash，再只发布airport/hotel/supermarket三条路由并复跑构建/测试/SEO和脚本浏览器；HSK3.0二级与剩余64词另行扩充，不改原HF-10签发。实际部署仍走HF-17/18。
+
+
+### [记录 20] - HF-02 双「睛」身份与音频校验加固（By Codex，2026-10-27）
+
+- **范围**：指定主目录main，承接用户唯一失败排查。保留已有HF-10/11/12未提交成果与个人文件；未扩充内容、改录音/源锁/审核数据、启用新场景索引、提交、推送或部署。
+- **排查结果**：用户报告测试`108 positions reconstruct legacy source and both 睛 cards share one identity and audio`出现`char:773c5b`；修改前该文件11/11已通过，本机未复现，不能断言原始失败来自哪份文件/环境。检查characters.js、生成器、legacy-occurrences、normalized/audio与audio-manifest：第19/87位均绑定`char:775b` / `reading:char:775b:jing1` / `audio:tts-v1:775b`，共享`audio/tts-v1/019-775b.mp3`；`char:773c`为「眼」，两字应保持不同身份。
+- **修改**：`scripts/validate-data-foundation.mjs`从原始字形推导expectedId，分别校验characterId/itemId/reading/audio归属，错误包含明确字段与教学位置；额外检查双睛共享音频存在、归属正确、URL与旧manifest一致。正式映射本来正确，未做错误ID别名或把眼/睛合并。
+- **回归**：`tests/data-foundation.test.mjs`在原用例内核验眼/睛Unicode身份、两卡item/reading/audio和实际共享URL；通过深拷贝负例拒绝`char:773c`、`char:773c5b`、错itemId、错读音及错音频。异常值仅用于测试夹具，绝不写入正式字库，测试总数仍159。
+- **验证**：`node --test tests/data-foundation.test.mjs` **11/11 PASS**，包括两次离线重建逐字节一致；`HF_SITE_ENV=production npm run build:site && npm test`完整顺序执行，退出0，构建2824公开文件/54 noindex页，全量 **159/159 PASS**（0 fail、skip、cancelled）。`git diff --check`在收尾检查。本轮无前端改动，不重复声称浏览器/真人听审或旧完整MVP通过。
+- **本轮文件**：`scripts/validate-data-foundation.mjs`、`tests/data-foundation.test.mjs`、`docs/hanzifun-rebuild/TASKS.md`、`docs/hanzifun-rebuild/PROGRESS.md`。
+- **遗留与下一Agent精确切入点**：本轮主目录已全绿；若其他会话仍出现旧失败，先核对实际cwd/分支/Node版本与完整断言堆栈，区分负例预期异常与测试最终失败，不能把`char:773c5b`设成合法别名或改正式775b身份。HF-11的腾讯云补音/真实设备TTS和HF-12三场景独立人工签收继续按记录19处理，本轮没有关闭这些边界。

@@ -1,0 +1,398 @@
+{
+  "date": "2026-10-27",
+  "releaseId": "phase-2-batch-a-2026-10-27",
+  "deployment": "NOT DEPLOYED",
+  "ownerReviewDate": "2026-10-26",
+  "inputPSVSha256": "2b769d2de19979db549cef32329693d5340960291394ab10d7fa6d37544694eb",
+  "tests": {
+    "total": 149,
+    "passed": 149,
+    "failed": 0
+  },
+  "schema": {
+    "validatedEntries": 54
+  },
+  "sitemapURLs": 195,
+  "indexedPages": 195,
+  "noindexPages": 206,
+  "seoErrors": [],
+  "batches": [
+    {
+      "batchId": "hf10-phase2-a",
+      "count": 54,
+      "published": 54,
+      "accepted": 54
+    },
+    {
+      "batchId": "hf10-phase2-b",
+      "count": 53,
+      "published": 0,
+      "accepted": 0
+    },
+    {
+      "batchId": "hf10-phase2-c",
+      "count": 53,
+      "published": 0,
+      "accepted": 0
+    },
+    {
+      "batchId": "hf10-phase2-d",
+      "count": 53,
+      "published": 0,
+      "accepted": 0
+    }
+  ],
+  "integrity": {
+    "core126DecisionsUnchanged": true,
+    "remaining159DecisionsUnchanged": true,
+    "allAudioListeningUnchanged": true,
+    "manualAcceptanceInputsUnchanged": true,
+    "personalFilesUnchanged": 11,
+    "idempotentReplayChanged": false,
+    "exactEightFieldPSVRoundTrip": true,
+    "searchLabelsWithoutPipelineTerms": true
+  },
+  "gate": {
+    "engineeringStatus": "FAIL",
+    "candidateAcceptance": "FAIL",
+    "failures": [
+      "workers-http: exit 1"
+    ],
+    "environmentFailure": "Workers HTTP test cannot bind 127.0.0.1: listen EPERM",
+    "manualBlockers": [
+      "Browser E2E not run in this invocation",
+      "pinyin-teaching: 410 syllables and 1323 tone candidates: scope, initials/finals, neutral tone, rare/dialect contexts",
+      "audio-listening: 107 legacy contextual recordings, 19 core missing recordings, per-reading and syllable needs: inventory each asset before listening; do not enable unavailable audio"
+    ],
+    "checks": [
+      {
+        "name": "tests",
+        "status": "PASS",
+        "logSha256": "8b9ffb0d92bac96f5debf5bd511cc5bcdce9b907ab3fca62e94deb29bec7c4c2"
+      },
+      {
+        "name": "benchmark",
+        "status": "PASS",
+        "logSha256": "ba1d10025c4683103677704a10e03c6947b3d0c69fbdc604dcd0ed1567c0e0da"
+      },
+      {
+        "name": "data",
+        "status": "PASS",
+        "logSha256": "45fdfc545b39dee2c579c6f90b924e8494f3e712f025d8bdc03705e68346d6db"
+      },
+      {
+        "name": "hsk",
+        "status": "PASS",
+        "logSha256": "a7a7bd7fe131ac80da86e7bccdf5da0c1353460c49687f21d50bd816ca7bf26f"
+      },
+      {
+        "name": "build-production",
+        "status": "PASS",
+        "logSha256": "6e0d2a6b0bdfd4d4da967a0b689f744cbb3c57954f0acf3b510969c6fe7cdf32"
+      },
+      {
+        "name": "build-production-repeat",
+        "status": "PASS",
+        "logSha256": "f410a63176dc42e463dedae5e487ff1a2493068706b32899ed0de5ef6a048e69"
+      },
+      {
+        "name": "build-staging",
+        "status": "PASS",
+        "logSha256": "c12f677f904dbb8072c93ab6b98bc16ef6204020671fe3fce0a85b674fce8ebd"
+      },
+      {
+        "name": "build-local",
+        "status": "PASS",
+        "logSha256": "922feb3a3a28b119d9979ee439cce13e5bc0446a999dd6e348a30993b1e118e7"
+      },
+      {
+        "name": "workers-http",
+        "status": "FAIL",
+        "logSha256": "4ed30c6f0c7069e15c692e09cdbd89ef7b6185d9e07c2ea4795c2094da5483e9"
+      }
+    ],
+    "deterministicProduction": true,
+    "stagingSitemap": 0,
+    "localSitemap": 0,
+    "inputSha256": "c6c80e1fcca7a04c486d0f23bdedac3af61d903ca8b33cb3e67f8de5860dbd96"
+  },
+  "browser": {
+    "status": "BLOCKED",
+    "pagesVerified": 0,
+    "journeysVerified": 0,
+    "reason": "Initial listener failed EPERM; no-listener route-fulfillment alternative could not launch Chrome (target closed). No browser/visual result claimed."
+  },
+  "readingSelections": [
+    {
+      "characterId": "char:5b66",
+      "readingId": "reading:char:5b66:xue2",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:513f",
+      "readingId": "reading:char:513f:er2",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5b50",
+      "readingId": "reading:char:5b50:zi5",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5929",
+      "readingId": "reading:char:5929:tian1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e0a",
+      "readingId": "reading:char:4e0a:shang4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e0b",
+      "readingId": "reading:char:4e0b:xia4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e0d",
+      "readingId": "reading:char:4e0d:bu4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:597d",
+      "readingId": "reading:char:597d:hao3",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:6709",
+      "readingId": "reading:char:6709:you3",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:90a3",
+      "readingId": "reading:char:90a3:na4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5348",
+      "readingId": "reading:char:5348:wu3",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4eec",
+      "readingId": "reading:char:4eec:men5",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5c0f",
+      "readingId": "reading:char:5c0f:xiao3",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e00",
+      "readingId": "reading:char:4e00:yi1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:8fd9",
+      "readingId": "reading:char:8fd9:zhe4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e48",
+      "readingId": "reading:char:4e48:me5",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5927",
+      "readingId": "reading:char:5927:da4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e2a",
+      "readingId": "reading:char:4e2a:ge4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5b57",
+      "readingId": "reading:char:5b57:zi4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5e74",
+      "readingId": "reading:char:5e74:nian2",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5728",
+      "readingId": "reading:char:5728:zai4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:591a",
+      "readingId": "reading:char:591a:duo1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5c11",
+      "readingId": "reading:char:5c11:shao3",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5bb6",
+      "readingId": "reading:char:5bb6:jia1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e66",
+      "readingId": "reading:char:4e66:shu1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4f60",
+      "readingId": "reading:char:4f60:ni3",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:65f6",
+      "readingId": "reading:char:65f6:shi2",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:6211",
+      "readingId": "reading:char:6211:wo3",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:7684",
+      "readingId": "reading:char:7684:de5",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5bf9",
+      "readingId": "reading:char:5bf9:dui4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5206",
+      "readingId": "reading:char:5206:fen1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:6c49",
+      "readingId": "reading:char:6c49:han4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4eca",
+      "readingId": "reading:char:4eca:jin1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:56fd",
+      "readingId": "reading:char:56fd:guo2",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:53bb",
+      "readingId": "reading:char:53bb:qu4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4eba",
+      "readingId": "reading:char:4eba:ren2",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4ed6",
+      "readingId": "reading:char:4ed6:ta1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5979",
+      "readingId": "reading:char:5979:ta1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:7231",
+      "readingId": "reading:char:7231:ai4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:516b",
+      "readingId": "reading:char:516b:ba1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:7238",
+      "readingId": "reading:char:7238:ba4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:6253",
+      "readingId": "reading:char:6253:da3",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e8c",
+      "readingId": "reading:char:4e8c:er4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4f5c",
+      "readingId": "reading:char:4f5c:zuo4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5de5",
+      "readingId": "reading:char:5de5:gong1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:540e",
+      "readingId": "reading:char:540e:hou4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4f1a",
+      "readingId": "reading:char:4f1a:hui4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:53eb",
+      "readingId": "reading:char:53eb:jiao4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e5d",
+      "readingId": "reading:char:4e5d:jiu3",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:6765",
+      "readingId": "reading:char:6765:lai2",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:4e86",
+      "readingId": "reading:char:4e86:le5",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:516d",
+      "readingId": "reading:char:516d:liu4",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5988",
+      "readingId": "reading:char:5988:ma1",
+      "structureReview": "reviewed"
+    },
+    {
+      "characterId": "char:5417",
+      "readingId": "reading:char:5417:ma5",
+      "structureReview": "reviewed"
+    }
+  ],
+  "gitPush": "NOT ATTEMPTED (user instruction)"
+}

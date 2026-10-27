@@ -1,6 +1,6 @@
 # HanziFun 施工任务总表
 
-2026-10-26 · 对应 SPEC 1.2。**HF-01～09 已完成当前 Phase 1 候选范围验收并正式签发 PASS**；141个成熟页面放行索引，实际生产部署由 HF-17/18 收尾。物理缺音与213补充字教学草稿保留明确边界。
+2026-10-26 · 对应 SPEC 1.2。**HF-01～09 已完成当前 Phase 1 候选范围验收并正式签发 PASS**；Phase 1 的141个成熟页面索引状态保留为历史基线，当前 Phase 2 HF-10 进度见下文。物理缺音仍保留明确边界。
 
 **开发主线：Phase 1 首发上线 → Phase 2 引流工具与内容 → Phase 3 账号、云同步与订阅。** 任务编号保留，以下按执行阶段排列；HF-12/13/14 已解除对 HF-11 的依赖。
 
@@ -11,6 +11,42 @@ Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-ch
 ## 当前正式签发（2026-10-26）
 
 HF-02、HF-04、HF-07、HF-08、HF-09 均 Completed / PASS。详见 [正式签发记录](acceptance/phase-1-signoff.md) 与 [最终验收报告](acceptance/phase-1.md)。以下各包旧执行状态保留为历史，已由本次签发取代：126核心字批准，213补充字教学编辑仍为空并保留预览，物理缺音保持不可播；后续HF-14补齐，不阻断成熟页面文本发布。HF-17/18真实生产部署尚未执行。
+
+## Phase 2 当前执行项（2026-10-27）
+
+用户明确启动 **[HF-10（Phase 2 补充字教学管道）](phase-2-plan.md)**，承接 HF-14 的现有字库补齐。本次命名与原 `HF-10-auth`（Phase 3 登录）区别记录，不重编号历史任务、不启动登录/同步/Billing。A-D 四批共213字已按各批独立审核决定签发为本地 `published`；本地生产 Sitemap 为354条。没有据此声称实际生产部署完成。
+
+- [x] 盘点子任务：213唯一字、逐字基础字段/教学缺项/结构风险、Schema模板及可重复审计脚本。
+- [x] 四批计划：A54、B53、C53、D53；[完整计划](phase-2-plan.md)、[稳定ID与批次](hf10-batches.json)、[逐字盘点](hf10-inventory.json)。
+- [x] 教学注入器 `inject-phase2-batch.mjs`：默认 dry-run；支持独立 `--reading-selections` / `--structure-notes`；覆盖Schema、批次、读音、字词包含、结构核对及覆盖校验。
+- [x] Batch A · `hf10-phase2-a`：54字已按独立审核决定逐字绑定内容哈希并发布；用户报告已部署，线上状态未独立核验。
+- [x] Batch B · `hf10-phase2-b`：53字独立注入与签发；修正后的「五」meaning=`five`；签发记录见 `evidence/hf10/batch-b-release.json`。
+- [x] Batch C · `hf10-phase2-c`：53字独立注入与签发；签发记录见 `evidence/hf10/batch-c-release.json`。
+- [x] Batch D · `hf10-phase2-d`：53字独立注入与签发；签发记录见 `evidence/hf10/batch-d-release.json`。
+- [x] 内容状态复核：四批分别为54/53/53/53条；213条审核均接受、内容完整且哈希匹配；354个页面 index，47个 noindex；`releaseId=phase-2-hf10-a-d-2026-10-27`。
+- [ ] 运行环境补验：`validate-mvp-gate` 的 tests、benchmark、data、HSK、production/repeat/staging/local 构建均 PASS；Workers HTTP 因 `127.0.0.1` `listen EPERM` FAIL，Chrome 浏览器验收仍未完成。完整 MVP 总门控未全绿。
+
+本轮 `npm test` **151/151 PASS**；`HF_SITE_ENV=production npm run build:site` PASS（1546个公开文件、401个英文页、354 index/47 noindex）；`node scripts/validate-seo-quality.mjs` PASS（354条 Sitemap URL、402个 JSON-LD、`errors=[]`）。`node scripts/validate-mvp-gate.mjs` 因上述本机端口限制 FAIL / exit 1。原 HF-10-auth 仍属 Phase 3 待执行；本轮未 push、commit 或部署。
+
+## HF-11 / HF-12 Phase 2 用户指定工作包（2026-10-27）
+
+本轮命名以用户明确范围为准，与下方历史 HF-11-sync / HF-12-culture-tools 分开，不启动账号、同步或文化工具。
+
+- [x] [HF-11 音频工程](tasks/HF-11-audio-phase2.md)：410 音节 / 1323 声调入口全点亮，1268 个哈希验证静态录音；单字/例词/例句/HSK/场景/闪卡接入播放、停止与中文语音回退。
+- [x] 浏览器 1268/1268 MP3 可解码且非静音，7 类页面 axe 零违规、21 档布局通过；已修复换卡停止与 token 练习精确返回。
+- [ ] HF-11 剩余：55 个表内候选及 2 个额外字读音、738 词句使用中文设备声线；腾讯云 TLS 探测失败，完整静态补音/真实设备 TTS/人工逐条听审未完成，不宣称物理录音全部齐备。
+- [x] [HF-12 场景/二级核心工程](tasks/HF-12-scenarios-level2-phase2.md)：机场交通、酒店入住、超市购物各 5 句；86 个有锁定源证的 HSK 2.0 二级新增词（150 增量中的子集），联通现有字页及原稳定练习卡。
+- [x] 新二级词表独立发布；生产构建 2824 文件 / 409 英文页，**355 index / 54 noindex，Sitemap 355 URL**；`npm test` **159/159 PASS**；SEO `errors=[]`。
+- [ ] 新场景独立人工语言签收：见 [15 句签收包](acceptance/phase-2-hf12-language-review.md)，3 条精确路由仍 noindex，不继承旧场景批准；签收后可增至 358 URL。HSK 3.0 二级及剩余 64 个 HSK 2.0 二级词本轮未扩充。
+
+完整证据和限制见 [HF-11/HF-12 验证](HF-11-HF-12-VERIFICATION.md)。原 HF-10 的 213 字批次签字保留；本轮未提交、推送或部署。
+
+## HF-02 双「睛」身份/音频映射复核（2026-10-27）
+
+- [x] 排查用户报告的 `char:773c5b` 失败：修改前数据基座 11/11 PASS，本机未复现；现有第19/87位「睛」均为 `char:775b`，`char:773c` 是「眼」，数据与生成器无漂移。
+- [x] 校验器按原始字形校验每张卡的 characterId / itemId / readingId / audio 归属，并明确报出字段和教学位置；重复「睛」音频须与旧 manifest URL 一致。
+- [x] 在原用例增加 `char:773c5b`、错误「眼」身份、itemId、读音和音频的拒绝回归；不放宽断言、不改正式数据/审批/稳定ID。
+- [x] 定向测试11/11，全量 **159/159 PASS**；生产模式 `npm run build:site && npm test` 顺序验证通过（2824文件，54个noindex页）；本轮更新交接记录，未提交或部署。
 
 ## 工作包索引
 

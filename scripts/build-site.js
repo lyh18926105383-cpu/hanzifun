@@ -242,7 +242,7 @@ async function buildSite() {
         prototypePaths,
         characters: coreChars,
         additionalCharacters: hf07.lexicon.characters.map(c=>c.glyph),
-        additionalPaths: learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),
+        additionalPaths: [...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
         contract: routesModule.routeContract,
         release: routesModule.releaseConfig,
     });
@@ -266,13 +266,14 @@ async function buildSite() {
     const { staticStrokeSvg } = await import('../site/components/stroke-order.mjs');
     const {hskPages,additionalCharacterPages} = await import('../site/pages/hsk.mjs');
     const {scenarioPages} = await import('../site/pages/scenarios.mjs');
+    const pronunciation = await import('../site/pronunciation.mjs');
     [...hskPages(),...additionalCharacterPages(),...scenarioPages()].forEach(page=>pages.set(page.path,page));
     const hf04Pages = [...dictionaryPages(), sourcePage(), strokeOrderPage(), pinyinChartPage()];
     hf04Pages.forEach(page => pages.set(page.path, page));
     const writePublic = (relative, value) => {
         const destination = path.join(outputRoot, relative);
         fs.mkdirSync(path.dirname(destination), {recursive:true});
-        fs.writeFileSync(destination, typeof value === 'string' ? value : JSON.stringify(value) + '\n');
+        fs.writeFileSync(destination, typeof value === 'string' || Buffer.isBuffer(value) ? value : JSON.stringify(value) + '\n');
     };
     for (const name of ['dictionary','search-core','stroke-order','learning-entry','audio-player']) {
         fs.copyFileSync(path.join(projectRoot,'src/client',name+'.mjs'), path.join(outputRoot,'site-assets',name+'.hf04-v1.mjs'));
@@ -287,15 +288,24 @@ async function buildSite() {
     writePublic('site-assets/hf07.mjs',fs.readFileSync(path.join(projectRoot,'src/client/hf07.mjs'),'utf8'));
     for(const name of ['coverage.json','membership.json','lexicon.json','source-headwords.json']) writePublic('site-assets/hf07/'+name,fs.readFileSync(path.join(projectRoot,'data/hsk',name),'utf8'));
     writePublic('site-assets/hf07/build-hsk-data.mjs',fs.readFileSync(path.join(projectRoot,'scripts/build-hsk-data.mjs'),'utf8'));
+    writePublic('site-assets/pronunciation.mjs',fs.readFileSync(path.join(projectRoot,'src/client/pronunciation.mjs'),'utf8'));
+    const seenAudio=new Set();
+    for(const asset of [...Object.values(pronunciation.pronunciationManifest.syllables),...Object.values(pronunciation.pronunciationManifest.utterances)].filter(a=>a.url)){
+        if(seenAudio.has(asset.url))continue;seenAudio.add(asset.url);
+        const bytes=fs.readFileSync(path.join(projectRoot,asset.url));
+        if(require('node:crypto').createHash('sha256').update(bytes).digest('hex')!==asset.sha256)throw Error('Pronunciation asset hash mismatch: '+asset.url);
+        writePublic(asset.url,bytes);
+    }
     const shards = dictionary.searchShards();
-    shards.characters.push(...hf07.lexicon.characters.map(c=>{const r=hf07.findReading(c.primaryReadingId);return {id:c.characterId,type:'Characters & words',glyph:c.glyph,label:c.glyph+' · '+r.pinyin.marked+' · import draft',url:'/dictionary/'+c.glyph+'/',aliases:[c.glyph,...c.readingId.flatMap(id=>{const r=hf07.findReading(id);return [...r.pinyin.search,...r.senses];})]};}));
+    shards.characters.push(...hf07.supplementalSearchEntries());
     for (const [name, entries] of Object.entries(shards)) writePublic('site-assets/search/'+name+'.hf04-v1.json', entries);
     const library = [
         ...decks.map(d=>({id:'deck:'+d.slug,type:'Flashcard sets',label:d.title,url:'/flashcards/decks/'+d.slug+'/',aliases:[d.title,d.description,...d.chars]})),
-        ...articles.map(a=>({id:'article:'+a.slug,type:'Scenarios & articles',label:a.title+' · preview',url:'/blog/'+a.slug+'/',aliases:[a.title,a.category,...a.chars]})),
-        {id:'scenario:restaurant',type:'Scenarios & articles',label:'Restaurant · preview',url:'/scenarios/travel/restaurant/',aliases:['restaurant','travel','food','water','水']},
-        {id:'scenario:business',type:'Scenarios & articles',label:'Business icebreakers · preview',url:'/scenarios/business/icebreakers/',aliases:['business','introductions','polite']}
+        ...articles.map(a=>({id:'article:'+a.slug,type:'Scenarios & articles',label:a.title,url:'/blog/'+a.slug+'/',aliases:[a.title,a.category,...a.chars]})),
+        {id:'scenario:restaurant',type:'Scenarios & articles',label:'Restaurant',url:'/scenarios/travel/restaurant/',aliases:['restaurant','travel','food','water','水']},
+        {id:'scenario:business',type:'Scenarios & articles',label:'Business icebreakers',url:'/scenarios/business/icebreakers/',aliases:['business','introductions','polite']}
     ];
+    library.push(...hf07.scenarioData.scenarios.filter(s=>!['restaurant','icebreakers'].includes(s.id)).map(s=>({id:'scenario:'+s.id,type:'Scenarios & articles',label:s.title,url:s.path,aliases:[s.title,s.context,...s.sentences.flatMap(x=>x.tokens.map(t=>t[0]))]})),{id:'hsk-2-level-2',type:'Scenarios & articles',label:'HSK 2.0 level 2 core vocabulary',url:'/academic/hsk-2/level-2/',aliases:['HSK','level 2','vocabulary']});
     writePublic('site-assets/search/library.hf04-v1.json',library);
     const allStrokes=[...dictionary.strokes,...hf07.lexicon.strokes];
     const strokeManifest = allStrokes.map(asset=>({glyph:asset.glyph,codepoint:asset.characterId.slice(5),version:asset.sha256,strokeCount:asset.strokeCount}));
@@ -345,6 +355,7 @@ async function buildSite() {
         seo.assertEditorialReady(route);
         const canonical=seo.canonicalUrl(page.path, release.siteOrigin);
         const prepared={...seo.withCoreSeo(page),canonical};
+        if(prepared.content.includes('data-pronunciation'))prepared.content+=pronunciation.pronunciationFooter;
         prepared.structuredData=seo.structuredData(prepared,canonical,release.siteOrigin);
         const html = htmlForPage(layout, prepared, route, header, footer);
         writeRoutePage(page.path, html);

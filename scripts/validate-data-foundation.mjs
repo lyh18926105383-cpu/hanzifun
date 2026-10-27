@@ -136,14 +136,20 @@ export function validateBundle(b, lock, { files = true } = {}) {
     for (const [i, o] of b.occurrences.entries()) {
         assert.equal(o.zeroBasedIndex, i); assert.equal(o.oneBasedTeachingPosition, i + 1);
         assert.deepEqual(o.originalCard, legacy[i], 'Legacy occurrence reconstruction mismatch');
-        assert.equal(o.characterId, characterId(legacy[i].char)); assert.equal(o.itemId, o.characterId);
-        assert.ok(characters.get(o.characterId).readingId.includes(o.readingId));
-        if (o.audioId) assert.equal(audio.get(o.audioId)?.characterId, o.characterId);
+        const expectedId = characterId(legacy[i].char);
+        assert.equal(o.characterId, expectedId, `Legacy characterId mismatch at position ${i + 1} (${legacy[i].char}); expected ${expectedId}`);
+        assert.equal(o.itemId, expectedId, `Legacy itemId mismatch at position ${i + 1}; expected ${expectedId}`);
+        assert.ok(characters.get(expectedId)?.readingId.includes(o.readingId), `Legacy reading mismatch at position ${i + 1}; expected a reading of ${expectedId}`);
+        if (o.audioId) assert.equal(audio.get(o.audioId)?.characterId, expectedId, `Legacy audio characterId mismatch at position ${i + 1}; expected ${expectedId}`);
     }
     const jing = b.occurrences.filter(o => o.characterId === 'char:775b');
     assert.deepEqual(jing.map(o => o.oneBasedTeachingPosition), [19, 87]);
     assert.equal(new Set(jing.map(o => o.audioId)).size, 1);
     const manifest = readJSON('audio-manifest.json');
+    const jingAudio = audio.get(jing[0].audioId);
+    assert.ok(jingAudio, 'Missing shared audio for both 睛 cards');
+    assert.equal(jingAudio.characterId, characterId('睛'), 'Shared 睛 audio characterId mismatch');
+    assert.equal(jingAudio.url, manifest.cards['睛'].url, 'Shared 睛 audio URL differs from the legacy manifest');
     assert.equal(manifest.total, 107); assert.equal(manifest.available, Object.keys(manifest.cards).length);
     assert.equal(manifest.totalOccurrences, 108); assert.equal(manifest.availableOccurrences, b.occurrences.filter(o => o.audioId).length);
     for (const r of b.pinyinReadings) { evidence(r.evidence); assert.deepEqual(r.pinyin, pinyinForms(r.pinyin.numeric)); }

@@ -16,7 +16,8 @@ export function effectivePolicy(route,environment) {
  return route;
 }
 export function assertEditorialReady(route) {
- if(route.indexing==='index'&&scenarioData.scenarios.some(s=>s.path===route.path)&&scenarioData.review.humanAcceptance!=='approved')throw Error('Scenario human language acceptance pending: '+route.path);
+ const scenario=scenarioData.scenarios.find(s=>s.path===route.path);
+ if(route.indexing==='index'&&scenario&&(scenario.review||scenarioData.review).humanAcceptance!=='approved')throw Error('Scenario human language acceptance pending: '+route.path);
 }
 const fixed={
  '/':{title:'Learn Chinese Characters Visually: Dictionary, HSK & Flashcards',h1:'Learn Chinese Characters Visually',lead:'Learn Chinese characters with a visual dictionary, stroke order, HSK level 1 lists and flashcards that save practice on this device.'},
@@ -29,14 +30,17 @@ const fixed={
  '/academic/':{title:'HSK Level 1 Lists: Compare HSK 2.0 and HSK 3.0',h1:'HSK Level 1: Choose Your Version',lead:'HSK level 1 has separate lists in HSK 2.0 and HSK 3.0: the libraries contain 150 and 300 vocabulary entries respectively.'},
  '/academic/hsk-2/':{title:'HSK 2.0 Level 1 Vocabulary: 150 Words & 174 Derived Characters',h1:'HSK 2.0 Level 1 Vocabulary and Characters',lead:'HSK 2.0 level 1 contains 150 vocabulary entries in the 2015 list, from which this library derives 174 unique characters.'},
  '/academic/hsk-3/':{title:'HSK 3.0 Level 1: 300 Words & 246 Recognition Characters',h1:'HSK 3.0 Level 1 Vocabulary and Recognition Characters',lead:'HSK 3.0 level 1 contains 300 vocabulary entries and 246 recognition characters in the 2025 examination syllabus; its 100 writing characters cover levels 1–2 together.'},
- '/scenarios/':{title:'Chinese Conversation Scenarios: Restaurant & Business Phrases',h1:'Chinese Conversation Scenarios',lead:'Learn Chinese conversation through restaurant and business scenarios with phrase meanings, pinyin and linked character practice.'},
- '/scenarios/travel/':{title:'Chinese Travel Phrases: Restaurant Conversation Practice',h1:'Chinese Travel Phrases',lead:'Start Chinese travel conversation with restaurant phrases for ordering water or tea and asking a price.'},
+ '/scenarios/':{title:'Chinese Conversation Scenarios: Travel, Shopping & Business',h1:'Chinese Conversation Scenarios',lead:'Practise Chinese for restaurants, airport transport, hotel check-in, supermarket shopping and business introductions, with pinyin, phrase meanings and linked character practice.'},
+ '/scenarios/travel/':{title:'Chinese Travel Phrases: Airports, Hotels, Restaurants & Shopping',h1:'Chinese Travel Phrases',lead:'Practise Chinese travel phrases for airport transport, hotels, restaurants and supermarket shopping, then follow each word to its character pages.'},
  '/scenarios/business/':{title:'Chinese Business Phrases: Courteous Introductions',h1:'Chinese Business Phrases',lead:'Start a Chinese business conversation with courteous greetings, introductions and thanks for someone’s time.'},
  '/scenarios/travel/restaurant/':{title:'Chinese Restaurant Phrases: Order Drinks & Ask Prices',h1:'Chinese Restaurant Phrases',lead:'Use Chinese restaurant phrases to request a glass of water, order tea and ask how much something costs.'},
  '/scenarios/business/icebreakers/':{title:'Chinese Business Icebreakers: Greetings & Introductions',h1:'Chinese Business Icebreakers',lead:'Use polite Chinese business icebreakers to greet someone respectfully, ask their name and thank them for their time.'}
 };
 export function coreSeo(routePath) {
  if(fixed[routePath])return fixed[routePath];
+ if(routePath==='/academic/hsk-2/level-2/')return {title:'HSK 2.0 Level 2 Core Vocabulary: 86 Words with Audio',h1:'HSK 2.0 Level 2: 86 Core Words',lead:'Study 86 of the 150 additional HSK 2.0 level-2 words with pinyin, meanings, audio and links to complete character pages. This selected core list is not the full second-level syllabus.'};
+ const scenario=scenarioData.scenarios.find(s=>s.path===routePath);
+ if(scenario)return {title:scenario.title+': Phrases, Pinyin & Audio',h1:scenario.title,lead:scenario.context};
  const m=/^\/dictionary\/([^/]+)\/$/.exec(routePath),c=m&&findCharacter(decodeURIComponent(m[1]));
  if(!c)return null;
  const reading=findReading(c.primaryReadingId),meaning=characterReviewState(c.characterId).teaching?.meaning||reading.senses[0];

@@ -88,6 +88,6 @@ if(pinyinForm){
 
 // Context return is limited to local HSK/scenario pages, never arbitrary redirects.
 const contextReturn=params.get('returnTo');
-if(contextReturn&&/^\/(?:academic\/hsk-[23]\/|scenarios\/(?:travel\/restaurant|business\/icebreakers)\/)(?:[#?]|$)/.test(contextReturn)&&!/[\r\n\\]/.test(contextReturn)){
+if(contextReturn&&/^\/(?:academic\/hsk-[23]\/(?:level-2\/)?|scenarios\/(?:travel\/(?:restaurant|airport|hotel|supermarket)|business\/icebreakers)\/)(?:[#?]|$)/.test(contextReturn)&&!/[\r\n\\]/.test(contextReturn)){
  const a=node('a','Return to learning context');a.href=contextReturn;document.querySelector('main')?.prepend(a);
 }

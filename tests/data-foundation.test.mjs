@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readJSON, parseCedict, normalizePinyin, pinyinForms, markSyllable, splitSyllable, validateStroke, require, parseRegionalStrokeCounts } from '../scripts/data-foundation-lib.mjs';
+import { readJSON, parseCedict, normalizePinyin, pinyinForms, markSyllable, splitSyllable, validateStroke, require, parseRegionalStrokeCounts, characterId } from '../scripts/data-foundation-lib.mjs';
 import { loadBundle, validateBundle, validateFoundation, validateMembership } from '../scripts/validate-data-foundation.mjs';
 
 const lock = readJSON('data/sources.lock.json');
@@ -17,8 +17,20 @@ test('108 positions reconstruct legacy source and both 睛 cards share one ident
     const jing = bundle.occurrences.filter(c => c.characterId === 'char:775b');
     assert.deepEqual(jing.map(c => c.cardId), ['card:legacy:4-4:1', 'card:legacy:4-15:3']);
     assert.equal(new Set(jing.map(c => c.audioId)).size, 1);
+    assert.equal(characterId('睛'), 'char:775b');
+    assert.equal(characterId('眼'), 'char:773c');
+    assert.ok(jing.every(c => c.itemId === 'char:775b' && c.readingId === 'reading:char:775b:jing1' && c.audioId === 'audio:tts-v1:775b'));
+    const sharedAudio = bundle.audio.find(a => a.audioId === jing[0].audioId);
+    assert.equal(sharedAudio.characterId, 'char:775b');
+    assert.equal(sharedAudio.url, 'audio/tts-v1/019-775b.mp3');
     assert.deepEqual(bundle.occurrences.map(c => c.originalCard), require('../characters.js'));
-    checkMutation(b => b.occurrences[86].characterId = 'char:773c', /characterId|char:775b|775b|773c|reading/);
+    const secondJing = jing[1].zeroBasedIndex;
+    for (const badId of ['char:773c', 'char:773c5b']) {
+        checkMutation(b => b.occurrences[secondJing].characterId = badId, /Legacy characterId mismatch at position 87.*char:775b/);
+    }
+    checkMutation(b => b.occurrences[secondJing].itemId = 'char:773c', /Legacy itemId mismatch at position 87/);
+    checkMutation(b => b.occurrences[secondJing].readingId = 'reading:char:773c:yan3', /Legacy reading mismatch at position 87/);
+    checkMutation(b => b.occurrences[secondJing].audioId = 'audio:tts-v1:773c', /Legacy audio characterId mismatch at position 87/);
 });
 test('CEDICT parser retains v1/v2, multiple traditional forms, line locators and malformed input fails', () => {
     const rows = parseCedict('# comment\n發 发 [fa1] /to issue/\n髮 发 [[fa4]] /hair/');

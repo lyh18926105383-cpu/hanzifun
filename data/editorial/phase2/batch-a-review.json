@@ -1,0 +1,131 @@
+{
+  "batchId": "hf10-phase2-a",
+  "reviewer": "Project owner (user)",
+  "reviewDate": "2026-10-26",
+  "humanAcceptance": "approved",
+  "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md",
+  "readingSelections": {
+    "一": "yi1",
+    "上": "shang4",
+    "下": "xia4",
+    "不": "bu4",
+    "个": "ge4",
+    "么": "me5",
+    "九": "jiu3",
+    "书": "shu1",
+    "了": "le5",
+    "二": "er4",
+    "人": "ren2",
+    "今": "jin1",
+    "他": "ta1",
+    "们": "men5",
+    "会": "hui4",
+    "作": "zuo4",
+    "你": "ni3",
+    "儿": "er2",
+    "八": "ba1",
+    "六": "liu4",
+    "分": "fen1",
+    "午": "wu3",
+    "去": "qu4",
+    "叫": "jiao4",
+    "后": "hou4",
+    "吗": "ma5",
+    "国": "guo2",
+    "在": "zai4",
+    "多": "duo1",
+    "大": "da4",
+    "天": "tian1",
+    "她": "ta1",
+    "好": "hao3",
+    "妈": "ma1",
+    "子": "zi5",
+    "字": "zi4",
+    "学": "xue2",
+    "家": "jia1",
+    "对": "dui4",
+    "小": "xiao3",
+    "少": "shao3",
+    "工": "gong1",
+    "年": "nian2",
+    "我": "wo3",
+    "打": "da3",
+    "时": "shi2",
+    "有": "you3",
+    "来": "lai2",
+    "汉": "han4",
+    "爱": "ai4",
+    "爸": "ba4",
+    "的": "de5",
+    "这": "zhe4",
+    "那": "na4"
+  },
+  "structureNotes": {
+    "子": {
+      "layout": "single-component",
+      "description": "An integrated shape with a curved upper stroke, central hook and crossing horizontal; use the full three-stroke sequence."
+    },
+    "午": {
+      "layout": "single-component",
+      "description": "An integrated shape with a short upper slant and a central vertical crossing the horizontal strokes."
+    },
+    "小": {
+      "layout": "single-component",
+      "description": "A central hooked stroke with a short stroke on each side."
+    },
+    "一": {
+      "layout": "single-component",
+      "description": "One horizontal stroke; no separate components are needed."
+    },
+    "大": {
+      "layout": "single-component",
+      "description": "An integrated shape with a horizontal stroke crossing two spreading lower strokes."
+    },
+    "年": {
+      "layout": "single-component",
+      "description": "A central vertical crosses the horizontal strokes beneath a short upper slant; learn the full stroke sequence as one shape."
+    },
+    "书": {
+      "layout": "single-component",
+      "description": "An integrated shape with folded strokes, a crossing vertical and a dot; learn the four strokes as one shape."
+    },
+    "人": {
+      "layout": "single-component",
+      "description": "Two connected spreading strokes form one integrated shape."
+    },
+    "八": {
+      "layout": "single-component",
+      "description": "Two separate strokes spread left and right; treat them as one character shape."
+    },
+    "九": {
+      "layout": "single-component",
+      "description": "A slanting stroke crosses a bent hooked stroke in an integrated shape."
+    },
+    "来": {
+      "layout": "single-component",
+      "description": "A central vertical crosses horizontals, with short upper marks and spreading lower strokes; trace the integrated shape."
+    },
+    "不": {
+      "layout": "top-bottom",
+      "description": "A top horizontal sits above a central stroke and two branching strokes; trace the complete four-stroke shape."
+    },
+    "有": {
+      "layout": "upper-left-enclosure",
+      "description": "Upper slanting strokes cover the box-like lower shape on the upper-left side; follow the full stroke sequence."
+    },
+    "那": {
+      "layout": "left-right",
+      "description": "A compact left-hand shape stands beside the right-hand component 阝; no additional decomposition of the left side is asserted."
+    },
+    "今": {
+      "layout": "top-bottom",
+      "description": "A 人-shaped top sits above a short mark and a bent lower stroke; follow the four strokes as a complete shape."
+    },
+    "后": {
+      "layout": "upper-left-enclosure",
+      "description": "Upper and left strokes surround a lower 口-shaped box; no historical origin is inferred."
+    }
+  },
+  "structureReviewer": "Codex (source/stroke layout review)",
+  "structureReviewDate": "2026-10-27"
+}

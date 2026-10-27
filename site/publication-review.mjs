@@ -16,6 +16,10 @@ export function characterReviewState(id,inputs=reviewInputs){
  if(teaching&&!['ai-quick-reviewed','human-reviewed'].includes(teaching.reviewStatus))issues.push('Teaching quick review pending');
  if(teaching&&(!teaching.word?.includes(c.glyph)||!teaching.sentence?.includes(c.glyph)))issues.push('Word/sentence must include character');
  if(readings.some(r=>!r?.pinyin?.marked||!r.senses?.length))issues.push('Reading data incomplete');
+ if(supplemental&&teaching?.generationBatch?.startsWith('hf10-phase2-')){
+  const shape=teaching.structureReview,stroke=inputs.supplemental.strokes.find(s=>s.characterId===id);
+  if(shape?.status!=='reviewed'||!shape.layout||!shape.description?.trim()||!shape.reviewer?.trim()||!shape.date||shape.sourceSha256!==contentHash({components:c.components,strokeSha256:stroke?.sha256}))issues.push('Visible structure review missing or stale');
+ }
  const contentSha256=contentHash({character:c,readings,teaching:teaching||null,strokes:supplemental?inputs.supplemental.strokes.find(s=>s.characterId===id):inputs.strokes.find(s=>s.characterId===id),sources:inputs.sources});
  const decision=inputs.reviews.characters[id];
  const signed=decision?.humanContent==='approved'&&typeof decision.reviewer==='string'&&decision.reviewer.trim()&&/^\d{4}-\d{2}-\d{2}$/.test(decision.date||'')&&!Number.isNaN(Date.parse(decision.date))&&new Date(decision.date).toISOString().slice(0,10)===decision.date&&typeof decision.evidence==='string'&&decision.evidence.trim()&&decision.contentSha256===contentSha256;

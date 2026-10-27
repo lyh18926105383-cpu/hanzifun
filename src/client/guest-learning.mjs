@@ -14,7 +14,7 @@ const download=(name,raw)=>{const url=URL.createObjectURL(new Blob([raw],{type:'
 const params=new URLSearchParams(location.search);
 let library, repo, view, controller;
 const deviceId=uuid(); let sequence=0;
-const safeReturn=value=>typeof value==='string'&&/^\/(?:academic\/hsk-[23]\/|scenarios\/(?:travel\/restaurant|business\/icebreakers)\/)(?:[#?]|$)/.test(value)&&!/[\r\n\\]/.test(value)?value:null;
+const safeReturn=value=>typeof value==='string'&&/^\/(?:academic\/hsk-[23]\/(?:level-2\/)?|scenarios\/(?:travel\/(?:restaurant|airport|hotel|supermarket)|business\/icebreakers)\/)(?:[#?]|$)/.test(value)&&!/[\r\n\\]/.test(value)?value:null;
 let returnTarget=safeReturn(params.get('returnTo'));
 const practiceURL=id=>'/flashcards/?session='+encodeURIComponent(id)+(returnTarget?'&returnTo='+encodeURIComponent(returnTarget):'');
 const cardFor=(characterId,readingId)=>{
@@ -27,6 +27,15 @@ function mount(session,projection,temporary=false) {
   controller=createFlashcardController({session,projection,deviceId,uuid,nextSeq:count=>{const n=sequence;sequence+=count;return n;},
     temporary, commit:temporary?()=>({temporary:true}):t=>repo.commit(t)});
   view=mountFlashcards($('[data-guest-practice]'),controller);
+  const listen=node('button','Listen to character');listen.type='button';listen.dataset.pronunciation='';listen.setAttribute('aria-pressed','false');
+  $('[data-guest-practice]').append(listen);let lastCard;
+  const audioUpdate=()=>{const state=controller.getState(),s=state.session,card=s.queue[s.cursor]?.card;
+    const key=s.status==='active'?card?.cardId:null;
+    if(key!==lastCard){window.dispatchEvent(new CustomEvent('hanzifun-pronunciation-stop'));lastCard=key;}
+    listen.hidden=!key;const audio=library.pronunciations?.[card?.readingId];listen.dataset.audioUrl=audio?.url||'';listen.dataset.speechText=audio?.text||card?.front||'';
+  };
+  const unsubscribeAudio=controller.subscribe(audioUpdate);audioUpdate();const destroyAudio=view.destroy;
+  view.destroy=()=>{unsubscribeAudio();window.dispatchEvent(new CustomEvent('hanzifun-pronunciation-stop'));listen.remove();destroyAudio();};
   if(returnTarget)$('[data-guest-practice]').append(link('Return to learning context',returnTarget));
   if(!temporary){
     const controls=node('p'),free=button('Practise this set freely',()=>launch((session.cardIds||session.queue.map(e=>e.card.cardId)).map(id=>library.catalog.find(c=>c.cardId===id)).filter(Boolean),session.title||'Free practice',{free:true,source:'free'}));

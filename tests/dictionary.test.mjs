@@ -57,10 +57,10 @@ test('character text, Information and complete static sequences are rendered wit
  assert.equal(dictionaryPages().filter(p=>characters.some(c=>p.path==='/dictionary/'+c.glyph+'/')).length,126);
  assert.ok(comparisons.entries.length>=6);
 });
-test('410-syllable scope is independent of core coverage; tone forms stay readable and silent audio controls stay disabled',()=>{
+test('410-syllable scope is independent of core coverage; tone forms stay readable and every candidate has a pronunciation control',()=>{
  const html=pinyinChartPage().content;assert.equal(syllables.length,410);
  assert.equal((html.match(/data-syllable=/g)||[]).length,410);assert.equal(syllables.reduce((n,s)=>n+s.tones.length,0),1323);
- assert.equal((html.match(/data-audio-state="muted"/g)||[]).length,1323);assert.doesNotMatch(html,/Audio pending|unavailable/i);assert.match(html,/Zero initial/);assert.match(html,/neutral/);assert.match(html,/lü/);
+ assert.equal((html.match(/data-pronunciation /g)||[]).length,1323);assert.doesNotMatch(html,/data-audio-state="muted"|aria-disabled="true"/);assert.doesNotMatch(html,/Audio pending|unavailable/i);assert.match(html,/Zero initial/);assert.match(html,/neutral/);assert.match(html,/lü/);
  assert.ok(scope.rareIncluded.length>0);assert.ok(!syllables.some(s=>s.spelling==='bua'));
 });
 test('stroke loader fetches only the requested version, deduplicates calls, and recovers after failure',async()=>{

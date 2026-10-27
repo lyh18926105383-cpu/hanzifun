@@ -1,0 +1,437 @@
+{
+  "batchId": "hf10-phase2-a",
+  "decisions": [
+    {
+      "characterId": "char:5b66",
+      "contentSha256": "29e26115f50da66f43af9ba82333d6ab9504604a9df8160b645e2d702e208f14",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:513f",
+      "contentSha256": "a2b7cbf024510f595c7595f0ceebff0f41f7f2a634346a9e5e65a0e05a45b9b5",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5b50",
+      "contentSha256": "c7955bfa945bcf8739f3485defda63d2bf980867083aaaad8d741da74664a115",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5929",
+      "contentSha256": "c7f9dfedcd8bc42a0a16fb4c1ff4c355a9abd539ad94239e441f0f143610af8c",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e0a",
+      "contentSha256": "12767e6ed0d42a1714e970446b863d8ccf9acb1fc7dbbf26d6fb365f1b98918b",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e0b",
+      "contentSha256": "e674ad1d7cacb8c124389a67fee503e93d684cf1824307e90fd5fb0aa50fbd60",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e0d",
+      "contentSha256": "28327e3b1bd572cfe154cf40146b71910a598bc2d8fd0e934b754a2b465d8540",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:597d",
+      "contentSha256": "c16b47d7948d237b664cfa7de5cc51f5d598c50e6fe758dd02cdd52430a26cdb",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:6709",
+      "contentSha256": "1cc02775335f27b4e491738e35c86008864aa63facf0acdc06de74f9efe10920",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:90a3",
+      "contentSha256": "494eb60be3228ec5fd6f4241a78df20775a7a418b526b711a648a6a16b0e4269",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5348",
+      "contentSha256": "b1fe13bbdacb0f04d672907b49312d7ba7d519aec03ea6ea6d1911a1dfcd2d84",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4eec",
+      "contentSha256": "8eae2f73c832f3d0af8c280b4f1ab440f2eb004847dce4a34dc22c9b67fcfdc6",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5c0f",
+      "contentSha256": "5a712c9f34beb288d6549a13d2c64a81ab37364219b4892c8b5945c40636ecd9",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e00",
+      "contentSha256": "e87628b7b4d4a255744b30cd005168d09234591db997b8e25f6af7f62a7f5299",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:8fd9",
+      "contentSha256": "5596eaa15203dee1869f88e7f7988038353faee990ed6347f25ae8d35f82e7b2",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e48",
+      "contentSha256": "f551700dd28b7119d48003f1fa620364d2b6fbbc05e667eaf084cf7add093914",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5927",
+      "contentSha256": "e67f11385b2958a4a087740e147cd9a3a2988d8c42f83978869e28c6a9580542",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e2a",
+      "contentSha256": "4e0e5f542e9ee3b0dbeb450dadd26dbe62636c370ab7737decfad66adf37d76f",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5b57",
+      "contentSha256": "299e2a41e146cbbfc0fdd322116148a8fe3e12a33926b1f4603a0ffddc690bb4",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5e74",
+      "contentSha256": "e8a73b8099175dfc72405a9f3ab04a4ee4f01be2ca5c6ef6aa1662e6d7c522bf",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5728",
+      "contentSha256": "09410dba3c0b6d6a1c589a87a4a95318ebe2e268da26ee840fe2947b8bbf2dda",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:591a",
+      "contentSha256": "49767ac2c5bc51ae060a233544a16e01d132252189c9543cf56067368498eb18",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5c11",
+      "contentSha256": "952179251c059263079010aa39a185448b10feac7bdec695526440201551ba43",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5bb6",
+      "contentSha256": "b92661514d528b549d0ce5d02a13cb62f74f0e80cb7a57f663b528cd79d06c59",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e66",
+      "contentSha256": "0364b41fd3fbe009c4bf2dc4c31a8a833d564f8a60de2c1f4bda8079c5a25ecd",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4f60",
+      "contentSha256": "a7b52ebb6500d8cbd935dc2148ef073b9fada36326a889ad8f77e99d3fb5c65e",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:65f6",
+      "contentSha256": "761cfbec6740769766c1338f20e32840a616bb1db38e2eba87f20d9915f1bd83",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:6211",
+      "contentSha256": "7c15d989b47970f7484b74a63919e3bf1c38067778a385c1943dad03ec425fce",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:7684",
+      "contentSha256": "7479eb43240146e7ac8b8d6731c00f24d8cfde24c3051814dd71b9f37eb7fb9f",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5bf9",
+      "contentSha256": "d2d3a7dbac43d4c1d0c495b1c5f8ce0bb64b92b2d60fb4bcc5633f5959c4bbed",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5206",
+      "contentSha256": "9893c78b5e383bdf380408ceae57dbd7ceb72b7d31c0a71389e66ee8516bde6f",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:6c49",
+      "contentSha256": "6f376b0fef26cea6963a238b3aefb9b28111a13fc5f89baaa09e8e2728db788d",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4eca",
+      "contentSha256": "2663abc4150edbe1ccfd66d79746ac4689e3a070ff91bad960ec9943a5ca39cc",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:56fd",
+      "contentSha256": "c1b1537971d9eb5e90e8a7426f0ad9e0d6bb630e66556d42bf1f5c7d0502ec18",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:53bb",
+      "contentSha256": "03003d8929d0a736c6a05e07a4f271c4f7dd0dbe01093478a0089df614578464",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4eba",
+      "contentSha256": "8ce5d6c8ddf1a4640b22f148ec92fd214a39f47edeed78e1d574d6836cb885ce",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4ed6",
+      "contentSha256": "b9712870b044004f8e98ca5ab7063d94aace5d9bcfdbccb11d8e748866360f5d",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5979",
+      "contentSha256": "7800e6bf01b5253b116fbf41998b317e8f75376f8207fa27196c117b380f267b",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:7231",
+      "contentSha256": "128a3ff950545f0286a5e5e64070fe20c7ef133fcb38abeabb5596ee37835644",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:516b",
+      "contentSha256": "62514ddfafacb4f0138ef42b107ce341ead2224c616ed0cff1df434941c72f42",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:7238",
+      "contentSha256": "6eee2df2592bc693d3e0c1b7b4243408fe70f8166bedd28e57b9826f9fbab98f",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:6253",
+      "contentSha256": "f84b92434facfedb13c959e816b6bf9d81b50304ecc7a848a90330e5316281a3",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e8c",
+      "contentSha256": "808541a89afe8a2200779b1f3ddd5c1609c61702ae4651947f5f6f22bd2d55b6",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4f5c",
+      "contentSha256": "5a367cace0acad62a992ae6b072099a7a431bd83c7a839c2eaf5b50978458e38",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5de5",
+      "contentSha256": "b62d78e3ded6cde45ad701b2efc9de3f521c2dea4a1147f78cbd74a6ae4436a1",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:540e",
+      "contentSha256": "1aa2682ca9f968d481db2b2d75989b05209975848b685f09ac3115ca39805e04",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4f1a",
+      "contentSha256": "77e0e96ed6436ca77801dbac86b596bef6b6add6f62e8bc7acaceca3c72a4587",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:53eb",
+      "contentSha256": "e45cb76a1f58e7859802a4bb29c65254f267ab5bbed94f63d46ea2415df66d02",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e5d",
+      "contentSha256": "74f62d84f0a341d06dac8088c8f98ffaff6b620c7dd75dcdc07c528c3c8155ed",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:6765",
+      "contentSha256": "52ccef4366ec2473faca1da12f311128092fb5676a9a5f2c8d799a25ad7c549f",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:4e86",
+      "contentSha256": "9c77cb180efc6549ee0697b7ea0abfa3adec9123d6591cadc56b39934bcbede0",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:516d",
+      "contentSha256": "a794d0d1ea0114af1349ac8810f8200a788a3db21b4caabcdd7fe030adcafb3d",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5988",
+      "contentSha256": "30b93fde55a47a0479a148cf19cbe0e554bba1a01baaa133830348f89c63aa4f",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    },
+    {
+      "characterId": "char:5417",
+      "contentSha256": "74c2e9981c77aafdb275030d916212f2de12b2179765f04593673fca48a224f3",
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-26",
+      "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-batch-a-signoff.md"
+    }
+  ]
+}
