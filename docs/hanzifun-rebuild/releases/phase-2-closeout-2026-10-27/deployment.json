@@ -1,0 +1,28 @@
+{
+  "releaseId": "phase-2-closeout-2026-10-27",
+  "worker": "hanzifun",
+  "sourceCommit": "c047d1c2be01281ab533d2c5f26e30dbc6898be8",
+  "versionId": "cd058ccd-a054-440f-b180-6fb6db6f9cd6",
+  "deploymentId": "ddc05ad9-e77e-4529-a751-032cf83bc602",
+  "trafficPercent": 100,
+  "deployedAt": "2026-10-27T15:58:57.418641Z",
+  "deployedAtSingapore": "2026-10-27T23:58:57.418641+08:00",
+  "verifiedAtSingapore": "2026-10-28T00:00:00.531000+08:00",
+  "artifactSha256": "1797c8ab85c0aedfb674e30d3d808dc08803ea34cbc6fafffcb2ae7348c23793",
+  "publicFiles": 2824,
+  "sitemapUrls": 358,
+  "verificationElapsedMilliseconds": 2087,
+  "tests": {
+    "passed": 161,
+    "failed": 0
+  },
+  "seoErrors": [],
+  "github": {
+    "remote": "https://github.com/lyh18926105383-cpu/hanzifun.git",
+    "branch": "main",
+    "sourceCommitPush": "confirmed successful",
+    "pushedSourceCommit": "c047d1c2be01281ab533d2c5f26e30dbc6898be8"
+  },
+  "previousVersionId": "6b11b7a8-303d-40c3-9c69-91d7b38eb15d",
+  "postReleaseObservation": "24h/7d not performed; no automation created"
+}

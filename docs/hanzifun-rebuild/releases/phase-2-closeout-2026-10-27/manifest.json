@@ -403,5 +403,7 @@
     "64 remaining HSK 2.0 level-2 words",
     "Tencent synthesis of 57 readings and 738 word/sentence groups"
   ],
-  "deploymentStatus": "candidate-validated; see deployment.json for actual production result"
+  "deploymentStatus": "deployed-and-production-http-verified",
+  "deploymentCodeRevision": "c047d1c2be01281ab533d2c5f26e30dbc6898be8",
+  "productionVerification": "online-verification.json"
 }

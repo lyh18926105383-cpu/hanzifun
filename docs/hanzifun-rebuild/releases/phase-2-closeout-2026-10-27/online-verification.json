@@ -1,0 +1,167 @@
+{
+  "checkedAt": "2026-10-27T16:00:00.531Z",
+  "origin": "https://hanzifun.online",
+  "elapsedMilliseconds": 2087,
+  "sitemap": {
+    "status": 200,
+    "urlCount": 358,
+    "matchesLocalBuild": true,
+    "sha256": "16ac1dcac5dca591ebcefebb3773b782a07610ace1335fc0b7c7bf0567195289"
+  },
+  "checks": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "headers": {
+        "content-type": "application/xml",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-cache-status": "HIT",
+        "etag": "W/\"27dbd3f1683b5f29f4602a071c558d07\""
+      },
+      "milliseconds": 1182
+    },
+    {
+      "path": "/scenarios/travel/airport/",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-cache-status": "HIT",
+        "etag": null
+      },
+      "milliseconds": 1156,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/scenarios/travel/airport/",
+      "inSitemap": true,
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "/scenarios/travel/hotel/",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-cache-status": "HIT",
+        "etag": null
+      },
+      "milliseconds": 1247,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/scenarios/travel/hotel/",
+      "inSitemap": true,
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "/scenarios/travel/supermarket/",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-cache-status": "HIT",
+        "etag": null
+      },
+      "milliseconds": 1173,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/scenarios/travel/supermarket/",
+      "inSitemap": true,
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "headers": {
+        "content-type": "text/plain",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-cache-status": "HIT",
+        "etag": "W/\"1510c9f5f87672ed68a459d2e46a2e8d\""
+      },
+      "milliseconds": 1138
+    },
+    {
+      "path": "/account/",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-cache-status": "MISS",
+        "etag": null
+      },
+      "milliseconds": 1270
+    },
+    {
+      "path": "/tools/zodiac-elements-calculator/",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-cache-status": "HIT",
+        "etag": null
+      },
+      "milliseconds": 1173
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-cache-status": "HIT",
+        "etag": null
+      },
+      "milliseconds": 1141
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-cache-status": "HIT",
+        "etag": null
+      },
+      "milliseconds": 1188
+    },
+    {
+      "path": "/index.html",
+      "status": 301,
+      "headers": {
+        "content-type": null,
+        "x-robots-tag": null,
+        "location": "/zh/",
+        "cf-cache-status": null,
+        "etag": null
+      },
+      "milliseconds": 1128
+    }
+  ],
+  "assets": [
+    {
+      "path": "/site-assets/site-styles.hf03-v1.css",
+      "status": 200,
+      "sha256": "c6c58e03ef8b63ec7a8adb378572dccfcf6a963ec834584324e31eb6eee02adc",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "/site-assets/hf06/client/guest-learning.mjs",
+      "status": 200,
+      "sha256": "89d1e8c5a332db6337ee2c6a5894a82e9ca3d2569b9a250c1c19feaff376930c",
+      "matchesLocalBuild": true
+    }
+  ],
+  "audioRange": {
+    "status": 200,
+    "bytes": 24349,
+    "rangeHonored": false,
+    "matchesLocalBytes": true
+  },
+  "errors": [],
+  "limits": "HTTP indexability verified; search-engine crawl or actual inclusion is not inferred."
+}

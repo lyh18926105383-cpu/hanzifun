@@ -1,9 +1,9 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
 ## 当前所处阶段
-- **大阶段**：Phase 2（2026-10-27用户明确启动）；Phase 1签发历史保留，本轮未核实实际生产部署。
+- **大阶段**：Phase 2；收口批次已实际部署Cloudflare并核验生产域名，2026-10-28收尾。Phase 1签发历史保留。
 - **当前执行任务**：Phase 2 HF-11 音频策略与真机听审、HF-12 三场景/86词当前范围已按 Owner 正式决策收口；学习记录 UI 与五行五卡修复完成。原同号同步/文化工具任务未执行；HF-10 A-D 213 字签发保留。
-- **状态**：161/161 测试 PASS；生产构建2824文件，409英文页（358 index / 51 noindex），Sitemap358 URL；releaseId=`phase-2-closeout-2026-10-27`。三个新场景按独立正文hash批准published。Owner 真机试听通过，1268静态录音+设备中文TTS回退为正式方案，57读音/738词句无需腾讯云补录，不再阻塞。HSK2剩余64词 Deferred / Backlog。原HF-06浏览器18项及本轮5组交互/15档布局/axe通过；本轮未commit/push/线上部署。
+- **状态**：161/161 测试 PASS；生产构建2824文件，409英文页（358 index / 51 noindex），Sitemap358 URL；releaseId=`phase-2-closeout-2026-10-27`。三个新场景按独立正文hash批准published。Owner 真机试听通过，1268静态录音+设备中文TTS回退为正式方案，57读音/738词句无需腾讯云补录，不再阻塞。HSK2剩余64词 Deferred / Backlog。原HF-06浏览器18项及本轮5组交互/15档布局/axe通过。实际代码c047d1c已commit/push；Cloudflare版本cd058ccd-a054-440f-b180-6fb6db6f9cd6已100%上线，生产Sitemap358及三个场景index,follow已核验。
 
 ---
 
@@ -281,3 +281,15 @@
 - **依次执行门控**：`HF_SITE_ENV=production npm run build:site` PASS，2824公开文件/409英文页，358 index/51 noindex；`node scripts/validate-seo-quality.mjs` PASS，358 Sitemap URL（精确含三个新场景）/358核心SEO页/410 JSON-LD，`errors=[]`；`npm test` **161/161 PASS**，0 fail/skip/cancel。新增五行卡片完整性及全部链接已批准断言、场景独立签名过期拒绝和音频方案签收manifest匹配检查；原MVP/HF06测试保持通过。`git diff --check`通过。
 - **本地浏览器**：实际Chrome155，隔离访客上下文，不操作Owner存储。原`verify-guest-browser.mjs`18项全PASS（双标签/锁降级/迁移原key保留/备份与取消清空/恢复/真实配额失败/刷新和关页续练等）；本轮脚本5组交互PASS（9轮历史8/1分页、续练保留cursor/queue、自由重练不覆盖旧会话、设置/导出、全部五行链接及键盘激活）。3页×360/390/768/1100/1440共15档无溢出，3页axe WCAG A/AA零违规，页面错误0；桌面/手机截图已实际查看。原浏览器脚本硬编码旧日期，本轮摘要显式记录实际执行日，未冒充旧回执。
 - **遗留与精确下一步**：本轮五项请求已完成，没有腾讯云或64词阻塞。真实线上部署尚未执行，本地发布配置与生产dist已准备；后续若执行发布，从HF-17/18核对本releaseId、既有部署配置及生产冒烟开始，不再重复场景人工签收或主动生成腾讯云音频。64词/HSK3.0二级仅按后续明确范围处理。旧Workers/MVP总门控失败回执保持历史，不据本轮三项全绿声称重跑了完整MVP/所有浏览器或线上验收。本轮未commit/push/部署。
+
+
+### [记录 22] - Phase 2 收口实际部署、线上索引核验与GitHub同步（By Codex，2026-10-28收尾）
+
+- **范围/授权**：继续指定Desktop主目录main。Owner明确授权生产构建/校验、Cloudflare部署、线上Sitemap与新场景索引检查、GitHub远端同步。未使用worktree执行部署，个人未跟踪文件全部保留；没有账号/同步/Billing、故事内容修改、腾讯云补音或64词扩充。
+- **发布前**：实际GitHub main=c3e7ac3，与本地基线一致；实际生产Sitemap355条。现有Worker hanzifun上一100%版本为`6b11b7a8-303d-40c3-9c69-91d7b38eb15d`，已保存用于回滚。Wrangler4.153.0读取既有认证，未输出或上传凭据。
+- **门控与冻结**：再次依次执行`HF_SITE_ENV=production npm run build:site`、SEO质量检查、`npm test`，全部退出0：2824公开文件/409英文页（358 index、51 noindex），SEO errors=[]，161/161 PASS。建立`releases/phase-2-closeout-2026-10-27/{manifest.json,ACCEPTANCE.md,ROLLBACK.md}`；全部构建文件的有序指纹汇总SHA-256为`1797c8ab85c0aedfb674e30d3d808dc08803ea34cbc6fafffcb2ae7348c23793`，Wrangler重新构建后仍一致。逐文件指纹仅保留忽略的`.cache/releases/phase-2-closeout-2026-10-27/`。
+- **代码提交/实际部署**：`c047d1c`（release: publish Phase 2 scenarios and refine learning UI）包含此前29文件的内容/样式/签收/证据及回滚包。`wrangler deploy --name hanzifun --strict --keep-vars --message 'Phase 2 closeout: 358 indexed URLs; c047d1c'`成功；上传27变更资源，2795复用。版本`cd058ccd-a054-440f-b180-6fb6db6f9cd6` 100%流量；实际部署时间2026-10-27 **23:58:57 +08:00**，不把跨午夜收尾日期误作部署日。
+- **线上秒级核验**：2026-10-28 **00:00:00 +08:00**保存回执；并发HTTP全检查2087ms。`https://hanzifun.online/sitemap.xml` 200、358唯一URL且原始字节与本地完全一致；机场/酒店/超市均200、HTML robots=`index,follow`、self canonical、在Sitemap中、正文hash与本地一致，响应未带noindex。线上CSS与guest-learning模块hash匹配；学习记录页200且保持noindex，五行五卡已上线，首页/zh为200，index.html→zh为301，robots Allow /。音频Range请求实际返回200完整24349字节MP3，SHA-256匹配本地，不冒充206；没有因此重生成资源。这里核验的是可索引配置，不是Google已收录。
+- **GitHub**：`git push origin main`成功，c3e7ac3→c047d1c，无强推；最终再提交本轮部署回执/交接文档并同步远端，以最终main HEAD为准。
+- **本轮新增/修改文件**：新增`docs/hanzifun-rebuild/releases/phase-2-closeout-2026-10-27/{manifest.json,ACCEPTANCE.md,ROLLBACK.md,deployment.json,online-verification.json}`；更新`docs/hanzifun-rebuild/{TASKS,PROGRESS}.md`。前29文件清单见记录21及c047d1c；线上核验临时脚本/日志存/private/tmp，未将凭据或个人文件提交。
+- **未做/下一Agent精确切入点**：本次3项请求已实际执行；24小时/7天及搜索引擎收录观察未完成，Owner可按需跟踪，无自动化任务。上一版本回滚参数已核实，未主动将生产切回旧版做演练。后续先读本记录和release目录deployment/online-verification，以部署版本和生产实际为基线；不要重新部署旧355包，不重做已签收场景或主动生成腾讯云补音。64词仍Deferred。

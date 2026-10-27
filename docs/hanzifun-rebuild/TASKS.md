@@ -4,9 +4,17 @@
 
 **开发主线：Phase 1 首发上线 → Phase 2 引流工具与内容 → Phase 3 账号、云同步与订阅。** 任务编号保留，以下按执行阶段排列；HF-12/13/14 已解除对 HF-11 的依赖。
 
-先读 [SPEC](SPEC.md)、[文件架构说明](FILE_ARCHITECTURE.md)、[现状基线](BASELINE.md)、[来源与使用范围](SOURCES.md)。下一项是 HF-17：以本次签发的 release manifest 与自动门控证据准备生产验收/回滚包，再交 HF-18 实际发布。
+先读 [SPEC](SPEC.md)、[文件架构说明](FILE_ARCHITECTURE.md)、[现状基线](BASELINE.md)、[来源与使用范围](SOURCES.md)。当前 Phase 2 收口批次已完成生产发布；后续按下方最新发布记录进行观察或承接新的明确任务。
 
 Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-chart/`；书法暂不规划。字页分 Tier 1 黄金完整版与 Tier 2 标准可用版，达到 Tier 2 即可发布/开放索引；30–50 个 Tier 1 是增强目标，不拦住标准字页上线。HSK 执行 [限定范围放行指令](SPEC.md#hsk-release-policy)，不默认等待第三方书面授权。
+
+## 当前生产发布（2026-10-28 收尾，Asia/Singapore）
+
+- [x] Owner 明确授权本次构建、校验、Cloudflare部署与GitHub推送；生产构建、SEO、161/161测试重新通过。
+- [x] releaseId=`phase-2-closeout-2026-10-27`；代码提交 `c047d1c` 已推送GitHub main；实际Cloudflare版本 `cd058ccd-a054-440f-b180-6fb6db6f9cd6` 100%上线（2026-10-27 23:58:57 +08:00）。
+- [x] 2026-10-28 00:00线上HTTP核验：约2.1秒完成，Sitemap **358 URL**，三新场景200 / index,follow / 自指canonical，内容和线上CSS/JS与本地生产包hash一致。
+- [x] 发布清单、实际版本、验收、上一版本回滚说明与线上回执已持久化于 [发布目录](releases/phase-2-closeout-2026-10-27/manifest.json)。保留旧学习key及个人未跟踪文件。
+- [ ] 后续观察：Owner按需检查24小时/7天错误反馈与搜索抓取；未冒充已完成观察或Google实际收录，未创建自动监控。线上回滚命令已核实但未主动演练切回旧生产。
 
 ## 当前正式签发（2026-10-26）
 
