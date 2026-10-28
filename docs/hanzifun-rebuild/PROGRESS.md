@@ -1,9 +1,9 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
 ## 当前所处阶段
-- **大阶段**：Phase 2；AdSense整改批次于2026-10-28实际部署Cloudflare并核验生产域名。Phase 1及上轮收口历史保留。
-- **当前执行任务**：Owner指定公开Kids/故事/练习纸/Flashcards索引、迁移练习纸到根路径、Chinese Culture下拉导航。当前候选工程与浏览器验证通过，沿用已授权部署/同步流程发布；上轮AdSense生产基线保留。
-- **状态**：releaseId=`adsense-remediation-2026-10-28`，163/163测试、2826生产文件/411英文页（365 index、46 noindex）、SEO及前轮Chrome156验收通过。Cloudflare版本`e7ad777b-73c2-421d-9d7c-fa0758ec6374`于2026-10-28 13:09:39 +08:00承接100%流量，23项线上检查0错误；代码ff748a2已推送GitHub main，发布回执和交接文档随后单独同步。
+- **大阶段**：Phase 2；公开学习索引、根练习纸与文化导航批次已于2026-10-28实际部署并核验生产域名。此前发布历史保留。
+- **当前执行任务**：Owner三项调整完成并上线：Kids/英文故事/练习纸/公开Flashcards可索引，/worksheets/为根分支，Chinese Culture下拉进/tools/与/blog/。GitHub main同步，剩余内容深度及AdSense账号事项继续保留。
+- **状态**：releaseId=`public-learning-navigation-2026-10-28`；163/163测试、2826文件/411英文页（393 index/18 noindex）及SEO通过。Cloudflare版本`f1e7d8af-4651-48ed-ae76-b633607daa53`于2026-10-28 18:03:30 +08:00承接100%流量；28页线上索引、迁移与菜单、8类axe/40档布局复验通过。代码0495ddf已推送GitHub main，发布文档随后单独同步。
 
 ---
 
@@ -327,3 +327,17 @@
 - **GitHub**：再次fetch main并验证origin/main是当前HEAD祖先后，非强推`git push origin HEAD:main`成功，08c36ef→ff748a2。最终发布回执/交接文档再单独提交推送，以最终远端main HEAD为准。本worktree用codex分支；Desktop主目录local main仍旧08c36ef，没有擅自改它，后续需要在干净状态快进origin/main。
 - **本轮文件**：新增发布目录`releases/adsense-remediation-2026-10-28/{manifest.json,ACCEPTANCE.md,ROLLBACK.md,deployment.json,online-verification.json}`，更新TASKS/PROGRESS、ADSENSE整改文档及evidence摘要部署状态；内容/代码文件清单见ff748a2和记录23/24。完整指纹与临时日志位于忽略.cache及/private/tmp，没有提交凭据。
 - **遗留/精确下一步**：本次三项要求已执行。336字页/场景深化、真实pub-ID、AdSense审核和适用地区CMP按ADSENSE整改方案继续；当前仍无广告，不把此次上线当作AdSense通过。24小时/7天和Google收录由Owner按需观察，无自动化。回滚目标与支持参数已核实，未主动把生产切回旧版演练。后续以本发布目录实际版本/线上回执为基线，不再部署旧358包或重复索要署名邮箱。
+
+
+### [记录 26] - 公开学习索引、根练习纸与Chinese Culture导航实际发布（By Codex，2026-10-28）
+
+- **Owner新决定**：明确开放Kids、故事介绍、练习纸、Flashcards入口索引；练习纸移到根分支；Learning guides导航改Chinese Culture下拉进/tools/和/blog/。沿用同一聊天此前明确的生产构建/校验/Cloudflare部署/GitHub同步授权，开工工作区干净、当前分支codex/adsense-release-2026-10-28。没有重新索要已授权发布。
+- **索引范围**：共28个从旧preview开放的公开页：Kids1、故事目录1+介绍8、根练习纸1、Flashcards总入口1+目录1+固定卡组15。15固定卡组增加静态说明和完整字符字典链接，不再只有Loading practice。个人词库、账号、教师预览保持noindex；含session查询由head脚本在解析时改noindex，canonical去参数。初始静态HTML仍是公共入口，并非服务器按query响应不同robots或身份鉴权；不把会话组合加入Sitemap。Tools仍planned/noindex，仅增加导航目的地，不冒称工具功能完成。
+- **路径/导航**：/worksheets/为根地址，首页/Kids/页脚/教师说明/126字页打印入口都指向新址。旧/kids/worksheets/在契约声明redirectTo，输出真实Cloudflare301且保留query，不生成重复正文、不入Sitemap。保留原77地址映射并将重定向标为无输出；新路由由契约加入，当前仍411英文正文。单棵响应式菜单Chinese Culture内有Culture tools→/tools/、Culture articles→/blog/，桌面/手机/键盘使用同一DOM。
+- **课程边界**：开始前完整读STORY_COURSE_PRODUCTION_WORKFLOW.md。本轮仅开放既有英文故事介绍页索引，没有制作或改动lessons.js、故事媒体/TTS/字幕/逐字cue/测验，原课程审批保持，不声称重新人工验收课程。没有账号/同步/Billing代码或付费生成。
+- **文件**：修改site/{release.json,routes.mjs,seo.mjs,site.mjs,layouts/base.html,pages/home.html,pages/dictionary.mjs,pages/learning.mjs}、scripts/build-site.js、tests/{dictionary,seo-quality,site-shell}.test.mjs；新增scripts/verify-public-navigation-browser.mjs。同步docs/hanzifun-rebuild/{SPEC,FILE_ARCHITECTURE,TASKS,PROGRESS}.md和contracts/routes.json；新增evidence/public-navigation-2026-10-28/{verification.json,culture-desktop.png,culture-mobile.png}及releases/public-learning-navigation-2026-10-28/{manifest.json,ACCEPTANCE.md,ROLLBACK.md,deployment.json,online-verification.json}。
+- **验证**：最初唯一失败是旧测试要求所有Flashcards都不入Sitemap，按Owner新范围改为正向断言公开Flashcards/新练习纸入图、个人/教师/session/旧打印路径排除，并检查301规则。最终163/163测试PASS、生产构建2826文件/411英文页（393 index、18 noindex）、Sitemap393、SEO errors=[]。public/private正反例守卫通过，staging仍全noindex。冻结SHA-256=`8eee6e84066a4ff1302f7a6b0538a01ae6bc20518c1a91e5eb69e03bdcf4d1c8`，Wrangler部署重建后完全一致。
+- **本地与线上浏览器**：本地Cloudflare dev4174，28路由HTTP200/index,follow/self-canonical/Sitemap、旧路径301及?print=1保留、个人页排除均通过。Chrome156八类页面×五宽度共40档无溢出、axe WCAG A/AA零违规、pageErrors=[]；文化菜单Enter/Escape焦点、手机进入blog、桌面进入tools、打印按钮、无JS六字静态链接、session/query的DOM robots回退通过。正式域名完整重跑同一范围也PASS；只检查故事介绍链接，不冒充八课重新视听签收。手机/桌面截图实际查看并入库本地证据。
+- **实际发布**：发布前GitHub main与本地abd0a96一致。Cloudflare实际上一版本是11ad9c9d-d901-4470-999b-561f2848bb04，作为本批回滚目标（不照抄上轮日志的版本）。源码提交0495ddf971ccd54b20a4c7032985078f3f72a0a4，Wrangler deploy --name hanzifun --strict --keep-vars成功：413资产更新、2411复用。版本f1e7d8af-4651-48ed-ae76-b633607daa53，deploymentId=769b9ea8-ba6b-4916-b975-2a00876909d3，100%流量，2026-10-28 **18:03:30 +08:00**。18:03:52开始正式域名验证，全部通过；配置可索引不等于Google已收录。
+- **GitHub/收尾**：非强推git push origin HEAD:main成功，abd0a96→0495ddf；本条记录和实际发布回执再单独提交同步，以最终远端HEAD为准。未改其他worktree的本地main或个人文件；本地4173静态预览仍可看新内容，4174的Cloudflare预览支持真实301。
+- **遗留/下一切入点**：三项请求已完成上线。六字打印样本不冒充HF13正式两组打印包；336字页及场景深化、AdSense账号/真实pub-ID/适用CMP仍是原待办，未启广告。后续先以本批393 Sitemap及新根打印路径为基线；不要因旧文档preview重新关闭这些公开入口，也不要把原旧打印地址作为canonical。后续若需无JS也按query输出noindex，可另做服务器层支持；当前已明确head脚本范围。回滚命令已保存，未主动切回生产演练。

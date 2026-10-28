@@ -1,0 +1,393 @@
+{
+  "date": "2026-10-28T10:03:52.004Z",
+  "origin": "https://hanzifun.online",
+  "http": [
+    {
+      "path": "/kids/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/kids/stories/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/kids/stories/cat-and-fish/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/kids/stories/ants-and-a-bean/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/kids/stories/cat-and-mirror/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/kids/stories/little-turtle/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/kids/stories/little-frog/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/kids/stories/painting-a-rooster/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/kids/stories/wind-doll/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/kids/stories/cucumber-flower/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/first-six/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/at-the-tea-house/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/mid-autumn/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/ants-and-a-bean/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/worksheets/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/hsk-2-2015-level-1-vocabulary/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/hsk-2-2015-level-1-derived-character/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/hsk-3-2025-level-1-vocabulary/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/hsk-3-2025-level-1-recognition-character/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/hsk-3-2025-level-1-2-writing-character/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/scenario-restaurant/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/scenario-icebreakers/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/scenario-airport/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/scenario-hotel/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/scenario-supermarket/",
+      "status": 200,
+      "indexing": "index"
+    },
+    {
+      "path": "/flashcards/decks/hsk-2-2015-level-2-core/",
+      "status": 200,
+      "indexing": "index"
+    }
+  ],
+  "checks": [
+    "All 28 newly public pages return200, index,follow, self canonical and Sitemap membership; old worksheet path301 preserves query",
+    "Desktop Chinese Culture dropdown: keyboard open, two valid destinations, Escape focus return and tools navigation",
+    "Mobile shared menu opens Chinese Culture and follows blog link",
+    "Worksheet old link reaches new root page; print button still invokes printing",
+    "Dynamic session URL changes robots to noindex before learning UI; public Flashcards entry remains indexable",
+    "Public fixed deck has six static dictionary links without JavaScript"
+  ],
+  "layouts": [
+    {
+      "path": "/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/kids/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "path": "/kids/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/kids/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/kids/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "path": "/kids/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/ants-and-a-bean/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/ants-and-a-bean/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/ants-and-a-bean/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/ants-and-a-bean/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "path": "/kids/stories/ants-and-a-bean/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/worksheets/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "path": "/worksheets/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/worksheets/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/worksheets/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "path": "/worksheets/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/first-six/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/first-six/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/first-six/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/first-six/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "path": "/flashcards/decks/first-six/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "path": "/",
+      "violations": []
+    },
+    {
+      "path": "/kids/",
+      "violations": []
+    },
+    {
+      "path": "/kids/stories/",
+      "violations": []
+    },
+    {
+      "path": "/kids/stories/ants-and-a-bean/",
+      "violations": []
+    },
+    {
+      "path": "/worksheets/",
+      "violations": []
+    },
+    {
+      "path": "/flashcards/",
+      "violations": []
+    },
+    {
+      "path": "/flashcards/decks/",
+      "violations": []
+    },
+    {
+      "path": "/flashcards/decks/first-six/",
+      "violations": []
+    }
+  ],
+  "pageErrors": [],
+  "sitemapUrls": 393,
+  "browser": "156.0.8078.48"
+}

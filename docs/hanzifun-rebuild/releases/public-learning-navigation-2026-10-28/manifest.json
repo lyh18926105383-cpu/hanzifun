@@ -427,12 +427,16 @@
       "pageErrors": []
     }
   },
-  "deploymentStatus": "validated-ready-for-authorized-deployment",
+  "deploymentStatus": "deployed-and-production-verified",
   "limitations": [
     "Private saved words/account/teacher preview remain noindex.",
     "Session query uses early head JavaScript robots; initial static response is shared public HTML, with canonical excluding query.",
     "Story course data, media, audio and acceptance unchanged.",
     "Culture tool preview indexing unchanged.",
     "Search engine indexing is not guaranteed by this configuration."
-  ]
+  ],
+  "deploymentCodeRevision": "0495ddf971ccd54b20a4c7032985078f3f72a0a4",
+  "productionVerification": "online-verification.json",
+  "versionId": "f1e7d8af-4651-48ed-ae76-b633607daa53",
+  "deployedAt": "2026-10-28T10:03:30.821222Z"
 }

@@ -1,0 +1,34 @@
+{
+  "releaseId": "public-learning-navigation-2026-10-28",
+  "worker": "hanzifun",
+  "sourceCommit": "0495ddf971ccd54b20a4c7032985078f3f72a0a4",
+  "versionId": "f1e7d8af-4651-48ed-ae76-b633607daa53",
+  "deploymentId": "769b9ea8-ba6b-4916-b975-2a00876909d3",
+  "trafficPercent": 100,
+  "deployedAt": "2026-10-28T10:03:30.821222Z",
+  "deployedAtSingapore": "2026-10-28 18:03:30 GMT+8",
+  "artifactSha256": "8eee6e84066a4ff1302f7a6b0538a01ae6bc20518c1a91e5eb69e03bdcf4d1c8",
+  "publicFiles": 2826,
+  "englishPages": 411,
+  "indexablePages": 393,
+  "noindexPages": 18,
+  "sitemapUrls": 393,
+  "tests": {
+    "passed": 163,
+    "failed": 0
+  },
+  "seoErrors": [],
+  "productionVerification": {
+    "httpPages": 28,
+    "axePages": 8,
+    "layoutChecks": 40,
+    "pageErrors": [],
+    "verifiedAt": "2026-10-28T10:03:52.004Z"
+  },
+  "previousVersionId": "11ad9c9d-d901-4470-999b-561f2848bb04",
+  "github": {
+    "branch": "main",
+    "sourceCommitPush": "confirmed successful",
+    "sourceCommit": "0495ddf971ccd54b20a4c7032985078f3f72a0a4"
+  }
+}

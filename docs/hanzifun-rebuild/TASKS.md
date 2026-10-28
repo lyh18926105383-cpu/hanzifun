@@ -4,18 +4,19 @@
 
 **开发主线：Phase 1 首发上线 → Phase 2 引流工具与内容 → Phase 3 账号、云同步与订阅。** 任务编号保留，以下按执行阶段排列；HF-12/13/14 已解除对 HF-11 的依赖。
 
-先读 [SPEC](SPEC.md)、[文件架构说明](FILE_ARCHITECTURE.md)、[现状基线](BASELINE.md)、[来源与使用范围](SOURCES.md)。当前 Phase 2 收口批次已完成生产发布；后续按下方最新发布记录进行观察或承接新的明确任务。
+先读 [SPEC](SPEC.md)、[文件架构说明](FILE_ARCHITECTURE.md)、[现状基线](BASELINE.md)、[来源与使用范围](SOURCES.md)。当前公开学习索引与文化导航批次已完成生产发布；后续按下方最新发布记录进行观察或承接新的明确任务。
 
 Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-chart/`；书法暂不规划。字页分 Tier 1 黄金完整版与 Tier 2 标准可用版，达到 Tier 2 即可发布/开放索引；30–50 个 Tier 1 是增强目标，不拦住标准字页上线。HSK 执行 [限定范围放行指令](SPEC.md#hsk-release-policy)，不默认等待第三方书面授权。
 
-## Kids / 练习纸 / Flashcards 索引与文化导航调整（2026-10-28，本地候选）
+## 当前生产发布：公开学习索引、根练习纸与文化导航（2026-10-28）
 
 - [x] 按Owner明确指令开放28个公开页面：Kids及故事目录/8介绍页、根练习纸页、Flashcards总入口/目录/15固定卡组；393 index/18 noindex，Sitemap393。
 - [x] `/worksheets/`成为根分支；旧`/kids/worksheets/`301并保留query；首页、Kids、页脚、教师说明和字页链接更新。原77个原型地址仍有映射，旧地址不再生成重复正文。
 - [x] 单一响应式导航的Learning guides改为Chinese Culture下拉，分别进入/tools/和/blog/。两个目标页的原索引状态不因导航变化自动改变。
 - [x] 固定卡组补静态介绍与字典链接；个人收藏/账号/教师预览仍noindex；session参数由head脚本设置noindex，canonical无参数，不声称服务器按query输出私人页面。
 - [x] 生产候选2826文件/411英文页；163/163测试及SEO通过。28路由HTTP、301/query、打印按钮、桌面/手机菜单、8类axe/40档布局、无JS卡组通过。[验证](evidence/public-navigation-2026-10-28/verification.json)。
-- [ ] 沿用当前聊天的部署/推送授权执行发布，更新实际版本及线上回执；不把本地候选视作已上线。
+- [x] 2026-10-28 **18:03:30 +08:00** Cloudflare部署成功，版本`f1e7d8af-4651-48ed-ae76-b633607daa53`承接100%流量；源码`0495ddf`已推送GitHub main。[回执](releases/public-learning-navigation-2026-10-28/deployment.json)。
+- [x] 正式域名重跑28路由HTTP/meta/canonical/Sitemap、301/query、桌面/手机菜单及打印、8类axe/40档布局和session检查均PASS；Sitemap393。TASKS/PROGRESS与发布回执随后单独提交同步。
 
 ## 上一轮生产发布：AdSense 整改（2026-10-28）
 
