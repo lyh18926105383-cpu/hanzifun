@@ -1,9 +1,9 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
 ## 当前所处阶段
-- **大阶段**：Phase 2；收口批次已实际部署Cloudflare并核验生产域名，2026-10-28收尾。Phase 1签发历史保留。
-- **当前执行任务**：AdSense整改补充（HF-08范围）：导航/信任页/六页内容与自查清单本地交付；Owner署名John Ling、邮箱hanzifun.online@gmail.com已接入四信任页。其余内容深化、AdSense/CMP/发布仍待接续。Phase 2既有收口生产记录保持。
-- **状态**：本地候选releaseId=`adsense-remediation-2026-10-28`，163/163测试、生产构建2826文件/411英文页（365 index、46 noindex）、SEO与Chrome156十二类/60档布局通过。未commit/push/部署；真实线上仍为记录22的Phase 2版本，不把本地变更说成已上线。
+- **大阶段**：Phase 2；AdSense整改批次于2026-10-28实际部署Cloudflare并核验生产域名。Phase 1及上轮收口历史保留。
+- **当前执行任务**：AdSense整改补充及HF-17/18发布完成：导航/四信任页/六页内容和John Ling署名邮箱已上线，GitHub main同步。其余内容深化及AdSense账号/CMP仍按整改方案接续。
+- **状态**：releaseId=`adsense-remediation-2026-10-28`，163/163测试、2826生产文件/411英文页（365 index、46 noindex）、SEO及前轮Chrome156验收通过。Cloudflare版本`e7ad777b-73c2-421d-9d7c-fa0758ec6374`于2026-10-28 13:09:39 +08:00承接100%流量，23项线上检查0错误；代码ff748a2已推送GitHub main，发布回执和交接文档随后单独同步。
 
 ---
 
@@ -315,3 +315,15 @@
 - **修改文件**：`site/publisher.json`写入上述精确值；`site/release.json`的/about/、/contact/、/privacy/、/terms/四精确路由改published。统一trust模板自动生成署名与mailto链接，Contact不再出现缺少公开地址提示。`tests/seo-quality.test.mjs`同步四页索引数量；更新ADSENSE整改文档、TASKS、PROGRESS及evidence/adsense-2026-10-28/{content-audit,summary,verification}.json与手机截图，新增identity-verification.json。
 - **验证**：隔离生产构建成功2826文件、411英文页（365 index、46 noindex），Sitemap365；163/163测试PASS，0fail/skip。逐页检查四页John Ling、mailto、index,follow和Sitemap成员一致，SEO errors=[]。Chrome156十二类页axe零违规、60档无溢出、菜单/焦点/无JS复验通过，pageErrors=[]；隐私页手机截图更新。
 - **遗留/下一切入点**：署名/邮箱资料缺口已关闭，不应再次索要。Owner自行确认可收信并审读政策；pub-ID、AdSense后台、CMP/适用广告配置、其余内容深化及生产部署仍按整改方案接续。四页当前是本地published，不代表线上已更新。原记录23的空值/361 URL是当时历史，现由本记录365 URL取代。
+
+
+### [记录 25] - AdSense整改实际生产发布与GitHub同步（By Codex，2026-10-28）
+
+- **授权/目录**：Owner明确要求生产构建、校验、部署Cloudflare、推送GitHub并更新TASKS/PROGRESS。在当前6039 worktree实施，没有修改Desktop主工作树或清理其他个人文件，无账号/同步/Billing/故事内容改动。
+- **发布前实际状态**：GitHub main=`08c36ef`与本地基线一致（领先/落后0）。当前Cloudflare版本是`3167ce5a-c87c-4405-88f1-a3eac7722b9f`，不是记录22中的cd058ccd；已读实际版本资源配置（静态资源、无bindings、原404/redirects保持）及线上Sitemap358、隐私页原noindex，并以实际3167版本作为回滚目标。
+- **门控/冻结**：本次再次执行生产构建、npm test、SEO和AdSense内容审计，全部退出0：2826文件/411英文页（365 index/46 noindex），163/163测试，SEO和内容审计errors=[]。冻结全部文件指纹SHA-256=`0e56f0cb120777dc1a34f675f8d50ac64cede245e9701425b38120b82dd0ffa7`；Wrangler部署重建后指纹仍一致。浏览器复用前轮最终候选Chrome156的12类/60档验收，没有声称本轮重新做全设备或课程视听验收。
+- **提交/部署**：从detached HEAD创建`codex/adsense-release-2026-10-28`，源码与整改/证据/发布准备共34文件提交`ff748a21cabd3bdd634fe12f4fa653220fe3d7fa`。Wrangler4.153.0使用既有认证，`deploy --name hanzifun --strict --keep-vars`成功，上传415资源/2409复用。版本`e7ad777b-73c2-421d-9d7c-fa0758ec6374`，deploymentId=`91f282e9-ad9d-4705-b78b-057b7f65536b`，100%流量，实际时间**2026-10-28 13:09:39 +08:00**。
+- **生产复检**：2026-10-28 13:10:18 +08:00完成23项HTTP检查，耗时2172ms、errors=[]。首页、四信任页、三字页、场景入口、Blog两新指南/入口、原三新场景、账号/中文入口、robots/Sitemap的响应正文hash与候选一致；新四页署名John Ling、mailto邮箱、index,follow、自指canonical及Sitemap成员正确。线上Sitemap365；账号保持noindex；旧index/故事入口301及query保留，未知页404。音频Range实际响应及字节hash匹配，未冒称新听审。这里验证可索引配置，不是Google已实际收录。
+- **GitHub**：再次fetch main并验证origin/main是当前HEAD祖先后，非强推`git push origin HEAD:main`成功，08c36ef→ff748a2。最终发布回执/交接文档再单独提交推送，以最终远端main HEAD为准。本worktree用codex分支；Desktop主目录local main仍旧08c36ef，没有擅自改它，后续需要在干净状态快进origin/main。
+- **本轮文件**：新增发布目录`releases/adsense-remediation-2026-10-28/{manifest.json,ACCEPTANCE.md,ROLLBACK.md,deployment.json,online-verification.json}`，更新TASKS/PROGRESS、ADSENSE整改文档及evidence摘要部署状态；内容/代码文件清单见ff748a2和记录23/24。完整指纹与临时日志位于忽略.cache及/private/tmp，没有提交凭据。
+- **遗留/精确下一步**：本次三项要求已执行。336字页/场景深化、真实pub-ID、AdSense审核和适用地区CMP按ADSENSE整改方案继续；当前仍无广告，不把此次上线当作AdSense通过。24小时/7天和Google收录由Owner按需观察，无自动化。回滚目标与支持参数已核实，未主动把生产切回旧版演练。后续以本发布目录实际版本/线上回执为基线，不再部署旧358包或重复索要署名邮箱。

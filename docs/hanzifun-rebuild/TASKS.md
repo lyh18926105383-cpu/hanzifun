@@ -8,21 +8,22 @@
 
 Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-chart/`；书法暂不规划。字页分 Tier 1 黄金完整版与 Tier 2 标准可用版，达到 Tier 2 即可发布/开放索引；30–50 个 Tier 1 是增强目标，不拦住标准字页上线。HSK 执行 [限定范围放行指令](SPEC.md#hsk-release-policy)，不默认等待第三方书面授权。
 
-## AdSense 整改补充（2026-10-28，本地候选）
+## 当前生产发布：AdSense 整改（2026-10-28）
 
-承接 HF-08 的公开内容/导航整改，不改账号、同步、Billing、故事课或旧教学签字。当前候选 releaseId=`adsense-remediation-2026-10-28`，**尚未部署**；下方旧生产记录仍是实际线上基线。
+承接 HF-08 的公开内容/导航整改，不改账号、同步、Billing、故事课或旧教学签字。releaseId=`adsense-remediation-2026-10-28` 已于 **2026-10-28 13:09:39 +08:00** 部署生产，版本 `e7ad777b-73c2-421d-9d7c-fa0758ec6374` 承接100%流量；代码 `ff748a2` 已推送GitHub main。[实际发布回执](releases/adsense-remediation-2026-10-28/deployment.json)。下方旧生产记录保留历史。
 
 - [x] 生成 [完整整改方案、18项Unknown确认方法及分阶段复检清单](ADSENSE-REMEDIATION-2026-10-28.md)，区分工具建议与Google官方政策。
 - [x] 一棵响应式导航、移除顶部Sign in/Pricing及重复CTA；页脚补Privacy/Terms/About/Contact/Sources；字页和场景补面包屑。
 - [x] `/scenarios/`及快/六/星扩写；新增两篇完整学习指南、更新Journal入口；六内容页正文约1059–1451英文词（排除导航、隐藏面板和按钮）。
-- [x] 四信任页改为实质正文；Owner补充署名John Ling、邮箱hanzifun.online@gmail.com，已写入`site/publisher.json`并统一显示在四页，Contact缺少渠道提示已消失。四页本地published/index,follow。pub-ID仍空，默认不出假ads.txt/广告请求。
+- [x] 四信任页改为实质正文；Owner补充署名John Ling、邮箱hanzifun.online@gmail.com，已写入`site/publisher.json`并统一显示在四页，Contact缺少渠道提示已消失。四页已上线published/index,follow。pub-ID仍空，默认不出假ads.txt/广告请求。
 - [x] 更新后生产构建2826文件、411英文页、365 index/46 noindex、Sitemap365；163/163测试PASS、SEO errors=[]；Chrome156十二类页面axe零违规、60档布局无溢出、菜单/焦点/无JS通过。[证据](evidence/adsense-2026-10-28/summary.json)。
-- [ ] Owner核对新正文与政策、确认邮箱可实际收信；本轮未代发测试邮件，未部署到线上。
+- [ ] Owner核对新正文与政策、确认邮箱可实际收信；本轮未代发测试邮件。
 - [ ] 其余336字页未达到本次800词编辑目标；逐页判断后扩写/合并/精确noindex，不能仅凭字数判违规。五场景叶页及两个子入口继续按方案做深。
 - [ ] 真实AdSense账号/域名/验证/审核、pub-ID与线上ads.txt、适用地区认证CMP和儿童投放策略由Owner确认。当前全站无广告，不以年龄提示或子域名替代处理。
-- [ ] 部署与生产复检尚未执行，不把本地365 URL当成线上已更新或Google已收录；未commit/push。
+- [x] Cloudflare实际部署、23项生产HTTP/正文hash/索引/旧入口/音频核验通过；线上Sitemap365，John Ling与邮箱在四信任页显示正确，代码已push GitHub main；TASKS/PROGRESS及发布回执单独提交同步。
+- [ ] 24小时/7天错误反馈及Google实际收录观察由Owner按需继续；没有创建自动监控，未把可索引当成已收录。
 
-## 当前生产发布（2026-10-28 收尾，Asia/Singapore）
+## 上一轮生产发布（Phase 2收口，2026-10-28收尾）
 
 - [x] Owner 明确授权本次构建、校验、Cloudflare部署与GitHub推送；生产构建、SEO、161/161测试重新通过。
 - [x] releaseId=`phase-2-closeout-2026-10-27`；代码提交 `c047d1c` 已推送GitHub main；实际Cloudflare版本 `cd058ccd-a054-440f-b180-6fb6db6f9cd6` 100%上线（2026-10-27 23:58:57 +08:00）。

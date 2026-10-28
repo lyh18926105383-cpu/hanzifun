@@ -398,11 +398,15 @@
     "contentAuditErrors": [],
     "browserEvidence": "../../evidence/adsense-2026-10-28/verification.json"
   },
-  "deploymentStatus": "validated-ready-for-authorized-deployment",
+  "deploymentStatus": "deployed-and-production-http-verified",
   "deferred": [
     "336 character pages below the requested editorial word target; not an automatic policy verdict",
     "five scenario leaf pages and two sub-hubs for deeper content",
     "AdSense account verification, real pub-ID, applicable CMP and ad serving",
     "64 remaining HSK 2.0 level-2 words"
-  ]
+  ],
+  "deploymentCodeRevision": "ff748a21cabd3bdd634fe12f4fa653220fe3d7fa",
+  "productionVerification": "online-verification.json",
+  "versionId": "e7ad777b-73c2-421d-9d7c-fa0758ec6374",
+  "deployedAt": "2026-10-28T05:09:39.053037Z"
 }

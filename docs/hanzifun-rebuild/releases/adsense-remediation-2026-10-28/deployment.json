@@ -1,0 +1,28 @@
+{
+  "releaseId": "adsense-remediation-2026-10-28",
+  "worker": "hanzifun",
+  "sourceCommit": "ff748a21cabd3bdd634fe12f4fa653220fe3d7fa",
+  "versionId": "e7ad777b-73c2-421d-9d7c-fa0758ec6374",
+  "deploymentId": "91f282e9-ad9d-4705-b78b-057b7f65536b",
+  "trafficPercent": 100,
+  "deployedAt": "2026-10-28T05:09:39.053037Z",
+  "deployedAtSingapore": "2026-10-28 13:09:39 GMT+8",
+  "artifactSha256": "0e56f0cb120777dc1a34f675f8d50ac64cede245e9701425b38120b82dd0ffa7",
+  "publicFiles": 2826,
+  "sitemapUrls": 365,
+  "tests": {
+    "passed": 163,
+    "failed": 0
+  },
+  "seoErrors": [],
+  "onlineChecks": 23,
+  "onlineErrors": [],
+  "verifiedAt": "2026-10-28T05:10:18.614Z",
+  "previousVersionId": "3167ce5a-c87c-4405-88f1-a3eac7722b9f",
+  "github": {
+    "remote": "https://github.com/lyh18926105383-cpu/hanzifun.git",
+    "branch": "main",
+    "sourceCommitPush": "confirmed successful",
+    "pushedSourceCommit": "ff748a21cabd3bdd634fe12f4fa653220fe3d7fa"
+  }
+}

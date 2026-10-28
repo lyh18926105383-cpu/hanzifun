@@ -1,0 +1,179 @@
+{
+  "releaseId": "adsense-remediation-2026-10-28",
+  "verifiedAt": "2026-10-28T05:10:18.614Z",
+  "verifiedAtSingapore": "2026-10-28 13:10:18 GMT+8",
+  "elapsedMilliseconds": 2172,
+  "origin": "https://hanzifun.online",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bodySha256": "0aabbaa0d5dd108d0c796385f1ee2e3d34c329c9689005a6f2bd14bf3e764ddc",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/"
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "bodySha256": "03209e0e766798b7642858875c6f7ee04a6af03cc5cf11ec6d407019f8494fa2",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/about/"
+    },
+    {
+      "path": "/account/",
+      "status": 200,
+      "bodySha256": "ca3b4970ed2d1d930df7ead8fa7b49ffe788a541bffa3f6573cbcb905fea46da",
+      "matchesBuild": true,
+      "robots": "noindex,follow",
+      "canonical": "https://hanzifun.online/account/"
+    },
+    {
+      "path": "/audio/tts-v1/019-775b.mp3",
+      "status": 200,
+      "bytes": 10080,
+      "sha256": "084c58625ea899899d1a67069a27cf146ec9679d14e352c859e71ad5c0d943f7",
+      "matchesBuild": true
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "bodySha256": "c6c0bf3bbf5e3a77145e6707ff0f164ee26d899f48df8330202eab74c6a224b2",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/blog/"
+    },
+    {
+      "path": "/blog/chinese-character-confusions/",
+      "status": 200,
+      "bodySha256": "aae78eec3d0a5f142f0436e01a5a02b2b06e65d2a600d58882415d89d71792d3",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/blog/chinese-character-confusions/"
+    },
+    {
+      "path": "/blog/chinese-character-study-routine/",
+      "status": 200,
+      "bodySha256": "94eb9f8f64661766539c3a3805463d301d0c1fd6e7724ed405796ad600b92059",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/blog/chinese-character-study-routine/"
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "bodySha256": "79a082d98a398d31c14303dcedb3c47299d45339b8a1224bb83ae8c30b1a4996",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/contact/"
+    },
+    {
+      "path": "/dictionary/六/",
+      "status": 200,
+      "bodySha256": "d1eed167ac802cf82be390419f1cfdb3f1853cfb2ab470fd6d9e4bef3725a4d4",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/dictionary/%E5%85%AD/"
+    },
+    {
+      "path": "/dictionary/快/",
+      "status": 200,
+      "bodySha256": "e40b03d17d052d4b4a6b642525f1539cccbbcb35fc0a3dd5c9fd808070b66a25",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/dictionary/%E5%BF%AB/"
+    },
+    {
+      "path": "/dictionary/星/",
+      "status": 200,
+      "bodySha256": "77c8daf84595c7cf4c95d640bdc4d6203d9a570dd2d1754b236657f2875b7197",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/dictionary/%E6%98%9F/"
+    },
+    {
+      "path": "/index.html",
+      "status": 301,
+      "location": "/zh/"
+    },
+    {
+      "path": "/legacy/story.html?lesson=ant-moving-bean-02",
+      "status": 301,
+      "location": "/story?lesson=ant-moving-bean-02"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "bodySha256": "cba43ccda73beaf9d6f8e6bea212ac761a374139656d653f6c0df5be52ad87e7",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/privacy/"
+    },
+    {
+      "path": "/release-check-not-found-20261028/",
+      "status": 404
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "bodySha256": "62a1035ef6afcab01022864edfa46fe711a32d13308330260cfadad28b4febeb",
+      "matchesBuild": true
+    },
+    {
+      "path": "/scenarios/",
+      "status": 200,
+      "bodySha256": "83964c0f99daf7b3fcd4dec66c86606189f53086fd47bc899dcf4b2fe20e50e3",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/scenarios/"
+    },
+    {
+      "path": "/scenarios/travel/airport/",
+      "status": 200,
+      "bodySha256": "358f8063d70543545a521ba100b1515dcbc782ad5e8839334f47952a59eddc1d",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/scenarios/travel/airport/"
+    },
+    {
+      "path": "/scenarios/travel/hotel/",
+      "status": 200,
+      "bodySha256": "958069934f79bb4e0c5bf4941321b6ff2b5051f6420e6bf9e124765a59b8ed08",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/scenarios/travel/hotel/"
+    },
+    {
+      "path": "/scenarios/travel/supermarket/",
+      "status": 200,
+      "bodySha256": "24d6e074896c5778dd2894269a53ad8f7c68f7237e89684958aeaffa4fb06436",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/scenarios/travel/supermarket/"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bodySha256": "794ead673135f93ca287196bd4e4e91f717f5b91f624490681d8a8a907f0ec69",
+      "matchesBuild": true,
+      "urls": 365
+    },
+    {
+      "path": "/terms/",
+      "status": 200,
+      "bodySha256": "a9681af8ec0a4f539cdd51765cf56db609979c9d0aa7c9effa3d26d3db85f5ad",
+      "matchesBuild": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/terms/"
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "bodySha256": "649dc211bf5431f2c955888221f51b4d2e5e0df9ace794021ad2c561c2dbba83",
+      "matchesBuild": true
+    }
+  ],
+  "errors": [],
+  "scope": "Production HTTP, canonical, robots, static body hashes, trust identity, sitemap and legacy URL/resource compatibility; not a fresh all-course audiovisual acceptance or Google indexing confirmation."
+}

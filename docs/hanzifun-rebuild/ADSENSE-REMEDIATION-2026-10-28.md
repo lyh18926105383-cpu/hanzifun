@@ -1,6 +1,6 @@
 # HanziFun AdSense 整改方案与复检清单
 
-日期：2026-10-28（Asia/Singapore）。本次在 `/Users/graceshi/.codex/worktrees/6039/汉字饭hanzifun` 修改；属于本地候选，未部署、未操作 AdSense 后台、未宣称 Google 批准。以用户提供的预检报告为线上问题证据；本轮在线页面读取未成功，未声称重新抓取线上全站。
+日期：2026-10-28（Asia/Singapore）。本次在 `/Users/graceshi/.codex/worktrees/6039/汉字饭hanzifun` 修改；已按Owner授权于2026-10-28 13:09:39 +08:00部署Cloudflare，23项线上复检通过并同步GitHub main。未操作AdSense后台、未宣称Google批准。最初问题依据Owner预检报告，后续生产复检证据见发布目录。
 
 ## 先校正报告的判定口径
 
@@ -45,7 +45,7 @@
 
 已完成英文隐私政策、条款、About、Contact 的可构建正文，统一在 `site/pages/trust.mjs` 维护；页脚在 `site/site.mjs`。政策包含：浏览器本地学习记录、删除/导出、Cloudflare 页面交付、音频可能使用在线设备声线、广告尚未启用、未来 Google/合作方 Cookie、广告偏好退出、地区同意、儿童、权利请求及更新日期。
 
-**Owner 已提供身份信息（2026-10-28）**：`site/publisher.json` 已写入运营署名 **John Ling**、联系邮箱 **hanzifun.online@gmail.com**。四个信任页统一呈现该署名和可点击的 mailto 联系入口；Contact 不再显示缺少公开地址的提示。四个精确路由已改为 published，本地生产候选输出 index,follow 并进入 Sitemap。信息来源是 Owner 本次明确提供；没有代发测试邮件或宣称独立验证邮箱所有权/收信能力，也未部署到线上。
+**Owner 已提供身份信息（2026-10-28）**：`site/publisher.json` 已写入运营署名 **John Ling**、联系邮箱 **hanzifun.online@gmail.com**。四个信任页统一呈现该署名和可点击的 mailto 联系入口；Contact 不再显示缺少公开地址的提示。四个精确路由已改为 published，生产页面输出 index,follow 并进入 Sitemap。信息来源是 Owner 本次明确提供；没有代发测试邮件或宣称独立验证邮箱所有权/收信能力，四信任页已在本次生产发布上线。
 
 隐私政策中的广告披露成品位于 “Cookies, third-party vendors and Google advertising” 小节。明确当前没有 Google 广告，再说明启用后的 Cookie 使用、既往访问与个性化广告，并链接 My Ad Center 和第三方退出工具。不能把将来可能使用的分析工具写成已经在收集，也不能在接入广告后继续声称当前无广告。
 
@@ -80,7 +80,7 @@ google.com, pub-你的真实16位数字, DIRECT, f08c47fec0942fa0
 
 ### ADS-UX-05
 
-信任页正文及页脚已实现，Owner 提供的 John Ling / hanzifun.online@gmail.com 已接入四页并在本地候选中开放索引。部署后须从任意抽样页面点进这四页，并由 Owner 确认邮箱可实际收信。Terms 不替代 Privacy；About 不应虚构老师、公司地址、资质或人工审稿经历。
+信任页正文及页脚已实现，Owner 提供的 John Ling / hanzifun.online@gmail.com 已接入四页并在生产开放索引。部署后须从任意抽样页面点进这四页，并由 Owner 确认邮箱可实际收信。Terms 不替代 Privacy；About 不应虚构老师、公司地址、资质或人工审稿经历。
 
 ## 18 项 Unknown：逐项确认方法
 
@@ -113,7 +113,7 @@ google.com, pub-你的真实16位数字, DIRECT, f08c47fec0942fa0
 
 ### 本地内容和技术
 
-- [x] Owner 提供的运营主体和邮箱已填 `site/publisher.json`，四信任页显示 John Ling / hanzifun.online@gmail.com，Contact 不再提示缺少渠道（本地候选）。
+- [x] Owner 提供的运营主体和邮箱已填 `site/publisher.json`，四信任页显示 John Ling / hanzifun.online@gmail.com，Contact 不再提示缺少渠道（已上线）。
 - [ ] Owner 确认邮箱可实际收信；本轮未代发测试邮件。
 - [ ] Privacy 明确当前/未来状态，含 Cookie、Google/第三方、退出、儿童、存储、删除、联系方式；实际引入服务后同步更新。
 - [ ] About 不夸大身份/背书/审核；Terms 与开通功能一致；四信任页内容和页脚均可访问。
@@ -127,7 +127,7 @@ google.com, pub-你的真实16位数字, DIRECT, f08c47fec0942fa0
 
 ### 部署后、提交申请前
 
-- [ ] 实际部署本候选；线上首页、六内容页、四信任页HTTP200，unknown URL真404；源HTML正文/robots/canonical与候选相符。
+- [x] 已实际部署；线上首页、六内容页、四信任页HTTP200，unknown URL真404，正文hash/robots/canonical与候选相符，详见23项生产回执。
 - [ ] 隐私页在首页及任意抽样内页可一键进入，页面没有临时预览声明或虚构联系方式。
 - [ ] Sitemap 只有真实批准成熟页面；Search Console 提交/检查；可抓取不等于Google已收录。
 - [ ] 实测播放新例句并抽查手机，确认中文设备语音的实际可用性，不把自动绑定当作真人听审。

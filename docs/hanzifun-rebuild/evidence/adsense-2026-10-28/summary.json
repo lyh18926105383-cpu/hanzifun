@@ -21,7 +21,16 @@
     "pageErrors": [],
     "verification": "verification.json"
   },
-  "deployment": "not performed",
+  "deployment": {
+    "status": "deployed-and-production-http-verified",
+    "versionId": "e7ad777b-73c2-421d-9d7c-fa0758ec6374",
+    "sourceCommit": "ff748a21cabd3bdd634fe12f4fa653220fe3d7fa",
+    "trafficPercent": 100,
+    "deployedAtSingapore": "2026-10-28 13:09:39 GMT+8",
+    "onlineChecks": 23,
+    "onlineErrors": [],
+    "releaseEvidence": "../../releases/adsense-remediation-2026-10-28/deployment.json"
+  },
   "adServing": "not enabled",
   "remaining": [
     "Remaining character and scenario content review/enrichment",
