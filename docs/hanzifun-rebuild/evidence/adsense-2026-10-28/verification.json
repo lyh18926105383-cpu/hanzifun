@@ -1,0 +1,362 @@
+{
+  "date": "2026-10-28T02:10:24.161Z",
+  "checks": [
+    "Single menu: mobile toggle, keyboard Tab, Escape focus return and resize back to desktop",
+    "Three example audio bindings and expandable answer in the enhanced character lesson",
+    "Without JavaScript: mobile navigation and substantial scenario lesson remain readable"
+  ],
+  "layouts": [
+    {
+      "route": "/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/快/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/快/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/快/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/快/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/快/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/六/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/六/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/六/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/六/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/六/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/星/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/星/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/星/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/星/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/星/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/privacy/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/privacy/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/privacy/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/privacy/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/privacy/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/terms/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/terms/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/terms/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/terms/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/terms/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/contact/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/contact/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-study-routine/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-study-routine/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-study-routine/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-study-routine/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-study-routine/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-confusions/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-confusions/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-confusions/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-confusions/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-character-confusions/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "route": "/",
+      "violations": []
+    },
+    {
+      "route": "/scenarios/",
+      "violations": []
+    },
+    {
+      "route": "/dictionary/快/",
+      "violations": []
+    },
+    {
+      "route": "/dictionary/六/",
+      "violations": []
+    },
+    {
+      "route": "/dictionary/星/",
+      "violations": []
+    },
+    {
+      "route": "/privacy/",
+      "violations": []
+    },
+    {
+      "route": "/terms/",
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "violations": []
+    },
+    {
+      "route": "/contact/",
+      "violations": []
+    },
+    {
+      "route": "/blog/",
+      "violations": []
+    },
+    {
+      "route": "/blog/chinese-character-study-routine/",
+      "violations": []
+    },
+    {
+      "route": "/blog/chinese-character-confusions/",
+      "violations": []
+    }
+  ],
+  "pageErrors": [],
+  "browser": "156.0.8078.48"
+}

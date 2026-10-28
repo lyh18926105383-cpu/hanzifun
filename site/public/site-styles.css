@@ -124,3 +124,20 @@ body{container: hf-layout / inline-size}
 
 /* HF-11 pronunciation controls */
 .pronunciation-button{margin:.35rem .35rem .35rem 0;min-height:44px;max-width:100%;white-space:normal;overflow-wrap:anywhere}.pronunciation-button[aria-pressed="true"]{outline:2px solid currentColor;outline-offset:2px}.pronunciation-tools{max-width:var(--container,72rem);margin:1.5rem auto;padding:0 1rem}.context-links{margin-block:1.5rem}.context-links a{display:inline-block;margin:.25rem .35rem .25rem 0}
+
+/* One navigation tree serves every viewport, including the no-JavaScript fallback. */
+.site-header .primary-nav{display:flex;margin-left:auto;gap:24px}
+.site-header .primary-nav[hidden]{display:none}
+.editorial-lesson{max-width:78ch;margin:3rem 0;line-height:1.8}
+.editorial-lesson h2,.editorial-lesson h3{margin-top:1.6em;line-height:1.25}
+.editorial-lesson p,.editorial-lesson li{margin-block:.9em}
+.editorial-lesson a{text-decoration:underline;text-underline-offset:.2em}
+.editorial-lesson [lang="zh-CN"]{font-family:var(--hanzi)}
+@media(max-width:1180px){
+ .site-header .nav-shell{flex-wrap:wrap;height:auto;min-height:72px;padding-block:16px}
+ .site-header .menu-toggle{margin-left:auto}
+ .site-header .primary-nav{flex-basis:100%;flex-direction:column;align-items:stretch;gap:0;padding-block:12px}
+ .site-header .primary-nav>a,.site-header .primary-nav summary{padding:12px;font-size:15px}
+ .site-header .primary-nav .nav-menu{position:static;box-shadow:none;border:0;background:transparent;padding-left:24px;min-width:0}
+ .site-header .primary-nav .nav-menu a{font-size:14px;padding:10px}
+}

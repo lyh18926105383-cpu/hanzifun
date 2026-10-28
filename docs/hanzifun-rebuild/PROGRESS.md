@@ -2,8 +2,8 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 2；收口批次已实际部署Cloudflare并核验生产域名，2026-10-28收尾。Phase 1签发历史保留。
-- **当前执行任务**：Phase 2 HF-11 音频策略与真机听审、HF-12 三场景/86词当前范围已按 Owner 正式决策收口；学习记录 UI 与五行五卡修复完成。原同号同步/文化工具任务未执行；HF-10 A-D 213 字签发保留。
-- **状态**：161/161 测试 PASS；生产构建2824文件，409英文页（358 index / 51 noindex），Sitemap358 URL；releaseId=`phase-2-closeout-2026-10-27`。三个新场景按独立正文hash批准published。Owner 真机试听通过，1268静态录音+设备中文TTS回退为正式方案，57读音/738词句无需腾讯云补录，不再阻塞。HSK2剩余64词 Deferred / Backlog。原HF-06浏览器18项及本轮5组交互/15档布局/axe通过。实际代码c047d1c已commit/push；Cloudflare版本cd058ccd-a054-440f-b180-6fb6db6f9cd6已100%上线，生产Sitemap358及三个场景index,follow已核验。
+- **当前执行任务**：AdSense整改补充（HF-08范围）：导航/信任页/六页内容与自查清单本地交付；Owner署名John Ling、邮箱hanzifun.online@gmail.com已接入四信任页。其余内容深化、AdSense/CMP/发布仍待接续。Phase 2既有收口生产记录保持。
+- **状态**：本地候选releaseId=`adsense-remediation-2026-10-28`，163/163测试、生产构建2826文件/411英文页（365 index、46 noindex）、SEO与Chrome156十二类/60档布局通过。未commit/push/部署；真实线上仍为记录22的Phase 2版本，不把本地变更说成已上线。
 
 ---
 
@@ -293,3 +293,25 @@
 - **GitHub**：`git push origin main`成功，c3e7ac3→c047d1c，无强推；最终再提交本轮部署回执/交接文档并同步远端，以最终main HEAD为准。
 - **本轮新增/修改文件**：新增`docs/hanzifun-rebuild/releases/phase-2-closeout-2026-10-27/{manifest.json,ACCEPTANCE.md,ROLLBACK.md,deployment.json,online-verification.json}`；更新`docs/hanzifun-rebuild/{TASKS,PROGRESS}.md`。前29文件清单见记录21及c047d1c；线上核验临时脚本/日志存/private/tmp，未将凭据或个人文件提交。
 - **未做/下一Agent精确切入点**：本次3项请求已实际执行；24小时/7天及搜索引擎收录观察未完成，Owner可按需跟踪，无自动化任务。上一版本回滚参数已核实，未主动将生产切回旧版做演练。后续先读本记录和release目录deployment/online-verification，以部署版本和生产实际为基线；不要重新部署旧355包，不重做已签收场景或主动生成腾讯云补音。64词仍Deferred。
+
+
+### [记录 23] - AdSense 内容与信任整改本地候选（By Codex，2026-10-28）
+
+- **目录/授权**：本聊天指定worktree `/Users/graceshi/.codex/worktrees/6039/汉字饭hanzifun`；开工git干净。Owner要求按Blocker→High→Medium整改方案、800–1500词原创深化、18项Unknown确认及复检清单，并直接产出可做的成品。未部署、提交、推送或操作AdSense后台，无账号/同步/Billing/故事修改。
+- **官方核实**：读Google申请资格/页面准备/隐私必备内容/ads.txt/EEA-UK-Switzerland CMP及当前TFAT说明；工具ADS编号与“必拒”/页数字数阈值不是官方个案结论。Agent Reach Jina读取因DNS失败，改内置web官方来源核对；本站在线读取失败，因此线上问题以Owner报告为证，不伪称重新爬全站。
+- **工程/内容**：共享头改一棵响应式nav，移动折叠/桌面恢复、Tab/Escape及无JS可读；去顶部预览Sign in/Pricing与重复推广，首页中段改学习指南。页脚增加Privacy/Terms/About/Contact/Sources。339字页加面包屑。场景入口完整三轮对话+音频+用法/修复交流/学习路线；快/六/星各独有解释、3句语境音频、辨析、书写和自测，插在笔顺工具前；两篇新指南（12分钟学习和易混字方法）及成型Blog入口。新讲解不编造字源，不把助记当历史，不继承旧人工签字范围；原教学/音频/场景签名原样。
+- **信任/广告**：四信任页实质正文位于trust.mjs，政策明确当前无广告、本地记录/删除/技术交付/设备声线可能在线/未来Google第三方Cookie和退出/地区同意/儿童。`site/publisher.json`主体/邮箱/pub-ID仍空，已向Owner询问，不造公司/邮箱。Contact如实说明渠道待核实；四页原preview/planned/noindex不自动转正。真实pub-ID可生成根ads.txt，空值不生成、占位/错误拒绝，不加载广告。没有自制假CMP或装成已经获得同意；儿童/中文故事保持无广告。
+- **文件清单**：
+  - 修改 `scripts/build-site.js`、`site/{site.mjs,release.json}`、`site/pages/{home.html,scenarios.mjs}`、`site/public/site-styles.css`、`src/client/navigation.mjs`、`tests/{site-shell,seo-quality}.test.mjs`。
+  - 新增 `site/{editorial-content,adsense}.mjs`、`site/publisher.json`、`site/pages/trust.mjs`、`site/content/adsense/{kuai,liu,xing,scenarios,study-routine,confusions}.html`；`scripts/{audit-adsense,verify-adsense-browser}.mjs`、`tests/adsense.test.mjs`。
+  - 新增 `docs/hanzifun-rebuild/ADSENSE-REMEDIATION-2026-10-28.md`及`evidence/adsense-2026-10-28/{content-audit,verification,summary}.json`、两张实际手机PNG；更新TASKS/PROGRESS。
+- **验证**：离线npm ci成功（8依赖、0漏洞）。第一次全量测试160/161中HF12源复现因worktree缺忽略缓存失败；从已知Desktop主目录复制HSK-2015.xlsx和cedict.gz之前按sources.lock SHA-256核验一致，不改源或放宽测试。最终**163/163 PASS**，0fail/skip。最终隔离生产构建 `/private/tmp/hanzifun-adsense-build` 成功2826文件、411英文页（361 index/50 noindex）；SEO core358/JSON-LD412/Sitemap361/errors=[]，资源预算通过。内容审计六页main词数依次scenarios1451/快1248/六1209/星1192/学习1127/辨析1059，排除nav、hidden、脚本与按钮；新原创片段均800–1500，字数不是Google门槛。
+- **浏览器**：沙箱初次127.0.0.1监听EPERM，使用受审查允许的隔离Chrome156本地服务完成，不用Owner浏览器数据。十二类页×360/390/768/1100/1440共60档零溢出，axe WCAG A/AA零违规、pageErrors=[]；移动菜单键盘/关闭焦点返回/切回桌面、三例音频绑定与答案展开、无JS正文/导航通过。第一次桌面恢复断言早于异步媒体查询事件，补等待事件后通过，未改产品来掩盖。最终讲解移位后的同范围复验通过；两张手机截图实际查看。没有宣称真人听审新例句、Safari/Firefox/真机、CMP同意时序或线上验收。
+- **遗留与精确下一步**：先读本记录、TASKS与ADSENSE整改文档。Owner提供真实operatorName/contactEmail后填publisher.json，核对政策与实际服务，再明确四信任页发布状态；pub-ID从本人后台取得后填真实值并验证线上ads.txt。336/339字页尚未达到本次800词编辑目标，不能称全部已整改，也不能按词数直接判违规；按审计清单优先日常/HSK核心，再做五个场景叶页及两个子入口，新增对话另行语言复核。后台资格、唯一账号、域名/验证、CMP/儿童广告与18项自查按文档执行。部署需走HF17/18重新核对当前候选，不复用旧生产releaseId；本轮没有上线、commit/push、新增录音或替用户完成后台确认。
+
+### [记录 24] - Owner运营署名与邮箱接入四信任页（By Codex，2026-10-28）
+
+- **授权/目录**：继续本聊天worktree；Owner明确提供公开署名John Ling、邮箱hanzifun.online@gmail.com，完成记录23缺失信息。未代发邮件、未声称独立验证邮箱所有权或收信能力，未部署、提交或推送。
+- **修改文件**：`site/publisher.json`写入上述精确值；`site/release.json`的/about/、/contact/、/privacy/、/terms/四精确路由改published。统一trust模板自动生成署名与mailto链接，Contact不再出现缺少公开地址提示。`tests/seo-quality.test.mjs`同步四页索引数量；更新ADSENSE整改文档、TASKS、PROGRESS及evidence/adsense-2026-10-28/{content-audit,summary,verification}.json与手机截图，新增identity-verification.json。
+- **验证**：隔离生产构建成功2826文件、411英文页（365 index、46 noindex），Sitemap365；163/163测试PASS，0fail/skip。逐页检查四页John Ling、mailto、index,follow和Sitemap成员一致，SEO errors=[]。Chrome156十二类页axe零违规、60档无溢出、菜单/焦点/无JS复验通过，pageErrors=[]；隐私页手机截图更新。
+- **遗留/下一切入点**：署名/邮箱资料缺口已关闭，不应再次索要。Owner自行确认可收信并审读政策；pub-ID、AdSense后台、CMP/适用广告配置、其余内容深化及生产部署仍按整改方案接续。四页当前是本地published，不代表线上已更新。原记录23的空值/361 URL是当时历史，现由本记录365 URL取代。

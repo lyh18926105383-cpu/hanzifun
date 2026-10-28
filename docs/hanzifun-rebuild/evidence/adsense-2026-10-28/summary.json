@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-28",
+  "releaseId": "adsense-remediation-2026-10-28",
+  "productionBuild": {
+    "publicFiles": 2826,
+    "englishPages": 411,
+    "index": 365,
+    "noindex": 46,
+    "sitemapUrls": 365
+  },
+  "tests": {
+    "passed": 163,
+    "failed": 0,
+    "skipped": 0
+  },
+  "seoErrors": [],
+  "browser": {
+    "version": "156.0.8078.48",
+    "layouts": 60,
+    "axePages": 12,
+    "pageErrors": [],
+    "verification": "verification.json"
+  },
+  "deployment": "not performed",
+  "adServing": "not enabled",
+  "remaining": [
+    "Remaining character and scenario content review/enrichment",
+    "AdSense account verification and status",
+    "Real publisher ID and live ads.txt",
+    "Certified CMP before applicable advertising"
+  ],
+  "note": "Original approval records are preserved; new explanatory prose does not inherit old human sign-off.",
+  "publisherIdentity": {
+    "operatorName": "John Ling",
+    "contactEmail": "hanzifun.online@gmail.com",
+    "source": "Owner supplied in this chat",
+    "outboundEmailSent": false
+  }
+}

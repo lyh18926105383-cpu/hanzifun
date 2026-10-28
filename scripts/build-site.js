@@ -205,6 +205,12 @@ async function buildSite() {
     const { createSupportPages, createCharacterStub, createContractFallback } =
         await import('../site/pages/route-stubs.mjs');
     const routesModule = await import('../site/routes.mjs');
+    const editorial = await import('../site/editorial-content.mjs');
+    const {trustPages} = await import('../site/pages/trust.mjs');
+    const {adsTxt} = await import('../site/adsense.mjs');
+    const publisher = JSON.parse(fs.readFileSync(path.join(siteRoot,'publisher.json'),'utf8'));
+    const authorizedSeller = adsTxt(publisher.adsensePublisherId);
+    if (authorizedSeller) fs.writeFileSync(path.join(outputRoot,'ads.txt'),authorizedSeller);
 
     const assetSources = [
         ['site/public/site-styles.css', 'site-styles.hf03-v1.css'],
@@ -242,7 +248,7 @@ async function buildSite() {
         prototypePaths,
         characters: coreChars,
         additionalCharacters: hf07.lexicon.characters.map(c=>c.glyph),
-        additionalPaths: [...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
+        additionalPaths: [...editorial.guides.map(g=>g.path),...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
         contract: routesModule.routeContract,
         release: routesModule.releaseConfig,
     });
@@ -270,6 +276,13 @@ async function buildSite() {
     [...hskPages(),...additionalCharacterPages(),...scenarioPages()].forEach(page=>pages.set(page.path,page));
     const hf04Pages = [...dictionaryPages(), sourcePage(), strokeOrderPage(), pinyinChartPage()];
     hf04Pages.forEach(page => pages.set(page.path, page));
+    [...trustPages(),...editorial.editorialPages()].forEach(page=>pages.set(page.path,page));
+    for(const [routePath,page] of pages) {
+        const enriched=editorial.enrichCharacter(page);
+        const character=/^\/dictionary\/([^/]+)\/$/.exec(routePath);
+        if(character && !['pinyin','radicals','compare','top-100'].includes(character[1])) enriched.content=enriched.content.replace(/<h1\b/, '<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/dictionary/">Dictionary</a> / <span lang="zh-CN">'+escapeHtml(character[1])+'</span></nav><h1');
+        pages.set(routePath,enriched);
+    }
     const writePublic = (relative, value) => {
         const destination = path.join(outputRoot, relative);
         fs.mkdirSync(path.dirname(destination), {recursive:true});

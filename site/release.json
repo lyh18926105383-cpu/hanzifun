@@ -1,5 +1,5 @@
 {
-  "releaseId": "phase-2-closeout-2026-10-27",
+  "releaseId": "adsense-remediation-2026-10-28",
   "prototypePathCount": 77,
   "defaultStatus": "preview",
   "statusPolicies": {
@@ -49,14 +49,14 @@
     "/tools/chinese-menu-decoder/": "preview",
     "/tools/zodiac-elements-calculator/": "planned",
     "/tools/tattoo-character-checker/": "planned",
-    "/blog/": "planned",
+    "/blog/": "published",
     "/search/": "preview",
     "/sign-in/": "planned",
     "/pricing/": "planned",
-    "/about/": "preview",
-    "/contact/": "preview",
-    "/privacy/": "planned",
-    "/terms/": "planned",
+    "/about/": "published",
+    "/contact/": "published",
+    "/privacy/": "published",
+    "/terms/": "published",
     "/data-sources/": "preview",
     "/404.html": "planned",
     "/zh/": "legacy",
@@ -405,7 +405,9 @@
     "/academic/hsk-2/level-2/": "published",
     "/scenarios/travel/airport/": "published",
     "/scenarios/travel/hotel/": "published",
-    "/scenarios/travel/supermarket/": "published"
+    "/scenarios/travel/supermarket/": "published",
+    "/blog/chinese-character-study-routine/": "published",
+    "/blog/chinese-character-confusions/": "published"
   },
   "patterns": {
     "/kids/stories/{slug}/": "preview",

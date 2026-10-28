@@ -1,11 +1,11 @@
 const menuButton = document.querySelector('[data-menu-toggle]');
 const mobileMenu = document.querySelector('#mobile-menu');
-const menuGroups = Array.from(document.querySelectorAll('.desktop-nav details, .mobile-menu details'));
+const menuGroups = Array.from(document.querySelectorAll('.primary-nav details'));
 
 function closeMobileMenu(returnFocus = false) {
   if (!menuButton || !mobileMenu) return;
   menuButton.setAttribute('aria-expanded', 'false');
-  mobileMenu.hidden = true;
+  mobileMenu.hidden = !window.matchMedia('(min-width: 1181px)').matches;
   if (returnFocus) menuButton.focus();
 }
 
@@ -41,7 +41,7 @@ document.addEventListener('keydown', event => {
 });
 
 document.addEventListener('click', event => {
-  if (!event.target.closest('.desktop-nav, .mobile-menu')) closeOpenGroups();
+  if (!event.target.closest('.primary-nav')) closeOpenGroups();
   if (event.target.closest('#mobile-menu a')) closeMobileMenu();
 });
 
@@ -57,9 +57,13 @@ menuGroups.forEach(group => {
   });
 });
 
-window.addEventListener('resize', () => {
-  if (window.matchMedia('(min-width: 1051px)').matches) closeMobileMenu();
-});
+const desktop = window.matchMedia('(min-width: 1181px)');
+function syncMenu() {
+  closeOpenGroups();
+  closeMobileMenu();
+}
+desktop.addEventListener('change', syncMenu);
+syncMenu();
 
 // Exact current location highlights the correct HSK edition in both menus.
 for(const a of document.querySelectorAll('nav a')){if(a.getAttribute('href')===location.pathname)a.setAttribute('aria-current','page');}

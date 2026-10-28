@@ -1,0 +1,1754 @@
+{
+  "date": "2026-10-28T02:10:10.001Z",
+  "releaseId": "adsense-remediation-2026-10-28",
+  "build": "/private/tmp/hanzifun-adsense-build",
+  "pages": [
+    {
+      "path": "/scenarios/",
+      "englishWordsInMain": 1451,
+      "primaryNavigationTrees": 1,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/快/",
+      "englishWordsInMain": 1248,
+      "primaryNavigationTrees": 1,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/六/",
+      "englishWordsInMain": 1209,
+      "primaryNavigationTrees": 1,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/星/",
+      "englishWordsInMain": 1192,
+      "primaryNavigationTrees": 1,
+      "indexing": "index"
+    },
+    {
+      "path": "/blog/chinese-character-study-routine/",
+      "englishWordsInMain": 1127,
+      "primaryNavigationTrees": 1,
+      "indexing": "index"
+    },
+    {
+      "path": "/blog/chinese-character-confusions/",
+      "englishWordsInMain": 1059,
+      "primaryNavigationTrees": 1,
+      "indexing": "index"
+    }
+  ],
+  "characterPages": 339,
+  "characterPagesUnder800": 336,
+  "inventory": [
+    {
+      "path": "/dictionary/休/",
+      "englishWordsInMain": 371,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/水/",
+      "englishWordsInMain": 397,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/木/",
+      "englishWordsInMain": 369,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/月/",
+      "englishWordsInMain": 358,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/山/",
+      "englishWordsInMain": 390,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/火/",
+      "englishWordsInMain": 389,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/林/",
+      "englishWordsInMain": 392,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/安/",
+      "englishWordsInMain": 433,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/然/",
+      "englishWordsInMain": 368,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/明/",
+      "englishWordsInMain": 425,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/朗/",
+      "englishWordsInMain": 351,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/清/",
+      "englishWordsInMain": 397,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/禾/",
+      "englishWordsInMain": 351,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/中/",
+      "englishWordsInMain": 412,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/秋/",
+      "englishWordsInMain": 360,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/饼/",
+      "englishWordsInMain": 347,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/团/",
+      "englishWordsInMain": 399,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/圆/",
+      "englishWordsInMain": 383,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/请/",
+      "englishWordsInMain": 370,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/茶/",
+      "englishWordsInMain": 341,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/饭/",
+      "englishWordsInMain": 354,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/豆/",
+      "englishWordsInMain": 385,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/力/",
+      "englishWordsInMain": 348,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/用/",
+      "englishWordsInMain": 417,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/办/",
+      "englishWordsInMain": 425,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/法/",
+      "englishWordsInMain": 396,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/才/",
+      "englishWordsInMain": 435,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/睡/",
+      "englishWordsInMain": 351,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/左/",
+      "englishWordsInMain": 361,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/右/",
+      "englishWordsInMain": 383,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/只/",
+      "englishWordsInMain": 405,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/旁/",
+      "englishWordsInMain": 352,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/龟/",
+      "englishWordsInMain": 344,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/脖/",
+      "englishWordsInMain": 324,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/壳/",
+      "englishWordsInMain": 372,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/事/",
+      "englishWordsInMain": 356,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/命/",
+      "englishWordsInMain": 369,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/睛/",
+      "englishWordsInMain": 331,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/嘴/",
+      "englishWordsInMain": 337,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/肚/",
+      "englishWordsInMain": 326,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/害/",
+      "englishWordsInMain": 359,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/保/",
+      "englishWordsInMain": 388,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/找/",
+      "englishWordsInMain": 371,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/冠/",
+      "englishWordsInMain": 367,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/裁/",
+      "englishWordsInMain": 387,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/雪/",
+      "englishWordsInMain": 362,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/生/",
+      "englishWordsInMain": 490,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/语/",
+      "englishWordsInMain": 339,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/门/",
+      "englishWordsInMain": 438,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/没/",
+      "englishWordsInMain": 375,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/腿/",
+      "englishWordsInMain": 342,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/南/",
+      "englishWordsInMain": 362,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/北/",
+      "englishWordsInMain": 352,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/拍/",
+      "englishWordsInMain": 394,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/做/",
+      "englishWordsInMain": 424,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/瓜/",
+      "englishWordsInMain": 338,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/挂/",
+      "englishWordsInMain": 454,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/呆/",
+      "englishWordsInMain": 364,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/当/",
+      "englishWordsInMain": 440,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/叔/",
+      "englishWordsInMain": 351,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/说/",
+      "englishWordsInMain": 381,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/同/",
+      "englishWordsInMain": 364,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/相/",
+      "englishWordsInMain": 404,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/鼻/",
+      "englishWordsInMain": 344,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/眉/",
+      "englishWordsInMain": 347,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/双/",
+      "englishWordsInMain": 368,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/进/",
+      "englishWordsInMain": 398,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/医/",
+      "englishWordsInMain": 353,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/钱/",
+      "englishWordsInMain": 363,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/主/",
+      "englishWordsInMain": 381,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/方/",
+      "englishWordsInMain": 424,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/答/",
+      "englishWordsInMain": 370,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/姓/",
+      "englishWordsInMain": 359,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/女/",
+      "englishWordsInMain": 352,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/孩/",
+      "englishWordsInMain": 330,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/快/",
+      "englishWordsInMain": 1248,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/步/",
+      "englishWordsInMain": 346,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/很/",
+      "englishWordsInMain": 367,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/肉/",
+      "englishWordsInMain": 389,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/身/",
+      "englishWordsInMain": 391,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/借/",
+      "englishWordsInMain": 394,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/问/",
+      "englishWordsInMain": 334,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/招/",
+      "englishWordsInMain": 389,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/怕/",
+      "englishWordsInMain": 352,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/惊/",
+      "englishWordsInMain": 350,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/遍/",
+      "englishWordsInMain": 375,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/原/",
+      "englishWordsInMain": 377,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/川/",
+      "englishWordsInMain": 386,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/规/",
+      "englishWordsInMain": 343,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/蚕/",
+      "englishWordsInMain": 347,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/插/",
+      "englishWordsInMain": 352,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/周/",
+      "englishWordsInMain": 404,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/发/",
+      "englishWordsInMain": 382,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/臂/",
+      "englishWordsInMain": 322,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/给/",
+      "englishWordsInMain": 390,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/孙/",
+      "englishWordsInMain": 339,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/军/",
+      "englishWordsInMain": 339,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/夏/",
+      "englishWordsInMain": 365,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/果/",
+      "englishWordsInMain": 359,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/西/",
+      "englishWordsInMain": 363,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/边/",
+      "englishWordsInMain": 362,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/欢/",
+      "englishWordsInMain": 356,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/正/",
+      "englishWordsInMain": 401,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/泉/",
+      "englishWordsInMain": 363,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/眼/",
+      "englishWordsInMain": 380,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/荷/",
+      "englishWordsInMain": 379,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/尖/",
+      "englishWordsInMain": 397,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/早/",
+      "englishWordsInMain": 354,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/夜/",
+      "englishWordsInMain": 345,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/所/",
+      "englishWordsInMain": 384,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/黑/",
+      "englishWordsInMain": 369,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/光/",
+      "englishWordsInMain": 381,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/点/",
+      "englishWordsInMain": 560,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/浪/",
+      "englishWordsInMain": 358,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/和/",
+      "englishWordsInMain": 469,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/姐/",
+      "englishWordsInMain": 329,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/群/",
+      "englishWordsInMain": 372,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/听/",
+      "englishWordsInMain": 410,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/男/",
+      "englishWordsInMain": 373,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/向/",
+      "englishWordsInMain": 427,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/几/",
+      "englishWordsInMain": 369,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/条/",
+      "englishWordsInMain": 396,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/久/",
+      "englishWordsInMain": 354,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/半/",
+      "englishWordsInMain": 369,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/候/",
+      "englishWordsInMain": 371,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/公/",
+      "englishWordsInMain": 399,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/一/",
+      "englishWordsInMain": 258,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/七/",
+      "englishWordsInMain": 247,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/三/",
+      "englishWordsInMain": 238,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/上/",
+      "englishWordsInMain": 283,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/下/",
+      "englishWordsInMain": 271,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/不/",
+      "englishWordsInMain": 248,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/东/",
+      "englishWordsInMain": 272,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/两/",
+      "englishWordsInMain": 272,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/个/",
+      "englishWordsInMain": 274,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/为/",
+      "englishWordsInMain": 281,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/么/",
+      "englishWordsInMain": 271,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/九/",
+      "englishWordsInMain": 236,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/也/",
+      "englishWordsInMain": 293,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/习/",
+      "englishWordsInMain": 270,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/书/",
+      "englishWordsInMain": 260,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/买/",
+      "englishWordsInMain": 267,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/了/",
+      "englishWordsInMain": 278,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/二/",
+      "englishWordsInMain": 240,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/五/",
+      "englishWordsInMain": 247,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/些/",
+      "englishWordsInMain": 266,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/京/",
+      "englishWordsInMain": 298,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/亮/",
+      "englishWordsInMain": 278,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/人/",
+      "englishWordsInMain": 243,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/什/",
+      "englishWordsInMain": 244,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/今/",
+      "englishWordsInMain": 255,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/他/",
+      "englishWordsInMain": 257,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/以/",
+      "englishWordsInMain": 297,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/们/",
+      "englishWordsInMain": 253,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/件/",
+      "englishWordsInMain": 267,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/会/",
+      "englishWordsInMain": 298,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/住/",
+      "englishWordsInMain": 271,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/作/",
+      "englishWordsInMain": 279,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/你/",
+      "englishWordsInMain": 268,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/便/",
+      "englishWordsInMain": 278,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/儿/",
+      "englishWordsInMain": 242,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/元/",
+      "englishWordsInMain": 287,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/先/",
+      "englishWordsInMain": 288,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/八/",
+      "englishWordsInMain": 236,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/六/",
+      "englishWordsInMain": 1209,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/关/",
+      "englishWordsInMain": 285,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/兴/",
+      "englishWordsInMain": 277,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/再/",
+      "englishWordsInMain": 301,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/写/",
+      "englishWordsInMain": 254,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/冷/",
+      "englishWordsInMain": 253,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/出/",
+      "englishWordsInMain": 312,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/分/",
+      "englishWordsInMain": 299,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/到/",
+      "englishWordsInMain": 297,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/前/",
+      "englishWordsInMain": 259,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/包/",
+      "englishWordsInMain": 298,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/十/",
+      "englishWordsInMain": 249,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/千/",
+      "englishWordsInMain": 252,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/午/",
+      "englishWordsInMain": 271,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/卖/",
+      "englishWordsInMain": 264,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/去/",
+      "englishWordsInMain": 318,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/友/",
+      "englishWordsInMain": 249,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/口/",
+      "englishWordsInMain": 269,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/叫/",
+      "englishWordsInMain": 269,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/可/",
+      "englishWordsInMain": 290,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/号/",
+      "englishWordsInMain": 328,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/司/",
+      "englishWordsInMain": 266,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/吃/",
+      "englishWordsInMain": 262,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/名/",
+      "englishWordsInMain": 257,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/后/",
+      "englishWordsInMain": 270,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/吗/",
+      "englishWordsInMain": 263,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/吧/",
+      "englishWordsInMain": 273,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/呢/",
+      "englishWordsInMain": 307,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/呼/",
+      "englishWordsInMain": 278,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/哥/",
+      "englishWordsInMain": 242,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/哪/",
+      "englishWordsInMain": 262,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/唱/",
+      "englishWordsInMain": 256,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/商/",
+      "englishWordsInMain": 270,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/喂/",
+      "englishWordsInMain": 271,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/喜/",
+      "englishWordsInMain": 268,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/喝/",
+      "englishWordsInMain": 240,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/四/",
+      "englishWordsInMain": 229,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/回/",
+      "englishWordsInMain": 310,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/国/",
+      "englishWordsInMain": 241,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/在/",
+      "englishWordsInMain": 278,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/地/",
+      "englishWordsInMain": 247,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/坐/",
+      "englishWordsInMain": 272,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/块/",
+      "englishWordsInMain": 271,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/士/",
+      "englishWordsInMain": 270,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/外/",
+      "englishWordsInMain": 258,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/多/",
+      "englishWordsInMain": 273,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/大/",
+      "englishWordsInMain": 262,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/天/",
+      "englishWordsInMain": 247,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/太/",
+      "englishWordsInMain": 252,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/奶/",
+      "englishWordsInMain": 261,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/她/",
+      "englishWordsInMain": 229,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/好/",
+      "englishWordsInMain": 298,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/妈/",
+      "englishWordsInMain": 233,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/妹/",
+      "englishWordsInMain": 242,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/子/",
+      "englishWordsInMain": 260,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/字/",
+      "englishWordsInMain": 248,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/学/",
+      "englishWordsInMain": 251,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/它/",
+      "englishWordsInMain": 260,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/宜/",
+      "englishWordsInMain": 262,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/客/",
+      "englishWordsInMain": 254,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/家/",
+      "englishWordsInMain": 297,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/对/",
+      "englishWordsInMain": 287,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/小/",
+      "englishWordsInMain": 245,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/少/",
+      "englishWordsInMain": 269,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/岁/",
+      "englishWordsInMain": 258,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/工/",
+      "englishWordsInMain": 242,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/市/",
+      "englishWordsInMain": 260,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/师/",
+      "englishWordsInMain": 253,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/常/",
+      "englishWordsInMain": 262,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/年/",
+      "englishWordsInMain": 257,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/床/",
+      "englishWordsInMain": 286,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/店/",
+      "englishWordsInMain": 258,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/开/",
+      "englishWordsInMain": 307,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/弟/",
+      "englishWordsInMain": 269,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/影/",
+      "englishWordsInMain": 248,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/得/",
+      "englishWordsInMain": 305,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/忙/",
+      "englishWordsInMain": 251,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/怎/",
+      "englishWordsInMain": 235,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/息/",
+      "englishWordsInMain": 287,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/您/",
+      "englishWordsInMain": 264,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/想/",
+      "englishWordsInMain": 291,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/我/",
+      "englishWordsInMain": 241,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/房/",
+      "englishWordsInMain": 266,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/手/",
+      "englishWordsInMain": 295,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/打/",
+      "englishWordsInMain": 302,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/文/",
+      "englishWordsInMain": 256,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/新/",
+      "englishWordsInMain": 260,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/日/",
+      "englishWordsInMain": 264,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/时/",
+      "englishWordsInMain": 253,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/星/",
+      "englishWordsInMain": 1192,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/昨/",
+      "englishWordsInMain": 230,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/是/",
+      "englishWordsInMain": 268,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/晚/",
+      "englishWordsInMain": 243,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/有/",
+      "englishWordsInMain": 278,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/朋/",
+      "englishWordsInMain": 234,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/服/",
+      "englishWordsInMain": 289,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/期/",
+      "englishWordsInMain": 272,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/本/",
+      "englishWordsInMain": 300,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/机/",
+      "englishWordsInMain": 271,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/来/",
+      "englishWordsInMain": 315,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/杯/",
+      "englishWordsInMain": 255,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/校/",
+      "englishWordsInMain": 265,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/样/",
+      "englishWordsInMain": 255,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/桌/",
+      "englishWordsInMain": 251,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/椅/",
+      "englishWordsInMain": 230,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/歌/",
+      "englishWordsInMain": 253,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/比/",
+      "englishWordsInMain": 273,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/气/",
+      "englishWordsInMain": 272,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/汉/",
+      "englishWordsInMain": 258,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/漂/",
+      "englishWordsInMain": 260,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/热/",
+      "englishWordsInMain": 264,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/爱/",
+      "englishWordsInMain": 259,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/爸/",
+      "englishWordsInMain": 233,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/牛/",
+      "englishWordsInMain": 269,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/狗/",
+      "englishWordsInMain": 237,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/猫/",
+      "englishWordsInMain": 258,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/玩/",
+      "englishWordsInMain": 294,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/现/",
+      "englishWordsInMain": 254,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/班/",
+      "englishWordsInMain": 298,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/电/",
+      "englishWordsInMain": 283,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/病/",
+      "englishWordsInMain": 269,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/白/",
+      "englishWordsInMain": 330,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/百/",
+      "englishWordsInMain": 248,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/的/",
+      "englishWordsInMain": 322,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/看/",
+      "englishWordsInMain": 310,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/真/",
+      "englishWordsInMain": 261,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/知/",
+      "englishWordsInMain": 263,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/租/",
+      "englishWordsInMain": 261,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/称/",
+      "englishWordsInMain": 288,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/穿/",
+      "englishWordsInMain": 314,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/第/",
+      "englishWordsInMain": 287,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/米/",
+      "englishWordsInMain": 265,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/系/",
+      "englishWordsInMain": 279,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/老/",
+      "englishWordsInMain": 316,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/能/",
+      "englishWordsInMain": 266,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/脑/",
+      "englishWordsInMain": 251,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/苹/",
+      "englishWordsInMain": 252,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/菜/",
+      "englishWordsInMain": 262,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/蛋/",
+      "englishWordsInMain": 244,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/衣/",
+      "englishWordsInMain": 261,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/要/",
+      "englishWordsInMain": 286,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/见/",
+      "englishWordsInMain": 269,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/视/",
+      "englishWordsInMain": 261,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/觉/",
+      "englishWordsInMain": 279,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/认/",
+      "englishWordsInMain": 260,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/识/",
+      "englishWordsInMain": 253,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/话/",
+      "englishWordsInMain": 259,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/读/",
+      "englishWordsInMain": 280,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/课/",
+      "englishWordsInMain": 254,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/谁/",
+      "englishWordsInMain": 245,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/谢/",
+      "englishWordsInMain": 261,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/贵/",
+      "englishWordsInMain": 268,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/起/",
+      "englishWordsInMain": 311,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/超/",
+      "englishWordsInMain": 265,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/车/",
+      "englishWordsInMain": 282,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/过/",
+      "englishWordsInMain": 283,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/还/",
+      "englishWordsInMain": 270,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/这/",
+      "englishWordsInMain": 267,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/道/",
+      "englishWordsInMain": 330,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/那/",
+      "englishWordsInMain": 266,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/都/",
+      "englishWordsInMain": 257,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/里/",
+      "englishWordsInMain": 273,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/钟/",
+      "englishWordsInMain": 288,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/长/",
+      "englishWordsInMain": 277,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/间/",
+      "englishWordsInMain": 270,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/院/",
+      "englishWordsInMain": 239,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/雨/",
+      "englishWordsInMain": 248,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/零/",
+      "englishWordsInMain": 280,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/非/",
+      "englishWordsInMain": 286,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/面/",
+      "englishWordsInMain": 298,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/题/",
+      "englishWordsInMain": 260,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/飞/",
+      "englishWordsInMain": 263,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/饺/",
+      "englishWordsInMain": 253,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/高/",
+      "englishWordsInMain": 272,
+      "indexing": "index"
+    },
+    {
+      "path": "/dictionary/鸡/",
+      "englishWordsInMain": 245,
+      "indexing": "index"
+    }
+  ],
+  "errors": [],
+  "ownerActions": {
+    "operatorIdentityMissing": false,
+    "contactEmailMissing": false,
+    "publisherIdMissing": true,
+    "cmpNotConfigured": true,
+    "accountAndTrafficChecksRequired": true
+  },
+  "notes": [
+    "Word counts exclude navigation, scripts, hidden panels and buttons; this is an editorial target, not a Google approval threshold.",
+    "This checks a local build only. No AdSense account status, consent behavior, public deployment or Google approval is asserted."
+  ]
+}
