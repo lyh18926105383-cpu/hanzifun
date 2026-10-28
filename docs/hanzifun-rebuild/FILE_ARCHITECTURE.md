@@ -39,12 +39,12 @@ flowchart TD
 ```text
 HanziFun
 ├── 首页 /                               七个已确认板块，沿用 C 方案
+├── Printable resources /worksheets/    通用练习纸；旧 /kids/worksheets/ 301至此
 │
 ├── Learning Paths 学习路径
 │   ├── Kids & Families /kids/           家庭儿童
 │   │   ├── /kids/stories/               八节已有中文故事的英文介绍入口
-│   │   ├── /kids/stories/{slug}/        单课介绍 → 对应中文播放器
-│   │   └── /kids/worksheets/            首版打印样本 → 后续正式打印包
+│   │   └── /kids/stories/{slug}/        单课介绍 → 对应中文播放器
 │   ├── Travel & Business /scenarios/    旅行商务
 │   │   ├── /scenarios/travel/restaurant/     餐厅场景
 │   │   └── /scenarios/business/icebreakers/ 商务礼貌开场
@@ -84,7 +84,7 @@ HanziFun
 └── 关于、联系、隐私、条款、资料来源、404
 ```
 
-Visual Dictionary 下拉菜单包含 **All Characters / Stroke Order / Pinyin Chart / HSK 2.0 Library / HSK 3.0 Library**。HSK 两个入口继续链接 `/academic/hsk-2/` 和 `/academic/hsk-3/`，共用已有页面，不另建第二份同义字库。顶部五大导航栏目保持原有分组。
+Visual Dictionary 下拉菜单包含 **All Characters / Stroke Order / Pinyin Chart / HSK 2.0 Library / HSK 3.0 Library**。HSK 两个入口继续链接 `/academic/hsk-2/` 和 `/academic/hsk-3/`，共用已有页面，不另建第二份同义字库。2026-10-28 Owner决定将原Learning guides导航替换为 **Chinese Culture** 下拉，分别链接 `/tools/` 与 `/blog/`，不改变这两个页面的地址。
 
 上图的 Visual Dictionary 是导航分组，**不表示这些网址都放在 `/dictionary/` 下面**。最新确认的页面职责是：
 

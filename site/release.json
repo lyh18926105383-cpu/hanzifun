@@ -1,5 +1,5 @@
 {
-  "releaseId": "adsense-remediation-2026-10-28",
+  "releaseId": "public-learning-navigation-2026-10-28",
   "prototypePathCount": 77,
   "defaultStatus": "preview",
   "statusPolicies": {
@@ -22,9 +22,9 @@
   },
   "routes": {
     "/": "published",
-    "/kids/": "preview",
-    "/kids/stories/": "preview",
-    "/kids/worksheets/": "preview",
+    "/kids/": "published",
+    "/kids/stories/": "published",
+    "/kids/worksheets/": "planned",
     "/scenarios/": "published",
     "/scenarios/travel/restaurant/": "published",
     "/scenarios/business/icebreakers/": "published",
@@ -39,8 +39,8 @@
     "/dictionary/top-100/": "planned",
     "/stroke-order/": "published",
     "/pinyin-chart/": "published",
-    "/flashcards/": "preview",
-    "/flashcards/decks/": "preview",
+    "/flashcards/": "published",
+    "/flashcards/decks/": "published",
     "/flashcards/my-words/": "preview",
     "/flashcards/teacher/": "planned",
     "/account/": "preview",
@@ -407,12 +407,13 @@
     "/scenarios/travel/hotel/": "published",
     "/scenarios/travel/supermarket/": "published",
     "/blog/chinese-character-study-routine/": "published",
-    "/blog/chinese-character-confusions/": "published"
+    "/blog/chinese-character-confusions/": "published",
+    "/worksheets/": "published"
   },
   "patterns": {
-    "/kids/stories/{slug}/": "preview",
+    "/kids/stories/{slug}/": "published",
     "/dictionary/{char}/": "preview",
-    "/flashcards/decks/{slug}/": "preview",
+    "/flashcards/decks/{slug}/": "published",
     "/blog/{slug}/": "planned"
   },
   "siteOrigin": "https://hanzifun.online",

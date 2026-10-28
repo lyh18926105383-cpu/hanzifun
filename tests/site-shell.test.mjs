@@ -13,7 +13,7 @@ import {
 } from '../site/routes.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const prototypePaths = ['/', ...renderPages().map(page => page.path)];
+const prototypePaths = ['/', ...renderPages().map(page => page.path === '/worksheets/' ? '/kids/worksheets/' : page.path)];
 const coreManifest = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/core-manifest.json'), 'utf8'));
 const coreCharacters = coreManifest.characterIds.map(id =>
   String.fromCodePoint(parseInt(id.slice('char:'.length), 16))
@@ -30,7 +30,7 @@ test('the archived prototype path set remains 77 unique mapped routes', () => {
   assert.equal(new Set(prototypePaths).size, 77);
   assert.equal(routeManifest.prototypePathCount, 77);
   assert.equal(routeManifest.prototypePaths.length, 77);
-  assert.ok(routeManifest.prototypePaths.every(route => route.output));
+  assert.ok(routeManifest.prototypePaths.every(route => route.output || route.redirectTo));
   assert.ok(routeManifest.routes.some(route => route.path === '/pinyin-chart/'));
   assert.ok(!routeManifest.prototypePaths.some(route => route.path === '/pinyin-chart/'));
 });

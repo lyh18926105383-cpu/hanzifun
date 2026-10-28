@@ -128,7 +128,7 @@ test('isolated static build verifies all references, per-character assets, previ
   for(const file of fs.readdirSync(path.join(output,'site-assets')).filter(f=>/\.(js|mjs)$/.test(f)))assert.doesNotMatch(get('site-assets/'+file),/"medians"|"strokes"\s*:/);
   assert.ok(!fs.existsSync(path.join(output,'data/source-extracts')));assert.ok(!fs.existsSync(path.join(output,'.cache')));
   assert.match(get('sitemap.xml'),/https:\/\/hanzifun.online\/academic\/hsk-2\//);
-  assert.doesNotMatch(get('sitemap.xml'),/flashcards/);for(const c of characters){const url=new URL('/dictionary/'+c.glyph+'/', 'https://hanzifun.online').href;assert.equal(get('sitemap.xml').includes('<loc>'+url+'</loc>'),resolveRoutePolicy('/dictionary/'+c.glyph+'/').indexing==='index');}
+  assert.doesNotMatch(get('sitemap.xml'),/flashcards\/(?:my-words|teacher)\/|[?]session=/);assert.ok(get('sitemap.xml').includes('<loc>https://hanzifun.online/flashcards/</loc>'));assert.ok(get('sitemap.xml').includes('<loc>https://hanzifun.online/worksheets/</loc>'));assert.doesNotMatch(get('sitemap.xml'),/kids\/worksheets/);assert.match(get('_redirects'),/\/kids\/worksheets\/ \/worksheets\/ 301/);for(const c of characters){const url=new URL('/dictionary/'+c.glyph+'/', 'https://hanzifun.online').href;assert.equal(get('sitemap.xml').includes('<loc>'+url+'</loc>'),resolveRoutePolicy('/dictionary/'+c.glyph+'/').indexing==='index');}
   assert.equal(JSON.parse(get('content-manifest.json')).pages.length,134);
  }finally{fs.rmSync(output,{recursive:true,force:true});}
 });

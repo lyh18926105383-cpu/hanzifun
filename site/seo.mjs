@@ -3,7 +3,13 @@ import {characterReviewState} from './publication-review.mjs';
 import {editorFor, escapeHtml as e} from './dictionary-data.mjs';
 import {findCharacter,findReading,scenarioData,assertScenarioAcceptance} from './hsk-data.mjs';
 export const canonicalUrl=(routePath,origin)=>new URL(routePath.split(/[?#]/)[0],origin).href;
-export const privateRoute=p=>/^\/(?:account|search|sign-in|pricing)(?:\/|$)/.test(p)||/^\/flashcards\//.test(p)||p==='/flashcards/'||p==='/404.html';
+export const privateRoute=p=>{
+ const url=new URL(p,'https://hanzifun.invalid'),pathname=url.pathname;
+ const publicFlashcards=pathname==='/flashcards/'||pathname==='/flashcards/decks/'||/^\/flashcards\/decks\/[^/]+\/$/.test(pathname);
+ return /^\/(?:account|search|sign-in|pricing)(?:\/|$)/.test(pathname)
+  || (pathname.startsWith('/flashcards/')&&(!publicFlashcards||url.searchParams.has('session')))
+  || pathname==='/404.html';
+};
 export function buildEnvironment(value=process.env.HF_SITE_ENV||'local') {
  if(!['production','staging','local'].includes(value))throw Error('Unknown HF_SITE_ENV: '+value);
  return value;

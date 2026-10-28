@@ -239,7 +239,8 @@ async function buildSite() {
         },
         ...renderPages(),
     ];
-    const prototypePaths = prototypePages.map(page => page.path);
+    // Keep the archived 77-path inventory, while moving the printable page to its new address.
+    const prototypePaths = prototypePages.map(page => page.path === '/worksheets/' ? '/kids/worksheets/' : page.path);
     const coreChars = coreCharacters();
     const hf07 = await import('../site/hsk-data.mjs');
     const {learningData} = await import('../site/learning-data.mjs');
@@ -351,7 +352,7 @@ async function buildSite() {
     }
 
     for (const [routePath, details] of Object.entries(routesModule.routeContract.routes || {})) {
-        if (routePath.includes('{') || routePath.includes('?') || pages.has(routePath)) continue;
+        if (routePath.includes('{') || routePath.includes('?') || details.redirectTo || pages.has(routePath)) continue;
         addPage(createContractFallback(routePath, details.phase1));
     }
 
@@ -394,7 +395,8 @@ async function buildSite() {
     fs.writeFileSync(path.join(outputRoot, '_headers'), '/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n'+(environment==='production'?'':'  X-Robots-Tag: noindex, follow\n'));
     // Candidate-only legacy mappings; production host checks remain HF-17/18.
     // /story is the Workers Assets normalized address for story.html; preserve its query.
-    fs.writeFileSync(path.join(outputRoot, '_redirects'), '/index.html /zh/ 301\n/legacy/index.html /zh/ 301\n/legacy/story.html /story 301\n');
+    const movedRoutes = manifest.routes.filter(route=>route.redirectTo).map(route=>route.path+' '+route.redirectTo+' 301\n').join('');
+    fs.writeFileSync(path.join(outputRoot, '_redirects'), '/index.html /zh/ 301\n/legacy/index.html /zh/ 301\n/legacy/story.html /story 301\n'+movedRoutes);
     fs.writeFileSync(path.join(outputRoot, 'sitemap.xml'), makeSitemap(manifest, release));
 
     const stylesheet = fs.readFileSync(path.join(outputRoot, 'site-assets/site-styles.hf03-v1.css'), 'utf8');

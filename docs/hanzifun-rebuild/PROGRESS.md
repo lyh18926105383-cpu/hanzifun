@@ -2,7 +2,7 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 2；AdSense整改批次于2026-10-28实际部署Cloudflare并核验生产域名。Phase 1及上轮收口历史保留。
-- **当前执行任务**：AdSense整改补充及HF-17/18发布完成：导航/四信任页/六页内容和John Ling署名邮箱已上线，GitHub main同步。其余内容深化及AdSense账号/CMP仍按整改方案接续。
+- **当前执行任务**：Owner指定公开Kids/故事/练习纸/Flashcards索引、迁移练习纸到根路径、Chinese Culture下拉导航。当前候选工程与浏览器验证通过，沿用已授权部署/同步流程发布；上轮AdSense生产基线保留。
 - **状态**：releaseId=`adsense-remediation-2026-10-28`，163/163测试、2826生产文件/411英文页（365 index、46 noindex）、SEO及前轮Chrome156验收通过。Cloudflare版本`e7ad777b-73c2-421d-9d7c-fa0758ec6374`于2026-10-28 13:09:39 +08:00承接100%流量，23项线上检查0错误；代码ff748a2已推送GitHub main，发布回执和交接文档随后单独同步。
 
 ---

@@ -101,7 +101,7 @@ Stroke Order 和 Pinyin Chart 是两个独立页面，各自有标题、正文�
 |---|---|---|
 | `/` | 已确认七段首页 | 按上线状态更新工具/账号/收费介绍 |
 | `/kids/`、`/kids/stories/`、`/kids/stories/{slug}/` | 英文介绍与八课中文入口；实际数量来自合并后清单 | 英文化另立故事课任务 |
-| `/kids/worksheets/` | 6 字可打印卡，标明基础版本 | HF-13 正式打印包 |
+| `/worksheets/` | 根目录6字可打印卡，面向所有学习者；旧 `/kids/worksheets/` 301至此 | HF-13 正式打印包 |
 | `/scenarios/`、`/scenarios/travel/`、`/scenarios/business/` | 路径介绍与已完成场景 | 按审核内容扩充 |
 | `/scenarios/travel/restaurant/`、`/scenarios/business/icebreakers/` | 各至少 3 句审核短句；点字、听音、进卡组、保存 | 不宣称完整旅游/商务课程 |
 | `/academic/`、`/academic/hsk-2/`、`/academic/hsk-3/` | 版本说明、首级真实词/字浏览、练习和覆盖数字 | HF-14 扩至全部可核验级别 |
@@ -393,7 +393,7 @@ Blog 三方向沿用：节日文化、旅游商务、家庭学习。Phase 1 三�
 
 内容状态：draft → reviewed → published → archived。以文件内容管理为默认，构建只发布 reviewed/published 中明确批准的条目；全文、slug、标题、description、图片 alt、引用、字卡 ID 和审核版本校验。若使用 Google Trends 选题，要记录检索词、地区、时间范围、查询日及证据；无证据时只写常青选题，不自动建立抓取或外发任务。
 
-打印卡沿用 `/kids/worksheets/`，先做 6 字打印样本，后续至少两组（家庭/课堂各一组），A4/Letter 无截断，提供汉字、拼音、英义/简短提示和归属；描红只有合法字形素材时提供。故事课媒体、旁白和测验不包含在该编辑任务里。
+打印卡按2026-10-28 Owner新决定迁到根路径 `/worksheets/`，旧 `/kids/worksheets/` 永久301并保留查询参数；首页、页脚、Kids及字页链接统一新地址。先做6字打印样本，后续至少两组（家庭/课堂各一组），A4/Letter无截断，提供汉字、拼音、英义/简短提示和归属；描红只有合法字形素材时提供。故事课媒体、旁白和测验不包含在该编辑任务里。
 
 <a id="req-17"></a>
 ## 18. REQ-17｜教师组卡与教材
@@ -418,6 +418,7 @@ HF-16 先冻结价格/币种、免费与付费边界、税费/退款/取消规�
 2. 发布状态驱动索引：正式首页、达到 Tier 2 或 Tier 1 的字页、具有真实范围列表和学习内容的 HSK 页、正式工具/文章可索引；缺插画/长助记不设 noindex。搜索、个人页、登录、动态练习状态、占位工具/样文及未审草稿 noindex；具体错误只隔离受影响页。404 返回 404，私人 API 返回对应 401/403，不用 robots 充当鉴权。
 3. staging 优先访问控制并加 noindex；若需要搜索引擎读取 noindex，不能同时用 robots Disallow 阻止读取。生产从 allowlist 生成索引策略，禁止把原型 `Disallow: /` 或全站 `noindex,nofollow` 带上线。
 4. sitemap 只列 canonical、200、公开且可索引的 URL；真实内容修改才更新 lastmod。查询/排序/多重筛选不生成海量索引页。
+   2026-10-28 Owner明确开放Kids、英文故事目录/介绍、练习纸及公开Flashcards入口/目录/固定卡组的索引。公开卡组输出静态介绍与字页链接；个人收藏、账号、教师预览仍noindex。含session参数的闪卡URL由head脚本在解析页面时设置noindex，canonical继续回不带参数的主地址，不把会话组合加入Sitemap；这不是服务器鉴权或服务器按query返回不同HTML。未完成的文化工具不因新增导航链接自动转为可索引。
 5. `lang=en/zh-CN` 按正文设置；只有等价翻译页才配互相回链的 hreflang。英文营销首页与旧中文闪卡应用不等价，不硬配 hreflang。[Google 多语言依据](SOURCES.md#src-seo)
 6. 可做 WebSite/Organization、BreadcrumbList、真实 Article 等符合当前规范的结构化数据；可见内容与标记一致，不造评分。首页六个 FAQ 保留为真实、可读取的问答正文：问题清晰、先直接回答、必要时链接对应功能，覆盖用户实际的长尾问题，随阶段更新，不堆关键词。Google 已于 2026-05-07 停止 FAQ 富结果，FAQPage 标记不作为发布前置或富结果验收目标；关注正文、正常内链和可抓取性。以便于搜索及 AI 系统理解/引用为内容目标，但不承诺 ChatGPT Search、Perplexity 或 Google AI Overviews 必然收录/引用，不把特殊 schema 或 llms.txt 作为必需项。[Google FAQ 与 AI 搜索说明](SOURCES.md#src-seo)
 7. 旧诊断中的搜索量、排名、GSC 数字是参考时间片，不是本轮验证的现状；不据“0 搜索量”删除用户确认的人群方向。不买外链、不承诺排名，也不自动提交 Search Console。

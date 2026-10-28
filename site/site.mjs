@@ -16,12 +16,12 @@ const searchForm=(id='search-input')=>'<form class="search-form inline-search" a
 export function header(){
   return '<header class="site-header"><div class="nav-shell container"><a class="brand" href="/" aria-label="HanziFun home"><img src="/site-assets/seal.hf03-v1.svg" alt="" width="38" height="38">HanziFun</a>'+
     '<button type="button" class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">Menu <span aria-hidden="true">☰</span></button>'+
-    '<nav id="mobile-menu" class="desktop-nav primary-nav" aria-label="Main navigation">'+dictionaryMenu()+'<details class="nav-group"><summary>Learning Paths</summary><div class="nav-menu"><a href="/kids/">Kids &amp; Families</a><a href="/scenarios/">Travel &amp; Business</a><a href="/academic/">Students &amp; Teachers</a></div></details><a href="/flashcards/">Flashcards</a><a href="/blog/">Learning guides</a><a href="/account/">My Progress</a><a href="/zh/" lang="zh-CN">中文</a></nav></div></header>';
+    '<nav id="mobile-menu" class="desktop-nav primary-nav" aria-label="Main navigation">'+dictionaryMenu()+'<details class="nav-group"><summary>Learning Paths</summary><div class="nav-menu"><a href="/kids/">Kids &amp; Families</a><a href="/scenarios/">Travel &amp; Business</a><a href="/academic/">Students &amp; Teachers</a></div></details><a href="/flashcards/">Flashcards</a><details class="nav-group" data-culture-menu><summary>Chinese Culture</summary><div class="nav-menu"><a href="/tools/">Culture tools</a><a href="/blog/">Culture articles</a></div></details><a href="/account/">My Progress</a><a href="/zh/" lang="zh-CN">中文</a></nav></div></header>';
 }
 export function footer(){
   const columns=[
     ['By audience & scenarios',[['/kids/','Kids & Families'],['/scenarios/travel/','China Travel Survival'],['/scenarios/business/','Trade & Business'],['/academic/','HSK & Academic']]],
-    ['Visual tools & flashcards',[['/account/','My Learning'],['/flashcards/','Visual Flashcards'],['/dictionary/','Visual Dictionary'],['/stroke-order/','Stroke Order'],['/kids/worksheets/','Printable Practice Cards']]],
+    ['Visual tools & flashcards',[['/account/','My Learning'],['/flashcards/','Visual Flashcards'],['/dictionary/','Visual Dictionary'],['/stroke-order/','Stroke Order'],['/worksheets/','Printable Practice Cards']]],
     ['Culture & curiosity',[['/tools/chinese-name-generator/','Chinese Name Explorer'],['/blog/','Learning Guides'],['/tools/chinese-menu-decoder/','Menu Decoder'],['/tools/zodiac-elements-calculator/','Chinese Zodiac']]],
     ['About & support',[['/about/','About HanziFun'],['/blog/','Journal'],['/#faq','FAQ'],['/data-sources/','Sources & licenses'],['/privacy/','Privacy Policy'],['/terms/','Terms'],['/contact/','Contact']]]
   ];
@@ -42,7 +42,7 @@ export function renderPages(){
     '<div class="page-art audience-image family" role="img" aria-label="A parent and child reading together"></div>'+tiles([
       tile('Stories to share','Explore eight existing Chinese picture stories. Read, listen, and discover characters together.','/kids/stories/','Open the story shelf','读','CHINESE EXPERIENCE'),
       tile('A few first characters','Start with a small set: mountains, water, trees, and the moon.','/flashcards/decks/first-six/','Try six characters','山','TRY IT NOW'),
-      tile('Learning beyond the screen','Preview simple, printable character cards for a shared activity.','/kids/worksheets/','See printable samples','木','SAMPLE')
+      tile('Learning beyond the screen','Preview simple, printable character cards for a shared activity.','/worksheets/','See printable samples','木','SAMPLE')
     ]),'Kids & families');
   add('/kids/stories/','The story shelf.','Familiar stories, in Chinese. A parent can explore alongside a young learner.',
     note('These links open the existing Chinese story experience. English adaptations are planned.')+
@@ -50,9 +50,9 @@ export function renderPages(){
   for(const s of stories)add('/kids/stories/'+s.slug+'/',s.title,'An existing story from the HanziFun Chinese library.',
     '<div class="content-prose"><p class="lead" lang="zh-CN">'+s.zh+'</p><p>Explore the original Chinese story with its existing audio, illustrations, and learning activities.</p><div class="actions" style="margin:25px 0">'+action('/story.html?lesson='+s.id,'Open the Chinese story')+'</div>'+note('The story opens in the existing Chinese interface. This redesign does not alter its lesson content or media.')+
     (s.slug==='ants-and-a-bean'?'<h2>Meet six story characters</h2>'+chips(decks[3].chars)+'<p>'+link('/flashcards/decks/ants-and-a-bean/','Practise these characters')+'</p>':'')+'</div>','Story preview');
-  add('/kids/worksheets/','A little Chinese, on paper.','Print these six simple cards, then find a story or a familiar object for each one.',
+  add('/worksheets/','A little Chinese, on paper.','Print six Chinese character cards for independent study, family activities or classroom practice.',
     note('Printable sample: character, pinyin, and meaning. Illustrated colouring sheets and worksheet packs are planned.')+
-    '<div class="actions no-print" style="margin-bottom:28px"><button type="button" class="button" data-print>Print these cards ↗</button></div>'+charGrid(charsFor(decks[0].chars)),'Kids & families / Printables');
+    '<div class="actions no-print" style="margin-bottom:28px"><button type="button" class="button" data-print>Print these cards ↗</button></div>'+charGrid(charsFor(decks[0].chars)),'Printable learning resources');
   add('/scenarios/','Chinese for the moments ahead.','Start with the situation. Let the words follow.',
     '<div class="page-art audience-image travel" role="img" aria-label="A traveler discovering a Chinese city"></div>'+tiles([
       tile('A trip to China','Menus, stations, and useful little exchanges. Start with a restaurant sample.','/scenarios/travel/','Explore travel','行'),
@@ -111,7 +111,7 @@ export function renderPages(){
   add('/flashcards/my-words/','A home for your discoveries.','Characters you save or practise, ready for another little moment of learning.',
     '<nav class="subnav" aria-label="Learning center"><a href="/flashcards/my-words/">My learning</a><a href="/flashcards/my-words/">My words</a><a href="/flashcards/decks/">Practice sets</a></nav>'+note('Saved on this device in this browser. Sign-in and cross-device syncing will be connected later.')+'<div data-my-words></div>','My words');
   add('/flashcards/teacher/','Make room for a little discovery.','A future workspace for focused classroom decks and printable resources.',
-    note('Custom deck generation is planned. Explore a sample set and printable character cards today.')+tiles([tile('A six-character lesson starter','Use a tree, a mountain, and a moon to start a visual conversation.','/flashcards/decks/first-six/','Preview the deck','木'),tile('A simple printed activity','Print a set of six basic character cards.','/kids/worksheets/','Open printable cards','纸')]),'For teachers / Preview');
+    note('Custom deck generation is planned. Explore a sample set and printable character cards today.')+tiles([tile('A six-character lesson starter','Use a tree, a mountain, and a moon to start a visual conversation.','/flashcards/decks/first-six/','Preview the deck','木'),tile('A simple printed activity','Print a set of six basic character cards.','/worksheets/','Open printable cards','纸')]),'For teachers / Preview');
   add('/tools/','Follow your curiosity.','Names, food, symbols, and everyday connections. Meet the characters behind them.',
     tiles([tile('Chinese name explorer','Choose a feeling and explore a curated name example.','/tools/chinese-name-generator/','Explore a name','名','INTERACTIVE DEMO'),tile('Chinese menu decoder','Try a small menu and meet its key characters.','/tools/chinese-menu-decoder/','Explore the sample','味','SAMPLE'),tile('Zodiac & five elements','A future guide to symbols, calendar traditions, and their characters.','/tools/zodiac-elements-calculator/','See the direction','龙','PLANNED'),tile('Tattoo character guide','A future way to explore meaning, pronunciation, and context.','/tools/tattoo-character-checker/','See the direction','字','PLANNED')]),'Fun & culture');
   add('/tools/chinese-name-generator/','Find a name. Meet its characters.','Start with a feeling you connect with, then explore a curated Chinese name example.',

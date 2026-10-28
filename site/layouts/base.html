@@ -4,6 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   {{robots}}
+  <script>
+    if (location.pathname.startsWith('/flashcards/') && new URLSearchParams(location.search).has('session')) {
+      document.querySelector('meta[name="robots"]').setAttribute('content', 'noindex,follow');
+    }
+  </script>
   {{seo}}
   <link rel="stylesheet" href="/site-assets/hf06/client/flashcards.css">
   <meta name="description" content="{{description}}">

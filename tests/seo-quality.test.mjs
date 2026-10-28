@@ -43,7 +43,8 @@ test('core templates share explicit keyword and answer contracts, including supp
 test('effective indexing fails closed in staging/local and refuses private published routes',()=>{
  const published={path:'/academic/',...resolveRoutePolicy('/academic/')};assert.equal(effectivePolicy(published,'production').robots,'index,follow');
  for(const env of ['staging','local'])assert.equal(effectivePolicy(published,env).robots,'noindex,follow');
- for(const p of ['/account/','/search/','/sign-in/','/flashcards/?session=secret','/404.html'])assert.throws(()=>effectivePolicy({...published,path:p},'production'),/Unsafe indexable/);
+ for(const p of ['/account/','/search/','/sign-in/','/flashcards/?session=secret','/flashcards/my-words/','/flashcards/teacher/','/flashcards/unknown/','/404.html'])assert.throws(()=>effectivePolicy({...published,path:p},'production'),/Unsafe indexable/);
+ for(const p of ['/kids/','/kids/stories/','/worksheets/','/flashcards/','/flashcards/decks/','/flashcards/decks/first-six/'])assert.equal(effectivePolicy({path:p,...resolveRoutePolicy(p)},'production').indexing,'index');
  assert.throws(()=>buildEnvironment('prodution'),/Unknown/);
  assert.equal(buildEnvironment('local'),'local');
  const old=scenarioData.review.humanAcceptance;try{scenarioData.review.humanAcceptance='pending';assert.throws(()=>assertEditorialReady({path:'/scenarios/travel/restaurant/',indexing:'index'}),/human language acceptance pending/);}finally{scenarioData.review.humanAcceptance=old;}
@@ -80,7 +81,7 @@ test('production and staging builds enforce the exact sitemap set, all JSON-LD b
  const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'hf08-test-'));
  try{for(const environment of ['production','staging']){
   const output=path.join(tmp,environment),build=spawnSync(process.execPath,['scripts/build-site.js'],{cwd:new URL('../',import.meta.url),env:{...process.env,HF_BUILD_OUTPUT_DIR:output,HF_SITE_ENV:environment},encoding:'utf8'});assert.equal(build.status,0,build.stderr);
-  const report=validateBuild(output);assert.deepEqual(report.errors,[]);assert.equal(report.corePages,358);const manifest=JSON.parse(fs.readFileSync(path.join(output,'route-manifest.json')));assert.equal(manifest.routes.filter(r=>r.output&&r.path!=='/zh/'&&r.indexing==='index').length,environment==='production'?365:0);assert.equal(manifest.routes.filter(r=>r.output&&r.path!=='/zh/'&&r.indexing==='noindex').length,environment==='production'?46:411);assert.equal(report.sitemap.length,environment==='production'?JSON.parse(fs.readFileSync(path.join(output,'route-manifest.json'))).routes.filter(r=>r.output&&r.indexing==='index').length:0);
+  const report=validateBuild(output);assert.deepEqual(report.errors,[]);assert.equal(report.corePages,358);const manifest=JSON.parse(fs.readFileSync(path.join(output,'route-manifest.json')));assert.equal(manifest.routes.filter(r=>r.output&&r.path!=='/zh/'&&r.indexing==='index').length,environment==='production'?393:0);assert.equal(manifest.routes.filter(r=>r.output&&r.path!=='/zh/'&&r.indexing==='noindex').length,environment==='production'?18:411);assert.equal(report.sitemap.length,environment==='production'?JSON.parse(fs.readFileSync(path.join(output,'route-manifest.json'))).routes.filter(r=>r.output&&r.indexing==='index').length:0);
   // A wrongly inserted URL or a corrupt JSON-LD block must break the same deployment gate.
   fs.appendFileSync(path.join(output,'sitemap.xml'),'<loc>https://hanzifun.online/search/?q=water</loc>');assert.ok(validateBuild(output).errors.some(e=>e.includes('Sitemap')));
  }}finally{fs.rmSync(tmp,{recursive:true,force:true});}

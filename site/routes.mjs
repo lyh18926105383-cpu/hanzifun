@@ -74,6 +74,10 @@ export function buildRouteManifest({ prototypePaths, characters = [], additional
     const record = add(routePath, routePath.includes('{') ? 'contract-pattern' : 'route-contract');
     record.phase1 = details.phase1;
     if (details.note) record.note = details.note;
+    if (details.redirectTo) {
+      record.redirectTo = details.redirectTo;
+      record.output = null;
+    }
     record.pattern = routePath.includes('{');
   }
 
