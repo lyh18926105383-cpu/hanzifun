@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-31T11:53:46.966Z",
+  "runtime": "Wrangler 4.153.0",
+  "mode": "local Workers Assets only; no remote deploy",
+  "responses": [
+    {
+      "route": "/worksheets/",
+      "status": 200,
+      "indexing": "index,follow"
+    },
+    {
+      "route": "/worksheets/family/",
+      "status": 200,
+      "indexing": "index,follow"
+    },
+    {
+      "route": "/worksheets/classroom/",
+      "status": 200,
+      "indexing": "index,follow"
+    },
+    {
+      "route": "/dictionary/top-100/",
+      "status": 200,
+      "indexing": "index,follow"
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "status": 200,
+      "indexing": "index,follow"
+    },
+    {
+      "route": "/blog/chinese-for-your-first-business-visit/",
+      "status": 200,
+      "indexing": "index,follow"
+    },
+    {
+      "route": "/blog/first-characters-for-bilingual-kids/",
+      "status": 200,
+      "indexing": "index,follow"
+    },
+    {
+      "route": "/kids/worksheets/?print=1",
+      "status": 301,
+      "location": "/worksheets/?print=1"
+    },
+    {
+      "route": "/missing-hf13/",
+      "status": 404
+    },
+    {
+      "route": "/audio/tts-v1/019-775b.mp3",
+      "status": 200,
+      "bytes": 10080,
+      "rangeRequested": true
+    }
+  ],
+  "errors": []
+}

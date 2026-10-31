@@ -1,9 +1,9 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
 ## 当前所处阶段
-- **大阶段**：Phase 2；公开学习索引、根练习纸与文化导航批次已于2026-10-28实际部署并核验生产域名。此前发布历史保留。
-- **当前执行任务**：Owner三项调整完成并上线：Kids/英文故事/练习纸/公开Flashcards可索引，/worksheets/为根分支，Chinese Culture下拉进/tools/与/blog/。GitHub main同步，剩余内容深度及AdSense账号事项继续保留。
-- **状态**：releaseId=`public-learning-navigation-2026-10-28`；163/163测试、2826文件/411英文页（393 index/18 noindex）及SEO通过。Cloudflare版本`f1e7d8af-4651-48ed-ae76-b633607daa53`于2026-10-28 18:03:30 +08:00承接100%流量；28页线上索引、迁移与菜单、8类axe/40档布局复验通过。代码0495ddf已推送GitHub main，发布文档随后单独同步。
+- **大阶段**：Phase 2。2026-10-28生产基线保留；2026-10-31本地新增候选准备完成，未部署。
+- **当前执行任务**：HF-13三方向文章与家庭/课堂打印本地Completed/PASS，Owner已回复“没问题”批准三篇正文；HF-14仅100字入门索引子项完成，整包Partial；HF-17本候选预检PASS，HF-18待本次范围/窗口授权及生产现状核验。
+- **状态**：主目录main已无冲突快进至226e88c；全量174/174测试PASS，生产构建2828文件/413英文页，399 index/14 noindex，Sitemap399、SEO零错误。候选`phase-2-editorial-starter-2026-10-31`；本地Chrome/Workers/打印和回滚演练证据已保存。保留音频静态MP3+设备中文TTS与64词Deferred。未commit/push/部署，原HF-10-auth/11-sync、HF-12文化工具、HF-14全量、HF-15/16仍未完成。最新总盘点见[剩余任务](REMAINING-TASKS-2026-10-31.md)。
 
 ---
 
@@ -341,3 +341,17 @@
 - **实际发布**：发布前GitHub main与本地abd0a96一致。Cloudflare实际上一版本是11ad9c9d-d901-4470-999b-561f2848bb04，作为本批回滚目标（不照抄上轮日志的版本）。源码提交0495ddf971ccd54b20a4c7032985078f3f72a0a4，Wrangler deploy --name hanzifun --strict --keep-vars成功：413资产更新、2411复用。版本f1e7d8af-4651-48ed-ae76-b633607daa53，deploymentId=769b9ea8-ba6b-4916-b975-2a00876909d3，100%流量，2026-10-28 **18:03:30 +08:00**。18:03:52开始正式域名验证，全部通过；配置可索引不等于Google已收录。
 - **GitHub/收尾**：非强推git push origin HEAD:main成功，abd0a96→0495ddf；本条记录和实际发布回执再单独提交同步，以最终远端HEAD为准。未改其他worktree的本地main或个人文件；本地4173静态预览仍可看新内容，4174的Cloudflare预览支持真实301。
 - **遗留/下一切入点**：三项请求已完成上线。六字打印样本不冒充HF13正式两组打印包；336字页及场景深化、AdSense账号/真实pub-ID/适用CMP仍是原待办，未启广告。后续先以本批393 Sitemap及新根打印路径为基线；不要因旧文档preview重新关闭这些公开入口，也不要把原旧打印地址作为canonical。后续若需无JS也按query输出noindex，可另做服务器层支持；当前已明确head脚本范围。回滚命令已保存，未主动切回生产演练。
+
+### [记录 25] - HF-13正式文章/打印收口、HF-14入门索引与全任务盘点（By Codex，2026-10-31）
+
+- **目录/基线**：按Owner要求在Desktop主目录main开发，开工tracked干净；本地main落后本地origin/main四提交，已无冲突快进08c36ef→226e88c，承接已上线AdSense与公开学习导航成果。未覆盖个人未跟踪文件，未使用旧worktree施工，未commit/push/部署。
+- **完整盘点**：逐个读取HF-13—18及原HF-10/11/12/15规范，识别同号Phase2与Phase3任务区别。新建`REMAINING-TASKS-2026-10-31.md`记录所有未结包、目标、依赖、Owner环节、旧环境总门控/AdSense/观察与非阻塞增强。纠正HF-17/18从未执行的旧状态；本批尚未部署不抹掉历史已上线事实。
+- **HF-13完成**：文化/商务/家庭三篇实质正文，原创活动/例句与来源范围分开，真实Codex AI作者署名、Owner审核者、固定2026-10-31日期。4状态schema、发布前schema/日期/slug/图片alt/引用/字卡/卡组/哈希审核验证，草稿生产包不泄漏完整正文。原两篇指南保留，首页/Blog/搜索挂载新文章；Article JSON-LD与可见标题/作者/canonical/日期校验。每篇至少3字+真实卡组，收藏/刷新/练习/完成刷新可用。
+- **本轮人工决定**：向Owner提供完整三篇审读包并明确要求审读后告知是否通过，Owner回复原文“没问题”。三篇分别记录Owner/date/evidence/contentSha256，`owner-decisions-2026-10-31.json`及审读包记录原始会话依据，不复用其他文章/字库批准，不把该内容确认扩成部署授权。正文变化会拒绝原签字。
+- **打印资源**：家庭休山水火木月、课堂中秋月饼团圆，两个可打印子页及入口；每卡汉字/拼音/英义/短助记均取既有已签发核心字，完整许可归属。A4/Letter四PDF全部单页，pypdf规范化文本/纸型检查与Poppler逐份渲染目视通过；无截断/缺字/重叠。楷体提取可能产生康熙部首码位，文本检查做NFKC；不据此改源汉字身份。
+- **HF-14独立子项**：从已批准126核心字中选100个、5主题组与选择依据，明确非词频榜/非HSK全量，所有字页与稳定练习身份可达；不变更旧ID/会话/调度，64词与HSK3.0二级不动，整个HF-14仍Partial。
+- **最终门控**：`HF_SITE_ENV=production npm run build:site` PASS（2828文件/413英文页、399 index/14 noindex）；`node scripts/validate-seo-quality.mjs` PASS（Sitemap399、414 JSON-LD、errors=[]）；`npm test`174/174 PASS，fail/skip/cancel0（原163+新增11）。生产重复构建2828文件逐字节一致。`git diff --check`最终PASS，526个冻结源码文件无漂移。
+- **本地浏览器/HTTP**：Chrome156，3篇各独立访客上下文完成字典/收藏与刷新/整组练习完成并等待原子落盘后刷新保留；8行为组PASS、7类axe零违规、35档布局、页面错误0。早期测试曾在乐观UI完成后立即刷新、或跨旅程共用日额度；测试已校正并最终重跑PASS，未改Repository或调度器。Wrangler4.153本地Workers10项：7页200/index/canonical、旧打印301保留query、真实404、旧MP3请求200完整10080字节。仅本次增量，未声称历史完整MVP/所有浏览器/真机/读屏/真实p75全部重跑。
+- **HF-17候选/回滚**：候选`phase-2-editorial-starter-2026-10-31`，源码与构建hash冻结；从git226e88c重建旧393包，新399包隔离回滚再恢复2.793秒，hash全匹配，不操作Owner存储/不切生产。大包、源归档与逐文件指纹放`.cache/releases/<releaseId>/`，Git只存轻量manifest/ACCEPTANCE/ROLLBACK与证据。生产当前版本未在本轮重新核验，旧f1e7d8af只作为2026-10-28留存证据。
+- **本轮文件**：新增`content/editorial/{articles.json,article.schema.json,worksheets.json,owner-decisions-2026-10-31.json,README.md}`、`data/editorial/starter-100.json`、`site/editorial-workflow.mjs`、`site/pages/starter-100.mjs`、`scripts/{review-editorial,verify-editorial-browser}.mjs`、`tests/{editorial-workflow,starter-100}.test.mjs`；修改`site/{editorial-content.mjs,seo.mjs,release.json,public/site-styles.css}`、`scripts/{build-site.js,validate-seo-quality.mjs}`、`tests/seo-quality.test.mjs`。文档新增HF-13-VERIFICATION、REMAINING-TASKS、acceptance/hf13-editorial-review、evidence/hf13、releases/<releaseId>；更新TASKS/PROGRESS、FILE_ARCHITECTURE与HF-13/14/17/18规范状态。
+- **遗留/下一个Agent精确切入点**：先读本记录、TASKS和`tasks/HF-18-migration-release.md`，再看本候选manifest/ACCEPTANCE/ROLLBACK和HF-13-VERIFICATION。若发布，核对主目录源码/构建指纹、实际生产版本及本次范围/窗口授权，部署相同包并线上验证六新增index路由、Sitemap399/旧入口/实际学习；内容审读已批准，无需重复询问或补造签字。后续可选原HF-12单工具或明确HF-14等级批次；原HF-10/11/15/16仍受Phase3阶段依据限制。音频与64词决策不变；本轮没有新账号/云同步/Billing/故事/付费API/自动监控。

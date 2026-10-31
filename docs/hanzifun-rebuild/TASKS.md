@@ -1,12 +1,25 @@
 # HanziFun 施工任务总表
 
-2026-10-27 · 对应 SPEC 1.2。**HF-01～09 已完成当前 Phase 1 候选范围验收并正式签发 PASS**；Phase 1 的141个成熟页面索引状态保留为历史基线，当前 Phase 2 HF-10 进度见下文。物理缺音仍保留明确边界。
+2026-10-31 · 对应 SPEC 1.2。**HF-01～09 已完成当前 Phase 1 候选范围验收并正式签发 PASS**；Phase 1 的141个成熟页面索引状态保留为历史基线，当前 Phase 2 HF-10 进度见下文。物理缺音仍保留明确边界。
 
 **开发主线：Phase 1 首发上线 → Phase 2 引流工具与内容 → Phase 3 账号、云同步与订阅。** 任务编号保留，以下按执行阶段排列；HF-12/13/14 已解除对 HF-11 的依赖。
 
 先读 [SPEC](SPEC.md)、[文件架构说明](FILE_ARCHITECTURE.md)、[现状基线](BASELINE.md)、[来源与使用范围](SOURCES.md)。当前公开学习索引与文化导航批次已完成生产发布；后续按下方最新发布记录进行观察或承接新的明确任务。
 
 Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-chart/`；书法暂不规划。字页分 Tier 1 黄金完整版与 Tier 2 标准可用版，达到 Tier 2 即可发布/开放索引；30–50 个 Tier 1 是增强目标，不拦住标准字页上线。HSK 执行 [限定范围放行指令](SPEC.md#hsk-release-policy)，不默认等待第三方书面授权。
+
+## 当前开发收口：HF-13正式内容/打印与HF-14入门索引（2026-10-31）
+
+- [x] 指定主目录main，从08c36ef无冲突快进至本地origin/main的226e88c，保留全部个人未跟踪文件；未在旧worktree施工。
+- [x] **HF-13本地Completed / PASS**：文化/商务/家庭3篇实质文章、文件式4状态schema与哈希审核、固定日期/作者/审核者/引用/字卡/卡组、Blog/首页/搜索发现、家庭/课堂两组A4与Letter打印卡。Owner对完整三篇审读包回复“没问题”，按当前独立hash批准，不挪用旧字库签字。
+- [x] **HF-14子项Completed / PASS**：`/dictionary/top-100/`正好100个已批准核心字、5主题组，明确非词频排名；全量HSK包仍为Partial。剩余64词、HSK3.0二级及更高级范围不变。
+- [x] 候选`phase-2-editorial-starter-2026-10-31`：生产构建2828文件/413英文页（399 index /14 noindex）；SEO errors=[]，Sitemap399；全量**174/174 PASS**，fail/skip/cancel=0。
+- [x] Chrome156：8组真实旅程（收藏/刷新/整组完成/刷新保留）、7类axe零违规、35档布局；本地Workers10项HTTP；4份PDF单页/纸型/逐份渲染检查；重复构建一致，隔离静态回滚/恢复约2.8秒。
+- [x] HF-17本候选预检、manifest/备份/回滚包已准备；详见[验收](HF-13-VERIFICATION.md)、[候选清单](releases/phase-2-editorial-starter-2026-10-31/manifest.json)。HF-17/18此前生产发布已实际执行，不能再整体写为从未执行。
+- [ ] HF-18本候选生产现状核验、范围/窗口授权、部署与线上冒烟；本轮未commit/push/部署。文章批准不等于本次部署批准。
+- [ ] 原HF-12四文化工具、原HF-10登录/原HF-11同步、HF-14剩余等级、HF-15/16、AdSense账号及观察等未结项，完整依赖/Owner环节见[剩余任务盘点](REMAINING-TASKS-2026-10-31.md)。
+
+音频方案继续为1268静态MP3 + 设备中文TTS回退，无腾讯云补录；64词保持Deferred，不因本轮内容发布重新阻塞已签收范围。
 
 ## 当前生产发布：公开学习索引、根练习纸与文化导航（2026-10-28）
 
@@ -43,7 +56,7 @@ Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-ch
 
 ## 当前正式签发（2026-10-26）
 
-HF-02、HF-04、HF-07、HF-08、HF-09 均 Completed / PASS。详见 [正式签发记录](acceptance/phase-1-signoff.md) 与 [最终验收报告](acceptance/phase-1.md)。以下各包旧执行状态保留为历史，已由本次签发取代：126核心字批准，213补充字教学编辑仍为空并保留预览，物理缺音保持不可播；后续HF-14补齐，不阻断成熟页面文本发布。HF-17/18真实生产部署尚未执行。
+HF-02、HF-04、HF-07、HF-08、HF-09 均 Completed / PASS。详见 [正式签发记录](acceptance/phase-1-signoff.md) 与 [最终验收报告](acceptance/phase-1.md)。以下各包旧执行状态保留为历史，已由本次签发取代：126核心字批准，213补充字教学编辑仍为空并保留预览，物理缺音保持不可播；后续HF-14补齐，不阻断成熟页面文本发布。当时HF-17/18真实生产部署尚未执行；现已由上方2026-10-28实际发布记录取代。
 
 ## Phase 2 当前执行项（2026-10-27）
 
@@ -100,15 +113,15 @@ P0 为核心、数据保护与发布关口；P1 为当前阶段主线；P2 为�
 | [HF-07 HSK 首级真实字库与两场景连接](tasks/HF-07-hsk-scenarios.md) ✅Completed / PASS（2026-10-26文本签发；补充字草稿/缺音保留） | P1 | Phase 1 | HF-02、HF-04、HF-06 | 两版 HSK 1 级、餐厅/商务场景 |
 | [HF-08 公开页 SEO、性能与无障碍收口](tasks/HF-08-seo-quality.md) ✅Completed / PASS（2026-10-26负责人人工签收） | P0 | Phase 1 | HF-03、HF-04、HF-06 | 按质量放行索引、可见 FAQ、性能/无障碍 |
 | [HF-09 MVP 闭环验收与中文迁移演练](tasks/HF-09-mvp-gate.md) ✅Completed / PASS（2026-10-26正式签发） | P0 | Phase 1 发布前 | HF-01、HF-06、HF-07、HF-08 | 首发候选验收，交 HF-17/18 发布 |
-| [HF-12 四项文化工具的受控首版](tasks/HF-12-culture-tools.md) | P1 | Phase 2 | HF-09 | 四工具，浏览器运算/静态数据、本机收藏 |
-| [HF-13 正式 Blog、场景编辑与打印资源](tasks/HF-13-editorial.md) | P1 | Phase 2 | HF-09 | 首批 3–5 篇正式文章、两组打印卡 |
-| [HF-14 HSK 全量覆盖与学术索引扩展](tasks/HF-14-hsk-expansion.md) | P1 | Phase 2 起持续扩充 | HF-07、HF-09 | 先扩至两版 2 级，后逐级发布；Tier 2 为默认 |
+| [HF-12 四项文化工具的受控首版](tasks/HF-12-culture-tools.md) ⏳原包未执行（区别于已签收场景包） | P1 | Phase 2 | HF-09 | 四工具，浏览器运算/静态数据、本机收藏 |
+| [HF-13 正式 Blog、场景编辑与打印资源](tasks/HF-13-editorial.md) ✅本地Completed / PASS（2026-10-31；未部署） | P1 | Phase 2 | HF-09 | 首批 3–5 篇正式文章、两组打印卡 |
+| [HF-14 HSK 全量覆盖与学术索引扩展](tasks/HF-14-hsk-expansion.md) ◐Partial（213字/86词/100字索引完成；整包未结） | P1 | Phase 2 起持续扩充 | HF-07、HF-09 | 先扩至两版 2 级，后逐级发布；Tier 2 为默认 |
 | [HF-10 真实登录、账号权限与服务配置](tasks/HF-10-auth.md) | P1 | Phase 3 | HF-09；另须阶段启动依据 | 真实身份、权限、服务配置 |
 | [HF-11 游客转账号、跨设备同步与 Phase 3 账号验收](tasks/HF-11-sync.md) | P1 | Phase 3 | HF-06、HF-10 | 游客合并、双设备同步与账号验收 |
 | [HF-16 定价、测试支付与服务端权益](tasks/HF-16-billing.md) | P1 | Phase 3 | HF-11 | 订阅、账单、退款/取消与权益 |
 | [HF-15 教师私人组卡与教材映射边界](tasks/HF-15-teacher-decks.md) | P2 | Phase 3 可选 | HF-07、HF-11 | 私人卡组、历史版本与打印 |
-| [HF-17 按发布范围综合验收与回滚准备](tasks/HF-17-release-gate.md) | P0 | 每次发布 | HF-09 + 所选批次验收 | 按 releaseId 的验收/回滚证据 |
-| [HF-18 最终迁移、授权发布与运行交接](tasks/HF-18-migration-release.md) | P0 | 每次发布 | HF-17 | 实际上线、生产冒烟与交接 |
+| [HF-17 按发布范围综合验收与回滚准备](tasks/HF-17-release-gate.md) ✅历史已执行；本候选预检PASS | P0 | 每次发布 | HF-09 + 所选批次验收 | 按 releaseId 的验收/回滚证据 |
+| [HF-18 最终迁移、授权发布与运行交接](tasks/HF-18-migration-release.md) ◐历史已上线；本候选待执行 | P0 | 每次发布 | HF-17 | 实际上线、生产冒烟与交接 |
 
 ## 依赖与执行顺序
 

@@ -1,5 +1,5 @@
 {
-  "releaseId": "public-learning-navigation-2026-10-28",
+  "releaseId": "phase-2-editorial-starter-2026-10-31",
   "prototypePathCount": 77,
   "defaultStatus": "preview",
   "statusPolicies": {
@@ -36,7 +36,7 @@
     "/dictionary/pinyin/": "published",
     "/dictionary/radicals/": "published",
     "/dictionary/compare/": "published",
-    "/dictionary/top-100/": "planned",
+    "/dictionary/top-100/": "published",
     "/stroke-order/": "published",
     "/pinyin-chart/": "published",
     "/flashcards/": "published",
@@ -408,7 +408,12 @@
     "/scenarios/travel/supermarket/": "published",
     "/blog/chinese-character-study-routine/": "published",
     "/blog/chinese-character-confusions/": "published",
-    "/worksheets/": "published"
+    "/worksheets/": "published",
+    "/worksheets/family/": "published",
+    "/worksheets/classroom/": "published",
+    "/blog/mid-autumn-festival-chinese-characters/": "published",
+    "/blog/chinese-for-your-first-business-visit/": "published",
+    "/blog/first-characters-for-bilingual-kids/": "published"
   },
   "patterns": {
     "/kids/stories/{slug}/": "published",

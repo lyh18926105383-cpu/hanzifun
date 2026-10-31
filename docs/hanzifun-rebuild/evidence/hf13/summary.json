@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-31",
+  "branch": "main",
+  "baseRevision": "226e88c492453701fca1a1caa6ac0a4dd231e1d3",
+  "releaseId": "phase-2-editorial-starter-2026-10-31",
+  "build": {
+    "passed": true,
+    "files": 2828,
+    "englishPages": 413,
+    "index": 399,
+    "noindex": 14
+  },
+  "seo": {
+    "errors": [],
+    "sitemapUrls": 399,
+    "jsonLdBlocks": 414,
+    "budget": {
+      "jsGzipBytes": 6489,
+      "cssGzipBytes": 13093,
+      "eagerImageBytes": 355447
+    }
+  },
+  "tests": {
+    "total": 174,
+    "passed": 174,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "added": 11
+  },
+  "browser": {
+    "version": "156.0.8078.79",
+    "checks": 8,
+    "layouts": 35,
+    "axePages": 7,
+    "pageErrors": []
+  },
+  "workersHttp": {
+    "runtime": "Wrangler 4.153.0",
+    "responses": 10,
+    "errors": []
+  },
+  "repeatByteIdentical": true,
+  "ownerApproval": "Owner replied “没问题” to the three-article review package in this chat.",
+  "deployment": "not performed",
+  "gitCommitPush": "not performed",
+  "diffCheck": "passed",
+  "frozenSourceFiles": 526,
+  "sourceUnchangedAfterHandover": true,
+  "pdfQA": {
+    "files": 4,
+    "pagesPerFile": 1,
+    "paperSizes": [
+      "A4",
+      "Letter"
+    ],
+    "latestRendersMatchInspectedPixels": true
+  }
+}

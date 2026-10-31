@@ -1,0 +1,27 @@
+{
+  "baseRevision": "226e88c492453701fca1a1caa6ac0a4dd231e1d3",
+  "artifactFingerprintAlgorithm": "sha256(JSON compact UTF-8 [{file,sha256}] ordered by relative path)",
+  "artifactSha256": "1fda153facc1008754d8e1ec196a904cad3293035d1676318f3343ef297a6cb9",
+  "sourceSha256": "e7b6a9b8af8305abe5bf3f3c34d61528d8c2affd682acc97e599e779596cb328",
+  "files": 2828,
+  "repeatBuildByteIdentical": true,
+  "baselineReleaseId": "public-learning-navigation-2026-10-28",
+  "baselineFiles": 2826,
+  "baselineIndexable": 393,
+  "candidateIndexable": 399,
+  "newIndexableRoutes": [
+    "/blog/chinese-for-your-first-business-visit/",
+    "/blog/first-characters-for-bilingual-kids/",
+    "/blog/mid-autumn-festival-chinese-characters/",
+    "/dictionary/top-100/",
+    "/worksheets/classroom/",
+    "/worksheets/family/"
+  ],
+  "localRollbackRestore": {
+    "passed": true,
+    "durationSeconds": 2.793,
+    "withinTenMinutes": true,
+    "scope": "isolated static artifact directories; no live deployment or user storage mutation"
+  },
+  "cachePath": "/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun/.cache/releases/phase-2-editorial-starter-2026-10-31"
+}

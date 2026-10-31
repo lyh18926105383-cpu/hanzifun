@@ -1,3 +1,4 @@
+import {editorialContent,articlePath,publicArticle} from './editorial-workflow.mjs';
 import {characterReviewState} from './publication-review.mjs';
 // One content contract for core landing templates and one indexing policy for every output.
 import {editorFor, escapeHtml as e} from './dictionary-data.mjs';
@@ -22,6 +23,8 @@ export function effectivePolicy(route,environment) {
  return route;
 }
 export function assertEditorialReady(route) {
+ const article=editorialContent.articles.find(a=>articlePath(a)===route.path);
+ if(route.indexing==='index'&&article&&(!publicArticle(article)||!article.published))throw Error('Unapproved article indexing: '+route.path);
  const scenario=scenarioData.scenarios.find(s=>s.path===route.path);
  if(route.indexing==='index'&&scenario)assertScenarioAcceptance(scenario);
 }
@@ -65,6 +68,7 @@ export function safeJsonLd(value) {
 }
 export function structuredData(page,canonical,origin) {
  const graph=[{'@type':'WebPage','@id':canonical+'#page',url:canonical,name:page.title,description:page.description||page.title,inLanguage:page.lang||'en'}];
+ if(page.editorialArticle){const a=page.editorialArticle;graph.push({'@type':'Article',headline:a.title,author:{'@type':a.author.kind==='human'?'Person':'Organization',name:a.author.name},dateModified:a.modified,...(a.published?{datePublished:a.published}:{}),url:canonical,mainEntityOfPage:canonical,citation:a.references.map(r=>r.url)});}
  if(page.path==='/')graph.push({'@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:'HanziFun',inLanguage:'en'});
  else if(page.path!=='/404.html')graph.push({'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:origin+'/'},{'@type':'ListItem',position:2,name:page.title,item:canonical}]});
  return '<script type="application/ld+json">'+safeJsonLd({'@context':'https://schema.org','@graph':graph})+'</script>';

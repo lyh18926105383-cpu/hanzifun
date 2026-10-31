@@ -359,3 +359,11 @@ Phase 1 先基线、再学习闭环和首发验收，最后正式上线；阶段
 - **本次更新：三阶段顺序、依赖、两级字页质量、HSK 限定范围放行与 FAQ 正文要求。** Information、独立笔顺/拼音表和暂缓书法继续保留。目标产品目录未据此新建或迁移，产品代码没有修改。
 
 本次检查范围是目录职责、页面路由、阶段和工作包与现有规划的对应关系，以及文档链接。没有运行产品构建，也没有把此说明当成功能或故事课验收证据。
+
+## 2026-10-31 · HF-13 / HF-14 索引增量
+
+- `content/editorial/`：三篇正式文章、4状态schema、Owner独立hash决定、两组打印配置与维护说明；旧`site/data.mjs`样文只保留77路由基线，生产由新内容覆盖。
+- `site/editorial-workflow.mjs`：schema/审核/日期/字卡/卡组验证、文章/打印静态页；`site/editorial-content.mjs`保留原两篇指南并挂载新增卡片。
+- `data/editorial/starter-100.json`、`site/pages/starter-100.mjs`：100个已批准字的非词频主题集合。
+- `scripts/review-editorial.mjs`、`scripts/verify-editorial-browser.mjs`、`tests/{editorial-workflow,starter-100}.test.mjs`：真实人审输入、独立访客旅程、打印与状态门控。
+- 实现/验证、任务盘点、候选和证据统一落在`docs/hanzifun-rebuild/{HF-13-VERIFICATION.md,REMAINING-TASKS-2026-10-31.md,releases/phase-2-editorial-starter-2026-10-31/,evidence/hf13/}`。大备份/逐文件hash仅放忽略的`.cache/releases/phase-2-editorial-starter-2026-10-31/`。

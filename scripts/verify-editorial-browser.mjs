@@ -1,0 +1,43 @@
+import http from 'node:http';
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {chromium} from '/Users/graceshi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs';
+import {editorialContent,articlePath,publicArticle} from '../site/editorial-workflow.mjs';
+const localRoot=process.env.HF_EDITORIAL_PREVIEW||'/private/tmp/hf13-preview',productionRoot=process.env.HF_BUILD_OUTPUT_DIR||path.resolve('dist'),output=process.env.HF_EDITORIAL_EVIDENCE||'/private/tmp/hf13-browser';
+const report={date:new Date().toISOString(),surface:'Local static servers; not production or Workers verification',checks:[],layouts:[],axe:[],pageErrors:[],pdfs:[]};
+function serve(root){const server=http.createServer((req,res)=>{try{const url=new URL(req.url,'http://localhost');const filename=path.resolve(root,'.'+decodeURIComponent(url.pathname)+(url.pathname.endsWith('/')?'index.html':''));if(!filename.startsWith(path.resolve(root)+path.sep)){res.writeHead(403);res.end();return;}const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.mp3':'audio/mpeg','.jpg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml'};res.setHeader('Content-Type',mime[path.extname(filename)]||'application/octet-stream');res.end(fs.readFileSync(filename));}catch{res.writeHead(404);res.end('Not found');}});return new Promise((resolve,reject)=>{server.on('error',reject);server.listen(0,'127.0.0.1',()=>resolve({server,origin:'http://127.0.0.1:'+server.address().port}));});}
+let browser,local,production;
+try{
+ fs.mkdirSync(output,{recursive:true});local=await serve(localRoot);production=await serve(productionRoot);
+ browser=await chromium.launch({channel:'chrome',headless:true});report.browser=browser.version();const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'}),page=await context.newPage();page.on('pageerror',error=>report.pageErrors.push(error.message));
+ const routes=[...editorialContent.articles.map(articlePath),'/worksheets/','/worksheets/family/','/worksheets/classroom/','/dictionary/top-100/'];
+ for(const route of routes){
+  await page.goto(local.origin+route);await page.addScriptTag({path:path.resolve('node_modules/axe-core/axe.min.js')});
+  const result=await page.evaluate(()=>axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa']}}));report.axe.push({route,violations:result.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))});assert.equal(result.violations.length,0,JSON.stringify(report.axe.at(-1)));
+  for(const width of [360,390,768,1100,1440]){await page.setViewportSize({width,height:1000});const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);report.layouts.push({route,width,overflow});assert.equal(overflow,false,route+' '+width);}
+ }
+ for(const a of editorialContent.articles){
+  const journeyContext=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'}),page=await journeyContext.newPage();page.on('pageerror',error=>report.pageErrors.push(error.message));
+  await page.goto(local.origin+articlePath(a));assert.equal(await page.locator('[data-hf-save]').count(),a.characterIds.length);if(!publicArticle(a))assert.match(await page.locator('.editorial-preview').innerText(),/Language review/);else assert.equal(await page.locator('[data-editorial-author]').innerText(),a.author.name);
+  const button=page.locator('[data-hf-save]').first();await button.click();await page.locator('[data-hf-save-status]').filter({hasText:'Saved on this device.'}).waitFor();await page.reload();await page.goto(local.origin+'/flashcards/my-words/');await page.getByRole('heading',{name:'Saved characters',exact:true}).waitFor();const glyph=String.fromCodePoint(parseInt(a.characterIds[0].slice(5),16));await page.waitForFunction(g=>document.querySelector('[data-guest-words]').textContent.includes(g),glyph);
+  await page.goto(local.origin+articlePath(a));await page.locator('a[href="/dictionary/'+glyph+'/"]').first().click();assert.equal(decodeURIComponent(new URL(page.url()).pathname),'/dictionary/'+glyph+'/');
+  await page.goto(local.origin+articlePath(a));await page.locator('a[href="/flashcards/decks/'+a.deck+'/"]').click();await page.locator('[data-guest-practice] .hf-flashcard').waitFor();
+  for(let attempt=0;attempt<12&&await page.locator('[data-action=familiar]').isVisible();attempt++){const before=await page.locator('.hf-flashcards h2').innerText();await page.locator('[data-action=familiar]').click();await page.waitForFunction(previous=>document.querySelector('.hf-flashcards h2').textContent!==previous,before);}
+  assert.equal(await page.locator('.hf-flashcards h2').innerText(),'Practice complete');await page.waitForFunction(()=>{const id=new URLSearchParams(location.search).get('session');return JSON.parse(localStorage.getItem('hanzifun.guest.snapshot.v1'))?.sessions?.[id]?.status==='complete';});await page.reload();await page.getByRole('heading',{name:'Practice complete',exact:true}).waitFor();
+  report.checks.push(a.slug+': approved article, dictionary, save/refresh, complete related practice and refresh completion');
+  await page.goto(production.origin+articlePath(a));assert.equal(await page.locator('.editorial-preview').count(),0);assert.equal(await page.locator('[data-hf-save]').count(),a.characterIds.length);assert.equal(await page.locator('meta[name=robots]').getAttribute('content'),'index,follow');assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'),'https://hanzifun.online'+articlePath(a));await journeyContext.close();
+ }
+ await page.goto(production.origin+'/blog/');assert.equal(await page.locator('a[href="/blog/chinese-character-study-routine/"]').count(),1);assert.equal(await page.locator('a[href="'+articlePath(editorialContent.articles[0])+'"]').count(),1);report.checks.push('Production journal retains the two earlier guides and lists the three approved articles');
+ await page.goto(production.origin+'/dictionary/top-100/');assert.equal(await page.locator('section li a[lang="zh-CN"]').count(),100);assert.match(await page.locator('h1').innerText(),/100/);report.checks.push('100 reviewed starter links render with the non-frequency explanation');
+ for(const set of ['family','classroom']){
+  await page.goto(production.origin+'/worksheets/'+set+'/');assert.equal(await page.locator('.worksheet-card').count(),6);await page.evaluate(()=>{window.print=()=>window.__printed=true;});await page.locator('[data-print]').click();assert.equal(await page.evaluate(()=>window.__printed),true);
+  await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:path.join(output,set+'-desktop.png'),fullPage:true});await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(output,set+'-mobile.png'),fullPage:true});
+  await page.emulateMedia({media:'print'});
+  const bounds=await page.locator('.worksheet-card').evaluateAll(nodes=>nodes.map(n=>{const r=n.getBoundingClientRect();return {height:r.height,contentHeight:n.scrollHeight,width:r.width,contentWidth:n.scrollWidth};}));for(const b of bounds){assert.ok(b.contentHeight<=b.height+1);assert.ok(b.contentWidth<=b.width+1);}
+  for(const format of ['A4','Letter']){const filename=set+'-'+format.toLowerCase()+'.pdf';await page.pdf({path:path.join(output,filename),format,printBackground:true,displayHeaderFooter:false,scale:1});report.pdfs.push({set,format,file:filename,cards:6});}
+  await page.emulateMedia({media:'screen'});report.checks.push(set+': six cards, print action, desktop/mobile and A4/Letter exported');
+ }
+ const nojs=await browser.newContext({javaScriptEnabled:false});const p=await nojs.newPage();await p.goto(production.origin+'/worksheets/family/');assert.equal(await p.locator('.worksheet-card').count(),6);await p.goto(local.origin+articlePath(editorialContent.articles[0]));assert.equal(await p.locator('article section').count(),6);await nojs.close();report.checks.push('Static print cards and local editorial prose readable without JavaScript');assert.deepEqual(report.pageErrors,[]);
+}catch(error){report.failure=error.stack;throw error;}finally{fs.mkdirSync(output,{recursive:true});fs.writeFileSync(path.join(output,'verification.json'),JSON.stringify(report,null,2)+'\n');await browser?.close();local?.server.close();production?.server.close();}
+console.log(JSON.stringify({browser:report.browser,checks:report.checks.length,layouts:report.layouts.length,axe:report.axe.length,pageErrors:report.pageErrors,pdfs:report.pdfs,output},null,2));

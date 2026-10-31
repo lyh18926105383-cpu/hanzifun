@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "hf13-v1",
+  "sets": [
+    {
+      "slug": "family",
+      "title": "Family character cards",
+      "audience": "family",
+      "deck": "first-six",
+      "glyphs": [
+        "休",
+        "山",
+        "水",
+        "火",
+        "木",
+        "月"
+      ],
+      "instructions": "Choose two cards, say their readings, then match them to objects or drawings. Cover the hints for a recall attempt."
+    },
+    {
+      "slug": "classroom",
+      "title": "Classroom character cards",
+      "audience": "classroom",
+      "deck": "mid-autumn",
+      "glyphs": [
+        "中",
+        "秋",
+        "月",
+        "饼",
+        "团",
+        "圆"
+      ],
+      "instructions": "Read the six cards, build 月饼 and 团圆, then explain the complete words. Use the set for partner recall."
+    }
+  ]
+}

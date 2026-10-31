@@ -1,0 +1,7 @@
+# Static candidate backup and rollback
+
+Local backup: `/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun/.cache/releases/phase-2-editorial-starter-2026-10-31`. `baseline/` was rebuilt from git226e88c (last recorded393-URL release), `candidate/` is the frozen399-URL package, `artifact-files.json`/`source-files.json` contain exact fingerprints. `drill-active/` contains the restored candidate after a real isolated baseline→candidate filesystem restore exercise (2.793 seconds). No browser storage was read, written or deleted by the artifact drill.
+
+Before deploying, read the actual Worker version and preserve its assets/version as the rollback target. The most recent stored production evidence is f1e7d8af-4651-48ed-ae76-b633607daa53 from2026-10-28; do not assume it remains current. Use the verified existing Wrangler installation and target hanzifun only after HF-18 authorizes this candidate/window. On a production regression, restore that actual captured version, then verify homepage, /worksheets/, old /kids/worksheets/?print=1 redirect, Blog, dictionary, saved learning, audio and Sitemap. No live rollback is performed in this turn.
+
+This release adds no storage schema, API database, account or paid capability. Preserve all local learning keys and newly generated events during both rollback and forward restore. Do not copy the offline source archive to production; deploy only the approved static asset package.

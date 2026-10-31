@@ -1,0 +1,42 @@
+[
+  {
+    "file": "classroom-a4.pdf",
+    "sha256": "080ac6b8f0356a1d4682edf10f2f33a86be56d0ace3d2f59d3760f91078dc70d",
+    "pages": 1,
+    "widthPt": 595.91998,
+    "heightPt": 842.88,
+    "sixGlyphsVerifiedNFKC": true,
+    "attribution": true,
+    "renderUnchangedFromInspected": true
+  },
+  {
+    "file": "classroom-letter.pdf",
+    "sha256": "0e6740dffc6e67c06c9aec0eb2d0b58e1d1d6494d5454da042e77d699ee7fbbc",
+    "pages": 1,
+    "widthPt": 612.0,
+    "heightPt": 792.0,
+    "sixGlyphsVerifiedNFKC": true,
+    "attribution": true,
+    "renderUnchangedFromInspected": true
+  },
+  {
+    "file": "family-a4.pdf",
+    "sha256": "34ddabadd3365c640a92fe86f361b3c619b52b9a6c058ab37b1035501657f026",
+    "pages": 1,
+    "widthPt": 595.91998,
+    "heightPt": 842.88,
+    "sixGlyphsVerifiedNFKC": true,
+    "attribution": true,
+    "renderUnchangedFromInspected": true
+  },
+  {
+    "file": "family-letter.pdf",
+    "sha256": "d9d93797010aab033b904037412b2f29a665b7c553032def9ccd70c758aee7a8",
+    "pages": 1,
+    "widthPt": 612.0,
+    "heightPt": 792.0,
+    "sixGlyphsVerifiedNFKC": true,
+    "attribution": true,
+    "renderUnchangedFromInspected": true
+  }
+]

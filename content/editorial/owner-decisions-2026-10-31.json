@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "mid-autumn-festival-chinese-characters",
+    "acceptance": "approved",
+    "kind": "human",
+    "reviewer": "Owner",
+    "date": "2026-10-31",
+    "contentSha256": "c7f57e56e8c185dafb0fad59c2de80d58980d3ae586862a298e7b4ca0c786cd5",
+    "evidence": "docs/hanzifun-rebuild/acceptance/hf13-editorial-review.md#owner-acceptance-2026-10-31"
+  },
+  {
+    "slug": "chinese-for-your-first-business-visit",
+    "acceptance": "approved",
+    "kind": "human",
+    "reviewer": "Owner",
+    "date": "2026-10-31",
+    "contentSha256": "fb05f93c18b5ddd36eaeafc54861e6c518941eb51ae2929422bbbdad635d8ea0",
+    "evidence": "docs/hanzifun-rebuild/acceptance/hf13-editorial-review.md#owner-acceptance-2026-10-31"
+  },
+  {
+    "slug": "first-characters-for-bilingual-kids",
+    "acceptance": "approved",
+    "kind": "human",
+    "reviewer": "Owner",
+    "date": "2026-10-31",
+    "contentSha256": "6fad3d9185ef6a14c65c81079046441ae26d7aa8d498071da4cbafc1d2a92d94",
+    "evidence": "docs/hanzifun-rebuild/acceptance/hf13-editorial-review.md#owner-acceptance-2026-10-31"
+  }
+]

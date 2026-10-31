@@ -1,6 +1,6 @@
 # HF-17｜按发布范围综合验收与回滚准备
 
-状态：待执行（本轮只生成任务文档）。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
+状态：**按releaseId复用；历史生产发布已执行，本候选预检PASS（2026-10-31）**。本地候选`phase-2-editorial-starter-2026-10-31`已冻结源码/构建hash，构建、SEO、174测试、浏览器/本地Workers及静态回滚/恢复通过；[清单/边界](../releases/phase-2-editorial-starter-2026-10-31/manifest.json)。HF-18实际部署尚未执行，旧签发不代替以后批次。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
 
 | 项目 | 内容 |
 |---|---|

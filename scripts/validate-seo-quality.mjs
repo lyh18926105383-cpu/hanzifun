@@ -25,11 +25,21 @@ export function validateJsonLd(document,expectedCanonical) {
    equal(root?.['@context'],'https://schema.org','JSON-LD @context');
    const graph=root['@graph']||[root];requireValue(Array.isArray(graph)&&graph.length,'JSON-LD graph required');
    for(const item of graph){
-    const type=item?.['@type'];requireValue(['WebPage','WebSite','BreadcrumbList','WebApplication'].includes(type),'Unsupported or missing JSON-LD @type');
+    const type=item?.['@type'];requireValue(['WebPage','WebSite','BreadcrumbList','WebApplication','Article'].includes(type),'Unsupported or missing JSON-LD @type');
     if(type==='BreadcrumbList'){
      requireValue(Array.isArray(item.itemListElement)&&item.itemListElement.length>=2,'BreadcrumbList items required');
      item.itemListElement.forEach((x,i)=>{equal(x['@type'],'ListItem','Breadcrumb item type');equal(x.position,i+1,'Breadcrumb position');requireValue(typeof x.name==='string'&&x.name.trim()&&absolute(x.item),'Breadcrumb name/item required');});
      if(expectedCanonical)equal(item.itemListElement.at(-1).item,expectedCanonical,'Breadcrumb canonical');
+    }else if(type==='Article'){
+     for(const key of ['headline','dateModified','url','mainEntityOfPage'])requireValue(typeof item[key]==='string'&&item[key].trim(),'Article missing '+key);
+     requireValue(absolute(item.url)&&absolute(item.mainEntityOfPage),'Article URL required');
+     if(expectedCanonical){equal(item.url,expectedCanonical,'Article canonical');equal(item.mainEntityOfPage,expectedCanonical,'Article page canonical');}
+     equal(item.headline,text(nodes(document).find(n=>n.tagName==='h1')),'Article visible headline');
+     requireValue(['Person','Organization'].includes(item.author?.['@type'])&&typeof item.author.name==='string'&&item.author.name.trim(),'Article author required');
+     equal(item.author.name,text(nodes(document).find(n=>attr(n,'data-editorial-author')!==undefined)),'Article visible author');
+     for(const key of ['dateModified',...(item.datePublished?['datePublished']:[])])requireValue(/^\d{4}-\d{2}-\d{2}$/.test(item[key])&&new Date(item[key]+'T00:00:00Z').toISOString().slice(0,10)===item[key],'Article invalid date');
+     if(item.datePublished)requireValue(item.datePublished<=item.dateModified,'Article publication after revision');
+     requireValue(Array.isArray(item.citation)&&item.citation.length&&item.citation.every(absolute),'Article citations required');
     }else if(type==='WebApplication'){
      for(const key of ['name','description','applicationCategory','operatingSystem'])requireValue(typeof item[key]==='string'&&item[key].trim(),'WebApplication missing '+key);
      requireValue(absolute(item.url),'WebApplication URL required');
@@ -49,6 +59,8 @@ export function validateJsonLd(document,expectedCanonical) {
 // scripts and styles carry machine data and are deliberately outside this contract.
 export function learnerText(node) {
  if (['script','style','template'].includes(node.tagName)) return '';
+ // An exact, visibly identified author name is attribution, not pipeline prose.
+ if(node.tagName==='span'&&attr(node,'data-editorial-author')!==undefined&&text(node)==='Codex')return 'AI-assisted author';
  return node.nodeName==='#text' ? node.value : (node.childNodes||[]).map(learnerText).join(' ');
 }
 export function assertLearnerCopy(document) {

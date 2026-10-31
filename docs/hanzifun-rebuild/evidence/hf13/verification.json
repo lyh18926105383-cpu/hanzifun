@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-31T11:55:10.212Z",
+  "surface": "Local static servers; not production or Workers verification",
+  "checks": [
+    "mid-autumn-festival-chinese-characters: approved article, dictionary, save/refresh, complete related practice and refresh completion",
+    "chinese-for-your-first-business-visit: approved article, dictionary, save/refresh, complete related practice and refresh completion",
+    "first-characters-for-bilingual-kids: approved article, dictionary, save/refresh, complete related practice and refresh completion",
+    "Production journal retains the two earlier guides and lists the three approved articles",
+    "100 reviewed starter links render with the non-frequency explanation",
+    "family: six cards, print action, desktop/mobile and A4/Letter exported",
+    "classroom: six cards, print action, desktop/mobile and A4/Letter exported",
+    "Static print cards and local editorial prose readable without JavaScript"
+  ],
+  "layouts": [
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-for-your-first-business-visit/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-for-your-first-business-visit/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-for-your-first-business-visit/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-for-your-first-business-visit/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/blog/chinese-for-your-first-business-visit/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/blog/first-characters-for-bilingual-kids/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/blog/first-characters-for-bilingual-kids/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/blog/first-characters-for-bilingual-kids/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/blog/first-characters-for-bilingual-kids/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/blog/first-characters-for-bilingual-kids/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/classroom/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/classroom/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/classroom/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/classroom/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/classroom/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/top-100/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/top-100/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/top-100/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/top-100/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/top-100/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "violations": []
+    },
+    {
+      "route": "/blog/chinese-for-your-first-business-visit/",
+      "violations": []
+    },
+    {
+      "route": "/blog/first-characters-for-bilingual-kids/",
+      "violations": []
+    },
+    {
+      "route": "/worksheets/",
+      "violations": []
+    },
+    {
+      "route": "/worksheets/family/",
+      "violations": []
+    },
+    {
+      "route": "/worksheets/classroom/",
+      "violations": []
+    },
+    {
+      "route": "/dictionary/top-100/",
+      "violations": []
+    }
+  ],
+  "pageErrors": [],
+  "pdfs": [
+    {
+      "set": "family",
+      "format": "A4",
+      "file": "family-a4.pdf",
+      "cards": 6
+    },
+    {
+      "set": "family",
+      "format": "Letter",
+      "file": "family-letter.pdf",
+      "cards": 6
+    },
+    {
+      "set": "classroom",
+      "format": "A4",
+      "file": "classroom-a4.pdf",
+      "cards": 6
+    },
+    {
+      "set": "classroom",
+      "format": "Letter",
+      "file": "classroom-letter.pdf",
+      "cards": 6
+    }
+  ],
+  "browser": "156.0.8078.79"
+}

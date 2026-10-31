@@ -1,0 +1,132 @@
+{
+  "version": "hf14-starter-100-v1",
+  "date": "2026-10-31",
+  "selectionBasis": "A curated thematic selection of 100 characters from the existing, human-approved 126-character core. Selected for small activities about visible objects, people, actions, time and daily ideas. This is not a corpus frequency ranking or an HSK syllabus. Order is thematic, not ranked.",
+  "groups": [
+    {
+      "title": "Nature and visible shapes",
+      "characterIds": [
+        "char:6728",
+        "char:6797",
+        "char:5c71",
+        "char:5ddd",
+        "char:6cc9",
+        "char:6c34",
+        "char:6d6a",
+        "char:706b",
+        "char:5149",
+        "char:6708",
+        "char:660e",
+        "char:6717",
+        "char:6e05",
+        "char:79be",
+        "char:79cb",
+        "char:590f",
+        "char:96ea",
+        "char:591c",
+        "char:65e9",
+        "char:9ed1",
+        "char:5c16",
+        "char:74dc"
+      ]
+    },
+    {
+      "title": "People and the body",
+      "characterIds": [
+        "char:5973",
+        "char:7537",
+        "char:5b69",
+        "char:59d0",
+        "char:53d4",
+        "char:5b59",
+        "char:8eab",
+        "char:81c2",
+        "char:817f",
+        "char:8116",
+        "char:9f3b",
+        "char:7709",
+        "char:773c",
+        "char:775b",
+        "char:5634",
+        "char:809a",
+        "char:547d",
+        "char:751f",
+        "char:7fa4",
+        "char:51a0"
+      ]
+    },
+    {
+      "title": "Courtesy, actions and responses",
+      "characterIds": [
+        "char:8bf7",
+        "char:542c",
+        "char:8bf4",
+        "char:95ee",
+        "char:7b54",
+        "char:7ed9",
+        "char:7528",
+        "char:505a",
+        "char:627e",
+        "char:501f",
+        "char:8fdb",
+        "char:5411",
+        "char:62db",
+        "char:6b22",
+        "char:4fdd",
+        "char:5bb3",
+        "char:6015",
+        "char:60ca",
+        "char:7761",
+        "char:4f11",
+        "char:529e",
+        "char:6302",
+        "char:63d2",
+        "char:62cd",
+        "char:88c1",
+        "char:53d1"
+      ]
+    },
+    {
+      "title": "Space, time and counting",
+      "characterIds": [
+        "char:5de6",
+        "char:53f3",
+        "char:65c1",
+        "char:5357",
+        "char:5317",
+        "char:897f",
+        "char:4e2d",
+        "char:8fb9",
+        "char:65b9",
+        "char:95e8",
+        "char:5468",
+        "char:534a",
+        "char:4e45",
+        "char:5019",
+        "char:51e0",
+        "char:53cc",
+        "char:53ea",
+        "char:6761",
+        "char:904d",
+        "char:70b9"
+      ]
+    },
+    {
+      "title": "Food and everyday ideas",
+      "characterIds": [
+        "char:996d",
+        "char:8336",
+        "char:997c",
+        "char:56e2",
+        "char:5706",
+        "char:94b1",
+        "char:4e8b",
+        "char:6cd5",
+        "char:89c4",
+        "char:539f",
+        "char:540c",
+        "char:548c"
+      ]
+    }
+  ]
+}

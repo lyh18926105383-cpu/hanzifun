@@ -205,7 +205,11 @@ async function buildSite() {
     const { createSupportPages, createCharacterStub, createContractFallback } =
         await import('../site/pages/route-stubs.mjs');
     const routesModule = await import('../site/routes.mjs');
+    const {starter100Page}=await import('../site/pages/starter-100.mjs');
     const editorial = await import('../site/editorial-content.mjs');
+    const workflow = await import('../site/editorial-workflow.mjs');
+    workflow.validateEditorial(undefined,{release:routesModule.releaseConfig});
+    workflow.validateWorksheets();
     const {trustPages} = await import('../site/pages/trust.mjs');
     const {adsTxt} = await import('../site/adsense.mjs');
     const publisher = JSON.parse(fs.readFileSync(path.join(siteRoot,'publisher.json'),'utf8'));
@@ -220,7 +224,8 @@ async function buildSite() {
     for (const [sourcePath, outputName] of assetSources) {
         fs.copyFileSync(path.join(projectRoot, sourcePath), path.join(outputRoot, 'site-assets', outputName));
     }
-    const browserData = { characters, decks, names, articles, stories };
+    const safeArticles=workflow.editorialContent.articles.filter(workflow.publicArticle).map(a=>({slug:a.slug,title:a.title,category:a.category,chars:a.characterIds.map(id=>String.fromCodePoint(parseInt(id.slice(5),16))),keywords:a.title}));
+    const browserData = { characters, decks, names, articles:safeArticles, stories };
     fs.writeFileSync(
         path.join(outputRoot, 'site-assets/site-data.hf03-v1.js'),
         'window.HANZIFUN = ' + JSON.stringify(browserData) + ';\n'
@@ -229,7 +234,7 @@ async function buildSite() {
 
     const seo = await import('../site/seo.mjs');
     const environment = seo.buildEnvironment();
-    const home = fs.readFileSync(path.join(siteRoot, 'pages/home.html'), 'utf8').replace('{{journal}}', journal());
+    const home = fs.readFileSync(path.join(siteRoot, 'pages/home.html'), 'utf8').replace('{{journal}}', editorial.guideCards()+workflow.articleCards(environment));
     const prototypePages = [
         {
             path: '/',
@@ -249,7 +254,7 @@ async function buildSite() {
         prototypePaths,
         characters: coreChars,
         additionalCharacters: hf07.lexicon.characters.map(c=>c.glyph),
-        additionalPaths: [...editorial.guides.map(g=>g.path),...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
+        additionalPaths: [...workflow.worksheetPages().map(p=>p.path),...editorial.guides.map(g=>g.path),...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
         contract: routesModule.routeContract,
         release: routesModule.releaseConfig,
     });
@@ -277,7 +282,7 @@ async function buildSite() {
     [...hskPages(),...additionalCharacterPages(),...scenarioPages()].forEach(page=>pages.set(page.path,page));
     const hf04Pages = [...dictionaryPages(), sourcePage(), strokeOrderPage(), pinyinChartPage()];
     hf04Pages.forEach(page => pages.set(page.path, page));
-    [...trustPages(),...editorial.editorialPages()].forEach(page=>pages.set(page.path,page));
+    [starter100Page(),...trustPages(),...editorial.editorialPages(),...workflow.worksheetPages(),...workflow.editorialContent.articles.map(a=>workflow.articlePage(a,{environment}))].forEach(page=>pages.set(page.path,page));
     for(const [routePath,page] of pages) {
         const enriched=editorial.enrichCharacter(page);
         const character=/^\/dictionary\/([^/]+)\/$/.exec(routePath);
@@ -315,7 +320,8 @@ async function buildSite() {
     for (const [name, entries] of Object.entries(shards)) writePublic('site-assets/search/'+name+'.hf04-v1.json', entries);
     const library = [
         ...decks.map(d=>({id:'deck:'+d.slug,type:'Flashcard sets',label:d.title,url:'/flashcards/decks/'+d.slug+'/',aliases:[d.title,d.description,...d.chars]})),
-        ...articles.map(a=>({id:'article:'+a.slug,type:'Scenarios & articles',label:a.title,url:'/blog/'+a.slug+'/',aliases:[a.title,a.category,...a.chars]})),
+        ...safeArticles.map(a=>({id:'article:'+a.slug,type:'Scenarios & articles',label:a.title,url:'/blog/'+a.slug+'/',aliases:[a.title,a.category,...a.chars]})),
+        ...editorial.guides.map(g=>({id:'guide:'+g.path,type:'Scenarios & articles',label:g.title,url:g.path,aliases:[g.title,g.description]})),
         {id:'scenario:restaurant',type:'Scenarios & articles',label:'Restaurant',url:'/scenarios/travel/restaurant/',aliases:['restaurant','travel','food','water','水']},
         {id:'scenario:business',type:'Scenarios & articles',label:'Business icebreakers',url:'/scenarios/business/icebreakers/',aliases:['business','introductions','polite']}
     ];
