@@ -1,5 +1,7 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 最新增量：2026-11-01 Owner已确认Blog视觉结果并明确授权上线、提交推送与文档更新；当前8be3 worktree发布执行中。实际生产已核实为2026-10-31的964940e9版本/404 Sitemap。见末尾记录31及blog-ui-release-2026-11-01发布目录；下方旧待批准/待部署状态保留历史。
+
 ## 当前所处阶段
 - **大阶段**：Phase 2。2026-10-28生产基线保留；2026-10-31本地新增候选准备完成，未部署。
 - **当前执行任务**：四文化工具与教师本地组卡全局合龙Completed / PASS；Owner内容hash签收已绑定，六路由正式挂载。HF-15本地无需账号范围已确认，原Phase3账号/同步/教材扩展未启动。
@@ -383,3 +385,22 @@
 - **最终验证**：用户三项命令全退出0：生产2832文件/413英文页（404 index、9 noindex），SEO errors=[]、364核心页/418 JSON-LD、Sitemap404。**190/190测试PASS（181原有+Cursor7+合龙负例/分发2）**，0fail/skip/cancel。Chrome156十行为组、30布局、6类axe A/AA零违规、pageErrors=[]；真实收藏、IndexedDB刷新、编辑/排序/旧快照、导入导出、删除保留会话、两标签一成功一冲突、LocalStorage回退、无JS输入保护均通过。2/100卡各A4/Letter四PDF均单页，pypdf/Poppler逐份渲染与目视最终无越框；不把初版问题当最终通过。
 - **本轮文件**：新增site/tools-integration.mjs、src/client/{cultural-tools,tools-entry}.mjs、scripts/verify-tools-browser.mjs、tests/culture-teacher-integration.test.mjs；接入/调整Cursor的site/pages/{cultural-tools,teacher-decks}.mjs、src/client/teacher-decks.mjs、site/public/site-styles.css、tests/cultural-tools-teacher.test.mjs（原7项保留）。修改scripts/build-site.js、site/{seo.mjs,release.json,pages/learning.mjs}、data/editorial/review-decisions.json、tests/seo-quality.test.mjs；文档HF-12-HF-15-INTEGRATION-VERIFICATION、acceptance/culture-teacher-local-2026-10-31.json、evidence/culture-teacher-local/{browser,verification}.json、TASKS/PROGRESS/REMAINING及HF12/HF15任务、SPEC/FILE_ARCHITECTURE与routes契约。
 - **遗留/精确下一步**：本轮确认范围完成，未commit/push/部署。HF14仍非全等级，87缺字是后续批次；原账号/同步/付费/有授权教材范围未做。无IndexedDB且无Web Locks的旧浏览器LocalStorage仅乐观revision/写后校验，不宣称原子跨标签事务；未测所有浏览器/真机/线上。下一Agent先读本报告/本候选verification和releaseId，若发布重做HF17冻结/回滚/Workers及本次生产窗口核验，不复用旧候选manifest、不重问已获内容签收。
+
+### [记录 30] - HF-13 Blog视觉改版，本地待Owner人工审核（By Codex，2026-11-01）
+
+- **授权/目录**：Owner确认本聊天生成的效果图后要求改造现有blog，并指定完成后用内置浏览器或Chrome打开供人工审核。本轮施工当前`/Users/graceshi/.codex/worktrees/8be3/汉字饭hanzifun`；开工tracked干净，没有改Desktop主目录、提交/推送或生产部署。
+- **交付**：Blog专用暖米白/朱砂红/竹青/草木黄与炭黑系统、细沙金边框、祥云暗纹与印章标、五幅错落摄影带、Featured约62:38左右栏、三列/平板两列/手机单列卡片。接三篇已签收文章+两篇原指南+真实HSK二级资源；“乐”字示例无已审核文章，主打使用现有中秋文章。原正文/hash/作者/签收不变。
+- **功能**：五分类/搜索组合筛选、结果播报、空结果与重置；Subscribe锚点、五条正式文章/指南的RSS XML、自发现与复制feed链接。无邮箱收集/发送、账号、同步、Billing或故事课修改。
+- **配图**：两张内置image_gen生成的摄影质感图；后续生成401 token_revoked，使用agent-reach Exa/Jina查源并下载Feng Zou/Pexels两张与Y H/Unsplash一张照片。五图本地分发、页面有署名及AI说明；具体源/许可核验边界和生成prompt见HF-13-BLOG-UI-VERIFICATION。
+- **文件清单**：修改`site/editorial-content.mjs`、`site/layouts/base.html`（可选页面插槽）、`scripts/build-site.js`（分发博客JS/RSS）；新增`site/pages/blog.mjs`、`src/client/blog.mjs`、`public/site-assets/blog.v1.css`、`blog-cloud.v1.svg`及`blog/{archive,calligraphy,festival,study,tea}.v1.jpg`。新增本轮验证文档与`evidence/blog-ui-2026-11-01/`；更新TASKS/PROGRESS。未改共享主CSS、release策略、字典/HSK/故事内容。
+- **验证**：隔离生产构建2841文件/413英文页（404 index/9 noindex）、Sitemap404、SEO errors=[]；190/190测试PASS，无fail/skip/cancel；XML解析五条规范URL PASS。worktree最初缺忽略的HSK XLSX/cedict.gz缓存，从Desktop只读复制后重跑通过，没有跳过/改弱测试。内置浏览器320/360/390/540/768/850/1100/1440八宽度无溢出，分类/搜索/空状态/重置、手机Menu/Escape、RSS复制、文章跳转与无JS六卡通过；桌面/手机axe WCAG A/AA零违规。发现并修复博客CSS加载顺序和手机页眉换行后保存最终截图。未冒称跨浏览器/真机/p75/生产验收。
+- **当前状态与下一Agent精确切入点**：Owner视觉确认尚待回复。内置浏览器留存本地`http://127.0.0.1:4178/blog/`，隔离输出`/private/tmp/hanzifun-blog-preview`，预览服务为python http.server 4178。先读本记录、TASKS及HF-13-BLOG-UI-VERIFICATION，再按Owner反馈调整blog专用文件。若服务/临时构建已清理，按验证文档重建并启动；不将本次UI授权当作生产发布授权，发布另走HF-17/18。
+- **检查脚本适配**：另修改`scripts/verify-editorial-browser.mjs`两条Blog发现断言，由恰好一个链接改为至少一个，允许Featured/侧栏与卡片重复推荐；未冒称重跑其完整打印/学习旅程。
+
+### [记录 31] - Owner确认Blog视觉，执行授权发布（By Codex，2026-11-01）
+
+- **Owner新指令**：审阅内置浏览器后回复“没问题了”，要求“完成部署上线”“近期更新git commit & push”“更新task.md和progress.md”。本轮使用项目既有TASKS.md/PROGRESS.md，不新建重复小写文件。
+- **真实现状**：GitHub main与HEAD均为98f79fa，前两批b4923a6/98f79fa已经提交推送；本轮新增待提交为Blog改版。实际Cloudflare生产版本964940e9-f78b-40d5-b8af-e72c1c4e793b（2026-10-31），Sitemap404，非旧日志f1e7d8af；无服务bindings，旧404/四重定向/兼容日期已核对。
+- **发布准备**：当前worktree从detached HEAD创建codex/blog-release-2026-11-01；独立releaseId=blog-ui-release-2026-11-01，仅改顶层releaseId，不变更原内容/工具签收。冻结2841文件/413英文页/404 Sitemap，artifact SHA256=d969d9258caad6b9e840ea456ddd2c2d6fd74ae97850cc67fffceda2b554454c；190/190测试和SEO errors=[]；本地Wrangler4.156等价环境37项页面/资源/重定向query/真实404/MP3 Range检查通过。
+- **回滚**：从98f79fa隔离重建2832文件旧包，Blog字节与发布前生产一致；静态指针切换→回滚→恢复0.626秒，hash均一致，未在线回滚演练。不可变Cloudflare旧版本与忽略.cache/releases/blog-ui-release-2026-11-01/分别保存远端/本地恢复依据。
+- **文件范围**：承接记录30全部Blog文件；本轮另改site/release.json顶层releaseId，新增releases/blog-ui-release-2026-11-01/{manifest,ACCEPTANCE,ROLLBACK,local-workers-verification,rollback-rehearsal}，更新TASKS/PROGRESS与Blog验证文档的Owner确认。提交、部署与线上实际回执将在本记录后补齐，不把准备完成当作已经上线。

@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-01",
+  "browser": "Codex in-app browser",
+  "checks": [
+    "Character Stories: 1",
+    "Chinese Culture: 2",
+    "Study Tips: 2",
+    "All articles: 6",
+    "Search matching, empty state and reset passed",
+    "390px mobile menu opens and Escape closes it with focus restored",
+    "Feed link copied. Paste it into your RSS reader.",
+    "Featured link opens the approved Mid-Autumn article",
+    "All six cards remain accessible with JavaScript disabled"
+  ],
+  "layouts": [
+    {
+      "columns": "269px",
+      "headerRows": [
+        -4354,
+        -4357,
+        -4357
+      ],
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "columns": "309px",
+      "headerRows": [
+        -4060,
+        -4063,
+        -4063
+      ],
+      "overflow": false,
+      "width": 360
+    },
+    {
+      "columns": "339px",
+      "headerRows": [
+        -3915,
+        -3917,
+        -3917
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "columns": "489px",
+      "headerRows": [
+        -2764,
+        -2766,
+        -2766
+      ],
+      "overflow": false,
+      "width": 540
+    },
+    {
+      "columns": "343.5px 343.5px",
+      "headerRows": [
+        -2411,
+        -2415,
+        -2413
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "columns": "384.5px 384.5px",
+      "headerRows": [
+        -2438,
+        -2442,
+        -2440
+      ],
+      "overflow": false,
+      "width": 850
+    },
+    {
+      "columns": "313.664px 313.664px 313.664px",
+      "headerRows": [
+        -1492,
+        -1496,
+        -1494
+      ],
+      "overflow": false,
+      "width": 1100
+    },
+    {
+      "columns": "410.664px 410.664px 410.664px",
+      "headerRows": [
+        -1485,
+        -1493,
+        -1487
+      ],
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "pageErrors": [],
+  "axe": {
+    "desktop": [],
+    "mobile": []
+  },
+  "consoleErrors": []
+}

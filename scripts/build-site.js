@@ -115,9 +115,11 @@ function htmlForPage(layout, page, route, header, footer) {
         .replaceAll('{{description}}', escapeHtml(page.description || page.title))
         .replaceAll('{{robots}}', robots+canonical)
         .replaceAll('{{seo}}', page.structuredData || '')
-        .replaceAll('{{header}}', header())
+        .replaceAll('{{pageHead}}', page.head || '')
+        .replaceAll('{{bodyClass}}', escapeHtml(page.bodyClass || ''))
+        .replaceAll('{{header}}', page.header || header())
         .replaceAll('{{content}}', page.content)
-        .replaceAll('{{footer}}', footer());
+        .replaceAll('{{footer}}', page.footer || footer());
     html = replacePrototypeAssets(html);
     if ((html.match(/<h1(?:\s|>)/gi) || []).length !== 1) {
         throw new Error('Expected exactly one H1 on ' + page.path);
@@ -207,6 +209,7 @@ async function buildSite() {
     const routesModule = await import('../site/routes.mjs');
     const {starter100Page}=await import('../site/pages/starter-100.mjs');
     const editorial = await import('../site/editorial-content.mjs');
+    const {blogFeed} = await import('../site/pages/blog.mjs');
     const workflow = await import('../site/editorial-workflow.mjs');
     workflow.validateEditorial(undefined,{release:routesModule.releaseConfig});
     workflow.validateWorksheets();
@@ -296,6 +299,8 @@ async function buildSite() {
         fs.mkdirSync(path.dirname(destination), {recursive:true});
         fs.writeFileSync(destination, typeof value === 'string' || Buffer.isBuffer(value) ? value : JSON.stringify(value) + '\n');
     };
+    writePublic('blog/feed.xml', blogFeed(editorial.guides, routesModule.releaseConfig.siteOrigin));
+    writePublic('site-assets/blog.v1.mjs', fs.readFileSync(path.join(projectRoot,'src/client/blog.mjs'),'utf8'));
     for (const name of ['dictionary','search-core','stroke-order','learning-entry','audio-player']) {
         fs.copyFileSync(path.join(projectRoot,'src/client',name+'.mjs'), path.join(outputRoot,'site-assets',name+'.hf04-v1.mjs'));
     }

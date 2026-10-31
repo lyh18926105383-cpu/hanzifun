@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-01",
+  "assets": [
+    {
+      "file": "public/site-assets/blog/archive.v1.jpg",
+      "bytes": 97180,
+      "sha256": "16dedc49c17228dd904d8f60bba3a9dbb0567a903341ab4c667245482e5353d3"
+    },
+    {
+      "file": "public/site-assets/blog/calligraphy.v1.jpg",
+      "bytes": 114126,
+      "sha256": "0da14616bfa5ea482bed54786a16c3d9e054402586d64c7ae71b487b0b73f14b"
+    },
+    {
+      "file": "public/site-assets/blog/festival.v1.jpg",
+      "bytes": 360320,
+      "sha256": "e704a4853083a098f2f8582422b6b8b88c12e1634614ad2fd542c98031d656e4"
+    },
+    {
+      "file": "public/site-assets/blog/study.v1.jpg",
+      "bytes": 429099,
+      "sha256": "fdc2bcf19e531f5ec45499b188ec2c5a04102eb8cd85893ae98dc7d6c6bc3a61"
+    },
+    {
+      "file": "public/site-assets/blog/tea.v1.jpg",
+      "bytes": 149263,
+      "sha256": "bd73e4c08c3346a618da90bf4a8106c88f580b6e33026269ac5d9758b7daec42"
+    }
+  ],
+  "provenance": "See ../../HF-13-BLOG-UI-VERIFICATION.md for source pages, license evidence and exact generation prompts."
+}

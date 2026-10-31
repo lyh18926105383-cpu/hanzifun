@@ -1,0 +1,13 @@
+{
+  "surface": "Isolated local static directory pointer; production not changed",
+  "previousBlogMatchesProduction": true,
+  "previousArtifact": {
+    "files": 2832,
+    "sha256": "ef83020f070968bcc320e282cb4a6164a384bb0cb57c2bca9e7209ec5bc27b9d"
+  },
+  "candidateArtifact": {
+    "files": 2841,
+    "sha256": "d969d9258caad6b9e840ea456ddd2c2d6fd74ae97850cc67fffceda2b554454c"
+  },
+  "rollbackAndRestoreSeconds": 0.626
+}
