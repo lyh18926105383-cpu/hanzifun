@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-01",
+  "surface": "Combined frozen candidate in local Workers; in-app browser",
+  "checks": [
+    "Name, menu missing-character guard, lunar-year boundary and multiple-reading results update inline",
+    "Teacher deck creates revision 1 and updates revision 2 on isolated local origin",
+    "Gallery favorite saves through the real local learning adapter",
+    "Teacher gallery deck is readable in full noindex workspace",
+    "Mobile Tools drawer selects a chapter and closes",
+    "Blog category/search remain functional with merged shared stylesheet"
+  ],
+  "layouts": [
+    {
+      "overflow": false,
+      "route": "/tools/",
+      "width": 360
+    },
+    {
+      "overflow": false,
+      "route": "/tools/",
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "route": "/tools/",
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "route": "/tools/",
+      "width": 1100
+    },
+    {
+      "overflow": false,
+      "route": "/tools/",
+      "width": 1440
+    },
+    {
+      "overflow": false,
+      "route": "/tools/",
+      "width": 1600
+    },
+    {
+      "overflow": false,
+      "route": "/blog/",
+      "width": 360
+    },
+    {
+      "overflow": false,
+      "route": "/blog/",
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "route": "/blog/",
+      "width": 1100
+    },
+    {
+      "overflow": false,
+      "route": "/blog/",
+      "width": 1440
+    }
+  ],
+  "axe": [
+    {
+      "route": "/tools/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/tools/",
+      "width": 1600,
+      "violations": []
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "consoleErrors": []
+}

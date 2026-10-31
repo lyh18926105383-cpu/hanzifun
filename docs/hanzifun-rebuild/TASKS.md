@@ -8,6 +8,13 @@
 
 Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-chart/`；书法暂不规划。字页分 Tier 1 黄金完整版与 Tier 2 标准可用版，达到 Tier 2 即可发布/开放索引；30–50 个 Tier 1 是增强目标，不拦住标准字页上线。HSK 执行 [限定范围放行指令](SPEC.md#hsk-release-policy)，不默认等待第三方书面授权。
 
+## 当前合并发布：Blog + Tools（2026-11-01；Owner已授权，候选验证通过）
+
+- [x] Blog已获人工视觉确认并先上线，源码381cf9f已推送main；实际首轮版本3e74ad2c及后续观察版本d448b127见首轮发布回执。
+- [x] Owner随后要求将另一聊天Tools一起部署；已从Desktop main只读迁入五段画廊/五句确认英文引导/本地SVG/客户端与原签收、192测试和证据，保留Blog功能，未改动源工作区。
+- [x] 合并候选2847文件/413英文页（404 index/9 noindex）、Sitemap404、SEO errors=[]、192/192 PASS；44项本地Workers检查、6组浏览器行为/10档布局/4档axe检查均通过；隔离回滚0.594秒。
+- [ ] 合并版commit/push、Cloudflare部署与正式域名复检执行中；[合并发布目录](releases/blog-tools-release-2026-11-01/manifest.json)。下方旧候选未部署记录为历史，当前状态以本节及最终回执为准。
+
 ## HF-13 Blog视觉改版（2026-11-01；Owner已确认，发布执行中）
 
 - [x] 按Owner确认效果图实现暖米白/朱砂红/竹青绿、错落摄影带、Featured左右栏、三列文章卡片、响应式页眉页脚。
@@ -15,7 +22,7 @@ Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-ch
 - [x] 五张配图本地分发，保留公开摄影来源与AI说明；190/190测试、生产构建/SEO/RSS及内置浏览器检查通过。详见[本轮验证](HF-13-BLOG-UI-VERIFICATION.md)。
 - [x] Owner人工审核后回复“没问题了”，明确授权部署、git commit & push及文档更新。
 - [x] 本次候选冻结、37项本地Workers检查、190测试与SEO/回滚演练通过；[发布清单](releases/blog-ui-release-2026-11-01/manifest.json)。实际线上版本已更新为2026-10-31的964940e9，404 URL基线已存在；下方未部署记录保留历史，不重复执行旧候选。
-- [ ] 本次源码提交推送、博客部署及线上复检正在执行，完成后写入实际版本/时间回执。
+- [x] 博客源码381cf9f已提交推送并部署；37项标准curl复检通过（robots保留Cloudflare托管前缀且自身规则一致）。后续Tools合并版承接发布，见上方当前合并发布。
 
 ## 当前全局合龙（2026-10-31；本地Completed / PASS，历史基线）
 

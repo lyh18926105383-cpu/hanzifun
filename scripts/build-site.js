@@ -308,7 +308,8 @@ async function buildSite() {
     learningPages().forEach(page => pages.set(page.path, page));
     integratedTools.forEach(page=>pages.set(page.path,page));
     writePublic('site-assets/tools/published-catalog.json',{items:(await import('../site/pages/cultural-tools.mjs')).publishedCatalog().items});
-    for(const name of ['cultural-tools','teacher-decks','tools-entry'])writePublic('site-assets/tools/'+name+'.mjs',fs.readFileSync(path.join(projectRoot,'src/client',name+'.mjs'),'utf8'));
+    for(const name of ['cultural-tools','teacher-decks','tools-entry','tools-gallery'])writePublic('site-assets/tools/'+name+'.mjs',fs.readFileSync(path.join(projectRoot,'src/client',name+'.mjs'),'utf8'));
+    for(const file of tools.toolsInputFiles.filter(f=>f.startsWith('site/public/tools-art/')))writePublic(file.replace('site/public/','site-assets/'),fs.readFileSync(path.join(projectRoot,file)));
     writePublic('site-assets/hf06/learning-data.json', learningData());
     for (const [directory, names] of [
         ['learning', ['scheduler.mjs','events.mjs','session.mjs','repository.mjs','legacy-import.mjs','write-lock.mjs','identity.mjs']],

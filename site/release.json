@@ -1,5 +1,5 @@
 {
-  "releaseId": "blog-ui-release-2026-11-01",
+  "releaseId": "blog-tools-release-2026-11-01",
   "prototypePathCount": 77,
   "defaultStatus": "preview",
   "statusPolicies": {
@@ -576,48 +576,48 @@
       "status": "approved",
       "reviewer": "Project owner (user)",
       "date": "2026-10-31",
-      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
-      "batchId": "culture-teacher-local-2026-10-31",
-      "contentSha256": "a0c39069f4f324ad6490ee9d66fea01873d4fc00d649a84503f9ae1a30b0eb92"
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+      "batchId": "culture-teacher-gallery-2026-10-31",
+      "contentSha256": "3ca8cdb17cb5069cd94e868f548ea67634c558eaba8a7c21f5c99a4a589f065c"
     },
     "/tools/chinese-name-generator/": {
       "status": "approved",
       "reviewer": "Project owner (user)",
       "date": "2026-10-31",
-      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
-      "batchId": "culture-teacher-local-2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+      "batchId": "culture-teacher-gallery-2026-10-31",
       "contentSha256": "8b4e2c31109815203f79438989e49d12c1eac8edd36565c284d8cf0ae444bacf"
     },
     "/tools/chinese-menu-decoder/": {
       "status": "approved",
       "reviewer": "Project owner (user)",
       "date": "2026-10-31",
-      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
-      "batchId": "culture-teacher-local-2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+      "batchId": "culture-teacher-gallery-2026-10-31",
       "contentSha256": "a510891453705b64095359d0756ecb8a2ab51fce39601c8a2decbc25eca3ce75"
     },
     "/tools/zodiac-elements-calculator/": {
       "status": "approved",
       "reviewer": "Project owner (user)",
       "date": "2026-10-31",
-      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
-      "batchId": "culture-teacher-local-2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+      "batchId": "culture-teacher-gallery-2026-10-31",
       "contentSha256": "59d2fd6d2e5aa982b3aa7715b47c77623acb9477ddc8c272c9d1859aa0e4f3c4"
     },
     "/tools/tattoo-character-checker/": {
       "status": "approved",
       "reviewer": "Project owner (user)",
       "date": "2026-10-31",
-      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
-      "batchId": "culture-teacher-local-2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+      "batchId": "culture-teacher-gallery-2026-10-31",
       "contentSha256": "2e790c455a123e0d7eb2c14df24e149ae995655dd7c77979ee8ba00922e73bf5"
     },
     "/flashcards/teacher/": {
       "status": "approved",
       "reviewer": "Project owner (user)",
       "date": "2026-10-31",
-      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
-      "batchId": "culture-teacher-local-2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+      "batchId": "culture-teacher-gallery-2026-10-31",
       "contentSha256": "129488ad25151f651e5faf27163e86b5a8cf2e08c68526af009efae0721e7f19"
     }
   },
@@ -658,9 +658,9 @@
     }
   },
   "cultureTeacher": {
-    "batchId": "culture-teacher-local-2026-10-31",
-    "contentSha256": "f88f3158604657573e975dcf604e9327316f984a4f3e91d89654087ab6bc4b51",
-    "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
+    "batchId": "culture-teacher-gallery-2026-10-31",
+    "contentSha256": "429d9620edf0147b6d714c66f5f67426012e4d52336aab43239a2263a1ed762c",
+    "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
     "publicRoutes": [
       "/tools/",
       "/tools/chinese-name-generator/",

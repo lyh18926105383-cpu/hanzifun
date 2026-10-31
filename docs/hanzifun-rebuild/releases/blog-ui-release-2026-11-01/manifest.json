@@ -1,7 +1,7 @@
 {
   "releaseId": "blog-ui-release-2026-11-01",
   "phase": 2,
-  "status": "approved-candidate-ready",
+  "status": "deployed; follow-up combined Tools release requested",
   "baseRevision": "98f79fafc60d35d7632e0d396d787ac6f4d75372",
   "sourceSha256": "75665c9bc042e8e8bc19e6e543b18968529a511484b683c5b6466c54a52ebaa0",
   "sourceFiles": 2210,
@@ -481,5 +481,7 @@
     "87 missing HSK characters remain future scope",
     "No new course media, accounts, cloud sync or billing",
     "No real-device, cross-browser or p75 claim"
-  ]
+  ],
+  "deploymentReceipt": "deployment.json",
+  "onlineVerification": "online-verification.json"
 }

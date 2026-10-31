@@ -404,3 +404,32 @@
 - **发布准备**：当前worktree从detached HEAD创建codex/blog-release-2026-11-01；独立releaseId=blog-ui-release-2026-11-01，仅改顶层releaseId，不变更原内容/工具签收。冻结2841文件/413英文页/404 Sitemap，artifact SHA256=d969d9258caad6b9e840ea456ddd2c2d6fd74ae97850cc67fffceda2b554454c；190/190测试和SEO errors=[]；本地Wrangler4.156等价环境37项页面/资源/重定向query/真实404/MP3 Range检查通过。
 - **回滚**：从98f79fa隔离重建2832文件旧包，Blog字节与发布前生产一致；静态指针切换→回滚→恢复0.626秒，hash均一致，未在线回滚演练。不可变Cloudflare旧版本与忽略.cache/releases/blog-ui-release-2026-11-01/分别保存远端/本地恢复依据。
 - **文件范围**：承接记录30全部Blog文件；本轮另改site/release.json顶层releaseId，新增releases/blog-ui-release-2026-11-01/{manifest,ACCEPTANCE,ROLLBACK,local-workers-verification,rollback-rehearsal}，更新TASKS/PROGRESS与Blog验证文档的Owner确认。提交、部署与线上实际回执将在本记录后补齐，不把准备完成当作已经上线。
+
+## 承接另一聊天的Tools决策与交接（2026-11-01合并）
+
+来源：完成 HSK 扩编与 HF-14 索引。仅迁入已确认工作和证据；保留原聊天记录，未移动或归档原聊天。下方“未部署”为原聊天当时状态，最终状态见后续合并发布记录。
+
+### [Tools-A] - `/tools/` 左侧竖线轨与五段中国风实时画廊（By Codex，2026-10-31）
+
+- **基线/授权**：指定Desktop主目录main，开工tracked干净HEAD98f79fa；用户明确要求删除忽略tmp_tools_design_ref.html，该文件存在并已直接删除，未读取，已加gitignore。Owner明确授权视觉实现及哈希更新；未覆盖其他个人临时文件，未使用旧worktree。
+- **交付**：site/pages/cultural-tools新增culturalStudioPage，左印章/编号/双语导航、贯穿雅致竖线/滑动条，右五段名字/食味/岁次/墨鉴/教案。五个原创SVG画卷在site/public/tools-art（name/menu/zodiac/tattoo/teacher-scroll.svg），滤镜/米色遮罩与磨砂舞台，前景表单、大字拼音语义与字典/独立工具深链。src/client/tools-gallery复用既有查询和教师Repo，IO高亮/平滑定位/轻视差渐入、手机抽屉/Escape/减少动态/无JS静态内容均接通。真实收藏与教师本机revision1→2可在原工作台读取，个人输入不进请求。
+- **边界/签收**：路由与statusPolicies对照HEAD逐项相同，Sitemap仍404；所有动态内链只在原339字中。原字符/HSK签收和源数据/音频manifest不变，87缺字仍后续。新批culture-teacher-gallery-2026-10-31绑定五图/客户端/CSS/六页面与SEO，review-decisions/release/独立receipt同步，旧批历史保留；这是Owner预授权实现，不伪称新真人审图/听审。
+- **最终验证**：用户三命令全退出0；2838公开文件/413英文页（404 index/9 noindex），SEO errors=[]、364核心页/418 JSON-LD、Sitemap404。192/192测试PASS（原190+2），fail/skip/cancel0；Chrome156八行为组/六宽度无溢出，390和1600两档axe A/AA零违规，pageErrors=[]。实际生成并查看桌面首屏/完整前两展台/点击第三与第四的四张2倍高清图，另有手机图。先前装饰p的SEO顺序与长截图裁切问题已修正并最终重跑，不复用早期失败结果。
+- **修改文件**：.gitignore、site/pages/cultural-tools.mjs、site/tools-integration.mjs、src/client/tools-entry.mjs、site/public/site-styles.css、scripts/build-site.js、site/release.json、data/editorial/review-decisions.json；新增src/client/tools-gallery.mjs、五SVG、tests/tools-gallery.test.mjs、scripts/verify-tools-gallery-browser.mjs；docs新增HF-12-TOOLS-GALLERY-VERIFICATION、acceptance/culture-teacher-gallery-2026-10-31.json、evidence/tools-gallery（5PNG+browser/verification.json）；更新TASKS/PROGRESS与HF12任务。
+- **精确下一步**：本轮本地完成，无待答项；未commit/push/部署，不声称真机/跨浏览器/真实p75/线上。若发布，从新releaseId/verification输入hash进行本候选HF17/18，不沿用旧包冻结。若改画廊或资产，刷新本批签收和截图；339身份/87缺字约定不变，不读取已丢弃临时参考文件。
+
+### [Tools-B] - 左侧导航英文点击引导文案（By Codex，2026-11-01收尾）
+
+- Owner对五句完整英文提案回复“确认”，已逐字加入五个英文工具标题下方：Name — Find a Chinese name that feels like you.; Menu — Discover the characters behind your next meal.; Zodiac — Find the animal and element of your lunar year.; Tattoo — Explore the meaning before it becomes ink.; Teacher — Turn a few characters into your next lesson.
+- 修改src/client/tools-gallery.mjs（guide字段）、site/pages/cultural-tools.mjs（small引导）、site/public/site-styles.css（11px次级文案/移动抽屉grid换行）。滑动指示条仍按实际item高度定位，未硬编码旧高度。按已获Owner确认刷新review-decisions、release及gallery批次receipt，另持久化railGuideCopyConfirmation；原339字/路由策略不变。
+- 生产构建2838文件/413英文页、SEO errors=[]/Sitemap404、全量192/192及定向2/2测试PASS；Chrome画廊8旅程/6宽度/手机桌面两档axe零违规，截图已重生成并查看桌面首屏；无JS/减少动态/真实保存/抽屉/spy保持通过。
+- TASKS与evidence/tools-gallery/verification.json已同步当前源码/截图hash，HF12/画廊验收追加本次确认记录。未commit/push/部署。下一Agent从最新verification与gallery签收继续，不恢复旧英文标题下无引导的版本；本轮无遗留问题。
+
+### [记录 32] - 承接另一聊天Tools，冻结Blog+Tools合并候选（By Codex，2026-11-01）
+
+- **Owner追加要求**：在Blog已发布后的复检阶段，明确要求另一聊天未部署的Tools改动一起上线；随后询问“能合并对话吗”。已解释原聊天记录没有可用的直接合并入口，实际读取并承接另一聊天的决策、代码、测试和交接。没有移动、归档原聊天或向另一聊天代发消息。
+- **来源/合并**：另一聊天标题“完成 HSK 扩编与 HF-14 索引”，threadId=01a191e7-b866-7842-bdf7-a430743c16df；最新Tools文件在Desktop主目录main的98f79fa未提交工作区。只读导出指定tracked补丁并迁入17个新文件（含证据/5SVG/JS/测试），源码精确hash匹配；scripts/build-site.js自动合并保留Blog，site/release.json按98f79fa三方JSON合并并设独立releaseId=blog-tools-release-2026-11-01，原gallery/引导文案签收与339字/HSK签名不变。未导入个人图片/.workbuddy等文件，未修改源工作区。
+- **交付**：五段中国风Tools画廊、竖线章节轨、滑动高亮、手机抽屉、五句Owner已确认英文引导、本机收藏/教师组卡复用现有Repo；保留Blog摄影、分类搜索和RSS。原聊天记录30/31以Tools-A/Tools-B标记追加到本日志，避免覆盖本聊天同号记录。
+- **合并验证**：生产2847文件/413英文页/404 index/9 noindex，Sitemap404、SEO errors=[]；192/192测试PASS，0fail/skip/cancel。冻结artifact SHA256=7b9a8d0444de4b5b452712bdfc894d633d864ea7630511dd2732a9d6fd0d93a4；本地Workers44项通过。内置浏览器真实姓名/未收录菜单/生肖春节边界/发字多音、真实收藏、教师revision1→2及全工作台/noindex、手机抽屉、Blog筛选搜索通过；10档布局无溢出、两页4档axe零违规、consoleErrors=[]。本地测试使用独立4182 origin。
+- **首轮发布实际记录**：Blog源码381cf9f已推送main，Cloudflare首轮3e74ad2c-de86-44f7-8749-27f993150182，2026-11-01 00:45:27 +08；随后出现wrangler来源d448b127-6331-464b-b719-0e5ebdd9c415，runtime/bindings相同，标准curl检查内容与冻结Blog包一致，未独立证明其触发提交。初始自定义UA的urllib校验响应异常单独留档，改用标准curl37项完成；robots确认是Cloudflare托管前缀+完全一致的原Allow/Sitemap规则，没有更改边缘策略。
+- **回滚/下一步**：新候选以当前实际d448b127为回滚目标，保留已上线Blog。静态指针回滚恢复0.594秒，未在线回滚演练；忽略.cache保存两包/指纹。先完成本次源码commit/push和同包部署，再核对实际版本/44线上项，补齐deployment与TASKS/PROGRESS最终状态。24小时/7天观察未自动创建，87缺字/Phase3范围不动。

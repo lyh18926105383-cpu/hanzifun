@@ -4939,6 +4939,15 @@
       "contentSha256": "f88f3158604657573e975dcf604e9327316f984a4f3e91d89654087ab6bc4b51",
       "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
       "scope": "Owner accepted the four cultural tools and local teacher module; this batch binds the components and their tested global integration. No account, cloud sync, textbook licence, human audio review or production deployment is implied."
+    },
+    "culture-teacher-gallery-2026-10-31": {
+      "humanContent": "approved",
+      "approvalBasis": "owner-authorized-visual-implementation",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-31",
+      "contentSha256": "429d9620edf0147b6d714c66f5f67426012e4d52336aab43239a2263a1ed762c",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+      "scope": "Owner explicitly authorized the left-rail/live-gallery redesign, original SVG assets and hash updates. This records preauthorized implementation, not an additional post-implementation human visual or listening review."
     }
   }
 }

@@ -1,0 +1,70 @@
+[
+  {
+    "file": "docs/hanzifun-rebuild/HF-12-TOOLS-GALLERY-VERIFICATION.md",
+    "sha256": "6ac338bd08ba2c694a1fc4f1818af7e9ce2d9fbc09dfb8109d019078fba4a3d1"
+  },
+  {
+    "file": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+    "sha256": "ac56cd4f9b38943f4c6dc68eeb6088a331b1f90dc24ee061ed960bfe43ea8c17"
+  },
+  {
+    "file": "docs/hanzifun-rebuild/evidence/tools-gallery/desktop-first-screen.png",
+    "sha256": "f1cafbd6aa1778139a29380b0c3d4ce4db5fe5fe3971b9863425446872d80fb7"
+  },
+  {
+    "file": "docs/hanzifun-rebuild/evidence/tools-gallery/desktop-first-two-studios.png",
+    "sha256": "63dea1f9abd95501ece5116af24d6900d47625c33cd749f28d02ccf67ffea3a0"
+  },
+  {
+    "file": "docs/hanzifun-rebuild/evidence/tools-gallery/desktop-lunar-zodiac.png",
+    "sha256": "40b1d062093f34f316ff711c45cf21df9356c01855730873ed7d86adda4d35bc"
+  },
+  {
+    "file": "docs/hanzifun-rebuild/evidence/tools-gallery/desktop-tattoo-checker.png",
+    "sha256": "e79e697d592759214ad1c3b3d43b5808a56e7d3a4842d4a2e30ea5ab34757787"
+  },
+  {
+    "file": "docs/hanzifun-rebuild/evidence/tools-gallery/mobile-lunar-zodiac.png",
+    "sha256": "79e319614dd772ffc9a4245783b49eff578578b1b8ebb4f2abe47897e402beba"
+  },
+  {
+    "file": "docs/hanzifun-rebuild/evidence/tools-gallery/verification.json",
+    "sha256": "342e7189906923b01dce443d1d394e45198505c7056a158e43884336404572bc"
+  },
+  {
+    "file": "docs/hanzifun-rebuild/evidence/tools-gallery/browser.json",
+    "sha256": "1a5e28aa4e43bb6274b056ae3445c8bb28e1b0e383ea7439bf4b3bc09451a669"
+  },
+  {
+    "file": "scripts/verify-tools-gallery-browser.mjs",
+    "sha256": "00f341654ae4e2a1dc2cd58080f16008d18114473cf9f517d0d3498152310f6b"
+  },
+  {
+    "file": "site/public/tools-art/name-scroll.svg",
+    "sha256": "22402500eaf5385ff70bdbee912ad5b72215247f3afd928992798cc4c1ca99db"
+  },
+  {
+    "file": "site/public/tools-art/tattoo-scroll.svg",
+    "sha256": "f452c3b187b55dc38dbe498ce8bbb25a1d3820c5fea97c83b891a0c62b9e382f"
+  },
+  {
+    "file": "site/public/tools-art/zodiac-scroll.svg",
+    "sha256": "91b908c05e305436a9fa8865c33aa642eff28b83be6ac20e68064ece025819a4"
+  },
+  {
+    "file": "site/public/tools-art/menu-scroll.svg",
+    "sha256": "64564bfbfbb9d83181188e7fd053d25376f08d920a7bc4466782aaef3d28fcd9"
+  },
+  {
+    "file": "site/public/tools-art/teacher-scroll.svg",
+    "sha256": "7f6653f153b5965145fc473a519f2e3174d08d6ab5bb186e1fae70c2097376a4"
+  },
+  {
+    "file": "src/client/tools-gallery.mjs",
+    "sha256": "fc626b475447beb0571ca33ee56ddf8ac9bfdd771e0962b6bf70d16cecf12cad"
+  },
+  {
+    "file": "tests/tools-gallery.test.mjs",
+    "sha256": "9f5b31cdc66a329bf8c0270c165d082657b1298378351c9b2e719bb150b1a4eb"
+  }
+]
