@@ -1,3 +1,4 @@
+import {toolsSeo,assertToolsAcceptance} from './tools-integration.mjs';
 import {editorialContent,articlePath,publicArticle} from './editorial-workflow.mjs';
 import {characterReviewState} from './publication-review.mjs';
 // One content contract for core landing templates and one indexing policy for every output.
@@ -23,6 +24,7 @@ export function effectivePolicy(route,environment) {
  return route;
 }
 export function assertEditorialReady(route) {
+ assertToolsAcceptance(route);
  const article=editorialContent.articles.find(a=>articlePath(a)===route.path);
  if(route.indexing==='index'&&article&&(!publicArticle(article)||!article.published))throw Error('Unapproved article indexing: '+route.path);
  const scenario=scenarioData.scenarios.find(s=>s.path===route.path);
@@ -46,8 +48,9 @@ const fixed={
  '/scenarios/business/icebreakers/':{title:'Chinese Business Icebreakers: Greetings & Introductions',h1:'Chinese Business Icebreakers',lead:'Use polite Chinese business icebreakers to greet someone respectfully, ask their name and thank them for their time.'}
 };
 export function coreSeo(routePath) {
+ if(toolsSeo[routePath])return toolsSeo[routePath];
  if(fixed[routePath])return fixed[routePath];
- if(routePath==='/academic/hsk-2/level-2/')return {title:'HSK 2.0 Level 2 Core Vocabulary: 86 Words with Audio',h1:'HSK 2.0 Level 2: 86 Core Words',lead:'Study 86 of the 150 additional HSK 2.0 level-2 words with pinyin, meanings, audio and links to complete character pages. This selected core list is not the full second-level syllabus.'};
+ if(routePath==='/academic/hsk-2/level-2/')return {title:'HSK 2.0 Level 2: 150 Vocabulary Entries with Audio',h1:'HSK 2.0 Level 2: 150 Additional Vocabulary Entries',lead:'Study all 150 additional HSK 2.0 level-2 entries with pinyin, meanings and audio. Character links and practice use the existing 339-character dictionary; 86 words have complete character-page coverage.'};
  const scenario=scenarioData.scenarios.find(s=>s.path===routePath);
  if(scenario)return {title:scenario.title+': Phrases, Pinyin & Audio',h1:scenario.title,lead:scenario.context};
  const m=/^\/dictionary\/([^/]+)\/$/.exec(routePath),c=m&&findCharacter(decodeURIComponent(m[1]));
@@ -68,6 +71,7 @@ export function safeJsonLd(value) {
 }
 export function structuredData(page,canonical,origin) {
  const graph=[{'@type':'WebPage','@id':canonical+'#page',url:canonical,name:page.title,description:page.description||page.title,inLanguage:page.lang||'en'}];
+ if(page.webApplication&&!page.path.startsWith('/tools/'))graph.push({'@type':'WebApplication',name:page.title,description:page.description,applicationCategory:'EducationalApplication',operatingSystem:'Any',url:canonical,inLanguage:'en'});
  if(page.editorialArticle){const a=page.editorialArticle;graph.push({'@type':'Article',headline:a.title,author:{'@type':a.author.kind==='human'?'Person':'Organization',name:a.author.name},dateModified:a.modified,...(a.published?{datePublished:a.published}:{}),url:canonical,mainEntityOfPage:canonical,citation:a.references.map(r=>r.url)});}
  if(page.path==='/')graph.push({'@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:'HanziFun',inLanguage:'en'});
  else if(page.path!=='/404.html')graph.push({'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:origin+'/'},{'@type':'ListItem',position:2,name:page.title,item:canonical}]});

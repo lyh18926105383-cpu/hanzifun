@@ -4919,5 +4919,26 @@
       "usableForIsolatedSyllable": false,
       "note": "Owner listening confirmation applies to existing contextual recording only; no isolated-syllable approval or playback binding inferred."
     }
+  },
+  "hskBatches": {
+    "hf14-hsk-data-2026-10-31": {
+      "status": "approved",
+      "approvalBasis": "owner-authorized-schema-and-source-validation",
+      "reviewer": "Codex (delegated schema/source validation under Owner authorization)",
+      "date": "2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/hf14-hsk-data-2026-10-31.json",
+      "levelTwoSha256": "521fe4d6732e18fe44edbe707fb7b37e91871f528ce8d44886075936ab31e48f",
+      "topicsSha256": "5847b5072e5aff0e39feb44b397a9c6ef309a685fcadea1b9f274b5819cb4be9"
+    }
+  },
+  "toolBatches": {
+    "culture-teacher-local-2026-10-31": {
+      "humanContent": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-31",
+      "contentSha256": "f88f3158604657573e975dcf604e9327316f984a4f3e91d89654087ab6bc4b51",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
+      "scope": "Owner accepted the four cultural tools and local teacher module; this batch binds the components and their tested global integration. No account, cloud sync, textbook licence, human audio review or production deployment is implied."
+    }
   }
 }

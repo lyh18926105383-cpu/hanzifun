@@ -248,13 +248,15 @@ async function buildSite() {
     const prototypePaths = prototypePages.map(page => page.path === '/worksheets/' ? '/kids/worksheets/' : page.path);
     const coreChars = coreCharacters();
     const hf07 = await import('../site/hsk-data.mjs');
+    const tools = await import('../site/tools-integration.mjs');
+    const integratedTools = tools.integrationPages();
     const {learningData} = await import('../site/learning-data.mjs');
     const learningLibrary=learningData();
     const manifest = routesModule.buildRouteManifest({
         prototypePaths,
         characters: coreChars,
         additionalCharacters: hf07.lexicon.characters.map(c=>c.glyph),
-        additionalPaths: [...workflow.worksheetPages().map(p=>p.path),...editorial.guides.map(g=>g.path),...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
+        additionalPaths: [...integratedTools.map(p=>p.path),...workflow.worksheetPages().map(p=>p.path),...editorial.guides.map(g=>g.path),...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
         contract: routesModule.routeContract,
         release: routesModule.releaseConfig,
     });
@@ -299,6 +301,9 @@ async function buildSite() {
     }
     const {learningPages} = await import('../site/pages/learning.mjs');
     learningPages().forEach(page => pages.set(page.path, page));
+    integratedTools.forEach(page=>pages.set(page.path,page));
+    writePublic('site-assets/tools/published-catalog.json',{items:(await import('../site/pages/cultural-tools.mjs')).publishedCatalog().items});
+    for(const name of ['cultural-tools','teacher-decks','tools-entry'])writePublic('site-assets/tools/'+name+'.mjs',fs.readFileSync(path.join(projectRoot,'src/client',name+'.mjs'),'utf8'));
     writePublic('site-assets/hf06/learning-data.json', learningData());
     for (const [directory, names] of [
         ['learning', ['scheduler.mjs','events.mjs','session.mjs','repository.mjs','legacy-import.mjs','write-lock.mjs','identity.mjs']],
@@ -319,6 +324,7 @@ async function buildSite() {
     shards.characters.push(...hf07.supplementalSearchEntries());
     for (const [name, entries] of Object.entries(shards)) writePublic('site-assets/search/'+name+'.hf04-v1.json', entries);
     const library = [
+        ...integratedTools.map(p=>({id:'tool:'+p.path,type:'Scenarios & articles',label:p.title,url:p.path,aliases:[p.title,p.description||'']})),
         ...decks.map(d=>({id:'deck:'+d.slug,type:'Flashcard sets',label:d.title,url:'/flashcards/decks/'+d.slug+'/',aliases:[d.title,d.description,...d.chars]})),
         ...safeArticles.map(a=>({id:'article:'+a.slug,type:'Scenarios & articles',label:a.title,url:'/blog/'+a.slug+'/',aliases:[a.title,a.category,...a.chars]})),
         ...editorial.guides.map(g=>({id:'guide:'+g.path,type:'Scenarios & articles',label:g.title,url:g.path,aliases:[g.title,g.description]})),

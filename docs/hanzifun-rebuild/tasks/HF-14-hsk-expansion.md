@@ -70,3 +70,11 @@
 可将下面整段直接作为后续开发对话的请求：
 
 > 请执行 HanziFun 的 HF-14「HSK 全量覆盖与学术索引扩展」。工作目录是 /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun。先完整阅读 docs/hanzifun-rebuild/tasks/HF-14-hsk-expansion.md、docs/hanzifun-rebuild/SPEC.md 的映射要求、docs/hanzifun-rebuild/TASKS.md、docs/hanzifun-rebuild/BASELINE.md，并核验当前 git status 与前置任务交付，不把本轮规划当作功能已经完成。目标是：两套 HSK 首批扩至 2 级，随后按限定使用范围逐级扩充并发布，完善学术发现入口。执行 SPEC 的 HSK 放行指令与 Tier 2 标准，不默认等待书面授权或 HF-11。 只完成该工作包的范围、交付物和验收，不顺带启动其他包或生产部署，不覆盖用户未提交文件。原型和父树既有工作最初位于 /Users/graceshi/.codex/worktrees/ec5f/汉字饭hanzifun，若 HF-01 已保全则采用其记录的新基线；不能因为主目录原先没有规则就忽略故事流程。凡涉及故事新增/修改/生成/验收，先完整阅读 STORY_COURSE_PRODUCTION_WORKFLOW.md，再查目标故事板、lessons.js 与人工确认点。按任务文件验证并报告真实结果、文件链接、未完成项和后续依赖；缺少外部配置时完成不依赖它的本地工作，但不要伪造接通或验收证据。
+
+## 2026-10-31 HSK 数据专线交接
+
+二级增量词表映射150/150、64例句与16主题/339审核字/383交叉归类已交付，181/181测试、构建/SEO/Chrome复核通过，Owner授权Schema/来源条件签收并绑定哈希。完整单字内链仍86/150，87缺字是否扩充及范围外SEO单条配置修改已询问，待回复；整个HF-14仍Partial，不勾选两版二级/全量验收。详见[本轮报告](../HF-14-HSK-DATA-VERIFICATION.md)。
+
+### Owner最终范围确认（2026-10-31，取代上方待回复状态）
+
+Owner明确保持339字，仅完成全量词表与现有字内链；87缺字为后续批次。另允许仅修改site/seo.mjs的HSK二级配置，150词标题/H1/摘要已落地。本轮确认范围Completed / PASS：重跑构建/SEO/181测试/Chrome全部通过，Sitemap399。HF-14全量等级包仍Partial；不扩字、不部署，不再将87字范围问题列为本轮阻塞。下一步见[最终验收报告](../HF-14-HSK-DATA-VERIFICATION.md)。

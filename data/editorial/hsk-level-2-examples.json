@@ -1,0 +1,457 @@
+{
+  "version": "hf14-level2-examples-v1",
+  "date": "2026-10-31",
+  "author": "Codex",
+  "reviewStatus": "ai-quick-reviewed",
+  "pinyinConvention": "Lexical tones, one syllable per Han character; neutral-tone context is explicit. This is a text/pinyin review, not a recording listening approval.",
+  "entries": [
+    {
+      "glyph": "帮助",
+      "reading": "bang1 zhu4",
+      "sentence": "请帮助我。",
+      "numeric": "qing3 bang1 zhu4 wo3",
+      "translation": "Please help me."
+    },
+    {
+      "glyph": "报纸",
+      "reading": "bao4 zhi3",
+      "sentence": "爸爸在看报纸。",
+      "numeric": "ba4 ba5 zai4 kan4 bao4 zhi3",
+      "translation": "Dad is reading a newspaper."
+    },
+    {
+      "glyph": "别",
+      "reading": "bie2",
+      "sentence": "别走。",
+      "numeric": "bie2 zou3",
+      "translation": "Don't go."
+    },
+    {
+      "glyph": "宾馆",
+      "reading": "bin1 guan3",
+      "sentence": "宾馆在学校旁边。",
+      "numeric": "bin1 guan3 zai4 xue2 xiao4 pang2 bian1",
+      "translation": "The hotel is beside the school."
+    },
+    {
+      "glyph": "次",
+      "reading": "ci4",
+      "sentence": "我去过一次。",
+      "numeric": "wo3 qu4 guo5 yi1 ci4",
+      "translation": "I have been there once."
+    },
+    {
+      "glyph": "从",
+      "reading": "cong2",
+      "sentence": "我从学校来。",
+      "numeric": "wo3 cong2 xue2 xiao4 lai2",
+      "translation": "I have come from school."
+    },
+    {
+      "glyph": "错",
+      "reading": "cuo4",
+      "sentence": "这个字写错了。",
+      "numeric": "zhe4 ge5 zi4 xie3 cuo4 le5",
+      "translation": "This character was written incorrectly."
+    },
+    {
+      "glyph": "打篮球",
+      "reading": "da3 lan2 qiu2",
+      "sentence": "他喜欢打篮球。",
+      "numeric": "ta1 xi3 huan5 da3 lan2 qiu2",
+      "translation": "He likes playing basketball."
+    },
+    {
+      "glyph": "等",
+      "reading": "deng3",
+      "sentence": "我在这里等你。",
+      "numeric": "wo3 zai4 zhe4 li3 deng3 ni3",
+      "translation": "I am waiting for you here."
+    },
+    {
+      "glyph": "懂",
+      "reading": "dong3",
+      "sentence": "我听懂了。",
+      "numeric": "wo3 ting1 dong3 le5",
+      "translation": "I understood what I heard."
+    },
+    {
+      "glyph": "服务员",
+      "reading": "fu2 wu4 yuan2",
+      "sentence": "服务员，请给我一杯水。",
+      "numeric": "fu2 wu4 yuan2 qing3 gei3 wo3 yi1 bei1 shui3",
+      "translation": "Excuse me, could I have a glass of water?"
+    },
+    {
+      "glyph": "告诉",
+      "reading": "gao4 su5",
+      "sentence": "请告诉我你的名字。",
+      "numeric": "qing3 gao4 su5 wo3 ni3 de5 ming2 zi5",
+      "translation": "Please tell me your name."
+    },
+    {
+      "glyph": "公共汽车",
+      "reading": "gong1 gong4 qi4 che1",
+      "sentence": "我坐公共汽车去学校。",
+      "numeric": "wo3 zuo4 gong1 gong4 qi4 che1 qu4 xue2 xiao4",
+      "translation": "I take the bus to school."
+    },
+    {
+      "glyph": "红",
+      "reading": "hong2",
+      "sentence": "这个苹果很红。",
+      "numeric": "zhe4 ge5 ping2 guo3 hen3 hong2",
+      "translation": "This apple is very red."
+    },
+    {
+      "glyph": "火车站",
+      "reading": "huo3 che1 zhan4",
+      "sentence": "火车站在哪里？",
+      "numeric": "huo3 che1 zhan4 zai4 na3 li3",
+      "translation": "Where is the train station?"
+    },
+    {
+      "glyph": "机场",
+      "reading": "ji1 chang3",
+      "sentence": "我去机场。",
+      "numeric": "wo3 qu4 ji1 chang3",
+      "translation": "I am going to the airport."
+    },
+    {
+      "glyph": "教室",
+      "reading": "jiao4 shi4",
+      "sentence": "教室里有十个人。",
+      "numeric": "jiao4 shi4 li3 you3 shi2 ge5 ren2",
+      "translation": "There are ten people in the classroom."
+    },
+    {
+      "glyph": "介绍",
+      "reading": "jie4 shao4",
+      "sentence": "我来介绍一下。",
+      "numeric": "wo3 lai2 jie4 shao4 yi1 xia4",
+      "translation": "Let me make an introduction."
+    },
+    {
+      "glyph": "近",
+      "reading": "jin4",
+      "sentence": "学校很近。",
+      "numeric": "xue2 xiao4 hen3 jin4",
+      "translation": "The school is very close."
+    },
+    {
+      "glyph": "就",
+      "reading": "jiu4",
+      "sentence": "我现在就去。",
+      "numeric": "wo3 xian4 zai4 jiu4 qu4",
+      "translation": "I will go right now."
+    },
+    {
+      "glyph": "咖啡",
+      "reading": "ka1 fei1",
+      "sentence": "我想喝咖啡。",
+      "numeric": "wo3 xiang3 he1 ka1 fei1",
+      "translation": "I would like some coffee."
+    },
+    {
+      "glyph": "开始",
+      "reading": "kai1 shi3",
+      "sentence": "我们开始上课。",
+      "numeric": "wo3 men5 kai1 shi3 shang4 ke4",
+      "translation": "We are starting the lesson."
+    },
+    {
+      "glyph": "考试",
+      "reading": "kao3 shi4",
+      "sentence": "明天有考试。",
+      "numeric": "ming2 tian1 you3 kao3 shi4",
+      "translation": "There is an exam tomorrow."
+    },
+    {
+      "glyph": "快乐",
+      "reading": "kuai4 le4",
+      "sentence": "生日快乐！",
+      "numeric": "sheng1 ri4 kuai4 le4",
+      "translation": "Happy birthday!"
+    },
+    {
+      "glyph": "累",
+      "reading": "lei4",
+      "sentence": "我今天很累。",
+      "numeric": "wo3 jin1 tian1 hen3 lei4",
+      "translation": "I am very tired today."
+    },
+    {
+      "glyph": "离",
+      "reading": "li2",
+      "sentence": "学校离我家很近。",
+      "numeric": "xue2 xiao4 li2 wo3 jia1 hen3 jin4",
+      "translation": "The school is very close to my home."
+    },
+    {
+      "glyph": "路",
+      "reading": "lu4",
+      "sentence": "这条路很长。",
+      "numeric": "zhe4 tiao2 lu4 hen3 chang2",
+      "translation": "This road is very long."
+    },
+    {
+      "glyph": "旅游",
+      "reading": "lv3 you2",
+      "sentence": "我们去北京旅游。",
+      "numeric": "wo3 men5 qu4 bei3 jing1 lv3 you2",
+      "translation": "We are travelling to Beijing."
+    },
+    {
+      "glyph": "慢",
+      "reading": "man4",
+      "sentence": "请说慢一点。",
+      "numeric": "qing3 shuo1 man4 yi1 dian3",
+      "translation": "Please speak a little more slowly."
+    },
+    {
+      "glyph": "每",
+      "reading": "mei3",
+      "sentence": "我每天喝茶。",
+      "numeric": "wo3 mei3 tian1 he1 cha2",
+      "translation": "I drink tea every day."
+    },
+    {
+      "glyph": "跑步",
+      "reading": "pao3 bu4",
+      "sentence": "他每天跑步。",
+      "numeric": "ta1 mei3 tian1 pao3 bu4",
+      "translation": "He runs every day."
+    },
+    {
+      "glyph": "票",
+      "reading": "piao4",
+      "sentence": "我买了两张票。",
+      "numeric": "wo3 mai3 le5 liang3 zhang1 piao4",
+      "translation": "I bought two tickets."
+    },
+    {
+      "glyph": "妻子",
+      "reading": "qi1 zi5",
+      "sentence": "这是我的妻子。",
+      "numeric": "zhe4 shi4 wo3 de5 qi1 zi5",
+      "translation": "This is my wife."
+    },
+    {
+      "glyph": "铅笔",
+      "reading": "qian1 bi3",
+      "sentence": "我用铅笔写字。",
+      "numeric": "wo3 yong4 qian1 bi3 xie3 zi4",
+      "translation": "I write characters with a pencil."
+    },
+    {
+      "glyph": "晴",
+      "reading": "qing2",
+      "sentence": "今天是晴天。",
+      "numeric": "jin1 tian1 shi4 qing2 tian1",
+      "translation": "Today is sunny."
+    },
+    {
+      "glyph": "让",
+      "reading": "rang4",
+      "sentence": "请让我看看。",
+      "numeric": "qing3 rang4 wo3 kan4 kan5",
+      "translation": "Please let me have a look."
+    },
+    {
+      "glyph": "身体",
+      "reading": "shen1 ti3",
+      "sentence": "他的身体很好。",
+      "numeric": "ta1 de5 shen1 ti3 hen3 hao3",
+      "translation": "He is in good health."
+    },
+    {
+      "glyph": "事情",
+      "reading": "shi4 qing5",
+      "sentence": "我有一件事情要告诉你。",
+      "numeric": "wo3 you3 yi1 jian4 shi4 qing5 yao4 gao4 su5 ni3",
+      "translation": "I have something to tell you."
+    },
+    {
+      "glyph": "手表",
+      "reading": "shou3 biao3",
+      "sentence": "我的手表在桌子上。",
+      "numeric": "wo3 de5 shou3 biao3 zai4 zhuo1 zi5 shang4",
+      "translation": "My watch is on the table."
+    },
+    {
+      "glyph": "送",
+      "reading": "song4",
+      "sentence": "我送你一本书。",
+      "numeric": "wo3 song4 ni3 yi1 ben3 shu1",
+      "translation": "I am giving you a book."
+    },
+    {
+      "glyph": "虽然……但是……",
+      "reading": "sui1 ran2 dan4 shi4",
+      "sentence": "虽然下雨，但是我想出去。",
+      "numeric": "sui1 ran2 xia4 yu3 dan4 shi4 wo3 xiang3 chu1 qu4",
+      "translation": "Although it is raining, I want to go out."
+    },
+    {
+      "glyph": "踢足球",
+      "reading": "ti1 zu2 qiu2",
+      "sentence": "我们去踢足球。",
+      "numeric": "wo3 men5 qu4 ti1 zu2 qiu2",
+      "translation": "Let's go and play football."
+    },
+    {
+      "glyph": "跳舞",
+      "reading": "tiao4 wu3",
+      "sentence": "她喜欢跳舞。",
+      "numeric": "ta1 xi3 huan5 tiao4 wu3",
+      "translation": "She likes dancing."
+    },
+    {
+      "glyph": "完",
+      "reading": "wan2",
+      "sentence": "我看完这本书了。",
+      "numeric": "wo3 kan4 wan2 zhe4 ben3 shu1 le5",
+      "translation": "I have finished reading this book."
+    },
+    {
+      "glyph": "往",
+      "reading": "wang3",
+      "sentence": "请往左走。",
+      "numeric": "qing3 wang3 zuo3 zou3",
+      "translation": "Please walk to the left."
+    },
+    {
+      "glyph": "希望",
+      "reading": "xi1 wang4",
+      "sentence": "我希望明天是晴天。",
+      "numeric": "wo3 xi1 wang4 ming2 tian1 shi4 qing2 tian1",
+      "translation": "I hope it will be sunny tomorrow."
+    },
+    {
+      "glyph": "洗",
+      "reading": "xi3",
+      "sentence": "吃饭前请洗手。",
+      "numeric": "chi1 fan4 qian2 qing3 xi3 shou3",
+      "translation": "Please wash your hands before eating."
+    },
+    {
+      "glyph": "笑",
+      "reading": "xiao4",
+      "sentence": "她笑了。",
+      "numeric": "ta1 xiao4 le5",
+      "translation": "She smiled."
+    },
+    {
+      "glyph": "颜色",
+      "reading": "yan2 se4",
+      "sentence": "你喜欢什么颜色？",
+      "numeric": "ni3 xi3 huan5 shen2 me5 yan2 se4",
+      "translation": "What colour do you like?"
+    },
+    {
+      "glyph": "羊肉",
+      "reading": "yang2 rou4",
+      "sentence": "我喜欢吃羊肉。",
+      "numeric": "wo3 xi3 huan5 chi1 yang2 rou4",
+      "translation": "I like eating lamb."
+    },
+    {
+      "glyph": "药",
+      "reading": "yao4",
+      "sentence": "药在桌子上。",
+      "numeric": "yao4 zai4 zhuo1 zi5 shang4",
+      "translation": "The medicine is on the table."
+    },
+    {
+      "glyph": "已经",
+      "reading": "yi3 jing1",
+      "sentence": "他已经回家了。",
+      "numeric": "ta1 yi3 jing1 hui2 jia1 le5",
+      "translation": "He has already gone home."
+    },
+    {
+      "glyph": "意思",
+      "reading": "yi4 si5",
+      "sentence": "这个字是什么意思？",
+      "numeric": "zhe4 ge5 zi4 shi4 shen2 me5 yi4 si5",
+      "translation": "What does this character mean?"
+    },
+    {
+      "glyph": "因为……所以……",
+      "reading": "yin1 wei4 suo3 yi3",
+      "sentence": "因为下雨，所以我不出去。",
+      "numeric": "yin1 wei4 xia4 yu3 suo3 yi3 wo3 bu4 chu1 qu4",
+      "translation": "Because it is raining, I am not going out."
+    },
+    {
+      "glyph": "阴",
+      "reading": "yin1",
+      "sentence": "今天是阴天。",
+      "numeric": "jin1 tian1 shi4 yin1 tian1",
+      "translation": "Today is cloudy."
+    },
+    {
+      "glyph": "游泳",
+      "reading": "you2 yong3",
+      "sentence": "他会游泳。",
+      "numeric": "ta1 hui4 you2 yong3",
+      "translation": "He can swim."
+    },
+    {
+      "glyph": "鱼",
+      "reading": "yu2",
+      "sentence": "我想吃鱼。",
+      "numeric": "wo3 xiang3 chi1 yu2",
+      "translation": "I would like to eat fish."
+    },
+    {
+      "glyph": "远",
+      "reading": "yuan3",
+      "sentence": "机场很远。",
+      "numeric": "ji1 chang3 hen3 yuan3",
+      "translation": "The airport is far away."
+    },
+    {
+      "glyph": "运动",
+      "reading": "yun4 dong4",
+      "sentence": "我喜欢运动。",
+      "numeric": "wo3 xi3 huan5 yun4 dong4",
+      "translation": "I like exercising."
+    },
+    {
+      "glyph": "丈夫",
+      "reading": "zhang4 fu5",
+      "sentence": "这是我的丈夫。",
+      "numeric": "zhe4 shi4 wo3 de5 zhang4 fu5",
+      "translation": "This is my husband."
+    },
+    {
+      "glyph": "着",
+      "reading": "zhe5",
+      "sentence": "门开着。",
+      "numeric": "men2 kai1 zhe5",
+      "translation": "The door is open."
+    },
+    {
+      "glyph": "准备",
+      "reading": "zhun3 bei4",
+      "sentence": "我准备去学校。",
+      "numeric": "wo3 zhun3 bei4 qu4 xue2 xiao4",
+      "translation": "I am getting ready to go to school."
+    },
+    {
+      "glyph": "走",
+      "reading": "zou3",
+      "sentence": "我们走吧。",
+      "numeric": "wo3 men5 zou3 ba5",
+      "translation": "Let's go."
+    },
+    {
+      "glyph": "最",
+      "reading": "zui4",
+      "sentence": "我最喜欢喝茶。",
+      "numeric": "wo3 zui4 xi3 huan5 he1 cha2",
+      "translation": "I like drinking tea best."
+    }
+  ]
+}

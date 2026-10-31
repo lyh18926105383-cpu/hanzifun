@@ -367,3 +367,11 @@ Phase 1 先基线、再学习闭环和首发验收，最后正式上线；阶段
 - `data/editorial/starter-100.json`、`site/pages/starter-100.mjs`：100个已批准字的非词频主题集合。
 - `scripts/review-editorial.mjs`、`scripts/verify-editorial-browser.mjs`、`tests/{editorial-workflow,starter-100}.test.mjs`：真实人审输入、独立访客旅程、打印与状态门控。
 - 实现/验证、任务盘点、候选和证据统一落在`docs/hanzifun-rebuild/{HF-13-VERIFICATION.md,REMAINING-TASKS-2026-10-31.md,releases/phase-2-editorial-starter-2026-10-31/,evidence/hf13/}`。大备份/逐文件hash仅放忽略的`.cache/releases/phase-2-editorial-starter-2026-10-31/`。
+
+## 2026-10-31 文化工具与教师本地集成
+
+- `site/pages/cultural-tools.mjs`：服务端审核目录装配；纯规则/渲染导出复用`src/client/cultural-tools.mjs`。
+- `site/pages/teacher-decks.mjs`与`src/client/teacher-decks.mjs`：本机工作台/版本化私人存储/快照/JSON/打印；不依赖账号后端。
+- `site/tools-integration.mjs`：六页面装配、独立SEO元信息、组件与页面哈希、Owner签收门控。
+- `src/client/tools-entry.mjs`：浏览器初始化；build-site精确分发三模块至`/site-assets/tools/`及仅339字公开目录。个人卡组/会话不进入构建。
+- 六既定路由在build-site管线覆写原占位；五个文化公共路由index，`/flashcards/teacher/`published-private/noindex。详见本轮验收报告。

@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-31T13:53:46.575Z",
+  "scope": "Isolated local Chrome production-build journeys; not production, owner storage or human calendar transcription",
+  "checks": [
+    "Name inputs change results and save a real favorite through the guest adapter",
+    "Menu known/unknown results refuse nonexistent character links",
+    "Lunar-year boundary changes on the supplied 2024 Observatory New Year date",
+    "Polyphonic tattoo lookup and all four inputs stay out of network URLs and POST requests",
+    "Real IndexedDB create, edit, reorder, revision increment, refresh and old snapshot isolation",
+    "JSON export/import and deletion preserve practice snapshots and the guest learning snapshot",
+    "A4 and Letter PDFs captured for 2-card and 100-card private sets",
+    "Two real tabs updating the same revision produce one success and one conflict",
+    "LocalStorage fallback saves and reloads without IndexedDB",
+    "No-JavaScript pages retain readable examples and prevent submitting private inputs"
+  ],
+  "layouts": [
+    {
+      "route": "/tools/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/tools/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/tools/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/tools/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/tools/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-menu-decoder/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-menu-decoder/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-menu-decoder/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-menu-decoder/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/tools/chinese-menu-decoder/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/tools/tattoo-character-checker/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/tools/tattoo-character-checker/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/tools/tattoo-character-checker/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/tools/tattoo-character-checker/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/tools/tattoo-character-checker/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/teacher/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/teacher/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/teacher/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/teacher/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/teacher/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "route": "/tools/",
+      "violations": 0
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "violations": 0
+    },
+    {
+      "route": "/tools/chinese-menu-decoder/",
+      "violations": 0
+    },
+    {
+      "route": "/tools/zodiac-elements-calculator/",
+      "violations": 0
+    },
+    {
+      "route": "/tools/tattoo-character-checker/",
+      "violations": 0
+    },
+    {
+      "route": "/flashcards/teacher/",
+      "violations": 0
+    }
+  ],
+  "pdfs": [
+    {
+      "file": "teacher-2-A4.pdf",
+      "cards": 2,
+      "paper": "A4"
+    },
+    {
+      "file": "teacher-2-Letter.pdf",
+      "cards": 2,
+      "paper": "Letter"
+    },
+    {
+      "file": "teacher-100-A4.pdf",
+      "cards": 100,
+      "paper": "A4"
+    },
+    {
+      "file": "teacher-100-Letter.pdf",
+      "cards": 100,
+      "paper": "Letter"
+    }
+  ],
+  "pageErrors": [],
+  "browser": "156.0.8078.79",
+  "status": "PASS"
+}

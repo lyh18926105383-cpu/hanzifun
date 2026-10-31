@@ -15,3 +15,11 @@
 本轮没有扩字或修改源锁、HF-10 批次签字，不启动账号/同步/Billing 或故事课。
 
 结果见 [验收记录](../HF-11-HF-12-VERIFICATION.md)、[二级来源回执](../evidence/hf12/level-2-verification.json)。
+
+## 2026-10-31 后续64词数据收口
+
+旧Deferred64词已全部完成来源/词典映射及64条逐字拼音原创例句，二级增量词表150/150、deferred=[]。但原延期原因是87个字库外汉字，完整字页仍覆盖86词；87字已列nextCharacterBatch，扩字须待Owner对范围冲突的答复。词表数据清零不等于完整单字内链清零；本轮不将HF-14整包标完成。181/181测试与构建/SEO/Chrome通过，Sitemap399，详见[后续报告](../HF-14-HSK-DATA-VERIFICATION.md)。
+
+### Owner最终范围确认（2026-10-31，取代上方待回复状态）
+
+Owner明确保持339字，仅完成全量词表与现有字内链；87缺字为后续批次。另允许仅修改site/seo.mjs的HSK二级配置，150词标题/H1/摘要已落地。本轮确认范围Completed / PASS：重跑构建/SEO/181测试/Chrome全部通过，Sitemap399。HF-14全量等级包仍Partial；不扩字、不部署，不再将87字范围问题列为本轮阻塞。下一步见[最终验收报告](../HF-14-HSK-DATA-VERIFICATION.md)。

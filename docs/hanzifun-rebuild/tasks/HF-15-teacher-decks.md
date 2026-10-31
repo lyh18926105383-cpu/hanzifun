@@ -1,6 +1,6 @@
 # HF-15｜教师私人组卡与教材映射边界
 
-状态：待执行（本轮只生成任务文档）。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
+状态：本地范围 Completed / PASS（2026-10-31 Owner明确接受无需账号版本；原Phase3账号/同步/教材范围未交付）。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
 
 | 项目 | 内容 |
 |---|---|
@@ -46,10 +46,10 @@
 
 ## 验收条件
 
-- [ ] 教师可创建 2—100 项卡组、修改、重开练习并打印；重复/未收录/超限反馈明确。
-- [ ] 编辑后旧会话仍显示旧版本内容；删除组不删独立学习历史。
+- [x] 教师可创建 2—100 项卡组、修改、重开练习并打印；重复/未收录/超限反馈明确。
+- [x] 编辑后旧会话仍显示旧版本内容；删除组不删独立学习历史。
 - [ ] A 不能读写/打印 B 私人组，未登录不能访问；默认不进入 sitemap。
-- [ ] 无授权教材时如实保持规划状态，组卡功能仍可完整验收。
+- [x] 无授权教材时如实保持规划状态，组卡功能仍可完整验收。
 
 ## 验证方法
 
@@ -68,3 +68,7 @@
 可将下面整段直接作为后续开发对话的请求：
 
 > 请执行 HanziFun 的 HF-15「教师私人组卡与教材映射边界」。工作目录是 /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun。先完整阅读 docs/hanzifun-rebuild/tasks/HF-15-teacher-decks.md、docs/hanzifun-rebuild/SPEC.md 的映射要求、docs/hanzifun-rebuild/TASKS.md、docs/hanzifun-rebuild/BASELINE.md，并核验当前 git status 与前置任务交付，不把本轮规划当作功能已经完成。目标是：让教师从真实字词与 HSK 范围创建自己的可练习、可打印卡组。 只完成该工作包的范围、交付物和验收，不顺带启动其他包或生产部署，不覆盖用户未提交文件。原型和父树既有工作最初位于 /Users/graceshi/.codex/worktrees/ec5f/汉字饭hanzifun，若 HF-01 已保全则采用其记录的新基线；不能因为主目录原先没有规则就忽略故事流程。凡涉及故事新增/修改/生成/验收，先完整阅读 STORY_COURSE_PRODUCTION_WORKFLOW.md，再查目标故事板、lessons.js 与人工确认点。按任务文件验证并报告真实结果、文件链接、未完成项和后续依赖；缺少外部配置时完成不依赖它的本地工作，但不要伪造接通或验收证据。
+
+## 2026-10-31 全局合龙验收
+
+Owner本轮明确将本机模块从原账号依赖中分离：CRUD/重排/revision/旧快照/JSON/IndexedDB与LocalStorage/单页打印已完成，工作台noindex。原“两账号A/B服务端权限、登录、同步、教材映射”条件只适用于未来账号版，不伪标为已实现。 生产构建、SEO、190/190测试、Chrome十组行为/30布局/6类axe与四PDF单页/渲染目视全部通过，Sitemap404。见[合龙报告](../HF-12-HF-15-INTEGRATION-VERIFICATION.md)。后续发布需新的HF-17/18；本轮未commit/push/部署。

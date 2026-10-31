@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-31T12:40:31.955Z",
+  "surface": "Local production build in isolated Chrome context; not an online or human listening review",
+  "checks": [
+    "150 vocabulary anchors / 64 aligned examples / 16 themes; absent character pages have no links",
+    "Dictionary → exact topic anchor → dictionary returnTo links",
+    "Existing level-two practice entry opens the character flashcard session",
+    "All vocabulary, examples and topic links are server-rendered without JavaScript"
+  ],
+  "layouts": [
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "violations": 0
+    },
+    {
+      "route": "/dictionary/水/",
+      "violations": 0
+    },
+    {
+      "route": "/dictionary/人/",
+      "violations": 0
+    }
+  ],
+  "pageErrors": [],
+  "browser": "156.0.8078.79",
+  "status": "PASS"
+}

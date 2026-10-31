@@ -48,10 +48,10 @@ test('HF11 stopping while voices load prevents a delayed utterance',async()=>{
  let voice=null,listener,spoken=0;const speech={getVoices:()=>voice?[voice]:[],addEventListener:(_,f)=>listener=f,removeEventListener(){},speak:()=>spoken++};
  const p=createPronunciationPlayer({speech,Utterance:class{},setTimer:()=>1,clearTimer(){}});const pending=p.play({text:'水'});p.stop();voice={lang:'zh-CN'};listener?.();assert.equal(await pending,false);assert.equal(spoken,0);
 });
-test('HF12 86 level-2 words reproduce from the locked XLSX and dictionary; scope never claims complete level 2 or HSK 3.0 expansion',()=>{
- assert.deepEqual(levelTwoCore(),levelTwo);assert.equal(levelTwo.coveredCount,86);assert.equal(levelTwo.deferred.length,64);assert.equal(levelTwo.sourceCount,150);
+test('HF12 full level-2 vocabulary mappings reproduce while character and HSK 3.0 coverage stay explicit',()=>{
+ assert.deepEqual(levelTwoCore(),levelTwo);assert.equal(levelTwo.coveredCount,150);assert.equal(levelTwo.deferred.length,0);assert.equal(levelTwo.fullyLinkedCount,86);assert.equal(levelTwo.nextCharacterBatch.length,87);assert.equal(levelTwo.sourceCount,150);
  assert.ok(levelTwo.entries.every(w=>w.level==='2'&&w.system==='hsk-2'&&w.cumulative===false&&w.characterIds.length));
- assert.match(levelTwoPage().content,/not the complete second-level list/);assert.equal(resolveRoutePolicy('/academic/hsk-2/level-2/').indexing,'index');
+ assert.match(levelTwoPage().content,/missing character pages/);assert.equal(resolveRoutePolicy('/academic/hsk-2/level-2/').indexing,'index');
 });
 test('HF12 three new scenarios keep token boundaries, complete character links, 15 speech controls and real practice decks',()=>{
  const lib=learningData();assert.equal(additionalScenarios.scenarios.length,3);
@@ -60,7 +60,7 @@ test('HF12 three new scenarios keep token boundaries, complete character links, 
   for(const x of s.sentences){assert.equal(x.tokens.map(t=>t[0]).join(''),x.text.replace(/\p{P}/gu,''));for(const [word] of x.tokens)for(const g of word){assert.ok(findCharacter(g));assert.ok(p.content.includes('/dictionary/'+encodeURIComponent(g)+'/'));assert.ok(deck.chars.includes(g));}}
   assert.equal(tree.filter(n=>attr(n,'aria-label')?.startsWith('Listen to sentence:')).length,5);
  }
- assert.equal(lib.decks.find(d=>d.slug==='hsk-2-2015-level-2-core').chars.length,new Set(levelTwo.entries.flatMap(w=>[...w.glyph])).size);
+ assert.equal(lib.decks.find(d=>d.slug==='hsk-2-2015-level-2-core').chars.length,new Set(levelTwo.entries.flatMap(w=>w.constituentBindings.filter(b=>b.path).map(b=>b.glyph))).size);
  assert.match(phaseTwoLinks('房'),/scenarios\/travel\/hotel/);assert.match(phaseTwoLinks('贵'),/academic\/hsk-2\/level-2\/#item-word:/);
 });
 test('HF12 owner-approved scenarios publish only with their independent current content signature',()=>{

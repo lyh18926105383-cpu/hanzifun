@@ -1,0 +1,39 @@
+{
+  "batchId": "hf14-hsk-data-2026-10-31",
+  "status": "approved",
+  "approvalBasis": "owner-authorized-schema-and-source-validation",
+  "reviewer": "Codex (delegated schema/source validation under Owner authorization)",
+  "date": "2026-10-31",
+  "evidence": "docs/hanzifun-rebuild/acceptance/hf14-hsk-data-2026-10-31.json",
+  "levelTwoSha256": "521fe4d6732e18fe44edbe707fb7b37e91871f528ce8d44886075936ab31e48f",
+  "topicsSha256": "5847b5072e5aff0e39feb44b397a9c6ef309a685fcadea1b9f274b5819cb4be9",
+  "authorization": "Owner task instruction 2026-10-31: 本批次符合 Schema 规范与来源校验的扩充内容执行哈希绑定与签收。 This is delegated data acceptance; it does not claim a new human reading or listening review.",
+  "counts": {
+    "status": "PASS",
+    "sourceEntries": 150,
+    "mappedEntries": 150,
+    "examples": 64,
+    "fullyLinkedWords": 86,
+    "nextCharacters": 87,
+    "topics": 16,
+    "topicCharacters": 339,
+    "topicBindings": 383,
+    "starterOverlap": 100
+  },
+  "humanListeningPerformed": false,
+  "newHumanLanguageReviewPerformed": false,
+  "originalCharacterApprovalsPreserved": 339,
+  "missingCharacterPagesApproved": false,
+  "sourceReleaseId": "hsk-2-2015",
+  "sourceSha256": "7e3c8cac7f8c2be9c0f8b48ed155db234d065b1d874bb98bdc8b845e7a70c76c",
+  "dictionarySourceSha256": "e6e14c761ebc1e66ae2ad7b08fc4c577d6927472bb059d70db6111f0c06abee9",
+  "boundary": "No new character identity/page or audio asset is released by this receipt. The 87 absent characters remain a separately identified next batch.",
+  "ownerScopeDecision": {
+    "date": "2026-10-31",
+    "basis": "Owner reply: 保持 339 字，仅完成全量词表与现有字内链，缺字列为后续批次",
+    "characterScope": 339,
+    "missingCharacterBacklog": 87,
+    "seoException": "Owner permits only the HSK 2.0 level-2 coreSeo configuration in site/seo.mjs."
+  },
+  "scopeStatus": "Complete for owner-confirmed full vocabulary mapping and existing-339 character links; 87 absent characters are future backlog."
+}

@@ -144,3 +144,50 @@ body{container: hf-layout / inline-size}
 
 /* HF-13 printable cards: both A4 and Letter fit six cards on one portrait page. */
 .worksheet-page{padding-top:32px;padding-bottom:32px}.worksheet-page h1{font-size:clamp(1.8rem,4vw,2.7rem)}.worksheet-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:24px 0}.worksheet-card{border:1px dashed #817c70;padding:18px;text-align:center;background:#fffdf8;break-inside:avoid;overflow-wrap:anywhere}.worksheet-card h2{font:4rem/1.2 'Kaiti SC','STKaiti',serif;margin:0 0 8px}.worksheet-card h2 a{text-decoration:none}.worksheet-card p{margin:8px 0}.worksheet-pinyin{font-size:1.3rem}.worksheet-cue,.worksheet-attribution{font-size:.85rem;line-height:1.5}.editorial-links li{display:flex;gap:16px;align-items:center}.editorial-preview{padding:16px;border-left:4px solid #a4392b}.worksheet-attribution{max-width:900px}@media(max-width:700px){.worksheet-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.worksheet-card{padding:12px}}@media print{@page{size:auto;margin:12mm}.worksheet-page{width:100%;max-width:none;padding:0}.worksheet-page h1{font-size:19pt;margin:0 0 6mm}.worksheet-cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:3mm;margin:0 0 5mm}.worksheet-card{height:84mm;padding:5mm 3mm;background:white;color:black;box-sizing:border-box}.worksheet-card h2{font-size:40pt}.worksheet-card p{font-size:11pt;line-height:1.35}.worksheet-card .worksheet-cue{font-size:9pt}.worksheet-attribution{font-size:8pt;line-height:1.35;color:black}.worksheet-card a{color:black}.worksheet-page .no-print{display:none!important}}
+
+/* Cultural tools and local teacher decks. Rules below use only hf-cultural- and hf-teacher- prefixes. */
+.hf-cultural-tool{margin:24px 0}
+.hf-cultural-form{display:grid;gap:12px;max-width:640px}
+.hf-cultural-form label{display:flex;flex-direction:column;gap:6px;font-weight:600}
+.hf-cultural-form input,.hf-cultural-form select,.hf-cultural-form textarea,.hf-teacher-form input,.hf-teacher-form textarea{font:inherit;min-height:44px;padding:9px 12px;border:1px solid #918776;border-radius:8px;background:#fffaf0;color:#263c33;max-width:100%}
+.hf-cultural-cards,.hf-teacher-choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:16px}
+.hf-cultural-card,.hf-teacher-choice{border:1px solid #d9d0c1;border-radius:16px;padding:16px;background:#fffdf8;min-width:0}
+.hf-cultural-card h2,.hf-cultural-card h3{font:500 28px/1.2 serif;margin:0 0 8px}
+.hf-cultural-char{margin-right:6px}
+.hf-cultural-note{color:#5c564c}
+.hf-cultural-five{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:16px}
+.hf-teacher-workspace{max-width:1100px}
+.hf-teacher-choices{max-height:420px;overflow:auto}
+.hf-teacher-choice{display:flex;gap:8px;align-items:center;border-radius:10px}
+.hf-teacher-print{box-sizing:border-box;margin:16px auto;background:#fff;color:#000}
+.hf-teacher-print[data-paper="A4"]{width:186mm;height:270mm}
+.hf-teacher-print[data-paper="Letter"]{width:190mm;height:250mm}
+.hf-teacher-print-grid{display:grid;grid-template-columns:repeat(var(--hf-cols),minmax(0,1fr));grid-template-rows:repeat(var(--hf-rows),minmax(0,1fr));width:100%;height:calc(100% - 12mm);gap:1.5mm}
+.hf-teacher-print h2{margin:0 0 2mm;font-size:11pt;line-height:1.2;break-after:avoid}
+.hf-teacher-card{box-sizing:border-box;border:1px dashed #817c70;padding:1.2mm;min-width:0;min-height:0;display:flex;flex-direction:column;align-items:center;text-align:center;break-inside:avoid;page-break-inside:avoid;overflow-wrap:anywhere}
+.hf-teacher-glyph{font:700 14pt/1 'Kaiti SC','STKaiti',serif;margin:0}
+.hf-teacher-meta{margin:0;font-size:7pt;line-height:1.15}
+.hf-teacher-trace{width:8mm;height:8mm;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;border:0.4pt solid #333;margin-top:0.8mm;flex:0 0 auto}
+.hf-teacher-trace span{border-right:0.3pt solid #bbb;border-bottom:0.3pt solid #bbb}
+.hf-teacher-print[data-density="roomy"] .hf-teacher-glyph{font-size:28pt}
+.hf-teacher-print[data-density="roomy"] .hf-teacher-meta{font-size:11pt}
+.hf-teacher-print[data-density="roomy"] .hf-teacher-trace{width:22mm;height:22mm}
+.hf-teacher-print[data-density="compact"] .hf-teacher-glyph{font-size:16pt}
+.hf-teacher-print[data-density="dense"] .hf-teacher-glyph{font-size:9pt}
+.hf-teacher-print[data-density="dense"] .hf-teacher-meta{font-size:5.5pt}
+.hf-teacher-print[data-density="dense"] .hf-teacher-trace{width:5mm;height:5mm}
+@media(max-width:800px){.hf-cultural-five{grid-template-columns:repeat(2,minmax(0,1fr))}.hf-cultural-five .hf-cultural-card:last-child{grid-column:1 / -1;max-width:calc((100% - 12px) / 2);justify-self:center}}
+@media print{
+  .hf-teacher-no-print,.hf-cultural-form,.hf-cultural-no-print{display:none!important}
+  .hf-teacher-print{break-after:avoid;page-break-after:avoid;margin:0}
+  .hf-teacher-card,.hf-teacher-print-grid{break-inside:avoid;page-break-inside:avoid}
+  @page{size:auto;margin:12mm}
+}
+
+/* Integrated teacher print output contains only the selected deck. */
+.hf-teacher-workspace [data-teacher-print-slot]{max-width:100%;overflow:auto}
+@media print{body.hf-teacher-printing> *{display:none!important}body.hf-teacher-printing>[data-teacher-print-document]{display:block!important}}
+
+/* Keep dense print cells within their border while retaining full meanings. */
+.hf-teacher-print .hf-teacher-glyph{margin:0 0 .5mm}
+.hf-teacher-print[data-density="dense"] .hf-teacher-card{padding:.6mm}

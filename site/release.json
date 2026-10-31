@@ -1,5 +1,5 @@
 {
-  "releaseId": "phase-2-editorial-starter-2026-10-31",
+  "releaseId": "phase-2-culture-teacher-local-2026-10-31",
   "prototypePathCount": 77,
   "defaultStatus": "preview",
   "statusPolicies": {
@@ -18,6 +18,10 @@
     "legacy": {
       "indexing": "inherit",
       "robots": "inherit"
+    },
+    "published-private": {
+      "indexing": "noindex",
+      "robots": "noindex,follow"
     }
   },
   "routes": {
@@ -42,13 +46,13 @@
     "/flashcards/": "published",
     "/flashcards/decks/": "published",
     "/flashcards/my-words/": "preview",
-    "/flashcards/teacher/": "planned",
+    "/flashcards/teacher/": "published-private",
     "/account/": "preview",
-    "/tools/": "planned",
-    "/tools/chinese-name-generator/": "preview",
-    "/tools/chinese-menu-decoder/": "preview",
-    "/tools/zodiac-elements-calculator/": "planned",
-    "/tools/tattoo-character-checker/": "planned",
+    "/tools/": "published",
+    "/tools/chinese-name-generator/": "published",
+    "/tools/chinese-menu-decoder/": "published",
+    "/tools/zodiac-elements-calculator/": "published",
+    "/tools/tattoo-character-checker/": "published",
     "/blog/": "published",
     "/search/": "preview",
     "/sign-in/": "planned",
@@ -567,6 +571,54 @@
       "contentSha256": "1472b2c4a10d0875bb966b1ccad11dfe62f07c08a41d1ef19dd2563cf7d6788e",
       "evidence": "docs/hanzifun-rebuild/acceptance/phase-2-hf12-language-review.md; Owner explicitly accepted all 15 sentences and physical-device checks in the 2026-10-27 Phase 2 closeout instruction.",
       "scope": "All three scenarios: Chinese, pinyin, English translations, token meanings and context, plus physical-device acceptance."
+    },
+    "/tools/": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
+      "batchId": "culture-teacher-local-2026-10-31",
+      "contentSha256": "a0c39069f4f324ad6490ee9d66fea01873d4fc00d649a84503f9ae1a30b0eb92"
+    },
+    "/tools/chinese-name-generator/": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
+      "batchId": "culture-teacher-local-2026-10-31",
+      "contentSha256": "8b4e2c31109815203f79438989e49d12c1eac8edd36565c284d8cf0ae444bacf"
+    },
+    "/tools/chinese-menu-decoder/": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
+      "batchId": "culture-teacher-local-2026-10-31",
+      "contentSha256": "a510891453705b64095359d0756ecb8a2ab51fce39601c8a2decbc25eca3ce75"
+    },
+    "/tools/zodiac-elements-calculator/": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
+      "batchId": "culture-teacher-local-2026-10-31",
+      "contentSha256": "59d2fd6d2e5aa982b3aa7715b47c77623acb9477ddc8c272c9d1859aa0e4f3c4"
+    },
+    "/tools/tattoo-character-checker/": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
+      "batchId": "culture-teacher-local-2026-10-31",
+      "contentSha256": "2e790c455a123e0d7eb2c14df24e149ae995655dd7c77979ee8ba00922e73bf5"
+    },
+    "/flashcards/teacher/": {
+      "status": "approved",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-31",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
+      "batchId": "culture-teacher-local-2026-10-31",
+      "contentSha256": "129488ad25151f651e5faf27163e86b5a8cf2e08c68526af009efae0721e7f19"
     }
   },
   "hf11": {
@@ -576,8 +628,49 @@
     "acceptance": "docs/hanzifun-rebuild/acceptance/phase-2-hf11-audio-signoff.md"
   },
   "hf12": {
-    "levelTwo": "86 of 150 additional HSK 2.0 level-2 words delivered; remaining 64 Deferred backlog; HSK 3.0 remains level 1",
+    "levelTwo": "150/150 additional HSK 2.0 level-2 vocabulary mappings; 64 new examples; 86 fully linked words; 87 missing character pages explicitly queued. HSK 3.0 remains level 1.",
     "newScenarios": "3 published scenarios; 15 sentences independently accepted by owner 2026-10-27",
     "contentSha256": "1472b2c4a10d0875bb966b1ccad11dfe62f07c08a41d1ef19dd2563cf7d6788e"
+  },
+  "hf14": {
+    "batchId": "hf14-hsk-data-2026-10-31",
+    "levelTwoSha256": "521fe4d6732e18fe44edbe707fb7b37e91871f528ce8d44886075936ab31e48f",
+    "topicsSha256": "5847b5072e5aff0e39feb44b397a9c6ef309a685fcadea1b9f274b5819cb4be9",
+    "evidence": "docs/hanzifun-rebuild/acceptance/hf14-hsk-data-2026-10-31.json",
+    "counts": {
+      "status": "PASS",
+      "sourceEntries": 150,
+      "mappedEntries": 150,
+      "examples": 64,
+      "fullyLinkedWords": 86,
+      "nextCharacters": 87,
+      "topics": 16,
+      "topicCharacters": 339,
+      "topicBindings": 383,
+      "starterOverlap": 100
+    },
+    "scopeDecision": {
+      "date": "2026-10-31",
+      "basis": "Owner reply: 保持 339 字，仅完成全量词表与现有字内链，缺字列为后续批次",
+      "characterScope": 339,
+      "missingCharacterBacklog": 87,
+      "seoException": "Owner permits only the HSK 2.0 level-2 coreSeo configuration in site/seo.mjs."
+    }
+  },
+  "cultureTeacher": {
+    "batchId": "culture-teacher-local-2026-10-31",
+    "contentSha256": "f88f3158604657573e975dcf604e9327316f984a4f3e91d89654087ab6bc4b51",
+    "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
+    "publicRoutes": [
+      "/tools/",
+      "/tools/chinese-name-generator/",
+      "/tools/chinese-menu-decoder/",
+      "/tools/zodiac-elements-calculator/",
+      "/tools/tattoo-character-checker/"
+    ],
+    "privateRoutes": [
+      "/flashcards/teacher/"
+    ],
+    "policy": "Public culture tools index; personal teacher workspace published-private/noindex,follow; no deck or session URL is published."
   }
 }

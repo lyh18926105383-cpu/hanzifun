@@ -2,8 +2,8 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 2。2026-10-28生产基线保留；2026-10-31本地新增候选准备完成，未部署。
-- **当前执行任务**：HF-13三方向文章与家庭/课堂打印本地Completed/PASS，Owner已回复“没问题”批准三篇正文；HF-14仅100字入门索引子项完成，整包Partial；HF-17本候选预检PASS，HF-18待本次范围/窗口授权及生产现状核验。
-- **状态**：主目录main已无冲突快进至226e88c；全量174/174测试PASS，生产构建2828文件/413英文页，399 index/14 noindex，Sitemap399、SEO零错误。候选`phase-2-editorial-starter-2026-10-31`；本地Chrome/Workers/打印和回滚演练证据已保存。保留音频静态MP3+设备中文TTS与64词Deferred。未commit/push/部署，原HF-10-auth/11-sync、HF-12文化工具、HF-14全量、HF-15/16仍未完成。最新总盘点见[剩余任务](REMAINING-TASKS-2026-10-31.md)。
+- **当前执行任务**：四文化工具与教师本地组卡全局合龙Completed / PASS；Owner内容hash签收已绑定，六路由正式挂载。HF-15本地无需账号范围已确认，原Phase3账号/同步/教材扩展未启动。
+- **状态**：Desktop主目录main；190/190测试PASS，生产2832文件/413英文页（404 index/9 noindex），Sitemap404、SEO errors=[]。候选`phase-2-culture-teacher-local-2026-10-31`未commit/push/部署；339字及87缺字后续批次决定不变。
 
 ---
 
@@ -355,3 +355,31 @@
 - **HF-17候选/回滚**：候选`phase-2-editorial-starter-2026-10-31`，源码与构建hash冻结；从git226e88c重建旧393包，新399包隔离回滚再恢复2.793秒，hash全匹配，不操作Owner存储/不切生产。大包、源归档与逐文件指纹放`.cache/releases/<releaseId>/`，Git只存轻量manifest/ACCEPTANCE/ROLLBACK与证据。生产当前版本未在本轮重新核验，旧f1e7d8af只作为2026-10-28留存证据。
 - **本轮文件**：新增`content/editorial/{articles.json,article.schema.json,worksheets.json,owner-decisions-2026-10-31.json,README.md}`、`data/editorial/starter-100.json`、`site/editorial-workflow.mjs`、`site/pages/starter-100.mjs`、`scripts/{review-editorial,verify-editorial-browser}.mjs`、`tests/{editorial-workflow,starter-100}.test.mjs`；修改`site/{editorial-content.mjs,seo.mjs,release.json,public/site-styles.css}`、`scripts/{build-site.js,validate-seo-quality.mjs}`、`tests/seo-quality.test.mjs`。文档新增HF-13-VERIFICATION、REMAINING-TASKS、acceptance/hf13-editorial-review、evidence/hf13、releases/<releaseId>；更新TASKS/PROGRESS、FILE_ARCHITECTURE与HF-13/14/17/18规范状态。
 - **遗留/下一个Agent精确切入点**：先读本记录、TASKS和`tasks/HF-18-migration-release.md`，再看本候选manifest/ACCEPTANCE/ROLLBACK和HF-13-VERIFICATION。若发布，核对主目录源码/构建指纹、实际生产版本及本次范围/窗口授权，部署相同包并线上验证六新增index路由、Sitemap399/旧入口/实际学习；内容审读已批准，无需重复询问或补造签字。后续可选原HF-12单工具或明确HF-14等级批次；原HF-10/11/15/16仍受Phase3阶段依据限制。音频与64词决策不变；本轮没有新账号/云同步/Billing/故事/付费API/自动监控。
+
+### [记录 27] - HSK 二级全量词表与339字主题交叉索引（By Codex，2026-10-31）
+
+- **目录/边界**：Owner指定Desktop主目录main施工；未在本聊天worktree开发，保留个人未跟踪文件。CSS、src/client、其余页面模板、锁源、字库、音频及339字原审核均与HEAD对照不变。只改data/scripts、hsk-data、hsk/dictionary两模板、release、HSK测试及docs；无Phase3/故事/部署。
+- **发现与实际收口**：旧64 Deferred涉及87个尚未入库汉字（另有两项“……”句式）。完成新增64词词典映射及64条原创逐字拼音/英译例句，全量来源150/150、deferred=[]；词典无整词的四项按片段来源组合。原339身份保持，完整字页覆盖仍86词，nextCharacterBatch逐项列87缺字及词头/源行，不造链接/别名/字卡，练习仍仅现有字。
+- **HF-14**：原100字集合保持不变；新增16个主题覆盖全部339审核字、383条交叉归类，含原100字全部。每条绑定既有教学readingId/审核hash/字典来源/发音manifest，主题↔字页↔词表锚点互链，声明非词频排名/非官方分类。
+- **条件签收**：依Owner本轮明确授权，Schema/来源校验PASS后以owner-authorized-schema-and-source-validation签收，写review-decisions.hskBatches、release.hf14与独立receipt；不伪称新增人工语言/音频听审、不改原339签名。双数据hash与release失配、内容/读音/交叉索引变化、签收缺失拒绝生产构建。
+- **验证**：用户要求三项命令全部退出0，生产2828文件/413英文页（399 index /14 noindex），SEO errors=[]、414 JSON-LD、Sitemap399，**181/181测试PASS（原174+新增7）**，fail/skip/cancel0。Chrome156四组行为PASS、五宽度无溢出、三类axe A/AA零违规、pageErrors=[]。首次浏览器计数误写1而例句有请/我两条实际链接，修正检查后重跑PASS；未改正文掩盖失败。未声称真人听审、跨浏览器/真机/完整MVP或线上验收。
+- **文件清单**：新增data/editorial/{hsk-level-2-examples,hsk-topic-selection}.json、data/hsk/topics.json、data/schemas/hsk-level-two.schema.json；修改data/hsk/level-2-core.json与data/editorial/review-decisions.json。新增scripts/{build-hsk-topics,validate-hsk-expansion,verify-hsk-expansion-browser}.mjs并改build-level-two-core.mjs；修改site/hsk-data.mjs、site/pages/{hsk,dictionary}.mjs与site/release.json；新增tests/hsk-expansion.test.mjs并改phase2-audio-scenarios.test.mjs。docs新增HF-14-HSK-DATA-VERIFICATION.md、acceptance/hf14-hsk-data-2026-10-31.json、evidence/hf14-hsk-data/{verification,browser}.json；更新TASKS/PROGRESS、HF-12/HF-14任务及data/hsk/README。
+- **遗留与精确切入点**：完整内链收口没有完成：已向Owner询问是否保持原339身份并新增87字，待回复前不扩字；同时site/seo.mjs不在允许写入范围且二级SEO硬编码86，已询问是否只改该条，未获答复保持86核心标题并在正文分别列86核心/64补充。下一Agent读本记录/验收报告与Owner答复，从level-2-core.nextCharacterBatch处理87字；不要把deferred词表0误读为缺字0。若授权改字或SEO需刷新哈希/验证；HF-14全包仍Partial、HSK3.0二级/高级未做；本轮未commit/push/部署，需重做本候选HF-17冻结，不能挪用旧候选manifest。
+
+### [记录 28] - Owner确认339字边界与HSK二级SEO单条例外收口（By Codex，2026-10-31）
+
+- **Owner原文决定**：“保持 339 字，仅完成全量词表与现有字内链，缺字列为后续批次”；“允许仅修改该条 HSK 二级 SEO 配置”。本条取代记录27中两项待答状态，不扩大授权至其他SEO配置或前端文件。
+- **落地**：87缺字保留data/hsk/level-2-core.json.nextCharacterBatch，不扩字、不加假页面/字卡；site/seo.mjs仅HSK2二级coreSeo一条修改title/h1/lead为150词，摘要仍明确339字库、86词完整字页覆盖。hsk.mjs将缺字文案明确为未来批次。release.hf14及独立签收receipt持久化Owner范围，双数据内容hash保持不变，原339字与签字不变。
+- **最终验证**：重新按顺序执行生产构建、SEO、npm test及Chrome专线，全部退出0；2828文件/413英文页（399 index/14 noindex），Sitemap399，SEO errors=[]，181/181测试PASS、0 fail/skip/cancel。Chrome156验证150词H1/摘要、例句/主题/现有字链接、练习跳转、无JS阅读，五宽度无溢出、三类axe A/AA零违规、pageErrors=[]。与HEAD对照证实seo.mjs只改获准单条，CSS/src/client/其余模板不变。
+- **本条修改文件**：site/seo.mjs（唯一授权例外）、site/pages/hsk.mjs、site/release.json、tests/hsk-expansion.test.mjs、scripts/verify-hsk-expansion-browser.mjs；acceptance/hf14-hsk-data-2026-10-31.json、evidence/hf14-hsk-data/{verification,browser}.json、HF-14-HSK-DATA-VERIFICATION.md、TASKS/PROGRESS、HF-12/HF-14任务及data/hsk/README。前轮数据清单见记录27，未重复更改源数据/哈希。
+- **状态/精确切入点**：本轮后端专线在Owner确认的339字范围内Completed / PASS，无待答范围问题；HF-14全部等级包仍Partial。87缺字仅在未来明确扩字任务中从nextCharacterBatch接手；HSK3.0二级/高级范围另行推进。当前候选未commit/push/部署；如需上线从本批verification.json与releaseId核对新HF-17/18，不挪用旧editorial冻结manifest。无账号/同步/Billing/故事/音频听审或生产验收声明。
+
+### [记录 29] - 四文化工具、教师本地工作台与全局门控合龙（By Codex，2026-10-31）
+
+- **授权/接力**：Owner明确解除Cursor并行文件锁，要求接入其四文化工具、教师页/客户端/样式/7测试，并正式签收内容。继续指定Desktop主目录main，承接原HSK未提交成果；不覆盖个人文件，不使用worktree施工。HF-15仅本地模式按Owner新决定前置，不引入原Phase3账号/同步/付费。
+- **挂载**：scripts/build-site.js接六条既定路由，未新增重复地址或改变77原型计数。/tools/及四工具published/index；/flashcards/teacher/以published-private/noindex,follow可用并排除Sitemap。工具hub卡片/nav、学习导航教师入口、搜索发现和三客户端模块/339字公开目录分发全部接通。
+- **工程补接**：文化工具纯逻辑迁至src/client/cultural-tools.mjs，server wrapper保留原接口，tools-entry初始化并接HF06真实收藏，避免浏览器加载fs/审核层。教师UI接API编辑重排/练习快照及重开/JSON；IndexedDB事务CAS和Web Locks处理真实双标签revision冲突，异步打开失败回退LocalStorage。无JS字段禁用防敏感输入提交。打印body隔离只输出教学卡，100卡均衡网格及边距修复防越框，保留完整释义。
+- **签收/SEO**：新增site/tools-integration.mjs，六路由独立SEO/结构化数据，批次culture-teacher-local-2026-10-31绑定组件字节/审核目录与6页内容、SEO。review-decisions.toolBatches、release.cultureTeacher/逐页pageReviews、独立acceptance receipt均有Owner/date/evidence/hash；过期/缺签和release失配拒绝。原339字符签名/HSK签收/音频manifest不变。历法依据是Cursor交付与Owner审核，不声称本轮重新爬抄官方全部历表。
+- **最终验证**：用户三项命令全退出0：生产2832文件/413英文页（404 index、9 noindex），SEO errors=[]、364核心页/418 JSON-LD、Sitemap404。**190/190测试PASS（181原有+Cursor7+合龙负例/分发2）**，0fail/skip/cancel。Chrome156十行为组、30布局、6类axe A/AA零违规、pageErrors=[]；真实收藏、IndexedDB刷新、编辑/排序/旧快照、导入导出、删除保留会话、两标签一成功一冲突、LocalStorage回退、无JS输入保护均通过。2/100卡各A4/Letter四PDF均单页，pypdf/Poppler逐份渲染与目视最终无越框；不把初版问题当最终通过。
+- **本轮文件**：新增site/tools-integration.mjs、src/client/{cultural-tools,tools-entry}.mjs、scripts/verify-tools-browser.mjs、tests/culture-teacher-integration.test.mjs；接入/调整Cursor的site/pages/{cultural-tools,teacher-decks}.mjs、src/client/teacher-decks.mjs、site/public/site-styles.css、tests/cultural-tools-teacher.test.mjs（原7项保留）。修改scripts/build-site.js、site/{seo.mjs,release.json,pages/learning.mjs}、data/editorial/review-decisions.json、tests/seo-quality.test.mjs；文档HF-12-HF-15-INTEGRATION-VERIFICATION、acceptance/culture-teacher-local-2026-10-31.json、evidence/culture-teacher-local/{browser,verification}.json、TASKS/PROGRESS/REMAINING及HF12/HF15任务、SPEC/FILE_ARCHITECTURE与routes契约。
+- **遗留/精确下一步**：本轮确认范围完成，未commit/push/部署。HF14仍非全等级，87缺字是后续批次；原账号/同步/付费/有授权教材范围未做。无IndexedDB且无Web Locks的旧浏览器LocalStorage仅乐观revision/写后校验，不宣称原子跨标签事务；未测所有浏览器/真机/线上。下一Agent先读本报告/本候选verification和releaseId，若发布重做HF17冻结/回滚/Workers及本次生产窗口核验，不复用旧候选manifest、不重问已获内容签收。

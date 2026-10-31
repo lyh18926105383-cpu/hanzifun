@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-31",
+  "branch": "main",
+  "head": "b4923a61fc42b22fce182f3ad4452979136dafce",
+  "releaseId": "phase-2-hsk-data-2026-10-31",
+  "status": "PASS: owner-confirmed full vocabulary mapping and existing-339 character links; 87 missing characters deferred to a future batch",
+  "counts": {
+    "newVocabulary": 64,
+    "levelTwoSource": 150,
+    "levelTwoMapped": 150,
+    "vocabularyDeferred": 0,
+    "newExamples": 64,
+    "fullyLinkedWords": 86,
+    "missingCharacters": 87,
+    "themes": 16,
+    "topicCharacters": 339,
+    "topicBindings": 383,
+    "starterOverlap": 100,
+    "tests": 181,
+    "testsPassed": 181,
+    "testsFailed": 0,
+    "sitemapUrls": 399,
+    "englishPages": 413,
+    "indexPages": 399,
+    "noindexPages": 14,
+    "buildFiles": 2828,
+    "jsonLdBlocks": 414
+  },
+  "commands": {
+    "HF_SITE_ENV=production npm run build:site": 0,
+    "node scripts/validate-seo-quality.mjs": 0,
+    "npm test": 0,
+    "node scripts/verify-hsk-expansion-browser.mjs": 0
+  },
+  "levelTwoSha256": "521fe4d6732e18fe44edbe707fb7b37e91871f528ce8d44886075936ab31e48f",
+  "topicsSha256": "5847b5072e5aff0e39feb44b397a9c6ef309a685fcadea1b9f274b5819cb4be9",
+  "protectedFilesUnchangedFromHEAD": true,
+  "existing339CharacterReviewsUnchanged": true,
+  "schemaSourceDelegatedAcceptance": true,
+  "newHumanLanguageOrListeningReview": false,
+  "deploymentPerformed": false,
+  "pendingDecisions": [],
+  "inputFiles": [
+    {
+      "file": "data/editorial/hsk-level-2-examples.json",
+      "sha256": "36e8c6661fca1ba1cbc80c9d3e7c18ee9a0164ec5894afa00da6a41f0be5a97b"
+    },
+    {
+      "file": "data/editorial/hsk-topic-selection.json",
+      "sha256": "b648bbe5eec518449ebb5dbba508c8f3479358ccabc3640a42be42fc16c8e006"
+    },
+    {
+      "file": "data/editorial/review-decisions.json",
+      "sha256": "c8b5b8cf776f3955ceb829eaf86f15f070cc0ddfaa0b4680f0a01204957e06ce"
+    },
+    {
+      "file": "data/hsk/level-2-core.json",
+      "sha256": "0eb355ea273d290c40aaf8a5642f3d52c41209951d26a8862cf188e6e7e2303d"
+    },
+    {
+      "file": "data/hsk/topics.json",
+      "sha256": "450d89f346d0cadba0afec29d6fea675ed8c532fba80f5af6802d817ffc05ed4"
+    },
+    {
+      "file": "data/schemas/hsk-level-two.schema.json",
+      "sha256": "3243fe05fd288daec486d43d93faaef59bd293d37bd86738dce216851011df0e"
+    },
+    {
+      "file": "scripts/build-level-two-core.mjs",
+      "sha256": "fb97625e6d404500fcb158d374e2ea2201d5301c891b9eefaec30ae090880236"
+    },
+    {
+      "file": "scripts/build-hsk-topics.mjs",
+      "sha256": "558a421e1355412d63e41c8cf0306165bf5d6b50a769f654791410c680f1bf2e"
+    },
+    {
+      "file": "scripts/validate-hsk-expansion.mjs",
+      "sha256": "7e614f338adb2cdc2e7e915a3057afe7c9ce4cb0634de48fef3d2db134c333ae"
+    },
+    {
+      "file": "scripts/verify-hsk-expansion-browser.mjs",
+      "sha256": "d50e5afa04d7dc47847da27b3a09e0ec5a66b2cbebc2ea6eab10506d669bb575"
+    },
+    {
+      "file": "site/hsk-data.mjs",
+      "sha256": "3bbe82a8b245467b4cd7f823e2477febb9597ff05a42576049fee69cd304bbd1"
+    },
+    {
+      "file": "site/pages/hsk.mjs",
+      "sha256": "60ac2c0e3342a798e2192e47a4814622b383fc4c02b6fdea30085c92a768f1b9"
+    },
+    {
+      "file": "site/pages/dictionary.mjs",
+      "sha256": "f15a3460b44bb4e752ffb9db32101b10b8145bd025c9b6c2f213d79438c2dba1"
+    },
+    {
+      "file": "site/release.json",
+      "sha256": "eaa100d47b03d0ddba5f63603664de8bbc71726f5cacc9ebd6bdd14c4a5a5a4e"
+    },
+    {
+      "file": "tests/hsk-expansion.test.mjs",
+      "sha256": "214a1a53a5d4440799b69fb558edcfe0925d0427ea5ea3e50b81bd47466a009d"
+    },
+    {
+      "file": "tests/phase2-audio-scenarios.test.mjs",
+      "sha256": "a89b1cd082331e9864641acb71339deedf607b2b3fa272b184e888d9a6567493"
+    },
+    {
+      "file": "site/seo.mjs",
+      "sha256": "a20033263d3bdbcfdeaddaee0b1825d926938790d9a4f09c63483a1d8ff119ff"
+    }
+  ],
+  "scopeDecision": {
+    "date": "2026-10-31",
+    "basis": "Owner reply: 保持 339 字，仅完成全量词表与现有字内链，缺字列为后续批次",
+    "characterScope": 339,
+    "missingCharacterBacklog": 87,
+    "seoException": "Owner permits only the HSK 2.0 level-2 coreSeo configuration in site/seo.mjs."
+  },
+  "seoExceptionChangedOnlyOneEntry": true
+}

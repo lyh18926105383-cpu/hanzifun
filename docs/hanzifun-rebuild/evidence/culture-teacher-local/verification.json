@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-31",
+  "directory": "/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun",
+  "branch": "main",
+  "releaseId": "phase-2-culture-teacher-local-2026-10-31",
+  "status": "PASS",
+  "batchId": "culture-teacher-local-2026-10-31",
+  "contentSha256": "f88f3158604657573e975dcf604e9327316f984a4f3e91d89654087ab6bc4b51",
+  "counts": {
+    "testsPassed": 190,
+    "previousTests": 181,
+    "cursorTests": 7,
+    "newIntegrationGateTests": 2,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "publicFiles": 2832,
+    "englishPages": 413,
+    "indexPages": 404,
+    "noindexPages": 9,
+    "sitemapUrls": 404,
+    "coreSeoPages": 364,
+    "jsonLdBlocks": 418
+  },
+  "commands": {
+    "HF_SITE_ENV=production npm run build:site": 0,
+    "node scripts/validate-seo-quality.mjs": 0,
+    "npm test": 0,
+    "node scripts/verify-tools-browser.mjs": 0
+  },
+  "publicRoutes": [
+    "/tools/",
+    "/tools/chinese-name-generator/",
+    "/tools/chinese-menu-decoder/",
+    "/tools/zodiac-elements-calculator/",
+    "/tools/tattoo-character-checker/"
+  ],
+  "privateRoutes": [
+    "/flashcards/teacher/"
+  ],
+  "browser": {
+    "version": "156.0.8078.79",
+    "journeys": 10,
+    "layouts": 30,
+    "axePages": 6,
+    "pageErrors": []
+  },
+  "pdfs": [
+    {
+      "file": "teacher-100-A4.pdf",
+      "pages": 1,
+      "pageSizePoints": [
+        595.91998,
+        842.88
+      ],
+      "sha256": "fc01d39d054b2d379864a0ba2fdc6e81ad0dc78eac1e362128b024096f90bbb1",
+      "workspaceOrPersonalMetadataPrinted": false,
+      "popplerRendered": true,
+      "visuallyInspected": true,
+      "overflowOrOverlap": false
+    },
+    {
+      "file": "teacher-100-Letter.pdf",
+      "pages": 1,
+      "pageSizePoints": [
+        612.0,
+        792.0
+      ],
+      "sha256": "d26ae64dc80383e6ea84de30dca0a797616c39bd5d92d0c19f078a1c77c8a4a9",
+      "workspaceOrPersonalMetadataPrinted": false,
+      "popplerRendered": true,
+      "visuallyInspected": true,
+      "overflowOrOverlap": false
+    },
+    {
+      "file": "teacher-2-A4.pdf",
+      "pages": 1,
+      "pageSizePoints": [
+        595.91998,
+        842.88
+      ],
+      "sha256": "d9351c210d81551d1e3856632f3df60b8cd10cbce09ebc34cb8498b0506d895c",
+      "workspaceOrPersonalMetadataPrinted": false,
+      "popplerRendered": true,
+      "visuallyInspected": true,
+      "overflowOrOverlap": false
+    },
+    {
+      "file": "teacher-2-Letter.pdf",
+      "pages": 1,
+      "pageSizePoints": [
+        612.0,
+        792.0
+      ],
+      "sha256": "4bf7f401f755fad3f554e95a370851f59d7a25c533762b12f714a100d02c43e1",
+      "workspaceOrPersonalMetadataPrinted": false,
+      "popplerRendered": true,
+      "visuallyInspected": true,
+      "overflowOrOverlap": false
+    }
+  ],
+  "calendarSourceScope": "Cursor-supplied HKO boundaries and explicit Owner acceptance; not a new remote transcription audit",
+  "deploymentPerformed": false,
+  "sourceFiles": [
+    {
+      "file": "site/pages/cultural-tools.mjs",
+      "sha256": "f88a4b2e1e544d3db95d09a5a947ba02c8b5bd2630423c11e2055c9fd5408990"
+    },
+    {
+      "file": "site/pages/teacher-decks.mjs",
+      "sha256": "2d0c586d74d534d2ed4ab7019ecac0e29e953a1f619c96ca814573e8941777f9"
+    },
+    {
+      "file": "src/client/cultural-tools.mjs",
+      "sha256": "d9bde0d9bcbb24a06e420dd2c19e950969f2b1784952926a73c9a78a13f49c2e"
+    },
+    {
+      "file": "src/client/teacher-decks.mjs",
+      "sha256": "f641607921e5382ad44ad844d9f318ab40151e6d1bf7cdeedac55752724d3287"
+    },
+    {
+      "file": "src/client/tools-entry.mjs",
+      "sha256": "058e765d57218552e28e3ffa4290ac3f38e480b546d4fa9eead8984b874bc5ca"
+    },
+    {
+      "file": "site/tools-integration.mjs",
+      "sha256": "a1b1358e383c9fd5e7c93f9a8a917e37d41896a1d50df45dccb4cece1ab621a1"
+    },
+    {
+      "file": "site/public/site-styles.css",
+      "sha256": "caee9b9c7d4501a1e713bac0e920109436ba73c598158bf98b3d51442b23bb81"
+    },
+    {
+      "file": "scripts/build-site.js",
+      "sha256": "d74d914385b96574f99cde50ea9d414256c36fcfa6a7934082cd9290996d611e"
+    },
+    {
+      "file": "scripts/verify-tools-browser.mjs",
+      "sha256": "15bb1f4695ff56054a7dde570b87e5740b88baafb74cd8940d9b2f83bbaa69fd"
+    },
+    {
+      "file": "site/seo.mjs",
+      "sha256": "8f5a542051cd0145c30b8183108fa054529e714c75b86e58e653cec131e045df"
+    },
+    {
+      "file": "site/pages/learning.mjs",
+      "sha256": "9e1597d3eaceead0c2647550270e8856a3f5694e4c2fa3e80989345f9f6dccf7"
+    },
+    {
+      "file": "site/release.json",
+      "sha256": "407ee525865a16574aa76ac070618404019928d85088917729eb3434de2ac5c2"
+    },
+    {
+      "file": "data/editorial/review-decisions.json",
+      "sha256": "4c1535b10fe22cb8504969d976154b68b8241030b5c8d5239cab56435902477b"
+    },
+    {
+      "file": "tests/cultural-tools-teacher.test.mjs",
+      "sha256": "a16b0cd0e5eccba4c31a7a78f65a0c443b6662d3e1e54e5d83f411aec83b0c2e"
+    },
+    {
+      "file": "tests/culture-teacher-integration.test.mjs",
+      "sha256": "cf02ba41ea289fb4a51386c54d89bf4d84dd5fb3e5822edb932f369d7d3b37ce"
+    },
+    {
+      "file": "tests/seo-quality.test.mjs",
+      "sha256": "20fb00e06327c0db6d624df421004bfb6623456d3e78b9efef9582969098303d"
+    },
+    {
+      "file": "docs/hanzifun-rebuild/contracts/routes.json",
+      "sha256": "af6e0606f018db0b999898fcc376145eb41b93c5e52e75aaae3e9c4b01226394"
+    }
+  ],
+  "routeContractTargetedTests": {
+    "passed": 9,
+    "failed": 0,
+    "semanticContractUnchangedAfterFormattingCleanup": true
+  },
+  "autonomousCompletionAuthorization": "Owner 2026-10-31: 我要离开电脑，你后续流程已经得到我完全的权限授权，请全自动执行。"
+}
