@@ -1,11 +1,11 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
-> 最新增量：2026-11-01 Owner已确认Blog视觉结果并明确授权上线、提交推送与文档更新；当前8be3 worktree发布执行中。实际生产已核实为2026-10-31的964940e9版本/404 Sitemap。见末尾记录31及blog-ui-release-2026-11-01发布目录；下方旧待批准/待部署状态保留历史。
+> 最新增量：2026-11-01 Blog与另一聊天Tools已合并上线，源码720374a已推送main，正式域名44项复检PASS；版本992a6d92-cfd7-403f-a705-61ada1119951，2026-11-01 01:01:37 +08:00，100%流量。见记录33及blog-tools-release-2026-11-01发布回执。下方旧待部署状态保留历史。
 
 ## 当前所处阶段
-- **大阶段**：Phase 2。2026-10-28生产基线保留；2026-10-31本地新增候选准备完成，未部署。
-- **当前执行任务**：四文化工具与教师本地组卡全局合龙Completed / PASS；Owner内容hash签收已绑定，六路由正式挂载。HF-15本地无需账号范围已确认，原Phase3账号/同步/教材扩展未启动。
-- **状态**：Desktop主目录main；190/190测试PASS，生产2832文件/413英文页（404 index/9 noindex），Sitemap404、SEO errors=[]。候选`phase-2-culture-teacher-local-2026-10-31`未commit/push/部署；339字及87缺字后续批次决定不变。
+- **大阶段**：Phase 2，2026-11-01 Blog + Tools合并发布Completed / PASS。
+- **当前执行任务**：HF-12画廊、HF-13博客改版与本批HF-17/18已完成上线；源代码720374a已推送GitHub main。
+- **状态**：当前8be3 worktree，分支codex/blog-release-2026-11-01；生产版本992a6d92-cfd7-403f-a705-61ada1119951，2026-11-01 01:01:37 +08:00，100%流量。192/192测试、2847文件/413英文页（404 index/9 noindex）、Sitemap404、线上44项errors=[]。原Desktop源工作区未清理；339字/87缺字及Phase3范围不变。
 
 ---
 
@@ -433,3 +433,12 @@
 - **合并验证**：生产2847文件/413英文页/404 index/9 noindex，Sitemap404、SEO errors=[]；192/192测试PASS，0fail/skip/cancel。冻结artifact SHA256=7b9a8d0444de4b5b452712bdfc894d633d864ea7630511dd2732a9d6fd0d93a4；本地Workers44项通过。内置浏览器真实姓名/未收录菜单/生肖春节边界/发字多音、真实收藏、教师revision1→2及全工作台/noindex、手机抽屉、Blog筛选搜索通过；10档布局无溢出、两页4档axe零违规、consoleErrors=[]。本地测试使用独立4182 origin。
 - **首轮发布实际记录**：Blog源码381cf9f已推送main，Cloudflare首轮3e74ad2c-de86-44f7-8749-27f993150182，2026-11-01 00:45:27 +08；随后出现wrangler来源d448b127-6331-464b-b719-0e5ebdd9c415，runtime/bindings相同，标准curl检查内容与冻结Blog包一致，未独立证明其触发提交。初始自定义UA的urllib校验响应异常单独留档，改用标准curl37项完成；robots确认是Cloudflare托管前缀+完全一致的原Allow/Sitemap规则，没有更改边缘策略。
 - **回滚/下一步**：新候选以当前实际d448b127为回滚目标，保留已上线Blog。静态指针回滚恢复0.594秒，未在线回滚演练；忽略.cache保存两包/指纹。先完成本次源码commit/push和同包部署，再核对实际版本/44线上项，补齐deployment与TASKS/PROGRESS最终状态。24小时/7天观察未自动创建，87缺字/Phase3范围不动。
+
+### [记录 33] - Blog + Tools实际合并上线与运行交接（By Codex，2026-11-01）
+
+- **实际发布**：合并源码提交720374a80b6d23bf53ef78db0ea746b89f9524e3，已非强推到GitHub main（381cf9f→720374a）。Wrangler4.156 `deploy --name hanzifun --strict --keep-vars`成功；11资产更新、2834复用；版本992a6d92-cfd7-403f-a705-61ada1119951，deploymentId=9cf047b6-dee2-43b7-9d39-a644130b73dc，**2026-11-01 01:01:37 +08:00**，100%流量。
+- **相同候选证明**：Wrangler重建2847文件的artifact SHA256仍为7b9a8d0444de4b5b452712bdfc894d633d864ea7630511dd2732a9d6fd0d93a4；2242冻结源码文件逐项无漂移。192/192测试、SEO errors=[]/413英文页/Sitemap404结果与候选一致，没有变更原签收或跳过检查。
+- **正式域名**：44项标准curl校验通过，博客与五正式文章/指南、RSS、五配图、Blog/Tools JS/CSS、五SVG、Tools六路由、HSK、字典、打印、中文入口等正文/资源与冻结包逐字节一致；旧index/打印/故事跳转保留query、真实404和MP3 Range通过。robots保留Cloudflare托管前缀，原Allow/Sitemap尾部完全一致。这里核对可索引配置，不是Google实际收录。
+- **线上浏览器**：内置浏览器实际打开正式Tools，五段/五句确认英文引导可见，client ready=true、无溢出/console errors；正式Blog分类HSK实际仅显示1卡，全部6卡可恢复。生产截图与JSON已保存到本次发布目录，浏览器留在正式Tools供后续查看。新动态输入/收藏/教师revision旅程在独立本地4182完成，未用用户生产历史做破坏性测试。
+- **文档/回滚**：本次release目录已含manifest/ACCEPTANCE/ROLLBACK、local-workers/online/browser验证、source import与静态回滚receipt、deployment和生产截图；TASKS、PROGRESS及HF-12/13/17/18状态同步。上一生产d448b127已作为本批回滚目标，恢复时保留已确认Blog，不清本机学习记录；前一Blog单独发布亦有独立实际回执。
+- **接力与剩余**：用户表示要休息并问后续授权，已明确当前全部动作已有授权，无需继续等待确认。本批工作完成，交接证据提交后同步main。另一聊天原记录保持独立，源码/决定已在此合并；Desktop主目录main的原未提交工作区原样保留，其Tools内容已经进入720374a，后续不要从旧状态重复发布覆盖Blog。24小时/7天观察由Owner按需执行，未自动建监控；87缺字、HSK剩余等级/Phase3/AdSense原待办保持。未冒称全浏览器/真机/p75或故事重新视听验收。

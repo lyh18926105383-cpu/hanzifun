@@ -1,6 +1,6 @@
 # HF-17｜按发布范围综合验收与回滚准备
 
-状态：**按releaseId复用；历史生产发布已执行，本候选预检PASS（2026-10-31）**。本地候选`phase-2-editorial-starter-2026-10-31`已冻结源码/构建hash，构建、SEO、174测试、浏览器/本地Workers及静态回滚/恢复通过；[清单/边界](../releases/phase-2-editorial-starter-2026-10-31/manifest.json)。HF-18实际部署尚未执行，旧签发不代替以后批次。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
+状态：**本次合并候选验收与实际发布完成 / PASS（2026-11-01）**。releaseId=`blog-tools-release-2026-11-01`；192测试/SEO/44线上项及浏览器增量检查通过，实际版本`992a6d92-cfd7-403f-a705-61ada1119951`。见[实际回执](../releases/blog-tools-release-2026-11-01/deployment.json)。下方工作流作为以后发布可复用规范，旧候选记录保留历史。
 
 | 项目 | 内容 |
 |---|---|

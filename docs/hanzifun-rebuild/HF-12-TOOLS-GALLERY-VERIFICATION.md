@@ -1,5 +1,7 @@
 # `/tools/` 左轨与中国风互动长画廊验收（2026-10-31）
 
+> 最新状态：本内容已随`blog-tools-release-2026-11-01`于2026-11-01 01:01:37 +08:00合并上线；源提交720374a，正式域名44项PASS。下方本地待部署/待确认状态为历史，见[实际回执](releases/blog-tools-release-2026-11-01/deployment.json)。
+
 Desktop指定主目录 `main`，基线 `98f79fa`。本轮按Owner明确视觉/交互要求与哈希签收授权交付，**本地Completed / PASS，未部署**；候选 `phase-2-tools-gallery-2026-10-31`。
 
 ## 交付

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-01",
+  "surface": "Official hanzifun.online in-app browser",
+  "tools": {
+    "sections": 5,
+    "confirmedGuideSentences": 5,
+    "clientReady": true,
+    "consoleErrors": []
+  },
+  "blog": {
+    "cards": 6,
+    "hskFilterVisibleCount": 1,
+    "consoleErrors": []
+  }
+}

@@ -1,7 +1,7 @@
 {
   "releaseId": "blog-tools-release-2026-11-01",
   "phase": 2,
-  "status": "owner-authorized-combined-candidate",
+  "status": "deployed-and-verified",
   "baseRevision": "381cf9fb98f97d8199abb624b41bb24c497fb9ed",
   "toolsSource": {
     "chatTitle": "完成 HSK 扩编与 HF-14 索引",
@@ -482,5 +482,9 @@
     "87 absent HSK characters remain future batch",
     "No real-device/cross-browser/p75 or renewed course/audio acceptance claimed",
     "Existing Cloudflare edge bot policies remain unchanged"
-  ]
+  ],
+  "sourceCommit": "720374a80b6d23bf53ef78db0ea746b89f9524e3",
+  "deploymentReceipt": "deployment.json",
+  "onlineVerification": "online-verification.json",
+  "productionBrowserEvidence": "production-browser.json"
 }

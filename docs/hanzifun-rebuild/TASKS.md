@@ -1,6 +1,6 @@
 # HanziFun 施工任务总表
 
-2026-10-31 · 对应 SPEC 1.2。**HF-01～09 已完成当前 Phase 1 候选范围验收并正式签发 PASS**；Phase 1 的141个成熟页面索引状态保留为历史基线，当前 Phase 2 HF-10 进度见下文。物理缺音仍保留明确边界。
+2026-11-01 · 对应 SPEC 1.2。**HF-01～09 已完成当前 Phase 1 候选范围验收并正式签发 PASS**；Phase 1 的141个成熟页面索引状态保留为历史基线，当前 Phase 2 HF-10 进度见下文。物理缺音仍保留明确边界。
 
 **开发主线：Phase 1 首发上线 → Phase 2 引流工具与内容 → Phase 3 账号、云同步与订阅。** 任务编号保留，以下按执行阶段排列；HF-12/13/14 已解除对 HF-11 的依赖。
 
@@ -8,14 +8,16 @@
 
 Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-chart/`；书法暂不规划。字页分 Tier 1 黄金完整版与 Tier 2 标准可用版，达到 Tier 2 即可发布/开放索引；30–50 个 Tier 1 是增强目标，不拦住标准字页上线。HSK 执行 [限定范围放行指令](SPEC.md#hsk-release-policy)，不默认等待第三方书面授权。
 
-## 当前合并发布：Blog + Tools（2026-11-01；Owner已授权，候选验证通过）
+## 当前合并发布：Blog + Tools（2026-11-01；已上线 / Completed / PASS）
 
 - [x] Blog已获人工视觉确认并先上线，源码381cf9f已推送main；实际首轮版本3e74ad2c及后续观察版本d448b127见首轮发布回执。
 - [x] Owner随后要求将另一聊天Tools一起部署；已从Desktop main只读迁入五段画廊/五句确认英文引导/本地SVG/客户端与原签收、192测试和证据，保留Blog功能，未改动源工作区。
 - [x] 合并候选2847文件/413英文页（404 index/9 noindex）、Sitemap404、SEO errors=[]、192/192 PASS；44项本地Workers检查、6组浏览器行为/10档布局/4档axe检查均通过；隔离回滚0.594秒。
-- [ ] 合并版commit/push、Cloudflare部署与正式域名复检执行中；[合并发布目录](releases/blog-tools-release-2026-11-01/manifest.json)。下方旧候选未部署记录为历史，当前状态以本节及最终回执为准。
+- [x] 合并源码`720374a`已commit/push至GitHub main；Cloudflare版本`992a6d92-cfd7-403f-a705-61ada1119951`于 **2026-11-01 01:01:37 +08:00** 承接100%流量；正式域名44项检查errors=[]，线上Blog筛选与Tools五场景/五句引导/client ready复核通过。[实际发布回执](releases/blog-tools-release-2026-11-01/deployment.json)。
+- [x] TASKS/PROGRESS、HF-12/13/17/18与回滚/发布证据已同步；下方未部署记录保留历史。Desktop源工作区原未提交内容已纳入本次合并，但其本地状态原样保留。
+- [ ] 后续24小时/7天及Google实际收录由Owner按需观察；没有创建自动监控。87缺字/HSK后续等级与Phase3仍按原范围推进。
 
-## HF-13 Blog视觉改版（2026-11-01；Owner已确认，发布执行中）
+## HF-13 Blog视觉改版（2026-11-01；Owner已确认并上线）
 
 - [x] 按Owner确认效果图实现暖米白/朱砂红/竹青绿、错落摄影带、Featured左右栏、三列文章卡片、响应式页眉页脚。
 - [x] 接入三篇已审核文章、两篇原指南及真实HSK资源；分类/搜索/空状态/重置、RSS与复制订阅链接可用。
@@ -154,8 +156,8 @@ P0 为核心、数据保护与发布关口；P1 为当前阶段主线；P2 为�
 | [HF-11 游客转账号、跨设备同步与 Phase 3 账号验收](tasks/HF-11-sync.md) | P1 | Phase 3 | HF-06、HF-10 | 游客合并、双设备同步与账号验收 |
 | [HF-16 定价、测试支付与服务端权益](tasks/HF-16-billing.md) | P1 | Phase 3 | HF-11 | 订阅、账单、退款/取消与权益 |
 | [HF-15 教师私人组卡与教材映射边界](tasks/HF-15-teacher-decks.md) ✅本地范围Completed / PASS；Phase3账号/教材范围保留 | P2 | Phase 3 可选 | HF-07、HF-11 | 私人卡组、历史版本与打印 |
-| [HF-17 按发布范围综合验收与回滚准备](tasks/HF-17-release-gate.md) ✅历史已执行；本候选预检PASS | P0 | 每次发布 | HF-09 + 所选批次验收 | 按 releaseId 的验收/回滚证据 |
-| [HF-18 最终迁移、授权发布与运行交接](tasks/HF-18-migration-release.md) ◐历史已上线；本候选待执行 | P0 | 每次发布 | HF-17 | 实际上线、生产冒烟与交接 |
+| [HF-17 按发布范围综合验收与回滚准备](tasks/HF-17-release-gate.md) ✅本次合并发布验收PASS（2026-11-01） | P0 | 每次发布 | HF-09 + 所选批次验收 | 按 releaseId 的验收/回滚证据 |
+| [HF-18 最终迁移、授权发布与运行交接](tasks/HF-18-migration-release.md) ✅本次合并发布上线PASS（2026-11-01） | P0 | 每次发布 | HF-17 | 实际上线、生产冒烟与交接 |
 
 ## 依赖与执行顺序
 

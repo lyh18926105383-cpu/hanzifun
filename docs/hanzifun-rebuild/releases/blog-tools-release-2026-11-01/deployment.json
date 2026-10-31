@@ -1,0 +1,37 @@
+{
+  "releaseId": "blog-tools-release-2026-11-01",
+  "worker": "hanzifun",
+  "sourceCommit": "720374a80b6d23bf53ef78db0ea746b89f9524e3",
+  "blogSourceCommit": "381cf9fb98f97d8199abb624b41bb24c497fb9ed",
+  "versionId": "992a6d92-cfd7-403f-a705-61ada1119951",
+  "deploymentId": "9cf047b6-dee2-43b7-9d39-a644130b73dc",
+  "trafficPercent": 100,
+  "deployedAt": "2026-10-31T17:01:37.294393Z",
+  "deployedAtSingapore": "2026-11-01 01:01:37 +08:00",
+  "previousVersionId": "d448b127-6331-464b-b719-0e5ebdd9c415",
+  "artifactSha256": "7b9a8d0444de4b5b452712bdfc894d633d864ea7630511dd2732a9d6fd0d93a4",
+  "sourceSha256": "d4c4a56d0dd95e044696bb0670feda23d3b438d67858c0e14889606c4291b359",
+  "publicFiles": 2847,
+  "englishPages": 413,
+  "indexablePages": 404,
+  "noindexPages": 9,
+  "sitemapUrls": 404,
+  "tests": {
+    "passed": 192,
+    "failed": 0,
+    "skipped": 0
+  },
+  "seoErrors": [],
+  "productionVerification": {
+    "httpChecks": 44,
+    "errors": [],
+    "browser": "Official Blog filter and Tools client/five guide sentences verified; see production-browser.json",
+    "edgeRobots": "Managed Cloudflare prefix retained; origin rules match"
+  },
+  "github": {
+    "branch": "main",
+    "sourcePush": "confirmed successful",
+    "sourceCommit": "720374a80b6d23bf53ef78db0ea746b89f9524e3"
+  },
+  "followup": "24-hour/7-day monitoring remains manual; no automation scheduled"
+}

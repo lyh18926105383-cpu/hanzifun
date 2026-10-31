@@ -7,3 +7,7 @@ Production build: 2847 public files, 413 English pages, 404 indexed URLs / 9 noi
 Previous production version is d448b127-6331-464b-b719-0e5ebdd9c415: a subsequent wrangler-origin version after the Blog deployment. Its runtime/bindings match and standard curl checks match the approved Blog artifact, with a separately identified Cloudflare-managed robots prefix. The triggering commit of that intermediate version was not independently proven. No edge bot policy is disabled.
 
 The frozen Blog-only and combined artifacts are retained in ignored .cache/releases/blog-tools-release-2026-11-01/. Isolated rollback/restore took 0.594 seconds. Actual deployment and online checks are in deployment.json and online-verification.json when completed. No new account/sync/billing, dictionary expansion or story/media changes are included.
+
+## Actual production result
+
+Deployed 2026-11-01 01:01:37 +08:00, version `992a6d92-cfd7-403f-a705-61ada1119951`, deployment `9cf047b6-dee2-43b7-9d39-a644130b73dc`, 100% traffic. All 44 official-domain checks pass. The online Blog filter and Tools client readiness, five scenes and guide sentences are verified. Source commit `720374a` is pushed to GitHub main. Wrangler rebuilt artifact hash matches the frozen candidate, and all 2242 frozen source files remain unchanged.
