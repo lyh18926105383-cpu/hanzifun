@@ -1,0 +1,380 @@
+{
+  "source_sha256": "1222ad5797fab9c48b8f25cf99b989bbb789cc94ab17cd7a804494b7546772c0",
+  "date_range": [
+    "2026-07-31",
+    "2026-10-30"
+  ],
+  "filters": [
+    {
+      "过滤器": "搜索类型",
+      "值": "网页（基于文本）"
+    },
+    {
+      "过滤器": "日期",
+      "值": "过去 3 个月"
+    }
+  ],
+  "totals_by_export": {
+    "图表.csv": {
+      "rows": 92,
+      "clicks": 2,
+      "impressions": 86,
+      "ctr_pct": 2.3255813953488373,
+      "approx_impression_weighted_position": 14.632558139534884
+    },
+    "查询数.csv": {
+      "rows": 6,
+      "clicks": 0,
+      "impressions": 12,
+      "ctr_pct": 0.0,
+      "approx_impression_weighted_position": 18.668333333333333
+    },
+    "网页.csv": {
+      "rows": 48,
+      "clicks": 2,
+      "impressions": 101,
+      "ctr_pct": 1.9801980198019802,
+      "approx_impression_weighted_position": 13.207920792079207
+    },
+    "国家_地区.csv": {
+      "rows": 30,
+      "clicks": 2,
+      "impressions": 86,
+      "ctr_pct": 2.3255813953488373,
+      "approx_impression_weighted_position": 14.603953488372094
+    },
+    "设备.csv": {
+      "rows": 2,
+      "clicks": 2,
+      "impressions": 86,
+      "ctr_pct": 2.3255813953488373,
+      "approx_impression_weighted_position": 14.60860465116279
+    },
+    "搜索结果呈现.csv": {
+      "rows": 1,
+      "clicks": 0,
+      "impressions": 4,
+      "ctr_pct": 0.0,
+      "approx_impression_weighted_position": 4.25
+    }
+  },
+  "months": {
+    "2026-07": {
+      "rows": 1,
+      "clicks": 0,
+      "impressions": 0,
+      "ctr_pct": null,
+      "approx_impression_weighted_position": null
+    },
+    "2026-08": {
+      "rows": 31,
+      "clicks": 1,
+      "impressions": 8,
+      "ctr_pct": 12.5,
+      "approx_impression_weighted_position": 13.775
+    },
+    "2026-09": {
+      "rows": 30,
+      "clicks": 0,
+      "impressions": 4,
+      "ctr_pct": 0.0,
+      "approx_impression_weighted_position": 3.25
+    },
+    "2026-10": {
+      "rows": 30,
+      "clicks": 1,
+      "impressions": 74,
+      "ctr_pct": 1.3513513513513513,
+      "approx_impression_weighted_position": 15.340540540540541
+    }
+  },
+  "last_four_days": {
+    "rows": 4,
+    "clicks": 1,
+    "impressions": 67,
+    "ctr_pct": 1.492537313432836,
+    "approx_impression_weighted_position": 16.75223880597015
+  },
+  "daily_recent": [
+    {
+      "日期": "2026-10-20",
+      "点击次数": "0",
+      "展示": "4",
+      "点击率": "0%",
+      "排名": "1.2"
+    },
+    {
+      "日期": "2026-10-21",
+      "点击次数": "0",
+      "展示": "1",
+      "点击率": "0%",
+      "排名": "1"
+    },
+    {
+      "日期": "2026-10-22",
+      "点击次数": "0",
+      "展示": "0",
+      "点击率": "",
+      "排名": ""
+    },
+    {
+      "日期": "2026-10-23",
+      "点击次数": "0",
+      "展示": "0",
+      "点击率": "",
+      "排名": ""
+    },
+    {
+      "日期": "2026-10-24",
+      "点击次数": "0",
+      "展示": "0",
+      "点击率": "",
+      "排名": ""
+    },
+    {
+      "日期": "2026-10-25",
+      "点击次数": "0",
+      "展示": "0",
+      "点击率": "",
+      "排名": ""
+    },
+    {
+      "日期": "2026-10-26",
+      "点击次数": "0",
+      "展示": "0",
+      "点击率": "",
+      "排名": ""
+    },
+    {
+      "日期": "2026-10-27",
+      "点击次数": "1",
+      "展示": "6",
+      "点击率": "16.67%",
+      "排名": "25.7"
+    },
+    {
+      "日期": "2026-10-28",
+      "点击次数": "0",
+      "展示": "16",
+      "点击率": "0%",
+      "排名": "13.8"
+    },
+    {
+      "日期": "2026-10-29",
+      "点击次数": "0",
+      "展示": "17",
+      "点击率": "0%",
+      "排名": "13"
+    },
+    {
+      "日期": "2026-10-30",
+      "点击次数": "0",
+      "展示": "28",
+      "点击率": "0%",
+      "排名": "18.8"
+    }
+  ],
+  "queries": [
+    {
+      "热门查询": "\"online flashcards\"",
+      "点击次数": "0",
+      "展示": "6",
+      "点击率": "0%",
+      "排名": "2.17"
+    },
+    {
+      "热门查询": "汉字卡",
+      "点击次数": "0",
+      "展示": "2",
+      "点击率": "0%",
+      "排名": "50.5"
+    },
+    {
+      "热门查询": "kuai qian",
+      "点击次数": "0",
+      "展示": "1",
+      "点击率": "0%",
+      "排名": "7"
+    },
+    {
+      "热门查询": "xi meaning japanese",
+      "点击次数": "0",
+      "展示": "1",
+      "点击率": "0%",
+      "排名": "8"
+    },
+    {
+      "热门查询": "文从字顺",
+      "点击次数": "0",
+      "展示": "1",
+      "点击率": "0%",
+      "排名": "11"
+    },
+    {
+      "热门查询": "尖笔顺",
+      "点击次数": "0",
+      "展示": "1",
+      "点击率": "0%",
+      "排名": "84"
+    }
+  ],
+  "top_pages": [
+    {
+      "排名靠前的网页": "https://hanzifun.online/",
+      "点击次数": "2",
+      "展示": "21",
+      "点击率": "9.52%",
+      "排名": "6.38"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/pinyin-chart/",
+      "点击次数": "0",
+      "展示": "7",
+      "点击率": "0%",
+      "排名": "28.14"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/flashcards/",
+      "点击次数": "0",
+      "展示": "6",
+      "点击率": "0%",
+      "排名": "2.17"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/dictionary/pinyin/",
+      "点击次数": "0",
+      "展示": "6",
+      "点击率": "0%",
+      "排名": "9.67"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/story?lesson=cucumber-flower-08",
+      "点击次数": "0",
+      "展示": "5",
+      "点击率": "0%",
+      "排名": "3.8"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/dictionary/钱/",
+      "点击次数": "0",
+      "展示": "3",
+      "点击率": "0%",
+      "排名": "9"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/dictionary/所/",
+      "点击次数": "0",
+      "展示": "3",
+      "点击率": "0%",
+      "排名": "10"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/zh/",
+      "点击次数": "0",
+      "展示": "2",
+      "点击率": "0%",
+      "排名": "4"
+    }
+  ],
+  "query_coverage_pct": 13.953488372093023,
+  "last_four_days_impression_share_pct": 77.90697674418605,
+  "parameter_urls": [
+    {
+      "排名靠前的网页": "https://hanzifun.online/story?lesson=cucumber-flower-08",
+      "点击次数": "0",
+      "展示": "5",
+      "点击率": "0%",
+      "排名": "3.8"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/dictionary/您/?returnTo=/scenarios/business/icebreakers/%23greeting-token-0",
+      "点击次数": "0",
+      "展示": "1",
+      "点击率": "0%",
+      "排名": "2"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/stroke-order/?char=%E5%A4%9C",
+      "点击次数": "0",
+      "展示": "1",
+      "点击率": "0%",
+      "排名": "2"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/dictionary/面/?returnTo=/academic/hsk-2/level-2/%23item-word:9762-6761",
+      "点击次数": "0",
+      "展示": "1",
+      "点击率": "0%",
+      "排名": "9"
+    },
+    {
+      "排名靠前的网页": "https://hanzifun.online/story.html?lesson=cucumber-flower-08",
+      "点击次数": "0",
+      "展示": "1",
+      "点击率": "0%",
+      "排名": "10"
+    }
+  ],
+  "dictionary_page_rows": {
+    "rows": 37,
+    "clicks": 0,
+    "impressions": 49,
+    "ctr_pct": 0.0,
+    "approx_impression_weighted_position": 16.367346938775512
+  },
+  "analysisDate": "2026-11-02",
+  "analysisTimezone": "Asia/Singapore",
+  "gscDailyTimezone": "Pacific Time (PT), per Google documentation; source dates preserved",
+  "sourceArchive": "/Users/graceshi/Downloads/hanzifun.online-Performance-on-Search-2026-11-01.zip",
+  "extractedUnchangedSources": {
+    "图表.csv": {
+      "path": "/Users/graceshi/.codex/visualizations/2026/11/01/01a197a2-54a9-7b22-b576-0f33db6bc311/gsc-2026-11-01/source/图表.csv",
+      "sha256": "743706186d7d463310284a8a789f97ea0458738e044a65230e63f021c905c3f8",
+      "rows": 92
+    },
+    "查询数.csv": {
+      "path": "/Users/graceshi/.codex/visualizations/2026/11/01/01a197a2-54a9-7b22-b576-0f33db6bc311/gsc-2026-11-01/source/查询数.csv",
+      "sha256": "1c85a2ef1cb9c1ecce6381b8f4a98355181babffa8199f4702d40a7954a2ea08",
+      "rows": 6
+    },
+    "网页.csv": {
+      "path": "/Users/graceshi/.codex/visualizations/2026/11/01/01a197a2-54a9-7b22-b576-0f33db6bc311/gsc-2026-11-01/source/网页.csv",
+      "sha256": "f9234df5fa0d2d23dfe8ee6405879ce5aa1f412dac7bbd42baf6c3c4db701a31",
+      "rows": 48
+    },
+    "国家_地区.csv": {
+      "path": "/Users/graceshi/.codex/visualizations/2026/11/01/01a197a2-54a9-7b22-b576-0f33db6bc311/gsc-2026-11-01/source/国家_地区.csv",
+      "sha256": "7b205c6ae083d9f135f7dcbfb8fc1a9b5f8d9f1d67539bb0216b8fdb76f4ac06",
+      "rows": 30
+    },
+    "设备.csv": {
+      "path": "/Users/graceshi/.codex/visualizations/2026/11/01/01a197a2-54a9-7b22-b576-0f33db6bc311/gsc-2026-11-01/source/设备.csv",
+      "sha256": "5c8d4a39c21e0e7fb151076b4d8cd2a7d3d998c571fe2c74d666a9439dc065e3",
+      "rows": 2
+    },
+    "搜索结果呈现.csv": {
+      "path": "/Users/graceshi/.codex/visualizations/2026/11/01/01a197a2-54a9-7b22-b576-0f33db6bc311/gsc-2026-11-01/source/搜索结果呈现.csv",
+      "sha256": "6be2ed0446839b34d40e0a647f7f2ac2689f5affcf4c37409ddcf2244df25d44",
+      "rows": 1
+    },
+    "过滤器.csv": {
+      "path": "/Users/graceshi/.codex/visualizations/2026/11/01/01a197a2-54a9-7b22-b576-0f33db6bc311/gsc-2026-11-01/source/过滤器.csv",
+      "sha256": "9821143637b17508eb8544a9a0946d396697070e8fa2e1f598d5b7604e30e391",
+      "rows": 2
+    }
+  },
+  "verification": "PASS: chart/country/device totals reconcile; page and query totals retained at their own grain; archive and extracted bytes preserved",
+  "limitations": [
+    "No page-indexing report or Google-selected canonical inspection supplied",
+    "Separate dimensions cannot be joined into query-page-country-device sessions",
+    "Only six visible query rows; anonymized/omitted query attribution unknown",
+    "No post-2026-10-30 GSC daily rows; latest Blog/Tools release not assessed",
+    "Positions derived from rounded row values are approximate; no stable ranking inference",
+    "CTR zero on 1-7 impressions does not establish a title/description problem"
+  ],
+  "officialReferences": [
+    "https://support.google.com/webmasters/answer/17011259?hl=en",
+    "https://support.google.com/webmasters/answer/17011364?hl=en",
+    "https://support.google.com/webmasters/answer/17010575?hl=en"
+  ]
+}

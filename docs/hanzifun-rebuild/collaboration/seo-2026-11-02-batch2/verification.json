@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-02",
+  "branch": "codex/seo-2026-11-02",
+  "status": "local-verified-awaiting-combined-release",
+  "tests": {
+    "passed": 194,
+    "failed": 0,
+    "skipped": 0
+  },
+  "build": {
+    "files": 2847,
+    "englishPages": 413,
+    "noindex": 9
+  },
+  "seo": {
+    "errors": [],
+    "sitemapCount": 404,
+    "corePages": 365
+  },
+  "invariants": {
+    "existingPinyinAnchorIds": 109,
+    "anchorSetUnchanged": true,
+    "dataReviewReleaseHashesUnchanged": {
+      "data/editorial/review-decisions.json": "26d2ed87fec13d77d3a815c2c60a724702b64dea8bccb1a943e51bc1516f45f9",
+      "site/release.json": "2234a328adf87f8251ef43f43a19ed2187cf28151d67fbfd1928410d4a831441",
+      "data/editorial/characters.json": "d135c67f5c3a7ccb1e4db61572c3cd1befdf586a40a5fae7bcd3c375e2b49a73",
+      "data/editorial/hsk-characters.json": "65f589d5ad6b732a97576cb8fcd619f53829a2acab293e641cd9346cf7bd0f0a",
+      "data/pinyin/syllables.json": "1aaa29ccee51a1d0af9b62f6ee503c12299b20b22b1d5fbb5b9d9ac30c1f0736"
+    }
+  },
+  "browser": {
+    "letters": 21,
+    "desktopOverflow": false,
+    "mobileWidth": 390,
+    "mobileOverflow": false,
+    "noJavascriptKeyboardZ": "#pinyin-zao",
+    "mobileNoJavascriptKeyboardB": "#pinyin-ban",
+    "noJavascriptFilterJump": {
+      "hash": "#pinyin-syllable-filters",
+      "focusedId": "pinyin-syllable-filters"
+    },
+    "finalActiveNav": {
+      "lettersMarkedCurrent": 0,
+      "dictionaryPinyinViewCurrent": "page"
+    },
+    "temporaryScriptAndViewportOverrides": "restored"
+  },
+  "sourceHashes": {
+    "site/pages/dictionary.mjs": "3a2d8df34a30d68832a5a627eb789bcffb49bfcd8fbbcd5dfca7de0b5bf45c2d",
+    "site/pages/pinyin-chart.mjs": "b743796d30afd1a4be8de3cc3a7b42d7ead6746d555c8c67575e253fa026c9da",
+    "src/client/site-preview.js": "562eeb2720a9dd1728d3d1dc5df0e79e28afb64a213173126a9a7899f0ac1de8",
+    "tests/pinyin-navigation.test.mjs": "8dad66e6e905976944cc736ffb99771e37c86209022d5b6c84e1deb56e0edbdf"
+  },
+  "preview": "http://127.0.0.1:4191/dictionary/pinyin/",
+  "screenshot": "/private/tmp/hanzifun-seo-batch2-preview.png"
+}

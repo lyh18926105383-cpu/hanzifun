@@ -31,6 +31,7 @@ export function assertEditorialReady(route) {
  if(route.indexing==='index'&&scenario)assertScenarioAcceptance(scenario);
 }
 const fixed={
+ '/flashcards/':{title:'Chinese Character Flashcards: Free Online Practice',h1:'Chinese Character Flashcards',lead:'Practise Chinese characters with free online flashcards. Choose a study set, reveal each answer and review saved characters, with progress stored in this browser on this device.'},
  '/':{title:'Learn Chinese Characters Visually: Dictionary, HSK & Flashcards',h1:'Learn Chinese Characters Visually',lead:'Learn Chinese characters with a visual dictionary, stroke order, HSK level 1 lists and flashcards that save practice on this device.'},
  '/dictionary/':{title:'Chinese Character Dictionary: 126 Core Hanzi, Pinyin & Meanings',h1:'Chinese Character Dictionary',lead:'This Chinese character dictionary covers 126 core hanzi with pinyin, meanings, stroke order and original teaching examples.'},
  '/dictionary/pinyin/':{title:'Chinese Characters by Pinyin: Find Hanzi and Readings',h1:'Find Chinese Characters by Pinyin',lead:'Find Chinese characters by pinyin using the readings of 126 core hanzi, grouped by syllable for direct character lookup.'},

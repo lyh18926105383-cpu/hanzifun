@@ -74,5 +74,5 @@
     $('[data-stroke-next]',strokes).addEventListener('click',()=>{step=Math.min(4,step+1);render();});
     $('[data-stroke-reset]',strokes).addEventListener('click',()=>{step=0;render();$('[data-stroke-next]',strokes).focus();});
   }
-  $$('nav.subnav a, [data-dictionary-menu] a').forEach(a=>{if(a.pathname===location.pathname)a.setAttribute('aria-current','page');});
+  $$('nav.subnav a, [data-dictionary-menu] a').forEach(a=>{if(!a.hash&&a.pathname===location.pathname)a.setAttribute('aria-current','page');});
 })();

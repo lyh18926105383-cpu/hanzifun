@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "scope": "isolated static pointer candidate/previous/candidate, no live rollback or user storage mutation",
+  "seconds": 0.577
+}
