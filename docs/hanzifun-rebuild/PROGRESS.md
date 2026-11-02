@@ -1,5 +1,7 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 当前生产：2026-11-02两批SEO已统一部署 / PASS；源码a6c2688推送main，194/194测试、48项正式域名及浏览器复检通过。实际版本65fd9f41-12b0-4132-9726-8a07afa1484f，2026-11-02T15:34:17.980557+08:00，100%流量。见记录40与releases/seo-navigation-release-2026-11-02/deployment.json。下方待部署描述为历史阶段。
+
 > 最新执行：2026-11-02第二批拼音导航本地Completed / PASS，194/194测试与SEO/浏览器验证通过。首批成果保留，Owner要求之后统一部署。见记录38与collaboration/seo-2026-11-02-batch2/DELIVERY.md，当前尚未部署。
 
 > 最新执行：2026-11-02首轮Gemini Argon＋Cursor Composer2.5＋Codex协作已完成本地验收，192/192测试PASS，改进三页引导及闪卡SEO元数据；GSC三目标页均已收录/canonical自身。见记录37与collaboration/seo-2026-11-02/DELIVERY.md，尚未部署。
@@ -13,10 +15,10 @@
 > 最新增量：2026-11-01 Blog与另一聊天Tools已合并上线，源码720374a已推送main，正式域名44项复检PASS；版本992a6d92-cfd7-403f-a705-61ada1119951，2026-11-01 01:01:37 +08:00，100%流量。见记录33及blog-tools-release-2026-11-01发布回执。下方旧待部署状态保留历史。
 
 ## 当前所处阶段
-- **大阶段**：Phase 2，2026-11-01 Blog + Tools合并发布Completed / PASS。
-- **当前执行任务**：SEO首批与第二批拼音导航已本地验收，等待Owner后续统一部署；最新已有生产发布仍为源码720374a的Blog/Tools合并版本。
-- **最近发布记录**：由8be3 worktree的codex/blog-release-2026-11-01分支交付；版本992a6d92-cfd7-403f-a705-61ada1119951，2026-11-01 01:01:37 +08:00，100%流量。记录为192/192测试、2847文件/413英文页（404 index/9 noindex）、Sitemap404、线上44项errors=[]；本轮未重新验证实时生产状态。
-- **当前开发目录**：c20f worktree，分支codex/seo-2026-11-02，基线HEAD 02eb645；SEO源码与总控文档尚未提交。Desktop源工作区仍在98f79fa并保留未提交改动；339字/87缺字及Phase3范围不变。
+- **大阶段**：保持轻量本地学习架构；本次仅交付已授权SEO改进，未新增账号、云同步或订阅。
+- **当前执行任务**：SEO首批与第二批统一发布Completed / PASS；剩余为人工GSC发布后7/28天观察及新任务选择。
+- **最近发布记录**：releaseId=`seo-navigation-release-2026-11-02`，源码`a6c2688`；实际版本`65fd9f41-12b0-4132-9726-8a07afa1484f`，2026-11-02T15:34:17.980557+08:00，100%流量。194/194测试、2847文件/413英文页（404 index/9 noindex）、Sitemap404、正式域名48项errors=[]及浏览器复检通过。
+- **当前开发目录**：c20f worktree，分支codex/seo-2026-11-02；源码a6c2688已推送origin/main，发布文档随本回执单独提交同步至main。Desktop旧工作区保留原状；339字/87缺字及Phase3范围未变。
 
 ---
 
@@ -513,3 +515,13 @@
 - **准备结果**：194/194测试PASS，生产2847文件/413英文页/404 index/9 noindex，SEO errors=[]；冻结2268源码文件与候选指纹。Local Workers48项通过；实际生产48项与重建上一版逐字节相符，Cloudflare当前版本32b8140f-a7cb-4b5c-9592-06f5a0a73f2f（较旧日志992a更新）已作为回滚目标。
 - **回滚/边界**：忽略.cache/releases/seo-navigation-release-2026-11-02保留previous/candidate与逐文件hash，隔离指针回滚/恢复通过，不清学习记录。只改releaseId，不改原数据/审核/账号/媒体配置。Cloudflare首次API超时，IPv4优先后读取成功；没有弱化证书或网络保护。
 - **当前文件/下一步**：已新增releases/seo-navigation-release-2026-11-02的manifest、ACCEPTANCE、ROLLBACK、候选/备份指纹、回滚及本地/发布前线上检查。源码提交推送后部署同包，再补实际deployment、正式域名48项及浏览器结果和最终任务状态；此条准备记录不冒称已经上线。
+
+
+### [记录 40] - 两批SEO正式上线、Git推送与最终交接（By Codex，2026-11-02）
+
+- **授权/完成**：按Owner“你确定没问题，就部署上线，并更新git push，和更新任务和进度文档”执行；源码提交`a6c2688`已非强制推送origin/main（02eb645..a6c2688），部署同一冻结产物。
+- **实际生产**：2026-11-02T15:34:17.980557+08:00，最终100%流量版本`65fd9f41-12b0-4132-9726-8a07afa1484f`、deploymentId=`5eeb2bc1-fee7-48a8-88ae-1b2a82b5dc94`。CLI返回6583f7d0，API历史紧随其后的最终部署为65fd9f41，分别保留，线上字节与候选一致；不把旧992a或准备阶段32b误作新版本。
+- **验收**：最终194/194测试、0fail/skip/cancel；2847公开文件/413英文页/404 index/9 noindex、SEO errors=[]/Sitemap404。本地Workers48项、发布前48项及发布后48项均PASS；发布后21首字母/无误高亮、B锚点、筛选区实际焦点、闪卡引导及title/H1均PASS。源码2268文件与2847产物指纹复核无漂移，生产截图实际查看。
+- **文件列表**：site/release.json仅更新releaseId；发布目录releases/seo-navigation-release-2026-11-02/的manifest、ACCEPTANCE、ROLLBACK、candidate/previous-artifact、rollback-rehearsal、production-before/after、active-version、local-workers/production-before/online-verification、browser-verification、deployment及production-pinyin.png；更新TASKS、PROGRESS、HF-17/HF-18和两批DELIVERY。源码功能文件清单见记录37/38。
+- **回滚/保留**：上一实际生产32b8140f-a7cb-4b5c-9592-06f5a0a73f2f；忽略.cache保留previous/candidate与指纹，隔离回滚/恢复PASS；没有在正式站做回滚，没有改学习记录、故事媒体或Phase3范围。
+- **遗留与精确切入点**：发布任务完成；SEO-04仍待发布后完整7/28天GSC人工复盘，不承诺流量增长、不创建自动监控。下一Agent先读本记录与TASKS，再按Owner选定任务读取单个任务文件；87缺字/HSK下一等级仍见REMAINING-TASKS-2026-11-01.md。最终文档提交推送后保持工作树干净。

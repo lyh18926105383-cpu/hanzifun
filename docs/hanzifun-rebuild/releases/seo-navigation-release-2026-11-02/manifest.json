@@ -1,11 +1,11 @@
 {
   "releaseId": "seo-navigation-release-2026-11-02",
   "phase": 2,
-  "status": "candidate-verified",
+  "status": "deployed-and-verified",
   "baseRevision": "02eb6458d8dfb80d41b6eb2b09d6b14473262c60",
   "sourceSha256": "9346590ca1ba7e21c204a2df8d1835177be225a9b37e4e3df0ee0d6c3e48f74d",
   "sourceFiles": 2268,
-  "codeVersion": "Bound by deployment.json after source commit",
+  "codeVersion": "a6c2688a6757e97d439b8dcf29afeed58a83f578",
   "enabledFeatures": [
     "Three static page guides and relevant learning links",
     "Specific Chinese character flashcards SEO metadata",
@@ -461,7 +461,15 @@
   "verification": [
     "local-workers-verification.json",
     "production-before-verification.json",
-    "../../collaboration/seo-2026-11-02-batch2/verification.json"
+    "../../collaboration/seo-2026-11-02-batch2/verification.json",
+    "online-verification.json",
+    "browser-verification.json",
+    "deployment.json"
   ],
-  "followup": "Observe actual post-release 7/28-day GSC windows manually; no automatic monitor scheduled"
+  "followup": "Observe actual post-release 7/28-day GSC windows manually; no automatic monitor scheduled",
+  "sourceCommit": "a6c2688a6757e97d439b8dcf29afeed58a83f578",
+  "productionVersion": "65fd9f41-12b0-4132-9726-8a07afa1484f",
+  "productionDeploymentId": "5eeb2bc1-fee7-48a8-88ae-1b2a82b5dc94",
+  "deployedAtSingapore": "2026-11-02T15:34:17.980557+08:00",
+  "trafficPercentage": 100
 }

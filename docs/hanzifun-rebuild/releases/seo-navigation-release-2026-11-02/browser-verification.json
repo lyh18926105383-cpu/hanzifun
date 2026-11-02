@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-02T07:38:33.823Z",
+  "origin": "https://hanzifun.online",
+  "checks": {
+    "index": {
+      "incorrectCurrent": 0,
+      "letters": 21,
+      "title": "Chinese Characters by Pinyin: Find Hanzi and Readings · HanziFun"
+    },
+    "indexJump": {
+      "hash": "#pinyin-ban",
+      "target": true
+    },
+    "filterJump": {
+      "focusId": "pinyin-syllable-filters",
+      "hash": "#pinyin-syllable-filters"
+    },
+    "flashcards": {
+      "body": true,
+      "guide": true,
+      "h1": "Chinese Character Flashcards",
+      "title": "Chinese Character Flashcards: Free Online Practice · HanziFun"
+    }
+  }
+}

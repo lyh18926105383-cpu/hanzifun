@@ -1,17 +1,24 @@
 # HanziFun 施工任务总表
 
-## SEO第二批执行（2026-11-02；本地验收完成，待统一部署）
+## 最新生产发布（2026-11-02；两批SEO统一发布 / PASS）
+
+- [x] 2026-11-02T15:34:17.980557+08:00，Cloudflare实际版本`65fd9f41-12b0-4132-9726-8a07afa1484f`承接100%流量；[发布回执](releases/seo-navigation-release-2026-11-02/deployment.json)。
+- [x] 194/194测试、2847文件/413英文页、404 index/9 noindex、Sitemap404；本地Workers及正式域名各48项，浏览器导航/焦点/三页说明均通过。
+- [x] 源码`a6c2688`已非强制推送main；TASKS/PROGRESS、HF-17/18及生产证据完成同步，发布文档随本回执单独提交同步至main。
+
+## SEO第二批执行（2026-11-02；已统一上线 / PASS）
 
 - [x] SEO-05：Gemini Argon评审、Cursor Composer2.5实现拼音索引首字母导航与拼音表筛选区跳转；Codex修正页内链接误高亮并集成验收。
 - [x] 194/194测试、生产构建、SEO、109原锚点集合/数据审核release hash、桌面与390px无JS/键盘和最终高亮检查通过。
-- [ ] 按Owner要求将首批与本批一起统一部署；本轮未commit/push/deploy。见[第二批交付](collaboration/seo-2026-11-02-batch2/DELIVERY.md)。
+- [x] 按Owner要求与首批统一部署；源码`a6c2688`已推送main，正式域名48项及浏览器复检PASS。见[部署回执](releases/seo-navigation-release-2026-11-02/deployment.json)及[第二批交付](collaboration/seo-2026-11-02-batch2/DELIVERY.md)。
 
-## SEO首轮执行（2026-11-02；本地验收完成）
+## SEO首轮执行（2026-11-02；已统一上线 / PASS）
 
 - [x] SEO-01：已登录GSC诊断，sitemap成功发现404网址；三目标页URL Inspection均已索引且canonical自身，旧10月23日汇总不当作当前总量。
 - [x] SEO-02：Gemini桌面4 Argon完成分析，Codex校准建议与数据口径。
 - [x] SEO-03：Cursor Composer2.5完成三页引导/内链，Codex集成闪卡专用SEO元数据；生产构建、SEO、192/192测试及本地浏览器检查通过。
-- [ ] 后续发布与SEO-04观察：本轮尚未部署，按新候选HF17/18发布后再记录完整7/28天表现，不自动监控。详见[三方交付](collaboration/seo-2026-11-02/DELIVERY.md)。
+- [x] HF-17/18统一发布：194/194测试、SEO、48项Workers与48项正式域名检查及浏览器PASS；两批成果已上线。详见[三方交付](collaboration/seo-2026-11-02/DELIVERY.md)。
+- [ ] SEO-04：从实际发布起，人工观察完整7/28天GSC窗口；尚未到观察期，不自动监控。
 
 2026-11-01 · 对应 SPEC 1.2。**HF-01～09 已完成当前 Phase 1 候选范围验收并正式签发 PASS**；Phase 1 的141个成熟页面索引状态保留为历史基线，当前 Phase 2 HF-10 进度见下文。物理缺音仍保留明确边界。
 

@@ -1,6 +1,6 @@
 # HF-17｜按发布范围综合验收与回滚准备
 
-状态：**本次合并候选验收与实际发布完成 / PASS（2026-11-01）**。releaseId=`blog-tools-release-2026-11-01`；192测试/SEO/44线上项及浏览器增量检查通过，实际版本`992a6d92-cfd7-403f-a705-61ada1119951`。见[实际回执](../releases/blog-tools-release-2026-11-01/deployment.json)。下方工作流作为以后发布可复用规范，旧候选记录保留历史。
+状态：**两批SEO授权统一发布完成 / PASS（2026-11-02）**。releaseId=`seo-navigation-release-2026-11-02`；194/194测试、SEO、48项正式域名及浏览器复检通过，源码`a6c2688`已推送main；最终100%流量版本`65fd9f41-12b0-4132-9726-8a07afa1484f`。见[实际回执](../releases/seo-navigation-release-2026-11-02/deployment.json)。下方工作流与旧候选记录保留历史。
 
 | 项目 | 内容 |
 |---|---|

@@ -1,0 +1,79 @@
+{
+  "releaseId": "seo-navigation-release-2026-11-02",
+  "status": "deployed-and-verified",
+  "sourceCommit": "a6c2688a6757e97d439b8dcf29afeed58a83f578",
+  "sourceBranch": "codex/seo-2026-11-02",
+  "gitRemote": "origin",
+  "gitDestination": "main",
+  "sourcePush": "PASS; 02eb645..a6c2688, non-force",
+  "productionOrigin": "https://hanzifun.online",
+  "createdOn": "2026-11-02T07:34:17.980557Z",
+  "deployedAtSingapore": "2026-11-02T15:34:17.980557+08:00",
+  "deploymentId": "5eeb2bc1-fee7-48a8-88ae-1b2a82b5dc94",
+  "versionId": "65fd9f41-12b0-4132-9726-8a07afa1484f",
+  "trafficPercentage": 100,
+  "cliReportedVersionId": "6583f7d0-3f5f-48a6-886c-3051313f0964",
+  "versionNote": "CLI reports 6583f7d0; Cloudflare deployment history shows an immediately subsequent final 100% deployment of 65fd9f41. Record final active API state; production bytes match the frozen candidate. Both records retained in release evidence.",
+  "deploymentHistoryForThisRelease": [
+    {
+      "id": "a1b802e7-161b-4825-8a3f-84cde09c77e7",
+      "source": "wrangler",
+      "strategy": "percentage",
+      "author_email": "lyh18926105383@gmail.com",
+      "annotations": {
+        "workers/triggered_by": "deployment"
+      },
+      "versions": [
+        {
+          "version_id": "6583f7d0-3f5f-48a6-886c-3051313f0964",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-11-02T07:34:17.511433Z"
+    },
+    {
+      "id": "5eeb2bc1-fee7-48a8-88ae-1b2a82b5dc94",
+      "source": "wrangler",
+      "strategy": "percentage",
+      "author_email": "lyh18926105383@gmail.com",
+      "annotations": {
+        "workers/triggered_by": "deployment"
+      },
+      "versions": [
+        {
+          "version_id": "65fd9f41-12b0-4132-9726-8a07afa1484f",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-11-02T07:34:17.980557Z"
+    }
+  ],
+  "checks": {
+    "testsPassed": 194,
+    "testsFailed": 0,
+    "testsSkipped": 0,
+    "publicFiles": 2847,
+    "englishPages": 413,
+    "indexablePages": 404,
+    "noindexPages": 9,
+    "sitemapUrls": 404,
+    "seoErrors": 0,
+    "localWorkersChecks": 48,
+    "productionBeforeChecks": 48,
+    "productionAfterChecks": 48,
+    "productionAfterErrors": [],
+    "sourceFreezeRechecked": true,
+    "artifactFingerprintRechecked": true,
+    "productionBrowser": "PASS:21 letters, correct highlighting, B hash, focused filter jump, flashcards guide/title/H1"
+  },
+  "evidence": [
+    "manifest.json",
+    "online-verification.json",
+    "browser-verification.json",
+    "production-pinyin.png",
+    "production-after.json",
+    "active-version.json",
+    "ROLLBACK.md"
+  ],
+  "followup": "Manual GSC full 7/28-day windows after release; no monitoring automation created."
+}
