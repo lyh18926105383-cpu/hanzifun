@@ -1,5 +1,7 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 最新生产：2026-11-03单字页重构已完成部署 / PASS；main已合并并保留Blog/Tools/SEO。201/201测试，390项正式域名检查及线上浏览器通过。版本28fb0e8e-78ab-4b1b-baa8-956a3b550213，2026-11-03T20:26:59.152147+08:00，100%流量。见记录45与releases/character-flow-release-2026-11-03/deployment.json。较早的当前状态描述为历史阶段。
+
 > 当前生产：2026-11-02两批SEO已统一部署 / PASS；源码a6c2688推送main，194/194测试、48项正式域名及浏览器复检通过。实际版本65fd9f41-12b0-4132-9726-8a07afa1484f，2026-11-02T15:34:17.980557+08:00，100%流量。见记录40与releases/seo-navigation-release-2026-11-02/deployment.json。下方待部署描述为历史阶段。
 
 > 最新执行：2026-11-02第二批拼音导航本地Completed / PASS，194/194测试与SEO/浏览器验证通过。首批成果保留，Owner要求之后统一部署。见记录38与collaboration/seo-2026-11-02-batch2/DELIVERY.md，当前尚未部署。
@@ -15,10 +17,11 @@
 > 最新增量：2026-11-01 Blog与另一聊天Tools已合并上线，源码720374a已推送main，正式域名44项复检PASS；版本992a6d92-cfd7-403f-a705-61ada1119951，2026-11-01 01:01:37 +08:00，100%流量。见记录33及blog-tools-release-2026-11-01发布回执。下方旧待部署状态保留历史。
 
 ## 当前所处阶段
-- **大阶段**：保持轻量本地学习架构；本次仅交付已授权SEO改进，未新增账号、云同步或订阅。
-- **当前执行任务**：SEO首批与第二批统一发布Completed / PASS；剩余为人工GSC发布后7/28天观察及新任务选择。
-- **最近发布记录**：releaseId=`seo-navigation-release-2026-11-02`，源码`a6c2688`；实际版本`65fd9f41-12b0-4132-9726-8a07afa1484f`，2026-11-02T15:34:17.980557+08:00，100%流量。194/194测试、2847文件/413英文页（404 index/9 noindex）、Sitemap404、正式域名48项errors=[]及浏览器复检通过。
-- **当前开发目录**：c20f worktree，分支codex/seo-2026-11-02；源码a6c2688已推送origin/main，发布文档随本回执单独提交同步至main。Desktop旧工作区保留原状；339字/87缺字及Phase3范围未变。
+- **阶段/范围**：公开学习站维持本地轻量架构；339单字页重构已上线，Blog/Tools/SEO导航成果保留，无账号/同步/Billing改动。
+- **当前执行任务**：`character-flow-release-2026-11-03` Completed / PASS；Owner本次部署、近期Git同步、TASKS/PROGRESS三项请求已完成。
+- **最近发布**：2026-11-03T20:26:59.152147+08:00，版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，100%流量；201/201测试、3186文件、SEO errors=[]/Sitemap404，390项正式域名检查及线上浏览器通过。
+- **开发/Git目录**：Desktop主目录`main`，已合并origin/main6c953f5，部署源c8fa36f已推送；最终文档/回执提交单独同步，以origin/main最终HEAD为准。个人未跟踪临时文件保留，不进入提交。
+- **后续**：24小时/7天及GSC趋势由Owner按完整窗口人工观察；87缺字/HSK下一等级与Phase3原范围不变。精确交接见记录45及本次deployment.json。
 
 ---
 
@@ -565,3 +568,13 @@
 - 合并后201/201测试、3186文件/413英文页、SEO errors=[]/Sitemap404；完整字符浏览器339元数据/JSON-LD与1122音频绑定一致、339轮廓逐路径同源、12档布局/4次axe及交互通过。合龙浏览器验证真实收藏/笔顺、Blog版式、5段Tools、21首字母/B锚点/过滤焦点与闪卡引导，pageErrors=[]。
 - Cloudflare实际上一版本32564748-683e-42f1-83cc-9c888c59d09d，2026-11-02T07:40:54.491699Z，比旧65fd回执更新；无bindings、原404/redirects保持。本地Workers390项与生产前387项（含全部339字页）PASS，线上与重建6c953f5逐字节相符。音频Range探测旧/新均返回合法完整200字节回退，记录实际行为，不称206支持。
 - 新增scripts/verify-release-{http,browser}.mjs；更新当前证据和TASKS。接下来冻结previous/candidate及hash、完成隔离回滚演练，推送授权main后部署同包，再记录实际版本/生产HTTP与浏览器结果及最终Git回执。此条是准备，不冒称已上线。
+
+
+### [记录 45] - 339单字页实际生产发布、Git同步及最终交接（By Codex，2026-11-03）
+
+- **Owner授权与Git**：按“没问题了；部署上线；近期更新commit/push；更新任务和进度”完成。Desktop主目录main：3bfe62c保存已验收单字页/近期项目成果，55914bb合并origin/main6c953f5，af4cef0记录合龙候选及检查脚本，c8fa36f冻结发布证据；非强制push6c953f5→c8fa36f成功。原个人.workbuddy/临时PNG/个人HTML与MD未纳入提交、未删除。最终回执/任务文档另提交推送，以最终origin/main HEAD为准。
+- **实际部署**：Wrangler4.156.0，既有hanzifun服务，strict/keep-vars，未新增账号/云同步/Billing/故事媒体或bindings。版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，deploymentId=`5440528a-0135-4eef-b2e6-51f29168cf71`，`2026-11-03T20:26:59.152147+08:00`，100%流量。实际上一版本32564748-683e-42f1-83cc-9c888c59d09d已核对保留为回滚目标，不使用旧历史65fd作为本次回滚。
+- **冻结/回滚**：3186文件，产物SHA-256=`483963aef99e03bebaf5856256b58313c893b46485a69345afa6c475892ae887`，CLI重新构建后逐文件指纹仍一致。上一2847包/候选3186包及完整指纹存忽略.cache/releases/character-flow-release-2026-11-03；隔离candidate→previous→candidate恢复PASS，不在生产切回演练、不改浏览器学习记录。只新增339字形SVG，343个原文件变化均在授权字页/样式/字典客户端/manifest范围；其余Blog/Tools/SEO与旧资源逐字节保留。
+- **最终验收**：201/201测试，fail/skip/cancel0；SEO errors=[]、Sitemap404。390项本地Workers、387项生产前、390项生产后HTTP全部PASS，覆盖339全部字页、元数据/JSON-LD、Blog/Tools/SEO、静态资源、真实404、301保留query与旧音频。音频Range旧/新均合法完整200回退，不声称206支持。339元数据/JSON-LD与1122原音频绑定保全；全339字形路径同源。合龙本地/线上浏览器真实收藏刷新、笔顺播放、21字母/B跳转/筛选焦点、Flashcards引导、Blog自有head/footer、五段Tools、390px三页axe和无溢出均PASS、pageErrors=[]；字页专用12档/4次axe通过。
+- **证据/文档**：releases/character-flow-release-2026-11-03新增manifest、ACCEPTANCE/ROLLBACK、前后指纹、差异、回滚演练、前后HTTP、local/browser-verification、active-version、deployment、部署log及两张生产长图；已实际查看生产长图。TASKS、HF17/18和单字页验收报告/证据同步当前发布。源文件范围见3bfe62c/af4cef0，远端Blog/SEO范围保留见合并55914bb。
+- **精确下一步/边界**：本次三项请求已完成。Owner可直接看正式域名/dictionary/休/和/dictionary/木/。24小时/7天观察及后续GSC复盘由Owner按完整窗口人工进行，尚未发生、不自动建监控；87缺字/HSK后续及Phase3不变。下次从本记录与本发布deployment.json接续，不将旧主目录98f79fa、旧本地未部署状态或旧发布回滚目标当当前。main项目跟踪改动在最终提交后应干净，个人未跟踪文件保留。

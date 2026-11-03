@@ -1,5 +1,7 @@
 # HF-18｜最终迁移、授权发布与运行交接
 
+> 2026-11-03最新：`character-flow-release-2026-11-03` 已部署Completed / PASS；201/201、390项正式域名检查及线上浏览器通过，版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，2026-11-03T20:26:59.152147+08:00，100%流量。见[实际回执](../releases/character-flow-release-2026-11-03/deployment.json)。下方旧候选状态为历史。
+
 > 2026-11-03：Owner已明确授权`character-flow-release-2026-11-03`上线、commit/push与任务/进度更新；本轮执行中，实际版本/发布时间及生产复检将在发布回执完成后更新。
 
 状态：**两批SEO授权统一发布完成 / PASS（2026-11-02）**。releaseId=`seo-navigation-release-2026-11-02`；194/194测试、SEO、48项正式域名及浏览器复检通过，源码`a6c2688`已推送main；最终100%流量版本`65fd9f41-12b0-4132-9726-8a07afa1484f`。见[实际回执](../releases/seo-navigation-release-2026-11-02/deployment.json)。下方工作流与旧候选记录保留历史。

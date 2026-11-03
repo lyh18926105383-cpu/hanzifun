@@ -1,0 +1,20 @@
+
+ ⛅️ wrangler 4.156.0
+────────────────────
+[custom build] Running: HF_SITE_ENV=production npm run build:site
+[custom build] 
+[custom build] > hanzifun@1.0.0 build:site
+[custom build] > node scripts/build-site.js
+[custom build] 
+[custom build] 
+[custom build] Built 3186 public files in dist/; mapped 77 prototype paths and generated 9 noindex preview pages.
+[custom build] 
+🌀 Building list of assets...
+✨ Read 3644 files from the assets directory /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun/dist
+🌀 Starting asset upload...
+No updated asset files to upload. Proceeding with deployment...
+Total Upload: 0.34 KiB / gzip: 0.24 KiB
+Uploaded hanzifun (5.98 sec)
+Deployed hanzifun triggers (1.13 sec)
+  https://hanzifun.lyh18926105383.workers.dev
+Current Version ID: 28fb0e8e-78ab-4b1b-baa8-956a3b550213

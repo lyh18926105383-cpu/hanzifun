@@ -1,6 +1,6 @@
 {
   "releaseId": "character-flow-release-2026-11-03",
-  "status": "candidate-verified",
+  "status": "deployed-and-verified",
   "authorization": "Owner: 没问题了。部署上线，git commit & push，更新任务和进度。",
   "date": "2026-11-03",
   "directory": "/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun",
@@ -29,5 +29,8 @@
   "notes": [
     "Audio Range probes return a valid complete 200 response on both existing and candidate hosting; no claim of partial 206 support.",
     "No login, cloud sync, billing or story media changes."
-  ]
+  ],
+  "deployedGitHead": "c8fa36fe3511d60e9ab205db36bb4692a91b0c34",
+  "versionId": "28fb0e8e-78ab-4b1b-baa8-956a3b550213",
+  "deployedAtSingapore": "2026-11-03T20:26:59.152147+08:00"
 }

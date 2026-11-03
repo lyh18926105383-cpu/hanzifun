@@ -1,0 +1,12 @@
+{
+  "id": "5440528a-0135-4eef-b2e6-51f29168cf71",
+  "source": "wrangler",
+  "strategy": "percentage",
+  "versions": [
+    {
+      "version_id": "28fb0e8e-78ab-4b1b-baa8-956a3b550213",
+      "percentage": 100
+    }
+  ],
+  "created_on": "2026-11-03T12:26:59.152147Z"
+}

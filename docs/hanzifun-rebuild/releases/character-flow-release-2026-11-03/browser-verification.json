@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-11-03T12:28:16.304Z",
+  "origin": "https://hanzifun.online",
+  "checks": [
+    "休: approved flow, real glyph, complete button label, clean ending, Information position and stroke playback",
+    "木: approved flow, real glyph, complete button label, clean ending, Information position and stroke playback",
+    "Production character save persists after refresh in an isolated browser context",
+    "Previously published 21-letter pinyin navigation and B jump remain intact",
+    "Previously published pinyin filter link retains keyboard focus",
+    "Flashcards title/H1 and teaching guide preserved",
+    "Published Blog design, photos, head resources and custom footer preserved",
+    "Published five-section interactive tools gallery remains active",
+    "/dictionary/木/:390px no overflow, axe zero violations",
+    "/blog/:390px no overflow, axe zero violations",
+    "/tools/:390px no overflow, axe zero violations"
+  ],
+  "pageErrors": [],
+  "screenshots": [
+    "production-xiu.png",
+    "production-mu.png"
+  ],
+  "browser": "156.0.8078.79",
+  "status": "PASS"
+}

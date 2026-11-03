@@ -1,5 +1,7 @@
 # Character Page 学习流重构 · 2026-11-02
 
+> 2026-11-03：Owner已验收并授权发布。已合并最新Blog/Tools/SEO，最终201/201、3186文件、SEO errors=[]/Sitemap404；390项生产复检及线上浏览器PASS。版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，2026-11-03T20:26:59.152147+08:00，100%流量。[部署回执](releases/character-flow-release-2026-11-03/deployment.json)。
+
 > 最新修订（二轮清理）：完整 **Play Stroke Order** 文字按钮恢复，助记说明/Stop audio/底部音频说明已删除；仅保留发音运行脚本与空的live状态节点。199/199、3177文件、SEO errors=[]、Sitemap404；新截图和签名已刷新。下段为前轮记录。
 
 > 前轮修订：Owner 人工批注六项已落实，**199/199 测试 PASS**，3177文件、SEO errors=[]、Sitemap404。Information已移到例句下；笔顺改为Listen右侧笔形按钮；1–3义项与对话式说明；移除两段指定说明；339字头改为与笔顺同源完整矢量。下方初版构建/测试数值保留为历史，最新hash/截图见verification.json。

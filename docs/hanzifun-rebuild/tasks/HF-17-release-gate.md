@@ -1,5 +1,7 @@
 # HF-17｜按发布范围综合验收与回滚准备
 
+> 2026-11-03最新：`character-flow-release-2026-11-03` 已部署Completed / PASS；201/201、390项正式域名检查及线上浏览器通过，版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，2026-11-03T20:26:59.152147+08:00，100%流量。见[实际回执](../releases/character-flow-release-2026-11-03/deployment.json)。下方旧候选状态为历史。
+
 > 2026-11-03：`character-flow-release-2026-11-03` HF-17预检PASS；201/201、SEO errors=[]/Sitemap404、Workers390项/发布前387项、冻结与隔离回滚恢复通过，Owner已授权实际发布。
 
 状态：**两批SEO授权统一发布完成 / PASS（2026-11-02）**。releaseId=`seo-navigation-release-2026-11-02`；194/194测试、SEO、48项正式域名及浏览器复检通过，源码`a6c2688`已推送main；最终100%流量版本`65fd9f41-12b0-4132-9726-8a07afa1484f`。见[实际回执](../releases/seo-navigation-release-2026-11-02/deployment.json)。下方工作流与旧候选记录保留历史。

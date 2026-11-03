@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "status": "PASS",
+  "status": "deployed-and-verified",
   "directory": "/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun",
   "branch": "main",
   "baselineHead": "98f79fa",
@@ -167,5 +167,11 @@
     "Character-page Stop audio control deleted",
     "Character-page recorded-syllable/device-voice explanation deleted; pronunciation runtime and empty live status retained"
   ],
-  "upstreamPreserved": "6c953f5"
+  "upstreamPreserved": "6c953f5",
+  "productionDeployment": {
+    "date": "2026-11-03T20:26:59.152147+08:00",
+    "versionId": "28fb0e8e-78ab-4b1b-baa8-956a3b550213",
+    "trafficPercentage": 100,
+    "evidence": "docs/hanzifun-rebuild/releases/character-flow-release-2026-11-03/deployment.json"
+  }
 }
