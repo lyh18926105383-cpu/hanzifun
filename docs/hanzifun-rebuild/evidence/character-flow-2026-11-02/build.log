@@ -2,4 +2,4 @@
 > hanzifun@1.0.0 build:site
 > node scripts/build-site.js
 
-Built 3177 public files in dist/; mapped 77 prototype paths and generated 9 noindex preview pages.
+Built 3186 public files in dist/; mapped 77 prototype paths and generated 9 noindex preview pages.

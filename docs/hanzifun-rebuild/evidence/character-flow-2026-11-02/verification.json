@@ -12,7 +12,7 @@
   },
   "build": {
     "command": "HF_SITE_ENV=production npm run build:site",
-    "files": 3177
+    "files": 3186
   },
   "seo": {
     "command": "node scripts/validate-seo-quality.mjs",
@@ -21,7 +21,7 @@
   },
   "tests": {
     "command": "npm test",
-    "passed": 199,
+    "passed": 201,
     "failed": 0,
     "skipped": 0
   },
@@ -54,7 +54,7 @@
     "originalStylesheetPrefixUnchanged": true,
     "all339HeroGlyphsMatchOriginalStrokePaths": true
   },
-  "presentationSha256": "5ed5de0b5e7d6acc75efa902c970926b9814d23ddf2b9f360f2d6a57487bff95",
+  "presentationSha256": "e49ba53c41fb3fe729139e1b50b9c2995cca1016fc0ab5ffe830ad06e1ae5ec4",
   "sources": [
     {
       "file": "site/character-flow.mjs",
@@ -66,7 +66,7 @@
     },
     {
       "file": "site/pages/dictionary.mjs",
-      "sha256": "60c7f6b51fb225a32ba55078d37af3722aabd487a9998d0a625174109c62351a"
+      "sha256": "10c5e117a276175e3008d1ab040b571d2c999a8c9b1a6ed6f4656ddee9cd8350"
     },
     {
       "file": "site/pages/hsk.mjs",
@@ -74,11 +74,11 @@
     },
     {
       "file": "site/editorial-content.mjs",
-      "sha256": "6ef89fdbeb6224a10c459802908012fc5cd87528ec6d37ffc9617152680ef107"
+      "sha256": "686a17228ee083981069a45db5c40c297cc2a45066ddaffe6a3d742e5809a363"
     },
     {
       "file": "scripts/build-site.js",
-      "sha256": "7ff3f5ff607ccb2c7076ef5f69ae483d96019f5215bd0647fd0a9a8226dda65e"
+      "sha256": "221d4b307bb47bf9fe9b4e60ee294cff7d94da48189921dd22aa07b662f847db"
     },
     {
       "file": "src/client/dictionary.mjs",
@@ -110,11 +110,11 @@
     },
     {
       "file": "data/editorial/review-decisions.json",
-      "sha256": "ac91d1223e471d5fcd8a5d9b271205d0e2af327c059293b2981053081d369a89"
+      "sha256": "c12e82bb8667d3f28f279f6107abf195c0613ba7a369d01f72598aff3d65d2d2"
     },
     {
       "file": "site/release.json",
-      "sha256": "1d4f3b205718cf64f024bde884e88fcf6d2b87a9345ee0a9d6c65f4c02e91358"
+      "sha256": "3f673a19b82527b049a70afdc7a8c967d0a3120ee00303787b7fba59b8cbfc83"
     },
     {
       "file": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
@@ -144,7 +144,7 @@
     },
     {
       "file": "mu-print.png",
-      "sha256": "97aade7f2b45aaf5dba0ef90269d6bc07aa6a090e2f5231b9b372e385b01a602"
+      "sha256": "6e349ce43288033a1e03fafe82d3b7c52703ac68701a70a84a0244da333aedbc"
     },
     {
       "file": "xiu-mobile-full.png",
@@ -152,11 +152,9 @@
     }
   ],
   "limitations": [
-    "Only existing published descendants/family members are shown; 山 has only 岁 in this catalog. 34 unsplittable shapes have no published descendants; 175 characters have fewer than 4 same-radical peers.",
-    "Desktop main predates the newer production SEO navigation release; reconcile before any future deployment.",
-    "No commit, push, deployment, cross-browser/device or new audio listening acceptance."
+    "Only existing published descendants/family members are shown; 山 has only 岁 in this catalog. 34 unsplittable shapes have no published descendants; 175 characters have fewer than 4 same-radical peers."
   ],
-  "revision": "owner-browser-comments-visible-stroke-label-clean-page-ending",
+  "revision": "production-candidate-merged-with-published-blog-seo",
   "ownerComments": [
     "Information moved after Context Sentences",
     "Stroke-order control moved immediately after Listen, rendered as an accessible pen icon",
@@ -168,5 +166,6 @@
     "Anatomy memory-association note deleted",
     "Character-page Stop audio control deleted",
     "Character-page recorded-syllable/device-voice explanation deleted; pronunciation runtime and empty live status retained"
-  ]
+  ],
+  "upstreamPreserved": "6c953f5"
 }

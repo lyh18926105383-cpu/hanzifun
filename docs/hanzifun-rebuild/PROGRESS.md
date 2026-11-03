@@ -556,3 +556,12 @@
 - 修改site/character-flow.mjs、site/public/site-styles.css、scripts/build-site.js、tests/character-flow.test.mjs、scripts/verify-character-flow-browser.mjs；刷新review-decisions/site.release/工具共享CSS维护receipt与全部当前证据、验收报告、TASKS/PROGRESS。
 - 最终3177文件、199/199测试PASS、SEO errors=[]、Sitemap404；339页SEO/JSON-LD、1122音频绑定与339字形源路径保持。Chrome12档布局无溢出、4次axe零违规、所有原交互及新文字/删除项断言通过，pageErrors=[]。桌面/手机截图已重生成并目视；内置浏览器新开保留当前木页。
 - 下一步：Owner可在当前内置浏览器继续验收。未commit/push/部署；较新生产SEO版本合龙要求仍保留。最新源码/截图签名在evidence/character-flow-2026-11-02/verification.json；不要恢复旧笔形纯图标或全局音频说明段。
+
+
+### [记录 44] - 339单字页授权发布准备及旧主目录合龙（By Codex，2026-11-03）
+
+- Owner原文“没问题了”，明确要求部署上线、近期更新commit/push和TASKS/PROGRESS更新；沿用当前授权，不再重复询问。仅暂存53个项目实现/文档/证据文件，个人.workbuddy/临时PNG/个人HTML与MD保留未跟踪。源码3bfe62c提交后，合并origin/main6c953f5为55914bb，保留已上线Blog自有head/footer/资源、拼音导航/焦点与Flashcards SEO；冲突逐项合并，未覆盖已有发布。
+- 原主目录记录32–34改编为本文件记录41–43，保留远端记录32–40和线上历史。原339教学/听审决定与上游一致；新增Owner视觉验收范围单独记录，不冒称重新逐字听审。字符页呈现签名已适配合并后的源码，工具共享CSS签名保持绑定。
+- 合并后201/201测试、3186文件/413英文页、SEO errors=[]/Sitemap404；完整字符浏览器339元数据/JSON-LD与1122音频绑定一致、339轮廓逐路径同源、12档布局/4次axe及交互通过。合龙浏览器验证真实收藏/笔顺、Blog版式、5段Tools、21首字母/B锚点/过滤焦点与闪卡引导，pageErrors=[]。
+- Cloudflare实际上一版本32564748-683e-42f1-83cc-9c888c59d09d，2026-11-02T07:40:54.491699Z，比旧65fd回执更新；无bindings、原404/redirects保持。本地Workers390项与生产前387项（含全部339字页）PASS，线上与重建6c953f5逐字节相符。音频Range探测旧/新均返回合法完整200字节回退，记录实际行为，不称206支持。
+- 新增scripts/verify-release-{http,browser}.mjs；更新当前证据和TASKS。接下来冻结previous/candidate及hash、完成隔离回滚演练，推送授权main后部署同包，再记录实际版本/生产HTTP与浏览器结果及最终Git回执。此条是准备，不冒称已上线。

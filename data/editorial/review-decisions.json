@@ -5012,6 +5012,13 @@
           "sha256": "221d4b307bb47bf9fe9b4e60ee294cff7d94da48189921dd22aa07b662f847db"
         }
       ]
+    },
+    "ownerVisualAcceptance": {
+      "status": "approved",
+      "date": "2026-11-03",
+      "evidence": "docs/hanzifun-rebuild/releases/character-flow-release-2026-11-03/ACCEPTANCE.md",
+      "statement": "Owner: 没问题了。1.你完成部署上线；2.帮我把近期更新git commit & push；3.帮我更新task.md和progress.md",
+      "scope": "Accepted the reviewed character-page iteration and authorized deployment/Git/docs. Does not assert a new per-record audio listening audit."
     }
   }
 }

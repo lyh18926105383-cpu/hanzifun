@@ -1,8 +1,8 @@
 {
   "environment": "production",
-  "releaseId": "phase-2-tools-gallery-2026-10-31",
+  "releaseId": "character-flow-release-2026-11-03",
   "pages": 413,
-  "corePages": 364,
+  "corePages": 365,
   "jsonLdBlocks": 418,
   "englishJsonLdBlocks": 417,
   "sitemap": [
@@ -412,7 +412,7 @@
     "https://hanzifun.online/academic/hsk-2/level-2/"
   ],
   "budget": {
-    "jsGzipBytes": 6489,
+    "jsGzipBytes": 6496,
     "cssGzipBytes": 22279,
     "eagerImageBytes": 355447
   },
