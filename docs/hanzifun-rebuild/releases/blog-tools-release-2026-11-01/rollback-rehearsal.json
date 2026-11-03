@@ -1,0 +1,12 @@
+{
+  "surface": "isolated static directory pointer; no live rollback",
+  "candidate": {
+    "files": 2847,
+    "sha256": "7b9a8d0444de4b5b452712bdfc894d633d864ea7630511dd2732a9d6fd0d93a4"
+  },
+  "previous": {
+    "files": 2841,
+    "sha256": "d969d9258caad6b9e840ea456ddd2c2d6fd74ae97850cc67fffceda2b554454c"
+  },
+  "seconds": 0.594
+}

@@ -1,0 +1,336 @@
+{
+  "verifiedAt": "2026-10-31T16:48:41.935761+00:00",
+  "origin": "https://hanzifun.online",
+  "transport": "curl default user agent; exact body comparison",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 20809,
+      "sha256": "d91208caf6cd623ba0bcf6edbaeabfaeac43998c9b1fd734807fbbb50d493be2",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/"
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "bytes": 15840,
+      "sha256": "6ccdf38636b98c77303c4c3ccfb87311f25747bffbc135c9d462530676f96d6b",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/blog/"
+    },
+    {
+      "path": "/blog/chinese-character-study-routine/",
+      "status": 200,
+      "bytes": 12748,
+      "sha256": "8073e28013a593e24b95149a6b935358c40795cdc9d11b175194d3e0b8324bc9",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/blog/chinese-character-study-routine/"
+    },
+    {
+      "path": "/blog/chinese-character-confusions/",
+      "status": 200,
+      "bytes": 12663,
+      "sha256": "2cab8e2873b107f8374af1736890608c4f7cb9bfa2cceca651f258cb848b8a84",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/blog/chinese-character-confusions/"
+    },
+    {
+      "path": "/blog/mid-autumn-festival-chinese-characters/",
+      "status": 200,
+      "bytes": 11787,
+      "sha256": "a87d4e37648fb0b290149f326b11a91d1c42a9f3b9f3f8f939c6f0d77110982d",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/blog/mid-autumn-festival-chinese-characters/"
+    },
+    {
+      "path": "/blog/chinese-for-your-first-business-visit/",
+      "status": 200,
+      "bytes": 11987,
+      "sha256": "ca1f6bb4a1bdcc9afc48da9f82105f4279999c6326f8559dd3a1077568cbd4e7",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/blog/chinese-for-your-first-business-visit/"
+    },
+    {
+      "path": "/blog/first-characters-for-bilingual-kids/",
+      "status": 200,
+      "bytes": 11589,
+      "sha256": "26ac65d2d2131431c187689bd06256b47065b08431198557f575fcc63a5cdf60",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/blog/first-characters-for-bilingual-kids/"
+    },
+    {
+      "path": "/blog/feed.xml",
+      "status": 200,
+      "bytes": 2702,
+      "sha256": "15338fed582cc1c74e86a86c82fb470046ca73740b0b45f60f05322bf1c0f144",
+      "contentType": "application/xml",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/tools/",
+      "status": 200,
+      "bytes": 7152,
+      "sha256": "9232fb73a6e65bd7dd7ef8a61f0ce132fded10dd0cdad395a16f7a38027b8d9b",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/tools/"
+    },
+    {
+      "path": "/tools/chinese-name-generator/",
+      "status": 200,
+      "bytes": 10101,
+      "sha256": "ed9c50a7de09b290adc3fdb41c8eaf19862ec498be2a8a6d51cd57738817ce4c",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/tools/chinese-name-generator/"
+    },
+    {
+      "path": "/tools/chinese-menu-decoder/",
+      "status": 200,
+      "bytes": 11310,
+      "sha256": "80df321de98bc9d389a5564329c06564c4e65b56850ce2971dd0e708531d79aa",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/tools/chinese-menu-decoder/"
+    },
+    {
+      "path": "/tools/zodiac-elements-calculator/",
+      "status": 200,
+      "bytes": 12448,
+      "sha256": "1102cd0fa2521fb4cdc79b31af19fc3f1607ad91c6eb87b72b3eaa48ed5a7ecd",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/tools/zodiac-elements-calculator/"
+    },
+    {
+      "path": "/tools/tattoo-character-checker/",
+      "status": 200,
+      "bytes": 8285,
+      "sha256": "139367b3c84c4794e918099029379897b1d5175b14f515f41c8e9b416fd5cc07",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/tools/tattoo-character-checker/"
+    },
+    {
+      "path": "/flashcards/teacher/",
+      "status": 200,
+      "bytes": 97941,
+      "sha256": "a95f8444e65f6fb58c1e1c406cfa420198187e5dfa7c9e37abfa84ee69132d56",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "noindex,follow",
+      "canonical": "https://hanzifun.online/flashcards/teacher/"
+    },
+    {
+      "path": "/academic/hsk-2/level-2/",
+      "status": 200,
+      "bytes": 431539,
+      "sha256": "2c942503826a5d7a6ab1e42b567c877d797d42d2764e700f4f6f5421ce3b1123",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/academic/hsk-2/level-2/"
+    },
+    {
+      "path": "/dictionary/水/",
+      "status": 200,
+      "bytes": 13043,
+      "sha256": "ef5b60e219ef6725c7005c2ebacf9a6aea9489fa59f6d6490a15eb07bdbec9af",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/dictionary/%E6%B0%B4/"
+    },
+    {
+      "path": "/account/",
+      "status": 200,
+      "bytes": 5599,
+      "sha256": "8d1c1d447f319879faca3affe9a4cf1997675fb375855251d39492408d102aac",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "noindex,follow",
+      "canonical": "https://hanzifun.online/account/"
+    },
+    {
+      "path": "/zh/",
+      "status": 200,
+      "bytes": 16860,
+      "sha256": "649dc211bf5431f2c955888221f51b4d2e5e0df9ace794021ad2c561c2dbba83",
+      "contentType": "text/html",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/worksheets/",
+      "status": 200,
+      "bytes": 5706,
+      "sha256": "02220aa69d430d61096928ae0d99168e6751ac2f850aaf837bbbfb219f52aff5",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/worksheets/"
+    },
+    {
+      "path": "/worksheets/family/",
+      "status": 200,
+      "bytes": 7341,
+      "sha256": "88303dc2d8bb11aa60123764410a4bb159e7b42b87fe9e06f3bce55aa3408abf",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/worksheets/family/"
+    },
+    {
+      "path": "/worksheets/classroom/",
+      "status": 200,
+      "bytes": 7372,
+      "sha256": "8490a96381127d98ee4acb4453649aafaa14a487bb5cfd949fa0d7c5cdc2a0f5",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/worksheets/classroom/"
+    },
+    {
+      "path": "/dictionary/top-100/",
+      "status": 200,
+      "bytes": 14364,
+      "sha256": "66da63d2c752022dc92734d57aced7fca9d109c665cbfe28b360f95ccd88ef6b",
+      "contentType": "text/html",
+      "matchesArtifact": true,
+      "robots": "index,follow",
+      "canonical": "https://hanzifun.online/dictionary/top-100/"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bytes": 28659,
+      "sha256": "973209bbeec8cd8c04db82d208c1d0b03dcece2f693d9c72354621300fa94342",
+      "contentType": "application/xml",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog.v1.css",
+      "status": 200,
+      "bytes": 13781,
+      "sha256": "fb5a2541f2935a66ea7961e931d86d3714b49fb82ce9755de530878a608b488d",
+      "contentType": "text/css",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog.v1.mjs",
+      "status": 200,
+      "bytes": 2173,
+      "sha256": "76421b04dba57fde60b0168798333ea12593b2bcad512e0a014516c3d5d8fbdb",
+      "contentType": "text/javascript",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog-cloud.v1.svg",
+      "status": 200,
+      "bytes": 970,
+      "sha256": "439d07be75ff63ea1b42ba8217d27e9042b8c0a7c9ee6e2d914d5212c6407c8b",
+      "contentType": "image/svg+xml",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/archive.v1.jpg",
+      "status": 200,
+      "bytes": 97180,
+      "sha256": "16dedc49c17228dd904d8f60bba3a9dbb0567a903341ab4c667245482e5353d3",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/calligraphy.v1.jpg",
+      "status": 200,
+      "bytes": 114126,
+      "sha256": "0da14616bfa5ea482bed54786a16c3d9e054402586d64c7ae71b487b0b73f14b",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/festival.v1.jpg",
+      "status": 200,
+      "bytes": 360320,
+      "sha256": "e704a4853083a098f2f8582422b6b8b88c12e1634614ad2fd542c98031d656e4",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/study.v1.jpg",
+      "status": 200,
+      "bytes": 429099,
+      "sha256": "fdc2bcf19e531f5ec45499b188ec2c5a04102eb8cd85893ae98dc7d6c6bc3a61",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/tea.v1.jpg",
+      "status": 200,
+      "bytes": 149263,
+      "sha256": "bd73e4c08c3346a618da90bf4a8106c88f580b6e33026269ac5d9758b7daec42",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/index.html?from=blog-release",
+      "status": 301,
+      "location": "/zh/?from=blog-release"
+    },
+    {
+      "path": "/kids/worksheets/?from=blog-release",
+      "status": 301,
+      "location": "/worksheets/?from=blog-release"
+    },
+    {
+      "path": "/legacy/story.html?lesson=cat-and-fish-01",
+      "status": 301,
+      "location": "/story?lesson=cat-and-fish-01"
+    },
+    {
+      "path": "/hf-release-not-a-real-page-2026-11-01/",
+      "status": 404,
+      "location": null
+    },
+    {
+      "path": "/audio/tts-v1/052-9e45.mp3",
+      "status": 200,
+      "range": "bytes=0-31",
+      "bytes": 8352,
+      "matchesArtifact": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "bytes": 2744,
+      "sha256": "f6db5dd362097d5168c2360a55ad3554914b17b2ed6f353587b6b1234ad9d29a",
+      "matchesArtifact": false,
+      "originRulesMatch": true,
+      "edgeManagedPrefix": true
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "The standard curl checks match the frozen Blog artifact. Cloudflare managed robots prefix is preserved and origin rules match exactly.",
+    "Initial custom-UA urllib responses are separately recorded in initial-client-verification.json; they were not treated as successful checks."
+  ]
+}

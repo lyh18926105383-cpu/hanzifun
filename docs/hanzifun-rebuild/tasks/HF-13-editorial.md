@@ -1,5 +1,7 @@
 # HF-13｜正式 Blog、场景编辑与打印资源
 
+> 2026-11-01增量：Tools画廊/英文引导与Blog改版已一起上线，releaseId=`blog-tools-release-2026-11-01`。见[实际回执](../releases/blog-tools-release-2026-11-01/deployment.json)。下方先前本地状态保留历史。
+
 状态：**本地Completed / PASS（2026-10-31）**：三篇正文经Owner本会话“没问题”批准并绑定独立hash；两组A4/Letter打印、学习联动、构建/SEO/174测试与浏览器通过。已纳入本地候选，实际生产发布另走HF-18。详见[验收记录](../HF-13-VERIFICATION.md)。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
 
 | 项目 | 内容 |

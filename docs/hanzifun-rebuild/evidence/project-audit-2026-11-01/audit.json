@@ -1,0 +1,103 @@
+{
+  "auditDate": "2026-11-01",
+  "timezone": "Asia/Singapore",
+  "scope": "Local source and recorded delivery evidence audit; no fresh product test, build, browser or live production verification.",
+  "workspace": "/Users/graceshi/.codex/worktrees/c20f/汉字饭hanzifun",
+  "head": "02eb6458d8dfb80d41b6eb2b09d6b14473262c60",
+  "sourceSha256": {
+    "site/release.json": "2234a328adf87f8251ef43f43a19ed2187cf28151d67fbfd1928410d4a831441",
+    "site/publisher.json": "b881e085685ef566d6d76585db11b5df47bacf824f452c83b2b5d152b8df2bf6",
+    "site/adsense.mjs": "16ead909a21d802073bf2e7afb39b5dd7b2ac3e78aba4a7dd9fafe48788df8b2",
+    "data/editorial/characters.json": "d135c67f5c3a7ccb1e4db61572c3cd1befdf586a40a5fae7bcd3c375e2b49a73",
+    "data/editorial/hsk-characters.json": "65f589d5ad6b732a97576cb8fcd619f53829a2acab293e641cd9346cf7bd0f0a",
+    "data/editorial/review-decisions.json": "26d2ed87fec13d77d3a815c2c60a724702b64dea8bccb1a943e51bc1516f45f9",
+    "data/hsk/level-2-core.json": "0eb355ea273d290c40aaf8a5642f3d52c41209951d26a8862cf188e6e7e2303d",
+    "data/hsk/topics.json": "450d89f346d0cadba0afec29d6fea675ed8c532fba80f5af6802d817ffc05ed4",
+    "content/editorial/articles.json": "bbb67f154258c1d4a920b1e223faae4d5033fd60e2685351bbfe1808b3e59282",
+    "docs/hanzifun-rebuild/releases/blog-tools-release-2026-11-01/deployment.json": "08a48969958baecc4bb67d754d7f330d1593a84ed2aeedd79b6069484fc99bc9"
+  },
+  "checks": {
+    "status": "PASS",
+    "approvedCharacters": 339,
+    "tierCounts": {
+      "Tier2": 339
+    },
+    "hsk2Level2AdditionalWords": 150,
+    "fullyLinkedWords": 86,
+    "unresolvedWordMappings": 0,
+    "missingCharacterCount": 87,
+    "missingCharactersDisjointFromPublished": true,
+    "missingBindingsMatchNextBatch": true
+  },
+  "topics": {
+    "uniqueCharacters": 339,
+    "bindings": 383,
+    "starterOverlap": 100
+  },
+  "topicCount": 16,
+  "formalArticles": 3,
+  "publishedBlogRouteCount": 5,
+  "selectedRouteStatuses": {
+    "/tools/": "published",
+    "/blog/": "published",
+    "/dictionary/top-100/": "published",
+    "/flashcards/teacher/": "published-private",
+    "/academic/textbooks/": "planned",
+    "/sign-in/": "planned",
+    "/pricing/": "planned"
+  },
+  "adsensePublisherIdConfigured": false,
+  "lastRecordedDeployment": {
+    "releaseId": "blog-tools-release-2026-11-01",
+    "worker": "hanzifun",
+    "sourceCommit": "720374a80b6d23bf53ef78db0ea746b89f9524e3",
+    "blogSourceCommit": "381cf9fb98f97d8199abb624b41bb24c497fb9ed",
+    "versionId": "992a6d92-cfd7-403f-a705-61ada1119951",
+    "deploymentId": "9cf047b6-dee2-43b7-9d39-a644130b73dc",
+    "trafficPercent": 100,
+    "deployedAt": "2026-10-31T17:01:37.294393Z",
+    "deployedAtSingapore": "2026-11-01 01:01:37 +08:00",
+    "previousVersionId": "d448b127-6331-464b-b719-0e5ebdd9c415",
+    "artifactSha256": "7b9a8d0444de4b5b452712bdfc894d633d864ea7630511dd2732a9d6fd0d93a4",
+    "sourceSha256": "d4c4a56d0dd95e044696bb0670feda23d3b438d67858c0e14889606c4291b359",
+    "publicFiles": 2847,
+    "englishPages": 413,
+    "indexablePages": 404,
+    "noindexPages": 9,
+    "sitemapUrls": 404,
+    "tests": {
+      "passed": 192,
+      "failed": 0,
+      "skipped": 0
+    },
+    "seoErrors": [],
+    "productionVerification": {
+      "httpChecks": 44,
+      "errors": [],
+      "browser": "Official Blog filter and Tools client/five guide sentences verified; see production-browser.json",
+      "edgeRobots": "Managed Cloudflare prefix retained; origin rules match"
+    },
+    "github": {
+      "branch": "main",
+      "sourcePush": "confirmed successful",
+      "sourceCommit": "720374a80b6d23bf53ef78db0ea746b89f9524e3"
+    },
+    "followup": "24-hour/7-day monitoring remains manual; no automation scheduled"
+  },
+  "otherWorkspaces": {
+    "desktopMainHead": "98f79fafc60d35d7632e0d396d787ac6f4d75372",
+    "desktopStatus": "behind local origin/main by 3 commits; tracked and untracked changes retained; not synchronized in this audit",
+    "legacyPaymentBranch": "codex/stripe-subscriptions",
+    "legacyPaymentCommit": "6855bc11b91376388a20ad5c9621635b0190ba35",
+    "legacyPaymentSubject": "feat: add Creem subscriptions and public policy pages",
+    "legacyPaymentStatus": "Historical branch, not integrated into current rebuilt site; no acceptance claimed"
+  },
+  "notPerformed": [
+    "External agent task dispatch",
+    "Remote Git fetch",
+    "AdSense or analytics account inspection",
+    "Product tests/build",
+    "Live production verification",
+    "Implementation or deployment"
+  ]
+}

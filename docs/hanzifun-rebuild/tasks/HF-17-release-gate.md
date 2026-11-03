@@ -1,6 +1,6 @@
 # HF-17｜按发布范围综合验收与回滚准备
 
-状态：**按releaseId复用；历史生产发布已执行，本候选预检PASS（2026-10-31）**。本地候选`phase-2-editorial-starter-2026-10-31`已冻结源码/构建hash，构建、SEO、174测试、浏览器/本地Workers及静态回滚/恢复通过；[清单/边界](../releases/phase-2-editorial-starter-2026-10-31/manifest.json)。HF-18实际部署尚未执行，旧签发不代替以后批次。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
+状态：**两批SEO授权统一发布完成 / PASS（2026-11-02）**。releaseId=`seo-navigation-release-2026-11-02`；194/194测试、SEO、48项正式域名及浏览器复检通过，源码`a6c2688`已推送main；最终100%流量版本`65fd9f41-12b0-4132-9726-8a07afa1484f`。见[实际回执](../releases/seo-navigation-release-2026-11-02/deployment.json)。下方工作流与旧候选记录保留历史。
 
 | 项目 | 内容 |
 |---|---|

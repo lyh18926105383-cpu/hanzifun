@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-02",
+  "branch": "codex/seo-2026-11-02",
+  "baseline": "02eb645",
+  "status": "local-verified-not-deployed",
+  "liveHttp": [
+    {
+      "path": "/",
+      "status": "200",
+      "error": "",
+      "canonical": [
+        "https://hanzifun.online/"
+      ],
+      "title": [
+        "Learn Chinese Characters Visually: Dictionary, HSK &amp; Flashcards · HanziFun"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "path": "/pinyin-chart/",
+      "status": "200",
+      "error": "",
+      "canonical": [
+        "https://hanzifun.online/pinyin-chart/"
+      ],
+      "title": [
+        "Mandarin Pinyin Chart: 410 Syllables, Initials, Finals &amp; Tones · HanziFun"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "path": "/flashcards/",
+      "status": "200",
+      "error": "",
+      "canonical": [
+        "https://hanzifun.online/flashcards/"
+      ],
+      "title": [
+        "Flashcards · HanziFun"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "path": "/dictionary/pinyin/",
+      "status": "200",
+      "error": "",
+      "canonical": [
+        "https://hanzifun.online/dictionary/pinyin/"
+      ],
+      "title": [
+        "Chinese Characters by Pinyin: Find Hanzi and Readings · HanziFun"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": "200",
+      "error": "",
+      "canonical": [],
+      "title": [],
+      "robots": [],
+      "urlCount": 404
+    },
+    {
+      "path": "/robots.txt",
+      "status": "200",
+      "error": "",
+      "canonical": [],
+      "title": [],
+      "robots": []
+    }
+  ],
+  "gsc": {
+    "indexReportAsOf": "2026-10-23",
+    "indexReportIndexed": 2,
+    "indexReportNotIndexed": 7,
+    "indexReportScope": "stale snapshot, not current site total",
+    "sitemap": {
+      "url": "https://hanzifun.online/sitemap.xml",
+      "lastRead": "2026-10-31",
+      "status": "success",
+      "discovered": 404
+    },
+    "incorrectSitemapEntry": {
+      "url": "https://hanzifun.online/flashcards/",
+      "status": "one error, ordinary HTML was submitted as sitemap; not removed"
+    },
+    "urlInspections": [
+      {
+        "path": "/pinyin-chart/",
+        "indexed": true,
+        "crawlDisplayed": "2026-10-29 14:40:21",
+        "canonical": "self"
+      },
+      {
+        "path": "/flashcards/",
+        "indexed": true,
+        "crawlDisplayed": "2026-10-28 18:21:50",
+        "canonical": "self"
+      },
+      {
+        "path": "/dictionary/pinyin/",
+        "indexed": true,
+        "crawlDisplayed": "2026-10-31 06:50:27",
+        "canonical": "self",
+        "sitemapDiscoveryField": "temporary processing error; crawl and indexing successful"
+      }
+    ],
+    "parameterInspection": "UI displayed differently normalized URL with duplicated fragment; result not used to diagnose original export URL"
+  },
+  "checks": {
+    "productionBuild": {
+      "files": 2847,
+      "englishPages": 413,
+      "noindex": 9
+    },
+    "seo": {
+      "errors": [],
+      "sitemap": 404,
+      "corePages": 365
+    },
+    "tests": {
+      "passed": 192,
+      "failed": 0,
+      "skipped": 0
+    },
+    "browser": [
+      "flashcards guide and specific title visible",
+      "first-six link enters real practice page with Reveal answer/Familiar/Again controls",
+      "shui3 filter produces one syllable",
+      "new pinyin character index link navigates to correct index and guide"
+    ]
+  },
+  "sourceSha256": {
+    "site/pages/learning.mjs": "4677d06687703f85bd19593858612374db447d94045edaca1ad497b80953ae61",
+    "site/pages/pinyin-chart.mjs": "199ca6ed28ac10ea87cbfe9c1bb50ace3642c7ad4efd145b877d4b753406cb66",
+    "site/pages/dictionary.mjs": "9a23c662d5a6ed0a650a04d9b333878e83608c15329a8efc0bafefb834d99218",
+    "site/seo.mjs": "3f6014d55d26ed147bb9d3135eaab41b9da7b293da1f7f2f4cc6c7a601329974",
+    "tests/seo-quality.test.mjs": "5f4dc2576e8edb6f4ce65c9b1f4a56dcae3e4ab8fe722acc3cd3d74330ecc04d"
+  }
+}

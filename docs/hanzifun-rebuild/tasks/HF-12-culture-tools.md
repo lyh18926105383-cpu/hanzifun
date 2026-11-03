@@ -1,5 +1,7 @@
 # HF-12｜四项文化工具的受控首版
 
+> 2026-11-01增量：Tools画廊/英文引导与Blog改版已一起上线，releaseId=`blog-tools-release-2026-11-01`。见[实际回执](../releases/blog-tools-release-2026-11-01/deployment.json)。下方先前本地状态保留历史。
+
 状态：本地 Completed / PASS（2026-10-31 Owner正式签收；未部署）。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
 
 | 项目 | 内容 |

@@ -1,0 +1,24 @@
+{
+  "releaseId": "blog-ui-release-2026-11-01",
+  "worker": "hanzifun",
+  "sourceCommit": "381cf9fb98f97d8199abb624b41bb24c497fb9ed",
+  "versionId": "3e74ad2c-de86-44f7-8749-27f993150182",
+  "deploymentId": "65b28c6d-b7a9-4194-bf77-59727f20377f",
+  "trafficPercent": 100,
+  "deployedAt": "2026-10-31T16:45:27.051220Z",
+  "deployedAtSingapore": "2026-11-01 00:45:27 +08:00",
+  "artifactSha256": "d969d9258caad6b9e840ea456ddd2c2d6fd74ae97850cc67fffceda2b554454c",
+  "previousVersionId": "964940e9-f78b-40d5-b8af-e72c1c4e793b",
+  "followupObservedVersionId": "d448b127-6331-464b-b719-0e5ebdd9c415",
+  "followupObservation": "A later wrangler-origin deployment was observed. Its runtime/bindings are identical and checked content matches this artifact; triggering Git commit was not independently proven.",
+  "verification": {
+    "httpChecks": 37,
+    "errors": [],
+    "robots": "Cloudflare managed prefix plus unchanged origin rules"
+  },
+  "github": {
+    "branch": "main",
+    "sourcePush": "confirmed"
+  },
+  "supersededBy": "blog-tools-release-2026-11-01 requested by Owner during final verification"
+}

@@ -1,9 +1,24 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 当前生产：2026-11-02两批SEO已统一部署 / PASS；源码a6c2688推送main，194/194测试、48项正式域名及浏览器复检通过。实际版本65fd9f41-12b0-4132-9726-8a07afa1484f，2026-11-02T15:34:17.980557+08:00，100%流量。见记录40与releases/seo-navigation-release-2026-11-02/deployment.json。下方待部署描述为历史阶段。
+
+> 最新执行：2026-11-02第二批拼音导航本地Completed / PASS，194/194测试与SEO/浏览器验证通过。首批成果保留，Owner要求之后统一部署。见记录38与collaboration/seo-2026-11-02-batch2/DELIVERY.md，当前尚未部署。
+
+> 最新执行：2026-11-02首轮Gemini Argon＋Cursor Composer2.5＋Codex协作已完成本地验收，192/192测试PASS，改进三页引导及闪卡SEO元数据；GSC三目标页均已收录/canonical自身。见记录37与collaboration/seo-2026-11-02/DELIVERY.md，尚未部署。
+
+> 最新SEO输入：2026-11-02已分析Owner的GSC导出（实际2026-07-31～10-30）：86曝光/2点击，最后4天67曝光。SEO目标下优先核验索引/规范网址与现有页面机会，87字保留产品候选；见记录36与 GSC-REVIEW-2026-11-02.md。未派发或改线上页面。
+
+> 最新总控盘点：2026-11-01 已核对源码与发布证据，修正旧任务状态；当前剩余主线为87缺字、HSK3.0二级及后续等级，其他增强/运营/Phase3分开记录。详见记录35与 REMAINING-TASKS-2026-11-01.md；尚未向Cursor/Gemini派发开发任务。
+
+> 协作约定更新：2026-11-01 已建立 Codex / Cursor 本地开发 + Gemini 云端分析的操作方案，并记录 Owner 提供的模型范围；详见记录34与 MULTI-APP-COLLABORATION.md。首轮实际协作尚待具体任务，产品发布状态仍见下方记录33。
+
+> 最新增量：2026-11-01 Blog与另一聊天Tools已合并上线，源码720374a已推送main，正式域名44项复检PASS；版本992a6d92-cfd7-403f-a705-61ada1119951，2026-11-01 01:01:37 +08:00，100%流量。见记录33及blog-tools-release-2026-11-01发布回执。下方旧待部署状态保留历史。
+
 ## 当前所处阶段
-- **大阶段**：Phase 2。2026-10-28生产基线保留；2026-10-31本地新增候选准备完成，未部署。
-- **当前执行任务**：/tools/左侧导航轨+五段中国风实时画廊Completed / PASS；五SVG/移动抽屉/scroll spy/真实收藏与教师本机保存已接，独立路由及339字约束保留。
-- **状态**：Desktop主目录main，基线98f79fa；192/192测试PASS，生产2838文件/413英文页（404 index/9 noindex），Sitemap404、SEO errors=[]。候选phase-2-tools-gallery-2026-10-31未commit/push/部署，截图/Owner授权哈希回执已保存。
+- **大阶段**：保持轻量本地学习架构；本次仅交付已授权SEO改进，未新增账号、云同步或订阅。
+- **当前执行任务**：SEO首批与第二批统一发布Completed / PASS；剩余为人工GSC发布后7/28天观察及新任务选择。
+- **最近发布记录**：releaseId=`seo-navigation-release-2026-11-02`，源码`a6c2688`；实际版本`65fd9f41-12b0-4132-9726-8a07afa1484f`，2026-11-02T15:34:17.980557+08:00，100%流量。194/194测试、2847文件/413英文页（404 index/9 noindex）、Sitemap404、正式域名48项errors=[]及浏览器复检通过。
+- **当前开发目录**：c20f worktree，分支codex/seo-2026-11-02；源码a6c2688已推送origin/main，发布文档随本回执单独提交同步至main。Desktop旧工作区保留原状；339字/87缺字及Phase3范围未变。
 
 ---
 
@@ -384,7 +399,30 @@
 - **本轮文件**：新增site/tools-integration.mjs、src/client/{cultural-tools,tools-entry}.mjs、scripts/verify-tools-browser.mjs、tests/culture-teacher-integration.test.mjs；接入/调整Cursor的site/pages/{cultural-tools,teacher-decks}.mjs、src/client/teacher-decks.mjs、site/public/site-styles.css、tests/cultural-tools-teacher.test.mjs（原7项保留）。修改scripts/build-site.js、site/{seo.mjs,release.json,pages/learning.mjs}、data/editorial/review-decisions.json、tests/seo-quality.test.mjs；文档HF-12-HF-15-INTEGRATION-VERIFICATION、acceptance/culture-teacher-local-2026-10-31.json、evidence/culture-teacher-local/{browser,verification}.json、TASKS/PROGRESS/REMAINING及HF12/HF15任务、SPEC/FILE_ARCHITECTURE与routes契约。
 - **遗留/精确下一步**：本轮确认范围完成，未commit/push/部署。HF14仍非全等级，87缺字是后续批次；原账号/同步/付费/有授权教材范围未做。无IndexedDB且无Web Locks的旧浏览器LocalStorage仅乐观revision/写后校验，不宣称原子跨标签事务；未测所有浏览器/真机/线上。下一Agent先读本报告/本候选verification和releaseId，若发布重做HF17冻结/回滚/Workers及本次生产窗口核验，不复用旧候选manifest、不重问已获内容签收。
 
-### [记录 30] - `/tools/` 左侧竖线轨与五段中国风实时画廊（By Codex，2026-10-31）
+### [记录 30] - HF-13 Blog视觉改版，本地待Owner人工审核（By Codex，2026-11-01）
+
+- **授权/目录**：Owner确认本聊天生成的效果图后要求改造现有blog，并指定完成后用内置浏览器或Chrome打开供人工审核。本轮施工当前`/Users/graceshi/.codex/worktrees/8be3/汉字饭hanzifun`；开工tracked干净，没有改Desktop主目录、提交/推送或生产部署。
+- **交付**：Blog专用暖米白/朱砂红/竹青/草木黄与炭黑系统、细沙金边框、祥云暗纹与印章标、五幅错落摄影带、Featured约62:38左右栏、三列/平板两列/手机单列卡片。接三篇已签收文章+两篇原指南+真实HSK二级资源；“乐”字示例无已审核文章，主打使用现有中秋文章。原正文/hash/作者/签收不变。
+- **功能**：五分类/搜索组合筛选、结果播报、空结果与重置；Subscribe锚点、五条正式文章/指南的RSS XML、自发现与复制feed链接。无邮箱收集/发送、账号、同步、Billing或故事课修改。
+- **配图**：两张内置image_gen生成的摄影质感图；后续生成401 token_revoked，使用agent-reach Exa/Jina查源并下载Feng Zou/Pexels两张与Y H/Unsplash一张照片。五图本地分发、页面有署名及AI说明；具体源/许可核验边界和生成prompt见HF-13-BLOG-UI-VERIFICATION。
+- **文件清单**：修改`site/editorial-content.mjs`、`site/layouts/base.html`（可选页面插槽）、`scripts/build-site.js`（分发博客JS/RSS）；新增`site/pages/blog.mjs`、`src/client/blog.mjs`、`public/site-assets/blog.v1.css`、`blog-cloud.v1.svg`及`blog/{archive,calligraphy,festival,study,tea}.v1.jpg`。新增本轮验证文档与`evidence/blog-ui-2026-11-01/`；更新TASKS/PROGRESS。未改共享主CSS、release策略、字典/HSK/故事内容。
+- **验证**：隔离生产构建2841文件/413英文页（404 index/9 noindex）、Sitemap404、SEO errors=[]；190/190测试PASS，无fail/skip/cancel；XML解析五条规范URL PASS。worktree最初缺忽略的HSK XLSX/cedict.gz缓存，从Desktop只读复制后重跑通过，没有跳过/改弱测试。内置浏览器320/360/390/540/768/850/1100/1440八宽度无溢出，分类/搜索/空状态/重置、手机Menu/Escape、RSS复制、文章跳转与无JS六卡通过；桌面/手机axe WCAG A/AA零违规。发现并修复博客CSS加载顺序和手机页眉换行后保存最终截图。未冒称跨浏览器/真机/p75/生产验收。
+- **当前状态与下一Agent精确切入点**：Owner视觉确认尚待回复。内置浏览器留存本地`http://127.0.0.1:4178/blog/`，隔离输出`/private/tmp/hanzifun-blog-preview`，预览服务为python http.server 4178。先读本记录、TASKS及HF-13-BLOG-UI-VERIFICATION，再按Owner反馈调整blog专用文件。若服务/临时构建已清理，按验证文档重建并启动；不将本次UI授权当作生产发布授权，发布另走HF-17/18。
+- **检查脚本适配**：另修改`scripts/verify-editorial-browser.mjs`两条Blog发现断言，由恰好一个链接改为至少一个，允许Featured/侧栏与卡片重复推荐；未冒称重跑其完整打印/学习旅程。
+
+### [记录 31] - Owner确认Blog视觉，执行授权发布（By Codex，2026-11-01）
+
+- **Owner新指令**：审阅内置浏览器后回复“没问题了”，要求“完成部署上线”“近期更新git commit & push”“更新task.md和progress.md”。本轮使用项目既有TASKS.md/PROGRESS.md，不新建重复小写文件。
+- **真实现状**：GitHub main与HEAD均为98f79fa，前两批b4923a6/98f79fa已经提交推送；本轮新增待提交为Blog改版。实际Cloudflare生产版本964940e9-f78b-40d5-b8af-e72c1c4e793b（2026-10-31），Sitemap404，非旧日志f1e7d8af；无服务bindings，旧404/四重定向/兼容日期已核对。
+- **发布准备**：当前worktree从detached HEAD创建codex/blog-release-2026-11-01；独立releaseId=blog-ui-release-2026-11-01，仅改顶层releaseId，不变更原内容/工具签收。冻结2841文件/413英文页/404 Sitemap，artifact SHA256=d969d9258caad6b9e840ea456ddd2c2d6fd74ae97850cc67fffceda2b554454c；190/190测试和SEO errors=[]；本地Wrangler4.156等价环境37项页面/资源/重定向query/真实404/MP3 Range检查通过。
+- **回滚**：从98f79fa隔离重建2832文件旧包，Blog字节与发布前生产一致；静态指针切换→回滚→恢复0.626秒，hash均一致，未在线回滚演练。不可变Cloudflare旧版本与忽略.cache/releases/blog-ui-release-2026-11-01/分别保存远端/本地恢复依据。
+- **文件范围**：承接记录30全部Blog文件；本轮另改site/release.json顶层releaseId，新增releases/blog-ui-release-2026-11-01/{manifest,ACCEPTANCE,ROLLBACK,local-workers-verification,rollback-rehearsal}，更新TASKS/PROGRESS与Blog验证文档的Owner确认。提交、部署与线上实际回执将在本记录后补齐，不把准备完成当作已经上线。
+
+## 承接另一聊天的Tools决策与交接（2026-11-01合并）
+
+来源：完成 HSK 扩编与 HF-14 索引。仅迁入已确认工作和证据；保留原聊天记录，未移动或归档原聊天。下方“未部署”为原聊天当时状态，最终状态见后续合并发布记录。
+
+### [Tools-A] - `/tools/` 左侧竖线轨与五段中国风实时画廊（By Codex，2026-10-31）
 
 - **基线/授权**：指定Desktop主目录main，开工tracked干净HEAD98f79fa；用户明确要求删除忽略tmp_tools_design_ref.html，该文件存在并已直接删除，未读取，已加gitignore。Owner明确授权视觉实现及哈希更新；未覆盖其他个人临时文件，未使用旧worktree。
 - **交付**：site/pages/cultural-tools新增culturalStudioPage，左印章/编号/双语导航、贯穿雅致竖线/滑动条，右五段名字/食味/岁次/墨鉴/教案。五个原创SVG画卷在site/public/tools-art（name/menu/zodiac/tattoo/teacher-scroll.svg），滤镜/米色遮罩与磨砂舞台，前景表单、大字拼音语义与字典/独立工具深链。src/client/tools-gallery复用既有查询和教师Repo，IO高亮/平滑定位/轻视差渐入、手机抽屉/Escape/减少动态/无JS静态内容均接通。真实收藏与教师本机revision1→2可在原工作台读取，个人输入不进请求。
@@ -393,15 +431,103 @@
 - **修改文件**：.gitignore、site/pages/cultural-tools.mjs、site/tools-integration.mjs、src/client/tools-entry.mjs、site/public/site-styles.css、scripts/build-site.js、site/release.json、data/editorial/review-decisions.json；新增src/client/tools-gallery.mjs、五SVG、tests/tools-gallery.test.mjs、scripts/verify-tools-gallery-browser.mjs；docs新增HF-12-TOOLS-GALLERY-VERIFICATION、acceptance/culture-teacher-gallery-2026-10-31.json、evidence/tools-gallery（5PNG+browser/verification.json）；更新TASKS/PROGRESS与HF12任务。
 - **精确下一步**：本轮本地完成，无待答项；未commit/push/部署，不声称真机/跨浏览器/真实p75/线上。若发布，从新releaseId/verification输入hash进行本候选HF17/18，不沿用旧包冻结。若改画廊或资产，刷新本批签收和截图；339身份/87缺字约定不变，不读取已丢弃临时参考文件。
 
-### [记录 31] - 左侧导航英文点击引导文案（By Codex，2026-11-01收尾）
+### [Tools-B] - 左侧导航英文点击引导文案（By Codex，2026-11-01收尾）
 
 - Owner对五句完整英文提案回复“确认”，已逐字加入五个英文工具标题下方：Name — Find a Chinese name that feels like you.; Menu — Discover the characters behind your next meal.; Zodiac — Find the animal and element of your lunar year.; Tattoo — Explore the meaning before it becomes ink.; Teacher — Turn a few characters into your next lesson.
 - 修改src/client/tools-gallery.mjs（guide字段）、site/pages/cultural-tools.mjs（small引导）、site/public/site-styles.css（11px次级文案/移动抽屉grid换行）。滑动指示条仍按实际item高度定位，未硬编码旧高度。按已获Owner确认刷新review-decisions、release及gallery批次receipt，另持久化railGuideCopyConfirmation；原339字/路由策略不变。
 - 生产构建2838文件/413英文页、SEO errors=[]/Sitemap404、全量192/192及定向2/2测试PASS；Chrome画廊8旅程/6宽度/手机桌面两档axe零违规，截图已重生成并查看桌面首屏；无JS/减少动态/真实保存/抽屉/spy保持通过。
 - TASKS与evidence/tools-gallery/verification.json已同步当前源码/截图hash，HF12/画廊验收追加本次确认记录。未commit/push/部署。下一Agent从最新verification与gallery签收继续，不恢复旧英文标题下无引导的版本；本轮无遗留问题。
 
+### [记录 32] - 承接另一聊天Tools，冻结Blog+Tools合并候选（By Codex，2026-11-01）
 
-### [记录 32] - 339单字页学习流与吸顶工具箱重构（By Codex + Cursor Grok 4.7，2026-11-02）
+- **Owner追加要求**：在Blog已发布后的复检阶段，明确要求另一聊天未部署的Tools改动一起上线；随后询问“能合并对话吗”。已解释原聊天记录没有可用的直接合并入口，实际读取并承接另一聊天的决策、代码、测试和交接。没有移动、归档原聊天或向另一聊天代发消息。
+- **来源/合并**：另一聊天标题“完成 HSK 扩编与 HF-14 索引”，threadId=01a191e7-b866-7842-bdf7-a430743c16df；最新Tools文件在Desktop主目录main的98f79fa未提交工作区。只读导出指定tracked补丁并迁入17个新文件（含证据/5SVG/JS/测试），源码精确hash匹配；scripts/build-site.js自动合并保留Blog，site/release.json按98f79fa三方JSON合并并设独立releaseId=blog-tools-release-2026-11-01，原gallery/引导文案签收与339字/HSK签名不变。未导入个人图片/.workbuddy等文件，未修改源工作区。
+- **交付**：五段中国风Tools画廊、竖线章节轨、滑动高亮、手机抽屉、五句Owner已确认英文引导、本机收藏/教师组卡复用现有Repo；保留Blog摄影、分类搜索和RSS。原聊天记录30/31以Tools-A/Tools-B标记追加到本日志，避免覆盖本聊天同号记录。
+- **合并验证**：生产2847文件/413英文页/404 index/9 noindex，Sitemap404、SEO errors=[]；192/192测试PASS，0fail/skip/cancel。冻结artifact SHA256=7b9a8d0444de4b5b452712bdfc894d633d864ea7630511dd2732a9d6fd0d93a4；本地Workers44项通过。内置浏览器真实姓名/未收录菜单/生肖春节边界/发字多音、真实收藏、教师revision1→2及全工作台/noindex、手机抽屉、Blog筛选搜索通过；10档布局无溢出、两页4档axe零违规、consoleErrors=[]。本地测试使用独立4182 origin。
+- **首轮发布实际记录**：Blog源码381cf9f已推送main，Cloudflare首轮3e74ad2c-de86-44f7-8749-27f993150182，2026-11-01 00:45:27 +08；随后出现wrangler来源d448b127-6331-464b-b719-0e5ebdd9c415，runtime/bindings相同，标准curl检查内容与冻结Blog包一致，未独立证明其触发提交。初始自定义UA的urllib校验响应异常单独留档，改用标准curl37项完成；robots确认是Cloudflare托管前缀+完全一致的原Allow/Sitemap规则，没有更改边缘策略。
+- **回滚/下一步**：新候选以当前实际d448b127为回滚目标，保留已上线Blog。静态指针回滚恢复0.594秒，未在线回滚演练；忽略.cache保存两包/指纹。先完成本次源码commit/push和同包部署，再核对实际版本/44线上项，补齐deployment与TASKS/PROGRESS最终状态。24小时/7天观察未自动创建，87缺字/Phase3范围不动。
+
+### [记录 33] - Blog + Tools实际合并上线与运行交接（By Codex，2026-11-01）
+
+- **实际发布**：合并源码提交720374a80b6d23bf53ef78db0ea746b89f9524e3，已非强推到GitHub main（381cf9f→720374a）。Wrangler4.156 `deploy --name hanzifun --strict --keep-vars`成功；11资产更新、2834复用；版本992a6d92-cfd7-403f-a705-61ada1119951，deploymentId=9cf047b6-dee2-43b7-9d39-a644130b73dc，**2026-11-01 01:01:37 +08:00**，100%流量。
+- **相同候选证明**：Wrangler重建2847文件的artifact SHA256仍为7b9a8d0444de4b5b452712bdfc894d633d864ea7630511dd2732a9d6fd0d93a4；2242冻结源码文件逐项无漂移。192/192测试、SEO errors=[]/413英文页/Sitemap404结果与候选一致，没有变更原签收或跳过检查。
+- **正式域名**：44项标准curl校验通过，博客与五正式文章/指南、RSS、五配图、Blog/Tools JS/CSS、五SVG、Tools六路由、HSK、字典、打印、中文入口等正文/资源与冻结包逐字节一致；旧index/打印/故事跳转保留query、真实404和MP3 Range通过。robots保留Cloudflare托管前缀，原Allow/Sitemap尾部完全一致。这里核对可索引配置，不是Google实际收录。
+- **线上浏览器**：内置浏览器实际打开正式Tools，五段/五句确认英文引导可见，client ready=true、无溢出/console errors；正式Blog分类HSK实际仅显示1卡，全部6卡可恢复。生产截图与JSON已保存到本次发布目录，浏览器留在正式Tools供后续查看。新动态输入/收藏/教师revision旅程在独立本地4182完成，未用用户生产历史做破坏性测试。
+- **文档/回滚**：本次release目录已含manifest/ACCEPTANCE/ROLLBACK、local-workers/online/browser验证、source import与静态回滚receipt、deployment和生产截图；TASKS、PROGRESS及HF-12/13/17/18状态同步。上一生产d448b127已作为本批回滚目标，恢复时保留已确认Blog，不清本机学习记录；前一Blog单独发布亦有独立实际回执。
+- **接力与剩余**：用户表示要休息并问后续授权，已明确当前全部动作已有授权，无需继续等待确认。本批工作完成，交接证据提交后同步main。另一聊天原记录保持独立，源码/决定已在此合并；Desktop主目录main的原未提交工作区原样保留，其Tools内容已经进入720374a，后续不要从旧状态重复发布覆盖Blog。24小时/7天观察由Owner按需执行，未自动建监控；87缺字、HSK剩余等级/Phase3/AdSense原待办保持。未冒称全浏览器/真机/p75或故事重新视听验收。
+
+### [记录 34] - 跨应用协作边界、模型分工与任务交接方案（By Codex，2026-11-01）
+
+- **Owner 新说明**：Cursor 能修改本地文件，可用 Grok 4.6 / 4.7 与 Composer 2.5；Gemini 桌面端只能在云端工作，可用各档模型，包括 Argon。此前界面可访问性已检查，不能由“任务/Antigravity”入口推断 Gemini 能读写本地项目。
+- **本轮目录**：当前 c20f worktree，开工 Git tracked/未跟踪状态干净、detached HEAD；仅落地文档方案，未操作其他工作区。
+- **交付**：新增 MULTI-APP-COLLABORATION.md，规定 Codex 统筹与集成、Cursor 本地实现、Gemini 云端设计/分析/审查及候选代码返回。Composer 2.5 是首轮试用默认，Grok 为替换选项；Argon 用于复杂分析，能力结论以具体试跑和本地验收为准。
+- **交接机制**：任务卡明确负责人、工作目录、基线、文件边界、依赖与验收；Gemini 使用材料快照，Codex 回收后检查版本并落盘；状态区分已派发、已回收与已验收。共享文件和总交接由 Codex 收口。
+- **文件列表**：新增 docs/hanzifun-rebuild/MULTI-APP-COLLABORATION.md；更新 docs/hanzifun-rebuild/TASKS.md、docs/hanzifun-rebuild/PROGRESS.md。
+- **验证范围**：本轮为文档改动，按 VERIFICATION 的文档检查口径检查新增方案的本地引用、表格/围栏、任务索引、唯一交接编号和模型/环境覆盖，全部通过；git diff --check PASS。产品测试、构建、生产验收及模型对比不属于本次执行结果。
+- **遗留/下一 Agent 精确切入点**：先读本记录、TASKS 与 MULTI-APP-COLLABORATION.md，接到具体开发需求后再读对应单个 HF 任务说明，核实实际开发目录/基线，选一个独立小任务跑通 Composer 2.5 实现 + Argon 分析或审查 + Codex 本地验收。尚未派发任务、切换模型或创建工作树；模型可用性按 Owner 说明，不把试运行分工写成实测排名。
+
+### [记录 35] - 总控核对项目进度与待分配开发范围（By Codex，2026-11-01）
+
+- **请求/范围**：Owner要求检查整个项目进度与剩余任务，随后讨论如何分配。本轮为本地源码、任务和发布证据审计，未启动业务实现或外部Agent任务。
+- **核对结果**：当前HEAD02eb645承接源码720374a最新合并发布；339项内容审核approved/Tier2，HSK2二级增量150/150、deferred0、完整组成字页86/150；独立重算87缺字集合与nextCharacterBatch一致且不与现有339字重叠。16主题/383归类/100入门、3篇正式文章+2指南、四工具与教师本机版均已有交付。
+- **剩余主线**：HF14的87字新批次、HSK3二级及后续等级、现有索引扩展；内容深化/Tier1、质量证据、运营和AdSense配置分别列项。原HF10登录/HF11同步/HF16订阅与HF15账号/教材版保留Phase3，不能混同Phase2的同号内容批次。
+- **基线发现**：Desktop主目录98f79fa，落后本地origin/main3提交，保留tracked及个人未跟踪改动；不直接覆盖或强拉。当前c20f只有本会话文档改动。旧codex/stripe-subscriptions末次6855bc1为Creem历史实现，未并入重建主站，不视为HF16完成。
+- **文档纠偏**：TASKS索引HF12/13仍写未部署、HF14入口仍写64词Deferred，均按实际发布/数据修正；HF15标明本机版上线。2026-10-31旧盘点加历史提示；删除过时的“从HF01开始”建议，接入当前候选任务入口。PROGRESS顶部区分历史发布目录与当前审计目录。
+- **文件列表**：新增 docs/hanzifun-rebuild/REMAINING-TASKS-2026-11-01.md、evidence/project-audit-2026-11-01/audit.json；修改 TASKS.md、PROGRESS.md、REMAINING-TASKS-2026-10-31.md、tasks/HF-14-hsk-expansion.md、tasks/HF-15-teacher-decks.md。保留记录34的协作方案文件。
+- **验证边界**：本地JSON集合/计数/审核状态/发布ID一致性断言PASS，证据附源码hash；16个文档链接目标、表格/围栏/空白、唯一交接编号、源码hash不变与仅文档变更检查PASS，git diff --check PASS。192测试与44线上项引用上次真实发布回执，本轮没有重新运行产品测试/构建/浏览器，也未fetch远端、查看运营账号或变更发布状态。
+- **下一Agent精确切入点**：读取最新盘点第3～6节及Owner对优先级的下一步决定；推荐先R-00固定基线，再用R-01小批约20字验证三方协作。Gemini提供带来源的分析/草案，Cursor按冻结契约实现局部代码，Codex统一来源核验、审核门控和本地集成验收。当前分工仅候选，87字仍属于需明确启动的后续批次。
+
+### [记录 36] - GSC导出分析与SEO候选顺序调整（By Codex，2026-11-02）
+
+- **输入**：Owner提供Downloads中的hanzifun.online-Performance-on-Search-2026-11-01.zip；读取7个CSV。文件名日期不代表数据覆盖日期，实际2026-07-31～10-30共92天，搜索类型网页。按GSC的PT日期理解，未覆盖11月1日新加坡时间合并发布后的效果。
+- **计算结果**：图表86曝光/2点击/2.33%CTR，国家和设备总数分别对齐；最后4天6/16/17/28曝光，合计67，占77.9%。页面表48行/101曝光使用页面口径；查询仅6行/12曝光/0点击，不能与图表混算或推断差额查询。全期2点击均出现在首页行，不推断独立用户或品牌归因。
+- **判断**：近期曝光增加是早期信号，样本不足以判定稳定关键词排名、低CTR缺陷或87字补齐的预期流量。已有曝光入口包含拼音表、闪卡、拼音查字；作为检查对象而非已证明高流量词。匿名查询/聚合/时区说明已核对Google官方文档。
+- **技术边界**：GSC页面表有returnTo、char及两种旧story地址，列为规范网址抽样候选；本地seo.mjs已有去参数canonical，未诊断为当前缺陷，未改故事内容/播放器或索引策略。没有页面索引报告、Google所选canonical或11月1日后数据，48曝光URL不能当收录数量。
+- **文件列表**：新增docs/hanzifun-rebuild/GSC-REVIEW-2026-11-02.md、evidence/gsc-2026-11-02/analysis.json；修改TASKS.md、PROGRESS.md、REMAINING-TASKS-2026-11-01.md。原ZIP未改；7份解压CSV保存在本聊天visualizations目录下gsc-2026-11-01/source/，路径/哈希见证据。
+- **验证**：图表/国家/设备一致性、页面/查询独立口径、92天与最后4天求和、原ZIP与CSV字节/哈希检查PASS；只处理分析和文档，没有重跑产品测试/构建或改生产。
+- **下步候选**：SEO-01先只读核验GSC索引/站点地图/URL Inspection；SEO-02交Gemini分析需求和现有内容机会，Codex核对；SEO-03由Cursor实施确定的局部改动、Codex验收；SEO-04按需观察后续完整7/28天，不自动建监控。执行代码任务前仍须R-00基线准备。87字方案作为产品完整度路线保留，当前未向任何外部Agent派发。
+
+
+### [记录 37] - 首轮跨应用SEO执行与本地验收（By Codex，2026-11-02）
+
+- **授权/基线**：Owner回复“可以，你来安排并执行”并催续；在c20f由02eb645新建codex/seo-2026-11-02，保留此前文档改动与Desktop原工作区。
+- **真实协作**：已通过桌面UI向Gemini 4 Argon发送SEO-02并回收简报/校正；向Cursor Composer2.5 Fast发送SEO-03，明确只写三模板。Cursor实际完成并返回交付文档，Codex指出Again不能承诺同会话重排后，Cursor已校正。未使用内部子Agent冒充外部应用。
+- **GSC**：索引汇总截至10月23日，不代表现在；站点地图10月31日读取成功/404网址。拼音表、闪卡、拼音索引三页URL Inspection均已索引、抓取成功、canonical自身。普通flashcards URL误作站点地图有一项错误，未删除。参数URL归一化显示不一致的检查不采信为原URL诊断。
+- **代码**：Cursor修改site/pages/learning.mjs、pinyin-chart.mjs、dictionary.mjs，仅三页引导与内链；Codex改site/seo.mjs增加flashcards专用title/H1/lead，tests/seo-quality.test.mjs受核验元数据页数364→365，索引/Sitemap数不变。数据、字符审批、课程、release和客户端行为未改。
+- **验证**：隔离生产构建2847文件/413英文页/9 noindex；SEO errors=[]/Sitemap404。首次测试缺锁定缓存且元数据页计数需同步，恢复忽略HSK XLSX/cedict缓存并合理更新预期后，全量192/192 PASS，0fail/skip/cancel。浏览器三页引导可见、卡组入口与翻卡控件、shui3筛选1结果及索引内链通过。六地址线上HTTP/meta仅为修改前现状，不冒充新代码已上线。
+- **文件/证据**：上述5代码/测试文件；新增collaboration/seo-2026-11-02/{DELIVERY,cursor-delivery}.md与verification.json；更新TASKS/PROGRESS、MULTI-APP-COLLABORATION。预览http://127.0.0.1:4190/flashcards/，截图/private/tmp/hanzifun-seo-flashcards-preview.png。此前盘点和GSC分析仍保留。
+- **精确下步**：本轮本地Completed，尚未commit/push/deploy；审阅DELIVERY后按HF17/18准备独立候选和发布证据，发布后的7/28天观察不预先标完成、不自动排程。87缺字与Phase3继续原范围。
+
+
+### [记录 38] - 第二批拼音索引导航与键盘跳转（By Codex，2026-11-02）
+
+- **Owner要求/范围**：“继续下一步任务，我们再统一部署吧”；本批继续SEO小范围实用性改进，合并保留首批成果，暂不发布，不扩字、不进入Phase3。
+- **真实协作**：Gemini 4 Argon评审当前索引的首字母跳转/无JS与键盘风险；Cursor Composer2.5仅写dictionary.mjs、pinyin-chart.mjs与pinyin-navigation.test.mjs，按Codex反馈完善范围说明和form焦点；Codex负责最终集成、浏览器验证和交接。
+- **功能**：21个有内容的拼音拼写首字母链接指向各首个现有音节；126核心索引范围和109原音节锚点集合保持。拼音表新增筛选区原生链接，form唯一id及tabindex=-1。浏览器发现所有字母误标当前页，Codex修正src/client/site-preview.js的高亮规则，不把带hash链接标为当前页。
+- **验证**：修正后最终194/194测试PASS（原192+2），0fail/skip/cancel；隔离生产2847文件/413英文页/9 noindex、SEO errors=[]/404 Sitemap/365专用元数据页。原109锚点集合无漂移且唯一；数据/审核/release hash不变。无JS桌面键盘Z→pinyin-zao，390px手机B→pinyin-ban、无溢出；筛选链接hash与实际focus均正确。恢复JS/视口后字母current数0，By pinyin仍current=page，截图已查看。
+- **文件列表**：本批增量site/pages/dictionary.mjs、site/pages/pinyin-chart.mjs、src/client/site-preview.js；新增tests/pinyin-navigation.test.mjs；新增collaboration/seo-2026-11-02-batch2/{DELIVERY,cursor-delivery}.md及verification.json，更新TASKS/PROGRESS。首批代码与文档保留。
+- **当前交接**：最新预览http://127.0.0.1:4191/dictionary/pinyin/，构建/private/tmp/hanzifun-seo-batch2-preview；截图/private/tmp/hanzifun-seo-batch2-preview.png。尚未commit/push/deploy，Desktop未改。统一部署时以第二批最终指纹准备HF17/18，不拿首批旧源码hash当最终候选；后续SEO观察从实际发布起算，不自动排程。
+
+
+### [记录 39] - 两批SEO授权统一发布准备（By Codex，2026-11-02）
+
+- **Owner授权**：明确要求部署上线、Git push及TASKS/PROGRESS更新；不重复请求授权。本批releaseId=seo-navigation-release-2026-11-02，沿用c20f分支codex/seo-2026-11-02，远端main与基线02eb645一致。
+- **准备结果**：194/194测试PASS，生产2847文件/413英文页/404 index/9 noindex，SEO errors=[]；冻结2268源码文件与候选指纹。Local Workers48项通过；实际生产48项与重建上一版逐字节相符，Cloudflare当前版本32b8140f-a7cb-4b5c-9592-06f5a0a73f2f（较旧日志992a更新）已作为回滚目标。
+- **回滚/边界**：忽略.cache/releases/seo-navigation-release-2026-11-02保留previous/candidate与逐文件hash，隔离指针回滚/恢复通过，不清学习记录。只改releaseId，不改原数据/审核/账号/媒体配置。Cloudflare首次API超时，IPv4优先后读取成功；没有弱化证书或网络保护。
+- **当前文件/下一步**：已新增releases/seo-navigation-release-2026-11-02的manifest、ACCEPTANCE、ROLLBACK、候选/备份指纹、回滚及本地/发布前线上检查。源码提交推送后部署同包，再补实际deployment、正式域名48项及浏览器结果和最终任务状态；此条准备记录不冒称已经上线。
+
+
+### [记录 40] - 两批SEO正式上线、Git推送与最终交接（By Codex，2026-11-02）
+
+- **授权/完成**：按Owner“你确定没问题，就部署上线，并更新git push，和更新任务和进度文档”执行；源码提交`a6c2688`已非强制推送origin/main（02eb645..a6c2688），部署同一冻结产物。
+- **实际生产**：2026-11-02T15:34:17.980557+08:00，最终100%流量版本`65fd9f41-12b0-4132-9726-8a07afa1484f`、deploymentId=`5eeb2bc1-fee7-48a8-88ae-1b2a82b5dc94`。CLI返回6583f7d0，API历史紧随其后的最终部署为65fd9f41，分别保留，线上字节与候选一致；不把旧992a或准备阶段32b误作新版本。
+- **验收**：最终194/194测试、0fail/skip/cancel；2847公开文件/413英文页/404 index/9 noindex、SEO errors=[]/Sitemap404。本地Workers48项、发布前48项及发布后48项均PASS；发布后21首字母/无误高亮、B锚点、筛选区实际焦点、闪卡引导及title/H1均PASS。源码2268文件与2847产物指纹复核无漂移，生产截图实际查看。
+- **文件列表**：site/release.json仅更新releaseId；发布目录releases/seo-navigation-release-2026-11-02/的manifest、ACCEPTANCE、ROLLBACK、candidate/previous-artifact、rollback-rehearsal、production-before/after、active-version、local-workers/production-before/online-verification、browser-verification、deployment及production-pinyin.png；更新TASKS、PROGRESS、HF-17/HF-18和两批DELIVERY。源码功能文件清单见记录37/38。
+- **回滚/保留**：上一实际生产32b8140f-a7cb-4b5c-9592-06f5a0a73f2f；忽略.cache保留previous/candidate与指纹，隔离回滚/恢复PASS；没有在正式站做回滚，没有改学习记录、故事媒体或Phase3范围。
+- **遗留与精确切入点**：发布任务完成；SEO-04仍待发布后完整7/28天GSC人工复盘，不承诺流量增长、不创建自动监控。下一Agent先读本记录与TASKS，再按Owner选定任务读取单个任务文件；87缺字/HSK下一等级仍见REMAINING-TASKS-2026-11-01.md。最终文档提交推送后保持工作树干净。
+
+
+### [记录 41] - 339单字页学习流与吸顶工具箱重构（By Codex + Cursor Grok 4.7，2026-11-02）
 
 - **目录/授权**：按Owner本次明确请求在Desktop主目录main施工；开工HEAD98f79fa，已有工具画廊等未提交改动保全。未快进/覆盖较新的生产源，未commit/push/部署；本聊天ec2a仅读取协作文档。参考图为Owner上传image.png，其字段标签按用户正文要求省略。
 - **实际协作**：通过Cursor桌面界面选择Grok4.7 High Fast、This Mac/main，派发CSS唯一写入边界与HTML契约；已回收命名空间样式及前264行不变检查。Codex负责数据/模板/新门控/测试/截图，交接后做局部样式与简洁页脚合龙，没有冒称外部模型完成即验收。
@@ -412,7 +538,7 @@
 - **精确下一步**：先读本记录、TASKS和CHARACTER-FLOW-VERIFICATION-2026-11-02.md，Owner可直接验收evidence下两张桌面长图。当前本地工程已PASS，无待答项；若要生产发布，先承接较新SEO导航发布版本并保全本main原有未提交成果，重新HF17/18冻结。不要直接将98f79fa旧主目录部署覆盖新版线上。
 
 
-### [记录 33] - 单字页Owner人工批注六项修订（By Codex，2026-11-02）
+### [记录 42] - 单字页Owner人工批注六项修订（By Codex，2026-11-02）
 
 - **授权/目录**：继续Owner指定Desktop主目录main，保全原有工具画廊/此前单字页未提交成果。Owner五条批注及随后字形批注合并实施，未启动Phase3或故事制作。
 - **变更**：Information移到例句下；笔顺移至Listen后并显示44px笔形图标；全339页增加1–3个当前教学读音义项及对话式英文解释；删除指定正文来源段和句末拼音提示。来源页/页脚Sources与资源许可证信息保留。
@@ -423,7 +549,7 @@
 - **下一切入点**：内置浏览器新开并保留当前木页供Owner继续验收；本次不提交/推送/部署。旧主目录基线与较新生产SEO版本的合龙提醒不变；继续修改需刷新呈现和共享CSS关联签名。下次先读本记录、TASKS与验收报告最新修订，不把初版198测试/2838文件当最终值。
 
 
-### [记录 34] - 单字页二轮批注：完整笔顺按钮与音频尾部清理（By Codex，2026-11-02）
+### [记录 43] - 单字页二轮批注：完整笔顺按钮与音频尾部清理（By Codex，2026-11-02）
 
 - 按Owner四项批注继续Desktop main：笔形图标改为完整Play Stroke Order文字；删除anatomy说明段、字符页Stop audio及底部音频说明。拼音独立一行，Listen→Play Stroke Order→Copy在下一行按网格排列，44px触控与窄屏适配保留。
 - 字符页新增专属pronunciationFooter属性，构建优先使用；保留原发音模块与空live状态节点供实际错误反馈。其他页面沿用原全局音频尾部；原339教学/音频决定不变，没有假装禁用发音或只用CSS遮住指定文案。

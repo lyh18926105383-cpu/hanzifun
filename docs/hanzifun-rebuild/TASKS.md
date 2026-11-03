@@ -1,12 +1,5 @@
 # HanziFun 施工任务总表
 
-2026-10-31 · 对应 SPEC 1.2。**HF-01～09 已完成当前 Phase 1 候选范围验收并正式签发 PASS**；Phase 1 的141个成熟页面索引状态保留为历史基线，当前 Phase 2 HF-10 进度见下文。物理缺音仍保留明确边界。
-
-**开发主线：Phase 1 首发上线 → Phase 2 引流工具与内容 → Phase 3 账号、云同步与订阅。** 任务编号保留，以下按执行阶段排列；HF-12/13/14 已解除对 HF-11 的依赖。
-
-先读 [SPEC](SPEC.md)、[文件架构说明](FILE_ARCHITECTURE.md)、[现状基线](BASELINE.md)、[来源与使用范围](SOURCES.md)。当前公开学习索引与文化导航批次已完成生产发布；后续按下方最新发布记录进行观察或承接新的明确任务。
-
-Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-chart/`；书法暂不规划。字页分 Tier 1 黄金完整版与 Tier 2 标准可用版，达到 Tier 2 即可发布/开放索引；30–50 个 Tier 1 是增强目标，不拦住标准字页上线。HSK 执行 [限定范围放行指令](SPEC.md#hsk-release-policy)，不默认等待第三方书面授权。
 
 ## 当前单字页重构（2026-11-02；本地 Completed / PASS）
 
@@ -20,15 +13,70 @@ Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-ch
 - [x] TASKS/PROGRESS及[验收报告](CHARACTER-FLOW-VERIFICATION-2026-11-02.md)同步；证据在 `evidence/character-flow-2026-11-02/`。关联数量按339字真实覆盖显示，山仅有岁等不足数量情形不伪造内链。
 - [ ] 未commit/push/部署。主目录仍以98f79fa为Git基线，保留此前工具画廊未提交改动；未来上线前需与较新的生产SEO导航源码合龙，不直接部署本旧基线。
 
-## 当前 `/tools/` 互动长画廊（2026-10-31；本地Completed / PASS）
 
-- [x] 删除并忽略tmp_tools_design_ref.html，未读取参考；左侧印章章节导航轨/贯穿竖线/滑动激活条，右侧五段互动中国风长画廊。
-- [x] 2026-11-01：按Owner确认逐字加入五句英文导航引导，位于各英文标题下方；桌面与手机换行/spy/axe复验通过，签收与截图已刷新，192/192测试PASS、Sitemap404。
-- [x] 5套原创SVG主题资产+柔化/遮罩/磨砂前景；输入实时预览、339字内链/真实收藏、教师本机保存/revision及独立深链；点击滚动/IntersectionObserver spy/视差、手机抽屉与减少动态兼容。
-- [x] Owner授权新批哈希签收；路由与索引策略不变。生产2838文件/413英文页，**192/192测试PASS**，SEO errors=[]、**Sitemap404**；Chrome8行为/6宽度/两档axe零违规，4张指定2倍桌面截图+手机截图已保存。[验收](HF-12-TOOLS-GALLERY-VERIFICATION.md)。
-- [ ] 本候选未commit/push/部署；发布另走新HF-17/18。原339字/HSK/音频签字保持，87缺字后续。
+## 最新生产发布（2026-11-02；两批SEO统一发布 / PASS）
 
-## 前轮全局合龙（2026-10-31；本地Completed / PASS）
+- [x] 2026-11-02T15:34:17.980557+08:00，Cloudflare实际版本`65fd9f41-12b0-4132-9726-8a07afa1484f`承接100%流量；[发布回执](releases/seo-navigation-release-2026-11-02/deployment.json)。
+- [x] 194/194测试、2847文件/413英文页、404 index/9 noindex、Sitemap404；本地Workers及正式域名各48项，浏览器导航/焦点/三页说明均通过。
+- [x] 源码`a6c2688`已非强制推送main；TASKS/PROGRESS、HF-17/18及生产证据完成同步，发布文档随本回执单独提交同步至main。
+
+## SEO第二批执行（2026-11-02；已统一上线 / PASS）
+
+- [x] SEO-05：Gemini Argon评审、Cursor Composer2.5实现拼音索引首字母导航与拼音表筛选区跳转；Codex修正页内链接误高亮并集成验收。
+- [x] 194/194测试、生产构建、SEO、109原锚点集合/数据审核release hash、桌面与390px无JS/键盘和最终高亮检查通过。
+- [x] 按Owner要求与首批统一部署；源码`a6c2688`已推送main，正式域名48项及浏览器复检PASS。见[部署回执](releases/seo-navigation-release-2026-11-02/deployment.json)及[第二批交付](collaboration/seo-2026-11-02-batch2/DELIVERY.md)。
+
+## SEO首轮执行（2026-11-02；已统一上线 / PASS）
+
+- [x] SEO-01：已登录GSC诊断，sitemap成功发现404网址；三目标页URL Inspection均已索引且canonical自身，旧10月23日汇总不当作当前总量。
+- [x] SEO-02：Gemini桌面4 Argon完成分析，Codex校准建议与数据口径。
+- [x] SEO-03：Cursor Composer2.5完成三页引导/内链，Codex集成闪卡专用SEO元数据；生产构建、SEO、192/192测试及本地浏览器检查通过。
+- [x] HF-17/18统一发布：194/194测试、SEO、48项Workers与48项正式域名检查及浏览器PASS；两批成果已上线。详见[三方交付](collaboration/seo-2026-11-02/DELIVERY.md)。
+- [ ] SEO-04：从实际发布起，人工观察完整7/28天GSC窗口；尚未到观察期，不自动监控。
+
+2026-11-01 · 对应 SPEC 1.2。**HF-01～09 已完成当前 Phase 1 候选范围验收并正式签发 PASS**；Phase 1 的141个成熟页面索引状态保留为历史基线，当前 Phase 2 HF-10 进度见下文。物理缺音仍保留明确边界。
+
+**开发主线：Phase 1 首发上线 → Phase 2 引流工具与内容 → Phase 3 账号、云同步与订阅。** 任务编号保留，以下按执行阶段排列；HF-12/13/14 已解除对 HF-11 的依赖。
+
+先读 [SPEC](SPEC.md)、[文件架构说明](FILE_ARCHITECTURE.md)、[现状基线](BASELINE.md)、[来源与使用范围](SOURCES.md)。当前公开学习索引与文化导航批次已完成生产发布；后续按下方最新发布记录进行观察或承接新的明确任务。
+
+Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-chart/`；书法暂不规划。字页分 Tier 1 黄金完整版与 Tier 2 标准可用版，达到 Tier 2 即可发布/开放索引；30–50 个 Tier 1 是增强目标，不拦住标准字页上线。HSK 执行 [限定范围放行指令](SPEC.md#hsk-release-policy)，不默认等待第三方书面授权。
+
+## 跨应用协作准备（2026-11-01）
+
+- [x] 建立 [Codex / Cursor / Gemini 协作方案](MULTI-APP-COLLABORATION.md)：Codex 与 Cursor 本地开发；Gemini 云端分析、设计、审查和候选代码交付，由 Codex 回收落盘并验收。
+- [x] 记录 Owner 提供的模型范围与试运行分工：Cursor 首轮 Composer 2.5，Grok 4.6 / 4.7 为替换选项；Gemini Argon 承接复杂分析和关键审查。模型性能尚未在本项目对比验证。
+- [x] 首轮及第二批实际任务已完成派发、回收与本地验收；当前状态见上方SEO执行记录。
+
+## 总控剩余任务盘点（2026-11-01；当前入口）
+
+> 2026-11-02 SEO补充：已读取Owner的GSC导出，实际数据截至10月30日，全期86曝光/2点击、最后4天67曝光。若下一轮以SEO为主，先执行[SEO数据复盘与候选任务](GSC-REVIEW-2026-11-02.md)中的索引/规范网址核验与内容机会分析，再决定是否优先87字批次；当前尚未派发。
+
+- [x] 完成本地源码、审核数据、任务规范与最新发布回执交叉核对；详见[最新剩余任务与候选分工](REMAINING-TASKS-2026-11-01.md)和[审计证据](evidence/project-audit-2026-11-01/audit.json)。尚未派发开发任务。
+- [x] 已选择02eb645为基线，在c20f建立codex/seo-2026-11-02并限定Cursor写入范围；Desktop旧目录及未提交内容保持原样。
+- [ ] HF-14后续：87缺字、HSK3.0二级、后续等级及现有索引扩展。已核实150二级增量词映射完整、deferred=0，完整字页覆盖86词；87缺字需作为新批次启动。
+- [ ] 内容深化/Tier1增强、可复现质量证据、使用与收录观察、AdSense实际配置按报告选择范围；账号/同步/订阅继续保留Phase3。
+- 历史“未部署”“64词Deferred”与旧人工pending不作为当前待办；以下时间线保留当时状态，以本节、最新发布回执及工作包索引为当前依据。
+
+## 当前合并发布：Blog + Tools（2026-11-01；已上线 / Completed / PASS）
+
+- [x] Blog已获人工视觉确认并先上线，源码381cf9f已推送main；实际首轮版本3e74ad2c及后续观察版本d448b127见首轮发布回执。
+- [x] Owner随后要求将另一聊天Tools一起部署；已从Desktop main只读迁入五段画廊/五句确认英文引导/本地SVG/客户端与原签收、192测试和证据，保留Blog功能，未改动源工作区。
+- [x] 合并候选2847文件/413英文页（404 index/9 noindex）、Sitemap404、SEO errors=[]、192/192 PASS；44项本地Workers检查、6组浏览器行为/10档布局/4档axe检查均通过；隔离回滚0.594秒。
+- [x] 合并源码`720374a`已commit/push至GitHub main；Cloudflare版本`992a6d92-cfd7-403f-a705-61ada1119951`于 **2026-11-01 01:01:37 +08:00** 承接100%流量；正式域名44项检查errors=[]，线上Blog筛选与Tools五场景/五句引导/client ready复核通过。[实际发布回执](releases/blog-tools-release-2026-11-01/deployment.json)。
+- [x] TASKS/PROGRESS、HF-12/13/17/18与回滚/发布证据已同步；下方未部署记录保留历史。Desktop源工作区原未提交内容已纳入本次合并，但其本地状态原样保留。
+- [ ] 后续24小时/7天及Google实际收录由Owner按需观察；没有创建自动监控。87缺字/HSK后续等级与Phase3仍按原范围推进。
+
+## HF-13 Blog视觉改版（2026-11-01；Owner已确认并上线）
+
+- [x] 按Owner确认效果图实现暖米白/朱砂红/竹青绿、错落摄影带、Featured左右栏、三列文章卡片、响应式页眉页脚。
+- [x] 接入三篇已审核文章、两篇原指南及真实HSK资源；分类/搜索/空状态/重置、RSS与复制订阅链接可用。
+- [x] 五张配图本地分发，保留公开摄影来源与AI说明；190/190测试、生产构建/SEO/RSS及内置浏览器检查通过。详见[本轮验证](HF-13-BLOG-UI-VERIFICATION.md)。
+- [x] Owner人工审核后回复“没问题了”，明确授权部署、git commit & push及文档更新。
+- [x] 本次候选冻结、37项本地Workers检查、190测试与SEO/回滚演练通过；[发布清单](releases/blog-ui-release-2026-11-01/manifest.json)。实际线上版本已更新为2026-10-31的964940e9，404 URL基线已存在；下方未部署记录保留历史，不重复执行旧候选。
+- [x] 博客源码381cf9f已提交推送并部署；37项标准curl复检通过（robots保留Cloudflare托管前缀且自身规则一致）。后续Tools合并版承接发布，见上方当前合并发布。
+
+## 当前全局合龙（2026-10-31；本地Completed / PASS，历史基线）
 
 - [x] 原HF-12四文化工具和总入口正式挂载；30姓名教学组合、50菜单序列、HKO春节边界生肖年干、1–8字纹身核查均接通客户端及339字内链/真实收藏。
 - [x] HF-15 **本地范围**完成：既定`/flashcards/teacher/`工作台、2–100字CRUD/重排/revision/旧练习快照、IndexedDB/LocalStorage、JSON、A4/Letter单页打印；Owner明确接受无需账号的本地模块。Phase3账号同步/服务端权限/教材映射未做。
@@ -57,7 +105,7 @@ Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-ch
 - [ ] HF-18本候选生产现状核验、范围/窗口授权、部署与线上冒烟；本轮未commit/push/部署。文章批准不等于本次部署批准。
 - [ ] 原HF-12四文化工具、原HF-10登录/原HF-11同步、HF-14剩余等级、HF-15/16、AdSense账号及观察等未结项，完整依赖/Owner环节见[剩余任务盘点](REMAINING-TASKS-2026-10-31.md)。
 
-音频方案继续为1268静态MP3 + 设备中文TTS回退，无腾讯云补录；64词保持Deferred，不因本轮内容发布重新阻塞已签收范围。
+音频方案继续为1268静态MP3 + 设备中文TTS回退，无腾讯云补录。上轮曾保留的64个Deferred词已在2026-10-31数据专线完成；当前deferred=0，87缺字仍为独立后续批次。
 
 ## 当前生产发布：公开学习索引、根练习纸与文化导航（2026-10-28）
 
@@ -151,15 +199,15 @@ P0 为核心、数据保护与发布关口；P1 为当前阶段主线；P2 为�
 | [HF-07 HSK 首级真实字库与两场景连接](tasks/HF-07-hsk-scenarios.md) ✅Completed / PASS（2026-10-26文本签发；补充字草稿/缺音保留） | P1 | Phase 1 | HF-02、HF-04、HF-06 | 两版 HSK 1 级、餐厅/商务场景 |
 | [HF-08 公开页 SEO、性能与无障碍收口](tasks/HF-08-seo-quality.md) ✅Completed / PASS（2026-10-26负责人人工签收） | P0 | Phase 1 | HF-03、HF-04、HF-06 | 按质量放行索引、可见 FAQ、性能/无障碍 |
 | [HF-09 MVP 闭环验收与中文迁移演练](tasks/HF-09-mvp-gate.md) ✅Completed / PASS（2026-10-26正式签发） | P0 | Phase 1 发布前 | HF-01、HF-06、HF-07、HF-08 | 首发候选验收，交 HF-17/18 发布 |
-| [HF-12 四项文化工具的受控首版](tasks/HF-12-culture-tools.md) ✅本地Completed / PASS（四工具签收；未部署） | P1 | Phase 2 | HF-09 | 四工具，浏览器运算/静态数据、本机收藏 |
-| [HF-13 正式 Blog、场景编辑与打印资源](tasks/HF-13-editorial.md) ✅本地Completed / PASS（2026-10-31；未部署） | P1 | Phase 2 | HF-09 | 首批 3–5 篇正式文章、两组打印卡 |
+| [HF-12 四项文化工具的受控首版](tasks/HF-12-culture-tools.md) ✅Completed / PASS（含画廊，2026-11-01已上线） | P1 | Phase 2 | HF-09 | 四工具，浏览器运算/静态数据、本机收藏 |
+| [HF-13 正式 Blog、场景编辑与打印资源](tasks/HF-13-editorial.md) ✅Completed / PASS（首批内容与改版，2026-11-01已上线） | P1 | Phase 2 | HF-09 | 首批3篇正式文章、2篇原指南、两组打印卡；持续扩充 |
 | [HF-14 HSK 全量覆盖与学术索引扩展](tasks/HF-14-hsk-expansion.md) ◐Partial（150词/339字主题本批完成；87缺字后续批次） | P1 | Phase 2 起持续扩充 | HF-07、HF-09 | 先扩至两版 2 级，后逐级发布；Tier 2 为默认 |
 | [HF-10 真实登录、账号权限与服务配置](tasks/HF-10-auth.md) | P1 | Phase 3 | HF-09；另须阶段启动依据 | 真实身份、权限、服务配置 |
 | [HF-11 游客转账号、跨设备同步与 Phase 3 账号验收](tasks/HF-11-sync.md) | P1 | Phase 3 | HF-06、HF-10 | 游客合并、双设备同步与账号验收 |
 | [HF-16 定价、测试支付与服务端权益](tasks/HF-16-billing.md) | P1 | Phase 3 | HF-11 | 订阅、账单、退款/取消与权益 |
-| [HF-15 教师私人组卡与教材映射边界](tasks/HF-15-teacher-decks.md) ✅本地范围Completed / PASS；Phase3账号/教材范围保留 | P2 | Phase 3 可选 | HF-07、HF-11 | 私人卡组、历史版本与打印 |
-| [HF-17 按发布范围综合验收与回滚准备](tasks/HF-17-release-gate.md) ✅历史已执行；本候选预检PASS | P0 | 每次发布 | HF-09 + 所选批次验收 | 按 releaseId 的验收/回滚证据 |
-| [HF-18 最终迁移、授权发布与运行交接](tasks/HF-18-migration-release.md) ◐历史已上线；本候选待执行 | P0 | 每次发布 | HF-17 | 实际上线、生产冒烟与交接 |
+| [HF-15 教师私人组卡与教材映射边界](tasks/HF-15-teacher-decks.md) ✅本机范围已上线；Phase3账号/教材范围保留 | P2 | 本机版已前置；账号版Phase3可选 | 本机版HF-07；账号版HF-11 | 私人卡组、历史版本与打印 |
+| [HF-17 按发布范围综合验收与回滚准备](tasks/HF-17-release-gate.md) ✅本次合并发布验收PASS（2026-11-01） | P0 | 每次发布 | HF-09 + 所选批次验收 | 按 releaseId 的验收/回滚证据 |
+| [HF-18 最终迁移、授权发布与运行交接](tasks/HF-18-migration-release.md) ✅本次合并发布上线PASS（2026-11-01） | P0 | 每次发布 | HF-17 | 实际上线、生产冒烟与交接 |
 
 ## 依赖与执行顺序
 
@@ -261,9 +309,9 @@ flowchart TD
 
 前置失败应记录具体缺项、已完成交付和可继续的独立部分。不能把 pending 任务标已完成，也不能因一个外部配置缺失停下所有不依赖它的工作。
 
-## 建议第一条开发请求
+## 下一轮开发入口
 
-直接打开 [HF-01](tasks/HF-01-baseline.md) 末尾的“后续开发执行提示”并复制。第一项完成后按上面的依赖图推进；本轮不自动创建开发对话或向其他对话发消息。
+从[最新剩余任务盘点](REMAINING-TASKS-2026-11-01.md)选择具体批次，按[跨应用协作方案](MULTI-APP-COLLABORATION.md)确定基线、文件责任和验收后派发。HF-01已完成，不重复从基线重建开始；当前只完成盘点与候选分工。
 
 ## HF-02 执行状态（2026-10-25）
 

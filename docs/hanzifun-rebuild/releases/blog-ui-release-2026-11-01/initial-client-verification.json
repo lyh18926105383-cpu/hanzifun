@@ -1,0 +1,115 @@
+{
+  "verifiedAt": "2026-10-31T16:46:04.486149+00:00",
+  "origin": "https://hanzifun.online",
+  "checks": [
+    {
+      "path": "/blog/feed.xml",
+      "status": 200,
+      "bytes": 2702,
+      "sha256": "15338fed582cc1c74e86a86c82fb470046ca73740b0b45f60f05322bf1c0f144",
+      "contentType": "application/xml",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bytes": 28659,
+      "sha256": "973209bbeec8cd8c04db82d208c1d0b03dcece2f693d9c72354621300fa94342",
+      "contentType": "application/xml",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog.v1.css",
+      "status": 200,
+      "bytes": 13781,
+      "sha256": "fb5a2541f2935a66ea7961e931d86d3714b49fb82ce9755de530878a608b488d",
+      "contentType": "text/css",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog.v1.mjs",
+      "status": 200,
+      "bytes": 2173,
+      "sha256": "76421b04dba57fde60b0168798333ea12593b2bcad512e0a014516c3d5d8fbdb",
+      "contentType": "text/javascript",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog-cloud.v1.svg",
+      "status": 200,
+      "bytes": 970,
+      "sha256": "439d07be75ff63ea1b42ba8217d27e9042b8c0a7c9ee6e2d914d5212c6407c8b",
+      "contentType": "image/svg+xml",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/archive.v1.jpg",
+      "status": 200,
+      "bytes": 97180,
+      "sha256": "16dedc49c17228dd904d8f60bba3a9dbb0567a903341ab4c667245482e5353d3",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/calligraphy.v1.jpg",
+      "status": 200,
+      "bytes": 114126,
+      "sha256": "0da14616bfa5ea482bed54786a16c3d9e054402586d64c7ae71b487b0b73f14b",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/festival.v1.jpg",
+      "status": 200,
+      "bytes": 360320,
+      "sha256": "e704a4853083a098f2f8582422b6b8b88c12e1634614ad2fd542c98031d656e4",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/study.v1.jpg",
+      "status": 200,
+      "bytes": 429099,
+      "sha256": "fdc2bcf19e531f5ec45499b188ec2c5a04102eb8cd85893ae98dc7d6c6bc3a61",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    },
+    {
+      "path": "/site-assets/blog/tea.v1.jpg",
+      "status": 200,
+      "bytes": 149263,
+      "sha256": "bd73e4c08c3346a618da90bf4a8106c88f580b6e33026269ac5d9758b7daec42",
+      "contentType": "image/jpeg",
+      "matchesArtifact": true
+    }
+  ],
+  "errors": [
+    "/ differs from frozen artifact",
+    "/blog/ differs from frozen artifact",
+    "/blog/chinese-character-study-routine/ differs from frozen artifact",
+    "/blog/chinese-character-confusions/ differs from frozen artifact",
+    "/blog/mid-autumn-festival-chinese-characters/ differs from frozen artifact",
+    "/blog/chinese-for-your-first-business-visit/ differs from frozen artifact",
+    "/blog/first-characters-for-bilingual-kids/ differs from frozen artifact",
+    "/tools/ differs from frozen artifact",
+    "/tools/chinese-name-generator/ differs from frozen artifact",
+    "/tools/chinese-menu-decoder/ differs from frozen artifact",
+    "/tools/zodiac-elements-calculator/ differs from frozen artifact",
+    "/tools/tattoo-character-checker/ differs from frozen artifact",
+    "/flashcards/teacher/ differs from frozen artifact",
+    "/academic/hsk-2/level-2/ differs from frozen artifact",
+    "/dictionary/水/ differs from frozen artifact",
+    "/account/ differs from frozen artifact",
+    "/zh/ differs from frozen artifact",
+    "/worksheets/ differs from frozen artifact",
+    "/worksheets/family/ differs from frozen artifact",
+    "/worksheets/classroom/ differs from frozen artifact",
+    "/dictionary/top-100/ differs from frozen artifact",
+    "/robots.txt differs from frozen artifact",
+    "('/index.html?from=blog-release', 403)",
+    "('/kids/worksheets/?from=blog-release', 403)",
+    "('/legacy/story.html?lesson=cat-and-fish-01', 403)",
+    "('/hf-release-not-a-real-page-2026-11-01/', 403)",
+    "HTTP Error 403: Forbidden"
+  ]
+}

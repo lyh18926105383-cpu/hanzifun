@@ -1,4 +1,4 @@
-import {articleCards} from './editorial-workflow.mjs';
+import {blogPage} from './pages/blog.mjs';
 import fs from 'node:fs';
 import {pronunciationButton} from './pronunciation.mjs';
 import {escapeHtml as e} from './dictionary-data.mjs';
@@ -13,7 +13,7 @@ export function editorialHtml(file){
 }
 export function guideCards(){return '<div class="tile-grid">'+guides.map(g=>`<article class="tile"><h2><a href="${g.path}">${e(g.title)}</a></h2><p>${e(g.description)}</p></article>`).join('')+'</div>';}
 export function editorialPages(){return [
- {path:'/blog/',title:'Chinese Learning Guides',description:'Practical original guides to character study, memory and common reading mistakes.',content:`<div class="container"><h1>Chinese Learning Guides</h1><p>Start with a small study routine or a specific confusion, then practise the characters in context.</p>${guideCards()}${articleCards(process.env.HF_SITE_ENV||'local')}<p><a href="/scenarios/">Use Chinese in everyday scenarios</a> · <a href="/data-sources/">Sources and editorial attribution</a></p></div>`},
+ blogPage(guides),
  ...guides.map(g=>({...g,content:`<div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Learning guides</a> / <span>${e(g.title)}</span></nav><article class="content-prose editorial-lesson"><h1>${e(g.title)}</h1><p>By HanziFun · Updated 28 October 2026</p>${editorialHtml(g.file)}</article></div>`}))
 ];}
 export function enrichCharacter(page){
