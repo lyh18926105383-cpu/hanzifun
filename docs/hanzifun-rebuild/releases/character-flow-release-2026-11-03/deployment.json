@@ -31,5 +31,16 @@
     "productionBrowser": "PASS",
     "pageErrors": []
   },
-  "followup": "Owner manual review after full24-hour/7-day windows and later GSC trends; observations not yet completed; no automation created."
+  "followup": "Owner manual review after full24-hour/7-day windows and later GSC trends; observations not yet completed; no automation created.",
+  "observedActiveVersionAfterDocumentationPush": {
+    "versionId": "2fd5479c-837f-44d7-80d2-b1121bf94cf6",
+    "deploymentId": "a7780e31-1f76-42c5-a85b-283a23690c8f",
+    "createdOn": "2026-11-03T12:32:32.661713Z",
+    "trafficPercentage": 100,
+    "auditedAt": "2026-11-03T12:34:23.355Z",
+    "matchesFrozenCandidate": true,
+    "httpChecks": 390,
+    "errors": []
+  },
+  "versionNote": "versionId/deploymentId identify the verified explicit release. A later active version appeared after the Git documentation push and was independently rechecked against the same frozen candidate. No unverified Git SHA or automatic-trigger cause is attributed to that later version."
 }

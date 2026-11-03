@@ -1,6 +1,6 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
-> 最新生产：2026-11-03单字页重构已完成部署 / PASS；main已合并并保留Blog/Tools/SEO。201/201测试，390项正式域名检查及线上浏览器通过。版本28fb0e8e-78ab-4b1b-baa8-956a3b550213，2026-11-03T20:26:59.152147+08:00，100%流量。见记录45与releases/character-flow-release-2026-11-03/deployment.json。较早的当前状态描述为历史阶段。
+> 最新生产：2026-11-03单字页重构已完成部署 / PASS；main已合并并保留Blog/Tools/SEO。201/201测试，390项正式域名检查及线上浏览器通过。首次部署版本28fb0e8e-78ab-4b1b-baa8-956a3b550213，2026-11-03T20:26:59.152147+08:00；Git回执推送后观测活动版本2fd5479c-837f-44d7-80d2-b1121bf94cf6，已追加390项同产物复验。见记录45与releases/character-flow-release-2026-11-03/deployment.json。较早的当前状态描述为历史阶段。
 
 > 当前生产：2026-11-02两批SEO已统一部署 / PASS；源码a6c2688推送main，194/194测试、48项正式域名及浏览器复检通过。实际版本65fd9f41-12b0-4132-9726-8a07afa1484f，2026-11-02T15:34:17.980557+08:00，100%流量。见记录40与releases/seo-navigation-release-2026-11-02/deployment.json。下方待部署描述为历史阶段。
 
@@ -19,7 +19,7 @@
 ## 当前所处阶段
 - **阶段/范围**：公开学习站维持本地轻量架构；339单字页重构已上线，Blog/Tools/SEO导航成果保留，无账号/同步/Billing改动。
 - **当前执行任务**：`character-flow-release-2026-11-03` Completed / PASS；Owner本次部署、近期Git同步、TASKS/PROGRESS三项请求已完成。
-- **最近发布**：2026-11-03T20:26:59.152147+08:00，版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，100%流量；201/201测试、3186文件、SEO errors=[]/Sitemap404，390项正式域名检查及线上浏览器通过。
+- **本次发布/最新审计**：首次手动发布2026-11-03T20:26:59.152147+08:00、版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`；Git回执推送后活动版本`2fd5479c-837f-44d7-80d2-b1121bf94cf6`（100%）已重新按冻结候选390项复验一致；201/201测试、3186文件、SEO errors=[]/Sitemap404，390项正式域名检查及线上浏览器通过。
 - **开发/Git目录**：Desktop主目录`main`，已合并origin/main6c953f5，部署源c8fa36f已推送；最终文档/回执提交单独同步，以origin/main最终HEAD为准。个人未跟踪临时文件保留，不进入提交。
 - **后续**：24小时/7天及GSC趋势由Owner按完整窗口人工观察；87缺字/HSK下一等级与Phase3原范围不变。精确交接见记录45及本次deployment.json。
 
@@ -578,3 +578,5 @@
 - **最终验收**：201/201测试，fail/skip/cancel0；SEO errors=[]、Sitemap404。390项本地Workers、387项生产前、390项生产后HTTP全部PASS，覆盖339全部字页、元数据/JSON-LD、Blog/Tools/SEO、静态资源、真实404、301保留query与旧音频。音频Range旧/新均合法完整200回退，不声称206支持。339元数据/JSON-LD与1122原音频绑定保全；全339字形路径同源。合龙本地/线上浏览器真实收藏刷新、笔顺播放、21字母/B跳转/筛选焦点、Flashcards引导、Blog自有head/footer、五段Tools、390px三页axe和无溢出均PASS、pageErrors=[]；字页专用12档/4次axe通过。
 - **证据/文档**：releases/character-flow-release-2026-11-03新增manifest、ACCEPTANCE/ROLLBACK、前后指纹、差异、回滚演练、前后HTTP、local/browser-verification、active-version、deployment、部署log及两张生产长图；已实际查看生产长图。TASKS、HF17/18和单字页验收报告/证据同步当前发布。源文件范围见3bfe62c/af4cef0，远端Blog/SEO范围保留见合并55914bb。
 - **精确下一步/边界**：本次三项请求已完成。Owner可直接看正式域名/dictionary/休/和/dictionary/木/。24小时/7天观察及后续GSC复盘由Owner按完整窗口人工进行，尚未发生、不自动建监控；87缺字/HSK后续及Phase3不变。下次从本记录与本发布deployment.json接续，不将旧主目录98f79fa、旧本地未部署状态或旧发布回滚目标当当前。main项目跟踪改动在最终提交后应干净，个人未跟踪文件保留。
+
+- **记录45补充：Git推送后版本复核**：最终文档8d05046推送后，部署历史又出现活动版本`2fd5479c-837f-44d7-80d2-b1121bf94cf6`、createdOn=`2026-11-03T12:32:32.661713Z`、100%流量；以正式域名重新执行390项比较，全部339字页与旧资源仍匹配同一冻结候选、errors=[]。已追加post-push-active-version/online-verification及deployment.versionNote；仅记录实际观测，不臆定后续版本的GitSHA或触发原因，也不把未来同产物版本号变化当内容回滚。
