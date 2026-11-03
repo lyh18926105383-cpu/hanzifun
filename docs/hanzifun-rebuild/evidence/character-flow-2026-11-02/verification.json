@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-02",
+  "status": "PASS",
+  "directory": "/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun",
+  "branch": "main",
+  "baselineHead": "98f79fa",
+  "delegation": {
+    "app": "Cursor",
+    "model": "Grok 4.7 High Fast",
+    "scope": "Append .hf-char-* CSS only",
+    "handoff": "Codex reviewed and made the final integration CSS refinements"
+  },
+  "build": {
+    "command": "HF_SITE_ENV=production npm run build:site",
+    "files": 3177
+  },
+  "seo": {
+    "command": "node scripts/validate-seo-quality.mjs",
+    "errors": [],
+    "sitemapUrls": 404
+  },
+  "tests": {
+    "command": "npm test",
+    "passed": 199,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browser": {
+    "command": "HF_CHAR_BASELINE=/private/tmp/hf-char-before/dist node scripts/verify-character-flow-browser.mjs",
+    "version": "156.0.8078.79",
+    "responsiveLayouts": 12,
+    "axeScans": 4,
+    "axeViolations": 0,
+    "pageErrors": [],
+    "checks": [
+      "339 hero outlines match every original stroke path and source SHA-256 exactly",
+      "Compound and basic full-page desktop screenshots; 12 responsive layouts; desktop hero side-by-side and 68/32 columns; four axe WCAG AA scans",
+      "Add to Flashcards writes durable local character identity and survives reload",
+      "Copy writes the current character to clipboard",
+      "Hero stroke toggle loads real per-character SVG, plays, closes and pauses",
+      "Alternative reading updates accessible information and practice identity without changing teaching example labels",
+      "Print Worksheet opens native printing, expands static learning content and omits utility controls",
+      "Without JavaScript all four learning modules and valid links remain readable; native details reveal the complete static stroke sequence"
+    ]
+  },
+  "preservation": {
+    "pages": 339,
+    "existingAudioBindings": 1122,
+    "seoAndJsonLd": "identical",
+    "sitemap": "byte-identical",
+    "sitemapUrls": 404,
+    "manifestSha256": "45d476d948fe38297baf81d8af9cfc202921c2bb3db4091e07e4a2e70cfcbc96",
+    "allOriginalTeachingAndAudioDecisionsIdentical": true,
+    "originalStylesheetPrefixUnchanged": true,
+    "all339HeroGlyphsMatchOriginalStrokePaths": true
+  },
+  "presentationSha256": "5ed5de0b5e7d6acc75efa902c970926b9814d23ddf2b9f360f2d6a57487bff95",
+  "sources": [
+    {
+      "file": "site/character-flow.mjs",
+      "sha256": "ef5bb20096d16bb930d6ff4aa2eec38311dd2c48658476389685299bba237411"
+    },
+    {
+      "file": "site/character-presentation-review.mjs",
+      "sha256": "6073c9cabc982510ef80eb350123d1378d026a7ae5a24634d60dafe36a94ee5a"
+    },
+    {
+      "file": "site/pages/dictionary.mjs",
+      "sha256": "60c7f6b51fb225a32ba55078d37af3722aabd487a9998d0a625174109c62351a"
+    },
+    {
+      "file": "site/pages/hsk.mjs",
+      "sha256": "21e969a7f7473bcded95063d202a4e196d276494caad286819725a6a19fd9a25"
+    },
+    {
+      "file": "site/editorial-content.mjs",
+      "sha256": "6ef89fdbeb6224a10c459802908012fc5cd87528ec6d37ffc9617152680ef107"
+    },
+    {
+      "file": "scripts/build-site.js",
+      "sha256": "7ff3f5ff607ccb2c7076ef5f69ae483d96019f5215bd0647fd0a9a8226dda65e"
+    },
+    {
+      "file": "src/client/dictionary.mjs",
+      "sha256": "8dd9258ed836440081ca4835cd1e729a1e0b31d9b3891d20c88874d40a7cab10"
+    },
+    {
+      "file": "site/public/site-styles.css",
+      "sha256": "989a1425b32a7b48078eb6078214a3709ef7fe883dc362107b597f5e27bc042b"
+    },
+    {
+      "file": "tests/character-flow.test.mjs",
+      "sha256": "21ca2262f95d4ca2a35fae3b1e09fa93393344bcd11d0b3ff11b1f805801f79d"
+    },
+    {
+      "file": "tests/dictionary.test.mjs",
+      "sha256": "d735dc4cca626bd64090fd2d003b1dd8013406fd58de1e5340d3fea9ff69fa49"
+    },
+    {
+      "file": "tests/hsk-scenarios.test.mjs",
+      "sha256": "2f7c45748f77fdba5f28e3fa19ac4be2a148709dbe01f447b26088df8acda293"
+    },
+    {
+      "file": "tests/phase2-injection.test.mjs",
+      "sha256": "0b0553cb48576a7cb6cc6c9836f1c337375ec3725059c900886aef139afdf4f1"
+    },
+    {
+      "file": "scripts/verify-character-flow-browser.mjs",
+      "sha256": "b5c611a1e703e7bb02ed9857ebd04927f5217a03cf10d7540729ee6bdb9dee2f"
+    },
+    {
+      "file": "data/editorial/review-decisions.json",
+      "sha256": "ac91d1223e471d5fcd8a5d9b271205d0e2af327c059293b2981053081d369a89"
+    },
+    {
+      "file": "site/release.json",
+      "sha256": "1d4f3b205718cf64f024bde884e88fcf6d2b87a9345ee0a9d6c65f4c02e91358"
+    },
+    {
+      "file": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+      "sha256": "d7e6f818ab00e212da25bf50904da02df41ccd2a77f41ba2dc1c10e913feeef1"
+    },
+    {
+      "file": "site/character-meaning.mjs",
+      "sha256": "d9f1e7704e98a3bfc049c8ab64795fc768e080b068375ebf5aa4dd6a86be912d"
+    },
+    {
+      "file": "data/editorial/character-meaning-explanations.json",
+      "sha256": "7a9869dc522fde774de165743b3e26baf7893a55887be1b4f7c8732f4536aff8"
+    },
+    {
+      "file": "site/components/stroke-order.mjs",
+      "sha256": "a81dad5946439a6031a1ffbd654e147fb0330f18da7fc8351db82d7f4ec27e86"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "xiu-desktop-full.png",
+      "sha256": "f0d699d9ce8b0da6421c71523a728de7508ae3d119ea50ed5cb478dd990fe5d4"
+    },
+    {
+      "file": "mu-desktop-full.png",
+      "sha256": "9d88993e78fc05041d59a921614206af3c70b017dd65c21137ae84630d2a5a7f"
+    },
+    {
+      "file": "mu-print.png",
+      "sha256": "97aade7f2b45aaf5dba0ef90269d6bc07aa6a090e2f5231b9b372e385b01a602"
+    },
+    {
+      "file": "xiu-mobile-full.png",
+      "sha256": "02b7a1746e11335ed7e2502fbb6d11d8e094b7186493bfdf96659f2af00765cc"
+    }
+  ],
+  "limitations": [
+    "Only existing published descendants/family members are shown; 山 has only 岁 in this catalog. 34 unsplittable shapes have no published descendants; 175 characters have fewer than 4 same-radical peers.",
+    "Desktop main predates the newer production SEO navigation release; reconcile before any future deployment.",
+    "No commit, push, deployment, cross-browser/device or new audio listening acceptance."
+  ],
+  "revision": "owner-browser-comments-visible-stroke-label-clean-page-ending",
+  "ownerComments": [
+    "Information moved after Context Sentences",
+    "Stroke-order control moved immediately after Listen, rendered as an accessible pen icon",
+    "All 339 pages show 1–3 teaching-reading definitions and a conversational explanation; 14 common characters have individually authored explanations",
+    "Marked main attribution paragraph removed; Sources page/footer link and embedded asset license attribution retained",
+    "Marked sentence pinyin note removed",
+    "All 339 Hero glyphs use complete outlines identical to the original stroke animation paths",
+    "Full visible Play Stroke Order button label restored beside Listen",
+    "Anatomy memory-association note deleted",
+    "Character-page Stop audio control deleted",
+    "Character-page recorded-syllable/device-voice explanation deleted; pronunciation runtime and empty live status retained"
+  ]
+}

@@ -43,24 +43,19 @@ test('HF07 source completeness does not open unaccepted dictionary or scenario p
  if(resolveRoutePolicy('/dictionary/您/').indexing==='index')assert.ok(characterReviewState('char:60a8').accepted);
  for(const p of additionalCharacterPages()){assert.match(p.content,/data-hf-practice/);assert.doesNotMatch(p.content,/Tier [12]|pending|unavailable|stable ID|<audio|speechSynthesis/i);}
 });
-test('supplemental Information stays beside its reading in the shared responsive layout, including 人 and polyphones',()=>{
+test('supplemental readings and Information remain accessible in the shared compact flow',()=>{
  const hasClass=(n,c)=>(attr(n,'class')||'').split(/\s+/).includes(c);
  for(const p of additionalCharacterPages()) {
   const c=lexicon.characters.find(c=>p.path==='/dictionary/'+c.glyph+'/');
-  const all=nodes(parse(p.content)),layout=all.find(n=>hasClass(n,'reading-information'));
-  assert.ok(layout,p.path+' needs the responsive dictionary layout');
-  const panels=layout.childNodes.filter(n=>attr(n,'data-reading-panel'));
+  const all=nodes(parse(p.content)),reference=all.find(n=>hasClass(n,'hf-char-reference'));
+  assert.ok(all.some(n=>hasClass(n,'hf-char-layout')),p.path);
+  assert.ok(reference,p.path+' needs accessible reading information');
+  const panels=nodes(reference).filter(n=>attr(n,'data-reading-panel'));
   assert.equal(panels.length,c.readingId.length);
   assert.equal(panels.filter(n=>attr(n,'hidden')===undefined).length,1);
-  for(const panel of panels) {
-   const children=panel.childNodes.filter(n=>n.tagName);
-   assert.equal(children.length,2);
-   assert.ok(hasClass(children[0],'reading-overview'));
-   assert.equal(children[1].tagName,'aside');assert.ok(hasClass(children[1],'character-info'));
-   assert.match(textContent(children[1]),/Information/);
-   assert.match(textContent(children[1]),new RegExp('U\\+'+c.characterId.slice(5).toUpperCase()));
-   assert.match(textContent(children[0]),new RegExp(findReading(attr(panel,'data-reading-panel')).pinyin.marked));
-  }
+  for(const panel of panels) assert.match(textContent(panel),new RegExp(findReading(attr(panel,'data-reading-panel')).pinyin.marked));
+  assert.match(textContent(reference),/Information/);
+  assert.match(textContent(reference),new RegExp('U\\+'+c.characterId.slice(5).toUpperCase()));
   assert.equal(all.filter(n=>n.tagName==='h1').length,1);
  }
 });

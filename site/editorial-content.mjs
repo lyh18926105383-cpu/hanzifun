@@ -20,6 +20,7 @@ export function enrichCharacter(page){
  const match=/^\/dictionary\/([^/]+)\/$/.exec(page.path),file=match&&expandedCharacters[match[1]];
  if(!file)return page;
  const guide=`<div class="content-prose">${editorialHtml(file)}</div>`;
+ if(page.content.includes('<!--hf-char-expanded-->'))return {...page,content:page.content.replace('<!--hf-char-expanded-->',`<details class="hf-char-reference"><summary>More practice &amp; learning notes</summary>${guide}</details>`)};
  const marker='<section class="stroke-panel"';
  if(!page.content.includes(marker))throw Error('Missing stroke panel for expanded lesson '+page.path);
  return {...page,content:page.content.replace(marker,guide+marker)};

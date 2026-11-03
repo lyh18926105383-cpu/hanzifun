@@ -83,8 +83,8 @@ test('HF10 all 54 rendered pages expose the exact supplied teaching copy, select
   const glyph=reviewInputs.supplemental.characters.find(c=>c.characterId===e.characterId).glyph;
   const page=pages.find(p=>p.path==='/dictionary/'+glyph+'/');const dom=parse(page.content),copy=text(dom);
   for(const key of ['meaning','word','wordPinyin','wordMeaning','sentence','pinyin','translation','mnemonic'])assert.ok(copy.includes(e[key]),glyph+' '+key);
-  const selected=walk(dom,n=>n.tagName==='option'&&n.attrs.some(a=>a.name==='selected'));
-  assert.equal(selected.attrs.find(a=>a.name==='value').value,e.readingId);
+  const active=walk(dom,n=>n.attrs?.some(a=>a.name==='data-reading-panel')&&!n.attrs.some(a=>a.name==='hidden'));
+  assert.equal(active.attrs.find(a=>a.name==='data-reading-panel').value,e.readingId);
   assert.ok(copy.includes(e.structureReview.description));assert.doesNotMatch(copy,/human-reviewed|Tier\s*2|pending|contentSha256|publicationStatus|generationBatch|preview|noindex/i);
  }
 });

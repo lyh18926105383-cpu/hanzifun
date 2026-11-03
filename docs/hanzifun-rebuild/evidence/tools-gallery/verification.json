@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-31",
+  "directory": "/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun",
+  "branch": "main",
+  "head": "98f79fafc60d35d7632e0d396d787ac6f4d75372",
+  "releaseId": "phase-2-tools-gallery-2026-10-31",
+  "status": "PASS",
+  "contentSha256": "429d9620edf0147b6d714c66f5f67426012e4d52336aab43239a2263a1ed762c",
+  "counts": {
+    "tests": 192,
+    "passed": 192,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "baseTests": 190,
+    "newGalleryTests": 2,
+    "sitemapUrls": 404,
+    "englishPages": 413,
+    "indexPages": 404,
+    "noindexPages": 9,
+    "buildFiles": 2838,
+    "coreSeoPages": 364,
+    "jsonLdBlocks": 418,
+    "illustrations": 5,
+    "gallerySections": 5
+  },
+  "commands": {
+    "HF_SITE_ENV=production npm run build:site": 0,
+    "node scripts/validate-seo-quality.mjs": 0,
+    "npm test": 0,
+    "node scripts/verify-tools-gallery-browser.mjs": 0
+  },
+  "browser": {
+    "version": "156.0.8078.79",
+    "journeys": 8,
+    "viewportLayouts": 6,
+    "axeViewports": 2,
+    "errors": []
+  },
+  "routeAndIndexPoliciesUnchanged": true,
+  "original339CharacterAndHskApprovalsUnchanged": true,
+  "discardedReferenceDeletedWithoutReading": true,
+  "screenshots": [
+    {
+      "file": "docs/hanzifun-rebuild/evidence/tools-gallery/desktop-first-screen.png",
+      "width": 3200,
+      "height": 2200,
+      "sha256": "f1cafbd6aa1778139a29380b0c3d4ce4db5fe5fe3971b9863425446872d80fb7",
+      "visuallyInspected": true
+    },
+    {
+      "file": "docs/hanzifun-rebuild/evidence/tools-gallery/desktop-first-two-studios.png",
+      "width": 3200,
+      "height": 3750,
+      "sha256": "63dea1f9abd95501ece5116af24d6900d47625c33cd749f28d02ccf67ffea3a0",
+      "visuallyInspected": true
+    },
+    {
+      "file": "docs/hanzifun-rebuild/evidence/tools-gallery/desktop-lunar-zodiac.png",
+      "width": 3200,
+      "height": 2200,
+      "sha256": "40b1d062093f34f316ff711c45cf21df9356c01855730873ed7d86adda4d35bc",
+      "visuallyInspected": true
+    },
+    {
+      "file": "docs/hanzifun-rebuild/evidence/tools-gallery/desktop-tattoo-checker.png",
+      "width": 3200,
+      "height": 2200,
+      "sha256": "e79e697d592759214ad1c3b3d43b5808a56e7d3a4842d4a2e30ea5ab34757787",
+      "visuallyInspected": true
+    },
+    {
+      "file": "docs/hanzifun-rebuild/evidence/tools-gallery/mobile-lunar-zodiac.png",
+      "width": 780,
+      "height": 1688,
+      "sha256": "79e319614dd772ffc9a4245783b49eff578578b1b8ebb4f2abe47897e402beba",
+      "visuallyInspected": true
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": ".gitignore",
+      "sha256": "cb7a6104b957753af7b9353212a77a36fb3add0a22b20660941812150bc47161"
+    },
+    {
+      "file": "site/pages/cultural-tools.mjs",
+      "sha256": "3978d82c54b41c6f2ce1aa694a2d7ebc2cde06fe7a7554332a1f06f423c611e6"
+    },
+    {
+      "file": "site/tools-integration.mjs",
+      "sha256": "7ce709710f77b27a44b7174e0cb38c6615c4b42b7cb776562cd4809ad000da2e"
+    },
+    {
+      "file": "src/client/tools-gallery.mjs",
+      "sha256": "fc626b475447beb0571ca33ee56ddf8ac9bfdd771e0962b6bf70d16cecf12cad"
+    },
+    {
+      "file": "src/client/tools-entry.mjs",
+      "sha256": "b0bfefe49f5fac6267a3e2a73f2cebd6e81b75072eef65cf274b25df233ec56e"
+    },
+    {
+      "file": "site/public/site-styles.css",
+      "sha256": "abbee05ed120b61267059b38f25ca28c5a9ddaf7c29e95c67b3f9cca47940bec"
+    },
+    {
+      "file": "scripts/build-site.js",
+      "sha256": "232e12a1adb842ef2a1e969ea6f96595844d1f95aceca4210b70773ec1de2f00"
+    },
+    {
+      "file": "scripts/verify-tools-gallery-browser.mjs",
+      "sha256": "00f341654ae4e2a1dc2cd58080f16008d18114473cf9f517d0d3498152310f6b"
+    },
+    {
+      "file": "tests/tools-gallery.test.mjs",
+      "sha256": "9f5b31cdc66a329bf8c0270c165d082657b1298378351c9b2e719bb150b1a4eb"
+    },
+    {
+      "file": "site/release.json",
+      "sha256": "6b16d1d8fc470cec43872b97c98eea5ca17f6e69a23873874a196d725dcb09a4"
+    },
+    {
+      "file": "data/editorial/review-decisions.json",
+      "sha256": "26d2ed87fec13d77d3a815c2c60a724702b64dea8bccb1a943e51bc1516f45f9"
+    },
+    {
+      "file": "site/public/tools-art/name-scroll.svg",
+      "sha256": "22402500eaf5385ff70bdbee912ad5b72215247f3afd928992798cc4c1ca99db"
+    },
+    {
+      "file": "site/public/tools-art/menu-scroll.svg",
+      "sha256": "64564bfbfbb9d83181188e7fd053d25376f08d920a7bc4466782aaef3d28fcd9"
+    },
+    {
+      "file": "site/public/tools-art/zodiac-scroll.svg",
+      "sha256": "91b908c05e305436a9fa8865c33aa642eff28b83be6ac20e68064ece025819a4"
+    },
+    {
+      "file": "site/public/tools-art/tattoo-scroll.svg",
+      "sha256": "f452c3b187b55dc38dbe498ce8bbb25a1d3820c5fea97c83b891a0c62b9e382f"
+    },
+    {
+      "file": "site/public/tools-art/teacher-scroll.svg",
+      "sha256": "7f6653f153b5965145fc473a519f2e3174d08d6ab5bb186e1fae70c2097376a4"
+    }
+  ],
+  "deploymentPerformed": false,
+  "newHumanPostImplementationVisualReviewClaimed": false,
+  "followup": {
+    "completedOn": "2026-11-01",
+    "scope": "Owner-confirmed five English invitations below the rail English titles; desktop wrapping and mobile drawer layout verified.",
+    "tests": 192,
+    "targetedTests": 2,
+    "browser": "PASS",
+    "seoErrors": [],
+    "sitemapUrls": 404
+  }
+}

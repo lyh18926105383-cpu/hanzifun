@@ -10,3 +10,8 @@ export function staticStrokeSvg(glyph, data) {
   const panels = data.strokes.map((_,i) => `<g transform="translate(${i%columns*180},${Math.floor(i/columns)*205})"><rect x="1" y="1" width="174" height="174" fill="#fffaf0" stroke="#a69d90"/><path d="M88 0V176M0 88H176" stroke="#ded6c8" stroke-dasharray="4 4"/><g transform="translate(0,154) scale(.172,-.172)">${data.strokes.slice(0,i+1).map((_,j)=>`<use href="#s${j}" fill="${j===i?'#ad392b':'#263c33'}"/>`).join('')}</g><text x="88" y="196" text-anchor="middle" font-size="17">${i+1}</text></g>`).join('');
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${columns*180} ${rows*205}" role="img"><title>${e(glyph)} cumulative stroke sequence</title><desc>Hanzi Writer 2.0.1, Arphic Public License. The new stroke is red.</desc><defs>${defs}</defs>${panels}</svg>`;
 }
+
+// The hero uses the exact completed outline used by the animated stroke viewer.
+export function completeGlyphSvg(glyph,data,version){
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" data-stroke-source-sha256="${e(version)}"><title>${e(glyph)}</title><desc>Hanzi Writer 2.0.1 / Make Me a Hanzi; Arphic Public License. Complete glyph from the same paths as the stroke-order animation.</desc><g transform="translate(0,900) scale(1,-1)" fill="#1E352F">${data.strokes.map(d=>`<path d="${e(d)}"/>`).join('')}</g></svg>`;
+}

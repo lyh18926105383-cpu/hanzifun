@@ -91,3 +91,23 @@ const contextReturn=params.get('returnTo');
 if(contextReturn&&/^\/(?:academic\/hsk-[23]\/(?:level-2\/)?|scenarios\/(?:travel\/(?:restaurant|airport|hotel|supermarket)|business\/icebreakers)\/)(?:[#?]|$)/.test(contextReturn)&&!/[\r\n\\]/.test(contextReturn)){
  const a=node('a','Return to learning context');a.href=contextReturn;document.querySelector('main')?.prepend(a);
 }
+
+// Page-local controls share the existing durable learning and stroke engines.
+document.querySelector('[data-hf-stroke-toggle]')?.addEventListener('click',()=>{
+ const details=document.getElementById('character-strokes'),button=document.querySelector('[data-hf-stroke-toggle]');
+ if(!details)return;
+ details.open=!details.open;button.setAttribute('aria-expanded',String(details.open));
+ if(details.open)details.querySelector('[data-stroke="play"]')?.click();else stroke?.pause();
+});
+document.getElementById('character-strokes')?.addEventListener('toggle',event=>{
+ document.querySelector('[data-hf-stroke-toggle]')?.setAttribute('aria-expanded',String(event.target.open));
+ if(!event.target.open)stroke?.pause();
+});
+document.querySelector('[data-hf-copy]')?.addEventListener('click',async event=>{
+ const status=document.querySelector('[data-hf-copy-status]');
+ try{await navigator.clipboard.writeText(event.currentTarget.dataset.hfCopy);status.textContent='Copied.';}
+ catch{status.textContent='Select the character to copy it.';}
+});
+let openBeforePrint=[],printing=false;
+window.addEventListener('beforeprint',()=>{if(printing)return;printing=true;openBeforePrint=[...document.querySelectorAll('.hf-char-page details')].filter(d=>!d.open);openBeforePrint.forEach(d=>d.open=true);});
+window.addEventListener('afterprint',()=>{openBeforePrint.forEach(d=>d.open=false);openBeforePrint=[];printing=false;});

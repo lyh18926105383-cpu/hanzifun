@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-02",
+  "surface": "Isolated headless Chrome, local production build",
+  "checks": [
+    "339 hero outlines match every original stroke path and source SHA-256 exactly",
+    "Compound and basic full-page desktop screenshots; 12 responsive layouts; desktop hero side-by-side and 68/32 columns; four axe WCAG AA scans",
+    "Add to Flashcards writes durable local character identity and survives reload",
+    "Copy writes the current character to clipboard",
+    "Hero stroke toggle loads real per-character SVG, plays, closes and pauses",
+    "Alternative reading updates accessible information and practice identity without changing teaching example labels",
+    "Print Worksheet opens native printing, expands static learning content and omits utility controls",
+    "Without JavaScript all four learning modules and valid links remain readable; native details reveal the complete static stroke sequence"
+  ],
+  "layouts": [
+    {
+      "glyph": "休",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "glyph": "休",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "glyph": "休",
+      "width": 767,
+      "overflow": false
+    },
+    {
+      "glyph": "休",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "glyph": "休",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "glyph": "休",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "glyph": "木",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "glyph": "木",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "glyph": "木",
+      "width": 767,
+      "overflow": false
+    },
+    {
+      "glyph": "木",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "glyph": "木",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "glyph": "木",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "glyph": "休",
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "glyph": "休",
+      "width": 1440,
+      "violations": 0
+    },
+    {
+      "glyph": "木",
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "glyph": "木",
+      "width": 1440,
+      "violations": 0
+    }
+  ],
+  "pageErrors": [],
+  "screenshots": [
+    "xiu-desktop-full.png",
+    "mu-desktop-full.png",
+    "mu-print.png",
+    "xiu-mobile-full.png"
+  ],
+  "preservation": {
+    "pages": 339,
+    "existingAudioBindings": 1122,
+    "seoAndJsonLd": "identical",
+    "sitemap": "byte-identical",
+    "sitemapUrls": 404,
+    "manifestSha256": "45d476d948fe38297baf81d8af9cfc202921c2bb3db4091e07e4a2e70cfcbc96"
+  },
+  "browser": "156.0.8078.79",
+  "status": "PASS"
+}

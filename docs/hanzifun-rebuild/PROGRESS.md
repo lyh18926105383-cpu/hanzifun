@@ -2,8 +2,8 @@
 
 ## 当前所处阶段
 - **大阶段**：Phase 2。2026-10-28生产基线保留；2026-10-31本地新增候选准备完成，未部署。
-- **当前执行任务**：四文化工具与教师本地组卡全局合龙Completed / PASS；Owner内容hash签收已绑定，六路由正式挂载。HF-15本地无需账号范围已确认，原Phase3账号/同步/教材扩展未启动。
-- **状态**：Desktop主目录main；190/190测试PASS，生产2832文件/413英文页（404 index/9 noindex），Sitemap404、SEO errors=[]。候选`phase-2-culture-teacher-local-2026-10-31`未commit/push/部署；339字及87缺字后续批次决定不变。
+- **当前执行任务**：/tools/左侧导航轨+五段中国风实时画廊Completed / PASS；五SVG/移动抽屉/scroll spy/真实收藏与教师本机保存已接，独立路由及339字约束保留。
+- **状态**：Desktop主目录main，基线98f79fa；192/192测试PASS，生产2838文件/413英文页（404 index/9 noindex），Sitemap404、SEO errors=[]。候选phase-2-tools-gallery-2026-10-31未commit/push/部署，截图/Owner授权哈希回执已保存。
 
 ---
 
@@ -383,3 +383,50 @@
 - **最终验证**：用户三项命令全退出0：生产2832文件/413英文页（404 index、9 noindex），SEO errors=[]、364核心页/418 JSON-LD、Sitemap404。**190/190测试PASS（181原有+Cursor7+合龙负例/分发2）**，0fail/skip/cancel。Chrome156十行为组、30布局、6类axe A/AA零违规、pageErrors=[]；真实收藏、IndexedDB刷新、编辑/排序/旧快照、导入导出、删除保留会话、两标签一成功一冲突、LocalStorage回退、无JS输入保护均通过。2/100卡各A4/Letter四PDF均单页，pypdf/Poppler逐份渲染与目视最终无越框；不把初版问题当最终通过。
 - **本轮文件**：新增site/tools-integration.mjs、src/client/{cultural-tools,tools-entry}.mjs、scripts/verify-tools-browser.mjs、tests/culture-teacher-integration.test.mjs；接入/调整Cursor的site/pages/{cultural-tools,teacher-decks}.mjs、src/client/teacher-decks.mjs、site/public/site-styles.css、tests/cultural-tools-teacher.test.mjs（原7项保留）。修改scripts/build-site.js、site/{seo.mjs,release.json,pages/learning.mjs}、data/editorial/review-decisions.json、tests/seo-quality.test.mjs；文档HF-12-HF-15-INTEGRATION-VERIFICATION、acceptance/culture-teacher-local-2026-10-31.json、evidence/culture-teacher-local/{browser,verification}.json、TASKS/PROGRESS/REMAINING及HF12/HF15任务、SPEC/FILE_ARCHITECTURE与routes契约。
 - **遗留/精确下一步**：本轮确认范围完成，未commit/push/部署。HF14仍非全等级，87缺字是后续批次；原账号/同步/付费/有授权教材范围未做。无IndexedDB且无Web Locks的旧浏览器LocalStorage仅乐观revision/写后校验，不宣称原子跨标签事务；未测所有浏览器/真机/线上。下一Agent先读本报告/本候选verification和releaseId，若发布重做HF17冻结/回滚/Workers及本次生产窗口核验，不复用旧候选manifest、不重问已获内容签收。
+
+### [记录 30] - `/tools/` 左侧竖线轨与五段中国风实时画廊（By Codex，2026-10-31）
+
+- **基线/授权**：指定Desktop主目录main，开工tracked干净HEAD98f79fa；用户明确要求删除忽略tmp_tools_design_ref.html，该文件存在并已直接删除，未读取，已加gitignore。Owner明确授权视觉实现及哈希更新；未覆盖其他个人临时文件，未使用旧worktree。
+- **交付**：site/pages/cultural-tools新增culturalStudioPage，左印章/编号/双语导航、贯穿雅致竖线/滑动条，右五段名字/食味/岁次/墨鉴/教案。五个原创SVG画卷在site/public/tools-art（name/menu/zodiac/tattoo/teacher-scroll.svg），滤镜/米色遮罩与磨砂舞台，前景表单、大字拼音语义与字典/独立工具深链。src/client/tools-gallery复用既有查询和教师Repo，IO高亮/平滑定位/轻视差渐入、手机抽屉/Escape/减少动态/无JS静态内容均接通。真实收藏与教师本机revision1→2可在原工作台读取，个人输入不进请求。
+- **边界/签收**：路由与statusPolicies对照HEAD逐项相同，Sitemap仍404；所有动态内链只在原339字中。原字符/HSK签收和源数据/音频manifest不变，87缺字仍后续。新批culture-teacher-gallery-2026-10-31绑定五图/客户端/CSS/六页面与SEO，review-decisions/release/独立receipt同步，旧批历史保留；这是Owner预授权实现，不伪称新真人审图/听审。
+- **最终验证**：用户三命令全退出0；2838公开文件/413英文页（404 index/9 noindex），SEO errors=[]、364核心页/418 JSON-LD、Sitemap404。192/192测试PASS（原190+2），fail/skip/cancel0；Chrome156八行为组/六宽度无溢出，390和1600两档axe A/AA零违规，pageErrors=[]。实际生成并查看桌面首屏/完整前两展台/点击第三与第四的四张2倍高清图，另有手机图。先前装饰p的SEO顺序与长截图裁切问题已修正并最终重跑，不复用早期失败结果。
+- **修改文件**：.gitignore、site/pages/cultural-tools.mjs、site/tools-integration.mjs、src/client/tools-entry.mjs、site/public/site-styles.css、scripts/build-site.js、site/release.json、data/editorial/review-decisions.json；新增src/client/tools-gallery.mjs、五SVG、tests/tools-gallery.test.mjs、scripts/verify-tools-gallery-browser.mjs；docs新增HF-12-TOOLS-GALLERY-VERIFICATION、acceptance/culture-teacher-gallery-2026-10-31.json、evidence/tools-gallery（5PNG+browser/verification.json）；更新TASKS/PROGRESS与HF12任务。
+- **精确下一步**：本轮本地完成，无待答项；未commit/push/部署，不声称真机/跨浏览器/真实p75/线上。若发布，从新releaseId/verification输入hash进行本候选HF17/18，不沿用旧包冻结。若改画廊或资产，刷新本批签收和截图；339身份/87缺字约定不变，不读取已丢弃临时参考文件。
+
+### [记录 31] - 左侧导航英文点击引导文案（By Codex，2026-11-01收尾）
+
+- Owner对五句完整英文提案回复“确认”，已逐字加入五个英文工具标题下方：Name — Find a Chinese name that feels like you.; Menu — Discover the characters behind your next meal.; Zodiac — Find the animal and element of your lunar year.; Tattoo — Explore the meaning before it becomes ink.; Teacher — Turn a few characters into your next lesson.
+- 修改src/client/tools-gallery.mjs（guide字段）、site/pages/cultural-tools.mjs（small引导）、site/public/site-styles.css（11px次级文案/移动抽屉grid换行）。滑动指示条仍按实际item高度定位，未硬编码旧高度。按已获Owner确认刷新review-decisions、release及gallery批次receipt，另持久化railGuideCopyConfirmation；原339字/路由策略不变。
+- 生产构建2838文件/413英文页、SEO errors=[]/Sitemap404、全量192/192及定向2/2测试PASS；Chrome画廊8旅程/6宽度/手机桌面两档axe零违规，截图已重生成并查看桌面首屏；无JS/减少动态/真实保存/抽屉/spy保持通过。
+- TASKS与evidence/tools-gallery/verification.json已同步当前源码/截图hash，HF12/画廊验收追加本次确认记录。未commit/push/部署。下一Agent从最新verification与gallery签收继续，不恢复旧英文标题下无引导的版本；本轮无遗留问题。
+
+
+### [记录 32] - 339单字页学习流与吸顶工具箱重构（By Codex + Cursor Grok 4.7，2026-11-02）
+
+- **目录/授权**：按Owner本次明确请求在Desktop主目录main施工；开工HEAD98f79fa，已有工具画廊等未提交改动保全。未快进/覆盖较新的生产源，未commit/push/部署；本聊天ec2a仅读取协作文档。参考图为Owner上传image.png，其字段标签按用户正文要求省略。
+- **实际协作**：通过Cursor桌面界面选择Grok4.7 High Fast、This Mac/main，派发CSS唯一写入边界与HTML契约；已回收命名空间样式及前264行不变检查。Codex负责数据/模板/新门控/测试/截图，交接后做局部样式与简洁页脚合龙，没有冒称外部模型完成即验收。
+- **实现**：126+213统一为四步学习流；真实IDS公式、独体字及部件位置变体反查、339内链过滤、原词句优先去重、连写拼音逐音节匹配高亮。Information/多音/简繁/Kanji及完整笔顺可展开，快六星原长文保留折叠；本机收藏/练习/复制/打印有效。移除字页底部大网，其他页页脚不变；Phase3与故事内容未改。
+- **本轮文件**：新增site/{character-flow,character-presentation-review}.mjs、tests/character-flow.test.mjs、scripts/verify-character-flow-browser.mjs；修改site/pages/{dictionary,hsk}.mjs、site/editorial-content.mjs、src/client/dictionary.mjs、site/public/site-styles.css、scripts/build-site.js、tests/{dictionary,hsk-scenarios,phase2-injection}.test.mjs；签收data/editorial/review-decisions.json、site/release.json及acceptance/culture-teacher-gallery-2026-10-31.json（共享CSS关联维护）。新增CHARACTER-FLOW-VERIFICATION-2026-11-02.md与evidence/character-flow-2026-11-02/的4PNG及验证/SEO/测试日志；同步TASKS/PROGRESS。
+- **最终证据**：生产2838文件；SEO errors=[]；198/198测试，fail/skip/cancel0。Chrome156两页×6宽度12档零溢出、4次axe零违规、pageErrors=[]；真实sticky24px、收藏/刷新、Copy、多音练习ID、真实笔顺播放暂停、仅一次打印、无JS静态序列通过。两张桌面完整长图休/木、手机与打印图均实际查看。339页元数据/JSON-LD及1122音频绑定与开工包一致；Sitemap逐字节相同404URL。原教学/音频批准深比较保持；新增呈现hash门控拒绝源码漂移。见verification.json源码/截图哈希。
+- **纠正与边界**：浏览器发现并修复双重打印监听；居中Hero的并排测试改测水平顺序/竖向重叠；木衍生卡改为横向四列。木没有已发布森，显示林休本禾；水显示汉没法泉。山仅岁，34不可可靠拆分条目无已发布衍生字、175页不足4个同部首成员，展示真实数量/完整字形练习，不伪造补齐。不声称真人听审、其他浏览器/真机或已上线。
+- **精确下一步**：先读本记录、TASKS和CHARACTER-FLOW-VERIFICATION-2026-11-02.md，Owner可直接验收evidence下两张桌面长图。当前本地工程已PASS，无待答项；若要生产发布，先承接较新SEO导航发布版本并保全本main原有未提交成果，重新HF17/18冻结。不要直接将98f79fa旧主目录部署覆盖新版线上。
+
+
+### [记录 33] - 单字页Owner人工批注六项修订（By Codex，2026-11-02）
+
+- **授权/目录**：继续Owner指定Desktop主目录main，保全原有工具画廊/此前单字页未提交成果。Owner五条批注及随后字形批注合并实施，未启动Phase3或故事制作。
+- **变更**：Information移到例句下；笔顺移至Listen后并显示44px笔形图标；全339页增加1–3个当前教学读音义项及对话式英文解释；删除指定正文来源段和句末拼音提示。来源页/页脚Sources与资源许可证信息保留。
+- **释义**：新增site/character-meaning.mjs及data/editorial/character-meaning-explanations.json；14常用字专写解释，其余由原已签发字义/例词呈现上下文说明；不混多音义，不复用真人审读/录音听审签字。新增内容与实现签名绑定，原339教学/音频决定深比较一致。
+- **字形**：site/components/stroke-order.mjs新增completeGlyphSvg，构建339个site-assets/character-glyph/<cp>.svg；与实际动画使用完全相同的原始路径、坐标变换和source hash。初版系统字体替换为真实笔顺书法轮廓，保持lang/读屏文本，无JS可见。
+- **文件**：修改site/character-flow.mjs、site/character-presentation-review.mjs、site/components/stroke-order.mjs、site/public/site-styles.css、scripts/build-site.js、tests/{character-flow,dictionary}.test.mjs、scripts/verify-character-flow-browser.mjs；新增上述释义模块/数据；更新review-decisions、release及工具共享CSS维护receipt；更新验收报告、TASKS/PROGRESS和evidence/character-flow-2026-11-02/全部日志/截图/hash。
+- **最终验收**：生产3177文件（增加339个单字SVG，路由未增）；SEO errors=[]/Sitemap404；199/199测试，fail/skip/cancel0。Chrome156的339字头逐路径同源校验、两页12档布局零溢出/4次axe零违规、位置/释义数量/删除文案/收藏/复制/多音/笔顺/打印/无JS全部通过，pageErrors=[]。339页元数据/JSON-LD与1122音频绑定保持；截图重生成并实际查看。最新呈现hash见verification.json。
+- **下一切入点**：内置浏览器新开并保留当前木页供Owner继续验收；本次不提交/推送/部署。旧主目录基线与较新生产SEO版本的合龙提醒不变；继续修改需刷新呈现和共享CSS关联签名。下次先读本记录、TASKS与验收报告最新修订，不把初版198测试/2838文件当最终值。
+
+
+### [记录 34] - 单字页二轮批注：完整笔顺按钮与音频尾部清理（By Codex，2026-11-02）
+
+- 按Owner四项批注继续Desktop main：笔形图标改为完整Play Stroke Order文字；删除anatomy说明段、字符页Stop audio及底部音频说明。拼音独立一行，Listen→Play Stroke Order→Copy在下一行按网格排列，44px触控与窄屏适配保留。
+- 字符页新增专属pronunciationFooter属性，构建优先使用；保留原发音模块与空live状态节点供实际错误反馈。其他页面沿用原全局音频尾部；原339教学/音频决定不变，没有假装禁用发音或只用CSS遮住指定文案。
+- 修改site/character-flow.mjs、site/public/site-styles.css、scripts/build-site.js、tests/character-flow.test.mjs、scripts/verify-character-flow-browser.mjs；刷新review-decisions/site.release/工具共享CSS维护receipt与全部当前证据、验收报告、TASKS/PROGRESS。
+- 最终3177文件、199/199测试PASS、SEO errors=[]、Sitemap404；339页SEO/JSON-LD、1122音频绑定与339字形源路径保持。Chrome12档布局无溢出、4次axe零违规、所有原交互及新文字/删除项断言通过，pageErrors=[]。桌面/手机截图已重生成并目视；内置浏览器新开保留当前木页。
+- 下一步：Owner可在当前内置浏览器继续验收。未commit/push/部署；较新生产SEO版本合龙要求仍保留。最新源码/截图签名在evidence/character-flow-2026-11-02/verification.json；不要恢复旧笔形纯图标或全局音频说明段。

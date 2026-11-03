@@ -1,0 +1,135 @@
+{
+  "version": "character-meaning-2026-11-02-v1",
+  "date": "2026-11-02",
+  "kind": "ai-editorial-revision",
+  "authorization": "Owner browser comments 2026-11-02: provide 1–3 definitions and explain character meanings in a conversational voice. Implementation authorization, not a claim of new human language review.",
+  "sourceScope": "Existing teaching-reading glosses, examples and CC-CEDICT senses. Other readings remain separate in Information.",
+  "entries": [
+    {
+      "characterId": "char:4f11",
+      "readingId": "reading:char:4f11:xiu1",
+      "definitions": [
+        "To rest",
+        "To pause / take a break",
+        "To stop / cease"
+      ],
+      "explanation": "When you need a moment to catch your breath, think of 休. It means stopping what you’re doing for a while and giving yourself a rest. You’ll often meet it in 休息 (xiūxi), meaning ‘to rest’—an everyday way to talk about pausing and relaxing."
+    },
+    {
+      "characterId": "char:6728",
+      "readingId": "reading:char:6728:mu4",
+      "definitions": [
+        "A tree",
+        "Wood as a material"
+      ],
+      "explanation": "Imagine a tree standing in front of you. 木 can refer to the tree itself or to the wood it gives us. In 木头 (mùtou), we’re talking about wood as a material—the kind you might use to make a table."
+    },
+    {
+      "characterId": "char:6c34",
+      "readingId": "reading:char:6c34:shui3",
+      "definitions": [
+        "Water"
+      ],
+      "explanation": "If you’re thirsty, 水 is the water you want to drink. It’s also the water you pour into a glass or see flowing in a river. In 喝水 (hē shuǐ), 喝 means ‘drink’, so the whole phrase means ‘drink water’."
+    },
+    {
+      "characterId": "char:597d",
+      "readingId": "reading:char:597d:hao3",
+      "definitions": [
+        "Good / fine",
+        "Well",
+        "All right / okay"
+      ],
+      "explanation": "When something is good, or you’re doing well, 好 is a word you’ll reach for often. In the greeting 你好 (nǐ hǎo), the whole expression simply means ‘hello’. Notice the tone here: hǎo. The reading hào has a different meaning, which you can explore in Information."
+    },
+    {
+      "characterId": "char:4eba",
+      "readingId": "reading:char:4eba:ren2",
+      "definitions": [
+        "A person",
+        "People",
+        "Human"
+      ],
+      "explanation": "Start with a person—someone like you or me. 人 can refer to one person or to people more generally; the surrounding words tell you which. In 人们 (rénmen), you’re talking about people as a group."
+    },
+    {
+      "characterId": "char:706b",
+      "readingId": "reading:char:706b:huo3",
+      "definitions": [
+        "Fire"
+      ],
+      "explanation": "Think of flames giving off heat and light: that’s 火. Now put it next to 山, ‘mountain’, in 火山 (huǒshān). The whole word means ‘volcano’—a memorable way to connect the two characters without treating every Chinese word as a literal translation."
+    },
+    {
+      "characterId": "char:5c71",
+      "readingId": "reading:char:5c71:shan1",
+      "definitions": [
+        "A mountain / hill"
+      ],
+      "explanation": "Picture a mountain rising above the land around it. That’s the everyday idea of 山. In 高山 (gāoshān), 高 adds ‘high’, so you’re talking about a high mountain. Keep that landscape in mind when you meet 山 in other words."
+    },
+    {
+      "characterId": "char:6708",
+      "readingId": "reading:char:6708:yue4",
+      "definitions": [
+        "The moon",
+        "A month"
+      ],
+      "explanation": "Look up at the night sky and think ‘moon’: that’s one meaning of 月. You’ll also use 月 for a month when talking about dates. In 月亮 (yuèliang), the whole word means the moon you can see in the sky."
+    },
+    {
+      "characterId": "char:65e5",
+      "readingId": "reading:char:65e5:ri4",
+      "definitions": [
+        "The sun",
+        "A day",
+        "A calendar date"
+      ],
+      "explanation": "Think of the sun, then of one day passing. 日 connects with both ideas, and you’ll also meet it in calendar dates. In 今天是几月几日？, 几日 asks for the day of the month. The surrounding words help you choose the meaning."
+    },
+    {
+      "characterId": "char:4e00",
+      "readingId": "reading:char:4e00:yi1",
+      "definitions": [
+        "One",
+        "Single"
+      ],
+      "explanation": "Start with one thing, rather than two or three: that’s 一. In 一个 (yí gè), 一 tells you there is one item and 个 helps you count it. You’ll hear the tone change in this phrase, even though the dictionary reading is yī."
+    },
+    {
+      "characterId": "char:4e0d",
+      "readingId": "reading:char:4e0d:bu4",
+      "definitions": [
+        "Not",
+        "No"
+      ],
+      "explanation": "Use 不 when you want to say ‘not’ or make a negative statement. In 不是 (bú shì), you’re saying ‘is not’—for example, that something isn’t yours. Listen for bú before shì; the tone changes in speech, while the dictionary reading stays bù."
+    },
+    {
+      "characterId": "char:7528",
+      "readingId": "reading:char:7528:yong4",
+      "definitions": [
+        "To use"
+      ],
+      "explanation": "When you put something to use, 用 is the idea to remember. In 有用 (yǒuyòng), the whole word means ‘useful’: something has a use or can help you. Try connecting 用 with a tool or method you actually use."
+    },
+    {
+      "characterId": "char:7684",
+      "readingId": "reading:char:7684:de5",
+      "definitions": [
+        "Marks possession",
+        "Connects a description to a noun"
+      ],
+      "explanation": "Think of 的 as a small connector between words. In 我的 (wǒ de), it links ‘I’ to something that belongs to me, giving you ‘my’ or ‘mine’. It can also connect a description to a noun, so read it together with the words around it."
+    },
+    {
+      "characterId": "char:4e86",
+      "readingId": "reading:char:4e86:le5",
+      "definitions": [
+        "Marks a completed action",
+        "Signals a change or new situation"
+      ],
+      "explanation": "Think of 了 as a clue that something has happened or the situation has changed. In 我已经吃过饭了。, the speaker is telling you they have already eaten. It isn’t simply a past-tense ending: its meaning comes from the whole sentence."
+    }
+  ]
+}

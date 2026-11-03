@@ -15,7 +15,7 @@ import {characters,editorial,readings,kanji,strokes,syllables,scope,comparisons,
 import {lexicon} from '../site/hsk-data.mjs';
 import {characterPage,dictionaryPages} from '../site/pages/dictionary.mjs';
 import {pinyinChartPage} from '../site/pages/pinyin-chart.mjs';
-import {staticStrokeSvg} from '../site/components/stroke-order.mjs';
+import {staticStrokeSvg,completeGlyphSvg} from '../site/components/stroke-order.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 
 test('all 126 stable characters have distinct, traceable teaching drafts without invented human acceptance',()=>{
@@ -53,7 +53,7 @@ test('polyphonic Information stays tied to reading IDs, known Kanji have evidenc
  assert.equal(kanji.filter(k=>k.status==='verified').length,80);
 });
 test('character text, Information and complete static sequences are rendered without runtime SVG payloads',()=>{
- for(const c of characters){const html=characterPage(c).content;assert.match(html,/Information/);assert.match(html,/Visual memory cue/);assert.match(html,/id="examples"/);assert.match(html,/loading="lazy"/);assert.match(html,/stroke-static\/[0-9a-f]+\.svg/);assert.doesNotMatch(html,/<path\b/);assert.match(html,/data-stroke-panel/);}
+ for(const c of characters){const html=characterPage(c).content;assert.match(html,/Information/);assert.match(html,/Visual Mnemonic/);assert.match(html,/id="examples"/);assert.match(html,/loading="lazy"/);assert.match(html,/stroke-static\/[0-9a-f]+\.svg/);assert.doesNotMatch(html,/<path\b/);assert.match(html,/data-stroke-panel/);}
  assert.equal(dictionaryPages().filter(p=>characters.some(c=>p.path==='/dictionary/'+c.glyph+'/')).length,126);
  assert.ok(comparisons.entries.length>=6);
 });
@@ -79,6 +79,8 @@ test('static stroke sequence uses the locked real paths once and gives every cum
   assert.equal((svg.match(/<path id=/g)||[]).length,asset.strokeCount);
   assert.equal((svg.match(/<text /g)||[]).length,asset.strokeCount);
   assert.match(svg,/Arphic Public License/);
+  const full=completeGlyphSvg(asset.glyph,data,asset.sha256);assert.equal((full.match(/<path d=/g)||[]).length,data.strokes.length);assert.match(full,/translate\(0,900\) scale\(1,-1\)/);assert.ok(full.includes(asset.sha256));
+  assert.deepEqual([...full.matchAll(/<path d="([^"]*)"/g)].map(m=>m[1]),data.strokes.map(escapeHtml));
  }
 });
 test('repository bridge never claims a save without a confirmed durable write',async()=>{

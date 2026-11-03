@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-31T15:59:16.879Z",
+  "surface": "Isolated local Chrome production build",
+  "checks": [
+    "Desktop left rail animates to chapter 3/4; four requested 2x screenshots captured",
+    "Manual scrolling updates the active chapter through the scroll spy",
+    "All five studios update inline; real guest favorite and private teacher deck revisions persist",
+    "All dynamic dictionary links remain within the 339 published characters; inputs never enter requests",
+    "Gallery teacher deck is available in the unchanged private workspace",
+    "Mobile chapter drawer selects, closes and preserves content width",
+    "Reduced-motion navigation works without smooth animation",
+    "No-JavaScript chapter links and static previews work while private forms stay disabled"
+  ],
+  "layouts": [
+    {
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1600,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "width": 1600,
+      "violations": 0
+    }
+  ],
+  "pageErrors": [],
+  "screenshots": [
+    "desktop-first-screen.png",
+    "desktop-first-two-studios.png",
+    "desktop-lunar-zodiac.png",
+    "desktop-tattoo-checker.png",
+    "mobile-lunar-zodiac.png"
+  ],
+  "browser": "156.0.8078.79",
+  "status": "PASS"
+}

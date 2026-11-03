@@ -8,7 +8,27 @@
 
 Phase 1 保留已确认的 Information、独立 `/stroke-order/` 和 `/pinyin-chart/`；书法暂不规划。字页分 Tier 1 黄金完整版与 Tier 2 标准可用版，达到 Tier 2 即可发布/开放索引；30–50 个 Tier 1 是增强目标，不拦住标准字页上线。HSK 执行 [限定范围放行指令](SPEC.md#hsk-release-policy)，不默认等待第三方书面授权。
 
-## 当前全局合龙（2026-10-31；本地Completed / PASS）
+## 当前单字页重构（2026-11-02；本地 Completed / PASS）
+
+- [x] 二轮四项批注完成：显示完整Play Stroke Order；删除拆字模块说明段、字页Stop audio及底部音频说明；保留实际发音脚本/错误反馈和其他页面工具。199/199、SEO errors=[]、Sitemap404，12档布局/4次axe通过，签收与截图已刷新，内置浏览器新版木页可验收。
+
+- [x] 人工批注六项修订：Information移至例句后；笔顺图标紧接Listen；339页1–3义项及对话式解释；删除两段标记说明；字头全部改为与笔顺同源矢量。**199/199测试PASS**、生产3177文件、SEO零错误/Sitemap404；截图与哈希已刷新，内置浏览器新版木页已打开。下列198测试/2838文件为初版历史值。
+
+- [x] 在 Owner 指定 Desktop 主目录 `main` 完成 339 个已发布字页的 68/32 学习流 + 右侧吸顶工具箱；实际调用 Cursor **Grok 4.7 High Fast** 编写命名空间 CSS，Codex 完成统一模板、拆字/反查、拼音锚定、门控与合龙。
+- [x] 339 页 SEO/JSON-LD、1122 个原音频绑定、原教学/听审签字保全；Sitemap 与开工包逐字节一致，仍 **404 URL**。新增独立呈现签收，原工具共享CSS聚合签名仅作关联维护。
+- [x] 生产构建2838文件、SEO errors=[]、**198/198 测试 PASS**；无头Chrome12档布局零溢出、4次axe零违规，收藏/复制/笔顺/多音/打印/无JS通过；休与木两张桌面完整长图及手机/打印图已保存并查看。
+- [x] TASKS/PROGRESS及[验收报告](CHARACTER-FLOW-VERIFICATION-2026-11-02.md)同步；证据在 `evidence/character-flow-2026-11-02/`。关联数量按339字真实覆盖显示，山仅有岁等不足数量情形不伪造内链。
+- [ ] 未commit/push/部署。主目录仍以98f79fa为Git基线，保留此前工具画廊未提交改动；未来上线前需与较新的生产SEO导航源码合龙，不直接部署本旧基线。
+
+## 当前 `/tools/` 互动长画廊（2026-10-31；本地Completed / PASS）
+
+- [x] 删除并忽略tmp_tools_design_ref.html，未读取参考；左侧印章章节导航轨/贯穿竖线/滑动激活条，右侧五段互动中国风长画廊。
+- [x] 2026-11-01：按Owner确认逐字加入五句英文导航引导，位于各英文标题下方；桌面与手机换行/spy/axe复验通过，签收与截图已刷新，192/192测试PASS、Sitemap404。
+- [x] 5套原创SVG主题资产+柔化/遮罩/磨砂前景；输入实时预览、339字内链/真实收藏、教师本机保存/revision及独立深链；点击滚动/IntersectionObserver spy/视差、手机抽屉与减少动态兼容。
+- [x] Owner授权新批哈希签收；路由与索引策略不变。生产2838文件/413英文页，**192/192测试PASS**，SEO errors=[]、**Sitemap404**；Chrome8行为/6宽度/两档axe零违规，4张指定2倍桌面截图+手机截图已保存。[验收](HF-12-TOOLS-GALLERY-VERIFICATION.md)。
+- [ ] 本候选未commit/push/部署；发布另走新HF-17/18。原339字/HSK/音频签字保持，87缺字后续。
+
+## 前轮全局合龙（2026-10-31；本地Completed / PASS）
 
 - [x] 原HF-12四文化工具和总入口正式挂载；30姓名教学组合、50菜单序列、HKO春节边界生肖年干、1–8字纹身核查均接通客户端及339字内链/真实收藏。
 - [x] HF-15 **本地范围**完成：既定`/flashcards/teacher/`工作台、2–100字CRUD/重排/revision/旧练习快照、IndexedDB/LocalStorage、JSON、A4/Letter单页打印；Owner明确接受无需账号的本地模块。Phase3账号同步/服务端权限/教材映射未做。

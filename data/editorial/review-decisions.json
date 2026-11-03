@@ -4939,6 +4939,79 @@
       "contentSha256": "f88f3158604657573e975dcf604e9327316f984a4f3e91d89654087ab6bc4b51",
       "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-local-2026-10-31.json",
       "scope": "Owner accepted the four cultural tools and local teacher module; this batch binds the components and their tested global integration. No account, cloud sync, textbook licence, human audio review or production deployment is implied."
+    },
+    "culture-teacher-gallery-2026-10-31": {
+      "humanContent": "approved",
+      "approvalBasis": "owner-authorized-visual-implementation",
+      "reviewer": "Project owner (user)",
+      "date": "2026-10-31",
+      "contentSha256": "e5708295a9223453317f35d8a8b1fcf2ca964f617839f76ca27d32654680a18b",
+      "evidence": "docs/hanzifun-rebuild/acceptance/culture-teacher-gallery-2026-10-31.json",
+      "scope": "Owner explicitly authorized the left-rail/live-gallery redesign, original SVG assets and hash updates. This records preauthorized implementation, not an additional post-implementation human visual or listening review.",
+      "characterPageStylesheetMaintenance": {
+        "date": "2026-11-02",
+        "reason": "Owner-authorized isolated .hf-char-* stylesheet append; tools content/catalog unchanged",
+        "previousContentSha256": "c6aed6c1998e85fef962c710e4dc771a945cd0aa1219686777902602eccde21f",
+        "baselineContentSha256": "429d9620edf0147b6d714c66f5f67426012e4d52336aab43239a2263a1ed762c",
+        "authorization": "Owner request in this chat, 2026-11-02: refactor all 339 published Character Pages to the approved reference, update tests and review-decisions.json signatures. Also includes the Owner’s five browser comments: Information after sentences, stroke icon after Listen, 1–3 conversational definitions removal of two marked paragraphs, and the subsequent request to match the Hero glyph to stroke-order calligraphy. Includes the subsequent four browser comments to show the full Play Stroke Order label and remove the anatomy note, Stop audio button and audio explanation from character pages. Authorizes implementation/content revision hashes, not a new audio listening or historical-content approval."
+      }
+    }
+  },
+  "characterPagePresentation": {
+    "status": "approved",
+    "reviewer": "Project owner (user), implementation authorized; Codex validation",
+    "date": "2026-11-02",
+    "authorization": "Owner request in this chat, 2026-11-02: refactor all 339 published Character Pages to the approved reference, update tests and review-decisions.json signatures. Also includes the Owner’s five browser comments: Information after sentences, stroke icon after Listen, 1–3 conversational definitions removal of two marked paragraphs, and the subsequent request to match the Hero glyph to stroke-order calligraphy. Includes the subsequent four browser comments to show the full Play Stroke Order label and remove the anatomy note, Stop audio button and audio explanation from character pages. Authorizes implementation/content revision hashes, not a new audio listening or historical-content approval.",
+    "contentSha256": "5ed5de0b5e7d6acc75efa902c970926b9814d23ddf2b9f360f2d6a57487bff95",
+    "evidence": "docs/hanzifun-rebuild/CHARACTER-FLOW-VERIFICATION-2026-11-02.md",
+    "payload": {
+      "batchId": "character-flow-2026-11-02",
+      "inputs": [
+        {
+          "file": "site/character-flow.mjs",
+          "sha256": "ef5bb20096d16bb930d6ff4aa2eec38311dd2c48658476389685299bba237411"
+        },
+        {
+          "file": "site/components/stroke-order.mjs",
+          "sha256": "a81dad5946439a6031a1ffbd654e147fb0330f18da7fc8351db82d7f4ec27e86"
+        },
+        {
+          "file": "site/character-meaning.mjs",
+          "sha256": "d9f1e7704e98a3bfc049c8ab64795fc768e080b068375ebf5aa4dd6a86be912d"
+        },
+        {
+          "file": "data/editorial/character-meaning-explanations.json",
+          "sha256": "7a9869dc522fde774de165743b3e26baf7893a55887be1b4f7c8732f4536aff8"
+        },
+        {
+          "file": "site/character-presentation-review.mjs",
+          "sha256": "6073c9cabc982510ef80eb350123d1378d026a7ae5a24634d60dafe36a94ee5a"
+        },
+        {
+          "file": "site/pages/dictionary.mjs",
+          "sha256": "60c7f6b51fb225a32ba55078d37af3722aabd487a9998d0a625174109c62351a"
+        },
+        {
+          "file": "site/pages/hsk.mjs",
+          "sha256": "21e969a7f7473bcded95063d202a4e196d276494caad286819725a6a19fd9a25"
+        },
+        {
+          "file": "site/editorial-content.mjs",
+          "sha256": "6ef89fdbeb6224a10c459802908012fc5cd87528ec6d37ffc9617152680ef107"
+        },
+        {
+          "file": "src/client/dictionary.mjs",
+          "sha256": "8dd9258ed836440081ca4835cd1e729a1e0b31d9b3891d20c88874d40a7cab10"
+        },
+        {
+          "file": "site/public/site-styles.css",
+          "sha256": "989a1425b32a7b48078eb6078214a3709ef7fe883dc362107b597f5e27bc042b"
+        },
+        {
+          "file": "scripts/build-site.js",
+          "sha256": "7ff3f5ff607ccb2c7076ef5f69ae483d96019f5215bd0647fd0a9a8226dda65e"
+        }
+      ]
     }
   }
 }

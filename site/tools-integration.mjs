@@ -1,11 +1,11 @@
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-import {publishedCatalog,culturalToolPages,culturalResultHtml,assertCulturalFixtures,TOOL_PATHS} from './pages/cultural-tools.mjs';
+import {publishedCatalog,culturalStudioPage,culturalToolPages,culturalResultHtml,assertCulturalFixtures,TOOL_PATHS} from './pages/cultural-tools.mjs';
 import {teacherDeckPage} from './pages/teacher-decks.mjs';
 import {characterReviewState,contentHash} from './publication-review.mjs';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const e=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-export const toolsBatchId='culture-teacher-local-2026-10-31';
+export const toolsBatchId='culture-teacher-gallery-2026-10-31';
 export const teacherPath='/flashcards/teacher/';
 export const toolsSeo={
  '/tools/':{title:'Chinese Culture Tools: Names, Menus, Zodiac & Characters',h1:'Chinese Culture Tools',lead:'Explore Chinese character senses in teaching name pairs, dish names, lunar-year symbols and short tattoo text, then continue with dictionary pages and local practice.'},
@@ -21,10 +21,10 @@ export function integrationPages(){
  const examples={names:{style:'calm'},menu:'米饭',zodiac:'2024-02-10',tattoo:'安好'};
  const publicPages=culturalToolPages(catalog).map(p=>{const key=Object.keys(TOOL_PATHS).find(k=>TOOL_PATHS[k]===p.path);return {...p,webApplication:true,description:toolsSeo[p.path].lead,content:`<div class="container hf04">${nav}${p.content.replace(/(<form\b[^>]*>)/g,'$1<fieldset data-local-form disabled>').replaceAll('</form>','</fieldset></form>')}<p role="status" data-local-status></p><details><summary>Read an example</summary>${culturalResultHtml(key,examples[key],catalog)}</details><p>Your typed name, date and text stay on this page. Saving a character stores its dictionary identity on this device.</p><noscript><p>Interactive results need JavaScript. The example and dictionary links above remain readable.</p></noscript></div><script type="module" src="/site-assets/hf06/client/guest-learning.mjs"></script><script type="module" src="/site-assets/tools/tools-entry.mjs"></script>`};});
  const teacher=teacherDeckPage(catalog);teacher.webApplication=true;teacher.content=`<div class="container hf04">${nav}${teacher.content}<p role="status" data-local-status></p><noscript><p>Private decks need JavaScript and browser storage. You can still read the dictionary and <a href="/worksheets/">print the public worksheets</a>.</p></noscript></div><script type="module" src="/site-assets/tools/tools-entry.mjs"></script>`;
- const hub={path:'/tools/',title:toolsSeo['/tools/'].title,description:toolsSeo['/tools/'].lead,content:`<div class="container hf04"><h1>Chinese Culture Tools</h1>${nav}<div class="tile-grid">${publicPages.map(p=>`<article class="tile"><h2><a href="${p.path}">${e(p.title)}</a></h2><p>${e(p.description)}</p></article>`).join('')}<article class="tile"><h2><a href="${teacherPath}">Private teacher decks</a></h2><p>Build, revise and print a character set stored only in this browser.</p></article></div><p>All tools use the existing 339-character dictionary. A character without a published page is shown without a link. Teaching examples support language learning; they do not provide food-safety advice, professional naming or tattoo recommendations, or predictions.</p></div>`};
+ const hub={...culturalStudioPage(catalog),title:toolsSeo['/tools/'].title,description:toolsSeo['/tools/'].lead};
  return [hub,...publicPages,teacher];
 }
-export const toolsInputFiles=['site/pages/cultural-tools.mjs','site/pages/teacher-decks.mjs','src/client/cultural-tools.mjs','src/client/teacher-decks.mjs','src/client/tools-entry.mjs','site/tools-integration.mjs','site/public/site-styles.css'];
+export const toolsInputFiles=['site/pages/cultural-tools.mjs','site/pages/teacher-decks.mjs','src/client/cultural-tools.mjs','src/client/teacher-decks.mjs','src/client/tools-entry.mjs','site/tools-integration.mjs','site/public/site-styles.css','src/client/tools-gallery.mjs',...['name','menu','zodiac','tattoo','teacher'].map(n=>'site/public/tools-art/'+n+'-scroll.svg')];
 export function toolsPayload(){return {batchId:toolsBatchId,inputs:toolsInputFiles.map(file=>({file,sha256:createHash('sha256').update(fs.readFileSync(new URL('../'+file,import.meta.url))).digest('hex')})),catalog:publishedCatalog().items.map(c=>({...c,reviewSha256:characterReviewState(c.characterId).contentSha256})),pages:integrationPages().map(p=>({path:p.path,contentSha256:contentHash(p),seo:toolsSeo[p.path]}))};}
 export function assertToolsAcceptance(route,{reviews=read('data/editorial/review-decisions.json'),release=read('site/release.json'),payload}={}){
  if(!toolsSeo[route.path]||!['published','published-private'].includes(route.status))return;

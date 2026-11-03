@@ -117,7 +117,7 @@ function htmlForPage(layout, page, route, header, footer) {
         .replaceAll('{{seo}}', page.structuredData || '')
         .replaceAll('{{header}}', header())
         .replaceAll('{{content}}', page.content)
-        .replaceAll('{{footer}}', footer());
+        .replaceAll('{{footer}}', page.footerHtml ?? footer());
     html = replacePrototypeAssets(html);
     if ((html.match(/<h1(?:\s|>)/gi) || []).length !== 1) {
         throw new Error('Expected exactly one H1 on ' + page.path);
@@ -274,10 +274,12 @@ async function buildSite() {
 
     // HF-04 overrides only its scoped preview routes. Preserve the 77-path baseline.
     const dictionary = await import('../site/dictionary-data.mjs');
+    const {assertCharacterPresentation}=await import('../site/character-presentation-review.mjs');
+    assertCharacterPresentation();
     const { dictionaryPages, sourcePage } = await import('../site/pages/dictionary.mjs');
     const { strokeOrderPage } = await import('../site/pages/stroke-order.mjs');
     const { pinyinChartPage } = await import('../site/pages/pinyin-chart.mjs');
-    const { staticStrokeSvg } = await import('../site/components/stroke-order.mjs');
+    const { staticStrokeSvg, completeGlyphSvg } = await import('../site/components/stroke-order.mjs');
     const {hskPages,additionalCharacterPages} = await import('../site/pages/hsk.mjs');
     const {scenarioPages} = await import('../site/pages/scenarios.mjs');
     const pronunciation = await import('../site/pronunciation.mjs');
@@ -288,7 +290,7 @@ async function buildSite() {
     for(const [routePath,page] of pages) {
         const enriched=editorial.enrichCharacter(page);
         const character=/^\/dictionary\/([^/]+)\/$/.exec(routePath);
-        if(character && !['pinyin','radicals','compare','top-100'].includes(character[1])) enriched.content=enriched.content.replace(/<h1\b/, '<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/dictionary/">Dictionary</a> / <span lang="zh-CN">'+escapeHtml(character[1])+'</span></nav><h1');
+        if(character && !enriched.content.includes('hf-char-breadcrumb') && !['pinyin','radicals','compare','top-100'].includes(character[1])) enriched.content=enriched.content.replace(/<h1\b/, '<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/dictionary/">Dictionary</a> / <span lang="zh-CN">'+escapeHtml(character[1])+'</span></nav><h1');
         pages.set(routePath,enriched);
     }
     const writePublic = (relative, value) => {
@@ -303,7 +305,8 @@ async function buildSite() {
     learningPages().forEach(page => pages.set(page.path, page));
     integratedTools.forEach(page=>pages.set(page.path,page));
     writePublic('site-assets/tools/published-catalog.json',{items:(await import('../site/pages/cultural-tools.mjs')).publishedCatalog().items});
-    for(const name of ['cultural-tools','teacher-decks','tools-entry'])writePublic('site-assets/tools/'+name+'.mjs',fs.readFileSync(path.join(projectRoot,'src/client',name+'.mjs'),'utf8'));
+    for(const name of ['cultural-tools','teacher-decks','tools-entry','tools-gallery'])writePublic('site-assets/tools/'+name+'.mjs',fs.readFileSync(path.join(projectRoot,'src/client',name+'.mjs'),'utf8'));
+    for(const file of tools.toolsInputFiles.filter(f=>f.startsWith('site/public/tools-art/')))writePublic(file.replace('site/public/','site-assets/'),fs.readFileSync(path.join(projectRoot,file)));
     writePublic('site-assets/hf06/learning-data.json', learningData());
     for (const [directory, names] of [
         ['learning', ['scheduler.mjs','events.mjs','session.mjs','repository.mjs','legacy-import.mjs','write-lock.mjs','identity.mjs']],
@@ -340,6 +343,7 @@ async function buildSite() {
         // Raw paths stay in separate, unchanged per-character JSON files.
         writePublic('data/strokes/'+asset.characterId.slice(5)+'.json',fs.readFileSync(path.join(projectRoot,asset.url),'utf8'));
         writePublic('site-assets/stroke-static/'+asset.characterId.slice(5)+'.svg',staticStrokeSvg(asset.glyph,dictionary.readJson(asset.url)));
+        writePublic('site-assets/character-glyph/'+asset.characterId.slice(5)+'.svg',completeGlyphSvg(asset.glyph,dictionary.readJson(asset.url),asset.sha256));
     }
     fs.cpSync(path.join(projectRoot,'data/licenses'),path.join(outputRoot,'site-assets/licenses'),{recursive:true});
     for (const relative of ['sources.lock.json','editorial-decisions.json','source-extracts/components.json','normalized/characters.json','normalized/readings.json','normalized/kanji.json','normalized/words.json']) {
@@ -381,7 +385,7 @@ async function buildSite() {
         seo.assertEditorialReady(route);
         const canonical=seo.canonicalUrl(page.path, release.siteOrigin);
         const prepared={...seo.withCoreSeo(page),canonical};
-        if(prepared.content.includes('data-pronunciation'))prepared.content+=pronunciation.pronunciationFooter;
+        if(prepared.content.includes('data-pronunciation'))prepared.content+=(prepared.pronunciationFooter ?? pronunciation.pronunciationFooter);
         prepared.structuredData=seo.structuredData(prepared,canonical,release.siteOrigin);
         const html = htmlForPage(layout, prepared, route, header, footer);
         writeRoutePage(page.path, html);
