@@ -1,0 +1,33 @@
+{
+  "releaseId": "character-flow-release-2026-11-03",
+  "status": "candidate-verified",
+  "authorization": "Owner: 没问题了。部署上线，git commit & push，更新任务和进度。",
+  "date": "2026-11-03",
+  "directory": "/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun",
+  "branch": "main",
+  "upstreamPreserved": "6c953f5c542e82f3f978ee435f665b3cb050e8bc",
+  "sourceCommit": "af4cef0542a8b05ff5da6dd6f8de160cf289a3b2",
+  "scope": [
+    "339 character pages, all approved browser comments and real stroke glyphs",
+    "Previously deployed Blog, tools gallery, flashcard SEO and pinyin navigation preserved"
+  ],
+  "tests": {
+    "passed": 201,
+    "failed": 0,
+    "skipped": 0
+  },
+  "seo": {
+    "errors": [],
+    "sitemapUrls": 404
+  },
+  "publicFiles": 3186,
+  "candidateSha256": "483963aef99e03bebaf5856256b58313c893b46485a69345afa6c475892ae887",
+  "previousVersionId": "32564748-683e-42f1-83cc-9c888c59d09d",
+  "previousArtifactSha256": "1d1d9ef3c13624eee74d9ef0a6e9e1ecb5af1163b12fa3de47300969dbd552f7",
+  "localHttpChecks": 390,
+  "productionBeforeChecks": 387,
+  "notes": [
+    "Audio Range probes return a valid complete 200 response on both existing and candidate hosting; no claim of partial 206 support.",
+    "No login, cloud sync, billing or story media changes."
+  ]
+}

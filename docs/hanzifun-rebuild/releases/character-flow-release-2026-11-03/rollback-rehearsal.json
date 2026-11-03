@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "isolated static pointer only; production unchanged",
+  "steps": [
+    "candidate",
+    "previous",
+    "candidate"
+  ],
+  "elapsedSeconds": 0.588
+}

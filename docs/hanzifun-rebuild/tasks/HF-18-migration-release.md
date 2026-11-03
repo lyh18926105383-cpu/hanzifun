@@ -1,5 +1,7 @@
 # HF-18｜最终迁移、授权发布与运行交接
 
+> 2026-11-03：Owner已明确授权`character-flow-release-2026-11-03`上线、commit/push与任务/进度更新；本轮执行中，实际版本/发布时间及生产复检将在发布回执完成后更新。
+
 状态：**两批SEO授权统一发布完成 / PASS（2026-11-02）**。releaseId=`seo-navigation-release-2026-11-02`；194/194测试、SEO、48项正式域名及浏览器复检通过，源码`a6c2688`已推送main；最终100%流量版本`65fd9f41-12b0-4132-9726-8a07afa1484f`。见[实际回执](../releases/seo-navigation-release-2026-11-02/deployment.json)。下方工作流与旧候选记录保留历史。
 
 | 项目 | 内容 |

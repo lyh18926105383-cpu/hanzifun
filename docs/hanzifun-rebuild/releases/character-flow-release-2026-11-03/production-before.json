@@ -1,0 +1,51 @@
+{
+  "versionId": "32564748-683e-42f1-83cc-9c888c59d09d",
+  "createdOn": "2026-11-02T07:40:54.491699Z",
+  "assets": {
+    "not_found_handling": "404-page",
+    "headers": {
+      "version": 2,
+      "rules": {
+        "/*": {
+          "set": {
+            "referrer-policy": "strict-origin-when-cross-origin",
+            "x-content-type-options": "nosniff"
+          },
+          "unset": []
+        }
+      }
+    },
+    "raw_headers": "/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n",
+    "redirects": {
+      "version": 1,
+      "rules": {},
+      "staticRules": {
+        "/index.html": {
+          "to": "/zh/",
+          "status": 301,
+          "lineNumber": 1
+        },
+        "/kids/worksheets/": {
+          "to": "/worksheets/",
+          "status": 301,
+          "lineNumber": 4
+        },
+        "/legacy/index.html": {
+          "to": "/zh/",
+          "status": 301,
+          "lineNumber": 2
+        },
+        "/legacy/story.html": {
+          "to": "/story",
+          "status": 301,
+          "lineNumber": 3
+        }
+      }
+    },
+    "raw_redirects": "/index.html /zh/ 301\n/legacy/index.html /zh/ 301\n/legacy/story.html /story 301\n/kids/worksheets/ /worksheets/ 301\n",
+    "serve_directly": true,
+    "raw_run_worker_first": false,
+    "base_path": "/"
+  },
+  "bindingTypes": []
+}
