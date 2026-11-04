@@ -604,7 +604,7 @@
 ### [记录 49] - 拼音表部署、正式验收与 Git 同步（2026-11-05）
 
 - **Owner授权与范围**：Owner确认验收并明确授权部署、commit/push及任务/进度更新。releaseId为 pinyin-chart-release-2026-11-05，仅更新拼音页首屏与SEO、24组音节、发音尾部及打印版，不涉及账号/同步/付费/故事或学习记录。
-- **冻结与Git**：203/203测试通过。生产候选3188文件，404条规范URL入sitemap、SEO errors=[]。候选按每文件SHA256的稳定manifest签名为 d6029e14f8c4da27a5bfb9941c1795a5901358f1fe06ac2bb92c121f95d82721，与再建候选一致。源码提交4ef23d7已快进推送 origin/main。最终回执与交接随后单独提交。
+- **冻结与Git**：203/203测试通过。生产候选3188文件，404条规范URL入sitemap、SEO errors=[]。候选按每文件SHA256的稳定manifest签名为 d6029e14f8c4da27a5bfb9941c1795a5901358f1fe06ac2bb92c121f95d82721，与再建候选一致。源码提交4ef23d7已快进推送 origin/main；发布回执与交接以 f482c3a 单独提交并推送至 origin/main。
 - **上线事实**：Wrangler4.156.0部署版本fd7c4714-615c-4791-a8e0-4cf9fdf70c93、deploymentId 8380b4f3-c60c-4c42-a72a-0bb32076c409，UTC 2026-11-04T16:16:23.823209Z / 新加坡时间2026-11-05 00:16:23.823209 +08，100%流量。部署命令记录没有更新静态资源上传；正式页显示候选的新title、H1、引导、24组与打印入口，生产所有390项HTTP哈希检查通过，故未以CLI日志取代对实际页面的验收。此前真实活动版本ae7f0dd3-a9a9-44ae-a77a-332922dac2a9保留为回滚目标。
 - **生产浏览器/HTTP**：Chrome156正式域名已复验339字页、保存刷新、21字母拼音导航、B锚点、筛选焦点、闪卡、Blog、Tools和390px三个页面无溢出/axe违规，pageErrors=[]。另验标题/description、在线发音及打印全410音节/1323声调形式，即使当前有筛选。A4和Letter各5页，360/540/581/1390宽度无溢出。正式生产390项HTTP检查包含339字页及资源，零错误。
 - **证据**：汇总及版本号见[deployment.json](releases/pinyin-chart-release-2026-11-05/deployment.json)、[生产浏览器核验](releases/pinyin-chart-release-2026-11-05/production-browser-verification.json)、[生产HTTP核验](releases/pinyin-chart-release-2026-11-05/production-http-verification.json)及[manifest](releases/pinyin-chart-release-2026-11-05/manifest.json)。本机等价服务的候选验收与上个源码3186文件逐文件manifest保存在忽略的.cache发布目录。
