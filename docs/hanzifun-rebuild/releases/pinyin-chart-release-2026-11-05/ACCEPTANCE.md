@@ -19,3 +19,9 @@ The Owner approved the Pinyin Chart copy and grouping, removal of the page's Sto
 ## Deployment and production verification
 
 Deployment authorization is recorded in the manifest. The current Cloudflare version is reserved as the rollback target. The actual new version, deployment ID, production HTTP checks, and online browser result will be recorded in deployment.json after deployment.
+
+## Production result
+
+Release commit 4ef23d7 was pushed to origin/main. Wrangler 4.156.0 deployed version fd7c4714-615c-4791-a8e0-4cf9fdf70c93 at 100% traffic. The exact production deployment ID, time, and checks are recorded in deployment.json.
+
+After deployment, 390 production HTTP checks passed with zero errors, including all 339 character pages, and the Chrome browser journey passed with no page errors. The live Pinyin Chart has the updated title, H1, definition and product introduction. Its 24 groups, print button, full chart print after filtering and pronunciation playback were verified. A4 and Letter previews each contain five pages.

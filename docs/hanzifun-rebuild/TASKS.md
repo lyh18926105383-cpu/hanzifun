@@ -1,12 +1,20 @@
 # HanziFun 施工任务总表
 
+## 最新发布：拼音表更新（2026-11-05；Deployed / PASS）
+
+- [x] Owner确认并授权上线、commit/push与TASKS/PROGRESS更新。
+- [x] 源码提交 `4ef23d7` 快进推送至 `origin/main`。
+- [x] Cloudflare Worker版本 `fd7c4714-615c-4791-a8e0-4cf9fdf70c93` 于2026-11-05 00:16 +08:00上线，100%流量。生产 HTTP **390项全通过**，覆盖339字页。Chrome正式域名旅程PASS，零页面错误。
+- [x] 203/203测试、3188文件生产构建、SEO errors=[]、Sitemap404。拼音页 title/H1/intro、24组/410音节、在线发音和A4/Letter打印全部复验。详见[发布回执](releases/pinyin-chart-release-2026-11-05/deployment.json)。
+- [ ] Owner按完整24小时/7天窗口人工观察并后续复盘GSC趋势。没有创建自动监控。
+
 ## HF-08 拼音表文案优化（2026-11-04）
 
 - [x] `/pinyin-chart/` 的 title 和 H1 聚焦 `What Is Pinyin in Chinese?`，首段定义汉语拼音，并以「水」的读音与第三声引入查表。
 - [x] 按浏览器五条批注更新三个小标题及筛选标签，将 410 个音节按拼写开头分成 24 组，每组包含标题和说明。
 - [x] 删除拼音页底部的 Stop audio 与说明，补充首屏在线发音和一键打印介绍，提供含 410 个音节和已收录声调的打印版。
 - [x] 203/203 测试、3188 文件生产构建、SEO 及 Wrangler 390 项本地 HTTP 验收通过。A4/Letter 打印均为 5 页。
-- [ ] 候选已冻结。依照 Owner 的发布授权，接下来推送代码、部署并复核生产域名。详见[本次发布清单](releases/pinyin-chart-release-2026-11-05/manifest.json)。
+- [x] 拼音表更新已按HF-17/18完成部署与正式域名复核。发布包见[manifest](releases/pinyin-chart-release-2026-11-05/manifest.json)及[部署回执](releases/pinyin-chart-release-2026-11-05/deployment.json)。
 
 ## 当前发布：339单字页（2026-11-03；已部署 Completed / PASS）
 

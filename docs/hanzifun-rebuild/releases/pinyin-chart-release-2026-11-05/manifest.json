@@ -1,6 +1,6 @@
 {
   "releaseId": "pinyin-chart-release-2026-11-05",
-  "status": "preflight-passed",
+  "status": "deployed-and-verified",
   "dateSingapore": "2026-11-05",
   "authorization": "Owner: 部署上线，近期更新git commit & push，并更新 TASKS.md 和 PROGRESS.md。",
   "branch": "main",
@@ -30,7 +30,7 @@
     "publicFiles": 3188,
     "artifactManifestSha256": "d6029e14f8c4da27a5bfb9941c1795a5901358f1fe06ac2bb92c121f95d82721",
     "indexableRouteCount": 404,
-    "sitemapStatus": 404,
+    "sitemapUrls": 404,
     "pinyinChartInSitemap": true
   },
   "previous": {
@@ -41,7 +41,11 @@
     "actualProductionH1": "Mandarin Pinyin Chart"
   },
   "verification": {
-    "tests": {"passed": 203, "failed": 0, "skipped": 0},
+    "tests": {
+      "passed": 203,
+      "failed": 0,
+      "skipped": 0
+    },
     "seoErrors": [],
     "localWranglerHttpChecks": 390,
     "localWranglerCharacterPages": 339,
@@ -50,10 +54,32 @@
     "chromeBrowser": "156.0.8078.81",
     "localBrowser": "PASS",
     "pageErrors": [],
-    "responsiveWidths": [360, 540, 581, 1390],
+    "responsiveWidths": [
+      360,
+      540,
+      581,
+      1390
+    ],
     "printA4Pages": 5,
     "printLetterPages": 5,
-    "sensitiveFeaturesChanged": false
+    "sensitiveFeaturesChanged": false,
+    "productionHttpChecks": 390,
+    "productionHttpErrors": [],
+    "productionBrowser": "PASS",
+    "productionPinyinChart": "PASS"
   },
-  "artifactLocation": ".cache/releases/pinyin-chart-release-2026-11-05/"
+  "artifactLocation": ".cache/releases/pinyin-chart-release-2026-11-05/",
+  "sourceCommit": "4ef23d75b84b5c17f11eee8ff53e8ea668db5d67",
+  "sourceBranch": "main",
+  "gitDestination": "origin/main",
+  "sourcePush": "PASS; fast-forward 4379282..4ef23d7",
+  "productionVersion": {
+    "id": "fd7c4714-615c-4791-a8e0-4cf9fdf70c93",
+    "deploymentId": "8380b4f3-c60c-4c42-a72a-0bb32076c409",
+    "createdOn": "2026-11-04T16:16:23.823209Z",
+    "deployedAtSingapore": "2026-11-05T00:16:23.823209+08:00",
+    "trafficPercentage": 100,
+    "workersDevUrl": "https://hanzifun.lyh18926105383.workers.dev"
+  },
+  "deploymentBehavior": "Wrangler reused previously available static assets and deployed the candidate manifest. The formal page matched the frozen candidate and all 390 production HTTP checks passed."
 }

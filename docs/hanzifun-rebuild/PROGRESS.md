@@ -601,10 +601,11 @@
 - **本地验收**：`npm test` 203/203 通过，生产模式构建 3188 个公开文件，SEO 检查无报错。Chrome 检查打印入口、发音调用、当前筛选与完整打印输出互不影响，以及 360、540、581 和 1390 像素宽度。A4 与 Letter 测试预览均为 5 页，已检查每页排版。
 - **接手入口**：本地预览位于 `http://127.0.0.1:8765/pinyin-chart/`，打印入口在 `#pinyin-chart-results`。待人工验收与发布。正式发布后复核首屏文案、打印入口和音频播放。
 
-### [记录 49] - 拼音表发布预检（2026-11-05）
+### [记录 49] - 拼音表部署、正式验收与 Git 同步（2026-11-05）
 
-- **授权与范围**：Owner已确认拼音表验收，并明确授权部署、近期更新commit/push及TASKS/PROGRESS。本次ID为 pinyin-chart-release-2026-11-05，仅更新拼音页首屏与SEO、24组音节、发音尾部及打印版，不触碰账号/同步/付费/故事或学习记录。
-- **预检结果**：203/203测试PASS。生产候选3188文件、索引404 URL、sitemap404、SEO errors=[]。从当前提交重建上一包3186文件并保留回滚候选。上线前正式页仍显示旧版标题与H1。候选相较上个生产源仅变更pinyin-chart/index.html及本页专属CSS和模块。
-- **浏览器/HTTP**：Cloudflare Wrangler本地等价服务390项HTTP检查PASS，覆盖339字页。Chrome 156通过已发布旅程与新版打印/筛选验收，页面无报错，360/540/581/1390宽度无溢出；A4/Letter均为5页。
-- **预检证据**：范围与哈希在[发布manifest](releases/pinyin-chart-release-2026-11-05/manifest.json)、[预检报告](releases/pinyin-chart-release-2026-11-05/ACCEPTANCE.md)和[本地390项HTTP结果](releases/pinyin-chart-release-2026-11-05/local-http-verification.json)。上一生产版本为ae7f0dd3-a9a9-44ae-a77a-332922dac2a9，100%流量，保留为回滚目标。
-- **接手点**：候选代码已准备推送。随后对同一3188文件候选部署，生产HTTP/浏览器检查成功后补写真实Cloudflare版本与回执，最后推送任务/进度最终状态。
+- **Owner授权与范围**：Owner确认验收并明确授权部署、commit/push及任务/进度更新。releaseId为 pinyin-chart-release-2026-11-05，仅更新拼音页首屏与SEO、24组音节、发音尾部及打印版，不涉及账号/同步/付费/故事或学习记录。
+- **冻结与Git**：203/203测试通过。生产候选3188文件，404条规范URL入sitemap、SEO errors=[]。候选按每文件SHA256的稳定manifest签名为 d6029e14f8c4da27a5bfb9941c1795a5901358f1fe06ac2bb92c121f95d82721，与再建候选一致。源码提交4ef23d7已快进推送 origin/main。最终回执与交接随后单独提交。
+- **上线事实**：Wrangler4.156.0部署版本fd7c4714-615c-4791-a8e0-4cf9fdf70c93、deploymentId 8380b4f3-c60c-4c42-a72a-0bb32076c409，UTC 2026-11-04T16:16:23.823209Z / 新加坡时间2026-11-05 00:16:23.823209 +08，100%流量。部署命令记录没有更新静态资源上传；正式页显示候选的新title、H1、引导、24组与打印入口，生产所有390项HTTP哈希检查通过，故未以CLI日志取代对实际页面的验收。此前真实活动版本ae7f0dd3-a9a9-44ae-a77a-332922dac2a9保留为回滚目标。
+- **生产浏览器/HTTP**：Chrome156正式域名已复验339字页、保存刷新、21字母拼音导航、B锚点、筛选焦点、闪卡、Blog、Tools和390px三个页面无溢出/axe违规，pageErrors=[]。另验标题/description、在线发音及打印全410音节/1323声调形式，即使当前有筛选。A4和Letter各5页，360/540/581/1390宽度无溢出。正式生产390项HTTP检查包含339字页及资源，零错误。
+- **证据**：汇总及版本号见[deployment.json](releases/pinyin-chart-release-2026-11-05/deployment.json)、[生产浏览器核验](releases/pinyin-chart-release-2026-11-05/production-browser-verification.json)、[生产HTTP核验](releases/pinyin-chart-release-2026-11-05/production-http-verification.json)及[manifest](releases/pinyin-chart-release-2026-11-05/manifest.json)。本机等价服务的候选验收与上个源码3186文件逐文件manifest保存在忽略的.cache发布目录。
+- **后续交接**：发布与Git push完成。Owner在完整24小时/7天窗口之后人工观察并复盘后续GSC趋势。没有创建自动监控。

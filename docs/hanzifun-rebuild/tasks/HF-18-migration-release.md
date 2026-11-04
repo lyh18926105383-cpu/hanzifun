@@ -1,6 +1,6 @@
 # HF-18｜最终迁移、授权发布与运行交接
 
-> 2026-11-05最新：`pinyin-chart-release-2026-11-05` 部署流程中，Owner已授权执行。范围、实际生产前版本及冻结候选见[本次发布包](../releases/pinyin-chart-release-2026-11-05/manifest.json)。
+> 2026-11-05最新：`pinyin-chart-release-2026-11-05` 已部署 / PASS。版本`fd7c4714-615c-4791-a8e0-4cf9fdf70c93`，2026-11-05 00:16 +08:00，100%流量。正式域名390项HTTP及Chrome旅程通过，旧版本`ae7f0dd3-a9a9-44ae-a77a-332922dac2a9`保留为回滚目标。见[部署回执](../releases/pinyin-chart-release-2026-11-05/deployment.json)。
 
 > 2026-11-03：`character-flow-release-2026-11-03` 已部署Completed / PASS；201/201、390项正式域名检查及线上浏览器通过，版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，2026-11-03T20:26:59.152147+08:00，100%流量。见[实际回执](../releases/character-flow-release-2026-11-03/deployment.json)。下方旧候选状态为历史。
 
