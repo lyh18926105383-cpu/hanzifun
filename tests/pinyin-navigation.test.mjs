@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {parse} from 'parse5';
-import {characters, readingFor} from '../site/dictionary-data.mjs';
+import {characters, readingFor, syllables} from '../site/dictionary-data.mjs';
 import {dictionaryPages} from '../site/pages/dictionary.mjs';
 import {pinyinChartPage} from '../site/pages/pinyin-chart.mjs';
 import {attr, nodes} from '../scripts/validate-seo-quality.mjs';
@@ -62,4 +62,38 @@ test('pinyin chart exposes one keyboard-reachable filter anchor', () => {
   assert.equal(jumps.length, 1);
   assert.match(jumps[0].childNodes?.map(n => n.value || '').join('') || '', /Jump to syllable filters/);
   assert.ok(tree.some(n => n.tagName === 'form' && attr(n, 'id') === 'pinyin-syllable-filters' && attr(n, 'data-pinyin-filter') !== undefined));
+});
+
+test('pinyin chart groups every syllable under its written onset and preserves initial filters', () => {
+  const tree = nodes(parse(pinyinChartPage().content));
+  const groups = tree.filter(node => attr(node, 'data-pinyin-group') !== undefined);
+  const headings = groups.map(group => group.childNodes.find(node => node.tagName === 'h3').childNodes[0].value);
+  assert.deepEqual(headings.slice(0, 3), ['Vowel-starting syllables', 'b syllables', 'p syllables']);
+  assert.deepEqual(headings.slice(-2), ['y syllables', 'w syllables']);
+  const rows = groups.flatMap((group, index) => {
+    assert.ok(group.childNodes.some(node => node.tagName === 'p'));
+    return nodes(group).filter(node => attr(node, 'data-syllable') !== undefined).map(row => ({
+      spelling: attr(row, 'data-syllable'), initial: attr(row, 'data-initial'), heading: headings[index]
+    }));
+  });
+  assert.deepEqual(rows, syllables.map(({spelling, initial, orthographicOnset}) => ({
+    spelling, initial: initial || '_zero',
+    heading: initial || orthographicOnset ? `${initial || orthographicOnset} syllables` : 'Vowel-starting syllables'
+  })));
+});
+
+test('the print chart contains all syllables and their attested tones alongside working audio markup', () => {
+  const page = pinyinChartPage();
+  const tree = nodes(parse(page.content));
+  const printSheet = tree.find(node => attr(node, 'class') === 'pinyin-print-sheet');
+  assert.ok(printSheet);
+  const printNodes = nodes(printSheet);
+  const text = node => nodes(node).filter(child => child.nodeName === '#text').map(child => child.value).join('');
+  assert.equal(printNodes.filter(node => attr(node, 'class') === 'pinyin-print-group').length, 24);
+  assert.deepEqual(printNodes.filter(node => node.tagName === 'dt').map(text), syllables.map(({spelling}) => spelling));
+  assert.deepEqual(printNodes.filter(node => node.tagName === 'dd').map(text), syllables.map(({tones}) => tones.map(tone => tone.spelling).join(' ')));
+  assert.ok(tree.some(node => node.tagName === 'button' && attr(node, 'data-print') === ''));
+  assert.match(page.pronunciationFooter, /data-pronunciation-status/);
+  assert.match(page.pronunciationFooter, /\/site-assets\/pronunciation\.mjs/);
+  assert.doesNotMatch(page.pronunciationFooter, /data-pronunciation-stop|Recorded syllables play directly/);
 });

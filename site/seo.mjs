@@ -38,7 +38,12 @@ const fixed={
  '/dictionary/radicals/':{title:'Chinese Radicals and Components: Browse Core Characters',h1:'Chinese Radicals and Visible Components',lead:'Browse Chinese characters by radical to find related written forms and their stroke counts in the 126-character core collection.'},
  '/dictionary/compare/':{title:'Similar Chinese Characters Compared: Shape, Pinyin & Use',h1:'Compare Similar Chinese Characters',lead:'Compare similar Chinese characters side by side using their shapes, pronunciations and contextual teaching examples.'},
  '/stroke-order/':{title:'Chinese Stroke Order: Step-by-Step Hanzi Writing Tool',h1:'Chinese Stroke Order',lead:'Follow Chinese stroke order step by step for 126 core characters using verified mainland writing sequences, playback controls and static stroke diagrams.'},
- '/pinyin-chart/':{title:'Mandarin Pinyin Chart: 410 Syllables, Initials, Finals & Tones',h1:'Mandarin Pinyin Chart',lead:'This Mandarin pinyin chart groups 410 syllables by initial and final and explains the four tones, neutral tone and spelling rules.'},
+ '/pinyin-chart/':{
+  title:'What Is Pinyin in Chinese?',
+  h1:'What Is Pinyin in Chinese?',
+  lead:'Pinyin, officially called Hanyu Pinyin, is the standard system for spelling the sounds of Mandarin Chinese with the Latin alphabet. Make HanziFun your go-to Chinese Pinyin tool to practise pronunciation online and print the complete Pinyin Chart in one click.',
+  description:'Learn what Hanyu Pinyin is, practise Mandarin pronunciation online, and print the complete 410-syllable Pinyin Chart in one click.'
+ },
  '/academic/':{title:'HSK Level 1 Lists: Compare HSK 2.0 and HSK 3.0',h1:'HSK Level 1: Choose Your Version',lead:'HSK level 1 has separate lists in HSK 2.0 and HSK 3.0: the libraries contain 150 and 300 vocabulary entries respectively.'},
  '/academic/hsk-2/':{title:'HSK 2.0 Level 1 Vocabulary: 150 Words & 174 Derived Characters',h1:'HSK 2.0 Level 1 Vocabulary and Characters',lead:'HSK 2.0 level 1 contains 150 vocabulary entries in the 2015 list, from which this library derives 174 unique characters.'},
  '/academic/hsk-3/':{title:'HSK 3.0 Level 1: 300 Words & 246 Recognition Characters',h1:'HSK 3.0 Level 1 Vocabulary and Recognition Characters',lead:'HSK 3.0 level 1 contains 300 vocabulary entries and 246 recognition characters in the 2025 examination syllabus; its 100 writing characters cover levels 1–2 together.'},
@@ -64,8 +69,9 @@ export function coreSeo(routePath) {
 // Called by each core template, before layout rendering. The answer is a real static paragraph.
 export function withCoreSeo(page) {
  const seo=coreSeo(page.path);if(!seo)return page;
- if(page.content.includes('data-seo-lead'))return {...page,title:seo.title,description:seo.lead};
- return {...page,title:seo.title,description:seo.lead,content:page.content.replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/i,`<h1>${e(seo.h1)}</h1><p class="lead" data-seo-lead>${e(seo.lead)}</p>`)};
+ const description=seo.description??seo.lead;
+ if(page.content.includes('data-seo-lead'))return {...page,title:seo.title,description};
+ return {...page,title:seo.title,description,content:page.content.replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/i,`<h1>${e(seo.h1)}</h1><p class="lead" data-seo-lead>${e(seo.lead)}</p>`)};
 }
 export function safeJsonLd(value) {
  return JSON.stringify(value).replace(/[<>&\u2028\u2029]/g,c=>'\\u'+c.charCodeAt(0).toString(16).padStart(4,'0'));

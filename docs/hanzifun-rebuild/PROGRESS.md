@@ -580,3 +580,31 @@
 - **精确下一步/边界**：本次三项请求已完成。Owner可直接看正式域名/dictionary/休/和/dictionary/木/。24小时/7天观察及后续GSC复盘由Owner按完整窗口人工进行，尚未发生、不自动建监控；87缺字/HSK后续及Phase3不变。下次从本记录与本发布deployment.json接续，不将旧主目录98f79fa、旧本地未部署状态或旧发布回滚目标当当前。main项目跟踪改动在最终提交后应干净，个人未跟踪文件保留。
 
 - **记录45补充：Git推送后版本复核**：最终文档8d05046推送后，部署历史又出现活动版本`2fd5479c-837f-44d7-80d2-b1121bf94cf6`、createdOn=`2026-11-03T12:32:32.661713Z`、100%流量；以正式域名重新执行390项比较，全部339字页与旧资源仍匹配同一冻结候选、errors=[]。已追加post-push-active-version/online-verification及deployment.versionNote；仅记录实际观测，不臆定后续版本的GitSHA或触发原因，也不把未来同产物版本号变化当内容回滚。
+
+<a id="pinyin-chart-copy-2026-11-04"></a>
+
+### [记录 46] - HF-08 拼音表文案优化（2026-11-04）
+
+- **已完成**：`site/seo.mjs` 更新 `/pinyin-chart/` 的 title、H1 和定义，定义由现有模板同步到 meta description。`site/pages/pinyin-chart.mjs` 增加「水（shuǐ）」的读音和第三声示例，引导读者查找音节并试听可用发音。
+- **本地验收**：`npm test` 201/201 通过。生产模式构建生成 3186 个公开文件，`npm run validate:seo` 无报错。静态 HTML 核对唯一 H1、紧跟标题的定义、meta description、示例字页链接、410 个音节、自指 canonical、index 指令及 sitemap 收录。
+- **遗留与接手入口**：本次改动在本地工作树，待发布。当前环境未能读取正式页面。发布时以 `site/seo.mjs` 的 `/pinyin-chart/` 条目和 `site/pages/pinyin-chart.mjs` 为起点，部署后复核正式 URL 的 title、H1 和正文首段。
+
+### [记录 47] - 拼音表人工批注修订（2026-11-04）
+
+- **改动**：`site/pages/pinyin-chart.mjs` 更新三个小标题及查询字段标签，410 个音节按无书写声母、声母及 y/w 拼写归入 24 组。各组有标题、短说明和例子。`public/site-assets/pinyin-chart.v1.css` 提供分组样式，并在筛选时隐藏空组。`public/site-assets/pinyin-chart.v1.mjs` 在浏览器恢复表单默认值后重新应用筛选。分组回归覆盖于 `tests/pinyin-navigation.test.mjs`。
+- **本地验收**：`npm test` 202/202 通过。生产模式构建 3188 个公开文件，SEO 检查无报错。Chrome 验证所有分组、查拼写、声母和韵母筛选、无结果、重置、键盘、音节深链接、无 JavaScript 浏览，以及 360、390、768、1390 像素宽度无横向溢出。
+- **接手入口**：本地预览位于 `http://127.0.0.1:8765/pinyin-chart/#pinyin-chart-results`。待人工验收和发布。后续分组样式及筛选回归从本记录的三个页面相关文件和拼音测试切入。
+
+### [记录 48] - 拼音表打印与首屏介绍（2026-11-04）
+
+- **改动**：`site/pages/pinyin-chart.mjs` 增加 Print Pinyin Chart 入口，复用站点的浏览器打印功能，以同一数据生成独立打印布局。覆盖 24 组、410 个音节及 1323 个已收录声调形式，当前筛选状态不影响打印范围。拼音页使用精简音频尾部，只保留发音脚本与反馈区域。`public/site-assets/pinyin-chart.v1.css` 负责打印排版。`site/seo.mjs` 在 H1 下补充在线发音和一键打印，使用独立的简短搜索摘要。`tests/pinyin-navigation.test.mjs` 覆盖打印数据完整性及音频尾部。
+- **本地验收**：`npm test` 203/203 通过，生产模式构建 3188 个公开文件，SEO 检查无报错。Chrome 检查打印入口、发音调用、当前筛选与完整打印输出互不影响，以及 360、540、581 和 1390 像素宽度。A4 与 Letter 测试预览均为 5 页，已检查每页排版。
+- **接手入口**：本地预览位于 `http://127.0.0.1:8765/pinyin-chart/`，打印入口在 `#pinyin-chart-results`。待人工验收与发布。正式发布后复核首屏文案、打印入口和音频播放。
+
+### [记录 49] - 拼音表发布预检（2026-11-05）
+
+- **授权与范围**：Owner已确认拼音表验收，并明确授权部署、近期更新commit/push及TASKS/PROGRESS。本次ID为 pinyin-chart-release-2026-11-05，仅更新拼音页首屏与SEO、24组音节、发音尾部及打印版，不触碰账号/同步/付费/故事或学习记录。
+- **预检结果**：203/203测试PASS。生产候选3188文件、索引404 URL、sitemap404、SEO errors=[]。从当前提交重建上一包3186文件并保留回滚候选。上线前正式页仍显示旧版标题与H1。候选相较上个生产源仅变更pinyin-chart/index.html及本页专属CSS和模块。
+- **浏览器/HTTP**：Cloudflare Wrangler本地等价服务390项HTTP检查PASS，覆盖339字页。Chrome 156通过已发布旅程与新版打印/筛选验收，页面无报错，360/540/581/1390宽度无溢出；A4/Letter均为5页。
+- **预检证据**：范围与哈希在[发布manifest](releases/pinyin-chart-release-2026-11-05/manifest.json)、[预检报告](releases/pinyin-chart-release-2026-11-05/ACCEPTANCE.md)和[本地390项HTTP结果](releases/pinyin-chart-release-2026-11-05/local-http-verification.json)。上一生产版本为ae7f0dd3-a9a9-44ae-a77a-332922dac2a9，100%流量，保留为回滚目标。
+- **接手点**：候选代码已准备推送。随后对同一3188文件候选部署，生产HTTP/浏览器检查成功后补写真实Cloudflare版本与回执，最后推送任务/进度最终状态。

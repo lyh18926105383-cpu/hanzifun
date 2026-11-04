@@ -1,0 +1,59 @@
+{
+  "releaseId": "pinyin-chart-release-2026-11-05",
+  "status": "preflight-passed",
+  "dateSingapore": "2026-11-05",
+  "authorization": "Owner: 部署上线，近期更新git commit & push，并更新 TASKS.md 和 PROGRESS.md。",
+  "branch": "main",
+  "gitBaseCommit": "43792825bdd942b646647bfa9e60ac38aa5929bf",
+  "productionOrigin": "https://hanzifun.online",
+  "previousVersion": {
+    "id": "ae7f0dd3-a9a9-44ae-a77a-332922dac2a9",
+    "number": 85,
+    "createdOn": "2026-11-03T12:36:42.442294Z",
+    "trafficPercentage": 100
+  },
+  "scope": [
+    "Update the Pinyin Chart title, H1, introduction and search description.",
+    "Group 410 syllables by written onset and provide a printable chart.",
+    "Remove the Pinyin Chart page's Stop audio control and general audio note."
+  ],
+  "changedFiles": [
+    "site/pages/pinyin-chart.mjs",
+    "site/seo.mjs",
+    "public/site-assets/pinyin-chart.v1.css",
+    "public/site-assets/pinyin-chart.v1.mjs",
+    "tests/pinyin-navigation.test.mjs",
+    "docs/hanzifun-rebuild/TASKS.md",
+    "docs/hanzifun-rebuild/PROGRESS.md"
+  ],
+  "candidate": {
+    "publicFiles": 3188,
+    "artifactManifestSha256": "d6029e14f8c4da27a5bfb9941c1795a5901358f1fe06ac2bb92c121f95d82721",
+    "indexableRouteCount": 404,
+    "sitemapStatus": 404,
+    "pinyinChartInSitemap": true
+  },
+  "previous": {
+    "sourceCommit": "43792825bdd942b646647bfa9e60ac38aa5929bf",
+    "publicFiles": 3186,
+    "artifactManifestSha256": "f9117024e866430194dbd98db787251c5febf83df60cec29313ad766255e3237",
+    "actualProductionTitle": "Mandarin Pinyin Chart: 410 Syllables, Initials, Finals & Tones · HanziFun",
+    "actualProductionH1": "Mandarin Pinyin Chart"
+  },
+  "verification": {
+    "tests": {"passed": 203, "failed": 0, "skipped": 0},
+    "seoErrors": [],
+    "localWranglerHttpChecks": 390,
+    "localWranglerCharacterPages": 339,
+    "localWranglerHttpErrors": [],
+    "productionBeforeTitleAndH1Captured": true,
+    "chromeBrowser": "156.0.8078.81",
+    "localBrowser": "PASS",
+    "pageErrors": [],
+    "responsiveWidths": [360, 540, 581, 1390],
+    "printA4Pages": 5,
+    "printLetterPages": 5,
+    "sensitiveFeaturesChanged": false
+  },
+  "artifactLocation": ".cache/releases/pinyin-chart-release-2026-11-05/"
+}

@@ -1,6 +1,8 @@
 # HF-18｜最终迁移、授权发布与运行交接
 
-> 2026-11-03最新：`character-flow-release-2026-11-03` 已部署Completed / PASS；201/201、390项正式域名检查及线上浏览器通过，版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，2026-11-03T20:26:59.152147+08:00，100%流量。见[实际回执](../releases/character-flow-release-2026-11-03/deployment.json)。下方旧候选状态为历史。
+> 2026-11-05最新：`pinyin-chart-release-2026-11-05` 部署流程中，Owner已授权执行。范围、实际生产前版本及冻结候选见[本次发布包](../releases/pinyin-chart-release-2026-11-05/manifest.json)。
+
+> 2026-11-03：`character-flow-release-2026-11-03` 已部署Completed / PASS；201/201、390项正式域名检查及线上浏览器通过，版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，2026-11-03T20:26:59.152147+08:00，100%流量。见[实际回执](../releases/character-flow-release-2026-11-03/deployment.json)。下方旧候选状态为历史。
 
 > 2026-11-03：Owner已明确授权`character-flow-release-2026-11-03`上线、commit/push与任务/进度更新；本轮执行中，实际版本/发布时间及生产复检将在发布回执完成后更新。
 
