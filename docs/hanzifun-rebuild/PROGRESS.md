@@ -1,5 +1,7 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 最新增量：2026-11-11 IndexNow验证文件已部署 / PASS；源提交fe5e4cf、目标origin/main，版本41f33bbd-23a0-4977-a1f6-76e7730ccec3，100%流量。203/203测试、生产390项及Key额外HTTP200/字节一致检查通过。见记录50。
+
 > 最新生产：2026-11-03单字页重构已完成部署 / PASS；main已合并并保留Blog/Tools/SEO。201/201测试，390项正式域名检查及线上浏览器通过。首次部署版本28fb0e8e-78ab-4b1b-baa8-956a3b550213，2026-11-03T20:26:59.152147+08:00；Git回执推送后观测活动版本2fd5479c-837f-44d7-80d2-b1121bf94cf6，已追加390项同产物复验。见记录45与releases/character-flow-release-2026-11-03/deployment.json。较早的当前状态描述为历史阶段。
 
 > 当前生产：2026-11-02两批SEO已统一部署 / PASS；源码a6c2688推送main，194/194测试、48项正式域名及浏览器复检通过。实际版本65fd9f41-12b0-4132-9726-8a07afa1484f，2026-11-02T15:34:17.980557+08:00，100%流量。见记录40与releases/seo-navigation-release-2026-11-02/deployment.json。下方待部署描述为历史阶段。
@@ -609,3 +611,12 @@
 - **生产浏览器/HTTP**：Chrome156正式域名已复验339字页、保存刷新、21字母拼音导航、B锚点、筛选焦点、闪卡、Blog、Tools和390px三个页面无溢出/axe违规，pageErrors=[]。另验标题/description、在线发音及打印全410音节/1323声调形式，即使当前有筛选。A4和Letter各5页，360/540/581/1390宽度无溢出。正式生产390项HTTP检查包含339字页及资源，零错误。
 - **证据**：汇总及版本号见[deployment.json](releases/pinyin-chart-release-2026-11-05/deployment.json)、[生产浏览器核验](releases/pinyin-chart-release-2026-11-05/production-browser-verification.json)、[生产HTTP核验](releases/pinyin-chart-release-2026-11-05/production-http-verification.json)及[manifest](releases/pinyin-chart-release-2026-11-05/manifest.json)。本机等价服务的候选验收与上个源码3186文件逐文件manifest保存在忽略的.cache发布目录。
 - **后续交接**：发布与Git push完成。Owner在完整24小时/7天窗口之后人工观察并复盘后续GSC趋势。没有创建自动监控。
+
+
+### [记录 50] - IndexNow 验证文件部署与 Git 同步（By Codex，2026-11-11）
+
+- **授权/目录**：Owner已把Key放在Desktop主仓库根目录，并明确要求部署、Git push与访问检查。在本聊天90db隔离工作区从远端main `320d3da` 建分支 `codex/indexnow-key-2026-11-11`，读取并复制Owner文件；Desktop主目录原有个人未跟踪文件保留。远端main基线实际核对一致，没有使用较旧本地主目录main覆盖线上。
+- **文件列表**：新增根 `a3939f8231f24aca8f82ad9e03dcf1a7.txt`（32字节，与Owner文件一致）；修改 `scripts/build-site.js` 显式构建白名单及 `data/editorial/review-decisions.json` 对应构建源码签名并追加维护说明。原教学、听审、人工视觉批准保留。新增 `releases/indexnow-key-2026-11-11/` 下 manifest、ACCEPTANCE、ROLLBACK、前后产物指纹、差异、测试/SEO、本地/生产HTTP、Key访问检查、实际部署回执；更新TASKS/PROGRESS及HF17/18最新记录。
+- **验收**：203/203测试PASS（隔离工作区缺少的两个锁定源归档从主仓库缓存复制后重跑通过）；生产3189文件，SEO errors=[]、Sitemap404。与上一3188产物比较只增加Key，既有content-manifest.json只改变review-decisions.json源hash，其余页面/资源逐字节相同。隔离candidate→previous→candidate哈希恢复PASS；Wrangler部署重建与冻结候选无漂移。本地Workers390项、发布前390项、发布后390项全部PASS，Key额外HTTP200、text/plain、32字节与源码一致。没有UI变化，不冒称重做浏览器交互验收。
+- **上线/Git事实**：源提交 `fe5e4cf`；Cloudflare当前版本 `41f33bbd-23a0-4977-a1f6-76e7730ccec3`、deploymentId `aef8e5d0-38ea-410c-a219-5ce753228e88`，2026-11-11T21:29:34.511824+08:00，100%流量。真实上一活动版本 `868b1621-2470-4150-a8aa-2b4a4c925a86` 保留为回滚目标；备份产物 `/private/tmp/hanzifun-indexnow-20261111/{previous,candidate}`，文件manifest已入发布目录。最终回执单独commit并推送origin/main，最终SHA以远端核验结果为准。
+- **遗留/下一切入点**：验证文件发布完成；本次未向IndexNow发送页面通知，也未新增自动提交流程。若Owner继续要求通知搜索引擎，从本发布deployment.json与根验证文件接入，只选择新增/更新/删除的页面。没有账号/云同步/Billing或故事制作变更；87缺字/HSK后续原范围不变。下一Agent先读本记录与TASKS，不再把旧生产版本当本次回滚目标。

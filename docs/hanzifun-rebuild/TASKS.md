@@ -1,5 +1,13 @@
 # HanziFun 施工任务总表
 
+## IndexNow 验证文件发布（2026-11-11；Deployed / PASS）
+
+- [x] Owner授权部署、Git push与正式地址检查；源提交 `fe5e4cf`，目标 `origin/main`，最终发布回执单独提交。
+- [x] 根目录Key文件加入构建白名单，更新对应构建源码签名；3189文件，仅新增Key，content-manifest只更新审核文件hash，其余页面/资源逐字节不变。
+- [x] 203/203测试、SEO errors=[]、Sitemap404，本地及发布前后各390项HTTP检查通过；Key额外返回200、text/plain、32字节与原文件完全一致。
+- [x] Cloudflare版本 `41f33bbd-23a0-4977-a1f6-76e7730ccec3`，2026-11-11 21:29:34 +08:00，100%流量；[发布回执](releases/indexnow-key-2026-11-11/deployment.json)。
+- 后续若接入IndexNow网址通知，应另按新增/更新/删除页面范围处理；本次只发布验证文件，未发送网址通知。
+
 ## 最新发布：拼音表更新（2026-11-05；Deployed / PASS）
 
 - [x] Owner确认并授权上线、commit/push与TASKS/PROGRESS更新。

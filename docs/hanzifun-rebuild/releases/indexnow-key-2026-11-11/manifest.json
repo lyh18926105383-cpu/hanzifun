@@ -1,0 +1,37 @@
+{
+  "releaseId": "indexnow-key-2026-11-11",
+  "scope": "Publish the owner-provided IndexNow verification file at the production host root; do not submit URLs.",
+  "sourceCommit": "fe5e4cfb3f40673488acfeef204936d23f2c169c",
+  "baseCommit": "320d3da90d4eccd443c6e9e52ca1e4f0e75143d3",
+  "productionOrigin": "https://hanzifun.online",
+  "previousVersionId": "868b1621-2470-4150-a8aa-2b4a4c925a86",
+  "artifactDiff": {
+    "previousFiles": 3188,
+    "candidateFiles": 3189,
+    "added": [
+      "a3939f8231f24aca8f82ad9e03dcf1a7.txt"
+    ],
+    "removed": [],
+    "changed": [
+      "content-manifest.json"
+    ],
+    "manifestChanges": [
+      "/inputs/2/sha256"
+    ],
+    "priorManifestSha256": "7ccc844257d40511471f164e7ea9d93477132c4069c326dbea7fa929790d8970",
+    "candidateManifestSha256": "95b6357add074230267a9cd4cf5169d8b31d0c82cee7077a15464c2cc96aef10",
+    "isolatedRollbackRehearsal": "PASS candidate → previous → candidate, hashes match"
+  },
+  "checks": {
+    "testsPassed": 203,
+    "testsFailed": 0,
+    "seoErrors": [],
+    "sitemapUrls": 404,
+    "localHttpChecks": 390,
+    "productionBeforeChecks": 390,
+    "localKeyStatus": 200,
+    "localKeyMatchesSource": true
+  },
+  "backupDirectory": "/private/tmp/hanzifun-indexnow-20261111",
+  "productionVerification": "PASS: 390 baseline checks + key HTTP 200 with exact bytes"
+}
