@@ -1,0 +1,166 @@
+[
+  {
+    "id": "5440528a-0135-4eef-b2e6-51f29168cf71",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/message": "character-flow-release-2026-11-03 source c8fa36f",
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "28fb0e8e-78ab-4b1b-baa8-956a3b550213",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-03T12:26:59.152147Z"
+  },
+  {
+    "id": "a7780e31-1f76-42c5-a85b-283a23690c8f",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "2fd5479c-837f-44d7-80d2-b1121bf94cf6",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-03T12:32:32.661713Z"
+  },
+  {
+    "id": "2acf127c-3a25-4bda-acd4-8bd4085622c5",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "ae7f0dd3-a9a9-44ae-a77a-332922dac2a9",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-03T12:36:43.100538Z"
+  },
+  {
+    "id": "7fef603a-64b1-43a0-a8b9-1d01b21abe7e",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "0d2ca761-aec8-400a-ae4d-cb2f97467096",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-04T16:16:18.607759Z"
+  },
+  {
+    "id": "8380b4f3-c60c-4c42-a72a-0bb32076c409",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/message": "pinyin-chart-release-2026-11-05 source 4ef23d7",
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "fd7c4714-615c-4791-a8e0-4cf9fdf70c93",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-04T16:16:23.823209Z"
+  },
+  {
+    "id": "28bbca06-5bb4-4f06-b5cd-78ef9e4c866f",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "91d21b26-cdf9-43f1-87b5-4d67eaa42e95",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-04T16:24:43.315998Z"
+  },
+  {
+    "id": "a5317519-565e-46f7-ae7d-b964a897d4c2",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "868b1621-2470-4150-a8aa-2b4a4c925a86",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-04T16:25:23.350793Z"
+  },
+  {
+    "id": "aef8e5d0-38ea-410c-a219-5ce753228e88",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/message": "indexnow-key-2026-11-11",
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "41f33bbd-23a0-4977-a1f6-76e7730ccec3",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-11T13:29:34.511824Z"
+  },
+  {
+    "id": "3627afd3-2c92-4165-827b-bc8841bea791",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "7dbd256d-f587-44c3-9e5b-b1d022621052",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-11T13:32:30.574955Z"
+  },
+  {
+    "id": "56c31cea-f78e-44c4-b845-a1c189c38270",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/message": "seo-copy-2026-11-11",
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "a50a93a9-829c-4ab1-bf71-0f16fac5f8bb",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-11T14:20:54.026151Z"
+  }
+]

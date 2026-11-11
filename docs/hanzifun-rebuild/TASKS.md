@@ -1,11 +1,13 @@
 # HanziFun 施工任务总表
 
-## HF-08 十页SEO文案更新（2026-11-11；本地 Completed / PASS）
+## HF-08 十页SEO文案更新（2026-11-11；Deployed / PASS）
 
 - [x] 按Owner原文更新10页Title/Description与8页H1；Kids/Worksheets原H1保留，10页Title不再自动追加品牌后缀，其他页面标题保持。
 - [x] 203/203测试、3189文件生产模式构建、SEO errors=[]、Sitemap404；Chrome桌面/手机20项检查通过，无溢出/页面错误。
 - [x] 逐文件对比仅10页HTML和content-manifest审核源hash变化；Key文件及其他页面/资源保持。
-- 本次尚未commit/push/部署。详见[文案验收](SEO-COPY-2026-11-11.md)；下次发布从本工作区候选继续HF-17/18。
+- [x] 源码 `44a2a95` 已推送 `origin/main`；Cloudflare版本 `a50a93a9-829c-4ab1-bf71-0f16fac5f8bb`，100%流量，正式HTTP390项与Chrome桌面/手机20项通过。
+- [x] 向IndexNow提交本次变化的10个网址，HTTP **202**（已收到，Key验证处理中）；没有宣称已收录。
+- [x] 今天的Key部署、文案更新、本地预览、生产发布、Git与IndexNow结果已汇总至PROGRESS记录52；最终回执单独commit/push。详见[发布回执](releases/seo-copy-2026-11-11/deployment.json)。
 
 ## IndexNow 验证文件发布（2026-11-11；Deployed / PASS）
 
@@ -13,7 +15,7 @@
 - [x] 根目录Key文件加入构建白名单，更新对应构建源码签名；3189文件，仅新增Key，content-manifest只更新审核文件hash，其余页面/资源逐字节不变。
 - [x] 203/203测试、SEO errors=[]、Sitemap404，本地及发布前后各390项HTTP检查通过；Key额外返回200、text/plain、32字节与原文件完全一致。
 - [x] Cloudflare版本 `41f33bbd-23a0-4977-a1f6-76e7730ccec3`，2026-11-11 21:29:34 +08:00，100%流量；[发布回执](releases/indexnow-key-2026-11-11/deployment.json)。
-- 后续若接入IndexNow网址通知，应另按新增/更新/删除页面范围处理；本次只发布验证文件，未发送网址通知。
+- Key发布阶段未发送网址通知；后续本日十页SEO发布已另向IndexNow提交10个变动网址，详见上方最新状态。
 
 ## 最新发布：拼音表更新（2026-11-05；Deployed / PASS）
 

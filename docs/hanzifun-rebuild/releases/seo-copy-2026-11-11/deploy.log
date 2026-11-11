@@ -1,0 +1,36 @@
+
+ ⛅️ wrangler 4.156.0 (update available 4.160.0)
+───────────────────────────────────────────────
+[custom build] Running: HF_SITE_ENV=production npm run build:site
+[custom build] 
+[custom build] > hanzifun@1.0.0 build:site
+[custom build] > node scripts/build-site.js
+[custom build] 
+[custom build] 
+[custom build] Built 3189 public files in ../../../../../../private/tmp/hanzifun-seo-release-20261111/candidate/; mapped 77 prototype paths and generated 9 noindex preview pages.
+[custom build] 
+🌀 Building list of assets...
+✨ Read 3647 files from the assets directory /private/tmp/hanzifun-seo-release-20261111/candidate
+🌀 Starting asset upload...
+🌀 Found 11 new or modified static assets to upload. Proceeding with upload...
++ /worksheets/index.html
++ /content-manifest.json
++ /stroke-order/index.html
++ /tools/index.html
++ /academic/index.html
++ /flashcards/index.html
++ /index.html
++ /pinyin-chart/index.html
++ /kids/index.html
++ /scenarios/index.html
++ /dictionary/index.html
+Uploaded 3 of 11 assets
+Uploaded 7 of 11 assets
+Uploaded 11 of 11 assets
+✨ Success! Uploaded 11 files (3176 already uploaded) (3.35 sec)
+
+Total Upload: 0.34 KiB / gzip: 0.24 KiB
+Uploaded hanzifun (9.14 sec)
+Deployed hanzifun triggers (1.31 sec)
+  https://hanzifun.lyh18926105383.workers.dev
+Current Version ID: a50a93a9-829c-4ab1-bf71-0f16fac5f8bb

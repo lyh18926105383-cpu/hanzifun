@@ -1,0 +1,41 @@
+{
+  "releaseId": "seo-copy-2026-11-11",
+  "baseCommit": "e68b51f16f4643944b81c797ac2167dbeec2cb6f",
+  "sourceCommit": "44a2a959337665b999273f13a402de9c5bfc7e3b",
+  "productionOrigin": "https://hanzifun.online",
+  "previousVersionId": "7dbd256d-f587-44c3-9e5b-b1d022621052",
+  "scope": "Ten owner-supplied Title/Description updates and eight H1 updates; exact titles on selected routes; IndexNow notification for only the ten changed public URLs.",
+  "changedRoutes": [
+    "/",
+    "/stroke-order/",
+    "/dictionary/",
+    "/scenarios/",
+    "/pinyin-chart/",
+    "/flashcards/",
+    "/academic/",
+    "/tools/",
+    "/kids/",
+    "/worksheets/"
+  ],
+  "checks": {
+    "existingTestsPassed": 203,
+    "candidateMatchesPreviouslyTestedBuild": true,
+    "localBrowserChecks": 20,
+    "seoErrors": [],
+    "publicFiles": 3189,
+    "sitemapUrls": 404,
+    "productionBeforeChecks": 390,
+    "rollbackRehearsal": "PASS",
+    "productionHttpChecks": 390,
+    "productionBrowserChecks": 20,
+    "productionKeyHttpStatus": 200
+  },
+  "artifactsDirectory": "/private/tmp/hanzifun-seo-release-20261111",
+  "status": "deployed-and-verified",
+  "previousVersionNote": "Actual production version is newer than the earlier manual deployment receipt; 390 pre-release HTTP checks matched the same previous artifact. Use the observed version as rollback target.",
+  "indexNow": {
+    "urlCount": 10,
+    "httpStatus": 202,
+    "status": "received-key-validation-pending"
+  }
+}

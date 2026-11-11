@@ -1,0 +1,23 @@
+{
+  "previousFiles": 3189,
+  "candidateFiles": 3189,
+  "added": [],
+  "removed": [],
+  "changed": [
+    "academic/index.html",
+    "content-manifest.json",
+    "dictionary/index.html",
+    "flashcards/index.html",
+    "index.html",
+    "kids/index.html",
+    "pinyin-chart/index.html",
+    "scenarios/index.html",
+    "stroke-order/index.html",
+    "tools/index.html",
+    "worksheets/index.html"
+  ],
+  "candidateManifestSha256": "bd9b40005af596a5cce5701df976f667980919c8c23a36a3c6bb4f594b3471af",
+  "previousManifestSha256": "95b6357add074230267a9cd4cf5169d8b31d0c82cee7077a15464c2cc96aef10",
+  "matchesPreviouslyTestedCandidate": true,
+  "isolatedRollbackRehearsal": "PASS: candidate → previous → candidate, exact file hashes"
+}

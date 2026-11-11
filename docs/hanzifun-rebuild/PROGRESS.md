@@ -1,6 +1,6 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
-> 最新本地：2026-11-11十页SEO文案已按Owner原文更新，203/203测试及桌面/手机20项验收PASS；尚未commit/push/部署。见记录51及SEO-COPY-2026-11-11.md。生产仍为下方IndexNow验证文件版本。
+> 最新发布：2026-11-11十页SEO文案已部署 / PASS，源码44a2a95推送origin/main；版本a50a93a9-829c-4ab1-bf71-0f16fac5f8bb，100%流量，生产HTTP390及浏览器20项PASS。IndexNow收到10个变化网址，HTTP202（Key验证处理中）；今天完整操作见记录52。
 
 > 最新增量：2026-11-11 IndexNow验证文件已部署 / PASS；源提交fe5e4cf、目标origin/main，版本41f33bbd-23a0-4977-a1f6-76e7730ccec3，100%流量。203/203测试、生产390项及Key额外HTTP200/字节一致检查通过。见记录50。
 
@@ -21,11 +21,11 @@
 > 最新增量：2026-11-01 Blog与另一聊天Tools已合并上线，源码720374a已推送main，正式域名44项复检PASS；版本992a6d92-cfd7-403f-a705-61ada1119951，2026-11-01 01:01:37 +08:00，100%流量。见记录33及blog-tools-release-2026-11-01发布回执。下方旧待部署状态保留历史。
 
 ## 当前所处阶段
-- **阶段/范围**：公开学习站维持本地轻量架构；339单字页重构已上线，Blog/Tools/SEO导航成果保留，无账号/同步/Billing改动。
-- **当前执行任务**：`character-flow-release-2026-11-03` Completed / PASS；Owner本次部署、近期Git同步、TASKS/PROGRESS三项请求已完成。
-- **本次发布/最新审计**：首次手动发布2026-11-03T20:26:59.152147+08:00、版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`；Git回执推送后活动版本`2fd5479c-837f-44d7-80d2-b1121bf94cf6`（100%）已重新按冻结候选390项复验一致；201/201测试、3186文件、SEO errors=[]/Sitemap404，390项正式域名检查及线上浏览器通过。
-- **开发/Git目录**：Desktop主目录`main`，已合并origin/main6c953f5，部署源c8fa36f已推送；最终文档/回执提交单独同步，以origin/main最终HEAD为准。个人未跟踪临时文件保留，不进入提交。
-- **后续**：24小时/7天及GSC趋势由Owner按完整窗口人工观察；87缺字/HSK下一等级与Phase3原范围不变。精确交接见记录45及本次deployment.json。
+- **阶段/范围**：公开学习站维持本地轻量架构；339单字页、Blog/Tools/SEO保留，本次十页文案及IndexNow验证文件已上线，无账号/同步/Billing/故事媒体改动。
+- **当前执行任务**：`seo-copy-2026-11-11` Deployed / PASS；Owner部署、Git push、IndexNow变化网址提交、今天的TASKS/PROGRESS更新已完成，最终Git回执以远端SHA核验为准。
+- **最新验证**：生产HTTP390项与Chrome1440/390px共20项PASS；3189文件与此前203/203测试候选一致，SEO errors=[]、Sitemap404。IndexNow HTTP202接收10条URL，Key验证处理中，不等于已收录。
+- **开发/Git目录**：90db隔离工作区，分支codex/indexnow-key-2026-11-11，向origin/main快进推送；未改写Desktop主目录个人未跟踪文件。本地预览http://127.0.0.1:8766/继续可用。
+- **后续**：Owner可在Bing Webmaster Tools查看IndexNow后续处理及索引；GSC趋势和87缺字/HSK后续保持原任务范围，不创建自动监控。精确交接见记录52及本次deployment.json。
 
 ---
 
@@ -630,3 +630,14 @@
 - **文件列表**：修改site/seo.mjs、site/layouts/base.html、scripts/build-site.js、scripts/validate-seo-quality.mjs、data/editorial/review-decisions.json；新增SEO-COPY-2026-11-11.md与evidence/seo-copy-2026-11-11/{verification,browser}.json；更新TASKS、PROGRESS及HF08任务本地状态。更新构建脚本签名并说明Owner文案授权，历史教学/听审/视觉批准不变。
 - **验证**：203/203测试、3189文件生产模式构建、413英文页、SEO errors=[]、Sitemap404。与上一发布候选逐文件比对只变10页HTML及content-manifest审核源hash；IndexNow根验证文件、339字页及其他资源逐字节保持。Chrome1440/390px共20项Title/Description/H1/无溢出检查PASS、pageErrors=[]；JSON-LD与页面元数据一致。
 - **状态/精确下一步**：本次文案修改在90db工作区，基线e68b51f，尚未commit/push/部署；生产仍为记录50版本。需要发布时先从SEO-COPY-2026-11-11.md和evidence目录接续HF17/18，核对最新远端与生产状态后冻结/部署，不把本地通过当已上线。临时构建/private/tmp/hanzifun-seo-copy-20261111。没有发IndexNow页面通知、没有故事制作或Phase3改动。
+
+
+### [记录 52] - 今日操作收口：十页SEO上线、Git push与IndexNow提交（By Codex，2026-11-11）
+
+- **今天完整操作**：①读取Owner的IndexNow Key并接入根路径/构建白名单，部署和推送后验证HTTP200（记录50）；②按Owner原文更新10页Title/Description和8页H1，203/203测试与桌面/手机20项验收通过（记录51）；③启动包含最新代码的本地Wrangler预览http://127.0.0.1:8766/；④按本次明确授权部署、推送、提交10个变动网址并更新全部交接。
+- **本次源代码/Git**：源提交 `44a2a95`（包含5个实现/签名文件及文案验收/任务记录），已快进推送origin/main（e68b51f→44a2a95）。最终部署/IndexNow回执及TASKS/PROGRESS另提交并推送，最后以远端核验SHA为准。Desktop主目录个人未跟踪文件未触碰。
+- **上线事实**：Cloudflare版本 `a50a93a9-829c-4ab1-bf71-0f16fac5f8bb`、deploymentId `56c31cea-f78e-44c4-b845-a1c189c38270`，`2026-11-11T22:20:54.026151+08:00`，100%流量。实际上一活动版本 `7dbd256d-f587-44c3-9e5b-b1d022621052` 保留为回滚目标；它比记录50手动版本更新，但发布前390项HTTP与上一静态包一致，未把旧版本号误当实际回滚目标。
+- **冻结/验收**：新3189文件与此前203/203测试、SEO和本地浏览器20项通过的候选逐字节一致，未重复跑无新变更的测试。只改变10页HTML及content-manifest审核源hash；Key、339字页、其他资源保持。隔离candidate→previous→candidate恢复PASS，部署重建无漂移；生产发布前/后各390项HTTP、Chrome1440/390px共20项Title/Description/H1/canonical/index/无溢出检查PASS、pageErrors=[]。Key正式地址HTTP200、32字节与源文件一致。
+- **IndexNow实际结果**：向https://api.indexnow.org/indexnow发一次POST，host=hanzifun.online，仅提交 `/`、`/stroke-order/`、`/dictionary/`、`/scenarios/`、`/pinyin-chart/`、`/flashcards/`、`/academic/`、`/tools/`、`/kids/`、`/worksheets/`。响应HTTP202，已收到、Key验证处理中。未提交content-manifest/Key文件/其他旧页面，没有宣称搜索引擎已收录或排名变化；请求记录Key值脱敏。
+- **本轮文件列表**：新增releases/seo-copy-2026-11-11/的manifest、前后产物指纹及差异、ROLLBACK、ACCEPTANCE、部署日志/版本回执、发布前后HTTP、生产浏览器、Key校验和IndexNow提交记录；更新SEO-COPY-2026-11-11.md、evidence/seo-copy-2026-11-11/verification.json、TASKS/PROGRESS、HF08/17/18最新状态。此前实现范围见记录51，无新增产品逻辑。
+- **遗留/精确切入点**：本次要求已处理。Bing的Key验证及后续索引是外部处理状态，Owner可在Webmaster Tools查看；未设自动监控或定时任务。后续先读本记录和releases/seo-copy-2026-11-11/deployment.json，不再按记录51的旧“本地未发布”状态操作；备份/private/tmp/hanzifun-seo-release-20261111/{previous,candidate}与文件manifest已保存。没有账号/云同步/Billing或故事制作变更。

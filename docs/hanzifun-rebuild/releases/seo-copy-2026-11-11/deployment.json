@@ -1,0 +1,54 @@
+{
+  "releaseId": "seo-copy-2026-11-11",
+  "status": "deployed-and-verified",
+  "sourceCommit": "44a2a959337665b999273f13a402de9c5bfc7e3b",
+  "sourcePush": "PASS: origin/main e68b51f → 44a2a95",
+  "gitDestination": "origin/main",
+  "productionOrigin": "https://hanzifun.online",
+  "versionId": "a50a93a9-829c-4ab1-bf71-0f16fac5f8bb",
+  "deploymentId": "56c31cea-f78e-44c4-b845-a1c189c38270",
+  "createdOn": "2026-11-11T14:20:54.026151Z",
+  "deployedAtSingapore": "2026-11-11T22:20:54.026151+08:00",
+  "trafficPercentage": 100,
+  "previousVersionId": "7dbd256d-f587-44c3-9e5b-b1d022621052",
+  "candidateArtifactManifestSha256": "bd9b40005af596a5cce5701df976f667980919c8c23a36a3c6bb4f594b3471af",
+  "checks": {
+    "existingTestsPassed": 203,
+    "freshBuildMatchesPreviouslyTestedCandidate": true,
+    "publicFiles": 3189,
+    "sitemapUrls": 404,
+    "seoErrors": [],
+    "productionBeforeHttpChecks": 390,
+    "productionAfterHttpChecks": 390,
+    "productionHttpErrors": [],
+    "productionBrowserChecks": 20,
+    "viewportWidths": [
+      1440,
+      390
+    ],
+    "pageErrors": [],
+    "keyStatus": 200,
+    "keyMatchesSource": true
+  },
+  "indexNow": {
+    "submittedAt": "2026-11-11T14:23:47.989Z",
+    "httpStatus": 202,
+    "status": "received-key-validation-pending",
+    "urlCount": 10,
+    "urlList": [
+      "https://hanzifun.online/",
+      "https://hanzifun.online/stroke-order/",
+      "https://hanzifun.online/dictionary/",
+      "https://hanzifun.online/scenarios/",
+      "https://hanzifun.online/pinyin-chart/",
+      "https://hanzifun.online/flashcards/",
+      "https://hanzifun.online/academic/",
+      "https://hanzifun.online/tools/",
+      "https://hanzifun.online/kids/",
+      "https://hanzifun.online/worksheets/"
+    ],
+    "note": "202 means URLs received, IndexNow key validation pending. No indexing/ranking result claimed."
+  },
+  "gitHandoff": "Final release receipt and TASKS/PROGRESS are committed and pushed separately from source. Final remote SHA is verified after push.",
+  "followup": "Owner can check Bing Webmaster Tools for IndexNow processing and later indexing. No scheduled monitoring created."
+}
