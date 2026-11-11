@@ -1,0 +1,147 @@
+{
+  "checks": [
+    {
+      "route": "/",
+      "width": 1440,
+      "title": "Learn Chinese Characters Visually: Dictionary & Strokes",
+      "h1": "Learn Chinese Characters Visually",
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1440,
+      "title": "Chinese Stroke Order: Free Step-by-Step Hanzi Writing Tool",
+      "h1": "Chinese Stroke Order Lookup",
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/",
+      "width": 1440,
+      "title": "Chinese Character Dictionary: Hanzi Meanings & Pinyin",
+      "h1": "Chinese Character Dictionary",
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/",
+      "width": 1440,
+      "title": "Chinese Conversation Practice: Travel & Restaurant Talk",
+      "h1": "Chinese Conversation Practice",
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1440,
+      "title": "What Is Pinyin? Full Mandarin Chart With Audio",
+      "h1": "What Is Pinyin?",
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/",
+      "width": 1440,
+      "title": "Chinese Character Flashcards: Free Online Practice",
+      "h1": "Chinese Character Flashcards",
+      "overflow": false
+    },
+    {
+      "route": "/academic/",
+      "width": 1440,
+      "title": "HSK 1 Vocabulary List: Compare HSK 2.0 and HSK 3.0",
+      "h1": "HSK 1 Vocabulary List: Choose Your Version",
+      "overflow": false
+    },
+    {
+      "route": "/tools/",
+      "width": 1440,
+      "title": "Chinese Name Generator & Character Culture Tools",
+      "h1": "Chinese Name Generator & Culture Tools",
+      "overflow": false
+    },
+    {
+      "route": "/kids/",
+      "width": 1440,
+      "title": "Chinese Characters for family: Fun Visual Learning",
+      "h1": "Small stories. Big discoveries.",
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/",
+      "width": 1440,
+      "title": "Printable Chinese Character Cards",
+      "h1": "Printable Chinese Character Cards",
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "title": "Learn Chinese Characters Visually: Dictionary & Strokes",
+      "h1": "Learn Chinese Characters Visually",
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 390,
+      "title": "Chinese Stroke Order: Free Step-by-Step Hanzi Writing Tool",
+      "h1": "Chinese Stroke Order Lookup",
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/",
+      "width": 390,
+      "title": "Chinese Character Dictionary: Hanzi Meanings & Pinyin",
+      "h1": "Chinese Character Dictionary",
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/",
+      "width": 390,
+      "title": "Chinese Conversation Practice: Travel & Restaurant Talk",
+      "h1": "Chinese Conversation Practice",
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 390,
+      "title": "What Is Pinyin? Full Mandarin Chart With Audio",
+      "h1": "What Is Pinyin?",
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/",
+      "width": 390,
+      "title": "Chinese Character Flashcards: Free Online Practice",
+      "h1": "Chinese Character Flashcards",
+      "overflow": false
+    },
+    {
+      "route": "/academic/",
+      "width": 390,
+      "title": "HSK 1 Vocabulary List: Compare HSK 2.0 and HSK 3.0",
+      "h1": "HSK 1 Vocabulary List: Choose Your Version",
+      "overflow": false
+    },
+    {
+      "route": "/tools/",
+      "width": 390,
+      "title": "Chinese Name Generator & Character Culture Tools",
+      "h1": "Chinese Name Generator & Culture Tools",
+      "overflow": false
+    },
+    {
+      "route": "/kids/",
+      "width": 390,
+      "title": "Chinese Characters for family: Fun Visual Learning",
+      "h1": "Small stories. Big discoveries.",
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/",
+      "width": 390,
+      "title": "Printable Chinese Character Cards",
+      "h1": "Printable Chinese Character Cards",
+      "overflow": false
+    }
+  ],
+  "pageErrors": [],
+  "status": "PASS",
+  "browser": "156.0.8078.81"
+}

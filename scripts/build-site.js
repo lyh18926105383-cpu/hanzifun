@@ -112,7 +112,7 @@ function htmlForPage(layout, page, route, header, footer) {
     const canonical=page.canonical ? '<link rel="canonical" href="'+escapeHtml(page.canonical)+'">' : '';
     let html = layout
         .replaceAll('{{lang}}', escapeHtml(page.lang || 'en'))
-        .replaceAll('{{title}}', escapeHtml(page.title))
+        .replaceAll('{{title}}', escapeHtml(page.documentTitle ?? page.title + ' · HanziFun'))
         .replaceAll('{{description}}', escapeHtml(page.description || page.title))
         .replaceAll('{{robots}}', robots+canonical)
         .replaceAll('{{seo}}', page.structuredData || '')

@@ -4962,7 +4962,7 @@
     "reviewer": "Project owner (user), implementation authorized; Codex validation",
     "date": "2026-11-02",
     "authorization": "Owner request in this chat, 2026-11-02: refactor all 339 published Character Pages to the approved reference, update tests and review-decisions.json signatures. Also includes the Owner’s five browser comments: Information after sentences, stroke icon after Listen, 1–3 conversational definitions removal of two marked paragraphs, and the subsequent request to match the Hero glyph to stroke-order calligraphy. Includes the subsequent four browser comments to show the full Play Stroke Order label and remove the anatomy note, Stop audio button and audio explanation from character pages. Authorizes implementation/content revision hashes, not a new audio listening or historical-content approval.",
-    "contentSha256": "34013073a244d3aa48eb0a257294d59e95c4572461dc139a5276e8ece3d8fd21",
+    "contentSha256": "802fdbcb87b9e647422235933772b4b591b8ee9d6d93bc0f610915ed68a040ff",
     "evidence": "docs/hanzifun-rebuild/CHARACTER-FLOW-VERIFICATION-2026-11-02.md",
     "payload": {
       "batchId": "character-flow-2026-11-02",
@@ -5009,7 +5009,7 @@
         },
         {
           "file": "scripts/build-site.js",
-          "sha256": "5082c1bd5c9a1e851d2f7aa604ef1ad8199c6160a5021a02a2c494dc38c5c69a"
+          "sha256": "27d84bf296929243916e58c9feb5638c4120b137a54531a72eb63064ce14af1d"
         }
       ]
     },
@@ -5022,8 +5022,8 @@
     },
     "maintenance": {
       "date": "2026-11-11",
-      "scope": "Owner authorized deployment and Git push of the root IndexNow key file. Only the build allowlist gains that static text file; no character-page presentation, teaching content, or audio approval changes. Rendered pages and existing assets must match the prior production artifact byte for byte; content-manifest.json may only update this review file source hash.",
-      "evidence": "docs/hanzifun-rebuild/releases/indexnow-key-2026-11-11/ACCEPTANCE.md"
+      "scope": "Owner requested exact Title, Description and eight H1 changes for ten landing pages. The build title renderer supports exact document titles on those routes and preserves the existing brand suffix elsewhere. Character-page presentation, teaching and audio approvals remain unchanged.",
+      "evidence": "docs/hanzifun-rebuild/SEO-COPY-2026-11-11.md"
     }
   }
 }

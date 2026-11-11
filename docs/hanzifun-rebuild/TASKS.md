@@ -1,5 +1,12 @@
 # HanziFun 施工任务总表
 
+## HF-08 十页SEO文案更新（2026-11-11；本地 Completed / PASS）
+
+- [x] 按Owner原文更新10页Title/Description与8页H1；Kids/Worksheets原H1保留，10页Title不再自动追加品牌后缀，其他页面标题保持。
+- [x] 203/203测试、3189文件生产模式构建、SEO errors=[]、Sitemap404；Chrome桌面/手机20项检查通过，无溢出/页面错误。
+- [x] 逐文件对比仅10页HTML和content-manifest审核源hash变化；Key文件及其他页面/资源保持。
+- 本次尚未commit/push/部署。详见[文案验收](SEO-COPY-2026-11-11.md)；下次发布从本工作区候选继续HF-17/18。
+
 ## IndexNow 验证文件发布（2026-11-11；Deployed / PASS）
 
 - [x] Owner授权部署、Git push与正式地址检查；源提交 `fe5e4cf`，目标 `origin/main`，最终发布回执单独提交。

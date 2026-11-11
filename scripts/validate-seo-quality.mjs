@@ -3,7 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gzipSync} from 'node:zlib';
 import {parse} from 'parse5';
-import {coreSeo,effectivePolicy,canonicalUrl,privateRoute,assertEditorialReady} from '../site/seo.mjs';
+import {coreSeo,landingPageSeo,effectivePolicy,canonicalUrl,privateRoute,assertEditorialReady} from '../site/seo.mjs';
 import {resolveRoutePolicy,releaseConfig} from '../site/routes.mjs';
 import {assertPublicationReady as dictionaryReady} from '../site/dictionary-data.mjs';
 import {assertPublicationReady as hskReady} from '../site/hsk-data.mjs';
@@ -80,13 +80,15 @@ export function validatePage(html,route,{origin,environment='production',titles=
  const inHead=nodes(head),titleNodes=inHead.filter(n=>n.tagName==='title');equal(titleNodes.length,1,'Exactly one title');const title=text(titleNodes[0]);requireValue(title.length>10,'Informative title required');
  requireValue(!titles.has(title)||titles.get(title)===route.path,'Duplicate title: '+title);titles.set(title,route.path);
  const descriptions=inHead.filter(n=>n.tagName==='meta'&&attr(n,'name')==='description');equal(descriptions.length,1,'Exactly one description');requireValue(attr(descriptions[0],'content')?.trim(),'Non-empty description');
+ const landing=landingPageSeo[route.path];
+ if(landing){equal(title,landing.title,'Landing page exact title');equal(attr(descriptions[0],'content'),landing.description,'Landing page exact description');}
  const expected=effectivePolicy({...route,...resolveRoutePolicy(route.path)},environment);dictionaryReady({...route,...resolveRoutePolicy(route.path)});assertEditorialReady({...route,...resolveRoutePolicy(route.path)});hskReady({...route,...resolveRoutePolicy(route.path)});
  equal(route.robots,expected.robots,'Manifest/effective policy robots');equal(route.indexing,expected.indexing,'Manifest/effective indexing');
  const robots=inHead.filter(n=>n.tagName==='meta'&&attr(n,'name')?.toLowerCase()==='robots');equal(robots.length,1,'Exactly one robots meta');equal(attr(robots[0],'content'),expected.robots,'Robots agrees with effective release policy');
  const canonical=canonicalUrl(route.path,origin),links=inHead.filter(n=>n.tagName==='link'&&attr(n,'rel')==='canonical');equal(links.length,1,'Exactly one canonical');equal(attr(links[0],'href'),canonical,'Self canonical normalized');
  const seo=coreSeo(route.path);
  if(seo){
-  equal(title,seo.title+' · HanziFun','Core keyword-led title');equal(text(h1[0]),seo.h1,'Core topic H1');
+  equal(title,landing?seo.title:seo.title+' · HanziFun','Core keyword-led title');equal(text(h1[0]),seo.h1,'Core topic H1');
   const siblings=h1[0].parentNode.childNodes,after=siblings.slice(siblings.indexOf(h1[0])+1).find(n=>n.tagName);
   requireValue(after?.tagName==='p'&&attr(after,'data-seo-lead')!==undefined,'Answer paragraph must immediately follow H1');
   requireValue(nodes(main[0]).find(n=>n.tagName==='p')===after,'First main paragraph must be the answer, not a banner or label');

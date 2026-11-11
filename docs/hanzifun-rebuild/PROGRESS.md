@@ -1,5 +1,7 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 最新本地：2026-11-11十页SEO文案已按Owner原文更新，203/203测试及桌面/手机20项验收PASS；尚未commit/push/部署。见记录51及SEO-COPY-2026-11-11.md。生产仍为下方IndexNow验证文件版本。
+
 > 最新增量：2026-11-11 IndexNow验证文件已部署 / PASS；源提交fe5e4cf、目标origin/main，版本41f33bbd-23a0-4977-a1f6-76e7730ccec3，100%流量。203/203测试、生产390项及Key额外HTTP200/字节一致检查通过。见记录50。
 
 > 最新生产：2026-11-03单字页重构已完成部署 / PASS；main已合并并保留Blog/Tools/SEO。201/201测试，390项正式域名检查及线上浏览器通过。首次部署版本28fb0e8e-78ab-4b1b-baa8-956a3b550213，2026-11-03T20:26:59.152147+08:00；Git回执推送后观测活动版本2fd5479c-837f-44d7-80d2-b1121bf94cf6，已追加390项同产物复验。见记录45与releases/character-flow-release-2026-11-03/deployment.json。较早的当前状态描述为历史阶段。
@@ -620,3 +622,11 @@
 - **验收**：203/203测试PASS（隔离工作区缺少的两个锁定源归档从主仓库缓存复制后重跑通过）；生产3189文件，SEO errors=[]、Sitemap404。与上一3188产物比较只增加Key，既有content-manifest.json只改变review-decisions.json源hash，其余页面/资源逐字节相同。隔离candidate→previous→candidate哈希恢复PASS；Wrangler部署重建与冻结候选无漂移。本地Workers390项、发布前390项、发布后390项全部PASS，Key额外HTTP200、text/plain、32字节与源码一致。没有UI变化，不冒称重做浏览器交互验收。
 - **上线/Git事实**：源提交 `fe5e4cf`；Cloudflare当前版本 `41f33bbd-23a0-4977-a1f6-76e7730ccec3`、deploymentId `aef8e5d0-38ea-410c-a219-5ce753228e88`，2026-11-11T21:29:34.511824+08:00，100%流量。真实上一活动版本 `868b1621-2470-4150-a8aa-2b4a4c925a86` 保留为回滚目标；备份产物 `/private/tmp/hanzifun-indexnow-20261111/{previous,candidate}`，文件manifest已入发布目录。最终回执单独commit并推送origin/main，最终SHA以远端核验结果为准。
 - **遗留/下一切入点**：验证文件发布完成；本次未向IndexNow发送页面通知，也未新增自动提交流程。若Owner继续要求通知搜索引擎，从本发布deployment.json与根验证文件接入，只选择新增/更新/删除的页面。没有账号/云同步/Billing或故事制作变更；87缺字/HSK后续原范围不变。下一Agent先读本记录与TASKS，不再把旧生产版本当本次回滚目标。
+
+
+### [记录 51] - HF-08 十页Title/Description与八页H1更新（By Codex，2026-11-11）
+
+- **范围**：按Owner逐页原文更新首页、Stroke Order、Dictionary、Scenarios、Pinyin Chart、Flashcards、Academic、Tools、Kids、Worksheets的10组Title/Description及前8页H1。Kids原H1 Small stories. Big discoveries.、Worksheets原H1 Printable Chinese Character Cards保留。仅这10页取消自动追加的品牌后缀，保留正文介绍和其他页面标题。
+- **文件列表**：修改site/seo.mjs、site/layouts/base.html、scripts/build-site.js、scripts/validate-seo-quality.mjs、data/editorial/review-decisions.json；新增SEO-COPY-2026-11-11.md与evidence/seo-copy-2026-11-11/{verification,browser}.json；更新TASKS、PROGRESS及HF08任务本地状态。更新构建脚本签名并说明Owner文案授权，历史教学/听审/视觉批准不变。
+- **验证**：203/203测试、3189文件生产模式构建、413英文页、SEO errors=[]、Sitemap404。与上一发布候选逐文件比对只变10页HTML及content-manifest审核源hash；IndexNow根验证文件、339字页及其他资源逐字节保持。Chrome1440/390px共20项Title/Description/H1/无溢出检查PASS、pageErrors=[]；JSON-LD与页面元数据一致。
+- **状态/精确下一步**：本次文案修改在90db工作区，基线e68b51f，尚未commit/push/部署；生产仍为记录50版本。需要发布时先从SEO-COPY-2026-11-11.md和evidence目录接续HF17/18，核对最新远端与生产状态后冻结/部署，不把本地通过当已上线。临时构建/private/tmp/hanzifun-seo-copy-20261111。没有发IndexNow页面通知、没有故事制作或Phase3改动。

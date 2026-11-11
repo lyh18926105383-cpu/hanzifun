@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "baseCommit": "e68b51f",
+  "build": "/private/tmp/hanzifun-seo-copy-20261111",
+  "publicFiles": 3189,
+  "changedFiles": [
+    "academic/index.html",
+    "content-manifest.json",
+    "dictionary/index.html",
+    "flashcards/index.html",
+    "index.html",
+    "kids/index.html",
+    "pinyin-chart/index.html",
+    "scenarios/index.html",
+    "stroke-order/index.html",
+    "tools/index.html",
+    "worksheets/index.html"
+  ],
+  "addedFiles": [],
+  "removedFiles": [],
+  "tests": {
+    "passed": 203,
+    "failed": 0
+  },
+  "seo": {
+    "pages": 413,
+    "sitemapUrls": 404,
+    "errors": []
+  },
+  "desktopMobileBrowserChecks": 20,
+  "widths": [
+    1440,
+    390
+  ],
+  "pageErrors": [],
+  "deployment": "Not deployed; local change only"
+}
