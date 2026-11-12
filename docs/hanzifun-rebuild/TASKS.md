@@ -1,5 +1,10 @@
 # HanziFun 施工任务总表
 
+## 英文 README 更新（2026-11-12；Owner 已审阅）
+
+- [x] 按 Owner 确认稿重写根 `README.md`，覆盖当前 339 字词典、笔顺、410 音节拼音表、闪卡、HSK、场景、故事入口、文化工具与本地开发说明。
+- [x] 核对 Markdown、链接对应路由、npm 命令及目录，交付范围仅 README 与 TASKS/PROGRESS 文档。GitHub 同步以本轮最终提交及远端核验为准，详见 PROGRESS 记录53。
+
 ## HF-08 十页SEO文案更新（2026-11-11；Deployed / PASS）
 
 - [x] 按Owner原文更新10页Title/Description与8页H1；Kids/Worksheets原H1保留，10页Title不再自动追加品牌后缀，其他页面标题保持。

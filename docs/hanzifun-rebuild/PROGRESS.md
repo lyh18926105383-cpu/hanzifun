@@ -1,5 +1,7 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 最新文档：2026-11-12 Owner 已确认英文 README 并授权更新 GitHub；当前网站功能、学习数据本机保存范围和开发说明已整理，见记录53。生产发布状态沿用下方记录52。
+
 > 最新发布：2026-11-11十页SEO文案已部署 / PASS，源码44a2a95推送origin/main；版本a50a93a9-829c-4ab1-bf71-0f16fac5f8bb，100%流量，生产HTTP390及浏览器20项PASS。IndexNow收到10个变化网址，HTTP202（Key验证处理中）；今天完整操作见记录52。
 
 > 最新增量：2026-11-11 IndexNow验证文件已部署 / PASS；源提交fe5e4cf、目标origin/main，版本41f33bbd-23a0-4977-a1f6-76e7730ccec3，100%流量。203/203测试、生产390项及Key额外HTTP200/字节一致检查通过。见记录50。
@@ -641,3 +643,11 @@
 - **IndexNow实际结果**：向https://api.indexnow.org/indexnow发一次POST，host=hanzifun.online，仅提交 `/`、`/stroke-order/`、`/dictionary/`、`/scenarios/`、`/pinyin-chart/`、`/flashcards/`、`/academic/`、`/tools/`、`/kids/`、`/worksheets/`。响应HTTP202，已收到、Key验证处理中。未提交content-manifest/Key文件/其他旧页面，没有宣称搜索引擎已收录或排名变化；请求记录Key值脱敏。
 - **本轮文件列表**：新增releases/seo-copy-2026-11-11/的manifest、前后产物指纹及差异、ROLLBACK、ACCEPTANCE、部署日志/版本回执、发布前后HTTP、生产浏览器、Key校验和IndexNow提交记录；更新SEO-COPY-2026-11-11.md、evidence/seo-copy-2026-11-11/verification.json、TASKS/PROGRESS、HF08/17/18最新状态。此前实现范围见记录51，无新增产品逻辑。
 - **遗留/精确切入点**：本次要求已处理。Bing的Key验证及后续索引是外部处理状态，Owner可在Webmaster Tools查看；未设自动监控或定时任务。后续先读本记录和releases/seo-copy-2026-11-11/deployment.json，不再按记录51的旧“本地未发布”状态操作；备份/private/tmp/hanzifun-seo-release-20261111/{previous,candidate}与文件manifest已保存。没有账号/云同步/Billing或故事制作变更。
+
+
+### [记录 53] - 英文 README 更新（By Codex，2026-11-12）
+
+- **授权/范围**：Owner 已审阅聊天中的完整英文稿，并要求“更新github的readme”。按确认稿替换根 README，面向当前网站的家庭、旅行商务、学生和教师受众，保留实际 HSK 覆盖范围、本机学习进度及第三方数据署名说明。
+- **文件列表**：`README.md`、`docs/hanzifun-rebuild/TASKS.md`、`docs/hanzifun-rebuild/PROGRESS.md`。基线为本工作区及 GitHub main 的 `ed2147e03b5ce8effd42d5bb776c620d6e8cc3f3`。仅文档更新，不涉及产品代码、故事课制作或手动部署。
+- **自检**：按 VERIFICATION 的文档检查口径核对 Markdown 围栏、入口链接与路由、目录和 package.json 命令，并执行 git diff --check。未运行产品测试或构建，不将历史 203/203 结果记为本轮重新运行。
+- **遗留/精确切入点**：GitHub 连接器可读取仓库，但创建提交树返回 403 Resource not accessible by integration；本轮改用现有 Git 连接提交并推送到 main，实际同步结果以最终提交 SHA 及远端正文比对为准。README 后续维护从根文件切入，功能数量变化应同步更新；产品剩余任务继续按 TASKS 原范围处理，生产状态仍查记录52与对应 deployment.json。
