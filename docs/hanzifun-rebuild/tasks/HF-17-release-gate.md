@@ -80,3 +80,8 @@
 可将下面整段直接作为后续开发对话的请求：
 
 > 请执行 HanziFun 的 HF-17「按发布范围综合验收与回滚准备」。工作目录是 /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun。先完整阅读 docs/hanzifun-rebuild/tasks/HF-17-release-gate.md、docs/hanzifun-rebuild/SPEC.md 的映射要求、docs/hanzifun-rebuild/TASKS.md、docs/hanzifun-rebuild/BASELINE.md，并核验当前 git status 与前置任务交付，不把本轮规划当作功能已经完成。目标是：只对明确选定的发布范围做完整签收，形成最终部署前可审阅证据。 只完成该工作包的范围、交付物和验收，不顺带启动其他包或生产部署，不覆盖用户未提交文件。原型和父树既有工作最初位于 /Users/graceshi/.codex/worktrees/ec5f/汉字饭hanzifun，若 HF-01 已保全则采用其记录的新基线；不能因为主目录原先没有规则就忽略故事流程。凡涉及故事新增/修改/生成/验收，先完整阅读 STORY_COURSE_PRODUCTION_WORKFLOW.md，再查目标故事板、lessons.js 与人工确认点。按任务文件验证并报告真实结果、文件链接、未完成项和后续依赖；缺少外部配置时完成不依赖它的本地工作，但不要伪造接通或验收证据。
+
+
+## 2026-11-13 统一发布
+
+本轮最近更新候选PASS：合并远端Pinyin/SEO/IndexNow后203/203、3609文件、25档/10次axe、Workers390+27、线上前390、冻结及回滚通过。 见PROGRESS记录62和 `releases/stroke-topic-release-2026-11-13/`。

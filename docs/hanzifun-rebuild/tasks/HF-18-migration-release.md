@@ -83,3 +83,8 @@
 可将下面整段直接作为后续开发对话的请求：
 
 > 请执行 HanziFun 的 HF-18「最终迁移、授权发布与运行交接」。工作目录是 /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun。先完整阅读 docs/hanzifun-rebuild/tasks/HF-18-migration-release.md、docs/hanzifun-rebuild/SPEC.md 的映射要求、docs/hanzifun-rebuild/TASKS.md、docs/hanzifun-rebuild/BASELINE.md，并核验当前 git status 与前置任务交付，不把本轮规划当作功能已经完成。目标是：将已经验收的候选安全切换到生产，并验证旧入口、资源与学习记录仍可继续使用。 只完成该工作包的范围、交付物和验收，在会话已有授权范围内执行本次生产发布，不顺带启动其他包，不覆盖用户未提交文件。原型和父树既有工作最初位于 /Users/graceshi/.codex/worktrees/ec5f/汉字饭hanzifun，若 HF-01 已保全则采用其记录的新基线；不能因为主目录原先没有规则就忽略故事流程。凡涉及故事新增/修改/生成/验收，先完整阅读 STORY_COURSE_PRODUCTION_WORKFLOW.md，再查目标故事板、lessons.js 与人工确认点。按任务文件验证并报告真实结果、文件链接、未完成项和后续依赖；缺少外部配置时完成不依赖它的本地工作，但不要伪造接通或验收证据。本任务核对现有发布授权，已有明确授权不重复索要；若当时仅授权准备发布，先完成可审阅包，再说明真正缺少的部署信息或授权。
+
+
+## 2026-11-13 统一发布
+
+Owner已授权本轮全部最近更新部署、git push及文档同步；候选冻结完成，正在执行实际发布，完成后补正式版本/生产验证。 见PROGRESS记录62和 `releases/stroke-topic-release-2026-11-13/`。

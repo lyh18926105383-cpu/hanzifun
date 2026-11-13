@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-13",
+  "status": "PASS",
+  "surface": "Wrangler 4.156.0 local Cloudflare Assets, no deployment",
+  "origin": "http://127.0.0.1:8795",
+  "checks": [
+    {
+      "path": "/stroke-order/",
+      "status": 200,
+      "bytes": "match frozen candidate"
+    },
+    {
+      "path": "/stroke-order?source=local-check",
+      "status": 301,
+      "location": "/stroke-order/?source=local-check"
+    },
+    {
+      "path": "/stroke-order/basic-strokes/",
+      "status": 200,
+      "bytes": "match frozen candidate"
+    },
+    {
+      "path": "/stroke-order/basic-strokes?source=local-check",
+      "status": 301,
+      "location": "/stroke-order/basic-strokes/?source=local-check"
+    },
+    {
+      "path": "/stroke-order/rules/",
+      "status": 200,
+      "bytes": "match frozen candidate"
+    },
+    {
+      "path": "/stroke-order/rules?source=local-check",
+      "status": 301,
+      "location": "/stroke-order/rules/?source=local-check"
+    },
+    {
+      "path": "/stroke-order/examples/",
+      "status": 200,
+      "bytes": "match frozen candidate"
+    },
+    {
+      "path": "/stroke-order/examples?source=local-check",
+      "status": 301,
+      "location": "/stroke-order/examples/?source=local-check"
+    },
+    {
+      "path": "/stroke-order/animation/",
+      "status": 200,
+      "bytes": "match frozen candidate"
+    },
+    {
+      "path": "/stroke-order/animation?source=local-check",
+      "status": 301,
+      "location": "/stroke-order/animation/?source=local-check"
+    },
+    {
+      "path": "/stroke-order/unknown/",
+      "status": 404
+    },
+    {
+      "path": "/stroke-order/永/",
+      "status": 404
+    },
+    {
+      "path": "/dictionary/永/",
+      "status": 404
+    },
+    {
+      "path": "/site-assets/stroke-topic/practice-a4.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "sha256": "c7f31ff803982b36b4b176db5b7d119c9ef42f121ccfe2bb1757d946b1176d68"
+    },
+    {
+      "path": "/site-assets/stroke-topic/practice-letter.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "sha256": "eeee7f93343df5e5a3e1c49c04fa420ce19d3db913392ea1f84bc215d6316237"
+    },
+    {
+      "path": "/site-assets/stroke-topic/gif/6211.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "sha256": "40b242b89a6d71be1f5feb34b1fa34ec97c5c000e5234d329c25291bd0c53407"
+    },
+    {
+      "path": "/site-assets/stroke-topic/gif/4f60.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "sha256": "3c2aad5e2c8fef2b89d79046c15358eb66bcf08ed19c0989dba66aa2c31a0725"
+    },
+    {
+      "path": "/site-assets/stroke-topic/gif/597d.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "sha256": "84d78160281e26ee689f24e8c666c9bd09cbed4c9b931820b6e88d609602bee6"
+    },
+    {
+      "path": "/site-assets/stroke-topic/gif/662f.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "sha256": "427d63f034550e17400032345f5f44ad03541f74f6f92e5408597e4186201a2e"
+    },
+    {
+      "path": "/site-assets/stroke-topic/gif/4e2d.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "sha256": "6df1e2d35a0f53a56e5424094384728db4c4f672ac1e413009810d7baec1e73b"
+    },
+    {
+      "path": "/site-assets/stroke-topic/gif/56fd.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "sha256": "2b196185efaf5d4b712441a6139749aec8a00393fcb091b6ffa0789e1a04628b"
+    },
+    {
+      "path": "/site-assets/stroke-topic/gif/5b66.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "sha256": "44d5b04b188a1901366c31e9c04e047873f37ddf1ee870e899beb8e9484b3773"
+    },
+    {
+      "path": "/site-assets/stroke-topic/gif/6c38.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "sha256": "ab6887b22297313c266b26be46a797eb6bcb2d983f7a246ddd1d6d3da93e5963"
+    },
+    {
+      "path": "/site-assets/stroke-topic/animated/6c38.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "sha256": "e40f6498316c4dd21083a8e3774e5c9c9373d429c1418cc11ba48edb48a258b1"
+    },
+    {
+      "path": "/site-assets/stroke-topic/single/horizontal.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "sha256": "ec3b539d9fecc67fead2b42e702517293568a9c4ea1b5d6d3e9b6c7cf256e0fc"
+    },
+    {
+      "path": "/site-assets/stroke-topic/static/6c38.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "sha256": "d162904f823655a1490dae8f13396edd9fcb5f1a96e5410f780cda894db3f255"
+    },
+    {
+      "path": "/site-assets/stroke-topic/licenses/cnchar-MIT.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "sha256": "d1bd3660226adebd251dcdd72972f7d254564247d6c5ec6b336532c09f496160"
+    }
+  ],
+  "count": 27,
+  "sourceCharacters": 340
+}

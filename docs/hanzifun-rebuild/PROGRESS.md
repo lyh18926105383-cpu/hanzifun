@@ -745,3 +745,12 @@
 - **实际验证**：201/201测试、生产3606文件/全站SEO静态PASS、417英文页/408 Sitemap；五页25档/10次全页axe零违规及额外720px五页通过，旧查询/播放器/描红/失败重试/下载/嵌入保持。逐个比较八字SVG轮廓/median与锁定源，核验每笔600ms、最后一笔未完成/完整字保持开始/保持第1990ms/下一周期重启的真实Web Animation时间轴；焦点暂停/恢复在新页面独立验证（逐帧seek后的人工WAAPI状态先清除，避免误测CSS）。新增360/390/664/768/999/1000/1097/1440八档，无溢出、七格均在说明右侧；减少动态/无JS完整静态通过。Wrangler本地27项HTTP通过。
 - **证据与保全**：新目录含static/browser/http/animation/test报告和390/1097/1440规则/首屏截图。对比本轮前3606产物，仅主HTML、主题CSS/JS三产物改变，其余3603相同，包括四子页HTML、字典/来源数据/PDF。rules子页仍为关键局部阶段图，本轮只改选中的主页面七规则区域。内置浏览器已刷新至 `/stroke-order/#rules` 并保留主标签。
 - **遗留与下一Agent入口**：两项请求全部完成，未commit/push/部署。先读本记录、TASKS和验收末尾；共享动画入口 `loopingStrokeSvg` / `heroStrokeDemo` / `ruleStrokeDemo` 在 `site/components/stroke-topic.mjs`，根页渲染 `site/pages/stroke-topic.mjs`，初始化 `src/client/stroke-topic.mjs`。预览 `http://127.0.0.1:8794/stroke-order/`，候选 `/private/tmp/hanzifun-stroke-topic-candidate`。当前动画行为以Owner最新循环要求为准；生产发布继续按HF17/18重新冻结当前源码，不复用旧hash。
+
+
+### [记录62] - 最近更新合并、候选冻结与HF-17预检（By Codex，2026-11-13）
+
+- Owner已明确授权最近更新全部部署、Git push并更新TASKS/PROGRESS，无需重复确认。当前候选 `stroke-topic-release-2026-11-13` 含11月12日共享面包屑、笔顺五页及最终批注。
+- 远端领先9次提交，包含已上线Pinyin/十页SEO/IndexNow/README。已合并origin/main8331838并保留全部功能；最新笔顺元数据覆盖旧stroke-order落地页配置，其他SEO保持。合并冲突涉及SEO/标题验证、构建依赖签名及文档，教学/音频审批深比较保持。远端记录46–53保持，本聊天原46–53改为54–61并同步本地引用，避免编号碰撞；此前历史记录25重号未在本轮改写。
+- 合并后203/203测试、3609文件、417英文页/408 Sitemap、SEO errors=[]；五页25档/10次axe及关键交互通过，Workers旧站390项+新主题27项通过。线上当前390项与从origin/main重建的3189文件基线匹配。无原产物缺失、媒体与数据保持；两次3609构建逐字节一致，隔离回滚恢复通过。回滚目标及候选hash见本次release目录。
+- `.gitattributes`新增PDF二进制标记，保持原PDF/第三方许可证字节；个人未跟踪临时文件排除。源码、数据/许可、直接PDF及验收证据纳入Git；未将.cache或凭据入库。
+- HF-17候选PASS；正在执行已授权的push/部署，尚不把本条当作生产完成回执。下一步推送当前main并发布同一冻结包，核对正式域名和当前版本后补记录63。

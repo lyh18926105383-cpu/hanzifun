@@ -1,0 +1,13 @@
+{
+  "versionId": "b2f87f9e-7431-4ad6-ab1c-1bba1aacf5fa",
+  "deploymentId": "6224d15b-8566-46d9-9e46-489442e8d37f",
+  "createdOn": "2026-11-13T12:26:47.024855Z",
+  "traffic": [
+    {
+      "version_id": "b2f87f9e-7431-4ad6-ab1c-1bba1aacf5fa",
+      "percentage": 100
+    }
+  ],
+  "bindingTypes": [],
+  "source": "Cloudflare deployments list and versions view"
+}
