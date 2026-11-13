@@ -1,5 +1,8 @@
 # HF-03｜C 方案框架、七段首页与路由
 
+> 最新发布：主导航Stroke Order/Pinyin独立入口已随 `primary-nav-release-2026-11-13` 上线 / PASS；2026-11-13T23:50:58.631020+08:00，版本 `dc532d9e-5506-4415-a50a-a166e1e80f5f`，203/203与正式导航/HTTP复验通过，源码已push。见PROGRESS记录65及[本批回执](../releases/primary-nav-release-2026-11-13/deployment.json)。
+
+
 > 最新发布：本轮相关范围已随 `stroke-topic-release-2026-11-13` 上线 Completed / PASS；版本 `8c0cb4c1-cf81-4b1e-9c42-7b96453072cc`，2026-11-13T20:48:31.109784+08:00，203/203及正式390+27项/浏览器通过，源码已push。见PROGRESS记录63及[本批回执](../releases/stroke-topic-release-2026-11-13/deployment.json)。
 
 
@@ -80,3 +83,8 @@
 ## 2026-11-13 实际上线交接
 
 本任务相关增量已按Owner授权完成生产部署与Git同步，TASKS/PROGRESS已更新。当前范围和回滚入口以记录63及本批deployment.json为准；此前未部署描述保留为历史。
+
+
+## 2026-11-13 主导航发布交接
+
+原5cb3工作区导航补丁已精确导入main并实际部署，桌面/手机两个一级入口检查通过。源码/回执/TASKS/PROGRESS同步，最新证据与回滚目标以记录65及primary-nav-release回执为准。

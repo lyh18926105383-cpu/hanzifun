@@ -1,0 +1,51 @@
+{
+  "releaseId": "primary-nav-release-2026-11-13",
+  "status": "deployed-and-verified",
+  "sourceCommit": "d42c4ddeed27960ad357aa1da79b289dc117db18",
+  "sourceBranch": "main",
+  "gitDestination": "origin/main",
+  "sourcePush": "PASS; non-force 64315c2..d42c4dd",
+  "productionOrigin": "https://hanzifun.online",
+  "versionId": "dc532d9e-5506-4415-a50a-a166e1e80f5f",
+  "deploymentId": "09dd977c-b8a3-47ed-a45e-56ea94bba467",
+  "createdOn": "2026-11-13T15:50:58.63102Z",
+  "deployedAtSingapore": "2026-11-13T23:50:58.631020+08:00",
+  "trafficPercentage": 100,
+  "previousVersionId": "d486aed9-1e80-467e-b32c-5cbc2504534f",
+  "uploadedArtifactSha256": "39d6eaecf6dd4e039623d625d09a7fad253ec77ecec9c68d98d36c0833db423b",
+  "checks": {
+    "tests": 203,
+    "failedTests": 0,
+    "files": 3609,
+    "sitemap": 408,
+    "localNavigationLayouts": 24,
+    "productionNavigationLayouts": 24,
+    "productionHeaderAxe": 2,
+    "productionRetainedSiteHTTP": 390,
+    "productionStrokeTopicHTTP": 27,
+    "productionNavigationClicks": "PASS; desktop and mobile direct links",
+    "keyboardEscapeAndFocus": "PASS",
+    "noJavaScriptFallback": "PASS",
+    "existingPageBodiesAndAssets": "unchanged except shared header links",
+    "twoBuildsIdentical": true,
+    "isolatedRollback": "PASS",
+    "inAppBrowser": "five production tabs refreshed; direct primary links visibly confirmed"
+  },
+  "observedActiveVersion": {
+    "versionId": "dc532d9e-5506-4415-a50a-a166e1e80f5f",
+    "deploymentId": "09dd977c-b8a3-47ed-a45e-56ea94bba467",
+    "createdOn": "2026-11-13T15:50:58.63102Z",
+    "trafficPercentage": 100
+  },
+  "sourceImport": {
+    "sourceWorktree": "/Users/graceshi/.codex/worktrees/5cb3/汉字饭hanzifun",
+    "sourceHead": "95116e34f706d4f5048dbe07822bd828935734ce",
+    "patchSha256": "358b2d754659044406289c7d6608730ed214808ccaa8a6b42a3c4e1a26e18a8b",
+    "scope": [
+      "site/site.mjs"
+    ],
+    "originalWorktreeUnmodified": true
+  },
+  "versionNote": "Explicit version identifies the frozen-assets deployment; subsequent documentation pushes may create an equivalent version. Production is validated by response bytes and actual navigation, not version number alone.",
+  "followup": "No automatic monitor or IndexNow submission. Full 24-hour/7-day observations are not yet completed."
+}

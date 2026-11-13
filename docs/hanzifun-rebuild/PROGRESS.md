@@ -1,5 +1,7 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 最新生产：2026-11-13主导航一级Stroke Order/Pinyin入口已部署 Completed / PASS；找回5cb3工作区原改动后精确导入main。203/203、正式390+27 HTTP、线上24档导航/2次axe/实际点击通过，版本`dc532d9e-5506-4415-a50a-a166e1e80f5f`，2026-11-13T23:50:58.631020+08:00，源码d42c4dd已push。任务及回执随最终文档提交同步，见记录65。
+
 > 最新生产：2026-11-13最近更新统一发布 Completed / PASS；共享面包屑与笔顺五页/最终批注已上线，远端Pinyin/SEO/IndexNow/README保留。203/203、正式域名390+27项、线上浏览器通过。发布版本`8c0cb4c1-cf81-4b1e-9c42-7b96453072cc`，2026-11-13T20:48:31.109784+08:00，100%流量；源码d05c67e已推送main，最终回执与任务文档随本次文档提交同步。见记录63与本批deployment.json。
 
 > 最新本地：2026-11-13七规则米字格循环演示及首屏“我”循环 Completed / PASS；八套动画写完均停留2秒，桌面双列/手机单列。201/201、25档/10次axe、8档新增布局/逐字源与循环时间轴、27项本地HTTP通过。仅3公开产物变化，未发布。见记录61。
@@ -41,11 +43,11 @@
 > 最新增量：2026-11-01 Blog与另一聊天Tools已合并上线，源码720374a已推送main，正式域名44项复检PASS；版本992a6d92-cfd7-403f-a705-61ada1119951，2026-11-01 01:01:37 +08:00，100%流量。见记录33及blog-tools-release-2026-11-01发布回执。下方旧待部署状态保留历史。
 
 ## 当前所处阶段
-- **阶段/范围**：公开静态学习站；339字页、既有Pinyin/SEO/IndexNow/Blog/Tools与README保留，新增共享面包屑和笔顺主题五页；无账号/同步/Billing或故事内容改动。
-- **当前执行任务**：`stroke-topic-release-2026-11-13` 已部署 Completed / PASS；HF-03/HF-04本轮功能及HF-17/18统一发布完成，Owner明确授权部署/Git/docs。
-- **最新发布/审计**：2026-11-13T20:48:31.109784+08:00，显式部署版本 `8c0cb4c1-cf81-4b1e-9c42-7b96453072cc`、100%流量；随后观测活动版本 `7e73ac65-5d7c-49f3-af3e-b808283c3106`，线上390+27项及浏览器内容匹配同一冻结候选。203/203测试、3609文件、417英文页/408 Sitemap、SEO errors=[]。
-- **开发/Git目录**：Desktop主目录main已合并origin/main8331838，源码d05c67e已非强推；最终部署回执与任务/进度在文档提交同步，远端最终HEAD在推送后独立核验。个人未跟踪临时文件保留，未入库。
-- **后续**：24小时/7天与后续GSC由Owner按完整窗口观察，尚未执行、不创建自动监控；87缺字/HSK后续与Phase3保持原范围。精确入口见记录63和 `releases/stroke-topic-release-2026-11-13/deployment.json`。
+- **阶段/范围**：公开静态学习站，主导航新增独立Stroke Order/Pinyin入口；此前面包屑、笔顺五页及最终动画、Pinyin/SEO/IndexNow/Blog/Tools均保留。
+- **当前执行任务**：`primary-nav-release-2026-11-13` 已部署 Completed / PASS；Owner明确授权检查、部署和gitpush。
+- **最新发布/审计**：2026-11-13T23:50:58.631020+08:00，版本 `dc532d9e-5506-4415-a50a-a166e1e80f5f`、100%流量；203/203、3609文件/408 Sitemap、正式390+27项HTTP、三页面24档导航/2次axe及实际桌面手机点击通过。
+- **开发/Git目录**：Desktop main源码d42c4dd已push，最终任务/进度及回执另以文档提交同步；原5cb3工作区未修改，个人临时文件保留。
+- **后续**：从记录65与 `releases/primary-nav-release-2026-11-13/deployment.json` 接续；87缺字/HSK及Phase3保持原范围，没有创建监控或发起额外索引提交。
 
 ---
 
@@ -774,3 +776,12 @@
 - 已在5cb3工作区找到未提交的一行 `site/site.mjs` 改动，按精确补丁导入当前main。原工作区未修改，未复制它的旧页面或旧进度文档；这项改动之前没有进入记录63的发布。新版保留Visual Dictionary下拉菜单，新增两个一级直达链接。
 - 当前候选 `primary-nav-release-2026-11-13`：203/203，3609文件构建/SEO，三页面×8档共24布局、桌面手机真实点击、键盘Tab/Escape、无JS与两次header axe通过；Workers390及生产前390通过。416个HTML只新增相同两个导航链接，其他变化仅route-manifest发布ID；所有正文/媒体/数据保持，隔离回滚通过。
 - 待执行已授权Git与部署，实际版本/生产复验完成后写记录65。发布证据在 `releases/primary-nav-release-2026-11-13/`，回滚基线为本轮部署前实际版本，不使用旧历史版本。
+
+
+### [记录65] - 原主导航更新实际上线、Git与交接（By Codex，2026-11-13）
+
+- **范围/来源**：按Owner分享链接核对并找到5cb3原工作区尚未提交的导航实现；只导入 `site/site.mjs` 一行补丁，新增两个一级链接Stroke Order→/stroke-order/、Pinyin→/pinyin-chart/，桌面与手机共用，原字典下拉入口保留。没有复制旧页面覆盖记录63最新站点，源工作区及其旧文档保持。
+- **发布**：源码 `d42c4ddeed27960ad357aa1da79b289dc117db18` 已非强推origin/main；使用冻结Assets配置strict/keep-vars部署现有hanzifun。版本 `dc532d9e-5506-4415-a50a-a166e1e80f5f`，deploymentId `09dd977c-b8a3-47ed-a45e-56ea94bba467`，2026-11-13T23:50:58.631020+08:00，100%流量。实际发布前版本 `d486aed9-1e80-467e-b32c-5cbc2504534f` 已匹配备份，作为回滚目标；无新增绑定/账户/本地记录更改。
+- **实际验证**：203/203，3609产物，Sitemap408和SEO通过；两次构建逐字节相同、隔离回滚通过。本地与生产：首页/笔顺/拼音各8档共24导航布局，两个链接直接可见与实际桌面手机点击到达、键盘Tab/Escape、无JS均通过；两个header axe零违规。线上390项原站+27项主题HTTP匹配冻结包，416个变动HTML去掉两新链接后与旧页面逐字节一致，只有route-manifest额外更改releaseId，所有媒体/数据/正文保全。线上导航检查改为等待目标H1可见后断言，避免慢网时读取尚未完成的页面。
+- **文件/文档**：产品改动 `site/site.mjs`、`site/release.json`；本批release目录保存源导入、候选/备份/差异/回滚/确定性、tests、local/production浏览器/HTTP、实际deployment及导航截图。更新TASKS/PROGRESS、HF03/17/18。同步修正本批与上一批manifest的indexableRoutes，依据已验Sitemap列408个最终URL，去掉两个重定向源路径；未改变产品索引或Sitemap。
+- **交接**：检查、部署、gitpush三项完成；最终部署回执与任务文档随本次文档提交同步。内置浏览器五个正式页面已刷新，手机菜单实际展示两项新入口。后续入口为本记录/本批deployment.json；原5cb3“未部署”日志为旧状态，当前Git版本以main为准。若后续文档push触发等价Cloudflare版本，以冻结hash及生产内容核对，不仅看版本号。未进行故事制作、额外IndexNow提交或自动监控。

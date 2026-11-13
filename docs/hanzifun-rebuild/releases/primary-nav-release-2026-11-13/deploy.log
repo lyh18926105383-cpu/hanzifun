@@ -1,0 +1,118 @@
+
+ ⛅️ wrangler 4.156.0 (update available 4.161.0)
+───────────────────────────────────────────────
+🌀 Building list of assets...
+✨ Read 4080 files from the assets directory /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun/.cache/releases/primary-nav-release-2026-11-13/candidate
+🌀 Starting asset upload...
+🌀 Found 417 new or modified static assets to upload. Proceeding with upload...
++ /404.html
++ /pricing/index.html
++ /kids/stories/little-frog/index.html
++ /kids/stories/painting-a-rooster/index.html
++ /search/index.html
++ /academic/index.html
++ /sign-in/index.html
++ /scenarios/business/index.html
++ /worksheets/classroom/index.html
++ /flashcards/decks/ants-and-a-bean/index.html
++ /flashcards/decks/scenario-restaurant/index.html
++ /flashcards/decks/scenario-hotel/index.html
++ /data-sources/index.html
++ /privacy/index.html
++ /blog/first-characters-for-bilingual-kids/index.html
++ /dictionary/豆/index.html
++ /dictionary/川/index.html
++ /dictionary/半/index.html
++ /dictionary/左/index.html
++ /dictionary/群/index.html
++ /dictionary/爸/index.html
++ /flashcards/index.html
++ /dictionary/饼/index.html
++ /dictionary/主/index.html
++ /dictionary/雪/index.html
++ /dictionary/友/index.html
++ /dictionary/臂/index.html
++ /dictionary/夜/index.html
++ /dictionary/饺/index.html
++ /dictionary/腿/index.html
++ /dictionary/再/index.html
++ /dictionary/司/index.html
++ /dictionary/租/index.html
++ /dictionary/团/index.html
++ /dictionary/零/index.html
++ /dictionary/插/index.html
++ /dictionary/玩/index.html
++ /dictionary/禾/index.html
++ /dictionary/卖/index.html
++ /dictionary/它/index.html
++ /flashcards/decks/hsk-3-2025-level-1-2-writing-character/index.html
++ /dictionary/夏/index.html
++ /dictionary/泉/index.html
++ /dictionary/拍/index.html
++ /dictionary/宜/index.html
++ /dictionary/候/index.html
++ /dictionary/非/index.html
++ /dictionary/四/index.html
++ /dictionary/爱/index.html
++ /dictionary/双/index.html
++ /dictionary/壳/index.html
++ /dictionary/唱/index.html
++ /dictionary/息/index.html
++ /dictionary/样/index.html
++ /dictionary/口/index.html
++ /dictionary/前/index.html
++ /dictionary/狗/index.html
++ /dictionary/安/index.html
++ /dictionary/白/index.html
++ /dictionary/七/index.html
++ /dictionary/办/index.html
++ /dictionary/荷/index.html
++ /dictionary/文/index.html
++ /dictionary/向/index.html
++ /dictionary/top-100/index.html
++ /dictionary/亮/index.html
++ /dictionary/房/index.html
++ /dictionary/休/index.html
++ /dictionary/热/index.html
++ /dictionary/怕/index.html
++ /dictionary/苹/index.html
++ /dictionary/钱/index.html
++ /dictionary/茶/index.html
++ /dictionary/奶/index.html
++ /dictionary/少/index.html
++ /dictionary/发/index.html
++ /dictionary/答/index.html
++ /dictionary/以/index.html
++ /dictionary/穿/index.html
++ /dictionary/三/index.html
++ /dictionary/点/index.html
++ /dictionary/昨/index.html
++ /dictionary/京/index.html
++ /dictionary/店/index.html
++ /dictionary/包/index.html
++ /dictionary/相/index.html
++ /dictionary/公/index.html
++ /dictionary/圆/index.html
++ /dictionary/在/index.html
++ /dictionary/给/index.html
++ /dictionary/坐/index.html
++ /dictionary/杯/index.html
++ /dictionary/住/index.html
++ /dictionary/语/index.html
++ /dictionary/儿/index.html
++ /dictionary/认/index.html
++ /dictionary/面/index.html
++ /dictionary/怎/index.html
++ /dictionary/雨/index.html
++ /dictionary/道/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 139 of 417 assets
+Uploaded 278 of 417 assets
+Uploaded 417 of 417 assets
+✨ Success! Uploaded 417 files (3190 already uploaded) (5.28 sec)
+
+Total Upload: 0.34 KiB / gzip: 0.24 KiB
+Uploaded hanzifun (12.01 sec)
+Deployed hanzifun triggers (2.16 sec)
+  https://hanzifun.lyh18926105383.workers.dev
+Current Version ID: dc532d9e-5506-4415-a50a-a166e1e80f5f

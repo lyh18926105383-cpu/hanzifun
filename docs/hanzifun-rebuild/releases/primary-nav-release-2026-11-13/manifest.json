@@ -1,7 +1,7 @@
 {
   "releaseId": "primary-nav-release-2026-11-13",
   "phase": 1,
-  "status": "candidate-verified-authorized",
+  "status": "deployed-and-verified",
   "codeBaseCommit": "64315c217e51048f3b4aadc4e95d772dc47cb06d",
   "enabledFeatures": [
     "existing published site unchanged",
@@ -443,5 +443,8 @@
   "contentBatchIds": [
     "primary-nav-2026-11-12-imported"
   ],
-  "dataVersions": "Identical to stroke-topic-release-2026-11-13, including all locked stroke/dictionary data"
+  "dataVersions": "Identical to stroke-topic-release-2026-11-13, including all locked stroke/dictionary data",
+  "sourceCommit": "d42c4ddeed27960ad357aa1da79b289dc117db18",
+  "versionId": "dc532d9e-5506-4415-a50a-a166e1e80f5f",
+  "deployedAtSingapore": "2026-11-13T23:50:58.631020+08:00"
 }
