@@ -766,3 +766,11 @@
 - **数据保全/边界**：生产基线3189文件无缺失，现有媒体/数据保持；417既有文件变化及420新增详见artifact-diff，差异为共享导航、笔顺页和机器清单/跳转。教学/音频审批未伪造更新；没有故事制作、账号、数据库或用户本地记录更改。个人.workbuddy/临时图/私人文档未提交。IndexNow原Key保留，此轮未额外发起索引提交/监控。
 - **文件/回执**：源码范围见5cfb118及合并43bd4d3；本批 `releases/stroke-topic-release-2026-11-13/` 含manifest/ACCEPTANCE/ROLLBACK、冻结/差异/回滚、local/production HTTP、topic浏览器与正式浏览器、deployment/active-version/线上截图；TASKS/PROGRESS、HF03/04/17/18及主题簇验收同步。备份与逐文件hash在忽略的 `.cache/releases/stroke-topic-release-2026-11-13/`，回滚使用发布前真实版本，不复用11月3日旧版本。
 - **交接**：三项请求均已实际完成；内置浏览器五个localhost标签已切到正式域名并保留。Owner可直接访问 `https://hanzifun.online/stroke-order/`。后续从本记录和deployment.json接续；24小时/7天窗口与GSC趋势尚未发生，Owner可人工查看，无自动化。若最终文档推送产生新的等价部署，仍以冻结hash与正式域名内容核验，不仅凭版本号判断。
+
+
+### [记录64] - 找回之前主导航改动并完成发布预检（By Codex，2026-11-13）
+
+- Owner给出ChatGPT分享记录并要求检查、部署、gitpush。按agent-reach网页读取核对，要求仅为桌面/手机主导航新增独立Stroke Order和Pinyin入口，指向现有两个根页面。
+- 已在5cb3工作区找到未提交的一行 `site/site.mjs` 改动，按精确补丁导入当前main。原工作区未修改，未复制它的旧页面或旧进度文档；这项改动之前没有进入记录63的发布。新版保留Visual Dictionary下拉菜单，新增两个一级直达链接。
+- 当前候选 `primary-nav-release-2026-11-13`：203/203，3609文件构建/SEO，三页面×8档共24布局、桌面手机真实点击、键盘Tab/Escape、无JS与两次header axe通过；Workers390及生产前390通过。416个HTML只新增相同两个导航链接，其他变化仅route-manifest发布ID；所有正文/媒体/数据保持，隔离回滚通过。
+- 待执行已授权Git与部署，实际版本/生产复验完成后写记录65。发布证据在 `releases/primary-nav-release-2026-11-13/`，回滚基线为本轮部署前实际版本，不使用旧历史版本。

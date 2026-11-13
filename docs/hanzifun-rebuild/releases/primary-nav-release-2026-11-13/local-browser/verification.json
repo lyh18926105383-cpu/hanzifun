@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "origin": "http://127.0.0.1:8796",
+  "layouts": [
+    {
+      "route": "/",
+      "width": 1440,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1201,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1181,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1180,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 360,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1440,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1280,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1201,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1181,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1180,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 768,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 390,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 360,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1440,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1280,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1201,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1181,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1180,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 768,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 390,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 360,
+      "topLevelLinksVisible": true,
+      "overflow": false
+    }
+  ],
+  "checks": [
+    "Direct top-level links work with keyboard focus without opening the dictionary dropdown",
+    "Real direct-link navigation at 1440 pixels",
+    "Real direct-link navigation at 390 pixels",
+    "No-JavaScript mobile fallback keeps both direct links visible"
+  ],
+  "axe": [
+    {
+      "width": 1440,
+      "violations": 0
+    },
+    {
+      "width": 390,
+      "violations": 0
+    }
+  ],
+  "errors": []
+}

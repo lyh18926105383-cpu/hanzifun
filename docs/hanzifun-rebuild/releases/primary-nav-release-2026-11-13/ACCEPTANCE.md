@@ -1,0 +1,5 @@
+# Primary navigation release acceptance
+
+Owner requested checking/deploying/pushing the previously completed primary navigation change. The shared ChatGPT record specifies direct Stroke Order → /stroke-order/ and Pinyin → /pinyin-chart/ links. Exact implementation was found uncommitted in the 5cb3 worktree and imported as its one-line site/site.mjs patch; the original worktree is untouched. No older page/body/configuration was copied over the newly released site.
+
+203/203 tests; 3609-file production build and SEO PASS. Home, stroke-order and pinyin-chart pass eight widths each (24 layouts), both real desktop/mobile link journeys, keyboard focus/Escape, no-JavaScript fallback and two header axe scans. Static comparison proves that all416 changed HTML files differ only by the two new shared-header links; route-manifest releaseId is the only other changed file. No files added/removed, and all content/media/data are retained. Local Workers390 and production-before390 checks pass. Isolated rollback rehearsal is successful; previous version and static backup are retained. Actual production receipts are added after authorized deployment.

@@ -1,0 +1,9 @@
+{
+  "sourceWorktree": "/Users/graceshi/.codex/worktrees/5cb3/汉字饭hanzifun",
+  "sourceHead": "95116e34f706d4f5048dbe07822bd828935734ce",
+  "patchSha256": "358b2d754659044406289c7d6608730ed214808ccaa8a6b42a3c4e1a26e18a8b",
+  "scope": [
+    "site/site.mjs"
+  ],
+  "originalWorktreeUnmodified": true
+}
