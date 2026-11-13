@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-13",
+  "status": "PASS",
+  "checks": [
+    "Five pages at five viewport widths; 10 full-page WCAG scans; five desktop screenshots; all displayed images loaded",
+    "Hub revision: 2:1 desktop columns, mobile stacking, seven-stroke automatic looping demonstration with a two-second completed-glyph interval and introductory note, revised links and both button destinations",
+    "Real inline lookup: 永 has five steps/45534; no URL mutation; unknown/multiple characters handled; old ?char=国 preserved",
+    "Actual source playback: previous/next/replay/slow/pause hold; starting another player stops the first; keyboard tracing and clear work",
+    "Forced stroke-resource failure leaves the static sequence visible and supports a genuine retry",
+    "A plays only one isolated stroke, can stop it, and has no complete-character player",
+    "D radical filter/reset, all three embed formats and clipboard preserve actual selected character and attribution",
+    "Direct A4 PDF download returns byte-identical local asset without email or login",
+    "Iframe view shows one selected player, keeps credit and is noindex with base self-canonical",
+    "JavaScript disabled: all five full articles remain readable, no page overflow, single strokes and numbered eight-character diagrams remain accessible",
+    "Hub reduced-motion and no-JavaScript modes show a complete static character without a nonfunctional control",
+    "Reduced-motion entry does not autoplay; mobile example screenshot captured",
+    "Five 720 CSS pixel layouts cover the equivalent reduced viewport for 200% zoom, not a claim of native zoom testing"
+  ],
+  "layouts": [
+    {
+      "page": "hub",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "page": "hub",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "hub",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "hub",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "page": "hub",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "page": "basics",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "page": "basics",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "basics",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "basics",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "page": "basics",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "page": "rules",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "page": "rules",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "rules",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "rules",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "page": "rules",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "page": "examples",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "page": "examples",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "examples",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "examples",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "page": "examples",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "page": "animation",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "page": "animation",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "animation",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "animation",
+      "width": 1100,
+      "overflow": false
+    },
+    {
+      "page": "animation",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "page": "hub",
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "page": "hub",
+      "width": 1440,
+      "violations": 0
+    },
+    {
+      "page": "basics",
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "page": "basics",
+      "width": 1440,
+      "violations": 0
+    },
+    {
+      "page": "rules",
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "page": "rules",
+      "width": 1440,
+      "violations": 0
+    },
+    {
+      "page": "examples",
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "page": "examples",
+      "width": 1440,
+      "violations": 0
+    },
+    {
+      "page": "animation",
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "page": "animation",
+      "width": 1440,
+      "violations": 0
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "hub-desktop.png",
+    "basics-desktop.png",
+    "rules-desktop.png",
+    "examples-desktop.png",
+    "animation-desktop.png",
+    "hub-hero-desktop.png",
+    "hub-hero-mobile.png",
+    "basic-hook-nojs.png",
+    "yong-mobile.png"
+  ],
+  "origin": "http://127.0.0.1:60668",
+  "browser": "157.0.8103.52"
+}

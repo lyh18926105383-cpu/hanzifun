@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Three requested navigation links; path removed; hero has no button; revised concept/practice headings and five numbered practice steps; five new FAQ entries",
+    "Sources start collapsed, Enter expands all six references and collapses again; FAQ supports native keyboard expansion",
+    "Source accordion works without JavaScript; new header, practice and source screenshots at 390, 1097 and 1440 pixels"
+  ],
+  "preservation": {
+    "compared": 3606,
+    "unchanged": 3603,
+    "changed": [
+      "site-assets/stroke-topic/topic.v1.css",
+      "site-assets/stroke-topic/topic.v1.mjs",
+      "stroke-order/index.html"
+    ]
+  }
+}

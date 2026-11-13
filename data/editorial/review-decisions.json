@@ -4962,7 +4962,7 @@
     "reviewer": "Project owner (user), implementation authorized; Codex validation",
     "date": "2026-11-02",
     "authorization": "Owner request in this chat, 2026-11-02: refactor all 339 published Character Pages to the approved reference, update tests and review-decisions.json signatures. Also includes the Owner’s five browser comments: Information after sentences, stroke icon after Listen, 1–3 conversational definitions removal of two marked paragraphs, and the subsequent request to match the Hero glyph to stroke-order calligraphy. Includes the subsequent four browser comments to show the full Play Stroke Order label and remove the anatomy note, Stop audio button and audio explanation from character pages. Authorizes implementation/content revision hashes, not a new audio listening or historical-content approval.",
-    "contentSha256": "e49ba53c41fb3fe729139e1b50b9c2995cca1016fc0ab5ffe830ad06e1ae5ec4",
+    "contentSha256": "13ca9d3b67170520513d80112632761061344f0843fc39457d7f4c7a08b976a0",
     "evidence": "docs/hanzifun-rebuild/CHARACTER-FLOW-VERIFICATION-2026-11-02.md",
     "payload": {
       "batchId": "character-flow-2026-11-02",
@@ -5009,7 +5009,7 @@
         },
         {
           "file": "scripts/build-site.js",
-          "sha256": "221d4b307bb47bf9fe9b4e60ee294cff7d94da48189921dd22aa07b662f847db"
+          "sha256": "a99c7bee98beccf6ed883aff2b98d7e012b3d6623f0919bec58ee0337308dd1e"
         }
       ]
     },
@@ -5019,6 +5019,20 @@
       "evidence": "docs/hanzifun-rebuild/releases/character-flow-release-2026-11-03/ACCEPTANCE.md",
       "statement": "Owner: 没问题了。1.你完成部署上线；2.帮我把近期更新git commit & push；3.帮我更新task.md和progress.md",
       "scope": "Accepted the reviewed character-page iteration and authorized deployment/Git/docs. Does not assert a new per-record audio listening audit."
+    },
+    "breadcrumbMaintenance": {
+      "date": "2026-11-12",
+      "authorization": "Owner request: 请帮我加上面包屑导航",
+      "reviewer": "Codex implementation validation",
+      "previousContentSha256": "e49ba53c41fb3fe729139e1b50b9c2995cca1016fc0ab5ffe830ad06e1ae5ec4",
+      "scope": "Build integration of shared breadcrumbs only; existing character teaching, glyphs and audio unchanged. This records source-hash maintenance, not new human content or listening approval.",
+      "evidence": "docs/hanzifun-rebuild/evidence/breadcrumbs-2026-11-12/verification.json"
+    },
+    "strokeTopicMaintenance": {
+      "date": "2026-11-13",
+      "scope": "build integration only, existing character presentation and teaching/audio approvals preserved",
+      "previousContentSha256": "71257356fc30ee3b0eb85876d6fc057f20564a8667ddfee7d0b9cb9e297e4ac8",
+      "authorization": "Owner requests five-page stroke-topic generation; dependency hash maintenance is not renewed human teaching/audio approval"
     }
   }
 }

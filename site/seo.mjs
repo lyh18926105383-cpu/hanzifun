@@ -4,6 +4,8 @@ import {characterReviewState} from './publication-review.mjs';
 // One content contract for core landing templates and one indexing policy for every output.
 import {editorFor, escapeHtml as e} from './dictionary-data.mjs';
 import {findCharacter,findReading,scenarioData,assertScenarioAcceptance} from './hsk-data.mjs';
+import {breadcrumbItems} from './components/breadcrumbs.mjs';
+import {topicPaths,topicMeta,topicAnswer} from './stroke-topic-meta.mjs';
 export const canonicalUrl=(routePath,origin)=>new URL(routePath.split(/[?#]/)[0],origin).href;
 export const privateRoute=p=>{
  const url=new URL(p,'https://hanzifun.invalid'),pathname=url.pathname;
@@ -49,6 +51,7 @@ const fixed={
  '/scenarios/business/icebreakers/':{title:'Chinese Business Icebreakers: Greetings & Introductions',h1:'Chinese Business Icebreakers',lead:'Use polite Chinese business icebreakers to greet someone respectfully, ask their name and thank them for their time.'}
 };
 export function coreSeo(routePath) {
+ if(routePath==='/stroke-order/')return {...topicMeta[0],lead:topicAnswer};
  if(toolsSeo[routePath])return toolsSeo[routePath];
  if(fixed[routePath])return fixed[routePath];
  if(routePath==='/academic/hsk-2/level-2/')return {title:'HSK 2.0 Level 2: 150 Vocabulary Entries with Audio',h1:'HSK 2.0 Level 2: 150 Additional Vocabulary Entries',lead:'Study all 150 additional HSK 2.0 level-2 entries with pinyin, meanings and audio. Character links and practice use the existing 339-character dictionary; 86 words have complete character-page coverage.'};
@@ -63,6 +66,7 @@ export function coreSeo(routePath) {
 }
 // Called by each core template, before layout rendering. The answer is a real static paragraph.
 export function withCoreSeo(page) {
+ if(page.strokeTopic)return page;
  const seo=coreSeo(page.path);if(!seo)return page;
  if(page.content.includes('data-seo-lead'))return {...page,title:seo.title,description:seo.lead};
  return {...page,title:seo.title,description:seo.lead,content:page.content.replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/i,`<h1>${e(seo.h1)}</h1><p class="lead" data-seo-lead>${e(seo.lead)}</p>`)};
@@ -71,10 +75,17 @@ export function safeJsonLd(value) {
  return JSON.stringify(value).replace(/[<>&\u2028\u2029]/g,c=>'\\u'+c.charCodeAt(0).toString(16).padStart(4,'0'));
 }
 export function structuredData(page,canonical,origin) {
+ if(page.strokeTopic){
+  const a=page.editorialArticle;
+  const graph=[{'@type':'Article',headline:a.title,author:{'@type':'Organization',name:a.author.name},datePublished:a.published,dateModified:a.modified,url:canonical,mainEntityOfPage:canonical,inLanguage:'en',citation:a.references.map(r=>r.url)},
+   {'@type':'BreadcrumbList',itemListElement:(page.breadcrumbs||breadcrumbItems(page)).map((item,i)=>({'@type':'ListItem',position:i+1,name:item.name,item:canonicalUrl(item.path,origin)}))}];
+  if(page.topicFaq?.length)graph.push({'@type':'FAQPage',mainEntity:page.topicFaq.map(x=>({'@type':'Question',name:x.q,acceptedAnswer:{'@type':'Answer',text:x.a.replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim()}}))});
+  return '<script type="application/ld+json">'+safeJsonLd({'@context':'https://schema.org','@graph':graph})+'</script>';
+ }
  const graph=[{'@type':'WebPage','@id':canonical+'#page',url:canonical,name:page.title,description:page.description||page.title,inLanguage:page.lang||'en'}];
  if(page.webApplication&&!page.path.startsWith('/tools/'))graph.push({'@type':'WebApplication',name:page.title,description:page.description,applicationCategory:'EducationalApplication',operatingSystem:'Any',url:canonical,inLanguage:'en'});
  if(page.editorialArticle){const a=page.editorialArticle;graph.push({'@type':'Article',headline:a.title,author:{'@type':a.author.kind==='human'?'Person':'Organization',name:a.author.name},dateModified:a.modified,...(a.published?{datePublished:a.published}:{}),url:canonical,mainEntityOfPage:canonical,citation:a.references.map(r=>r.url)});}
  if(page.path==='/')graph.push({'@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:'HanziFun',inLanguage:'en'});
- else if(page.path!=='/404.html')graph.push({'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:origin+'/'},{'@type':'ListItem',position:2,name:page.title,item:canonical}]});
+ else if(page.path!=='/404.html')graph.push({'@type':'BreadcrumbList',itemListElement:(page.breadcrumbs||breadcrumbItems(page)).map((item,i)=>({'@type':'ListItem',position:i+1,name:item.name,item:canonicalUrl(item.path,origin)}))});
  return '<script type="application/ld+json">'+safeJsonLd({'@context':'https://schema.org','@graph':graph})+'</script>';
 }

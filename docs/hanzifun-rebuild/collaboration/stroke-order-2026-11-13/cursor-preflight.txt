@@ -1,0 +1,3 @@
+CURSOR_PREFLIGHT_OK
+/Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun
+Grok 4.7

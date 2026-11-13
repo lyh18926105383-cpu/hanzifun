@@ -7,6 +7,7 @@ import {coreSeo,effectivePolicy,canonicalUrl,privateRoute,assertEditorialReady} 
 import {resolveRoutePolicy,releaseConfig} from '../site/routes.mjs';
 import {assertPublicationReady as dictionaryReady} from '../site/dictionary-data.mjs';
 import {assertPublicationReady as hskReady} from '../site/hsk-data.mjs';
+import {topicPaths} from '../site/stroke-topic-meta.mjs';
 export const attr=(n,k)=>n.attrs?.find(a=>a.name===k)?.value;
 export const nodes=n=>[n,...(n.childNodes||[]).flatMap(nodes)];
 export const textContent=n=>(n.nodeName==='#text'?n.value:(n.childNodes||[]).map(textContent).join(''));
@@ -25,7 +26,7 @@ export function validateJsonLd(document,expectedCanonical) {
    equal(root?.['@context'],'https://schema.org','JSON-LD @context');
    const graph=root['@graph']||[root];requireValue(Array.isArray(graph)&&graph.length,'JSON-LD graph required');
    for(const item of graph){
-    const type=item?.['@type'];requireValue(['WebPage','WebSite','BreadcrumbList','WebApplication','Article'].includes(type),'Unsupported or missing JSON-LD @type');
+    const type=item?.['@type'];requireValue(['WebPage','WebSite','BreadcrumbList','WebApplication','Article','FAQPage'].includes(type),'Unsupported or missing JSON-LD @type');
     if(type==='BreadcrumbList'){
      requireValue(Array.isArray(item.itemListElement)&&item.itemListElement.length>=2,'BreadcrumbList items required');
      item.itemListElement.forEach((x,i)=>{equal(x['@type'],'ListItem','Breadcrumb item type');equal(x.position,i+1,'Breadcrumb position');requireValue(typeof x.name==='string'&&x.name.trim()&&absolute(x.item),'Breadcrumb name/item required');});
@@ -36,10 +37,18 @@ export function validateJsonLd(document,expectedCanonical) {
      if(expectedCanonical){equal(item.url,expectedCanonical,'Article canonical');equal(item.mainEntityOfPage,expectedCanonical,'Article page canonical');}
      equal(item.headline,text(nodes(document).find(n=>n.tagName==='h1')),'Article visible headline');
      requireValue(['Person','Organization'].includes(item.author?.['@type'])&&typeof item.author.name==='string'&&item.author.name.trim(),'Article author required');
-     equal(item.author.name,text(nodes(document).find(n=>attr(n,'data-editorial-author')!==undefined)),'Article visible author');
+     // The hub omits its visible byline at the owner's request; retain the editorial organization in Article metadata.
+     if(new URL(item.url).pathname==='/stroke-order/')equal(item.author.name,'HanziFun editorial team','Hub editorial author');
+     else equal(item.author.name,text(nodes(document).find(n=>attr(n,'data-editorial-author')!==undefined)),'Article visible author');
      for(const key of ['dateModified',...(item.datePublished?['datePublished']:[])])requireValue(/^\d{4}-\d{2}-\d{2}$/.test(item[key])&&new Date(item[key]+'T00:00:00Z').toISOString().slice(0,10)===item[key],'Article invalid date');
      if(item.datePublished)requireValue(item.datePublished<=item.dateModified,'Article publication after revision');
      requireValue(Array.isArray(item.citation)&&item.citation.length&&item.citation.every(absolute),'Article citations required');
+    }else if(type==='FAQPage'){
+     const faqCanonical=expectedCanonical||attr(nodes(document).find(n=>n.tagName==='link'&&attr(n,'rel')==='canonical'),'href');
+     requireValue(faqCanonical&&topicPaths.slice(0,4).some(p=>new URL(faqCanonical).pathname===p),'FAQPage is only allowed for the approved stroke-topic pages');
+     requireValue(Array.isArray(item.mainEntity)&&item.mainEntity.length>=5,'Visible FAQ questions required');
+     const visible=nodes(document).filter(n=>n.tagName==='details');
+     item.mainEntity.forEach(x=>{equal(x['@type'],'Question','FAQ question type');equal(x.acceptedAnswer?.['@type'],'Answer','FAQ answer type');requireValue(x.name&&x.acceptedAnswer.text,'FAQ answer content required');const match=visible.find(d=>text(nodes(d).find(n=>n.tagName==='summary'))===x.name);requireValue(match,'FAQ question must be visible in HTML');equal(text(nodes(match).find(n=>n.tagName==='div')),x.acceptedAnswer.text,'FAQ answer agrees with visible content');});
     }else if(type==='WebApplication'){
      for(const key of ['name','description','applicationCategory','operatingSystem'])requireValue(typeof item[key]==='string'&&item[key].trim(),'WebApplication missing '+key);
      requireValue(absolute(item.url),'WebApplication URL required');
@@ -86,7 +95,7 @@ export function validatePage(html,route,{origin,environment='production',titles=
  const canonical=canonicalUrl(route.path,origin),links=inHead.filter(n=>n.tagName==='link'&&attr(n,'rel')==='canonical');equal(links.length,1,'Exactly one canonical');equal(attr(links[0],'href'),canonical,'Self canonical normalized');
  const seo=coreSeo(route.path);
  if(seo){
-  equal(title,seo.title+' · HanziFun','Core keyword-led title');equal(text(h1[0]),seo.h1,'Core topic H1');
+  equal(title,seo.title+(topicPaths.includes(route.path)?'':' · HanziFun'),'Core keyword-led title');equal(text(h1[0]),seo.h1,'Core topic H1');
   const siblings=h1[0].parentNode.childNodes,after=siblings.slice(siblings.indexOf(h1[0])+1).find(n=>n.tagName);
   requireValue(after?.tagName==='p'&&attr(after,'data-seo-lead')!==undefined,'Answer paragraph must immediately follow H1');
   requireValue(nodes(main[0]).find(n=>n.tagName==='p')===after,'First main paragraph must be the answer, not a banner or label');

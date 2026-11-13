@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "date": "2026-11-13",
+  "author": "HanziFun editorial team",
+  "method": "Original examples, AI-assisted and individually checked against CC-CEDICT word pronunciation and sense; no claim of separate human acceptance",
+  "entries": {
+    "wo": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss": "I; me; my",
+        "sentence": "我想喝水。",
+        "translation": "I would like some water.",
+        "sourceLocator": "cedict_ts.u8:line:43924"
+      },
+      {
+        "word": "我们",
+        "pinyin": "wǒ men",
+        "gloss": "we; us; ourselves",
+        "sentence": "我们一起去公园吧。",
+        "translation": "Let’s go to the park together.",
+        "sourceLocator": "cedict_ts.u8:line:43927"
+      },
+      {
+        "word": "自我",
+        "pinyin": "zì wǒ",
+        "gloss": "the self; oneself; self-; (psychology) ego",
+        "sentence": "请做一个简短的自我介绍。",
+        "translation": "Please give a short introduction of yourself.",
+        "sourceLocator": "cedict_ts.u8:line:91922"
+      }
+    ],
+    "ni": [
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss": "you (informal, as opposed to courteous 您[nin2])",
+        "sentence": "你今天忙吗？",
+        "translation": "Are you busy today?",
+        "sourceLocator": "cedict_ts.u8:line:7529"
+      },
+      {
+        "word": "你们",
+        "pinyin": "nǐ men",
+        "gloss": "you (plural)",
+        "sentence": "你们住在哪里？",
+        "translation": "Where do you live?",
+        "sourceLocator": "cedict_ts.u8:line:7531"
+      },
+      {
+        "word": "你好",
+        "pinyin": "nǐ hǎo",
+        "gloss": "hello; hi",
+        "sentence": "她笑着说：“你好！”",
+        "translation": "She smiled and said, “Hello!”",
+        "sourceLocator": "cedict_ts.u8:line:7532"
+      }
+    ],
+    "hao": [
+      {
+        "word": "好人",
+        "pinyin": "hǎo rén",
+        "gloss": "good person; healthy person; person who tries not to offend anyone, even at the expense of principle",
+        "sentence": "他是个好人。",
+        "translation": "He is a good person.",
+        "sourceLocator": "cedict_ts.u8:line:30097"
+      },
+      {
+        "word": "好看",
+        "pinyin": "hǎo kàn",
+        "gloss": "good-looking; nice-looking; (of a movie, book, TV show etc) good; in an embarrassing situation",
+        "sentence": "这本书很好看。",
+        "translation": "This book is a good read.",
+        "sourceLocator": "cedict_ts.u8:line:30181"
+      },
+      {
+        "word": "好吃",
+        "pinyin": "hǎo chī",
+        "gloss": "tasty; delicious",
+        "sentence": "这个苹果很好吃。",
+        "translation": "This apple tastes good.",
+        "sourceLocator": "cedict_ts.u8:line:30111"
+      }
+    ],
+    "shi": [
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss": "to be (followed by substantives only); correct; right; true; (respectful acknowledgement of a command) very well",
+        "sentence": "我是老师。",
+        "translation": "I am a teacher.",
+        "sourceLocator": "cedict_ts.u8:line:53433"
+      },
+      {
+        "word": "但是",
+        "pinyin": "dàn shì",
+        "gloss": "but; however",
+        "sentence": "我想去，但是没有时间。",
+        "translation": "I would like to go, but I do not have time.",
+        "sourceLocator": "cedict_ts.u8:line:7097"
+      },
+      {
+        "word": "还是",
+        "pinyin": "hái shi",
+        "gloss": "still (as before); had better; unexpectedly",
+        "sentence": "你喝茶还是喝水？",
+        "translation": "Would you like tea or water?",
+        "sourceLocator": "cedict_ts.u8:line:109554"
+      }
+    ],
+    "zhong": [
+      {
+        "word": "中国",
+        "pinyin": "zhōng guó",
+        "gloss": "China",
+        "sentence": "她明年要去中国。",
+        "translation": "She is going to China next year.",
+        "sourceLocator": "cedict_ts.u8:line:3325"
+      },
+      {
+        "word": "中心",
+        "pinyin": "zhōng xīn",
+        "gloss": "center; heart; core",
+        "sentence": "图书馆在市中心。",
+        "translation": "The library is in the city centre.",
+        "sourceLocator": "cedict_ts.u8:line:3560"
+      },
+      {
+        "word": "中午",
+        "pinyin": "zhōng wǔ",
+        "gloss": "noon; midday; CL:個|个[ge4]",
+        "sentence": "我们中午见。",
+        "translation": "Let’s meet at noon.",
+        "sourceLocator": "cedict_ts.u8:line:3305"
+      }
+    ],
+    "guo": [
+      {
+        "word": "国家",
+        "pinyin": "guó jiā",
+        "gloss": "country; nation; state",
+        "sentence": "你去过哪些国家？",
+        "translation": "Which countries have you visited?",
+        "sourceLocator": "cedict_ts.u8:line:24291"
+      },
+      {
+        "word": "外国",
+        "pinyin": "wài guó",
+        "gloss": "foreign country",
+        "sentence": "他喜欢看外国电影。",
+        "translation": "He enjoys watching foreign films.",
+        "sourceLocator": "cedict_ts.u8:line:27139"
+      },
+      {
+        "word": "中国",
+        "pinyin": "zhōng guó",
+        "gloss": "China",
+        "sentence": "这是我第一次来中国。",
+        "translation": "This is my first visit to China.",
+        "sourceLocator": "cedict_ts.u8:line:3325"
+      }
+    ],
+    "xue": [
+      {
+        "word": "学习",
+        "pinyin": "xué xí",
+        "gloss": "to learn; to study",
+        "sentence": "我每天学习中文。",
+        "translation": "I study Chinese every day.",
+        "sourceLocator": "cedict_ts.u8:line:31801"
+      },
+      {
+        "word": "学校",
+        "pinyin": "xué xiào",
+        "gloss": "school; CL:所[suo3]",
+        "sentence": "学校离我家很近。",
+        "translation": "The school is close to my home.",
+        "sourceLocator": "cedict_ts.u8:line:31771"
+      },
+      {
+        "word": "学生",
+        "pinyin": "xué sheng",
+        "gloss": "student; schoolchild",
+        "sentence": "学生们正在读书。",
+        "translation": "The students are reading.",
+        "sourceLocator": "cedict_ts.u8:line:31788"
+      }
+    ],
+    "yong": [
+      {
+        "word": "永远",
+        "pinyin": "yǒng yuǎn",
+        "gloss": "forever; eternal",
+        "sentence": "我会永远记住这一天。",
+        "translation": "I will always remember this day.",
+        "sourceLocator": "cedict_ts.u8:line:62709"
+      },
+      {
+        "word": "永久",
+        "pinyin": "yǒng jiǔ",
+        "gloss": "everlasting; perpetual; lasting",
+        "sentence": "这不是永久的安排。",
+        "translation": "This is not a permanent arrangement.",
+        "sourceLocator": "cedict_ts.u8:line:62614"
+      },
+      {
+        "word": "永恒",
+        "pinyin": "yǒng héng",
+        "gloss": "eternal; everlasting",
+        "sentence": "这首诗描写永恒的爱。",
+        "translation": "This poem describes enduring love.",
+        "sourceLocator": "cedict_ts.u8:line:62670"
+      }
+    ]
+  }
+}

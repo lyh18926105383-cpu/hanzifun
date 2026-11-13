@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-13",
+  "status": "PASS",
+  "build": "/private/tmp/hanzifun-stroke-topic-candidate",
+  "pages": [
+    {
+      "path": "/stroke-order/",
+      "titleLength": 54,
+      "descriptionLength": 158,
+      "words": 1638,
+      "faqs": 5,
+      "exampleAnchors": 4,
+      "htmlSha256": "8f3646f5c83df6aeb2731e3070996ac88b08e90869f7802c0e2fd43c64451a8c"
+    },
+    {
+      "path": "/stroke-order/basic-strokes/",
+      "titleLength": 53,
+      "descriptionLength": 159,
+      "words": 1785,
+      "faqs": 5,
+      "exampleAnchors": 8,
+      "htmlSha256": "12f36518c04798f74f8eefa956444c5847e0f45de3b4ccea13b1c082cdc019c4"
+    },
+    {
+      "path": "/stroke-order/rules/",
+      "titleLength": 55,
+      "descriptionLength": 159,
+      "words": 1462,
+      "faqs": 5,
+      "exampleAnchors": 8,
+      "htmlSha256": "22b86884c96f2508fc53496c2c4b46be9bf757d41e2d40f46a9a1bbaabdd7084"
+    },
+    {
+      "path": "/stroke-order/examples/",
+      "titleLength": 56,
+      "descriptionLength": 154,
+      "words": 2476,
+      "faqs": 5,
+      "exampleAnchors": 0,
+      "htmlSha256": "9387977c80fa87cc945a23bead384e9712b2dbd7816e700e6ec30dedd7418656"
+    },
+    {
+      "path": "/stroke-order/animation/",
+      "titleLength": 52,
+      "descriptionLength": 158,
+      "words": 1087,
+      "faqs": 0,
+      "exampleAnchors": 8,
+      "htmlSha256": "4ee90d346d98e098964158a748acc11a9cb3d912fcc1b5d5707d026533cba9f6"
+    }
+  ],
+  "data": {
+    "characters": 340,
+    "exampleCharacters": 8,
+    "strokeFamilies": 8,
+    "structures": 4,
+    "originalSentences": 24,
+    "allCountsAndAssetHashes": "verified"
+  },
+  "checks": [
+    "Exactly five topic routes, no new single-character routes",
+    "Metadata, heading hierarchy, static article/FAQ/breadcrumb schema",
+    "Stable example anchors and 3–5 data-backed family examples",
+    "340 source byte hashes, counts, ordered names, shape codes",
+    "Eight required characters cover eight families and four source structures",
+    "24 original examples with dictionary-attested word readings",
+    "Direct PDF/GIF assets and five explicit slash redirects",
+    "Existing teaching/audio approvals preserved"
+  ],
+  "incomingAnchors": {
+    "/stroke-order/": {
+      "total": 9,
+      "exact": 0,
+      "ratio": 0
+    },
+    "/stroke-order/examples/": {
+      "total": 146,
+      "exact": 0,
+      "ratio": 0
+    },
+    "/stroke-order/basic-strokes/": {
+      "total": 29,
+      "exact": 1,
+      "ratio": 0.034482758620689655
+    },
+    "/stroke-order/rules/": {
+      "total": 20,
+      "exact": 1,
+      "ratio": 0.05
+    },
+    "/stroke-order/animation/": {
+      "total": 7,
+      "exact": 0,
+      "ratio": 0
+    }
+  },
+  "exampleWordCounts": [
+    {
+      "glyph": "我",
+      "words": 213
+    },
+    {
+      "glyph": "你",
+      "words": 200
+    },
+    {
+      "glyph": "好",
+      "words": 258
+    },
+    {
+      "glyph": "是",
+      "words": 245
+    },
+    {
+      "glyph": "中",
+      "words": 222
+    },
+    {
+      "glyph": "国",
+      "words": 221
+    },
+    {
+      "glyph": "学",
+      "words": 219
+    },
+    {
+      "glyph": "永",
+      "words": 223
+    }
+  ],
+  "site": {
+    "pages": 417,
+    "corePages": 365,
+    "sitemap": 408
+  }
+}

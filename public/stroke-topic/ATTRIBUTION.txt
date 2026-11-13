@@ -1,0 +1,7 @@
+HanziFun stroke resources
+Outlines: Hanzi Writer data 2.0.1, adapted from Make Me a Hanzi; Arphic Public License.
+Names/order: cnchar and cnchar-order 3.2.6, MIT, theajack.
+Dictionary readings: CC-CEDICT (2026-10-23), CC BY-SA 4.0.
+Original teaching material and arrangement: HanziFun, 2026-11-13.
+Source, complete licences and notices: https://hanzifun.online/data-sources/
+Sequence classifications are mainland reference sequences, not claims of universal regional agreement.

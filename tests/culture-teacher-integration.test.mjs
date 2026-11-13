@@ -20,7 +20,7 @@ test('production distributes runnable cultural/teacher assets, indexes five publ
  const output=fs.mkdtempSync(path.join(os.tmpdir(),'culture-teacher-'));
  try{
   execFileSync(process.execPath,['scripts/build-site.js'],{env:{...process.env,HF_SITE_ENV:'production',HF_BUILD_OUTPUT_DIR:output},stdio:'pipe'});
-  const report=validateBuild(output);assert.deepEqual(report.errors,[]);assert.equal(report.sitemap.length,404);
+  const report=validateBuild(output);assert.deepEqual(report.errors,[]);assert.equal(report.sitemap.length,408);
   for(const route of releaseConfig.cultureTeacher.publicRoutes){const html=fs.readFileSync(path.join(output,route,'index.html'),'utf8'),tree=nodes(parse(html));assert.equal(attr(tree.find(n=>n.tagName==='meta'&&attr(n,'name')==='robots'),'content'),'index,follow');assert.ok(report.sitemap.includes('https://hanzifun.online'+route));if(route!=='/tools/'){assert.ok(html.includes('/site-assets/tools/tools-entry.mjs'));assert.ok(html.includes('data-local-form disabled'));}}
   const teacher=fs.readFileSync(path.join(output,teacherPath,'index.html'),'utf8');assert.match(teacher,/noindex,follow/);assert.ok(!report.sitemap.some(u=>u.includes('/flashcards/teacher/')));assert.match(teacher,/data-teacher-workspace/);
   for(const file of ['cultural-tools','teacher-decks','tools-entry']){const source=fs.readFileSync(path.join(output,'site-assets/tools',file+'.mjs'),'utf8');assert.doesNotMatch(source,/from ['"].*(?:publication-review|node:fs|dictionary-data)/);}

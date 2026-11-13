@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-13",
+  "sources": [
+    {
+      "id": "cnchar",
+      "version": "3.2.6",
+      "license": "MIT",
+      "url": "https://www.npmjs.com/package/cnchar/v/3.2.6",
+      "files": [
+        {
+          "file": "cnchar.min.js",
+          "sha256": "1409ad05096831c28ffb62c809c2c6d946aedd583ae4f6ce5cd12a99ad2af998"
+        }
+      ]
+    },
+    {
+      "id": "cnchar-order",
+      "version": "3.2.6",
+      "license": "MIT",
+      "url": "https://www.npmjs.com/package/cnchar-order/v/3.2.6",
+      "files": [
+        {
+          "file": "cnchar.order.min.js",
+          "sha256": "3dbe473a9496d43c1ed8d782bc8673c500bac32d29cb3d72be72b25e82cdea38"
+        }
+      ]
+    },
+    {
+      "id": "cnchar-radical",
+      "version": "3.2.6",
+      "license": "MIT",
+      "url": "https://www.npmjs.com/package/cnchar-radical/v/3.2.6",
+      "files": [
+        {
+          "file": "cnchar.radical.min.js",
+          "sha256": "a4e83c22a558aeef775da632aa729daaf9689fe0a07841ade4b084a10de0b36b"
+        }
+      ]
+    }
+  ],
+  "priorSourceLock": "data/sources.lock.json",
+  "cedictSha256": "e6e14c761ebc1e66ae2ad7b08fc4c577d6927472bb059d70db6111f0c06abee9",
+  "hanziArchiveSha256": "72baf3d82b114e60d6e40ea05f24d2262a05cd39d544e2f322ba2fceb7beff15",
+  "catalogSha256": "09752e76b31fce9dc89b3d76f73764d340c0695d0f77a803eed5c8be6208b477"
+}

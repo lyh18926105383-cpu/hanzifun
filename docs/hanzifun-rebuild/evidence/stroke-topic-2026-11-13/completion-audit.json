@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-13",
+  "status": "PASS",
+  "objective": "Five owner-confirmed stroke-order topic pages generated and locally verified, PDF direct download, Cursor preflight and real content delegation verified",
+  "pages": [
+    "/stroke-order/",
+    "/stroke-order/basic-strokes/",
+    "/stroke-order/rules/",
+    "/stroke-order/examples/",
+    "/stroke-order/animation/"
+  ],
+  "reports": {
+    "static-verification": {
+      "status": "PASS",
+      "sha256": "6088a8b9b08d5ecd7d72363b03c467f9d22e66d87d2af9aef951a87b1b383fd0"
+    },
+    "browser-verification": {
+      "status": "PASS",
+      "sha256": "dab35ab4e6bdde8e67eabc042e132475ba76ead7de7901f674d45e9e3577173d"
+    },
+    "http-verification": {
+      "status": "PASS",
+      "sha256": "2fcf67bcf6474284cd83948b70509d2158bebddfa659cd8e6f062fc2729659a3"
+    },
+    "preservation": {
+      "status": "PASS",
+      "sha256": "ce7d6d2047b7fea14205013a239b66838f266653726a2bec277e1ac773528dbb"
+    },
+    "determinism": {
+      "status": "PASS",
+      "sha256": "f766c7b30bc2ef40271b36ad7908705fa510a1ddbccd588b856a2ce157e81cd5"
+    },
+    "media-verification": {
+      "status": "PASS",
+      "sha256": "09f8cddb68364d4ec6290fb11dd45d0f5b4faa13b1d8d8da111b4d1d8358fadc"
+    },
+    "test-verification": {
+      "status": "PASS",
+      "sha256": "c4b0c0aa2f83935cb6a998f3dbd1722f581bd05c4649577b900bfeb52dae41b2"
+    }
+  },
+  "productionDeployment": "not requested / not performed",
+  "handover": "PROGRESS record47 and TASKS updated",
+  "preview": "http://127.0.0.1:8794/stroke-order/"
+}

@@ -1,3 +1,4 @@
 
 # Preserve upstream license text byte-for-byte, including original whitespace.
 data/licenses/*.txt -whitespace
+*.pdf binary

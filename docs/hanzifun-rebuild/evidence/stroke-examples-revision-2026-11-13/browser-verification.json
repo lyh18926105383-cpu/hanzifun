@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "layouts": [
+    {
+      "width": 360,
+      "buttonVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "buttonVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "buttonVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 1100,
+      "buttonVisible": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "buttonVisible": true,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "width": 1440,
+      "violations": 0
+    }
+  ],
+  "buttonDestination": "/stroke-order/examples/",
+  "browser": "157.0.8103.50",
+  "preservation": {
+    "comparedFiles": 3606,
+    "unchangedFiles": 3604,
+    "changed": [
+      "site-assets/stroke-topic/topic.v1.css",
+      "stroke-order/index.html"
+    ]
+  }
+}

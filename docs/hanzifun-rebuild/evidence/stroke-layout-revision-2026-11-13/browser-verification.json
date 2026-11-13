@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "layouts": [
+    {
+      "width": 360,
+      "navAligned": true,
+      "heading": {
+        "height": 102,
+        "line": 34,
+        "overflow": false,
+        "font": 27.2,
+        "annotation": 16.32
+      }
+    },
+    {
+      "width": 390,
+      "navAligned": true,
+      "heading": {
+        "height": 68,
+        "line": 34,
+        "overflow": false,
+        "font": 27.2,
+        "annotation": 16.32
+      }
+    },
+    {
+      "width": 768,
+      "navAligned": true,
+      "heading": {
+        "height": 34,
+        "line": 34,
+        "overflow": false,
+        "font": 27.2,
+        "annotation": 16.32
+      }
+    },
+    {
+      "width": 801,
+      "navAligned": true,
+      "heading": {
+        "height": 34,
+        "line": 34,
+        "overflow": false,
+        "font": 27.2,
+        "annotation": 16.32
+      }
+    },
+    {
+      "width": 850,
+      "navAligned": true,
+      "heading": {
+        "height": 34,
+        "line": 34,
+        "overflow": false,
+        "font": 27.2,
+        "annotation": 16.32
+      }
+    },
+    {
+      "width": 1097,
+      "navAligned": true,
+      "heading": {
+        "height": 41.125,
+        "line": 41.1375,
+        "overflow": false,
+        "font": 32.91,
+        "annotation": 19.746
+      }
+    },
+    {
+      "width": 1440,
+      "navAligned": true,
+      "heading": {
+        "height": 46.984375,
+        "line": 47,
+        "overflow": false,
+        "font": 37.6,
+        "annotation": 22.56
+      }
+    }
+  ],
+  "axe": [
+    {
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "width": 1440,
+      "violations": 0
+    }
+  ],
+  "reasonTypography": {
+    "font": 15.6,
+    "line": 27.3
+  },
+  "preservation": {
+    "compared": 3606,
+    "unchanged": 3604,
+    "changed": [
+      "site-assets/stroke-topic/topic.v1.css",
+      "stroke-order/index.html"
+    ]
+  }
+}

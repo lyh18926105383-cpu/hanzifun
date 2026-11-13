@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-13",
+  "cursor": {
+    "status": "PASS",
+    "model": "Grok 4.7 High Fast",
+    "receipt": "cursor-preflight.txt",
+    "humanPrompt": false
+  },
+  "browser": {
+    "status": "PASS",
+    "chrome": "157.0.8103.50",
+    "localHTTP": "PASS (approved local testing)"
+  },
+  "pdf": {
+    "status": "PASS",
+    "runtime": "bundled python reportlab/pypdf and pdftoppm"
+  },
+  "scope": "5 pages, local generation and verification, direct PDF; preserve uncommitted breadcrumbs",
+  "deployment": "not requested"
+}

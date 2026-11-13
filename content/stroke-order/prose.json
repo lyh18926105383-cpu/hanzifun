@@ -1,0 +1,221 @@
+{
+  "hub": {
+    "answer": "<p>As a beginner learning Chinese, stroke order (笔顺, bǐ shùn) is worth learning because it makes Chinese characters easier to write, recognize, and remember.</p>",
+    "overview": "<p>When your Chinese teacher says you have learned the eight <a href=\"/stroke-order/basic-strokes/\">Chinese Basic Strokes</a> (汉字基本笔画) and the seven <a href=\"/stroke-order/rules/\">Chinese Stroke Order Rules</a>(笔顺规则), it means you have learned two important foundations of Chinese handwriting.</p><p>Think of learning Chinese characters like learning to build a house:</p><ul><li>Eight basic strokes are your building materials.</li><li>Seven stroke-order rules are the instructions for putting those materials together.</li></ul><p>Together, they help you understand how Chinese characters are constructed, rather than simply memorizing their shapes.</p>",
+    "counting": "<p>Counting strokes is an important skill for beginners learning Chinese. It helps you understand how characters are written, look them up in dictionaries, and recognize their structure.</p><p>The good news is that counting Chinese strokes is easier than it looks once you understand one key rule.</p><h3>1. What counts as one stroke?</h3><p>A stroke (<span lang=\"zh-CN\">笔画</span>, bǐ huà) is a continuous movement of your pen or brush on the paper.</p><p><strong>One stroke = one continuous movement without lifting your pen.</strong></p><p>For example:</p><div class=\"st-counting-examples\" role=\"group\" aria-label=\"Stroke count examples\"><div><span class=\"st-counting-glyph\" lang=\"zh-CN\">一</span><strong>1 stroke</strong><span>yī · One</span></div><div><span class=\"st-counting-glyph\" lang=\"zh-CN\">十</span><strong>2 strokes</strong><span>shí · Ten</span></div><div><span class=\"st-counting-glyph\" lang=\"zh-CN\">口</span><strong>3 strokes</strong><span>kǒu · Mouth</span></div></div><p>Notice that <span lang=\"zh-CN\">口</span> looks like a square with four sides, but it is actually written with only three strokes because the top and right sides are connected in a single turning stroke.</p>",
+    "concepts": "<p>When learning Chinese characters, you should understand four basic terms:</p><ul><li><strong>Stroke:</strong> A single movement of your pen without lifting it.</li><li><strong>Component:</strong> A building block of a Chinese character, made of one or more strokes.</li><li><strong>Radical:</strong> A part of a character used to organize and find it in a dictionary.</li><li><strong>Stroke order:</strong> The correct sequence for writing each stroke.</li></ul><p><strong>Remember:</strong> Strokes build components, components build characters, radicals help you find characters, and stroke order tells you how to write them.</p><p>Knowing these differences makes learning Chinese characters much easier.</p>",
+    "practice": "<p>A square grid helps you write Chinese characters with better spacing, balance, and proportion.</p><p>Download our free PDF practice sheet—no email or sign-in required. Simply print it and start practicing!</p><h3>How to practice:</h3><ol><li>Look at the example and follow the stroke order.</li><li>Write the character slowly in the grid.</li><li>Compare your writing with the example.</li><li>Check your stroke order and correct any mistakes.</li><li>Repeat until you feel comfortable.</li></ol><p><strong>Tip:</strong> Focus on writing correctly, not quickly. A few careful repetitions will help you build good writing habits.</p>",
+    "sources": "<p>The mainland standard GF 0023-2020 distinguishes five main stroke-shape classes. This guide uses eight introductory families to practise visible movements, including rising strokes and hooked endings. These learning labels serve a different purpose from the five numeric shape codes. The same character can therefore be discussed with both systems without changing its number of pen movements.</p><p>The diagrams use Hanzi Writer outline data derived from Make Me a Hanzi. Stroke names and their ordered sequence come from cnchar; readings and meanings use the site’s CC-CEDICT records, while radical information also draws on Unihan. The references below identify the editions and licences. Regional teaching sources are linked in the rules lesson, so you can compare the form required by your own course rather than assume that every Chinese or Japanese reference uses an identical sequence.</p>",
+    "faq": [
+      {
+        "q": "Why is stroke order important in Chinese?",
+        "a": "<p>Learning stroke order helps you write Chinese characters correctly, smoothly, and consistently. It also makes characters easier to remember and recognize. Good writing habits will help you as you learn more complex characters.</p>"
+      },
+      {
+        "q": "What are the basic rules of Chinese stroke order?",
+        "a": "<p>Chinese stroke order follows several common rules, including:</p><ul><li>Top to bottom (<span lang=\"zh-CN\">三</span>)</li><li>Left to right (<span lang=\"zh-CN\">你</span>)</li><li>Horizontal before vertical (<span lang=\"zh-CN\">十</span>)</li><li>Outside before inside (<span lang=\"zh-CN\">同</span>)</li><li>Inside before closing the frame (<span lang=\"zh-CN\">国</span>)</li></ul><p>These rules help you understand how to write most Chinese characters, although some characters have exceptions.</p>"
+      },
+      {
+        "q": "How do I count the strokes in a Chinese character?",
+        "a": "<p>Count each continuous pen movement as one stroke. Even if a stroke changes direction or includes a hook, it still counts as one stroke if you don't lift your pen.</p><p>For example, <span lang=\"zh-CN\">口</span> (kǒu, mouth) has three strokes, not four.</p>"
+      },
+      {
+        "q": "What happens if I write Chinese strokes in the wrong order?",
+        "a": "<p>Your character may still be readable, but incorrect stroke order can make writing slower, less consistent, and harder to remember.</p><p>Don't worry about occasional mistakes. With regular practice, the correct stroke order will gradually become natural.</p>"
+      },
+      {
+        "q": "What's the best way to practice Chinese stroke order?",
+        "a": "<p>Start with simple characters like <span lang=\"zh-CN\">一</span>, <span lang=\"zh-CN\">十</span>, <span lang=\"zh-CN\">人</span>, <span lang=\"zh-CN\">木</span>, and <span lang=\"zh-CN\">大</span>.</p><p>Follow stroke-by-stroke diagrams, write each character slowly, and compare your writing with the examples. Practicing for just 5–10 minutes a day can help you develop good handwriting habits.</p>"
+      }
+    ],
+    "introduction": "<p>Chinese characters may look like complicated drawings at first, but they actually follow a logical writing system.</p><h2>5 reasons to learn stroke order</h2><ol class=\"st-reasons\"><li><strong>Remember characters more easily.</strong> Writing strokes in a consistent order helps you build muscle memory, making characters easier to recall.</li><li><strong>Write faster and more naturally.</strong> Correct stroke order allows your pen to move smoothly, without unnecessary movements.</li><li><strong>Recognize new characters.</strong> You'll become familiar with common character structures and components, which helps when learning more complex characters.</li><li><strong>Use Chinese dictionaries and handwriting input.</strong> Stroke order helps you understand stroke-based dictionary lookup and can improve handwritten character recognition.</li><li><strong>Build a strong foundation.</strong> Learning good habits with simple characters makes writing hundreds of more complicated characters easier later.</li></ol><p><strong>The goal isn't perfect handwriting. It's developing an intuitive understanding of how Chinese characters are constructed.</strong></p>",
+    "heroNote": "<p>The Chinese character <span lang=\"zh-CN\">我</span> (wǒ) means I or me.<br>It's one of the most useful Chinese characters you'll ever learn.</p><p>❤️ <span lang=\"zh-CN\">我爱你！</span>(Wǒ ài nǐ!)<br>That means “I love you!” in Chinese.</p>"
+  },
+  "basics": {
+    "intro": "<p>Use <a href=\"/stroke-order/\">the main writing guide</a> to connect these shapes with complete character sequences. The subject here is a single stroke: where the pen starts, which way it travels, and where it lifts. Whole characters, with every step numbered, are written up as examples. This page does not play them.</p><p>The eight labels are teaching families: horizontal, vertical, left-falling, right-falling, dot, rising, hook, and turn. They are not an official claim that there are exactly eight strokes in the world. Mainland standard GF 0023-2020 uses five shape codes. Code 4 is the dot class and includes the right-falling stroke. Code 5 covers turning strokes; some hooked strokes remain in their main line class, such as the vertical-hook in class 2. We split those two codes so a learner can see direction. The table on the page prints the source names and readings. Use that table when you need a name. Use the notes below when you need to move the pen. After a shape feels familiar, read <a href=\"/stroke-order/rules/\">why one stroke follows another</a>.</p>",
+    "notes": {
+      "horizontal": {
+        "body": "<p>Move level from left to right. Press as you start, keep the middle from sagging, and lift at the right end with no hook. On a grid, stop the line when the character is wide enough. A horizontal stroke that crosses the whole square leaves no room for later strokes. In <a href=\"/stroke-order/examples/#zhong\">中, on its numbered diagram</a>, mark only the strokes that actually travel flat.</p>",
+        "error": "The line climbs, sags, or finishes with a tiny hook. A change of direction at the end is no longer a plain horizontal stroke."
+      },
+      "vertical": {
+        "body": "<p>Pull straight down from the top and stop at a clean end. Keep the stroke from leaning. A lean toward the lower left becomes a left-falling stroke, and a hook at the bottom puts it in another family. If you are checking sides of a frame, look at <a href=\"/stroke-order/examples/#guo\">国</a> and accept a vertical stroke only where that diagram shows one.</p>",
+        "error": "The stroke leans to one side or adds a hook at the bottom. Either change makes it a different family, so the isolated animation no longer matches the hand."
+      },
+      "left-falling": {
+        "body": "<p>Start higher and sweep down toward the left, letting the stroke thin as it goes. Give it a clear diagonal. A vertical line with a small flick at the end is not this family. Speed comes from the direction, not from snapping the pen. Use <a href=\"/stroke-order/examples/#wo\">the diagram for 我</a> to see which numbered strokes take this path, and ignore any you only expected to find.</p>",
+        "error": "The stroke is written almost straight down, or it thickens at the lower left instead of thinning. Both make the next stroke hard to place."
+      },
+      "right-falling": {
+        "body": "<p>Travel down toward the right. The stroke often presses and then releases, so the end is longer than a dot and fuller than a flick. In the five-code standard this shape sits in the dot class. We teach it separately so the direction stays obvious. On <a href=\"/stroke-order/examples/#yong\">永</a>, accept a rightward fall only where the numbered diagram shows one. Do not add one to complete a pattern.</p>",
+        "error": "A short dot is stretched into a long falling stroke, or a real right-falling stroke is dabbed so briefly that it loses its direction."
+      },
+      "dot": {
+        "body": "<p>A dot is a short press, not a miniature falling stroke. It may aim down to the right, down to the left, or almost straight down, but the pen does not travel far. Stretch it and you have changed the family and usually the balance of the square. Check <a href=\"/stroke-order/examples/#xue\">学</a> for short strokes, and keep only the ones the numbers mark as brief.</p>",
+        "error": "The dot is dragged into a long tail. Once it has a long path and a clear thick-to-thin release, it is a falling stroke and needs that family's start and end."
+      },
+      "rising": {
+        "body": "<p>Move upward toward the right. The lift at the upper right matters, because this stroke often aims at the next place the pen will land. Do not draw it downward. A downward line is a falling stroke even when it is short. Find the rising movement in <a href=\"/stroke-order/examples/#wo\">我</a>, and compare its direction with the flat horizontal in <a href=\"/stroke-order/examples/#ni\">你</a>.</p>",
+        "error": "The stroke is written downhill, or it is so flat that it becomes a horizontal stroke. The upward finish is the point of the family."
+      },
+      "hook": {
+        "body": "<p>A hook is a sharp change of direction at the end of a stroke, made without lifting the pen. It is not a second stroke stuck to the first. The learner label “hook” describes an ending. It does not determine the five-shape code: a vertical-hook remains in class 2, while many turning compounds belong to class 5. Count the whole movement once. On <a href=\"/stroke-order/examples/#hao\">好</a>, if a stroke ends in a hook, keep that ending inside the same step number.</p>",
+        "error": "The pen lifts before the hook, so one printed step becomes two movements. The extra lift will not match the diagram or the stroke count."
+      },
+      "turn": {
+        "body": "<p>A turn is a corner. The pen changes direction and keeps moving, so horizontal-then-down is still one stroke when there is no lift. Do not pause, lift, and start again, or your count is one too high. The animation here is the corner alone, not a character. See whether <a href=\"/stroke-order/examples/#shi\">是</a> keeps a corner inside one number, and do not split that number.</p>",
+        "error": "The corner is written as two strokes with a lift between them. A turn is one uninterrupted pen stroke, not two strokes that happen to touch."
+      }
+    },
+    "derived": "<p>Derived strokes join the families above in one uninterrupted movement. A horizontal line that turns down, a vertical line that ends in a hook, or a horizontal line that turns and then hooks, is one stroke while the pen stays down. The corner is not a seam. This is why a turn does not equal two strokes, and why a hook does not add a count on its own. The table below gives three useful compounds. Follow each change of direction while keeping the pen down, then compare that uninterrupted gesture with its numbered example. Practice the eight single families until you can feel the lift, then read each compound as one gesture. <a href=\"/stroke-order/rules/\">How counting and order interact</a> is the next page, once the lift itself is clear.</p>",
+    "practice": "<p>The practice PDF on this page downloads directly. No email and no sign-in. The worksheet includes numbered character sequences as well as blank practice grids. If your copy and the still SVG disagree, trust the SVG. For a finished character, use the example diagrams linked from each family above and follow those step numbers.</p>",
+    "faq": [
+      {
+        "q": "Are these eight strokes an official standard list?",
+        "a": "<p>No. They are teaching families. GF 0023-2020 defines five shape codes, while this page gives short marks, falling strokes, rising strokes and hooked endings their own practice. Use the on-page table for source names.</p>"
+      },
+      {
+        "q": "Is a right-falling stroke just another dot?",
+        "a": "<p>In the five-code standard it belongs to the dot class. In this lesson it has its own family because the direction and the length are different from a short press. The code and the lesson label are allowed to differ.</p>"
+      },
+      {
+        "q": "Why is there no full-character animation here?",
+        "a": "<p>This page is only the isolated stroke. A full-character player would mix several families and hide the lift you are trying to learn. Numbered whole characters are on the examples page, each behind its own anchor.</p>"
+      },
+      {
+        "q": "How do I practice if animation is turned off?",
+        "a": "<p>Use the still SVG for that family. It shows the start, the path, and the lift without motion. Copy that still onto the practice grid. The moving clip is a convenience, not the source of the shape.</p>"
+      },
+      {
+        "q": "Do Japanese charts use these same eight names?",
+        "a": "<p>Not always. Another school chart may group a right-falling stroke with dots or name a hook differently. That is a labeling difference. It does not give you the stroke order of a character. Follow the numbered diagram for the character you are writing.</p>"
+      }
+    ]
+  },
+  "rules": {
+    "intro": "<p>These seven rules are the working summary behind <a href=\"/stroke-order/\">the main guide to Chinese character strokes</a>. They say which movement usually comes first. They do not replace the numbered diagram, and the pictures on this page are partial highlights rather than full-character players. Those players stay with the worked examples.</p><ol><li>Write the top before the bottom.</li><li>Write the left before the right.</li><li>Write a horizontal stroke before a vertical stroke that crosses it.</li><li>Write a paired left-falling stroke before the right-falling stroke.</li><li>Write the outside of an enclosure before the inside.</li><li>Close the enclosure last.</li><li>Write a central stroke before matching sides only when the character has that shape.</li></ol><p>Each note below tells you how to read the highlight and what people do instead. Names, totals, and full sequences are not repeated here. The diagram is the list.</p>",
+    "notes": [
+      {
+        "body": "<p>For a top–bottom layout, complete the upper part before moving below it. Pause at the transition in <a href=\"/stroke-order/examples/#shi\">是</a> and <a href=\"/stroke-order/examples/#xue\">学</a>. Keep room for both parts instead of enlarging the first until the second is squeezed out.</p>",
+        "error": "Starting below before completing the top can crowd the upper part."
+      },
+      {
+        "body": "<p>For a side-by-side layout, finish the left component before the right. Compare <a href=\"/stroke-order/examples/#ni\">你</a> and <a href=\"/stroke-order/examples/#hao\">好</a>: both need an intentional gap, but their components have different proportions. Watch that transition, then try it with the model covered.</p>",
+        "error": "Writing the right side first can leave too little room for the left."
+      },
+      {
+        "body": "<p>Observe a crossing rather than a pair of separate lines. In <a href=\"/stroke-order/examples/#zhong\">中</a>, the box’s horizontal strokes are in place before the line passes through them. The principle describes that crossing; it does not tell you to move every horizontal stroke to the beginning.</p>",
+        "error": "A central line is not automatically the first stroke."
+      },
+      {
+        "body": "<p>Find a genuinely paired set of falling strokes in <a href=\"/stroke-order/examples/#yong\">永</a> or <a href=\"/stroke-order/examples/#shi\">是</a>. Follow the left-falling movement before the right-falling one. Keep other strokes in their numbered positions instead of gathering all diagonals together.</p>",
+        "error": "Do not reorder unrelated diagonals to make a pair."
+      },
+      {
+        "body": "<p>Begin the frame, then place its contents. <a href=\"/stroke-order/examples/#guo\">国</a> gives a clear example: the enclosure sets the available space before the inner part is written. Compare the frame in <a href=\"/stroke-order/examples/#zhong\">中</a>, while following its own sequence.</p>",
+        "error": "Starting inside can leave too little room for the frame."
+      },
+      {
+        "body": "<p>The bottom closure is a later moment than the opening walls. Watch <a href=\"/stroke-order/examples/#guo\">国’s completed example</a> and compare the last stage with the one just before it. A connected corner remains one stroke even when its path changes direction.</p>",
+        "error": "Do not seal the bottom before writing the contents."
+      },
+      {
+        "body": "<p>The focused models 小 and 水 begin centrally before their side strokes. Compare them with <a href=\"/stroke-order/examples/#zhong\">中</a>, whose central line comes later. Position alone does not establish order: always check whether the particular character actually follows this pattern.</p>",
+        "error": "Do not generalise this pattern to every symmetrical shape."
+      }
+    ],
+    "regions": "<p>Always compare the same written form and the same teaching tradition. Mainland China’s simplified 国 and 学 differ visibly from traditional 國 and 學 used in Taiwan; choosing the corresponding character is the first step before comparing an order. For a traditional form, use the Taiwan Ministry of Education’s character reference rather than applying the simplified diagram stroke for stroke.</p><p>Japan also has its own writing conventions. The National Institute for Japanese Language and Linguistics discusses 必 as an example where the usual Chinese and Japanese sequences can differ. Its explanation distinguishes familiar teaching conventions from a claim that every alternative order is an error. The linked references let you inspect that comparison without combining pieces of two models.</p><p>For this guide, follow the mainland reference sequence in each numbered diagram. For a class or handwriting assessment, follow the assigned regional model. If two books disagree, check the exact character form, source and edition before changing your practice. Compare <a href=\"/stroke-order/examples/#guo\">国</a> and <a href=\"/stroke-order/examples/#xue\">学</a> with their traditional counterparts, then use <a href=\"/stroke-order/examples/#yong\">永</a> to keep brush-technique terminology separate from stroke counting.</p>",
+    "faq": [
+      {
+        "q": "Do these seven rules apply to every character?",
+        "a": "<p>They are the usual order, and several of them fire only when the shape is present. A crossing rule needs a real crossing. The center-before-sides rule needs real symmetry. When a rule does not fit, the step numbers are the order.</p>"
+      },
+      {
+        "q": "What if two rules seem to disagree?",
+        "a": "<p>Do not blend them. Look at the partial highlight for the rule you think applies, then check the character's own numbers. The diagram is the resolved order. A rule that only almost fits should be dropped.</p>"
+      },
+      {
+        "q": "Does cursive handwriting follow the same order?",
+        "a": "<p>Cursive joins strokes and hides lifts, so you cannot recover the standard order by staring at a fast signature. Learn the numbered order first. Speed and joining come after the lifts are stable.</p>"
+      },
+      {
+        "q": "Why are the illustrations only partial diagrams?",
+        "a": "<p>This page explains rules, not whole characters. A partial highlight keeps one decision visible. A full player would turn the page into another examples lesson. Use the linked character when you want every step.</p>"
+      },
+      {
+        "q": "Which regional model should I follow?",
+        "a": "<p>Use the convention required by your course or handwriting assessment. This guide’s diagrams use mainland reference data. For traditional Chinese in Taiwan, check the Ministry of Education’s model; for Japanese kanji, consult a Japanese teaching reference for that exact character.</p>"
+      }
+    ]
+  },
+  "examples": {
+    "intro": "<p>These eight characters are worked examples of writing order. They are not a dictionary, and they are not the <a href=\"/stroke-order/\">Chinese stroke order guide</a>, which explains the system, the count, and the lookup. Each block gives you a full-character player, a numbered still diagram, a data table filled from the stroke library, sample words supplied with the character, and a note on what usually goes wrong. Watch Play, then move with Next. Reusable clips, GIF files, and embed code live on <a href=\"/stroke-order/animation/\">the animation and embed page</a>, separate from this lesson.</p>",
+    "selection": "<p>The eight characters are frequent everyday examples, not a frequency ranking. They were chosen so you can compare layouts: a single body, parts side by side, an upper and a lower band, and one outer frame. The set also spreads the teaching-stroke families across more than one diagram. Confirm that on the diagrams. 永 is here because readers look up the Eight Principles of Yong, a brush mnemonic, not because it has eight strokes. Each table's pinyin, radical, count, structure, and sequence come from verified sources. This text does not restate them.</p>",
+    "notes": {
+      "wo": {
+        "body": "<p>Watch how the strokes of 我 share a small central area without becoming one continuous scribble. Start the player slowly, then use Next to compare the crossing points. A hooked movement and a rising movement belong to different parts of the sequence, even though their ends approach each other. Leave enough space for the final marks instead of spreading the early lines across the whole square. After one copy, cover the model and recall the movement rather than tracing its outside edge.</p>",
+        "tip": "<p>Keep the hooked movement continuous. Check the final dot against the diagram; an early extra mark can change the rhythm of the sequence.</p>"
+      },
+      "ni": {
+        "body": "<p>The left and right parts of 你 need different amounts of space. Follow the left component before moving into the wider right side, keeping both inside one square. Pause when the player changes sides and notice the empty space between them. Copying the final outline alone can hide that transition. Practise the character in a familiar greeting, then return to the isolated model to check whether you remembered the sequence or only the appearance.</p>",
+        "tip": "<p>Avoid widening the narrow left side until the right side is squeezed out. Preserve each turn and hook as the source diagram shows it.</p>"
+      },
+      "hao": {
+        "body": "<p>Look at 好 as two neighbouring components sharing a single writing space. The diagram shows how one side is completed before the other, while the whole character stays balanced. Watch the width of the left side and the reach of the last horizontal movement. A familiar greeting can make the finished shape feel obvious, but familiarity does not reveal its sequence. Step through slowly once, copy on paper, and then compare the meeting points. The examples below use the good or pleasant reading shown in this block; a different reading of the same written character belongs to a different word context.</p>",
+        "tip": "<p>Do not add a pen lift inside a connected turn or hook. Compare the spacing between the components after you check the order.</p>"
+      },
+      "shi": {
+        "body": "<p>The upper and lower parts of 是 create a useful contrast between a compact rectangular area and a more open finish. Use Next to see where the sequence leaves the upper part and moves below it. Keep the lower strokes inside the same overall square without making them as cramped as the top. When writing from memory, pause briefly at that transition rather than looking back after every movement. The example sentences place the character in several common grammatical contexts. Those uses help reading, while the same numbered reference keeps the handwriting practice consistent across the words.</p>",
+        "tip": "<p>Check the final sweeping movement and the space it needs. A carefully placed upper part makes the lower part easier to balance.</p>"
+      },
+      "zhong": {
+        "body": "<p>中 is short enough to inspect without rushing. Its central line passes through the box, but a visually central stroke is not automatically the first one to write. Follow the complete numbered sequence and notice when the crossing line appears. This makes the character a useful reminder that broad rules are guides rather than a way to guess every order. Keep the box proportionate so that the line can extend clearly above and below it. After copying once, describe the sequence aloud, then write again with the model covered and check the result.</p>",
+        "tip": "<p>Do not apply “centre before sides” merely because a line is in the middle. Follow this character’s own numbered model.</p>"
+      },
+      "guo": {
+        "body": "<p>国 makes the relationship between an enclosure and its contents easy to see. Begin the outer form, place the internal strokes, and watch the player close the bottom after the contents. The upper-right corner belongs to one continuous turning movement, rather than two lines joined after a pen lift. Keep some space around the inside so that the enclosure does not look crowded. A closing stroke that touches both sides can make the character look complete even when the order was wrong; the numbered diagram lets you check the movement as well as the finished shape.</p>",
+        "tip": "<p>Avoid sealing the bottom before the contents are written. Count the connected corner as one movement, matching its single step number.</p>"
+      },
+      "xue": {
+        "body": "<p>For 学, notice the change from the short marks at the top to the covered middle and the lower component. Several movements sit close together, so a slow pass through the player is more useful than repeated fast loops. Give the lower part enough height and keep the upper marks distinct instead of joining them into a continuous flourish. Compare the shared lower component with the one in 好: a recognisable component can help recall, while its proportions adjust to its position. The words below connect the character with learning, school and students.</p>",
+        "tip": "<p>Follow the source model through the short upper marks. Preserve the connected turn in the cover rather than counting its directions separately.</p>"
+      },
+      "yong": {
+        "body": "<p>永 connects this pen-writing lesson with the traditional phrase “Eight Principles of Yong.” The eight principles describe brush techniques; they do not mean the character requires eight separate strokes. Read the actual stroke total in the table and follow the numbered sequence. A single connected movement may contain more than one change of direction, which is why counting visible corners gives the wrong total. Compare the falling strokes and the hooked turn at a slow speed. Then copy the shape with an ordinary pen, keeping the distinction between stroke order and brush technique clear.</p>",
+        "tip": "<p>Keep connected turns together. Do not add pen lifts to force the traditional eight-part mnemonic into eight numbered strokes.</p>"
+      }
+    },
+    "summary": "<p>These examples show five useful patterns: upper parts before lower ones, left components before right ones, horizontals before crossing verticals, enclosure contents before the bottom closure, and connected turns counted as one movement. Revisit <a href=\"/stroke-order/rules/\">the writing patterns and their exceptions</a> when a sequence surprises you. For a difficult corner or hooked ending, return to <a href=\"/stroke-order/basic-strokes/\">isolated stroke practice</a>.</p>",
+    "lookup": "<p>These eight characters are a sample, not the catalog. For any other character, use the lookup on <a href=\"/stroke-order/\">the stroke-order reference page</a>. The result stays on that page and does not create a new address. The practice PDF downloads directly, with no email and no sign-in.</p>",
+    "faq": [
+      {
+        "q": "Why these eight characters and not a longer list?",
+        "a": "<p>The selection combines everyday usefulness, four sourced structural labels and coverage of eight teaching families. It is an editorial selection, not a frequency ranking.</p>"
+      },
+      {
+        "q": "Does 永 contain eight strokes because of the Eight Principles?",
+        "a": "<p>No. The character has five strokes. The Eight Principles describe brush techniques, which can include several actions within one uninterrupted pen movement.</p>"
+      },
+      {
+        "q": "Where do the sample words and sentences come from?",
+        "a": "<p>Word readings and meanings use CC-CEDICT. The example sentences and English translations are original teaching material, written for the contexts shown here.</p>"
+      },
+      {
+        "q": "What if another textbook numbers a character differently?",
+        "a": "<p>Check the character form, edition and regional convention. Use the assigned model for your course; the rules page links regional references for comparison.</p>"
+      },
+      {
+        "q": "How should I use the player on a small screen?",
+        "a": "<p>Watch once, then use Next and Previous. Choose Slow to inspect a crossing. Trace after checking the still diagram, and use Replay to start again.</p>"
+      }
+    ]
+  },
+  "animation": {
+    "intro": "<p>Add Chinese character animations to a lesson, presentation or webpage. This collection offers eight reusable examples, with GIF loops, scalable SVG files and interactive iframe code. Keep a numbered still beside the motion so learners can inspect the sequence at their own pace. For definitions and counting, start with <a href=\"/stroke-order/\">the main writing reference</a>; for a complete lesson, follow <a href=\"/stroke-order/examples/#hao\">好 with its words and example sentences</a>.</p><p>Choose a GIF for an app that accepts ordinary images, an animated SVG for a scalable loop, or an iframe when learners need playback controls. Each card also offers a numbered SVG for a static handout. Keep the source attribution beside the resource when you share it.</p>",
+    "use": "<p>Use Play preview to start a gallery loop, then Stop preview to return to its static reference shape. Filter by radical or choose the everyday and brush-technique groups to narrow the eight examples. Arrange them by lesson order or stroke count. These are teaching selections, rather than a measured frequency ranking. Reset filters brings the full collection back.</p><p>For slower study, choose the interactive iframe format below. Its player provides Play, Pause, Replay, Next, Previous and a speed selector with a Slow setting. Trace opens a practice layer for a finger, pointer or keyboard; it does not grade handwriting. Keep the numbered SVG available for anyone who prefers a still reference or uses a reduced-motion setting.</p>",
+    "embed": "<p>Copy the snippet generated on this page. It uses absolute URLs on https://hanzifun.online, so another site still requests the official file. Keep that host. A relative path breaks outside this origin. Three forms are supported: an iframe for the player, a GIF for a short loop, and an SVG for the scalable drawing, including the still that stays visible without animation.</p><p>Paste the snippet into your own HTML. The page does not generate MP4, APNG, or Lottie. For a teaching sequence rather than a clip, link to <a href=\"/stroke-order/examples/#yong\">the five-stroke lesson for 永</a>. The iframe offers a compact interactive view; the linked lesson adds vocabulary, sentences and the complete comparison.</p>",
+    "license": "<p>The downloads include source credits; the accompanying attribution file links to the complete licence notices. Keep those credits and notices when you move the file into a worksheet, a slide, or another website. Leave the credit on the GIF, in the SVG, and in the caption beside the iframe. Display and embed the files as this page offers them. Keep the paths attributed to their source, and keep the printed licence text with the file.</p><p>The teaching sentences are by the HanziFun editorial team, with AI assistance. That credit is separate from the stroke-data licence. It describes the teaching text and does not replace the licence on the stroke outlines. If a source note and a caption disagree, keep the note that arrived with the file.</p>",
+    "teaching": "<p>In an interactive iframe, play the character once to show its rhythm, then pause at the movement you want to discuss. Use Next to add a stroke and Previous to revisit one. Slow gives the class more time to notice a crossing or turn. Replay starts the same character again. Trace lets a learner draw over the reference after watching it; Clear tracing removes those practice marks.</p><p>On a projector, enlarge the numbered SVG so that each stage and its label are easy to read from the back. Students can call out the next movement, then check it against the model. Follow the demonstration with a copy on paper, using the directly downloadable worksheet. Learners who prefer less motion can use the same numbered still throughout the activity.</p>",
+    "download": "<p>Download GIF, animated SVG and numbered SVG files directly from the resource cards. The GIF loops in software that supports ordinary animated images. The animated SVG scales to different screen sizes; the numbered SVG lays out the sequence for close reading or print. Keep the separate attribution notice with the files and retain its links to the full licences.</p><p>The A4 and US Letter PDFs combine the eight teaching families, the eight worked characters and blank practice grids. Both download directly without an account or email address. Use a moving reference to understand the direction, the numbered SVG to check a difficult stage, and the worksheet to practise with a pen. For an enclosure exercise, follow <a href=\"/stroke-order/examples/#guo\">the complete example for 国</a> before trying it from memory.</p>"
+  }
+}

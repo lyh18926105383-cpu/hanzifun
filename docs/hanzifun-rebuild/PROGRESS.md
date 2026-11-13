@@ -1,5 +1,21 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 最新本地：2026-11-13七规则米字格循环演示及首屏“我”循环 Completed / PASS；八套动画写完均停留2秒，桌面双列/手机单列。201/201、25档/10次axe、8档新增布局/逐字源与循环时间轴、27项本地HTTP通过。仅3公开产物变化，未发布。见记录61。
+
+> 最新本地：2026-11-13五项排版批注 Completed / PASS；导航对齐、理由更紧凑、去查字数量、计数标题中文小字桌面单行、计数移至七规则后。构建/SEO、7档布局/2次axe通过，仅主HTML/CSS改变，内置浏览器已刷新，未发布。见记录60。
+
+> 最新本地：2026-11-13七项内容精简与介绍框修订 Completed / PASS。三入口导航、删除path、术语/练习/五FAQ新文案、来源默认收起；“我”自动播放一次后显示完整字形和介绍框。201/201、25档/10次axe、27项本地HTTP通过；仅3公开产物变化，未发布。见记录59。
+
+> 最新本地：2026-11-13四字范例前移及标题/按钮修订 Completed / PASS。查字→四字范例→笔画计数→基础介绍；构建/SEO、5档布局/2次axe及按钮跳转通过。内置浏览器已刷新，未发布。见记录58。
+
+> 最新本地：2026-11-13笔画计数文案及三字横排范例修订 Completed / PASS；顺序为查字→计数范例→基础笔画介绍。构建/SEO与5档布局/2次axe通过，仅主HTML和主题CSS改变；内置浏览器定位新版范例，未发布。见记录57。
+
+> 最新本地：2026-11-13主页面七条批注与模块顺序修订 Completed / PASS；首屏2:1文案/“我”自动田字格、查字前移、文案/按钮/署名修订。201/201、25档布局/10次axe、27项本地HTTP通过；仅3个公开产物变化。内置浏览器已刷新，未发布。详见记录56。
+
+> 最新本地：2026-11-13笔顺主题簇五页全部生成 / Completed / PASS；201/201测试、25档布局/10次axe、27项Wrangler本地HTTP、3606文件重复构建一致。未commit/push/部署；11月12日面包屑成果保留，生产仍见记录45。本轮详见记录55。
+
+> 最新本地：2026-11-12统一面包屑完成 / PASS；411内页、832上级链接、201/201测试、45档布局及9次面包屑axe通过。尚未commit/push/部署，生产状态仍见记录45；详见记录54。
+
 > 最新生产：2026-11-03单字页重构已完成部署 / PASS；main已合并并保留Blog/Tools/SEO。201/201测试，390项正式域名检查及线上浏览器通过。首次部署版本28fb0e8e-78ab-4b1b-baa8-956a3b550213，2026-11-03T20:26:59.152147+08:00；Git回执推送后观测活动版本2fd5479c-837f-44d7-80d2-b1121bf94cf6，已追加390项同产物复验。见记录45与releases/character-flow-release-2026-11-03/deployment.json。较早的当前状态描述为历史阶段。
 
 > 当前生产：2026-11-02两批SEO已统一部署 / PASS；源码a6c2688推送main，194/194测试、48项正式域名及浏览器复检通过。实际版本65fd9f41-12b0-4132-9726-8a07afa1484f，2026-11-02T15:34:17.980557+08:00，100%流量。见记录40与releases/seo-navigation-release-2026-11-02/deployment.json。下方待部署描述为历史阶段。
@@ -18,7 +34,7 @@
 
 ## 当前所处阶段
 - **阶段/范围**：公开学习站维持本地轻量架构；339单字页重构已上线，Blog/Tools/SEO导航成果保留，无账号/同步/Billing改动。
-- **当前执行任务**：`character-flow-release-2026-11-03` Completed / PASS；Owner本次部署、近期Git同步、TASKS/PROGRESS三项请求已完成。
+- **当前执行任务**：2026-11-13 HF-04笔顺主题簇五页与主页面批注修订本地 Completed / PASS；11月12日面包屑保留，均未发布。最近生产任务仍为 `character-flow-release-2026-11-03` Completed / PASS。
 - **本次发布/最新审计**：首次手动发布2026-11-03T20:26:59.152147+08:00、版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`；Git回执推送后活动版本`2fd5479c-837f-44d7-80d2-b1121bf94cf6`（100%）已重新按冻结候选390项复验一致；201/201测试、3186文件、SEO errors=[]/Sitemap404，390项正式域名检查及线上浏览器通过。
 - **开发/Git目录**：Desktop主目录`main`，已合并origin/main6c953f5，部署源c8fa36f已推送；最终文档/回执提交单独同步，以origin/main最终HEAD为准。个人未跟踪临时文件保留，不进入提交。
 - **后续**：24小时/7天及GSC趋势由Owner按完整窗口人工观察；87缺字/HSK下一等级与Phase3原范围不变。精确交接见记录45及本次deployment.json。
@@ -580,3 +596,81 @@
 - **精确下一步/边界**：本次三项请求已完成。Owner可直接看正式域名/dictionary/休/和/dictionary/木/。24小时/7天观察及后续GSC复盘由Owner按完整窗口人工进行，尚未发生、不自动建监控；87缺字/HSK后续及Phase3不变。下次从本记录与本发布deployment.json接续，不将旧主目录98f79fa、旧本地未部署状态或旧发布回滚目标当当前。main项目跟踪改动在最终提交后应干净，个人未跟踪文件保留。
 
 - **记录45补充：Git推送后版本复核**：最终文档8d05046推送后，部署历史又出现活动版本`2fd5479c-837f-44d7-80d2-b1121bf94cf6`、createdOn=`2026-11-03T12:32:32.661713Z`、100%流量；以正式域名重新执行390项比较，全部339字页与旧资源仍匹配同一冻结候选、errors=[]。已追加post-push-active-version/online-verification及deployment.versionNote；仅记录实际观测，不臆定后续版本的GitSHA或触发原因，也不把未来同产物版本号变化当内容回滚。
+
+### [记录54] - 英文站统一面包屑导航（By Codex，2026-11-12）
+
+- **范围/授权**：Owner“请帮我加上面包屑导航”；Desktop主目录继续实施HF-03共享导航增量。保全所有原有未跟踪文件，保持轻量本地架构，无账号/同步/Billing及故事内容或媒体变更。
+- **实现**：新增共享组件按实际已生成的父级页面生成 Home → 栏目 → 当前页；字页显示 Home → Dictionary → 字，HSK二级显示 Home → Students & Teachers → HSK 2.0 → Level 2。构建统一替换旧模板零散导航并补齐缺失页；当前页非链接且有aria-current，上级可键盘访问；长标题换行、44px链接触控、打印隐藏。可见导航与JSON-LD使用同一份层级数据，query不进入层级。首页/404/旧中文站及故事播放器不加新导航。
+- **文件列表**：新增 `site/components/breadcrumbs.mjs`、`site/public/breadcrumbs.css`；修改 `scripts/build-site.js`、`site/layouts/base.html`、`site/seo.mjs`；`data/editorial/review-decisions.json`仅维护构建源关联的字页呈现hash，并单独记录本次授权及原hash，不冒充新的人工教学或音频听审。新增 `evidence/breadcrumbs-2026-11-12/{verification.json,character-desktop.png,hsk-mobile.png,article-mobile-nojs.png}`；更新TASKS与本日志。
+- **验证**：201/201测试PASS，0fail/skip/cancel；隔离生产构建 `/private/tmp/hanzifun-breadcrumbs-2026-11-12` 3187文件，SEO413页/365核心页/errors=[]/Sitemap404。413英文页全量检查：411内页面包屑各唯一、当前页标识唯一、832个父级链接有实际目标，所有名称/层级/URL与BreadcrumbList一致。Chrome9类页面×360/390/768/1100/1440共45档无横向溢出，9次面包屑axe零违规；真实Enter回Dictionary、returnTo不入导航、无JS长文章换行与Blog链接、打印隐藏通过，pageErrors=[]；三张截图已目视查看。教学及音频审批与开工HEAD深比较不变。
+- **边界/遗留**：本地Chrome模拟，不冒充Safari/Firefox/真机/真人读屏或生产检查；未commit/push/部署，旧生产发布证据仍对应记录45，不代表本次成果已上线。
+- **下一个Agent精确切入点**：先读本记录、TASKS与本次verification.json；实现从 `site/components/breadcrumbs.mjs`、最终构建循环及独立CSS进入，不重新逐模板添加第二份导航。若Owner要求上线，按HF-17/18为当前源码生成独立候选/回滚/发布证据；若调整build-site.js，维护字页呈现关联hash并保留旧审批边界。其他87缺字/HSK后续与Phase3范围不变。
+
+
+### [记录55] - 笔顺主题簇五页全自动生成与本地验收（By Codex + Cursor，2026-11-13）
+
+- **Owner确认**：以本聊天新附件为本轮范围；不新增单字页只限制本次笔顺簇，现有字典保留；B采用局部关键步骤；今晚同时完成全部五页；PDF直接下载、无登录/邮箱。允许Codex使用现有Cursor，先完成连通性预检后Owner离开，由本聊天全自动生成与本地验收。本次没有部署请求，不新增账号/同步/Billing/故事制作。
+- **Cursor实跑**：通过CUA打开现有Cursor项目，Grok4.7 High Fast实际运行pwd/Node并写入预检回执，无登录/工具批准/额度提示。再按独占文件任务卡生成 `content/stroke-order/prose.json` 五页英文正文；Codex审读修订并独立集成。用户报告Plus余额约60%、55分钟后重置，作为调度参考，不冒充读取账户精确余额。任务/附件/回执保存在 `collaboration/stroke-order-2026-11-13/`。
+- **交付**：五页主/A/B/E/D全部静态正文、准确元数据与一致面包屑/schema。主页面340字页内查询及旧char参数兼容，结果不写新URL；A八类真实单笔SVG、B七规则共14张关键阶段图及地区参考、E固定八字播放器/慢放/暂停/逐笔/键盘及指针描红/静态编号/数据表/每字三例句与比较、D八字GIF/动态SVG/编号SVG/三种嵌入生成/署名与筛选。A4/Letter各5页PDF直接下载。语境、数据与视觉结构分开，不用模型补齐字音/笔画/序列。
+- **数据决定**：cnchar/order/radical3.2.6锁版本/hash/MIT，复用原CC-CEDICT/Unihan/HanziWriter2.0.1；新增永从既有锁定包提取，5笔、45534，不新增字典页。固定八字覆盖8教学家族和4来源结构；我按cnchar左右结构显示，不照抄附件独体分类。五种规范笔形和八类教学明确区分；竖钩五码2，竖提五码5；未知笔画类型直接报错。24条原创句子逐条审读，例词读音附源定位，不伪造真人教学/听音签字。
+- **文件列表**：新增 `site/{stroke-topic-data,stroke-topic-meta}.mjs`、`site/components/stroke-topic.mjs`、`site/pages/stroke-topic.mjs`、`site/public/stroke-topic.css`、`src/client/stroke-topic.mjs`；`content/stroke-order/`、`data/stroke-order/`、`public/stroke-topic/` 与 `output/pdf/`；4个生成脚本（build-stroke-topic-data、build-stroke-topic-examples、generate-stroke-topic-media、generate-stroke-topic-pdf）及3个verify-stroke-topic静态/浏览器/HTTP脚本。修改build-site、seo质量门控、seo模块、release、旧stroke-order兼容导出、三个回归测试的四页增量计数；本次只维护review-decisions的构建依赖关联hash，原教学/音频对象深比较一致。新增本轮验收报告/证据，更新TASKS/PROGRESS和HF04增量说明。原11月12日面包屑与个人未跟踪文件保留。
+- **最终验证**：201/201测试，0fail/skip/cancel；生产3606文件、417英文页、SEO errors=[]/Sitemap408；标题52–56/描述154–159字符，四个规定正文篇幅达标、八字每段200–280词。Chrome157下五页×五档宽度共25档无溢出、10次全页axe零违规；查询永/长、非法/未知输入、旧char兼容、播放互斥/暂停/慢放/逐笔、键盘描红/清除、强制资源失败与重试、单笔播放、筛选重置、三种嵌入/复制、真实PDF下载、单字iframe/noindex、五页无JS/锚点和减少动态通过；额外720CSSpx等效缩放布局五页通过。A4/Letter全部10页Poppler渲染与目视通过。Wrangler4.156.0仅本机27项HTTP通过：五页200、五条301保留query、未知路径/单字404、PDF/GIF/SVG字节与类型正确。两次3606文件构建逐字节一致。
+- **保全证据**：与 `/private/tmp/hanzifun-breadcrumbs-2026-11-12` 全量比较：3182原文件逐字节一致，仅原笔顺页及4个构建/路由清单改变；新增419，无缺失。全部339字页、旧中文与故事媒体、Blog、Tools输出保持，未进行故事制作或重新视听验收。详见 `evidence/stroke-topic-2026-11-13/{static-verification,browser-verification,http-verification,preservation,determinism,media-verification,test-verification}.json` 和 `STROKE-TOPIC-VERIFICATION-2026-11-13.md`。
+- **边界**：未commit/push/部署；build的历史releaseId仍是旧生产配置，本次按独立证据批次与产物hash识别，发布时再冻结新releaseId。没有Safari/Firefox/真机/真人读屏或真实p75承诺；Google线上RichResults/GSC4–6周趋势、第三方视频分发属于发布后的独立动作，未创建自动化或发帖。
+- **下一Agent精确入口**：先读本记录、TASKS及本轮验收报告；本地预览 `http://127.0.0.1:8794/stroke-order/`（Wrangler仅本机，关闭/重启后需重开）；候选 `/private/tmp/hanzifun-stroke-topic-candidate`，生成入口 `site/pages/stroke-topic.mjs`，数据源 `data/stroke-order/catalog.json`。如Owner要求发布，保留面包屑后按HF17/18为当前源码创建新候选/回滚/授权发布证据，不沿用11月3日冻结包，也不要重做五页或批量新增单字页。87缺字/HSK后续与Phase3不在本轮范围。
+
+
+### [记录56] - 主页面七条浏览器批注与查字模块前移（By Codex，2026-11-13）
+
+- **Owner要求**：替换主页面首屏英文为指定五条理由且最后整句加粗，左2/3正文、右1/3田字格自动写“我”，下附拼音/意义；删除主页面署名；基础介绍改为建房比喻并链接两个子页、删除旧第二段；复合笔画入口按钮化；规则标题下加指定按钮、删除七行探索链接；查字模块提前到基础介绍前。自动整字演示是Owner明确后续修订，覆盖原主页面不播整字的旧限定。
+- **交付**：桌面2:1/手机堆叠；锁定源七笔SVG+medians逐笔渐进、9秒循环，有真实暂停/继续、标签隐藏暂停；减少动态/无JS/打印显示完整静态字形。查字→基础介绍→七规则的正文与导航顺序一致，查字原逻辑保持。只删除主页面可见署名，Article组织作者仍保留，其他四页署名验证保持。
+- **修改文件**：`content/stroke-order/prose.json`；`site/pages/stroke-topic.mjs`、`site/components/stroke-topic.mjs`、`site/stroke-topic-meta.mjs`、`site/public/stroke-topic.css`、`src/client/stroke-topic.mjs`；`scripts/validate-seo-quality.mjs`、`scripts/verify-stroke-topic{,-browser,-http}.mjs`（按Owner调整署名/顺序契约、自动演示交互验证、证据目录环境参数）；本记录、TASKS、HF04任务说明、STROKE-TOPIC-VERIFICATION及新增修订证据。未修改来源数据/PDF/旧站或故事。
+- **实际验证**：201/201测试；生产构建3606文件，417英文页、408 Sitemap、SEO通过；五页×5档共25档布局/10次全页axe零违规，另五页720px通过；新演示自动启动/七笔/暂停保持/继续、2:1/手机堆叠、两按钮跳转、无JS/减少动态通过，原查字/播放器/下载/嵌入回归通过。Wrangler本地27项HTTP通过；内置浏览器已刷新可见新版并保留主标签。
+- **保全与证据**：修订前3606文件比较，仅 `stroke-order/index.html`、`site-assets/stroke-topic/topic.v1.css`、`site-assets/stroke-topic/topic.v1.mjs` 三文件改变，3603文件相同，包括四子页HTML。新证据在 `evidence/stroke-topic-hub-revision-2026-11-13/`（static/browser/http/preservation/test报告和桌面/手机截图），旧批次证据保留。原码备份和前次候选manifest在 `.cache/stroke-topic-hub-revision-2026-11-13/`。未把历史双构建检查当成本轮重跑。
+- **遗留与下一Agent精确入口**：本轮请求无未完成项。先读本记录、TASKS和验收末尾修订节；主页面源码入口 `site/pages/stroke-topic.mjs`，文案 `content/stroke-order/prose.json`，自动演示组件 `heroStrokeDemo`。预览 `http://127.0.0.1:8794/stroke-order/`，候选仍为 `/private/tmp/hanzifun-stroke-topic-candidate`；临时目录/服务失效需重新构建与启动。未commit/push/部署；若Owner要求发布，按HF17/18为当前修订另行冻结发布候选，不能复用记录55旧hash。其他87缺字/HSK/Phase3范围不变。
+
+
+### [记录57] - 笔画计数全文、三字文字框与模块前移（By Codex，2026-11-13）
+
+- **Owner要求与交付**：将计数模块全文替换为指定英文、标题含“汉字笔画数”，保留“一笔=不抬笔的连续动作”及口字转折说明；一/十/口三个文字框横向展示1/2/3笔、yī · One / shí · Ten / kǒu · Mouth。整个计数模块移到查字工具下、基础笔画介绍上。页内导航同步；三个框在手机上也横排。
+- **修改文件**：`content/stroke-order/prose.json`、`site/pages/stroke-topic.mjs`、`site/public/stroke-topic.css`、`scripts/verify-stroke-topic.mjs`（更新区块顺序契约）；本记录、TASKS、HF04任务末尾与主题簇验收末尾；新增 `evidence/stroke-counting-revision-2026-11-13/` 静态/浏览器报告和390/1440截图。临时验证脚本、源码备份和本轮前3606文件hash在 `.cache/stroke-counting-revision-2026-11-13/`。
+- **实际验证**：生产构建3606文件，主题簇静态/全站SEO校验PASS；Chrome157在360/390/768/1100/1440宽度均三框同排、无页面或卡片溢出，390/1440全页axe均零违规，主页面前三模块顺序与可见文字核对通过。内置浏览器已刷新并定位 `http://127.0.0.1:8794/stroke-order/#counting`，主标签保留。对照本轮前3606产物，仅主页面HTML与主题CSS改变，其他3604文件相同。此轮文案/样式修改未重复201项全套测试，前次201/201是记录56历史验证。
+- **遗留与下一Agent入口**：本次请求无未完成项，未commit/push/部署。当前顺序以本记录为准；后续仍从 `site/pages/stroke-topic.mjs` / `content/stroke-order/prose.json` 接续，预览候选仍为 `/private/tmp/hanzifun-stroke-topic-candidate`。如发布按HF17/18另行冻结，不能复用先前修订的hash。首屏“我”自动田字格及四子页成果保持。
+
+
+### [记录58] - 四字范例前移及标题旁按钮（By Codex，2026-11-13）
+
+- **Owner要求与交付**：把原Four characters to look at more closely模块放在查字工具下面、基础笔画介绍上面；标题改为Chinese Stroke Order Examples，标题旁添加find out more按钮，跳转 `/stroke-order/examples/`。现有我/永/国/好卡片、字数/拼音/意义及单字锚点不变。最终前四模块为lookup→examples→counting→overview，页内导航同步；此前计数模块仍在基础介绍前。
+- **修改文件**：`site/pages/stroke-topic.mjs`（移动模块、标题/CTA、可选标题操作区）、`site/public/stroke-topic.css`（标题/按钮同排与窄屏换行）、`scripts/verify-stroke-topic.mjs`（最新顺序、合法examples目录链接）；TASKS/PROGRESS、HF04任务末尾与主题簇验收末尾；新增 `evidence/stroke-examples-revision-2026-11-13/`。备份/3606产物旧hash/临时浏览器检查在 `.cache/stroke-examples-revision-2026-11-13/`。
+- **实际验证**：生产构建3606文件，主题簇静态与全站SEO检查PASS；Chrome157在360/390/768/1100/1440宽度无溢出、按钮可见，390/1440两次全页axe零违规；真实点击find out more抵达examples子页，四卡与前四模块顺序核对通过。仅主HTML与主题CSS两产物变化，3604其他文件逐字节相同。未重复全套201项测试，既有201/201仍为记录56的历史结果。
+- **遗留与下一Agent入口**：本次请求完成，内置浏览器已刷新并定位 `http://127.0.0.1:8794/stroke-order/#examples`，主标签保留。代码入口仍为 `site/pages/stroke-topic.mjs`，候选 `/private/tmp/hanzifun-stroke-topic-candidate`；当前顺序以本记录为准。未commit/push/部署。发布继续按HF17/18为最终源码另行冻结，不复用前次产物hash；数据/PDF/首屏自动田字格和四子页HTML保持。
+
+
+### [记录59] - 主页面七项内容精简、介绍框与来源收起（By Codex，2026-11-13）
+
+- **Owner要求与交付**：①删除首屏Pause按钮，下附指定“我”释义/我爱你圆角文字框；②导航去掉Worked examples/Counting strokes/Seven guidelines/Questions，只保留Character lookup、Stroke families、Free worksheets；③删除整个Find your next small step/path模块；④概念标题与正文替换为指定四术语简明说明；⑤练习标题为Practice Writing Chinese Characters，替换为指定介绍、5步及Tip，保留实际A4/Letter下载；⑥来源正文含原引用完整放入原生details，默认收起；⑦替换为指定五组FAQ并同步FAQPage。先前查字→四字范例→计数→基础笔画介绍顺序保持。
+- **动画决定**：已向Owner说明移除控制按钮后进入页面自动播一遍并停留完整字形。七笔使用原锁定轮廓/median，4.8秒单次动画，结束完整静态；标签隐藏暂停，减少动态/无JS/打印仍显示全字。无新增控制按钮、账号或外部服务。
+- **Owner优先的验收调整**：指定删减及新文案令主页面变为1391英文词；不再用最初1500词下限填字，保留2500上限与实际内容/章节/数据验证。FAQ由6改5；静态验收改为只统计FAQ区details，避免把新来源折叠误计入FAQ。其他四页篇幅/FAQ要求不变。
+- **修改文件**：`content/stroke-order/prose.json`；`site/pages/stroke-topic.mjs`、`site/components/stroke-topic.mjs`、`site/public/stroke-topic.css`、`src/client/stroke-topic.mjs`；`scripts/verify-stroke-topic.mjs`、`scripts/verify-stroke-topic-browser.mjs`（新FAQ/篇幅与章节契约、单次完整动画验证）；TASKS/PROGRESS、HF04任务与主题簇验收末尾；新增 `evidence/stroke-copy-revision-2026-11-13/`。备份/本轮前3606文件hash与临时新功能检查在 `.cache/stroke-copy-revision-2026-11-13/`。
+- **实际验证**：201/201测试，3606文件生产构建、417英文页/408 Sitemap、静态/SEO PASS；五页25档布局/10次全页axe零违规，另五页720px通过。七笔自动播放且结束全字、无按钮、来源默认关/Enter开关/全部六条引用/无JS可开、五FAQ键盘交互、五步练习、三导航与path不存在均通过；旧查字/播放器/描红/故障重试/下载/嵌入回归通过。Wrangler本地27项HTTP通过。新介绍/练习/来源390/1097/1440截图已保存，内置浏览器刷新到圆角介绍框且主标签保留。
+- **保全与证据**：本轮前3606产物对比仅 `stroke-order/index.html`、`site-assets/stroke-topic/topic.v1.css`、`site-assets/stroke-topic/topic.v1.mjs` 改变，另外3603文件相同，包括全部四子页HTML/字典/数据/PDF。新证据目录含static/browser/http/revision/test报告和截图；旧批次证据与旧文案是历史状态，不代表现主页面。
+- **遗留与下一Agent入口**：本次七项请求无未完成项，未commit/push/部署。先读本记录、TASKS及验收末尾；主页面入口 `site/pages/stroke-topic.mjs`、文案 `content/stroke-order/prose.json`、介绍/动画组件 `heroStrokeDemo`、客户端初始化 `src/client/stroke-topic.mjs`。预览仍为 `http://127.0.0.1:8794/stroke-order/`，候选 `/private/tmp/hanzifun-stroke-topic-candidate`；当前范围以Owner最新批注与本记录为准。后续发布按HF17/18重新冻结候选与hash，不复用记录55～50旧hash。
+
+
+### [记录60] - 五项排版修正与计数模块后移（By Codex，2026-11-13）
+
+- **Owner要求与交付**：三个导航按钮对齐；五理由字号及行距稍减；删去查字提示中的“340 characters in this collection”；计数标题不在桌面折行、中文备注小字；计数模块移动至Seven guidelines后。现顺序lookup→examples→overview→rules→counting→concepts→practice→sources→faq。
+- **实现**：通用 `.st-article li+li` 的margin-top使导航后两项偏低，增加仅主页面导航li margin清零及居中对齐；理由桌面16.4px/30.34px变为15.6px/27.3px（字号/实际行高），手机14.8px；查字提示只保留“Enter one Chinese character. Results stay on this page.”，340条真实数据保留；计数标题取消34ch限制，中文及括号整体字号60%且不拆，桌面单行，窄手机按可用宽度正常换行不溢出。
+- **修改文件**：`site/pages/stroke-topic.mjs`、`site/public/stroke-topic.css`、`scripts/verify-stroke-topic.mjs`（最新模块顺序）；TASKS/PROGRESS、HF04任务及主题簇验收末尾；新增 `evidence/stroke-layout-revision-2026-11-13/` 静态/浏览器报告与header/navigation/counting的390/1440截图。原文件备份、3606产物hash与临时浏览器检查在 `.cache/stroke-layout-revision-2026-11-13/`。
+- **实际验证**：生产构建3606文件、静态/SEO PASS；Chrome157在360/390/768/801/850/1097/1440七档均无溢出、三导航按钮顶部/高度相同，768及以上计数标题实际一行、中文小字；390/1440两次全页axe零违规。查字提示及模块完整顺序核对通过。对比修订前仅主HTML和主题CSS改变，3604其他文件相同。此轮小幅排版未重跑201项全套测试，记录59的201/201为上一轮结果。
+- **遗留与下一Agent入口**：五项请求完成；内置浏览器已刷新至 `/stroke-order/#counting`，主标签保留。未commit/push/部署。继续从 `site/pages/stroke-topic.mjs` 和 `site/public/stroke-topic.css` 接手，候选仍为 `/private/tmp/hanzifun-stroke-topic-candidate`，预览为 `http://127.0.0.1:8794/stroke-order/`。当前顺序以本记录为准，先前计数在overview前的记载为历史，发布按HF17/18重新冻结候选与hash。
+
+
+### [记录61] - 七规则米字格与首屏“我”两秒间隔循环（By Codex，2026-11-13）
+
+- **Owner请求与交付**：参考附件双列卡片，在主页面每条现有规则右侧添加米字格，自动写对应汉字，写完间隔2秒循环；后续明确首屏“我”也采用相同两秒循环。七规则依次为二（2笔）、川（3）、十（2）、人（2）、月（4）、国（8）、小（3），不新增第八条规则。桌面≥1000px双列卡片，小屏单列，每张卡内米字格始终在说明右侧。左到右的主页面简述扩为strokes and side-by-side components，以对应川的笔画示例。
+- **数据与时序**：八套图复用现有340字集合、锁定SHA的Hanzi Writer轮廓与median，不新增路由/字典数据/媒体下载文件。统一SVG组件每笔600ms，完整字保持2000ms后重新从第1笔画；我4200+2000ms，国4800+2000ms，其他按笔数计算。首屏仍为田字格，七规则为含横竖斜线的米字格。提供figure悬停/键盘焦点暂停，离开恢复；标签隐藏暂停；减少动态/无JS/打印显示完整静态字形，无新按钮。此处Owner明确循环覆盖记录59的4.8秒单次决定。
+- **修改文件**：`site/components/stroke-topic.mjs`（共享循环SVG、七规则映射与组件、更新首屏）、`site/pages/stroke-topic.mjs`（七卡图文）、`site/public/stroke-topic.css`（双列/窄屏卡片、循环/焦点暂停）、`src/client/stroke-topic.mjs`（初始化八套loop）、`scripts/verify-stroke-topic-browser.mjs`（首屏循环而非单次契约）；TASKS/PROGRESS、HF04任务和主题簇验收末尾；新增 `evidence/stroke-rule-animation-2026-11-13/`。备份/旧产物hash/逐帧验证脚本与日志在 `.cache/stroke-rule-animation-2026-11-13/`。
+- **实际验证**：201/201测试、生产3606文件/全站SEO静态PASS、417英文页/408 Sitemap；五页25档/10次全页axe零违规及额外720px五页通过，旧查询/播放器/描红/失败重试/下载/嵌入保持。逐个比较八字SVG轮廓/median与锁定源，核验每笔600ms、最后一笔未完成/完整字保持开始/保持第1990ms/下一周期重启的真实Web Animation时间轴；焦点暂停/恢复在新页面独立验证（逐帧seek后的人工WAAPI状态先清除，避免误测CSS）。新增360/390/664/768/999/1000/1097/1440八档，无溢出、七格均在说明右侧；减少动态/无JS完整静态通过。Wrangler本地27项HTTP通过。
+- **证据与保全**：新目录含static/browser/http/animation/test报告和390/1097/1440规则/首屏截图。对比本轮前3606产物，仅主HTML、主题CSS/JS三产物改变，其余3603相同，包括四子页HTML、字典/来源数据/PDF。rules子页仍为关键局部阶段图，本轮只改选中的主页面七规则区域。内置浏览器已刷新至 `/stroke-order/#rules` 并保留主标签。
+- **遗留与下一Agent入口**：两项请求全部完成，未commit/push/部署。先读本记录、TASKS和验收末尾；共享动画入口 `loopingStrokeSvg` / `heroStrokeDemo` / `ruleStrokeDemo` 在 `site/components/stroke-topic.mjs`，根页渲染 `site/pages/stroke-topic.mjs`，初始化 `src/client/stroke-topic.mjs`。预览 `http://127.0.0.1:8794/stroke-order/`，候选 `/private/tmp/hanzifun-stroke-topic-candidate`。当前动画行为以Owner最新循环要求为准；生产发布继续按HF17/18重新冻结当前源码，不复用旧hash。

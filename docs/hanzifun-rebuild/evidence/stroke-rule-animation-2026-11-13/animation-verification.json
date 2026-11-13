@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "animations": [
+    {
+      "glyph": "我",
+      "strokes": 7,
+      "drawMs": 4200,
+      "holdMs": 2000,
+      "sourceOutlinesAndMedians": "match locked source",
+      "cycleVerified": true
+    },
+    {
+      "glyph": "二",
+      "strokes": 2,
+      "drawMs": 1200,
+      "holdMs": 2000,
+      "sourceOutlinesAndMedians": "match locked source",
+      "cycleVerified": true
+    },
+    {
+      "glyph": "川",
+      "strokes": 3,
+      "drawMs": 1800,
+      "holdMs": 2000,
+      "sourceOutlinesAndMedians": "match locked source",
+      "cycleVerified": true
+    },
+    {
+      "glyph": "十",
+      "strokes": 2,
+      "drawMs": 1200,
+      "holdMs": 2000,
+      "sourceOutlinesAndMedians": "match locked source",
+      "cycleVerified": true
+    },
+    {
+      "glyph": "人",
+      "strokes": 2,
+      "drawMs": 1200,
+      "holdMs": 2000,
+      "sourceOutlinesAndMedians": "match locked source",
+      "cycleVerified": true
+    },
+    {
+      "glyph": "月",
+      "strokes": 4,
+      "drawMs": 2400,
+      "holdMs": 2000,
+      "sourceOutlinesAndMedians": "match locked source",
+      "cycleVerified": true
+    },
+    {
+      "glyph": "国",
+      "strokes": 8,
+      "drawMs": 4800,
+      "holdMs": 2000,
+      "sourceOutlinesAndMedians": "match locked source",
+      "cycleVerified": true
+    },
+    {
+      "glyph": "小",
+      "strokes": 3,
+      "drawMs": 1800,
+      "holdMs": 2000,
+      "sourceOutlinesAndMedians": "match locked source",
+      "cycleVerified": true
+    }
+  ],
+  "layouts": [
+    {
+      "width": 360,
+      "columns": 1,
+      "allSevenGridsOnRight": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "columns": 1,
+      "allSevenGridsOnRight": true,
+      "overflow": false
+    },
+    {
+      "width": 664,
+      "columns": 1,
+      "allSevenGridsOnRight": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "columns": 1,
+      "allSevenGridsOnRight": true,
+      "overflow": false
+    },
+    {
+      "width": 999,
+      "columns": 1,
+      "allSevenGridsOnRight": true,
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "columns": 2,
+      "allSevenGridsOnRight": true,
+      "overflow": false
+    },
+    {
+      "width": 1097,
+      "columns": 2,
+      "allSevenGridsOnRight": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "columns": 2,
+      "allSevenGridsOnRight": true,
+      "overflow": false
+    }
+  ],
+  "checks": [
+    "All eight loops use verified outlines and medians; 600 ms per stroke plus an exact 2000 ms completed-glyph hold; focus pauses and leaving focus resumes without a button",
+    "Reduced-motion and JavaScript-disabled views show complete static source characters"
+  ],
+  "preservation": {
+    "compared": 3606,
+    "unchanged": 3603,
+    "changed": [
+      "site-assets/stroke-topic/topic.v1.css",
+      "site-assets/stroke-topic/topic.v1.mjs",
+      "stroke-order/index.html"
+    ]
+  }
+}

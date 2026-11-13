@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "date": "2026-11-13",
+  "method": "Poppler renders of all 10 final pages; contact sheet and individual pages visually inspected",
+  "files": [
+    {
+      "path": "public/stroke-topic/practice-a4.pdf",
+      "pages": 5,
+      "sha256": "c7f31ff803982b36b4b176db5b7d119c9ef42f121ccfe2bb1757d946b1176d68",
+      "textLengths": [
+        549,
+        692,
+        700,
+        694,
+        695
+      ],
+      "pageSize": [
+        595.2756,
+        841.8898
+      ]
+    },
+    {
+      "path": "public/stroke-topic/practice-letter.pdf",
+      "pages": 5,
+      "sha256": "eeee7f93343df5e5a3e1c49c04fa420ce19d3db913392ea1f84bc215d6316237",
+      "textLengths": [
+        549,
+        692,
+        700,
+        694,
+        695
+      ],
+      "pageSize": [
+        612.0,
+        792.0
+      ]
+    }
+  ],
+  "gifs": [
+    {
+      "path": "public/stroke-topic/gif/4e2d.gif",
+      "frames": 5,
+      "size": [
+        192,
+        192
+      ],
+      "sha256": "6df1e2d35a0f53a56e5424094384728db4c4f672ac1e413009810d7baec1e73b"
+    },
+    {
+      "path": "public/stroke-topic/gif/4f60.gif",
+      "frames": 8,
+      "size": [
+        192,
+        192
+      ],
+      "sha256": "3c2aad5e2c8fef2b89d79046c15358eb66bcf08ed19c0989dba66aa2c31a0725"
+    },
+    {
+      "path": "public/stroke-topic/gif/56fd.gif",
+      "frames": 9,
+      "size": [
+        192,
+        192
+      ],
+      "sha256": "2b196185efaf5d4b712441a6139749aec8a00393fcb091b6ffa0789e1a04628b"
+    },
+    {
+      "path": "public/stroke-topic/gif/597d.gif",
+      "frames": 7,
+      "size": [
+        192,
+        192
+      ],
+      "sha256": "84d78160281e26ee689f24e8c666c9bd09cbed4c9b931820b6e88d609602bee6"
+    },
+    {
+      "path": "public/stroke-topic/gif/5b66.gif",
+      "frames": 9,
+      "size": [
+        192,
+        192
+      ],
+      "sha256": "44d5b04b188a1901366c31e9c04e047873f37ddf1ee870e899beb8e9484b3773"
+    },
+    {
+      "path": "public/stroke-topic/gif/6211.gif",
+      "frames": 8,
+      "size": [
+        192,
+        192
+      ],
+      "sha256": "40b242b89a6d71be1f5feb34b1fa34ec97c5c000e5234d329c25291bd0c53407"
+    },
+    {
+      "path": "public/stroke-topic/gif/662f.gif",
+      "frames": 10,
+      "size": [
+        192,
+        192
+      ],
+      "sha256": "427d63f034550e17400032345f5f44ad03541f74f6f92e5408597e4186201a2e"
+    },
+    {
+      "path": "public/stroke-topic/gif/6c38.gif",
+      "frames": 6,
+      "size": [
+        192,
+        192
+      ],
+      "sha256": "ab6887b22297313c266b26be46a797eb6bcb2d983f7a246ddd1d6d3da93e5963"
+    }
+  ]
+}

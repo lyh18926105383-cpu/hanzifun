@@ -417,7 +417,11 @@
     "/worksheets/classroom/": "published",
     "/blog/mid-autumn-festival-chinese-characters/": "published",
     "/blog/chinese-for-your-first-business-visit/": "published",
-    "/blog/first-characters-for-bilingual-kids/": "published"
+    "/blog/first-characters-for-bilingual-kids/": "published",
+    "/stroke-order/basic-strokes/": "published",
+    "/stroke-order/rules/": "published",
+    "/stroke-order/examples/": "published",
+    "/stroke-order/animation/": "published"
   },
   "patterns": {
     "/kids/stories/{slug}/": "published",

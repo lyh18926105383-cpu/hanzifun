@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-13",
+  "method": "Manual connected-Chrome Google search. hl=en, gl=us. Ten distinct organic h3 result links in observed order, supplementary page used where first page included images/video/PAA instead of ten organic cards. Personalized search surface; not a universal rank claim. No search volume measured.",
+  "primary": [
+    "https://www.strokeorder.com/",
+    "https://www.hanzistroke.com/",
+    "https://play.google.com/store/apps/details?id=com.hhll.textsequence&hl=en_US",
+    "https://www.hanzi.guide/",
+    "https://www.macalaoshi.com/en/guides/chinese-stroke-order-rules",
+    "https://stroke-order.learningweb.moe.edu.tw/?la=1",
+    "https://www.chinesehideout.com/tools/strokeorder/index.php?c=%E4%BD%A0%E5%A5%BD",
+    "https://www.archchinese.com/chinese_stroke_order_rules.html",
+    "https://apps.apple.com/us/app/chinese-stroke-order-character/id937140477",
+    "https://www.reddit.com/r/ChineseLanguage/comments/1c4m8l1/does_stroke_order_really_matter/"
+  ],
+  "characterStrokes": [
+    "https://www.strokeorder.com/",
+    "https://www.hanzistroke.com/",
+    "https://play.google.com/store/apps/details?id=com.hhll.textsequence&hl=en_US",
+    "https://en.wikipedia.org/wiki/Chinese_character_strokes",
+    "https://stroke-order.learningweb.moe.edu.tw/?la=1",
+    "https://www.archchinese.com/chinese_stroke_order_rules.html",
+    "https://forlang.fsa.mtsu.edu/hanzi/stroke/",
+    "https://www.hanzi.guide/",
+    "https://www.hanzistroke.com/blog/basic-strokes",
+    "https://www.chinaeducenter.com/en/learnchinese/strokeorder1.php"
+  ],
+  "exactSharedUrls": [
+    "https://play.google.com/store/apps/details?id=com.hhll.textsequence&hl=en_US",
+    "https://stroke-order.learningweb.moe.edu.tw/?la=1",
+    "https://www.archchinese.com/chinese_stroke_order_rules.html",
+    "https://www.hanzi.guide/",
+    "https://www.hanzistroke.com/",
+    "https://www.strokeorder.com/"
+  ],
+  "sharedCount": 6,
+  "overlap": 0.6,
+  "decision": "Single /stroke-order/ hub; no character-strokes page. A handles the basic-stroke educational sub-intent.",
+  "animation": [
+    "https://www.archchinese.com/animated_character_link_generator.html",
+    "http://www.strokeorder.info/",
+    "https://hanziwriter.org/",
+    "https://forlang.fsa.mtsu.edu/hanzi/stroke/",
+    "https://www.youtube.com/playlist?list=PLxNJYDUd5O-AI796uLQdQQ1tjKQqWk00w",
+    "https://www.thepurelanguage.com/StrokeOrder",
+    "https://www.eon.com.hk/estroke/",
+    "https://www.silkstory.net/en/?lang=EN",
+    "https://www.reddit.com/r/ChineseLanguage/comments/oe2mpv/animation_apps_for_learning_chinese_characters/",
+    "https://www.davidpublisher.com/index.php/Home/Article/index?id=25401.html"
+  ],
+  "animationType": "Mixed. Leading results include embedding tool, GIF archive and JS library; images/video also visible. Owner subsequently explicitly requests all five pages. D is a separate reusable media/download/embed resource and batch preview, not another copy of E teaching players.",
+  "rulesResults": [
+    "https://www.archchinese.com/chinese_stroke_order_rules.html",
+    "https://studycli.org/chinese-characters/chinese-stroke-order/",
+    "https://www.mandarinblueprint.com/blog/chinese-stroke-order/",
+    "https://en.wikipedia.org/wiki/Stroke_order",
+    "https://www.macalaoshi.com/en/guides/chinese-stroke-order-rules",
+    "https://stroke-order.learningweb.moe.edu.tw/page.jsp?ID=46&la=1",
+    "https://blog.tutorabcchinese.com/chinese-learning-tips/7-basic-rules-to-chinese-stroke-order"
+  ],
+  "rulesDecision": "Dedicated instructional intent visible; retain B under Owner five-page requirement, without claiming measured keyword volume."
+}

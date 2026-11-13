@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "baseline": "/private/tmp/hanzifun-breadcrumbs-2026-11-12",
+  "candidate": "/private/tmp/hanzifun-stroke-topic-candidate",
+  "unchanged": 3182,
+  "changed": [
+    "_redirects",
+    "content-manifest.json",
+    "route-manifest.json",
+    "sitemap.xml",
+    "stroke-order/index.html"
+  ],
+  "added": 419,
+  "missing": [],
+  "characterPages": 339,
+  "otherDictionaryIndexPages": 4,
+  "note": "All original dictionary, Chinese/story, Blog and Tools output bytes preserved; no story production or media review performed."
+}

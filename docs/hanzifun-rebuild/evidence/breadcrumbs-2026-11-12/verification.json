@@ -1,0 +1,329 @@
+{
+  "date": "2026-11-12",
+  "build": "/private/tmp/hanzifun-breadcrumbs-2026-11-12",
+  "staticPages": 413,
+  "breadcrumbPages": 411,
+  "links": 832,
+  "layouts": [
+    {
+      "route": "/dictionary/水/",
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/水/",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/flashcards/decks/first-six/",
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/flashcards/decks/first-six/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/flashcards/decks/first-six/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/flashcards/decks/first-six/",
+      "width": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/flashcards/decks/first-six/",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/blog/",
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/blog/",
+      "width": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 1100,
+      "scroll": 1100
+    },
+    {
+      "route": "/worksheets/family/",
+      "width": 1440,
+      "scroll": 1440
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "/dictionary/水/",
+      "violations": []
+    },
+    {
+      "route": "/dictionary/pinyin/",
+      "violations": []
+    },
+    {
+      "route": "/academic/hsk-2/level-2/",
+      "violations": []
+    },
+    {
+      "route": "/scenarios/travel/restaurant/",
+      "violations": []
+    },
+    {
+      "route": "/flashcards/decks/first-six/",
+      "violations": []
+    },
+    {
+      "route": "/blog/",
+      "violations": []
+    },
+    {
+      "route": "/blog/mid-autumn-festival-chinese-characters/",
+      "violations": []
+    },
+    {
+      "route": "/tools/chinese-name-generator/",
+      "violations": []
+    },
+    {
+      "route": "/worksheets/family/",
+      "violations": []
+    }
+  ],
+  "checks": [
+    "Every generated English page: exactly one complete breadcrumb except home/404, one non-link current item, all parent links resolve, all names/positions/URLs match JSON-LD.",
+    "Keyboard Enter follows the parent link; returnTo query does not enter the canonical hierarchy.",
+    "No-JavaScript breadcrumbs remain visible, wrap long article titles at 360px and navigate to Blog; print hides breadcrumbs."
+  ],
+  "errors": [],
+  "limitations": [
+    "Local Chrome desktop emulation; not Safari, Firefox, physical mobile or a spoken screen-reader audit.",
+    "No production deployment or Git push."
+  ],
+  "browser": "157.0.8103.50",
+  "status": "PASS",
+  "tests": {
+    "command": "npm test",
+    "tests": 201,
+    "pass": 201,
+    "fail": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "productionBuild": {
+    "command": "HF_BUILD_OUTPUT_DIR=/private/tmp/hanzifun-breadcrumbs-2026-11-12 npm run build:production",
+    "files": 3187
+  },
+  "seo": {
+    "pages": 413,
+    "corePages": 365,
+    "sitemapUrls": 404,
+    "errors": []
+  },
+  "sourceFiles": [
+    {
+      "file": "site/components/breadcrumbs.mjs",
+      "sha256": "9f6291afc42a5e46fe0399bc1208cb0b6dd60bc679cd98cebeca20b7e2c64f08"
+    },
+    {
+      "file": "site/public/breadcrumbs.css",
+      "sha256": "5c89ead6cb88420e6872b23e51922e9eda41a748b63ef4eb23841d8697f42e41"
+    },
+    {
+      "file": "scripts/build-site.js",
+      "sha256": "a99c7bee98beccf6ed883aff2b98d7e012b3d6623f0919bec58ee0337308dd1e"
+    },
+    {
+      "file": "site/layouts/base.html",
+      "sha256": "3f382254e91bf251081a7d0be3bd27bb92b0d15a1f7915c63c63a99b41843af8"
+    },
+    {
+      "file": "site/seo.mjs",
+      "sha256": "3b53ed083da783687c76558e89af7b90d3e9ff6751ba44cd8c5563ae30124ee2"
+    },
+    {
+      "file": "data/editorial/review-decisions.json",
+      "sha256": "8e2ff6ad1ba768e95f249c73e6ac96c484e22a98d4f10bbcd8e0e50a7933d10a"
+    }
+  ],
+  "reviewDecisions": "Teaching and audio review decisions deep-equal HEAD; only character presentation source-hash maintenance recorded."
+}

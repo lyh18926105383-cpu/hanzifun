@@ -76,7 +76,7 @@ function routeFilePath(pathname) {
 }
 
 function assertLocalReferences(html, pagePath) {
-    const reference = /\b(?:href|src|action)="([^"]+)"/g;
+    const reference = /\s(?:href|src|action)="([^"]+)"/g;
     for (const match of html.matchAll(reference)) {
         const raw = match[1];
         if (!raw || raw.startsWith('#') || raw.startsWith('mailto:') || raw.startsWith('tel:') ||
@@ -121,6 +121,7 @@ function htmlForPage(layout, page, route, header, footer) {
         .replaceAll('{{content}}', page.content)
         .replaceAll('{{footer}}', page.footerHtml ?? page.footer ?? footer());
     html = replacePrototypeAssets(html);
+    if(page.strokeTopic)html=html.replace('<title>'+escapeHtml(page.title)+' · HanziFun</title>','<title>'+escapeHtml(page.title)+'</title>');
     if ((html.match(/<h1(?:\s|>)/gi) || []).length !== 1) {
         throw new Error('Expected exactly one H1 on ' + page.path);
     }
@@ -236,6 +237,8 @@ async function buildSite() {
 
 
     const seo = await import('../site/seo.mjs');
+    const {withBreadcrumbs} = await import('../site/components/breadcrumbs.mjs');
+    fs.copyFileSync(path.join(siteRoot, 'public/breadcrumbs.css'), path.join(outputRoot, 'site-assets/breadcrumbs.v1.css'));
     const environment = seo.buildEnvironment();
     const home = fs.readFileSync(path.join(siteRoot, 'pages/home.html'), 'utf8').replace('{{journal}}', editorial.guideCards()+workflow.articleCards(environment));
     const prototypePages = [
@@ -253,13 +256,15 @@ async function buildSite() {
     const hf07 = await import('../site/hsk-data.mjs');
     const tools = await import('../site/tools-integration.mjs');
     const integratedTools = tools.integrationPages();
+    const {strokeTopicPages}=await import('../site/pages/stroke-topic.mjs');
+    const strokePages=strokeTopicPages();
     const {learningData} = await import('../site/learning-data.mjs');
     const learningLibrary=learningData();
     const manifest = routesModule.buildRouteManifest({
         prototypePaths,
         characters: coreChars,
         additionalCharacters: hf07.lexicon.characters.map(c=>c.glyph),
-        additionalPaths: [...integratedTools.map(p=>p.path),...workflow.worksheetPages().map(p=>p.path),...editorial.guides.map(g=>g.path),...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
+        additionalPaths: [...strokePages.map(p=>p.path),...integratedTools.map(p=>p.path),...workflow.worksheetPages().map(p=>p.path),...editorial.guides.map(g=>g.path),...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
         contract: routesModule.routeContract,
         release: routesModule.releaseConfig,
     });
@@ -280,14 +285,13 @@ async function buildSite() {
     const {assertCharacterPresentation}=await import('../site/character-presentation-review.mjs');
     assertCharacterPresentation();
     const { dictionaryPages, sourcePage } = await import('../site/pages/dictionary.mjs');
-    const { strokeOrderPage } = await import('../site/pages/stroke-order.mjs');
     const { pinyinChartPage } = await import('../site/pages/pinyin-chart.mjs');
     const { staticStrokeSvg, completeGlyphSvg } = await import('../site/components/stroke-order.mjs');
     const {hskPages,additionalCharacterPages} = await import('../site/pages/hsk.mjs');
     const {scenarioPages} = await import('../site/pages/scenarios.mjs');
     const pronunciation = await import('../site/pronunciation.mjs');
     [...hskPages(),...additionalCharacterPages(),...scenarioPages()].forEach(page=>pages.set(page.path,page));
-    const hf04Pages = [...dictionaryPages(), sourcePage(), strokeOrderPage(), pinyinChartPage()];
+    const hf04Pages = [...dictionaryPages(), sourcePage(), ...strokePages, pinyinChartPage()];
     hf04Pages.forEach(page => pages.set(page.path, page));
     [starter100Page(),...trustPages(),...editorial.editorialPages(),...workflow.worksheetPages(),...workflow.editorialContent.articles.map(a=>workflow.articlePage(a,{environment}))].forEach(page=>pages.set(page.path,page));
     for(const [routePath,page] of pages) {
@@ -302,6 +306,9 @@ async function buildSite() {
         fs.writeFileSync(destination, typeof value === 'string' || Buffer.isBuffer(value) ? value : JSON.stringify(value) + '\n');
     };
     writePublic('blog/feed.xml', blogFeed(editorial.guides, routesModule.releaseConfig.siteOrigin));
+    fs.cpSync(path.join(projectRoot,'public/stroke-topic'),path.join(outputRoot,'site-assets/stroke-topic'),{recursive:true});
+    writePublic('site-assets/stroke-topic/topic.v1.css',fs.readFileSync(path.join(siteRoot,'public/stroke-topic.css'),'utf8'));
+    writePublic('site-assets/stroke-topic/topic.v1.mjs',fs.readFileSync(path.join(projectRoot,'src/client/stroke-topic.mjs'),'utf8'));
     writePublic('site-assets/blog.v1.mjs', fs.readFileSync(path.join(projectRoot,'src/client/blog.mjs'),'utf8'));
     for (const name of ['dictionary','search-core','stroke-order','learning-entry','audio-player']) {
         fs.copyFileSync(path.join(projectRoot,'src/client',name+'.mjs'), path.join(outputRoot,'site-assets',name+'.hf04-v1.mjs'));
@@ -389,7 +396,7 @@ async function buildSite() {
         hf07.assertPublicationReady(route);
         seo.assertEditorialReady(route);
         const canonical=seo.canonicalUrl(page.path, release.siteOrigin);
-        const prepared={...seo.withCoreSeo(page),canonical};
+        const prepared={...withBreadcrumbs(seo.withCoreSeo(page),pages),canonical};
         if(prepared.content.includes('data-pronunciation'))prepared.content+=(prepared.pronunciationFooter ?? pronunciation.pronunciationFooter);
         prepared.structuredData=seo.structuredData(prepared,canonical,release.siteOrigin);
         const html = htmlForPage(layout, prepared, route, header, footer);
@@ -417,7 +424,8 @@ async function buildSite() {
     // Candidate-only legacy mappings; production host checks remain HF-17/18.
     // /story is the Workers Assets normalized address for story.html; preserve its query.
     const movedRoutes = manifest.routes.filter(route=>route.redirectTo).map(route=>route.path+' '+route.redirectTo+' 301\n').join('');
-    fs.writeFileSync(path.join(outputRoot, '_redirects'), '/index.html /zh/ 301\n/legacy/index.html /zh/ 301\n/legacy/story.html /story 301\n'+movedRoutes);
+    const strokeRedirects=strokePages.map(p=>p.path.slice(0,-1)+' '+p.path+' 301\n').join('');
+    fs.writeFileSync(path.join(outputRoot, '_redirects'), '/index.html /zh/ 301\n/legacy/index.html /zh/ 301\n/legacy/story.html /story 301\n'+movedRoutes+strokeRedirects);
     fs.writeFileSync(path.join(outputRoot, 'sitemap.xml'), makeSitemap(manifest, release));
 
     const stylesheet = fs.readFileSync(path.join(outputRoot, 'site-assets/site-styles.hf03-v1.css'), 'utf8');
