@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "origin": "https://hanzifun.online",
+  "checks": [
+    {
+      "path": "/stroke-order/",
+      "status": 200,
+      "titleAndCanonical": "match candidate",
+      "breadcrumbs": 1
+    },
+    {
+      "path": "/stroke-order/basic-strokes/",
+      "status": 200,
+      "titleAndCanonical": "match candidate",
+      "breadcrumbs": 2
+    },
+    {
+      "path": "/stroke-order/rules/",
+      "status": 200,
+      "titleAndCanonical": "match candidate",
+      "breadcrumbs": 2
+    },
+    {
+      "path": "/stroke-order/examples/",
+      "status": 200,
+      "titleAndCanonical": "match candidate",
+      "breadcrumbs": 2
+    },
+    {
+      "path": "/stroke-order/animation/",
+      "status": 200,
+      "titleAndCanonical": "match candidate",
+      "breadcrumbs": 2
+    },
+    {
+      "journey": "production inline lookup 永",
+      "status": "PASS"
+    },
+    {
+      "journey": "production example CTA and actual source player loading",
+      "status": "PASS"
+    },
+    {
+      "journey": "All ten retained landing-page metadata entries, with latest approved stroke-topic metadata",
+      "status": "PASS"
+    }
+  ],
+  "layouts": [
+    {
+      "path": "/stroke-order/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/",
+      "width": 1097,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/basic-strokes/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/basic-strokes/",
+      "width": 1097,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/basic-strokes/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/rules/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/rules/",
+      "width": 1097,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/rules/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/examples/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/examples/",
+      "width": 1097,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/examples/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/animation/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/animation/",
+      "width": 1097,
+      "overflow": false
+    },
+    {
+      "path": "/stroke-order/animation/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "axe": [
+    {
+      "width": 390,
+      "violations": 0
+    },
+    {
+      "width": 1440,
+      "violations": 0
+    }
+  ],
+  "pageErrors": []
+}

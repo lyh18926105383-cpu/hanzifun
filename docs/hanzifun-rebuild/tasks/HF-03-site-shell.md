@@ -1,5 +1,8 @@
 # HF-03｜C 方案框架、七段首页与路由
 
+> 最新发布：本轮相关范围已随 `stroke-topic-release-2026-11-13` 上线 Completed / PASS；版本 `8c0cb4c1-cf81-4b1e-9c42-7b96453072cc`，2026-11-13T20:48:31.109784+08:00，203/203及正式390+27项/浏览器通过，源码已push。见PROGRESS记录63及[本批回执](../releases/stroke-topic-release-2026-11-13/deployment.json)。
+
+
 状态：已完成（2026-10-25）。验收记录见 [HF-03 验收记录](../HF-03-VERIFICATION.md)。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。
 
 | 项目 | 内容 |
@@ -72,3 +75,8 @@
 可将下面整段直接作为后续开发对话的请求：
 
 > 请执行 HanziFun 的 HF-03「C 方案框架、七段首页与路由」。工作目录是 /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun。先完整阅读 docs/hanzifun-rebuild/tasks/HF-03-site-shell.md、docs/hanzifun-rebuild/SPEC.md 的映射要求、docs/hanzifun-rebuild/TASKS.md、docs/hanzifun-rebuild/BASELINE.md，并核验当前 git status 与前置任务交付，不把本轮规划当作功能已经完成。目标是：将已确认原型变成可维护的静态站点骨架，保持文案、三类人群和所有已确认入口。 只完成该工作包的范围、交付物和验收，不顺带启动其他包或生产部署，不覆盖用户未提交文件。原型和父树既有工作最初位于 /Users/graceshi/.codex/worktrees/ec5f/汉字饭hanzifun，若 HF-01 已保全则采用其记录的新基线；不能因为主目录原先没有规则就忽略故事流程。凡涉及故事新增/修改/生成/验收，先完整阅读 STORY_COURSE_PRODUCTION_WORKFLOW.md，再查目标故事板、lessons.js 与人工确认点。按任务文件验证并报告真实结果、文件链接、未完成项和后续依赖；缺少外部配置时完成不依赖它的本地工作，但不要伪造接通或验收证据。
+
+
+## 2026-11-13 实际上线交接
+
+本任务相关增量已按Owner授权完成生产部署与Git同步，TASKS/PROGRESS已更新。当前范围和回滚入口以记录63及本批deployment.json为准；此前未部署描述保留为历史。

@@ -2,7 +2,7 @@
   "releaseId": "stroke-topic-release-2026-11-13",
   "phase": 1,
   "kind": "public static-site incremental release retaining published tools and editorial content",
-  "status": "candidate-verified-authorized-for-deployment",
+  "status": "deployed-and-verified",
   "codeSourceCommit": "43bd4d3b7ff50d3548cddf455457699ea9d8152d",
   "remoteMergedCommit": "833183894097f0eb89a3882280efb28efa7b93f9",
   "siteOrigin": "https://hanzifun.online",
@@ -447,5 +447,8 @@
     "Latest stroke-topic metadata supersedes the older stroke-order landing copy; all other remote SEO entries preserved",
     "Personal temporary files excluded",
     "Local handover records renumbered 54–61 to retain remote records 46–53"
-  ]
+  ],
+  "sourceCommit": "d05c67ed8ffb2a21dd29130bce0349322cc54210",
+  "versionId": "8c0cb4c1-cf81-4b1e-9c42-7b96453072cc",
+  "deployedAtSingapore": "2026-11-13T20:48:31.109784+08:00"
 }

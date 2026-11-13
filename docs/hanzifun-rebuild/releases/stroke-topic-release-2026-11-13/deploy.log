@@ -1,0 +1,118 @@
+
+ ⛅️ wrangler 4.156.0 (update available 4.161.0)
+───────────────────────────────────────────────
+🌀 Building list of assets...
+✨ Read 4080 files from the assets directory /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun/.cache/releases/stroke-topic-release-2026-11-13/candidate
+🌀 Starting asset upload...
+🌀 Found 818 new or modified static assets to upload. Proceeding with upload...
++ /site-assets/stroke-topic/ATTRIBUTION.txt
++ /site-assets/stroke-topic/single/vertical.svg
++ /site-assets/stroke-topic/single/hook.svg
++ /site-assets/stroke-topic/characters/4e00.json
++ /site-assets/stroke-topic/single/dot-animated.svg
++ /site-assets/stroke-topic/sources.lock.json
++ /site-assets/stroke-topic/single/horizontal-animated.svg
++ /site-assets/stroke-topic/single/right-falling-animated.svg
++ /site-assets/stroke-topic/single/left-falling-animated.svg
++ /site-assets/stroke-topic/glyph/6c38.svg
++ /site-assets/stroke-topic/characters/4e0b.json
++ /site-assets/stroke-topic/single/turn-animated.svg
++ /site-assets/stroke-topic/characters/4e2a.json
++ /site-assets/stroke-topic/characters/516d.json
++ /site-assets/stroke-topic/characters/51e0.json
++ /site-assets/stroke-topic/characters/4e60.json
++ /site-assets/stroke-topic/characters/98de.json
++ /site-assets/stroke-topic/characters/4e45.json
++ /site-assets/stroke-topic/characters/6728.json
++ /site-assets/stroke-topic/characters/4eca.json
++ /site-assets/stroke-topic/characters/4ee5.json
++ /site-assets/stroke-topic/characters/516c.json
++ /site-assets/stroke-topic/characters/4ec0.json
++ /site-assets/stroke-topic/characters/53ea.json
++ /site-assets/stroke-topic/characters/65b9.json
++ /site-assets/stroke-topic/characters/6c34.json
++ /site-assets/stroke-topic/characters/624b.json
++ /site-assets/stroke-topic/characters/529e.json
++ /site-assets/stroke-topic/characters/534a.json
++ /site-assets/stroke-topic/characters/751f.json
++ /site-assets/stroke-topic/characters/53f3.json
++ /site-assets/stroke-topic/focus/centre-before-sides-5c0f.svg
++ /site-assets/stroke-topic/characters/4e5f.json
++ /site-assets/stroke-topic/characters/53cc.json
++ /site-assets/stroke-topic/characters/8f66.json
++ /site-assets/stroke-topic/characters/74dc.json
++ /site-assets/stroke-topic/characters/767d.json
++ /site-assets/stroke-topic/characters/5b83.json
++ /site-assets/stroke-topic/characters/5c16.json
++ /site-assets/stroke-topic/characters/53f8.json
++ /site-assets/stroke-topic/characters/5bf9.json
++ /site-assets/stroke-topic/characters/5fd9.json
++ /site-assets/stroke-topic/characters/4f11.json
++ /site-assets/stroke-topic/characters/767e.json
++ /site-assets/stroke-topic/characters/4f1a.json
++ /site-assets/stroke-topic/characters/8c46.json
++ /site-assets/stroke-topic/characters/6709.json
++ /site-assets/stroke-topic/characters/65e9.json
++ /site-assets/stroke-topic/characters/5b59.json
++ /site-assets/stroke-topic/characters/5728.json
++ /site-assets/stroke-topic/characters/56e2.json
++ /site-assets/stroke-topic/characters/53d1.json
++ /site-assets/stroke-topic/characters/5446.json
++ /site-assets/stroke-topic/characters/673a.json
++ /site-assets/stroke-topic/characters/4f5c.json
++ /site-assets/stroke-topic/characters/6b22.json
++ /site-assets/stroke-topic/characters/8fb9.json
++ /site-assets/stroke-topic/characters/8fc7.json
++ /site-assets/stroke-topic/characters/809a.json
++ /site-assets/stroke-topic/animated/4f60.svg
++ /site-assets/stroke-topic/characters/8eab.json
++ /site-assets/stroke-topic/characters/91cc.json
++ /site-assets/stroke-topic/characters/95f4.json
++ /site-assets/stroke-topic/focus/close-last-65e5.svg
++ /site-assets/stroke-topic/characters/70b9.json
++ /site-assets/stroke-topic/focus/centre-before-sides-6c34.svg
++ /site-assets/stroke-topic/characters/82f9.json
++ /site-assets/stroke-topic/characters/6cd5.json
++ /site-assets/stroke-topic/characters/6761.json
++ /site-assets/stroke-topic/characters/77e5.json
++ /site-assets/stroke-topic/characters/5976.json
++ /site-assets/stroke-topic/characters/597d.json
++ /site-assets/stroke-topic/characters/90a3.json
++ /site-assets/stroke-topic/characters/56fd.json
++ /site-assets/stroke-topic/characters/547c.json
++ /site-assets/stroke-topic/focus/outside-before-inside-4e2d.svg
++ /site-assets/stroke-topic/characters/679c.json
++ /site-assets/stroke-topic/animated/6211.svg
++ /site-assets/stroke-topic/characters/623f.json
++ /site-assets/stroke-topic/characters/6211.json
++ /site-assets/stroke-topic/characters/8336.json
++ /site-assets/stroke-topic/characters/62cd.json
++ /site-assets/stroke-topic/animated/5b66.svg
++ /site-assets/stroke-topic/characters/660e.json
++ /site-assets/stroke-topic/characters/5468.json
++ /site-assets/stroke-topic/animated/662f.svg
++ /site-assets/stroke-topic/characters/9f9f.json
++ /site-assets/stroke-topic/characters/5979.json
++ /site-assets/stroke-topic/characters/7684.json
++ /site-assets/stroke-topic/focus/falling-strokes-6c38.svg
++ /site-assets/stroke-topic/characters/62db.json
++ /site-assets/stroke-topic/characters/6302.json
++ /site-assets/stroke-topic/characters/6821.json
++ /site-assets/stroke-topic/characters/7ed9.json
++ /site-assets/stroke-topic/characters/997a.json
++ /site-assets/stroke-topic/characters/9e21.json
++ /site-assets/stroke-topic/characters/51a0.json
++ /site-assets/stroke-topic/characters/684c.json
++ /site-assets/stroke-topic/characters/670d.json
++ /site-assets/stroke-topic/characters/949f.json
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 272 of 818 assets
+Uploaded 545 of 818 assets
+Uploaded 818 of 818 assets
+✨ Success! Uploaded 818 files (2789 already uploaded) (5.20 sec)
+
+Total Upload: 0.34 KiB / gzip: 0.24 KiB
+Uploaded hanzifun (11.08 sec)
+Deployed hanzifun triggers (0.91 sec)
+  https://hanzifun.lyh18926105383.workers.dev
+Current Version ID: 8c0cb4c1-cf81-4b1e-9c42-7b96453072cc

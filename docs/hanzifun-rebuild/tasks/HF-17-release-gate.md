@@ -1,5 +1,8 @@
 # HF-17｜按发布范围综合验收与回滚准备
 
+> 最新发布：本轮相关范围已随 `stroke-topic-release-2026-11-13` 上线 Completed / PASS；版本 `8c0cb4c1-cf81-4b1e-9c42-7b96453072cc`，2026-11-13T20:48:31.109784+08:00，203/203及正式390+27项/浏览器通过，源码已push。见PROGRESS记录63及[本批回执](../releases/stroke-topic-release-2026-11-13/deployment.json)。
+
+
 > 2026-11-11最新：十页SEO文案已部署 / PASS，源码44a2a95已推送origin/main，生产390项HTTP及桌面/手机20项通过；IndexNow接收10个变化网址，HTTP202（Key验证处理中）。见[发布回执](../releases/seo-copy-2026-11-11/deployment.json)。
 
 > 2026-11-11增量：IndexNow根验证文件发布 / PASS；203/203测试、生产390项及Key额外HTTP200/字节匹配通过，版本`41f33bbd-23a0-4977-a1f6-76e7730ccec3`，100%流量；[发布回执](../releases/indexnow-key-2026-11-11/deployment.json)。本次未发送IndexNow网址通知。
@@ -85,3 +88,8 @@
 ## 2026-11-13 统一发布
 
 本轮最近更新候选PASS：合并远端Pinyin/SEO/IndexNow后203/203、3609文件、25档/10次axe、Workers390+27、线上前390、冻结及回滚通过。 见PROGRESS记录62和 `releases/stroke-topic-release-2026-11-13/`。
+
+
+## 2026-11-13 实际上线交接
+
+本任务相关增量已按Owner授权完成生产部署与Git同步，TASKS/PROGRESS已更新。当前范围和回滚入口以记录63及本批deployment.json为准；此前未部署描述保留为历史。
