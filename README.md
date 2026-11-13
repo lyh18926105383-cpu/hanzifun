@@ -2,7 +2,7 @@
 
 **Learn Chinese characters visually—with stories, flashcards, and real-life context.**
 
-[Visit HanziFun](https://hanzifun.online/) · [Explore the Dictionary](https://hanzifun.online/dictionary/) · [Try Free Flashcards](https://hanzifun.online/flashcards/)
+[Visit HanziFun](https://hanzifun.online/) · [Explore the Dictionary](https://hanzifun.online/dictionary/) · [Explore Stroke order](https://hanzifun.online/stroke-order/) · [Try Free Flashcards](https://hanzifun.online/flashcards/)
 
 HanziFun helps learners connect Chinese characters with their shapes, sounds, meanings, and everyday uses.
 
