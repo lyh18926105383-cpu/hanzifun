@@ -1,0 +1,26 @@
+{
+  "submittedAt": "2026-11-11T14:23:47.989Z",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "method": "POST",
+  "host": "hanzifun.online",
+  "key": "[redacted]",
+  "keyLocation": "https://hanzifun.online/a3939f8231f24aca8f82ad9e03dcf1a7.txt",
+  "urlCount": 10,
+  "urlList": [
+    "https://hanzifun.online/",
+    "https://hanzifun.online/stroke-order/",
+    "https://hanzifun.online/dictionary/",
+    "https://hanzifun.online/scenarios/",
+    "https://hanzifun.online/pinyin-chart/",
+    "https://hanzifun.online/flashcards/",
+    "https://hanzifun.online/academic/",
+    "https://hanzifun.online/tools/",
+    "https://hanzifun.online/kids/",
+    "https://hanzifun.online/worksheets/"
+  ],
+  "httpStatus": 202,
+  "responseBody": "",
+  "retryAfter": null,
+  "status": "received-key-validation-pending",
+  "note": "IndexNow reception is not a guarantee of indexing or ranking."
+}

@@ -16,6 +16,12 @@
 
 > 最新本地：2026-11-12统一面包屑完成 / PASS；411内页、832上级链接、201/201测试、45档布局及9次面包屑axe通过。尚未commit/push/部署，生产状态仍见记录45；详见记录54。
 
+> 最新文档：2026-11-12 Owner 已确认英文 README 并授权更新 GitHub；当前网站功能、学习数据本机保存范围和开发说明已整理，见记录53。生产发布状态沿用下方记录52。
+
+> 最新发布：2026-11-11十页SEO文案已部署 / PASS，源码44a2a95推送origin/main；版本a50a93a9-829c-4ab1-bf71-0f16fac5f8bb，100%流量，生产HTTP390及浏览器20项PASS。IndexNow收到10个变化网址，HTTP202（Key验证处理中）；今天完整操作见记录52。
+
+> 最新增量：2026-11-11 IndexNow验证文件已部署 / PASS；源提交fe5e4cf、目标origin/main，版本41f33bbd-23a0-4977-a1f6-76e7730ccec3，100%流量。203/203测试、生产390项及Key额外HTTP200/字节一致检查通过。见记录50。
+
 > 最新生产：2026-11-03单字页重构已完成部署 / PASS；main已合并并保留Blog/Tools/SEO。201/201测试，390项正式域名检查及线上浏览器通过。首次部署版本28fb0e8e-78ab-4b1b-baa8-956a3b550213，2026-11-03T20:26:59.152147+08:00；Git回执推送后观测活动版本2fd5479c-837f-44d7-80d2-b1121bf94cf6，已追加390项同产物复验。见记录45与releases/character-flow-release-2026-11-03/deployment.json。较早的当前状态描述为历史阶段。
 
 > 当前生产：2026-11-02两批SEO已统一部署 / PASS；源码a6c2688推送main，194/194测试、48项正式域名及浏览器复检通过。实际版本65fd9f41-12b0-4132-9726-8a07afa1484f，2026-11-02T15:34:17.980557+08:00，100%流量。见记录40与releases/seo-navigation-release-2026-11-02/deployment.json。下方待部署描述为历史阶段。
@@ -596,6 +602,71 @@
 - **精确下一步/边界**：本次三项请求已完成。Owner可直接看正式域名/dictionary/休/和/dictionary/木/。24小时/7天观察及后续GSC复盘由Owner按完整窗口人工进行，尚未发生、不自动建监控；87缺字/HSK后续及Phase3不变。下次从本记录与本发布deployment.json接续，不将旧主目录98f79fa、旧本地未部署状态或旧发布回滚目标当当前。main项目跟踪改动在最终提交后应干净，个人未跟踪文件保留。
 
 - **记录45补充：Git推送后版本复核**：最终文档8d05046推送后，部署历史又出现活动版本`2fd5479c-837f-44d7-80d2-b1121bf94cf6`、createdOn=`2026-11-03T12:32:32.661713Z`、100%流量；以正式域名重新执行390项比较，全部339字页与旧资源仍匹配同一冻结候选、errors=[]。已追加post-push-active-version/online-verification及deployment.versionNote；仅记录实际观测，不臆定后续版本的GitSHA或触发原因，也不把未来同产物版本号变化当内容回滚。
+
+<a id="pinyin-chart-copy-2026-11-04"></a>
+
+### [记录 46] - HF-08 拼音表文案优化（2026-11-04）
+
+- **已完成**：`site/seo.mjs` 更新 `/pinyin-chart/` 的 title、H1 和定义，定义由现有模板同步到 meta description。`site/pages/pinyin-chart.mjs` 增加「水（shuǐ）」的读音和第三声示例，引导读者查找音节并试听可用发音。
+- **本地验收**：`npm test` 201/201 通过。生产模式构建生成 3186 个公开文件，`npm run validate:seo` 无报错。静态 HTML 核对唯一 H1、紧跟标题的定义、meta description、示例字页链接、410 个音节、自指 canonical、index 指令及 sitemap 收录。
+- **遗留与接手入口**：本次改动在本地工作树，待发布。当前环境未能读取正式页面。发布时以 `site/seo.mjs` 的 `/pinyin-chart/` 条目和 `site/pages/pinyin-chart.mjs` 为起点，部署后复核正式 URL 的 title、H1 和正文首段。
+
+### [记录 47] - 拼音表人工批注修订（2026-11-04）
+
+- **改动**：`site/pages/pinyin-chart.mjs` 更新三个小标题及查询字段标签，410 个音节按无书写声母、声母及 y/w 拼写归入 24 组。各组有标题、短说明和例子。`public/site-assets/pinyin-chart.v1.css` 提供分组样式，并在筛选时隐藏空组。`public/site-assets/pinyin-chart.v1.mjs` 在浏览器恢复表单默认值后重新应用筛选。分组回归覆盖于 `tests/pinyin-navigation.test.mjs`。
+- **本地验收**：`npm test` 202/202 通过。生产模式构建 3188 个公开文件，SEO 检查无报错。Chrome 验证所有分组、查拼写、声母和韵母筛选、无结果、重置、键盘、音节深链接、无 JavaScript 浏览，以及 360、390、768、1390 像素宽度无横向溢出。
+- **接手入口**：本地预览位于 `http://127.0.0.1:8765/pinyin-chart/#pinyin-chart-results`。待人工验收和发布。后续分组样式及筛选回归从本记录的三个页面相关文件和拼音测试切入。
+
+### [记录 48] - 拼音表打印与首屏介绍（2026-11-04）
+
+- **改动**：`site/pages/pinyin-chart.mjs` 增加 Print Pinyin Chart 入口，复用站点的浏览器打印功能，以同一数据生成独立打印布局。覆盖 24 组、410 个音节及 1323 个已收录声调形式，当前筛选状态不影响打印范围。拼音页使用精简音频尾部，只保留发音脚本与反馈区域。`public/site-assets/pinyin-chart.v1.css` 负责打印排版。`site/seo.mjs` 在 H1 下补充在线发音和一键打印，使用独立的简短搜索摘要。`tests/pinyin-navigation.test.mjs` 覆盖打印数据完整性及音频尾部。
+- **本地验收**：`npm test` 203/203 通过，生产模式构建 3188 个公开文件，SEO 检查无报错。Chrome 检查打印入口、发音调用、当前筛选与完整打印输出互不影响，以及 360、540、581 和 1390 像素宽度。A4 与 Letter 测试预览均为 5 页，已检查每页排版。
+- **接手入口**：本地预览位于 `http://127.0.0.1:8765/pinyin-chart/`，打印入口在 `#pinyin-chart-results`。待人工验收与发布。正式发布后复核首屏文案、打印入口和音频播放。
+
+### [记录 49] - 拼音表部署、正式验收与 Git 同步（2026-11-05）
+
+- **Owner授权与范围**：Owner确认验收并明确授权部署、commit/push及任务/进度更新。releaseId为 pinyin-chart-release-2026-11-05，仅更新拼音页首屏与SEO、24组音节、发音尾部及打印版，不涉及账号/同步/付费/故事或学习记录。
+- **冻结与Git**：203/203测试通过。生产候选3188文件，404条规范URL入sitemap、SEO errors=[]。候选按每文件SHA256的稳定manifest签名为 d6029e14f8c4da27a5bfb9941c1795a5901358f1fe06ac2bb92c121f95d82721，与再建候选一致。源码提交4ef23d7已快进推送 origin/main；发布回执与交接以 f482c3a 单独提交并推送至 origin/main。
+- **上线事实**：Wrangler4.156.0部署版本fd7c4714-615c-4791-a8e0-4cf9fdf70c93、deploymentId 8380b4f3-c60c-4c42-a72a-0bb32076c409，UTC 2026-11-04T16:16:23.823209Z / 新加坡时间2026-11-05 00:16:23.823209 +08，100%流量。部署命令记录没有更新静态资源上传；正式页显示候选的新title、H1、引导、24组与打印入口，生产所有390项HTTP哈希检查通过，故未以CLI日志取代对实际页面的验收。此前真实活动版本ae7f0dd3-a9a9-44ae-a77a-332922dac2a9保留为回滚目标。
+- **生产浏览器/HTTP**：Chrome156正式域名已复验339字页、保存刷新、21字母拼音导航、B锚点、筛选焦点、闪卡、Blog、Tools和390px三个页面无溢出/axe违规，pageErrors=[]。另验标题/description、在线发音及打印全410音节/1323声调形式，即使当前有筛选。A4和Letter各5页，360/540/581/1390宽度无溢出。正式生产390项HTTP检查包含339字页及资源，零错误。
+- **证据**：汇总及版本号见[deployment.json](releases/pinyin-chart-release-2026-11-05/deployment.json)、[生产浏览器核验](releases/pinyin-chart-release-2026-11-05/production-browser-verification.json)、[生产HTTP核验](releases/pinyin-chart-release-2026-11-05/production-http-verification.json)及[manifest](releases/pinyin-chart-release-2026-11-05/manifest.json)。本机等价服务的候选验收与上个源码3186文件逐文件manifest保存在忽略的.cache发布目录。
+- **后续交接**：发布与Git push完成。Owner在完整24小时/7天窗口之后人工观察并复盘后续GSC趋势。没有创建自动监控。
+
+
+### [记录 50] - IndexNow 验证文件部署与 Git 同步（By Codex，2026-11-11）
+
+- **授权/目录**：Owner已把Key放在Desktop主仓库根目录，并明确要求部署、Git push与访问检查。在本聊天90db隔离工作区从远端main `320d3da` 建分支 `codex/indexnow-key-2026-11-11`，读取并复制Owner文件；Desktop主目录原有个人未跟踪文件保留。远端main基线实际核对一致，没有使用较旧本地主目录main覆盖线上。
+- **文件列表**：新增根 `a3939f8231f24aca8f82ad9e03dcf1a7.txt`（32字节，与Owner文件一致）；修改 `scripts/build-site.js` 显式构建白名单及 `data/editorial/review-decisions.json` 对应构建源码签名并追加维护说明。原教学、听审、人工视觉批准保留。新增 `releases/indexnow-key-2026-11-11/` 下 manifest、ACCEPTANCE、ROLLBACK、前后产物指纹、差异、测试/SEO、本地/生产HTTP、Key访问检查、实际部署回执；更新TASKS/PROGRESS及HF17/18最新记录。
+- **验收**：203/203测试PASS（隔离工作区缺少的两个锁定源归档从主仓库缓存复制后重跑通过）；生产3189文件，SEO errors=[]、Sitemap404。与上一3188产物比较只增加Key，既有content-manifest.json只改变review-decisions.json源hash，其余页面/资源逐字节相同。隔离candidate→previous→candidate哈希恢复PASS；Wrangler部署重建与冻结候选无漂移。本地Workers390项、发布前390项、发布后390项全部PASS，Key额外HTTP200、text/plain、32字节与源码一致。没有UI变化，不冒称重做浏览器交互验收。
+- **上线/Git事实**：源提交 `fe5e4cf`；Cloudflare当前版本 `41f33bbd-23a0-4977-a1f6-76e7730ccec3`、deploymentId `aef8e5d0-38ea-410c-a219-5ce753228e88`，2026-11-11T21:29:34.511824+08:00，100%流量。真实上一活动版本 `868b1621-2470-4150-a8aa-2b4a4c925a86` 保留为回滚目标；备份产物 `/private/tmp/hanzifun-indexnow-20261111/{previous,candidate}`，文件manifest已入发布目录。最终回执单独commit并推送origin/main，最终SHA以远端核验结果为准。
+- **遗留/下一切入点**：验证文件发布完成；本次未向IndexNow发送页面通知，也未新增自动提交流程。若Owner继续要求通知搜索引擎，从本发布deployment.json与根验证文件接入，只选择新增/更新/删除的页面。没有账号/云同步/Billing或故事制作变更；87缺字/HSK后续原范围不变。下一Agent先读本记录与TASKS，不再把旧生产版本当本次回滚目标。
+
+
+### [记录 51] - HF-08 十页Title/Description与八页H1更新（By Codex，2026-11-11）
+
+- **范围**：按Owner逐页原文更新首页、Stroke Order、Dictionary、Scenarios、Pinyin Chart、Flashcards、Academic、Tools、Kids、Worksheets的10组Title/Description及前8页H1。Kids原H1 Small stories. Big discoveries.、Worksheets原H1 Printable Chinese Character Cards保留。仅这10页取消自动追加的品牌后缀，保留正文介绍和其他页面标题。
+- **文件列表**：修改site/seo.mjs、site/layouts/base.html、scripts/build-site.js、scripts/validate-seo-quality.mjs、data/editorial/review-decisions.json；新增SEO-COPY-2026-11-11.md与evidence/seo-copy-2026-11-11/{verification,browser}.json；更新TASKS、PROGRESS及HF08任务本地状态。更新构建脚本签名并说明Owner文案授权，历史教学/听审/视觉批准不变。
+- **验证**：203/203测试、3189文件生产模式构建、413英文页、SEO errors=[]、Sitemap404。与上一发布候选逐文件比对只变10页HTML及content-manifest审核源hash；IndexNow根验证文件、339字页及其他资源逐字节保持。Chrome1440/390px共20项Title/Description/H1/无溢出检查PASS、pageErrors=[]；JSON-LD与页面元数据一致。
+- **状态/精确下一步**：本次文案修改在90db工作区，基线e68b51f，尚未commit/push/部署；生产仍为记录50版本。需要发布时先从SEO-COPY-2026-11-11.md和evidence目录接续HF17/18，核对最新远端与生产状态后冻结/部署，不把本地通过当已上线。临时构建/private/tmp/hanzifun-seo-copy-20261111。没有发IndexNow页面通知、没有故事制作或Phase3改动。
+
+
+### [记录 52] - 今日操作收口：十页SEO上线、Git push与IndexNow提交（By Codex，2026-11-11）
+
+- **今天完整操作**：①读取Owner的IndexNow Key并接入根路径/构建白名单，部署和推送后验证HTTP200（记录50）；②按Owner原文更新10页Title/Description和8页H1，203/203测试与桌面/手机20项验收通过（记录51）；③启动包含最新代码的本地Wrangler预览http://127.0.0.1:8766/；④按本次明确授权部署、推送、提交10个变动网址并更新全部交接。
+- **本次源代码/Git**：源提交 `44a2a95`（包含5个实现/签名文件及文案验收/任务记录），已快进推送origin/main（e68b51f→44a2a95）。最终部署/IndexNow回执及TASKS/PROGRESS另提交并推送，最后以远端核验SHA为准。Desktop主目录个人未跟踪文件未触碰。
+- **上线事实**：Cloudflare版本 `a50a93a9-829c-4ab1-bf71-0f16fac5f8bb`、deploymentId `56c31cea-f78e-44c4-b845-a1c189c38270`，`2026-11-11T22:20:54.026151+08:00`，100%流量。实际上一活动版本 `7dbd256d-f587-44c3-9e5b-b1d022621052` 保留为回滚目标；它比记录50手动版本更新，但发布前390项HTTP与上一静态包一致，未把旧版本号误当实际回滚目标。
+- **冻结/验收**：新3189文件与此前203/203测试、SEO和本地浏览器20项通过的候选逐字节一致，未重复跑无新变更的测试。只改变10页HTML及content-manifest审核源hash；Key、339字页、其他资源保持。隔离candidate→previous→candidate恢复PASS，部署重建无漂移；生产发布前/后各390项HTTP、Chrome1440/390px共20项Title/Description/H1/canonical/index/无溢出检查PASS、pageErrors=[]。Key正式地址HTTP200、32字节与源文件一致。
+- **IndexNow实际结果**：向https://api.indexnow.org/indexnow发一次POST，host=hanzifun.online，仅提交 `/`、`/stroke-order/`、`/dictionary/`、`/scenarios/`、`/pinyin-chart/`、`/flashcards/`、`/academic/`、`/tools/`、`/kids/`、`/worksheets/`。响应HTTP202，已收到、Key验证处理中。未提交content-manifest/Key文件/其他旧页面，没有宣称搜索引擎已收录或排名变化；请求记录Key值脱敏。
+- **本轮文件列表**：新增releases/seo-copy-2026-11-11/的manifest、前后产物指纹及差异、ROLLBACK、ACCEPTANCE、部署日志/版本回执、发布前后HTTP、生产浏览器、Key校验和IndexNow提交记录；更新SEO-COPY-2026-11-11.md、evidence/seo-copy-2026-11-11/verification.json、TASKS/PROGRESS、HF08/17/18最新状态。此前实现范围见记录51，无新增产品逻辑。
+- **遗留/精确切入点**：本次要求已处理。Bing的Key验证及后续索引是外部处理状态，Owner可在Webmaster Tools查看；未设自动监控或定时任务。后续先读本记录和releases/seo-copy-2026-11-11/deployment.json，不再按记录51的旧“本地未发布”状态操作；备份/private/tmp/hanzifun-seo-release-20261111/{previous,candidate}与文件manifest已保存。没有账号/云同步/Billing或故事制作变更。
+
+
+### [记录 53] - 英文 README 更新（By Codex，2026-11-12）
+
+- **授权/范围**：Owner 已审阅聊天中的完整英文稿，并要求“更新github的readme”。按确认稿替换根 README，面向当前网站的家庭、旅行商务、学生和教师受众，保留实际 HSK 覆盖范围、本机学习进度及第三方数据署名说明。
+- **文件列表**：`README.md`、`docs/hanzifun-rebuild/TASKS.md`、`docs/hanzifun-rebuild/PROGRESS.md`。基线为本工作区及 GitHub main 的 `ed2147e03b5ce8effd42d5bb776c620d6e8cc3f3`。仅文档更新，不涉及产品代码、故事课制作或手动部署。
+- **自检**：按 VERIFICATION 的文档检查口径核对 Markdown 围栏、入口链接与路由、目录和 package.json 命令，并执行 git diff --check。未运行产品测试或构建，不将历史 203/203 结果记为本轮重新运行。
+- **遗留/精确切入点**：GitHub 连接器可读取仓库，但创建提交树返回 403 Resource not accessible by integration；本轮改用现有 Git 连接提交并推送到 main，实际同步结果以最终提交 SHA 及远端正文比对为准。README 后续维护从根文件切入，功能数量变化应同步更新；产品剩余任务继续按 TASKS 原范围处理，生产状态仍查记录52与对应 deployment.json。
 
 ### [记录54] - 英文站统一面包屑导航（By Codex，2026-11-12）
 

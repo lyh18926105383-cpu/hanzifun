@@ -32,6 +32,19 @@ export function assertEditorialReady(route) {
  const scenario=scenarioData.scenarios.find(s=>s.path===route.path);
  if(route.indexing==='index'&&scenario)assertScenarioAcceptance(scenario);
 }
+// Owner-supplied landing-page copy. Descriptions are independent of visible introductions.
+export const landingPageSeo={
+ '/':{title:'Learn Chinese Characters Visually: Dictionary & Strokes',description:'Learn Chinese characters with stroke-order diagrams, hanzi meanings and pinyin, plus free flashcards that save your progress.',h1:'Learn Chinese Characters Visually'},
+ '/stroke-order/':{title:topicMeta[0].title,description:topicMeta[0].description,h1:topicMeta[0].h1},
+ '/dictionary/':{title:'Chinese Character Dictionary: Hanzi Meanings & Pinyin',description:'A free Chinese character dictionary with 339 hanzi: pinyin, core meanings, stroke order diagrams and example words, searchable in one click.',h1:'Chinese Character Dictionary'},
+ '/scenarios/':{title:'Chinese Conversation Practice: Travel & Restaurant Talk',description:'Practise Chinese conversation for restaurants, airports, hotels and shopping, with pinyin, phrase meanings and linked character breakdowns.',h1:'Chinese Conversation Practice'},
+ '/pinyin-chart/':{title:'What Is Pinyin? Full Mandarin Chart With Audio',description:'What is pinyin? It is the official Romanization of Mandarin. See all 410 syllables on one chart with pronunciation and printable options.',h1:'What Is Pinyin?'},
+ '/flashcards/':{title:'Chinese Character Flashcards: Free Online Practice',description:'Practise Chinese characters with free online flashcards: pick a set, reveal each answer and keep saved characters in this browser.',h1:'Chinese Character Flashcards'},
+ '/academic/':{title:'HSK 1 Vocabulary List: Compare HSK 2.0 and HSK 3.0',description:'HSK 1 vocabulary lists for HSK 2.0 and HSK 3.0 side by side, so you can check which characters and words each syllabus actually requires.',h1:'HSK 1 Vocabulary List: Choose Your Version'},
+ '/tools/':{title:'Chinese Name Generator & Character Culture Tools',description:'Chinese name generator, menu decoder, lunar zodiac lookup and tattoo character checker, all built on one searchable hanzi dictionary.',h1:'Chinese Name Generator & Culture Tools'},
+ '/kids/':{title:'Chinese Characters for family: Fun Visual Learning',description:'A playful Chinese character tool for family: tap a character to hear it, see its shape and learn one character at a time.'},
+ '/worksheets/':{title:'Printable Chinese Character Cards',description:'Printable Chinese character cards with pinyin, meanings and memory cues'}
+};
 const fixed={
  '/flashcards/':{title:'Chinese Character Flashcards: Free Online Practice',h1:'Chinese Character Flashcards',lead:'Practise Chinese characters with free online flashcards. Choose a study set, reveal each answer and review saved characters, with progress stored in this browser on this device.'},
  '/':{title:'Learn Chinese Characters Visually: Dictionary, HSK & Flashcards',h1:'Learn Chinese Characters Visually',lead:'Learn Chinese characters with a visual dictionary, stroke order, HSK level 1 lists and flashcards that save practice on this device.'},
@@ -40,7 +53,12 @@ const fixed={
  '/dictionary/radicals/':{title:'Chinese Radicals and Components: Browse Core Characters',h1:'Chinese Radicals and Visible Components',lead:'Browse Chinese characters by radical to find related written forms and their stroke counts in the 126-character core collection.'},
  '/dictionary/compare/':{title:'Similar Chinese Characters Compared: Shape, Pinyin & Use',h1:'Compare Similar Chinese Characters',lead:'Compare similar Chinese characters side by side using their shapes, pronunciations and contextual teaching examples.'},
  '/stroke-order/':{title:'Chinese Stroke Order: Step-by-Step Hanzi Writing Tool',h1:'Chinese Stroke Order',lead:'Follow Chinese stroke order step by step for 126 core characters using verified mainland writing sequences, playback controls and static stroke diagrams.'},
- '/pinyin-chart/':{title:'Mandarin Pinyin Chart: 410 Syllables, Initials, Finals & Tones',h1:'Mandarin Pinyin Chart',lead:'This Mandarin pinyin chart groups 410 syllables by initial and final and explains the four tones, neutral tone and spelling rules.'},
+ '/pinyin-chart/':{
+  title:'What Is Pinyin in Chinese?',
+  h1:'What Is Pinyin in Chinese?',
+  lead:'Pinyin, officially called Hanyu Pinyin, is the standard system for spelling the sounds of Mandarin Chinese with the Latin alphabet. Make HanziFun your go-to Chinese Pinyin tool to practise pronunciation online and print the complete Pinyin Chart in one click.',
+  description:'Learn what Hanyu Pinyin is, practise Mandarin pronunciation online, and print the complete 410-syllable Pinyin Chart in one click.'
+ },
  '/academic/':{title:'HSK Level 1 Lists: Compare HSK 2.0 and HSK 3.0',h1:'HSK Level 1: Choose Your Version',lead:'HSK level 1 has separate lists in HSK 2.0 and HSK 3.0: the libraries contain 150 and 300 vocabulary entries respectively.'},
  '/academic/hsk-2/':{title:'HSK 2.0 Level 1 Vocabulary: 150 Words & 174 Derived Characters',h1:'HSK 2.0 Level 1 Vocabulary and Characters',lead:'HSK 2.0 level 1 contains 150 vocabulary entries in the 2015 list, from which this library derives 174 unique characters.'},
  '/academic/hsk-3/':{title:'HSK 3.0 Level 1: 300 Words & 246 Recognition Characters',h1:'HSK 3.0 Level 1 Vocabulary and Recognition Characters',lead:'HSK 3.0 level 1 contains 300 vocabulary entries and 246 recognition characters in the 2025 examination syllabus; its 100 writing characters cover levels 1–2 together.'},
@@ -52,8 +70,8 @@ const fixed={
 };
 export function coreSeo(routePath) {
  if(routePath==='/stroke-order/')return {...topicMeta[0],lead:topicAnswer};
- if(toolsSeo[routePath])return toolsSeo[routePath];
- if(fixed[routePath])return fixed[routePath];
+ if(toolsSeo[routePath])return {...toolsSeo[routePath],...landingPageSeo[routePath]};
+ if(fixed[routePath])return {...fixed[routePath],...landingPageSeo[routePath]};
  if(routePath==='/academic/hsk-2/level-2/')return {title:'HSK 2.0 Level 2: 150 Vocabulary Entries with Audio',h1:'HSK 2.0 Level 2: 150 Additional Vocabulary Entries',lead:'Study all 150 additional HSK 2.0 level-2 entries with pinyin, meanings and audio. Character links and practice use the existing 339-character dictionary; 86 words have complete character-page coverage.'};
  const scenario=scenarioData.scenarios.find(s=>s.path===routePath);
  if(scenario)return {title:scenario.title+': Phrases, Pinyin & Audio',h1:scenario.title,lead:scenario.context};
@@ -67,9 +85,12 @@ export function coreSeo(routePath) {
 // Called by each core template, before layout rendering. The answer is a real static paragraph.
 export function withCoreSeo(page) {
  if(page.strokeTopic)return page;
+ const metadata=landingPageSeo[page.path];
+ if(metadata)page={...page,title:metadata.title,description:metadata.description,documentTitle:metadata.title};
  const seo=coreSeo(page.path);if(!seo)return page;
- if(page.content.includes('data-seo-lead'))return {...page,title:seo.title,description:seo.lead};
- return {...page,title:seo.title,description:seo.lead,content:page.content.replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/i,`<h1>${e(seo.h1)}</h1><p class="lead" data-seo-lead>${e(seo.lead)}</p>`)};
+ const description=seo.description??seo.lead;
+ if(page.content.includes('data-seo-lead'))return {...page,title:seo.title,description};
+ return {...page,title:seo.title,description,content:page.content.replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/i,`<h1>${e(seo.h1)}</h1><p class="lead" data-seo-lead>${e(seo.lead)}</p>`)};
 }
 export function safeJsonLd(value) {
  return JSON.stringify(value).replace(/[<>&\u2028\u2029]/g,c=>'\\u'+c.charCodeAt(0).toString(16).padStart(4,'0'));

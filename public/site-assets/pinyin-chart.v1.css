@@ -1,0 +1,105 @@
+.pinyin-chart-heading {
+  margin: 0;
+  font: 1.75rem/1.2 var(--serif);
+}
+
+.pinyin-group {
+  margin: 0 0 1.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.pinyin-group:not(:has(.pinyin-syllable:not([hidden]))) {
+  display: none;
+}
+
+.pinyin-group h3 {
+  margin: 0;
+  font: 600 1.35rem/1.25 var(--serif);
+}
+
+.pinyin-group > p {
+  margin: .25rem 0 .75rem;
+  color: var(--muted);
+}
+
+.pinyin-chart-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .75rem 1rem;
+  margin-top: 2rem;
+}
+
+.pinyin-print-button {
+  font-weight: 600;
+}
+
+.pinyin-print-sheet {
+  display: none;
+}
+
+.pinyin-audio-status:empty {
+  margin-block: 0;
+}
+
+@media print {
+  body:has(.pinyin-print-sheet) :is(.skip-link, .toast, .pinyin-audio-status),
+  .hf04:has(.pinyin-print-sheet) > :not(.pinyin-print-sheet) {
+    display: none !important;
+  }
+
+  .hf04:has(.pinyin-print-sheet) {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .pinyin-print-sheet {
+    display: block;
+    color: #000;
+    font: 10pt/1.35 var(--sans);
+  }
+
+  .pinyin-print-sheet h2 {
+    margin: 0 0 1mm;
+    font: 600 22pt/1.15 var(--serif);
+  }
+
+  .pinyin-print-sheet > p {
+    margin: 0 0 2mm;
+  }
+
+  .pinyin-print-group {
+    break-inside: avoid;
+    padding-top: 2mm;
+    margin: 0 0 2.5mm;
+  }
+
+  .pinyin-print-group h3 {
+    margin: 0 0 1mm;
+    border-bottom: .5pt solid #888;
+    padding-bottom: .75mm;
+    font-size: 10pt;
+  }
+
+  .pinyin-print-group dl {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 1mm 2mm;
+    margin: 0;
+  }
+
+  .pinyin-print-syllable dt {
+    font-weight: 700;
+  }
+
+  .pinyin-print-syllable dd {
+    margin: 0;
+    font-size: 8.5pt;
+  }
+
+  .pinyin-print-syllable dd span {
+    white-space: nowrap;
+  }
+}

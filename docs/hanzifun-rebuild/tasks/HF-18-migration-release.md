@@ -1,6 +1,12 @@
 # HF-18｜最终迁移、授权发布与运行交接
 
-> 2026-11-03最新：`character-flow-release-2026-11-03` 已部署Completed / PASS；201/201、390项正式域名检查及线上浏览器通过，版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，2026-11-03T20:26:59.152147+08:00，100%流量。见[实际回执](../releases/character-flow-release-2026-11-03/deployment.json)。下方旧候选状态为历史。
+> 2026-11-11最新：十页SEO文案已部署 / PASS，源码44a2a95已推送origin/main，生产390项HTTP及桌面/手机20项通过；IndexNow接收10个变化网址，HTTP202（Key验证处理中）。见[发布回执](../releases/seo-copy-2026-11-11/deployment.json)。
+
+> 2026-11-11增量：IndexNow根验证文件发布 / PASS；203/203测试、生产390项及Key额外HTTP200/字节匹配通过，版本`41f33bbd-23a0-4977-a1f6-76e7730ccec3`，100%流量；[发布回执](../releases/indexnow-key-2026-11-11/deployment.json)。本次未发送IndexNow网址通知。
+
+> 2026-11-05最新：`pinyin-chart-release-2026-11-05` 已部署 / PASS。版本`fd7c4714-615c-4791-a8e0-4cf9fdf70c93`，2026-11-05 00:16 +08:00，100%流量。正式域名390项HTTP及Chrome旅程通过，旧版本`ae7f0dd3-a9a9-44ae-a77a-332922dac2a9`保留为回滚目标。见[部署回执](../releases/pinyin-chart-release-2026-11-05/deployment.json)。
+
+> 2026-11-03：`character-flow-release-2026-11-03` 已部署Completed / PASS；201/201、390项正式域名检查及线上浏览器通过，版本`28fb0e8e-78ab-4b1b-baa8-956a3b550213`，2026-11-03T20:26:59.152147+08:00，100%流量。见[实际回执](../releases/character-flow-release-2026-11-03/deployment.json)。下方旧候选状态为历史。
 
 > 2026-11-03：Owner已明确授权`character-flow-release-2026-11-03`上线、commit/push与任务/进度更新；本轮执行中，实际版本/发布时间及生产复检将在发布回执完成后更新。
 

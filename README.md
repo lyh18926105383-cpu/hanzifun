@@ -1,102 +1,166 @@
-# hanzifun（汉字饭）
+# HanziFun · 汉字饭
 
-**链接**：https://hanzifun.online
+**Learn Chinese characters visually—with stories, flashcards, and real-life context.**
 
-这是一款专为3-6岁儿童设计的汉字启蒙互动工具，通过卡片翻转、图文配对、有声故事和即时反馈，帮助孩子在趣味中快乐识字。
+[Visit HanziFun](https://hanzifun.online/) · [Explore the Dictionary](https://hanzifun.online/dictionary/) · [Explore Stroke order](https://hanzifun.online/stroke-order/) · [Try Free Flashcards](https://hanzifun.online/flashcards/)
 
-**解决的痛点**
+HanziFun helps learners connect Chinese characters with their shapes, sounds, meanings, and everyday uses.
 
-- **抽象汉字难理解**：孩子难以将符号化的汉字与实际含义建立联系。
-    
-- **动词等非名词难以图示化**：像“飞”“跑”这类动作，很难用直接、标准的图片教会孩子。
-    
-- **学习反馈不及时**：传统识字卡缺少互动和进度追踪，家长难以掌握学习效果。
-    
+Explore a character, listen to its pronunciation, follow its stroke order, and practise remembering it. From a child's first picture story to a traveller's first restaurant order, HanziFun brings Chinese learning into familiar, meaningful moments.
 
-**产品特色**
+## Who It's For
 
-- **卡片翻转，直观学习**：正面展示标准汉字，背面通过 **Emoji 图片 + 趣味组词** 呈现字义，贴合儿童认知习惯。
-    
-- **动名词巧妙配图**：将抽象动词先组成具体名词再配图（例如“飞”→“飞鸟”→“🐦💨”），破解教学难点。
-    
-- **108张识字卡**：按配套识字表的18组顺序收录，每组6张，覆盖身体、方位、动作、自然等常用主题。
-    
-- **双按钮反馈机制**：孩子点击“熟悉”跳过已会字，点击“不熟悉”翻转卡片查看解释，自主掌控学习节奏。
-    
-- **灵活的学习设置**：支持选择5字、10字、20字或自定义字数，满足不同专注时长与学习计划。
-    
-- **多手势便捷操作**：支持点击翻转、键盘控制、滑动切换等操作，适配儿童小手和多种设备。
-    
-- **进度可视化**：实时统计“熟悉/不熟悉”字数，学习成果一目了然，并可单独复习不熟悉的汉字。
+- **Kids and families** introducing Chinese through stories, character cards, and shared activities.
+- **Travellers and business learners** building vocabulary for practical conversations.
+- **Students and independent learners** studying characters, pronunciation, and HSK vocabulary.
+- **Teachers** creating focused practice decks and printable learning materials.
 
-- **本机学习足迹**：自动保存学习轮次、薄弱字和最近结果，刷新页面后仍可查看。
+## What You Can Explore
 
-## 项目结构
+### Chinese Character Dictionary
 
-- `STORY_COURSE_PRODUCTION_WORKFLOW.md`：新故事课从素材、Gemini 视频、腾讯云 TTS 到浏览器验收的强制生产流程
-- `AGENTS.md`：项目协作规则；要求制作故事课前先完整阅读上述流程
-- `index.html`：页面结构和搜索引擎信息
-- `styles.css`：页面样式与响应式布局
-- `characters.js`：按识字表顺序排列的108张汉字卡内容字库
-- `storage.js`：本机学习记录与薄弱字数据
-- `tts-corpus.js`：朗读语料、多音字修正和20字试音集
-- `audio.js`：静态音频播放、预加载与浏览器朗读兜底
-- `audio-manifest.json`：已生成音频的版本化索引
-- `app.js`：学习流程和页面交互
-- `lessons.js`：故事课内容、分镜、跟读和认字题数据
-- `story.html` / `story.css` / `story.js`：有声动态绘本与跟读流程
-- `assets/lessons/`：故事插图、固定童声旁白和题目语音
-- `scripts/`：TTS批量生成和音频清单工具
-- `tests/`：字库、基础学习流程与本机记录测试
+Browse **339 published character entries** with pinyin, English meanings, pronunciation, example words, and sentences.
 
-## 本地检查
+Explore character components, memory notes, and related characters. Search by Chinese character, pinyin, or English meaning, or browse the pinyin and radical indexes.
 
-项目不需要安装第三方依赖。使用 Node.js 运行：
+[Explore the dictionary →](https://hanzifun.online/dictionary/)
+
+### Interactive Stroke Order
+
+Watch characters take shape one stroke at a time. Play or pause the animation, move between strokes, and adjust the playback speed.
+
+Stroke order is available within character pages and through a dedicated practice tool.
+
+[Try the stroke order tool →](https://hanzifun.online/stroke-order/)
+
+### Pinyin Chart with Audio
+
+Explore **410 pinyin syllables**, organised into 24 groups. Filter by spelling, initial, or final, and listen to available pronunciations.
+
+Print the chart in A4 or Letter format for a study reference.
+
+[Open the pinyin chart →](https://hanzifun.online/pinyin-chart/)
+
+### Flashcards and Personal Review
+
+Practise with themed character sets or characters saved from the dictionary. Recall the meaning, reveal the answer, and choose **Familiar** or **Again** to guide future review.
+
+Your learning history, saved characters, and review progress stay in your browser on your device. You can return to an unfinished session and continue practising without creating an account.
+
+[Start practising →](https://hanzifun.online/flashcards/)
+
+### HSK Learning Resources
+
+Explore vocabulary resources that distinguish between **HSK 2.0** and **HSK 3.0**, with readings, meanings, and links to available character pages.
+
+Current coverage includes level-one resources for both versions and an additional HSK 2.0 level-two vocabulary collection.
+
+[Explore HSK resources →](https://hanzifun.online/academic/)
+
+### Chinese for Everyday Situations
+
+Learn through practical scenarios, including restaurants, airports, hotels, supermarkets, and business introductions.
+
+Read sentences with pinyin and English translations, explore individual words, and follow links into character study and practice.
+
+[Explore real-life scenarios →](https://hanzifun.online/scenarios/)
+
+### Stories and Printable Activities
+
+Introduce children to Chinese through illustrated stories, narration, read-along activities, and character recognition exercises.
+
+Printable character cards support learning at home and in the classroom.
+
+[Discover the kids zone →](https://hanzifun.online/kids/) · [Browse printable resources →](https://hanzifun.online/worksheets/)
+
+### Culture Tools
+
+Follow your curiosity into Chinese language and culture:
+
+- **Chinese Name Explorer:** explore character combinations, sounds, and meanings.
+- **Chinese Menu Decoder:** look up characters in food and menu terms.
+- **Zodiac and Elements Calculator:** explore lunar-year animals and elements.
+- **Tattoo Character Checker:** examine character meanings and context.
+- **Teacher Decks:** create, save, practise, and print custom character sets.
+
+[Explore the tools →](https://hanzifun.online/tools/)
+
+### Learning Guides and Articles
+
+Read about study routines, family learning, travel, and Chinese culture, with links to relevant characters and activities.
+
+[Read the blog →](https://hanzifun.online/blog/)
+
+## A Simple Learning Loop
+
+1. **Discover** a character through a story, topic, or everyday situation.
+2. **Understand** its pronunciation, meaning, shape, and usage.
+3. **Practise** with stroke order and flashcards.
+4. **Return** to saved characters and review what needs another look.
+
+## Local Development
+
+HanziFun uses a lightweight static-site architecture built with HTML, CSS, JavaScript, and Node.js build scripts. Browser-based learning features use local storage.
+
+Install development dependencies:
+
+```bash
+npm ci
+```
+
+Run the automated tests:
 
 ```bash
 npm test
 ```
 
-生成Cloudflare部署所需的白名单静态目录：
+Build the site:
 
 ```bash
 npm run build:site
 ```
 
-使用 `.env` 中的腾讯云配置生成故事课固定语音：
+The generated website is written to `dist/`. To preview it with Python installed:
 
 ```bash
-npm run tts:story
+python3 -m http.server 8000 --directory dist
 ```
 
-生成第二课《蚂蚁搬豆》的固定语音：
+Open [localhost:8000](http://localhost:8000/) in your browser.
+
+Generate a production build with:
 
 ```bash
-npm run tts:story:ant
+npm run build:production
 ```
 
-## TTS 语音资源
+## Project Structure
 
-页面优先播放 `audio-manifest.json` 中的预生成 MP3。某个字尚未生成静态音频时，会自动使用浏览器中文朗读，用户学习时不会实时请求云端 TTS。
-
-重建108张卡片的语料与音频清单：
-
-```bash
-npm run tts:manifest
+```text
+site/                     Page templates, layouts, routes, and site configuration
+src/client/               Browser-side learning features and interactions
+data/                     Character, pinyin, HSK, stroke, and source data
+content/editorial/        Articles and printable resource definitions
+public/                   Static assets copied into the build
+assets/                   Shared images, audio, and story media
+scripts/                  Build, validation, and content tooling
+tests/                    Automated tests
+docs/hanzifun-rebuild/     Specifications, task tracking, and handover notes
 ```
 
-使用腾讯云默认音色 `502007` 生成20字试听集：
+## Data and Attribution
 
-```bash
-export TENCENTCLOUD_SECRET_ID="your-secret-id"
-export TENCENTCLOUD_SECRET_KEY="your-secret-key"
-npm run tts:pilot
-```
+HanziFun combines original teaching material with reference data from sources including CC-CEDICT, Unicode Unihan, Hanzi Writer Data, and Make Me a Hanzi.
 
-试听和人工校验通过后，再生成全部字卡：
+Third-party datasets and assets retain their respective licenses and attribution requirements. See `data/licenses/` and the website's [Sources and Attribution](https://hanzifun.online/data-sources/) page for details.
 
-```bash
-npm run tts:all
-```
+## Contributing
 
-生成脚本支持 `--voice=502007`、`--speed=0`、`--delay=1000`。凭证只通过环境变量传入，不要写入代码或提交到 Git。
+Before making changes, read `AGENTS.md` and the current project status in:
+
+- `docs/hanzifun-rebuild/PROGRESS.md`
+- `docs/hanzifun-rebuild/TASKS.md`
+
+Story-course work must also follow `STORY_COURSE_PRODUCTION_WORKFLOW.md`.
+
+Keep changes focused, run the relevant checks, and update the project handover notes when completing a development task.

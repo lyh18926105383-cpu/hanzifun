@@ -1,0 +1,37 @@
+{
+  "releaseId": "pinyin-chart-release-2026-11-05",
+  "checkedAtSingapore": "2026-11-05T00:19:23+08:00",
+  "origin": "https://hanzifun.online",
+  "browser": "156.0.8078.81",
+  "existingJourneyStatus": "PASS",
+  "existingJourneyChecks": [
+    "休: approved flow, real glyph, complete button label, clean ending, Information position and stroke playback",
+    "木: approved flow, real glyph, complete button label, clean ending, Information position and stroke playback",
+    "Production character save persists after refresh in an isolated browser context",
+    "Previously published 21-letter pinyin navigation and B jump remain intact",
+    "Previously published pinyin filter link retains keyboard focus",
+    "Flashcards title/H1 and teaching guide preserved",
+    "Published Blog design, photos, head resources and custom footer preserved",
+    "Published five-section interactive tools gallery remains active",
+    "/dictionary/木/:390px no overflow, axe zero violations",
+    "/blog/:390px no overflow, axe zero violations",
+    "/tools/:390px no overflow, axe zero violations"
+  ],
+  "existingJourneyPageErrors": [],
+  "otherJourneyResponsiveWidth": 390,
+  "otherJourneyAxeViolations": 0,
+  "pinyinChartChecks": [
+    "The production SEO description and lead contain online pronunciation and one-click print wording.",
+    "The Print Pinyin Chart button opens browser print.",
+    "All 24 groups, 410 syllables and 1323 attested tone forms appear in print output even when a syllable filter is active.",
+    "A4 and Letter print output each has five pages and contains the chart heading, tone guide, vowel-starting group, w group, shuǐ and weng.",
+    "Print hides navigation, screen filters, pronunciation controls and site footer.",
+    "The pinyin syllable audio button remains functional and its live status updates.",
+    "Restoring screen media preserves the active filter.",
+    "No page errors. No overflow at 360, 540, 581 and 1390 CSS pixels."
+  ],
+  "pinyinChartStatus": "PASS",
+  "pinyinChartResponsiveWidths": [360, 540, 581, 1390],
+  "productionHttpChecks": 390,
+  "productionHttpErrors": []
+}

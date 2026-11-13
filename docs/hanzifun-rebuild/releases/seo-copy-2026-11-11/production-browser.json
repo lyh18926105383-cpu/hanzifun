@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-11-11T14:22:18.833Z",
+  "origin": "https://hanzifun.online",
+  "checks": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "title": "Learn Chinese Characters Visually: Dictionary & Strokes",
+      "description": "Learn Chinese characters with stroke-order diagrams, hanzi meanings and pinyin, plus free flashcards that save your progress.",
+      "h1": "Learn Chinese Characters Visually",
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 1440,
+      "status": 200,
+      "title": "Chinese Stroke Order: Free Step-by-Step Hanzi Writing Tool",
+      "description": "Look up Chinese stroke order for characters: animated step-by-step writing, verified sequences, pinyin and meanings, free in your browser.",
+      "h1": "Chinese Stroke Order Lookup",
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/",
+      "width": 1440,
+      "status": 200,
+      "title": "Chinese Character Dictionary: Hanzi Meanings & Pinyin",
+      "description": "A free Chinese character dictionary with 339 hanzi: pinyin, core meanings, stroke order diagrams and example words, searchable in one click.",
+      "h1": "Chinese Character Dictionary",
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/",
+      "width": 1440,
+      "status": 200,
+      "title": "Chinese Conversation Practice: Travel & Restaurant Talk",
+      "description": "Practise Chinese conversation for restaurants, airports, hotels and shopping, with pinyin, phrase meanings and linked character breakdowns.",
+      "h1": "Chinese Conversation Practice",
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 1440,
+      "status": 200,
+      "title": "What Is Pinyin? Full Mandarin Chart With Audio",
+      "description": "What is pinyin? It is the official Romanization of Mandarin. See all 410 syllables on one chart with pronunciation and printable options.",
+      "h1": "What Is Pinyin?",
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/",
+      "width": 1440,
+      "status": 200,
+      "title": "Chinese Character Flashcards: Free Online Practice",
+      "description": "Practise Chinese characters with free online flashcards: pick a set, reveal each answer and keep saved characters in this browser.",
+      "h1": "Chinese Character Flashcards",
+      "overflow": false
+    },
+    {
+      "route": "/academic/",
+      "width": 1440,
+      "status": 200,
+      "title": "HSK 1 Vocabulary List: Compare HSK 2.0 and HSK 3.0",
+      "description": "HSK 1 vocabulary lists for HSK 2.0 and HSK 3.0 side by side, so you can check which characters and words each syllabus actually requires.",
+      "h1": "HSK 1 Vocabulary List: Choose Your Version",
+      "overflow": false
+    },
+    {
+      "route": "/tools/",
+      "width": 1440,
+      "status": 200,
+      "title": "Chinese Name Generator & Character Culture Tools",
+      "description": "Chinese name generator, menu decoder, lunar zodiac lookup and tattoo character checker, all built on one searchable hanzi dictionary.",
+      "h1": "Chinese Name Generator & Culture Tools",
+      "overflow": false
+    },
+    {
+      "route": "/kids/",
+      "width": 1440,
+      "status": 200,
+      "title": "Chinese Characters for family: Fun Visual Learning",
+      "description": "A playful Chinese character tool for family: tap a character to hear it, see its shape and learn one character at a time.",
+      "h1": "Small stories. Big discoveries.",
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/",
+      "width": 1440,
+      "status": 200,
+      "title": "Printable Chinese Character Cards",
+      "description": "Printable Chinese character cards with pinyin, meanings and memory cues",
+      "h1": "Printable Chinese Character Cards",
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "title": "Learn Chinese Characters Visually: Dictionary & Strokes",
+      "description": "Learn Chinese characters with stroke-order diagrams, hanzi meanings and pinyin, plus free flashcards that save your progress.",
+      "h1": "Learn Chinese Characters Visually",
+      "overflow": false
+    },
+    {
+      "route": "/stroke-order/",
+      "width": 390,
+      "status": 200,
+      "title": "Chinese Stroke Order: Free Step-by-Step Hanzi Writing Tool",
+      "description": "Look up Chinese stroke order for characters: animated step-by-step writing, verified sequences, pinyin and meanings, free in your browser.",
+      "h1": "Chinese Stroke Order Lookup",
+      "overflow": false
+    },
+    {
+      "route": "/dictionary/",
+      "width": 390,
+      "status": 200,
+      "title": "Chinese Character Dictionary: Hanzi Meanings & Pinyin",
+      "description": "A free Chinese character dictionary with 339 hanzi: pinyin, core meanings, stroke order diagrams and example words, searchable in one click.",
+      "h1": "Chinese Character Dictionary",
+      "overflow": false
+    },
+    {
+      "route": "/scenarios/",
+      "width": 390,
+      "status": 200,
+      "title": "Chinese Conversation Practice: Travel & Restaurant Talk",
+      "description": "Practise Chinese conversation for restaurants, airports, hotels and shopping, with pinyin, phrase meanings and linked character breakdowns.",
+      "h1": "Chinese Conversation Practice",
+      "overflow": false
+    },
+    {
+      "route": "/pinyin-chart/",
+      "width": 390,
+      "status": 200,
+      "title": "What Is Pinyin? Full Mandarin Chart With Audio",
+      "description": "What is pinyin? It is the official Romanization of Mandarin. See all 410 syllables on one chart with pronunciation and printable options.",
+      "h1": "What Is Pinyin?",
+      "overflow": false
+    },
+    {
+      "route": "/flashcards/",
+      "width": 390,
+      "status": 200,
+      "title": "Chinese Character Flashcards: Free Online Practice",
+      "description": "Practise Chinese characters with free online flashcards: pick a set, reveal each answer and keep saved characters in this browser.",
+      "h1": "Chinese Character Flashcards",
+      "overflow": false
+    },
+    {
+      "route": "/academic/",
+      "width": 390,
+      "status": 200,
+      "title": "HSK 1 Vocabulary List: Compare HSK 2.0 and HSK 3.0",
+      "description": "HSK 1 vocabulary lists for HSK 2.0 and HSK 3.0 side by side, so you can check which characters and words each syllabus actually requires.",
+      "h1": "HSK 1 Vocabulary List: Choose Your Version",
+      "overflow": false
+    },
+    {
+      "route": "/tools/",
+      "width": 390,
+      "status": 200,
+      "title": "Chinese Name Generator & Character Culture Tools",
+      "description": "Chinese name generator, menu decoder, lunar zodiac lookup and tattoo character checker, all built on one searchable hanzi dictionary.",
+      "h1": "Chinese Name Generator & Culture Tools",
+      "overflow": false
+    },
+    {
+      "route": "/kids/",
+      "width": 390,
+      "status": 200,
+      "title": "Chinese Characters for family: Fun Visual Learning",
+      "description": "A playful Chinese character tool for family: tap a character to hear it, see its shape and learn one character at a time.",
+      "h1": "Small stories. Big discoveries.",
+      "overflow": false
+    },
+    {
+      "route": "/worksheets/",
+      "width": 390,
+      "status": 200,
+      "title": "Printable Chinese Character Cards",
+      "description": "Printable Chinese character cards with pinyin, meanings and memory cues",
+      "h1": "Printable Chinese Character Cards",
+      "overflow": false
+    }
+  ],
+  "pageErrors": [],
+  "browser": "156.0.8078.81",
+  "status": "PASS"
+}

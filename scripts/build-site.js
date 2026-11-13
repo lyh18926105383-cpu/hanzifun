@@ -5,6 +5,7 @@ const projectRoot = path.resolve(__dirname, '..');
 const outputRoot = path.resolve(process.env.HF_BUILD_OUTPUT_DIR || path.join(projectRoot, 'dist'));
 const siteRoot = path.join(projectRoot, 'site');
 const publicFiles = [
+    'a3939f8231f24aca8f82ad9e03dcf1a7.txt',
     'styles.css',
     'story.css',
     'app.js',
@@ -111,7 +112,7 @@ function htmlForPage(layout, page, route, header, footer) {
     const canonical=page.canonical ? '<link rel="canonical" href="'+escapeHtml(page.canonical)+'">' : '';
     let html = layout
         .replaceAll('{{lang}}', escapeHtml(page.lang || 'en'))
-        .replaceAll('{{title}}', escapeHtml(page.title))
+        .replaceAll('{{title}}', escapeHtml(page.documentTitle ?? page.title + ' · HanziFun'))
         .replaceAll('{{description}}', escapeHtml(page.description || page.title))
         .replaceAll('{{robots}}', robots+canonical)
         .replaceAll('{{seo}}', page.structuredData || '')

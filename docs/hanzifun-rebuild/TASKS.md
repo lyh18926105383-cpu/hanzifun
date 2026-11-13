@@ -30,6 +30,44 @@
 - 本轮未commit/push/部署；发布需按HF-17/18准备新候选，不沿用11月3日旧冻结包。
 
 
+## 英文 README 更新（2026-11-12；Owner 已审阅）
+
+- [x] 按 Owner 确认稿重写根 `README.md`，覆盖当前 339 字词典、笔顺、410 音节拼音表、闪卡、HSK、场景、故事入口、文化工具与本地开发说明。
+- [x] 核对 Markdown、链接对应路由、npm 命令及目录，交付范围仅 README 与 TASKS/PROGRESS 文档。GitHub 同步以本轮最终提交及远端核验为准，详见 PROGRESS 记录53。
+
+## HF-08 十页SEO文案更新（2026-11-11；Deployed / PASS）
+
+- [x] 按Owner原文更新10页Title/Description与8页H1；Kids/Worksheets原H1保留，10页Title不再自动追加品牌后缀，其他页面标题保持。
+- [x] 203/203测试、3189文件生产模式构建、SEO errors=[]、Sitemap404；Chrome桌面/手机20项检查通过，无溢出/页面错误。
+- [x] 逐文件对比仅10页HTML和content-manifest审核源hash变化；Key文件及其他页面/资源保持。
+- [x] 源码 `44a2a95` 已推送 `origin/main`；Cloudflare版本 `a50a93a9-829c-4ab1-bf71-0f16fac5f8bb`，100%流量，正式HTTP390项与Chrome桌面/手机20项通过。
+- [x] 向IndexNow提交本次变化的10个网址，HTTP **202**（已收到，Key验证处理中）；没有宣称已收录。
+- [x] 今天的Key部署、文案更新、本地预览、生产发布、Git与IndexNow结果已汇总至PROGRESS记录52；最终回执单独commit/push。详见[发布回执](releases/seo-copy-2026-11-11/deployment.json)。
+
+## IndexNow 验证文件发布（2026-11-11；Deployed / PASS）
+
+- [x] Owner授权部署、Git push与正式地址检查；源提交 `fe5e4cf`，目标 `origin/main`，最终发布回执单独提交。
+- [x] 根目录Key文件加入构建白名单，更新对应构建源码签名；3189文件，仅新增Key，content-manifest只更新审核文件hash，其余页面/资源逐字节不变。
+- [x] 203/203测试、SEO errors=[]、Sitemap404，本地及发布前后各390项HTTP检查通过；Key额外返回200、text/plain、32字节与原文件完全一致。
+- [x] Cloudflare版本 `41f33bbd-23a0-4977-a1f6-76e7730ccec3`，2026-11-11 21:29:34 +08:00，100%流量；[发布回执](releases/indexnow-key-2026-11-11/deployment.json)。
+- Key发布阶段未发送网址通知；后续本日十页SEO发布已另向IndexNow提交10个变动网址，详见上方最新状态。
+
+## 最新发布：拼音表更新（2026-11-05；Deployed / PASS）
+
+- [x] Owner确认并授权上线、commit/push与TASKS/PROGRESS更新。
+- [x] 源码提交 `4ef23d7` 快进推送至 `origin/main`。
+- [x] 发布回执及 TASKS/PROGRESS 最终记录以 `f482c3a` 提交并推送至 `origin/main`。
+- [x] Cloudflare Worker版本 `fd7c4714-615c-4791-a8e0-4cf9fdf70c93` 于2026-11-05 00:16 +08:00上线，100%流量。生产 HTTP **390项全通过**，覆盖339字页。Chrome正式域名旅程PASS，零页面错误。
+- [x] 203/203测试、3188文件生产构建、SEO errors=[]、Sitemap404。拼音页 title/H1/intro、24组/410音节、在线发音和A4/Letter打印全部复验。详见[发布回执](releases/pinyin-chart-release-2026-11-05/deployment.json)。
+- [ ] Owner按完整24小时/7天窗口人工观察并后续复盘GSC趋势。没有创建自动监控。
+
+## HF-08 拼音表文案优化（2026-11-04）
+
+- [x] `/pinyin-chart/` 的 title 和 H1 聚焦 `What Is Pinyin in Chinese?`，首段定义汉语拼音，并以「水」的读音与第三声引入查表。
+- [x] 按浏览器五条批注更新三个小标题及筛选标签，将 410 个音节按拼写开头分成 24 组，每组包含标题和说明。
+- [x] 删除拼音页底部的 Stop audio 与说明，补充首屏在线发音和一键打印介绍，提供含 410 个音节和已收录声调的打印版。
+- [x] 203/203 测试、3188 文件生产构建、SEO 及 Wrangler 390 项本地 HTTP 验收通过。A4/Letter 打印均为 5 页。
+- [x] 拼音表更新已按HF-17/18完成部署与正式域名复核。发布包见[manifest](releases/pinyin-chart-release-2026-11-05/manifest.json)及[部署回执](releases/pinyin-chart-release-2026-11-05/deployment.json)。
 
 ## 当前发布：339单字页（2026-11-03；已部署 Completed / PASS）
 
