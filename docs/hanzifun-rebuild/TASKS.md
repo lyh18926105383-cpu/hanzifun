@@ -1,5 +1,13 @@
 # HanziFun 施工任务总表
 
+## HF-08 首页图片说明、社交分享与内容 Schema（2026-11-15；本地 Completed / PASS，未发布）
+
+- [x] 首页六处图片补充非空描述，包括两处SVG印章Logo、休的助记插画和三张受众裁切插画；Logo保留已有品牌链接名称并避免重复读出。
+- [x] 添加 Open Graph 与 Twitter Card（summary_large_image），标题/描述复用首页最终SEO文案，分享URL等于canonical，复用现有1200×900 JPEG及图片说明。
+- [x] 在原WebPage/WebSite基础上新增FAQPage，六组问答从实际首页HTML提取；构建门控检查FAQ一致、分享标签及所有首页图片alt。
+- [x] 203/203测试、3609文件构建、417英文页SEO/408 Sitemap通过；390/1440浏览器两次axe零违规，FAQ/翻卡/无JS/分享图片HTTP通过；仅首页HTML和content-manifest变化，3607其他产物相同。
+- [ ] 尚未commit/push/部署；候选 `/private/tmp/hanzifun-home-seo-20261115`。见PROGRESS记录66及[本轮证据](evidence/home-seo-2026-11-15/verification.json)。
+
 ## HF-03 主导航快捷入口发布（2026-11-13；Deployed / PASS）
 
 - [x] 找回5cb3工作区原改动并导入当前main，一级Stroke Order/Pinyin链接桌面手机共用。

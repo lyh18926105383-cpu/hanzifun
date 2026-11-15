@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "mode": "isolated local pointer switches; production untouched",
+  "elapsedMs": 714.8788749999999,
+  "candidateSha256": "378c169c32e2a4465bc2332c880c3e43f6b11abec51b7824f2e1ead404f2017a",
+  "previousSha256": "39d6eaecf6dd4e039623d625d09a7fad253ec77ecec9c68d98d36c0833db423b"
+}

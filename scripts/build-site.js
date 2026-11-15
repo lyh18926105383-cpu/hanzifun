@@ -398,6 +398,11 @@ async function buildSite() {
         seo.assertEditorialReady(route);
         const canonical=seo.canonicalUrl(page.path, release.siteOrigin);
         const prepared={...withBreadcrumbs(seo.withCoreSeo(page),pages),canonical};
+        if(page.path==='/'){
+            prepared.header=header({logoAlt:'HanziFun red seal logo'});
+            prepared.footerHtml=footer({logoAlt:'HanziFun red seal logo'});
+            prepared.head=seo.homeSocialMetadata(prepared,canonical,release.siteOrigin)+(prepared.head||'');
+        }
         if(prepared.content.includes('data-pronunciation'))prepared.content+=(prepared.pronunciationFooter ?? pronunciation.pronunciationFooter);
         prepared.structuredData=seo.structuredData(prepared,canonical,release.siteOrigin);
         const html = htmlForPage(layout, prepared, route, header, footer);

@@ -1,5 +1,9 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 2026-11-16发布中：Owner已确认首页alt/社交标签并授权部署、git push及文档；`home-seo-release-2026-11-16`候选203/203、双构建/回滚、本地390+27和生产前390通过。正在发布，完成回执随后追加；记录66为此前本地交付。
+
+> 最新本地：2026-11-15首页三项SEO修复 Completed / PASS；六图非空alt、Open Graph/Twitter Card、与六组可见问答同源的FAQPage。203/203、3609文件/408 Sitemap、390/1440两次axe通过；仅首页HTML及content-manifest变化，未commit/push/部署。见记录66。
+
 > 最新生产：2026-11-13主导航一级Stroke Order/Pinyin入口已部署 Completed / PASS；找回5cb3工作区原改动后精确导入main。203/203、正式390+27 HTTP、线上24档导航/2次axe/实际点击通过，版本`dc532d9e-5506-4415-a50a-a166e1e80f5f`，2026-11-13T23:50:58.631020+08:00，源码d42c4dd已push。任务及回执随最终文档提交同步，见记录65。
 
 > 最新生产：2026-11-13最近更新统一发布 Completed / PASS；共享面包屑与笔顺五页/最终批注已上线，远端Pinyin/SEO/IndexNow/README保留。203/203、正式域名390+27项、线上浏览器通过。发布版本`8c0cb4c1-cf81-4b1e-9c42-7b96453072cc`，2026-11-13T20:48:31.109784+08:00，100%流量；源码d05c67e已推送main，最终回执与任务文档随本次文档提交同步。见记录63与本批deployment.json。
@@ -44,10 +48,10 @@
 
 ## 当前所处阶段
 - **阶段/范围**：公开静态学习站，主导航新增独立Stroke Order/Pinyin入口；此前面包屑、笔顺五页及最终动画、Pinyin/SEO/IndexNow/Blog/Tools均保留。
-- **当前执行任务**：`primary-nav-release-2026-11-13` 已部署 Completed / PASS；Owner明确授权检查、部署和gitpush。
+- **当前执行任务**：HF-08首页alt、Open Graph/Twitter Card与FAQPage本地修复 Completed / PASS；未commit/push/部署，生产仍为11月13日主导航发布。
 - **最新发布/审计**：2026-11-13T23:50:58.631020+08:00，版本 `dc532d9e-5506-4415-a50a-a166e1e80f5f`、100%流量；203/203、3609文件/408 Sitemap、正式390+27项HTTP、三页面24档导航/2次axe及实际桌面手机点击通过。
 - **开发/Git目录**：Desktop main源码d42c4dd已push，最终任务/进度及回执另以文档提交同步；原5cb3工作区未修改，个人临时文件保留。
-- **后续**：从记录65与 `releases/primary-nav-release-2026-11-13/deployment.json` 接续；87缺字/HSK及Phase3保持原范围，没有创建监控或发起额外索引提交。
+- **后续**：本地首页修复从记录66与 `evidence/home-seo-2026-11-15/` 接续；生产从记录65与 `releases/primary-nav-release-2026-11-13/deployment.json` 核对，87缺字/HSK及Phase3保持原范围。
 
 ---
 
@@ -785,3 +789,12 @@
 - **实际验证**：203/203，3609产物，Sitemap408和SEO通过；两次构建逐字节相同、隔离回滚通过。本地与生产：首页/笔顺/拼音各8档共24导航布局，两个链接直接可见与实际桌面手机点击到达、键盘Tab/Escape、无JS均通过；两个header axe零违规。线上390项原站+27项主题HTTP匹配冻结包，416个变动HTML去掉两新链接后与旧页面逐字节一致，只有route-manifest额外更改releaseId，所有媒体/数据/正文保全。线上导航检查改为等待目标H1可见后断言，避免慢网时读取尚未完成的页面。
 - **文件/文档**：产品改动 `site/site.mjs`、`site/release.json`；本批release目录保存源导入、候选/备份/差异/回滚/确定性、tests、local/production浏览器/HTTP、实际deployment及导航截图。更新TASKS/PROGRESS、HF03/17/18。同步修正本批与上一批manifest的indexableRoutes，依据已验Sitemap列408个最终URL，去掉两个重定向源路径；未改变产品索引或Sitemap。
 - **交接**：检查、部署、gitpush三项完成；最终部署回执与任务文档随本次文档提交同步。内置浏览器五个正式页面已刷新，手机菜单实际展示两项新入口。后续入口为本记录/本批deployment.json；原5cb3“未部署”日志为旧状态，当前Git版本以main为准。若后续文档push触发等价Cloudflare版本，以冻结hash及生产内容核对，不仅看版本号。未进行故事制作、额外IndexNow提交或自动监控。
+
+### [记录66] - 首页图片说明、社交分享及FAQPage（By Codex，2026-11-15）
+
+- **Owner请求/原因**：首页SEO检测报告六图缺少alt、缺少social media tags，并追加Content Schema项，明确Open Graph和Twitter Card。原六图实际带有空alt而非缺属性；原首页有WebPage/WebSite，但无FAQPage。
+- **实现**：`site/pages/home.html`四张内容图补真实画面描述；`site/site.mjs`的header/footer增加可选logoAlt，仅首页调用，两处印章SVG图补描述并aria-hidden，链接保留已有品牌名称。`site/seo.mjs`新增首页Open Graph/Twitter Card（summary_large_image），标题/描述复用最终SEO文案，URL等于canonical，复用现有1200×900/355087字节JPEG。FAQPage直接用parse5读取现有六组summary和p，保留WebPage/WebSite。`scripts/build-site.js`仅首页接入品牌图说明与分享头部。`scripts/validate-seo-quality.mjs`检查首页图片非空alt、分享标签唯一且文案/URL一致、六组FAQ与正文逐项对应，原笔顺FAQ门控保留。
+- **审核源维护**：`data/editorial/review-decisions.json`仅维护characterPagePresentation的build-site.js依赖hash及payload，追加homeSeoMaintenance与证据路径；未改变教学/音频审批或伪造人工验收。
+- **实际验证**：`npm test`203/203；3609文件、417英文页/408 Sitemap、SEO errors=[]。对比本聊天修复前同源码构建，仅`index.html`和`content-manifest.json`改变，其他3607文件逐字节相同，无新增/删除产物。Chrome157在390/1440两档无溢出、两次axe零违规；FAQ展开、首屏翻卡、分享图本地HTTP200/image/jpeg、无JS的分享meta/FAQ/JSON-LD全部通过，零页面错误。初次浏览器运行因监听EPERM失败，按沙箱流程重试后本地验证成功；不是线上验收。`git diff --check`通过。
+- **文件/证据**：上述6个产品/审核文件及TASKS/PROGRESS/HF08任务；新增`evidence/home-seo-2026-11-15/verification.json`和`browser.json`。候选`/private/tmp/hanzifun-home-seo-20261115`，修复前对照`/private/tmp/hanzifun-alt-audit-20261115`；测试日志和一次性浏览器脚本在/private/tmp。使用既有parse5，无新增包。
+- **边界与下一个Agent入口**：三项本地完成，未commit/push/部署；生产仍为记录65。接手读本记录与TASKS，再看`site/seo.mjs`的homeSocialMetadata/homeFaq/structuredData及build-site.js首页条件块；发布按HF17/18冻结当前候选并核对授权。未修改故事播放器canonical缺口，未添加与首页类型不符的Article/HowTo/Product。尚未做外部检测器复扫或社交平台缓存验证，不承诺富结果或AI引用；原有未跟踪文件保留。

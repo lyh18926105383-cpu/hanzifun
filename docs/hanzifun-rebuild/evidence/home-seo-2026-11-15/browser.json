@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-15",
+  "layouts": [
+    {
+      "width": 390,
+      "scroll": 390,
+      "images": [
+        {
+          "src": "/site-assets/seal.hf03-v1.svg",
+          "alt": "HanziFun red seal logo"
+        },
+        {
+          "src": "/site-assets/hero.hf03-v1.jpg",
+          "alt": "A person resting against a tree, a visual memory cue for 休 (xiū), to rest"
+        },
+        {
+          "src": "/site-assets/audiences.hf03-v1.jpg",
+          "alt": "A parent and child reading an illustrated book together"
+        },
+        {
+          "src": "/site-assets/audiences.hf03-v1.jpg",
+          "alt": "A traveler looking toward the Shanghai skyline and a high-speed train"
+        },
+        {
+          "src": "/site-assets/audiences.hf03-v1.jpg",
+          "alt": "A student writing in a notebook beside a stack of books"
+        },
+        {
+          "src": "/site-assets/seal.hf03-v1.svg",
+          "alt": "HanziFun red seal logo"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "images": [
+        {
+          "src": "/site-assets/seal.hf03-v1.svg",
+          "alt": "HanziFun red seal logo"
+        },
+        {
+          "src": "/site-assets/hero.hf03-v1.jpg",
+          "alt": "A person resting against a tree, a visual memory cue for 休 (xiū), to rest"
+        },
+        {
+          "src": "/site-assets/audiences.hf03-v1.jpg",
+          "alt": "A parent and child reading an illustrated book together"
+        },
+        {
+          "src": "/site-assets/audiences.hf03-v1.jpg",
+          "alt": "A traveler looking toward the Shanghai skyline and a high-speed train"
+        },
+        {
+          "src": "/site-assets/audiences.hf03-v1.jpg",
+          "alt": "A student writing in a notebook beside a stack of books"
+        },
+        {
+          "src": "/site-assets/seal.hf03-v1.svg",
+          "alt": "HanziFun red seal logo"
+        }
+      ]
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 390,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "FAQ expands",
+    "Six FAQ schema questions present",
+    "Share image returns 200 image/jpeg",
+    "Hero card flips",
+    "Metadata and FAQ exist without JavaScript"
+  ],
+  "engine": "157.0.8103.52",
+  "status": "PASS"
+}

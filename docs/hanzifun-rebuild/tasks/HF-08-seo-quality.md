@@ -1,5 +1,7 @@
 # HF-08｜公开页 SEO、性能与无障碍收口
 
+> 2026-11-15增量：Owner报告首页六图空alt、缺少社媒标签及Content Schema。已完成首页非空图片描述、Open Graph/Twitter Card和六问答FAQPage；203/203、全站构建/SEO及390/1440浏览器两次axe通过，仅首页HTML与审核清单变化。尚未commit/push/部署，见PROGRESS记录66及 `../evidence/home-seo-2026-11-15/`。
+
 > 2026-11-11最新：十页SEO文案已部署 / PASS，源码44a2a95已推送origin/main，生产390项HTTP及桌面/手机20项通过；IndexNow接收10个变化网址，HTTP202（Key验证处理中）。见[发布回执](../releases/seo-copy-2026-11-11/deployment.json)。
 
 > 2026-11-11增量：10页Title/Description及8页H1按Owner原文完成本地更新，203/203测试、SEO及Chrome桌面/手机20项检查PASS；尚未commit/push/部署。见[文案验收](../SEO-COPY-2026-11-11.md)。

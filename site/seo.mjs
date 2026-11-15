@@ -6,6 +6,7 @@ import {editorFor, escapeHtml as e} from './dictionary-data.mjs';
 import {findCharacter,findReading,scenarioData,assertScenarioAcceptance} from './hsk-data.mjs';
 import {breadcrumbItems} from './components/breadcrumbs.mjs';
 import {topicPaths,topicMeta,topicAnswer} from './stroke-topic-meta.mjs';
+import {parseFragment} from 'parse5';
 export const canonicalUrl=(routePath,origin)=>new URL(routePath.split(/[?#]/)[0],origin).href;
 export const privateRoute=p=>{
  const url=new URL(p,'https://hanzifun.invalid'),pathname=url.pathname;
@@ -95,6 +96,26 @@ export function withCoreSeo(page) {
 export function safeJsonLd(value) {
  return JSON.stringify(value).replace(/[<>&\u2028\u2029]/g,c=>'\\u'+c.charCodeAt(0).toString(16).padStart(4,'0'));
 }
+export function homeSocialMetadata(page,canonical,origin) {
+ const title=page.documentTitle??page.title,description=page.description||page.title;
+ const image=new URL('/site-assets/hero.hf03-v1.jpg',origin).href;
+ const imageAlt='A person resting against a tree, a visual memory cue for the Chinese character 休 (xiū), to rest';
+ const og={type:'website',site_name:'HanziFun',title,description,url:canonical,image,'image:secure_url':image,'image:type':'image/jpeg','image:width':'1200','image:height':'900','image:alt':imageAlt};
+ const twitter={card:'summary_large_image',title,description,image,'image:alt':imageAlt};
+ return Object.entries(og).map(([key,value])=>`<meta property="og:${key}" content="${e(value)}">`).concat(Object.entries(twitter).map(([key,value])=>`<meta name="twitter:${key}" content="${e(value)}">`)).join('\n');
+}
+// Read the actual homepage answers so visible copy and schema cannot drift apart.
+function homeFaq(content) {
+ const all=n=>[n,...(n.childNodes||[]).flatMap(all)];
+ const rawText=n=>n?.nodeName==='#text'?n.value:(n?.childNodes||[]).map(rawText).join('');
+ const text=n=>rawText(n).replace(/\s+/g,' ').trim();
+ const faq=all(parseFragment(content)).find(n=>n.attrs?.some(a=>a.name==='id'&&a.value==='faq'));
+ if(!faq)throw Error('Homepage FAQ section required for FAQPage schema');
+ return all(faq).filter(n=>n?.tagName==='details').map(n=>({
+  '@type':'Question',name:text(n.childNodes.find(x=>x.tagName==='summary')),
+  acceptedAnswer:{'@type':'Answer',text:text(n.childNodes.find(x=>x.tagName==='p'))}
+ }));
+}
 export function structuredData(page,canonical,origin) {
  if(page.strokeTopic){
   const a=page.editorialArticle;
@@ -106,7 +127,7 @@ export function structuredData(page,canonical,origin) {
  const graph=[{'@type':'WebPage','@id':canonical+'#page',url:canonical,name:page.title,description:page.description||page.title,inLanguage:page.lang||'en'}];
  if(page.webApplication&&!page.path.startsWith('/tools/'))graph.push({'@type':'WebApplication',name:page.title,description:page.description,applicationCategory:'EducationalApplication',operatingSystem:'Any',url:canonical,inLanguage:'en'});
  if(page.editorialArticle){const a=page.editorialArticle;graph.push({'@type':'Article',headline:a.title,author:{'@type':a.author.kind==='human'?'Person':'Organization',name:a.author.name},dateModified:a.modified,...(a.published?{datePublished:a.published}:{}),url:canonical,mainEntityOfPage:canonical,citation:a.references.map(r=>r.url)});}
- if(page.path==='/')graph.push({'@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:'HanziFun',inLanguage:'en'});
+ if(page.path==='/')graph.push({'@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:'HanziFun',inLanguage:'en'},{'@type':'FAQPage','@id':canonical+'#faq',mainEntity:homeFaq(page.content)});
  else if(page.path!=='/404.html')graph.push({'@type':'BreadcrumbList',itemListElement:(page.breadcrumbs||breadcrumbItems(page)).map((item,i)=>({'@type':'ListItem',position:i+1,name:item.name,item:canonicalUrl(item.path,origin)}))});
  return '<script type="application/ld+json">'+safeJsonLd({'@context':'https://schema.org','@graph':graph})+'</script>';
 }

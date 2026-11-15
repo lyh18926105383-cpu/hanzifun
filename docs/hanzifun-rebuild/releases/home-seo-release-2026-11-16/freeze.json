@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "files": 3609,
+  "sha256": "378c169c32e2a4465bc2332c880c3e43f6b11abec51b7824f2e1ead404f2017a",
+  "changed": [
+    "content-manifest.json",
+    "index.html",
+    "route-manifest.json"
+  ],
+  "added": [],
+  "removed": [],
+  "unchangedFiles": 3606,
+  "twoBuildsIdentical": true,
+  "seo": {
+    "pages": 417,
+    "sitemap": 408,
+    "errors": []
+  }
+}

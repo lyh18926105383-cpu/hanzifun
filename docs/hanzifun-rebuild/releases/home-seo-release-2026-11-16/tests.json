@@ -1,0 +1,8 @@
+{
+  "command": "npm test",
+  "date": "2026-11-16",
+  "tests": 203,
+  "pass": 203,
+  "fail": 0,
+  "log": ".cache/releases/home-seo-release-2026-11-16/tests.log"
+}

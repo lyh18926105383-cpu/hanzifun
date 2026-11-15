@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-15",
+  "scope": "homepage only; local candidate, not deployed",
+  "build": {
+    "files": 3609,
+    "pages": 417,
+    "sitemap": 408,
+    "errors": []
+  },
+  "images": [
+    {
+      "src": "/site-assets/seal.hf03-v1.svg",
+      "alt": "HanziFun red seal logo"
+    },
+    {
+      "src": "/site-assets/hero.hf03-v1.jpg",
+      "alt": "A person resting against a tree, a visual memory cue for 休 (xiū), to rest"
+    },
+    {
+      "src": "/site-assets/audiences.hf03-v1.jpg",
+      "alt": "A parent and child reading an illustrated book together"
+    },
+    {
+      "src": "/site-assets/audiences.hf03-v1.jpg",
+      "alt": "A traveler looking toward the Shanghai skyline and a high-speed train"
+    },
+    {
+      "src": "/site-assets/audiences.hf03-v1.jpg",
+      "alt": "A student writing in a notebook beside a stack of books"
+    },
+    {
+      "src": "/site-assets/seal.hf03-v1.svg",
+      "alt": "HanziFun red seal logo"
+    }
+  ],
+  "social": [
+    {
+      "key": "og:type",
+      "value": "website"
+    },
+    {
+      "key": "og:site_name",
+      "value": "HanziFun"
+    },
+    {
+      "key": "og:title",
+      "value": "Learn Chinese Characters Visually: Dictionary & Strokes"
+    },
+    {
+      "key": "og:description",
+      "value": "Learn Chinese characters with stroke-order diagrams, hanzi meanings and pinyin, plus free flashcards that save your progress."
+    },
+    {
+      "key": "og:url",
+      "value": "https://hanzifun.online/"
+    },
+    {
+      "key": "og:image",
+      "value": "https://hanzifun.online/site-assets/hero.hf03-v1.jpg"
+    },
+    {
+      "key": "og:image:secure_url",
+      "value": "https://hanzifun.online/site-assets/hero.hf03-v1.jpg"
+    },
+    {
+      "key": "og:image:type",
+      "value": "image/jpeg"
+    },
+    {
+      "key": "og:image:width",
+      "value": "1200"
+    },
+    {
+      "key": "og:image:height",
+      "value": "900"
+    },
+    {
+      "key": "og:image:alt",
+      "value": "A person resting against a tree, a visual memory cue for the Chinese character 休 (xiū), to rest"
+    },
+    {
+      "key": "twitter:card",
+      "value": "summary_large_image"
+    },
+    {
+      "key": "twitter:title",
+      "value": "Learn Chinese Characters Visually: Dictionary & Strokes"
+    },
+    {
+      "key": "twitter:description",
+      "value": "Learn Chinese characters with stroke-order diagrams, hanzi meanings and pinyin, plus free flashcards that save your progress."
+    },
+    {
+      "key": "twitter:image",
+      "value": "https://hanzifun.online/site-assets/hero.hf03-v1.jpg"
+    },
+    {
+      "key": "twitter:image:alt",
+      "value": "A person resting against a tree, a visual memory cue for the Chinese character 休 (xiū), to rest"
+    }
+  ],
+  "schemaTypes": [
+    "WebPage",
+    "WebSite",
+    "FAQPage"
+  ],
+  "faqQuestions": 6,
+  "artifactChanges": [
+    "content-manifest.json",
+    "index.html"
+  ],
+  "unchangedFiles": 3607,
+  "shareImage": {
+    "path": "/site-assets/hero.hf03-v1.jpg",
+    "width": 1200,
+    "height": 900,
+    "bytes": 355087
+  },
+  "tests": {
+    "command": "npm test",
+    "passed": 203,
+    "failed": 0
+  },
+  "diffCheck": "PASS"
+}

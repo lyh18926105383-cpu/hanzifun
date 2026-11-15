@@ -45,10 +45,12 @@ export function validateJsonLd(document,expectedCanonical) {
      requireValue(Array.isArray(item.citation)&&item.citation.length&&item.citation.every(absolute),'Article citations required');
     }else if(type==='FAQPage'){
      const faqCanonical=expectedCanonical||attr(nodes(document).find(n=>n.tagName==='link'&&attr(n,'rel')==='canonical'),'href');
-     requireValue(faqCanonical&&topicPaths.slice(0,4).some(p=>new URL(faqCanonical).pathname===p),'FAQPage is only allowed for the approved stroke-topic pages');
+     const isHome=faqCanonical&&new URL(faqCanonical).pathname==='/';
+     requireValue(faqCanonical&&(isHome||topicPaths.slice(0,4).some(p=>new URL(faqCanonical).pathname===p)),'FAQPage is only allowed for the homepage and approved stroke-topic pages');
      requireValue(Array.isArray(item.mainEntity)&&item.mainEntity.length>=5,'Visible FAQ questions required');
+     if(isHome)equal(item.mainEntity.length,6,'Homepage schema has six questions');
      const visible=nodes(document).filter(n=>n.tagName==='details');
-     item.mainEntity.forEach(x=>{equal(x['@type'],'Question','FAQ question type');equal(x.acceptedAnswer?.['@type'],'Answer','FAQ answer type');requireValue(x.name&&x.acceptedAnswer.text,'FAQ answer content required');const match=visible.find(d=>text(nodes(d).find(n=>n.tagName==='summary'))===x.name);requireValue(match,'FAQ question must be visible in HTML');equal(text(nodes(match).find(n=>n.tagName==='div')),x.acceptedAnswer.text,'FAQ answer agrees with visible content');});
+     item.mainEntity.forEach(x=>{equal(x['@type'],'Question','FAQ question type');equal(x.acceptedAnswer?.['@type'],'Answer','FAQ answer type');requireValue(x.name&&x.acceptedAnswer.text,'FAQ answer content required');const match=visible.find(d=>text(nodes(d).find(n=>n.tagName==='summary'))===x.name);requireValue(match,'FAQ question must be visible in HTML');equal(text(nodes(match).find(n=>n.tagName===(isHome?'p':'div'))),x.acceptedAnswer.text,'FAQ answer agrees with visible content');});
     }else if(type==='WebApplication'){
      for(const key of ['name','description','applicationCategory','operatingSystem'])requireValue(typeof item[key]==='string'&&item[key].trim(),'WebApplication missing '+key);
      requireValue(absolute(item.url),'WebApplication URL required');
@@ -109,6 +111,20 @@ export function validatePage(html,route,{origin,environment='production',titles=
  assertLearnerCopy(document);
  const jsonLd=validateJsonLd(document,canonical);requireValue(jsonLd>0,'Structured data required');
  if(route.path==='/'){
+  const social=(kind,key)=>{const matches=inHead.filter(n=>n.tagName==='meta'&&attr(n,kind)===key);equal(matches.length,1,'Exactly one '+key);const value=attr(matches[0],'content');requireValue(value?.trim(),'Non-empty '+key);return value;};
+  equal(social('property','og:type'),'website','Homepage social type');
+  equal(social('property','og:url'),canonical,'Social URL agrees with canonical');
+  equal(social('property','og:title'),title,'Social title agrees with title');
+  equal(social('property','og:description'),attr(descriptions[0],'content'),'Social description agrees with description');
+  const socialImage=social('property','og:image');requireValue(absolute(socialImage)&&new URL(socialImage).origin===new URL(origin).origin,'First-party absolute social image required');
+  social('property','og:image:alt');
+  equal(social('name','twitter:card'),'summary_large_image','Twitter card type');
+  equal(social('name','twitter:title'),title,'Twitter title agrees with title');
+  equal(social('name','twitter:description'),attr(descriptions[0],'content'),'Twitter description agrees with description');
+  equal(social('name','twitter:image'),socialImage,'Social image consistency');social('name','twitter:image:alt');
+  all.filter(n=>n.tagName==='img').forEach(n=>requireValue(attr(n,'alt')?.trim(),'Homepage images require descriptive alt text'));
+  const graphs=all.filter(n=>n.tagName==='script'&&attr(n,'type')==='application/ld+json').flatMap(n=>{const data=JSON.parse(textContent(n));return data['@graph']||[data];});
+  equal(graphs.filter(n=>n['@type']==='FAQPage').length,1,'Homepage needs one FAQPage schema');
   const faq=all.find(n=>attr(n,'id')==='faq'),questions=nodes(faq).filter(n=>n.tagName==='details');equal(questions.length,6,'Six static FAQs');
   questions.forEach(q=>{requireValue(nodes(q).some(n=>n.tagName==='summary'&&text(n).endsWith('?')),'FAQ question required');requireValue(nodes(q).some(n=>n.tagName==='p'&&text(n).length>30),'FAQ answer required');requireValue(nodes(q).some(n=>n.tagName==='a'&&attr(n,'href')?.startsWith('/')),'FAQ related link required');});
  }
