@@ -1,12 +1,12 @@
 # HanziFun 施工任务总表
 
-## HF-08 首页图片说明、社交分享与内容 Schema（2026-11-15；本地 Completed / PASS，未发布）
+## HF-08 首页图片说明、社交分享与内容 Schema（2026-11-16；Deployed / PASS）
 
 - [x] 首页六处图片补充非空描述，包括两处SVG印章Logo、休的助记插画和三张受众裁切插画；Logo保留已有品牌链接名称并避免重复读出。
 - [x] 添加 Open Graph 与 Twitter Card（summary_large_image），标题/描述复用首页最终SEO文案，分享URL等于canonical，复用现有1200×900 JPEG及图片说明。
 - [x] 在原WebPage/WebSite基础上新增FAQPage，六组问答从实际首页HTML提取；构建门控检查FAQ一致、分享标签及所有首页图片alt。
 - [x] 203/203测试、3609文件构建、417英文页SEO/408 Sitemap通过；390/1440浏览器两次axe零违规，FAQ/翻卡/无JS/分享图片HTTP通过；仅首页HTML和content-manifest变化，3607其他产物相同。
-- [ ] 尚未commit/push/部署；候选 `/private/tmp/hanzifun-home-seo-20261115`。见PROGRESS记录66及[本轮证据](evidence/home-seo-2026-11-15/verification.json)。
+- [x] Owner确认并授权部署、Git push及文档；源码3755ed7已推送origin/main，2026-11-16T00:21:12.192+08:00版本`450ea2bd-7d6d-448e-b58e-d6408010cd6d`以100%流量上线。203/203、双构建/隔离回滚、本地390+27、生产前390及生产390+27、正式首页390/1440两次axe与FAQ/翻卡/无JS通过。发布候选仅首页HTML和两项机器清单变化，其他3606文件相同。见PROGRESS记录67及[发布回执](releases/home-seo-release-2026-11-16/deployment.json)。记录66和[原本地证据](evidence/home-seo-2026-11-15/verification.json)保留开发历史。
 
 ## HF-03 主导航快捷入口发布（2026-11-13；Deployed / PASS）
 

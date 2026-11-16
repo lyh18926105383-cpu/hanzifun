@@ -1,7 +1,7 @@
 {
   "releaseId": "home-seo-release-2026-11-16",
   "phase": 1,
-  "status": "candidate-verified",
+  "status": "deployed-and-verified",
   "baseCommit": "d4c41f0e3b90ff178c780d3d88e5f3d72796867d",
   "ownerAuthorization": "2026-11-16: 没问题，你部署上线，并git push，和更新文档",
   "enabledFeatures": [
@@ -443,11 +443,17 @@
     "localTopicHTTP": 27,
     "productionBeforeHTTP": 390,
     "localBrowser": "PASS",
-    "rollbackRehearsal": "PASS"
+    "rollbackRehearsal": "PASS",
+    "productionHTTP": 390,
+    "productionTopicHTTP": 27,
+    "productionBrowser": "PASS"
   },
   "deferred": [
     "External SEO checker re-scan",
     "Social platform preview/cache refresh",
     "24-hour and 7-day manual observation"
-  ]
+  ],
+  "sourceCommit": "3755ed7c833466177a93051743eabd44d675e98b",
+  "versionId": "450ea2bd-7d6d-448e-b58e-d6408010cd6d",
+  "deployedAtSingapore": "2026-11-16T00:21:12.192+08:00"
 }

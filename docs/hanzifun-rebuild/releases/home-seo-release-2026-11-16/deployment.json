@@ -1,0 +1,39 @@
+{
+  "releaseId": "home-seo-release-2026-11-16",
+  "status": "deployed-and-verified",
+  "sourceCommit": "3755ed7c833466177a93051743eabd44d675e98b",
+  "sourceBranch": "main",
+  "gitDestination": "origin/main",
+  "sourcePush": "PASS; non-force d4c41f0..3755ed7",
+  "productionOrigin": "https://hanzifun.online",
+  "versionId": "450ea2bd-7d6d-448e-b58e-d6408010cd6d",
+  "deploymentId": "4ef89ed3-e73f-43b7-bb1d-548c9d264d17",
+  "createdOn": "2026-11-15T16:21:12.192702Z",
+  "deployedAtSingapore": "2026-11-16T00:21:12.192+08:00",
+  "trafficPercentage": 100,
+  "previousVersionId": "dc532d9e-5506-4415-a50a-a166e1e80f5f",
+  "uploadedArtifactSha256": "378c169c32e2a4465bc2332c880c3e43f6b11abec51b7824f2e1ead404f2017a",
+  "checks": {
+    "tests": 203,
+    "failedTests": 0,
+    "files": 3609,
+    "sitemap": 408,
+    "productionHTTP": 390,
+    "productionTopicHTTP": 27,
+    "productionHomepageLayouts": [
+      390,
+      1440
+    ],
+    "productionAxeScans": 2,
+    "productionAxeViolations": 0,
+    "descriptiveHomepageImages": 6,
+    "openGraph": true,
+    "twitterCard": "summary_large_image",
+    "faqPageQuestions": 6,
+    "noJavaScript": "PASS",
+    "twoBuildsIdentical": true,
+    "rollbackRehearsal": "PASS"
+  },
+  "versionNote": "This is the explicit frozen-assets deployment. Subsequent documentation pushes may create an equivalent version; verify response bytes against the frozen candidate.",
+  "followup": "No automatic monitor or IndexNow submission. External checker/cache refresh and later 24-hour/7-day observation are not claimed complete."
+}

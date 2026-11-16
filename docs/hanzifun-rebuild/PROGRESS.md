@@ -1,6 +1,6 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
-> 2026-11-16发布中：Owner已确认首页alt/社交标签并授权部署、git push及文档；`home-seo-release-2026-11-16`候选203/203、双构建/回滚、本地390+27和生产前390通过。正在发布，完成回执随后追加；记录66为此前本地交付。
+> 最新生产：2026-11-16首页alt、Open Graph/Twitter Card、FAQPage已部署 / PASS；源码3755ed7已push，版本`450ea2bd-7d6d-448e-b58e-d6408010cd6d`，2026-11-16T00:21:12.192+08:00，100%流量。203/203、双构建/回滚、生产390+27及正式首页两次axe/FAQ/翻卡/无JS通过；记录67与本批deployment.json为最新回执，记录66为本地开发历史。
 
 > 最新本地：2026-11-15首页三项SEO修复 Completed / PASS；六图非空alt、Open Graph/Twitter Card、与六组可见问答同源的FAQPage。203/203、3609文件/408 Sitemap、390/1440两次axe通过；仅首页HTML及content-manifest变化，未commit/push/部署。见记录66。
 
@@ -47,11 +47,11 @@
 > 最新增量：2026-11-01 Blog与另一聊天Tools已合并上线，源码720374a已推送main，正式域名44项复检PASS；版本992a6d92-cfd7-403f-a705-61ada1119951，2026-11-01 01:01:37 +08:00，100%流量。见记录33及blog-tools-release-2026-11-01发布回执。下方旧待部署状态保留历史。
 
 ## 当前所处阶段
-- **阶段/范围**：公开静态学习站，主导航新增独立Stroke Order/Pinyin入口；此前面包屑、笔顺五页及最终动画、Pinyin/SEO/IndexNow/Blog/Tools均保留。
-- **当前执行任务**：HF-08首页alt、Open Graph/Twitter Card与FAQPage本地修复 Completed / PASS；未commit/push/部署，生产仍为11月13日主导航发布。
-- **最新发布/审计**：2026-11-13T23:50:58.631020+08:00，版本 `dc532d9e-5506-4415-a50a-a166e1e80f5f`、100%流量；203/203、3609文件/408 Sitemap、正式390+27项HTTP、三页面24档导航/2次axe及实际桌面手机点击通过。
-- **开发/Git目录**：Desktop main源码d42c4dd已push，最终任务/进度及回执另以文档提交同步；原5cb3工作区未修改，个人临时文件保留。
-- **后续**：本地首页修复从记录66与 `evidence/home-seo-2026-11-15/` 接续；生产从记录65与 `releases/primary-nav-release-2026-11-13/deployment.json` 核对，87缺字/HSK及Phase3保持原范围。
+- **阶段/范围**：公开静态学习站；首页六图描述、Open Graph/Twitter Card及六问答FAQPage已上线，原导航/笔顺/Pinyin/SEO/Blog/Tools均保留。
+- **当前执行任务**：`home-seo-release-2026-11-16`已部署 Completed / PASS；Owner明确授权部署、Git push与更新文档。
+- **最新发布/审计**：2026-11-16T00:21:12.192+08:00，版本`450ea2bd-7d6d-448e-b58e-d6408010cd6d`、100%流量；203/203、3609文件/408 Sitemap、正式390+27项HTTP、首页390/1440两次axe与FAQ/翻卡/无JS通过。
+- **开发/Git目录**：Desktop main源码3755ed7已push，最终任务/进度及回执随文档提交同步；原5cb3工作区和个人临时文件保留。
+- **后续**：从记录67与 `releases/home-seo-release-2026-11-16/deployment.json` 接续；87缺字/HSK及Phase3保持原范围，未创建监控或额外索引通知。
 
 ---
 
@@ -798,3 +798,12 @@
 - **实际验证**：`npm test`203/203；3609文件、417英文页/408 Sitemap、SEO errors=[]。对比本聊天修复前同源码构建，仅`index.html`和`content-manifest.json`改变，其他3607文件逐字节相同，无新增/删除产物。Chrome157在390/1440两档无溢出、两次axe零违规；FAQ展开、首屏翻卡、分享图本地HTTP200/image/jpeg、无JS的分享meta/FAQ/JSON-LD全部通过，零页面错误。初次浏览器运行因监听EPERM失败，按沙箱流程重试后本地验证成功；不是线上验收。`git diff --check`通过。
 - **文件/证据**：上述6个产品/审核文件及TASKS/PROGRESS/HF08任务；新增`evidence/home-seo-2026-11-15/verification.json`和`browser.json`。候选`/private/tmp/hanzifun-home-seo-20261115`，修复前对照`/private/tmp/hanzifun-alt-audit-20261115`；测试日志和一次性浏览器脚本在/private/tmp。使用既有parse5，无新增包。
 - **边界与下一个Agent入口**：三项本地完成，未commit/push/部署；生产仍为记录65。接手读本记录与TASKS，再看`site/seo.mjs`的homeSocialMetadata/homeFaq/structuredData及build-site.js首页条件块；发布按HF17/18冻结当前候选并核对授权。未修改故事播放器canonical缺口，未添加与首页类型不符的Article/HowTo/Product。尚未做外部检测器复扫或社交平台缓存验证，不承诺富结果或AI引用；原有未跟踪文件保留。
+
+### [记录67] - 首页SEO三项正式发布、Git与交接（By Codex，2026-11-16）
+
+- **Owner授权/范围**：Owner已审阅并确认alt及Open Graph/Twitter Card原文，明确要求“没问题，你部署上线，并git push，和更新文档”。本批只发布记录66的六图描述、两套分享meta、与六组可见问答同源的FAQPage，不扩展故事播放器canonical或其他产品功能。
+- **Git/发布**：远端与本地基线d4c41f0一致；源码`3755ed7c833466177a93051743eabd44d675e98b`已非强制推送origin/main。使用冻结Assets独立配置、Wrangler4.156.0 strict/keep-vars部署现有hanzifun。实际版本`450ea2bd-7d6d-448e-b58e-d6408010cd6d`、deploymentId`4ef89ed3-e73f-43b7-bb1d-548c9d264d17`，2026-11-16T00:21:12.192+08:00、100%流量。源码push可能先触发等价构建，本条版本指显式冻结包部署；后续文档push如触发等价版本，以内容hash核验。
+- **冻结/回滚**：releaseId更新为home-seo-release-2026-11-16；3609文件两次独立构建逐字节一致，SHA256`378c169c32e2a4465bc2332c880c3e43f6b11abec51b7824f2e1ead404f2017a`。相对正式备份仅index.html、content-manifest.json、route-manifest.json改变，其他3606文件相同。实际部署前版本`dc532d9e-5506-4415-a50a-a166e1e80f5f`已由API与生产前390项字节检查确认；完整备份/逐文件hash在`.cache/releases/home-seo-release-2026-11-16/`，隔离静态切换回滚演练通过。
+- **实际验证**：新一轮203/203、417英文页SEO errors=[]及408 Sitemap；本地Cloudflare390+27项、正式部署前390项、部署后正式390+27项通过。正式首页390/1440无溢出、两次axe零违规、六图描述、16个分享meta、六组FAQPage、FAQ展开/首屏翻卡/分享图HTTP200-image/jpeg/无JS均通过，零页面错误。三项只读复检首次审批超时，按提示各重试一次后成功，不是未授权或未验收。
+- **文件/文档**：记录66的6个产品/审核文件及site/release.json；本批release目录含manifest、ACCEPTANCE、ROLLBACK、freeze/双构建与差异、回滚、local/production HTTP及浏览器、production-before-version与deployment。TASKS/PROGRESS、HF08/17/18同步；最终回执随文档提交推送。所有旧中文/故事媒体、教学/音频审批、脚本/样式与用户本地记录保持，个人未跟踪文件保留。
+- **下一Agent精确入口**：三项上线及Git/文档已完成；生产入口`https://hanzifun.online/`。先读本记录、TASKS和本批deployment.json；外部SEO检测器复扫、社交平台预览缓存及24小时/7天观察未冒充完成，不承诺富结果/AI引用，没有创建自动监控或IndexNow通知。

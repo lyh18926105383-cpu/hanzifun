@@ -1,5 +1,7 @@
 # HF-17｜按发布范围综合验收与回滚准备
 
+> 最新发布：2026-11-16首页alt、Open Graph/Twitter Card与FAQPage已上线 / PASS；203/203、3609文件双构建/隔离回滚、本地390+27与生产前390、正式390+27及首页两次axe通过。版本`450ea2bd-7d6d-448e-b58e-d6408010cd6d`，见PROGRESS记录67及[回执](../releases/home-seo-release-2026-11-16/deployment.json)。
+
 > 最新发布：主导航Stroke Order/Pinyin独立入口已随 `primary-nav-release-2026-11-13` 上线 / PASS；2026-11-13T23:50:58.631020+08:00，版本 `dc532d9e-5506-4415-a50a-a166e1e80f5f`，203/203与正式导航/HTTP复验通过，源码已push。见PROGRESS记录65及[本批回执](../releases/primary-nav-release-2026-11-13/deployment.json)。
 
 
