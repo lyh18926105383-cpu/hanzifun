@@ -1,5 +1,7 @@
 # Hanzifun Rebuild - 跨 Agent 实时交接日志 (PROGRESS)
 
+> 最新本地：2026-11-17深圳英文Blog内页 Completed / PASS；213/213、3655文件/421英文页、两次axe及手机/桌面交互通过，未commit/push/部署。见记录69与SHENZHEN-BLOG-VERIFICATION-2026-11-17.md。记录68的Pinyin四页改造同为本地完成，本次四页HTML逐字节保全。
+
 > 最新生产：2026-11-16首页alt、Open Graph/Twitter Card、FAQPage已部署 / PASS；源码3755ed7已push，版本`450ea2bd-7d6d-448e-b58e-d6408010cd6d`，2026-11-16T00:21:12.192+08:00，100%流量。203/203、双构建/回滚、生产390+27及正式首页两次axe/FAQ/翻卡/无JS通过；记录67与本批deployment.json为最新回执，记录66为本地开发历史。
 
 > 最新本地：2026-11-15首页三项SEO修复 Completed / PASS；六图非空alt、Open Graph/Twitter Card、与六组可见问答同源的FAQPage。203/203、3609文件/408 Sitemap、390/1440两次axe通过；仅首页HTML及content-manifest变化，未commit/push/部署。见记录66。
@@ -807,3 +809,31 @@
 - **实际验证**：新一轮203/203、417英文页SEO errors=[]及408 Sitemap；本地Cloudflare390+27项、正式部署前390项、部署后正式390+27项通过。正式首页390/1440无溢出、两次axe零违规、六图描述、16个分享meta、六组FAQPage、FAQ展开/首屏翻卡/分享图HTTP200-image/jpeg/无JS均通过，零页面错误。三项只读复检首次审批超时，按提示各重试一次后成功，不是未授权或未验收。
 - **文件/文档**：记录66的6个产品/审核文件及site/release.json；本批release目录含manifest、ACCEPTANCE、ROLLBACK、freeze/双构建与差异、回滚、local/production HTTP及浏览器、production-before-version与deployment。TASKS/PROGRESS、HF08/17/18同步；最终回执随文档提交推送。所有旧中文/故事媒体、教学/音频审批、脚本/样式与用户本地记录保持，个人未跟踪文件保留。
 - **下一Agent精确入口**：三项上线及Git/文档已完成；生产入口`https://hanzifun.online/`。先读本记录、TASKS和本批deployment.json；外部SEO检测器复扫、社交平台预览缓存及24小时/7天观察未冒充完成，不承诺富结果/AI引用，没有创建自动监控或IndexNow通知。
+
+### [记录68] - Pinyin主工具及三个子页面本地改造完成（By Codex，2026-11-17）
+
+- **Owner范围/授权**：按确认草图执行主表和首批三个子页；参考YoyoChinese表格交互但排除视频。左侧声母、上方韵母，核心工具在电脑/手机首屏；H1最新明确改为Look up Pinyin，一句说明；保留原title/description/canonical，免费A4打印独立放在下方并说明学习价值。Owner允许使用Cursor协助，随后明确选择“只完成本地改造与验收，暂不上线”。本批未commit、未push、未部署；旧发布授权不适用于本批。
+- **结果**：主表完整410个合法音节、无效格留空，固定声母/韵母表头，支持带调/数字/ü/v/u:查询、音调弹层、例字链接、Escape和焦点返回、旧锚点与无JS文字版。打印为24组/410音节/1323形式、A4五页；独立价值模块强调免费无账号和离屏学习。三子页为`/pinyin-chart/chinese-to-pinyin/`（本地简繁转换、三格式、多音字校正/复制）、`tones/`（四声曲线、现有录音、轻声词境、听辨计分）和`tone-marks/`（数字/带调/去调、字母插入/复制）。独立SEO与面包屑、四页互链；没有账号/云同步/订阅或故事改动。
+- **音频/依赖**：精确锁定pinyin-pro3.29.5，MIT许可随构建，只在汉字转换时按需加载本地词典；文本不上传/保存。复用已有录音和设备语音，不生成付费TTS。主表38个轻声保留文字并改链到词境说明，避免误用孤立音节录音；听辨只用四声录音，失败不回退到设备语音冒充题目。未伪造新的人工教学/听音审批。
+- **Cursor协作**：在用户既有Cursor的`JSON creation task`会话使用现有Grok4.7HighFast，严格只输出`content/pinyin-tools/prose.json`；普通Run两次完成写入和JSON验证，无Always Run或购买。主Agent校正轻声、变调、听辨评分与标调解释并完成全部工程。任务卡见`collaboration/pinyin-tools-2026-11-17/CURSOR-COPY-TASK.md`。
+- **实际验收**：208/208测试；本地/生产模式各3644文件、420英文页、SEO errors=[]；生产候选Sitemap408、12个noindex页。主表320×568/390×667/768×1024/1440×900及三子页各390/1440共10组布局无水平溢出，主表全部首屏有可操作音节；4次全页axe（含弹层）零违规。查询、旧lü锚点、键盘关闭、三格式/更正/复制/清空/旧结果保护、字母插入、录音/听辨/计分/重置与词典/音频失败恢复均实际通过；禁脚本仍有410格与文字版。A4五页逐页渲染检查无截断，提取文本410/1323全覆盖，按钮调用print通过；临时网络阻断/脚本/媒体/print替身/视口已恢复。缺少的两项历史HSK缓存从原主目录恢复到忽略cache后旧套件通过，不改HSK内容。git diff --check通过。
+- **修改文件列表**：`site/pages/pinyin-chart.mjs`、新增`site/pages/pinyin-tools.mjs`与`site/pinyin-model.mjs`、`site/seo.mjs`；`public/site-assets/pinyin-chart.v1.css`/`.mjs`；新增`src/client/pinyin-core.mjs`、`pinyin-tools.mjs`及兼容扩展`pronunciation.mjs`；`scripts/build-site.js`、`package.json`/`package-lock.json`、新增`content/pinyin-tools/prose.json`；`tests/dictionary.test.mjs`、`pinyin-navigation.test.mjs`、`seo-quality.test.mjs`及新增`pinyin-tools.test.mjs`。`data/editorial/review-decisions.json`只维护characterPagePresentation的构建器依赖payload/hash并加维护备注，其他批准/既有备注保持。TASKS/PROGRESS/HF04、`PINYIN-TOOLS-VERIFICATION-2026-11-17.md`、本批collaboration与evidence目录同步。
+- **遗留/下一Agent精确入口**：本地任务完成，无实现阻塞；未验证外部收录/流量，不保证姓名及罕见多音读法。新三页仍是preview/noindex，未加入Sitemap，后续发布时需按新指令处理索引门控。本地预览`http://127.0.0.1:4178/pinyin-chart/`，静态产物`/private/tmp/hanzifun-pinyin-2026-11-17`；生产模式候选`/private/tmp/hanzifun-pinyin-production`，不是线上包。先读本记录、TASKS和本批验收；主表入口`site/pages/pinyin-chart.mjs`，三子页`site/pages/pinyin-tools.mjs`。当前源码未提交，不覆盖工作树；Owner可先审阅，只有后续明确授权才按HF17/18冻结、Git与部署，不复用旧releaseId/首页发布回执。
+
+### [记录69] - 深圳英文Blog内页完成与本地验收（By Codex，2026-11-17）
+
+- **Owner请求与边界**：按`/Users/graceshi/Downloads/hanzifun-shenzhen-blog-codex.md`第4节实际生成现有Blog内页；采用其英文定稿与图文要求，不将中文实施提示放进正文、不创建新站。本次生成和本地验收，未commit/push/生产部署，不沿用历史发布授权；此前Pinyin工作树改动保留。
+- **页面结果**：`/blog/shenzhen-city-name-chinese/`，唯一H1 Meet Shenzhen: A Global City in Two Chinese Characters，title/description按附件；self-canonical、OG/Twitter、BlogPosting和BreadcrumbList，作者使用真实站点组织HanziFun，无人物资历/评分/FAQ富结果承诺。沿用博客红色/米色和共享页眉页脚；首屏深圳/Shēnzhèn/学习锚点与真实照片，5项目录、三张城市文字卡、名字拆分条、两张112px静态字卡、两声调示意、三例句、原生测验与5FAQ、回主页CTA。正文约1071英文词，计算6 min read。
+- **核验与素材**：2026-11-17经agent-reach Jina与官方网页确认APEC Leaders’ Meeting计划11月18–19日在深圳，保留scheduled并在FAQ一致；政府地名/华强北、1980特区资料、深shēn/11画与圳zhèn/6画已核对。两图为Shihu7/莲花山公园2019/CC BY-SA4.0及Wishds/深圳湾2015/CC BY-SA3.0，实际下载解码后各生成480/800/1200/1600px WebP（首图最大282552B、第二图96570B），图注与sources.json保留作者/年份/作品页/许可/处理说明和原/派生hash，完整画面不裁切。缩略图另注明预览裁切。无深/圳字页、笔顺或完整深圳词音；虽然有通用shen1/zhen4音节片段，依附件“缺少完整音频时不显示播放按钮”使用静态卡，不伪造默认浏览器普通话示范或新音频。
+- **登记与草稿机制**：加入现有articles.json及博客分类/搜索、站内搜索、本地RSS与首页5项推荐中。新city-name布局仅该slug允许静态卡、空字典/无卡组，旧三篇的三字/卡组/签名校验保留；新签名绑定HTML、渲染器源码、照片清单和字节hash。当前status=draft、published=null、review pending，显示Prepared日期，未伪造人工审批或发布日期。生产候选隐藏草稿正文/发现入口并保持noindex，正式RSS/Sitemap暂不加入新文；未来按实际review/发布日与release route放行自动纳入。未改site/release.json、全站索引策略或旧文章日期/URL。没有现成分析系统，因此未新增第三方跟踪。
+- **实际验证**：最终213/213测试；local/production各3655文件、421英文页/365核心，SEO errors=[]，生产13 noindex/Sitemap408。375×667、768×1024、1440×900均无水平溢出，字形/入口首屏可见；手机上下卡、电脑双列，112px字形和带调字体正常。两次全页axe零违规；两图实际加载、学习锚点、Enter展开测验/FAQ、关闭脚本执行后的原生Return展开、CTA返回主页、首页5推荐、分类Shenzhen搜索1项、全站搜索1项通过，正常console无错误。实际DOM元数据/结构化信息及7个片段目标通过。原3644文件无缺失、3636不变，仅8个旧产物（首页/Blog列表/RSS、CSS与清单搜索）改变、新增11；四个Pinyin页HTML逐字节不变。三旧文章及所有教学/音频批准深比较保持，git diff --check通过。
+- **修改文件列表**：`content/editorial/articles.json`、`article.schema.json`、`README.md`，新增`shenzhen-city-name-chinese.html`；新增`site/city-article.mjs`、`site/components/blog-shell.mjs`，修改`site/editorial-workflow.mjs`、`site/editorial-content.mjs`、`site/pages/blog.mjs`、`site/seo.mjs`；新增`public/site-assets/shenzhen-article.v1.css`和`public/site-assets/blog/shenzhen/`8图+sources.json，`public/site-assets/blog.v1.css`只加图片署名样式；`scripts/build-site.js`、`scripts/validate-seo-quality.mjs`；新增`tests/shenzhen-article.test.mjs`，维护editorial-workflow/seo-quality测试的状态/数量；`data/editorial/review-decisions.json`只维护editorial-content/build-site依赖payload/hash并追加shenzhenMaintenance，旧Pinyin维护和人工签发字段保持。TASKS/PROGRESS/HF13、SHENZHEN-BLOG-VERIFICATION-2026-11-17.md与本批evidence目录同步。
+- **遗留与精确接手入口**：本地制作和验收完成；无需补账号/付费TTS，缺少完整词音按附件允许静态交付。Owner尚未签发这篇新文章/生产发布，正式索引与外部流量未冒充完成。先读本记录、TASKS、本批验收；正文在`content/editorial/shenzhen-city-name-chinese.html`，布局`site/city-article.mjs`及`public/site-assets/shenzhen-article.v1.css`，登记articles.json。预览`http://127.0.0.1:4180/blog/shenzhen-city-name-chinese/`，目录`/private/tmp/hanzifun-shenzhen-2026-11-17`，Python服务本聊天保留；生产模式候选`/private/tmp/hanzifun-shenzhen-production`不是已上线包。发布需Owner后续明确授权，按HF17/18冻结当前源码、真实日期/review/release route与生产验收；优先在发布当天重查APEC时态，不能自动把计划写成已举行。
+
+### [记录70] - Pinyin六项视觉批注完成及Owner新发布授权（By Codex，2026-11-17）
+
+- 完成三张真实工具案例截图卡、红色A4打印按钮、两段介绍精简、三个可点击查音示例；主表下、既有链接上新增How Does Pinyin Work图解。用sh + ui +第三声 → shuǐ并对应真实sh/uei格，说明拼写ui；无声母与轻声单独注明。
+- 214/214测试，五档主工具首屏/无溢出、桌面手机axe零违规，真实shui3/lv4/ma3查询与声调/键盘/打印通过；六张480/960 WebP来自实际工具界面，最大17KB。相对深圳本地候选仅6个既有产物变化、6图新增，深圳HTML字节保持。
+- 文件：site/components/pinyin-explainer.mjs、site/pages/pinyin-chart.mjs、site/pinyin-model.mjs、pinyin CSS/JS、content/pinyin-tools/previews.json、public/site-assets/pinyin-previews/、tests/pinyin-tools.test.mjs，及PINYIN-VISUAL-REVISION-2026-11-17.md/evidence。同源CSS/JS增加版本参数避免旧缓存。
+- Owner随后明确“完成后，帮我把最近pinyin的5个页面和关于深圳的blog，直接上线,并git push和更新文档”，覆盖此前本地限定。五个拼音地址为主表、三子页和既有/dictionary/pinyin/，另加深圳Blog。新文章真实Owner批准证据与精确内容hash已登记，准备固定实际日期2026-11-17、发布路线与索引；APEC官方仍为18–19日计划。
+- 本记录是本地交付与新授权交接，不是线上完成回执。当前codex/pinyin-shenzhen-release-2026-11-17分支；先按HF17/18核对真实线上版本/备份、双构建与回滚，再推送和部署冻结包。发布目录releases/pinyin-shenzhen-release-2026-11-17，生产复验后补记录71。

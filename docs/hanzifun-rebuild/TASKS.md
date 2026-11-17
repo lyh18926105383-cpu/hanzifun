@@ -1,5 +1,29 @@
 # HanziFun 施工任务总表
 
+## Pinyin五页与深圳Blog统一发布（2026-11-17；已授权 / 执行中）
+
+- [x] 六项Pinyin视觉批注、本地214/214及响应式/无障碍/真实交互通过，见[修订验收](PINYIN-VISUAL-REVISION-2026-11-17.md)与PROGRESS记录70。
+- [x] Owner最新明确授权直接上线、Git push及更新文档；覆盖下方记录68/69的历史本地限定，范围为拼音主表/三个工具子页/既有按拼音查字页与深圳Blog。
+- [ ] 冻结当前生产候选、备份/双构建/回滚、正式部署与线上复验，完成后记录真实版本和Git回执。
+
+## HF-13 深圳英文Blog内页（2026-11-17；Local Completed / PASS）
+
+- [x] 按Owner附件第4节完成`/blog/shenzhen-city-name-chinese/`英文内页，沿用博客外观；首屏深圳/Shēnzhèn与学习入口、两张真实城市照片、三张城市文字卡、两张112px静态汉字卡、声调示意、三例句、原生测验/FAQ和回主页CTA。
+- [x] 2026-11-17核实APEC官方计划11月18–19日，正文及FAQ保留scheduled；核对字义/读音/笔画和图片作者/年份/许可。两图本地WebP各4档、明确署名/许可/修改记录；不虚构深/圳字页、笔顺或完整词音。
+- [x] 独立title/description/canonical、OG/Twitter、BlogPosting/Breadcrumb；博客列表/分类搜索/站内搜索、本地RSS和首页5项推荐内登记。按既有draft门控，不填写假发布日期或将草稿提前放入正式RSS/Sitemap。
+- [x] 最终213/213测试；local/production各3655文件/421英文页，SEO errors=[]/生产Sitemap408；375/768/1440三档无溢出、首屏入口，手机/桌面两次axe零违规；键盘/禁脚本测验、CTA/搜索/图片验证通过。
+- [x] 对比本轮开始产物，3636既有文件不变、0缺失；新增11个、仅8个既有产物因文章入口/清单改变；四个Pinyin页逐字节不变。TASKS/PROGRESS/HF13及[验收记录](SHENZHEN-BLOG-VERIFICATION-2026-11-17.md)、[证据](evidence/shenzhen-blog-2026-11-17/verification.json)已同步。
+- **本次只生成本地页面，未commit/push/部署。** 预览`http://127.0.0.1:4180/blog/shenzhen-city-name-chinese/`；Owner本地审阅后，如另行要求上线，再按既有文章review/真实发布日期/新route放行及HF17/18执行，并复核APEC时态。入口见PROGRESS记录69。
+
+## HF-04 Pinyin 主工具改造与三个子页面（2026-11-17；Local Completed / PASS）
+
+- [x] `/pinyin-chart/` 改为左声母/上韵母的410音节矩阵；点击弹出声调、ü/v/u:与数字调查询、无结果/重置、Escape与焦点返回。H1按Owner最新要求改为Look up Pinyin，一句导语；原title/description/canonical和音节锚点保留，无视频。
+- [x] 手机及电脑首屏可操作，新增下方独立免费打印价值模块；A4共5页，24组/410音节/1323形式完整，无账号或支付。
+- [x] 三子页：Chinese to Pinyin（本地简繁转换、多音字更正、三种格式/复制）、Chinese Tones（四声/轻声词境、录音听辨）、Type Pinyin with Tone Marks（数字/带调/去调、字母键盘/复制）。四页互链，独立元数据与面包屑；新三页仍遵循preview/noindex发布门控。
+- [x] 按Owner授权使用Cursor仅协助三页JSON文案，主Agent校正和接入。208/208测试；两模式3644文件/420英文页、SEO errors=[]/生产Sitemap408；10组响应式布局、4次axe零违规；真实交互、词典/音频失败恢复、完整A4打印检查通过。
+- [x] 更新TASKS/PROGRESS/HF04及[完整本地验收](PINYIN-TOOLS-VERIFICATION-2026-11-17.md)；证据见[evidence](evidence/pinyin-tools-2026-11-17/verification.json)。本地预览`http://127.0.0.1:4178/pinyin-chart/`。
+- **Owner明确仅本地改造与验收，暂不上线。未commit/push/部署，不沿用旧发布授权。** 下一步为Owner本地审阅；若未来另行授权发布，再按HF17/18处理新三页索引状态和冻结/上线验收。见PROGRESS记录68。
+
 ## HF-08 首页图片说明、社交分享与内容 Schema（2026-11-16；Deployed / PASS）
 
 - [x] 首页六处图片补充非空描述，包括两处SVG印章Logo、休的助记插画和三张受众裁切插画；Logo保留已有品牌链接名称并避免重复读出。

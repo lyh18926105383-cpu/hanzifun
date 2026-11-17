@@ -229,7 +229,7 @@ async function buildSite() {
     for (const [sourcePath, outputName] of assetSources) {
         fs.copyFileSync(path.join(projectRoot, sourcePath), path.join(outputRoot, 'site-assets', outputName));
     }
-    const safeArticles=workflow.editorialContent.articles.filter(workflow.publicArticle).map(a=>({slug:a.slug,title:a.title,category:a.category,chars:a.characterIds.map(id=>String.fromCodePoint(parseInt(id.slice(5),16))),keywords:a.title}));
+    const safeArticles=workflow.editorialContent.articles.filter(a=>workflow.visibleArticle(a,process.env.HF_SITE_ENV||'local')).map(a=>({slug:a.slug,title:a.title,category:a.category,chars:a.characterIds.map(id=>String.fromCodePoint(parseInt(id.slice(5),16))),keywords:a.title}));
     const browserData = { characters, decks, names, articles:safeArticles, stories };
     fs.writeFileSync(
         path.join(outputRoot, 'site-assets/site-data.hf03-v1.js'),
@@ -259,13 +259,15 @@ async function buildSite() {
     const integratedTools = tools.integrationPages();
     const {strokeTopicPages}=await import('../site/pages/stroke-topic.mjs');
     const strokePages=strokeTopicPages();
+    const {pinyinToolPages}=await import('../site/pages/pinyin-tools.mjs');
+    const pinyinPages=pinyinToolPages();
     const {learningData} = await import('../site/learning-data.mjs');
     const learningLibrary=learningData();
     const manifest = routesModule.buildRouteManifest({
         prototypePaths,
         characters: coreChars,
         additionalCharacters: hf07.lexicon.characters.map(c=>c.glyph),
-        additionalPaths: [...strokePages.map(p=>p.path),...integratedTools.map(p=>p.path),...workflow.worksheetPages().map(p=>p.path),...editorial.guides.map(g=>g.path),...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
+        additionalPaths: [...workflow.editorialContent.articles.map(workflow.articlePath),...pinyinPages.map(p=>p.path),...strokePages.map(p=>p.path),...integratedTools.map(p=>p.path),...workflow.worksheetPages().map(p=>p.path),...editorial.guides.map(g=>g.path),...learningLibrary.decks.map(d=>'/flashcards/decks/'+d.slug+'/'),...hf07.scenarioData.scenarios.map(s=>s.path),'/academic/hsk-2/level-2/'],
         contract: routesModule.routeContract,
         release: routesModule.releaseConfig,
     });
@@ -292,9 +294,9 @@ async function buildSite() {
     const {scenarioPages} = await import('../site/pages/scenarios.mjs');
     const pronunciation = await import('../site/pronunciation.mjs');
     [...hskPages(),...additionalCharacterPages(),...scenarioPages()].forEach(page=>pages.set(page.path,page));
-    const hf04Pages = [...dictionaryPages(), sourcePage(), ...strokePages, pinyinChartPage()];
+    const hf04Pages = [...dictionaryPages(), sourcePage(), ...strokePages, pinyinChartPage(),...pinyinPages];
     hf04Pages.forEach(page => pages.set(page.path, page));
-    [starter100Page(),...trustPages(),...editorial.editorialPages(),...workflow.worksheetPages(),...workflow.editorialContent.articles.map(a=>workflow.articlePage(a,{environment}))].forEach(page=>pages.set(page.path,page));
+    [starter100Page(),...trustPages(),...editorial.editorialPages({environment}),...workflow.worksheetPages(),...workflow.editorialContent.articles.map(a=>workflow.articlePage(a,{environment}))].forEach(page=>pages.set(page.path,page));
     for(const [routePath,page] of pages) {
         const enriched=editorial.enrichCharacter(page);
         const character=/^\/dictionary\/([^/]+)\/$/.exec(routePath);
@@ -306,7 +308,7 @@ async function buildSite() {
         fs.mkdirSync(path.dirname(destination), {recursive:true});
         fs.writeFileSync(destination, typeof value === 'string' || Buffer.isBuffer(value) ? value : JSON.stringify(value) + '\n');
     };
-    writePublic('blog/feed.xml', blogFeed(editorial.guides, routesModule.releaseConfig.siteOrigin));
+    writePublic('blog/feed.xml', blogFeed(editorial.guides, routesModule.releaseConfig.siteOrigin,{environment}));
     fs.cpSync(path.join(projectRoot,'public/stroke-topic'),path.join(outputRoot,'site-assets/stroke-topic'),{recursive:true});
     writePublic('site-assets/stroke-topic/topic.v1.css',fs.readFileSync(path.join(siteRoot,'public/stroke-topic.css'),'utf8'));
     writePublic('site-assets/stroke-topic/topic.v1.mjs',fs.readFileSync(path.join(projectRoot,'src/client/stroke-topic.mjs'),'utf8'));
@@ -329,6 +331,8 @@ async function buildSite() {
     for(const name of ['coverage.json','membership.json','lexicon.json','source-headwords.json']) writePublic('site-assets/hf07/'+name,fs.readFileSync(path.join(projectRoot,'data/hsk',name),'utf8'));
     writePublic('site-assets/hf07/build-hsk-data.mjs',fs.readFileSync(path.join(projectRoot,'scripts/build-hsk-data.mjs'),'utf8'));
     writePublic('site-assets/pronunciation.mjs',fs.readFileSync(path.join(projectRoot,'src/client/pronunciation.mjs'),'utf8'));
+    for(const name of ['pinyin-core','pinyin-tools'])writePublic('site-assets/'+name+'.mjs',fs.readFileSync(path.join(projectRoot,'src/client',name+'.mjs'),'utf8'));
+    fs.cpSync(path.join(projectRoot,'node_modules/pinyin-pro/dist/esm'),path.join(outputRoot,'site-assets/vendor/pinyin-pro'),{recursive:true});
     const seenAudio=new Set();
     for(const asset of [...Object.values(pronunciation.pronunciationManifest.syllables),...Object.values(pronunciation.pronunciationManifest.utterances)].filter(a=>a.url)){
         if(seenAudio.has(asset.url))continue;seenAudio.add(asset.url);
@@ -359,6 +363,7 @@ async function buildSite() {
         writePublic('site-assets/character-glyph/'+asset.characterId.slice(5)+'.svg',completeGlyphSvg(asset.glyph,dictionary.readJson(asset.url),asset.sha256));
     }
     fs.cpSync(path.join(projectRoot,'data/licenses'),path.join(outputRoot,'site-assets/licenses'),{recursive:true});
+    writePublic('site-assets/licenses/Pinyin-Pro-MIT.txt',fs.readFileSync(path.join(projectRoot,'node_modules/pinyin-pro/LICENSE')));
     for (const relative of ['sources.lock.json','editorial-decisions.json','source-extracts/components.json','normalized/characters.json','normalized/readings.json','normalized/kanji.json','normalized/words.json']) {
         writePublic('site-assets/dictionary/'+relative,fs.readFileSync(path.join(projectRoot,'data',relative),'utf8'));
     }
@@ -403,6 +408,7 @@ async function buildSite() {
             prepared.footerHtml=footer({logoAlt:'HanziFun red seal logo'});
             prepared.head=seo.homeSocialMetadata(prepared,canonical,release.siteOrigin)+(prepared.head||'');
         }
+        if(prepared.blogPosting)prepared.head=seo.articleSocialMetadata(prepared,canonical,release.siteOrigin)+(prepared.head||'');
         if(prepared.content.includes('data-pronunciation'))prepared.content+=(prepared.pronunciationFooter ?? pronunciation.pronunciationFooter);
         prepared.structuredData=seo.structuredData(prepared,canonical,release.siteOrigin);
         const html = htmlForPage(layout, prepared, route, header, footer);

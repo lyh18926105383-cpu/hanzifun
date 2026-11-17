@@ -43,6 +43,109 @@
   margin-block: 0;
 }
 
+/* Page-local layout: shared navigation and other learning pages keep their styles. */
+.pinyin-layout .site-breadcrumb-container{padding-top:8px;padding-bottom:0}
+.pinyin-layout .pinyin-page{padding-top:4px;padding-bottom:65px}
+.pinyin-intro h1{font-size:42px;margin:0 0 8px}
+.pinyin-intro .lead{font-size:15px;margin:0;color:var(--muted)}
+.pinyin-page h2{font-size:29px;margin:0 0 14px;line-height:1.2}
+.pinyin-page h3{font-size:22px;line-height:1.25}
+.pinyin-chart-tool{margin-top:20px}
+.pinyin-page .pinyin-chart-tool>h2{font:500 19px/1.3 var(--sans);letter-spacing:0;margin-bottom:10px}
+.pinyin-page button:not(.pinyin-matrix button):not(.pinyin-panel-close),.pinyin-page .pinyin-button{border:1px solid var(--line);border-radius:6px;background:var(--sheet);padding:9px 15px;min-height:44px;font:500 14px/1.4 var(--sans)}
+.pinyin-page input,.pinyin-page textarea,.pinyin-page select{border:1px solid var(--line);border-radius:6px;padding:10px 12px;background:var(--sheet);color:var(--ink);min-width:0;max-width:100%;font:400 16px/1.5 var(--sans)}
+.pinyin-page textarea{width:100%;resize:vertical;min-height:150px}
+.pinyin-page label{font-size:14px}
+.pinyin-page [data-pinyin-chart-filter]{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px}
+.pinyin-chart-hint{font-size:12px;color:var(--muted);margin:7px 0 9px;min-height:20px}
+.pinyin-matrix-stage{position:relative}
+.pinyin-matrix-wrap{overflow:auto;max-height:540px;border:1px solid var(--line);border-radius:7px;scroll-margin-top:10px;overscroll-behavior-x:contain}
+.pinyin-matrix{width:max-content;min-width:100%;border-spacing:0;border-collapse:separate;font:400 14px/1.25 var(--sans);text-align:center}
+.pinyin-matrix th,.pinyin-matrix td{min-width:56px;height:42px;padding:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pinyin-matrix th{background:#e9e4d8;font-weight:500}
+.pinyin-matrix thead th{position:sticky;top:0;z-index:2;height:44px}
+.pinyin-matrix tr>th:first-child{position:sticky;left:0;z-index:1;min-width:76px}
+.pinyin-matrix thead th:first-child{z-index:3;font-size:11px}
+.pinyin-matrix tr>*:last-child{border-right:0}
+.pinyin-matrix tbody tr:last-child>*{border-bottom:0}
+.pinyin-matrix td{background:var(--sheet)}
+.pinyin-matrix button{width:100%;min-height:42px;background:none;border:0;padding:7px 4px;font:inherit;color:var(--ink)}
+.pinyin-matrix button:hover{background:#eee6d7}
+.pinyin-matrix button[aria-expanded=true],.pinyin-matrix .pinyin-axis-selected{background:#f4dbd1;color:#762e24}
+.pinyin-matrix button:focus-visible{outline-offset:-4px}
+.pinyin-chart-links{display:flex;flex-wrap:wrap;gap:8px 22px;margin:10px 0;font-size:13px}
+.pinyin-chart-links a,.pinyin-prose a,.pinyin-sound-panel a{color:var(--red);text-decoration:underline;text-underline-offset:3px}
+.pinyin-sound-panel{position:absolute;z-index:6;max-width:calc(100% - 16px);width:390px;padding:18px;background:var(--sheet);border:1px solid #a4a491;border-radius:9px;box-shadow:0 8px 30px #243d3526;max-height:min(430px,70vh);overflow:auto}
+.pinyin-panel-close{position:absolute;right:9px;top:6px;width:40px;height:40px;border:0;background:none;font:25px/1 var(--sans)}
+.pinyin-sound-panel h3{padding-right:25px;font:500 26px/1.2 var(--sans)}
+.pinyin-split{font-size:13px;color:var(--muted);margin:4px 0 12px!important}
+.pinyin-tone-list{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:12px 0}
+.pinyin-tone-list li{flex:1 0 90px;display:flex;flex-direction:column;align-items:center;padding:9px 6px;border:1px solid var(--line);border-radius:6px;gap:4px}
+.pinyin-tone-list li>span{font-size:22px}.pinyin-tone-list small{font-size:11px;color:var(--muted)}
+.pinyin-page .pinyin-tone-list .pronunciation-button{padding:7px 8px;font-size:12px;white-space:normal}
+.pinyin-tone-selected{background:#f4e2c9}
+.pinyin-examples a{display:inline-block;padding:5px;font-size:23px}
+.pinyin-sound-note{font-size:12px;color:var(--muted);margin:10px 0!important}
+.pinyin-readable{font-size:13px;margin-top:12px}.pinyin-readable summary{cursor:pointer}.pinyin-readable section{margin-top:16px}.pinyin-readable dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}.pinyin-readable dt{font-weight:600}.pinyin-readable dd{margin:0}
+.pinyin-section{margin-top:40px}.pinyin-section>p{max-width:850px}
+.pinyin-tool-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.pinyin-tool-cards article{border:1px solid var(--line);border-radius:8px;background:var(--sheet);padding:0;display:flex;flex-direction:column;overflow:hidden}
+.pinyin-tool-preview{position:relative;flex:none;aspect-ratio:2/1;background:#e9e4d8;border-bottom:1px solid var(--line)}
+.pinyin-tool-preview img{position:absolute;inset:10px;display:block;width:calc(100% - 20px);height:calc(100% - 20px);object-fit:contain;border-radius:4px}
+.pinyin-tool-card-body{display:flex;flex:1;flex-direction:column;gap:10px;padding:23px}
+.pinyin-tool-card-body>p{font-size:14px;color:var(--muted);margin:0}
+.pinyin-tool-cards .pinyin-tool-example{font-size:21px;color:var(--ink)}
+.pinyin-tool-cards .text-link{margin-top:auto;padding-top:12px}
+.pinyin-print-module{display:grid;grid-template-columns:185px minmax(0,1fr);gap:35px;align-items:center;background:#eee8dc;border:1px solid var(--line);border-radius:9px;padding:30px}
+.pinyin-print-module .eyebrow{color:#92372a;font-size:11px;margin-bottom:9px}.pinyin-print-module h2{font-size:32px}.pinyin-print-module p{font-size:15px;color:var(--muted)}
+.pinyin-paper-preview{width:185px;aspect-ratio:210/297;border:1px solid var(--line);background:var(--sheet);padding:15px 10px;display:flex;flex-direction:column;gap:9px;box-shadow:4px 4px 0 #d8d0bf;font-size:13px}
+.pinyin-paper-preview small{font-size:11px}.pinyin-paper-preview small:last-child{margin-top:auto}
+.pinyin-paper-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line);font-size:11px;text-align:center}
+.pinyin-paper-grid span{padding:6px 0;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pinyin-actions{display:flex;align-items:center;gap:10px 16px;flex-wrap:wrap;margin-top:18px}
+.pinyin-actions span{font-size:12px;color:var(--muted)}
+.pinyin-page .pinyin-actions>button,.pinyin-page .pinyin-primary{background:var(--ink)!important;color:var(--sheet);border-color:var(--ink)!important}
+.pinyin-page .pinyin-print-module [data-print]{background:var(--red)!important;border-color:var(--red)!important;color:#fff;font-weight:600}
+.pinyin-page .pinyin-print-module [data-print]:hover{background:#92372a!important;border-color:#92372a!important}
+.pinyin-page .pinyin-print-module [data-print]:focus-visible{outline:3px solid #762e24;outline-offset:3px}
+.pinyin-how-work{margin-top:26px;padding:24px;border:1px solid var(--line);border-radius:9px;background:var(--sheet)}
+.pinyin-how-lead{font-size:14px;color:var(--muted);margin:0 0 18px}
+.pinyin-syllable-formula{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1.2fr);align-items:center;gap:10px}
+.pinyin-formula-token{display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:8px;min-height:126px;padding:14px 8px;border:1px solid #c3d2c8;border-radius:8px;text-align:center;background:#e5ede7}
+.pinyin-formula-token small{font:500 11px/1.3 var(--sans);letter-spacing:.03em}.pinyin-formula-token strong{font:500 40px/1.15 var(--sans)}.pinyin-formula-token>span{font:12px/1.4 var(--sans)}
+.pinyin-final-token{background:#f2ead6;border-color:#ded0ae;color:#6e501c}.pinyin-tone-token{background:#f3e1da;border-color:#dfbcb0;color:#8d3528}.pinyin-result-token{background:var(--paper);border-color:var(--line)}.pinyin-result-token strong>span{color:#a13b2d}
+.pinyin-tone-token svg{display:block;width:90px;height:46px}.pinyin-formula-operator{font-size:24px;text-align:center;color:var(--muted)}
+.pinyin-how-work .pinyin-how-footnote{font-size:12px;color:var(--muted);margin:14px 0 0}.pinyin-back-to-filters{font-size:13px}
+.pinyin-chart-connection{display:grid;grid-template-columns:230px minmax(0,1fr);gap:22px;align-items:center;margin-top:20px}.pinyin-chart-connection p{font-size:14px;margin:0 0 9px}.pinyin-chart-connection .pinyin-chart-connection-note{font-size:12px;color:var(--muted)}
+.pinyin-example-matrix{width:100%;border-collapse:collapse;text-align:center;font-size:16px;background:var(--paper)}.pinyin-example-matrix caption{font:500 12px/1.4 var(--sans);text-align:left;margin-bottom:6px}.pinyin-example-matrix th,.pinyin-example-matrix td{border:1px solid #ccc6b8;padding:7px 10px}.pinyin-example-matrix thead th:first-child{font-size:10px;color:var(--muted)}.pinyin-example-matrix th{background:#e9e4d8}.pinyin-example-matrix th small{display:block;font:10px/1.3 var(--sans);margin-top:2px}.pinyin-example-matrix td{background:#f4dbd1;color:#762e24;font-weight:600}
+.pinyin-demo-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding-block:6px;color:#8d3528!important;text-decoration:underline;text-underline-offset:3px;font:500 13px/1.4 var(--sans)}
+.pinyin-lookup-examples{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0 28px}.pinyin-lookup-examples article{padding:19px;border:1px solid var(--line);border-radius:8px;background:var(--sheet)}.pinyin-lookup-result{display:flex;align-items:center;gap:16px}.pinyin-example-glyph{font:52px/1.2 var(--hanzi)}.pinyin-example-glyph a{text-decoration:none!important}.pinyin-lookup-result>div{display:flex;flex-direction:column;gap:3px}.pinyin-lookup-result strong{font:500 25px/1.2 var(--sans)}.pinyin-lookup-result>div>span{font-size:13px;color:var(--muted)}.pinyin-lookup-examples .pinyin-lookup-aliases{display:flex;align-items:center;flex-wrap:wrap;gap:5px;font-size:12px;margin:16px 0 8px}.pinyin-lookup-aliases kbd{font:500 13px/1.5 var(--sans);padding:3px 7px;border:1px solid var(--line);border-radius:4px;background:var(--paper)}
+.pinyin-prose{max-width:900px}.pinyin-prose h2:not(:first-child){margin-top:28px}.pinyin-prose p{color:var(--muted)}
+.pinyin-faq details{border-bottom:1px solid var(--line);padding:15px 0}.pinyin-faq summary{cursor:pointer;font-size:16px}.pinyin-faq details p{margin:12px 0 0;max-width:900px;color:var(--muted)}
+.pinyin-audio-status:not(:empty){padding:10px 0;font-size:13px}
+.pinyin-subnav{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;margin-top:25px}.pinyin-subnav a{color:var(--red);text-decoration:underline}
+.pinyin-tool-box{background:var(--sheet);border:1px solid var(--line);border-radius:9px;padding:22px;margin-top:24px}
+.pinyin-tool-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px}.pinyin-tool-fields>div{min-width:0}.pinyin-tool-fields label{display:block;margin-bottom:7px}
+.pinyin-tool-options{display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px;margin:15px 0}.pinyin-tool-options label{display:inline-flex;align-items:center;gap:7px}
+.pinyin-result{min-height:150px;overflow-wrap:anywhere;white-space:pre-wrap;line-height:2.2;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:15px}
+.pinyin-result ruby{display:inline-block;margin:0 5px;font-size:24px}.pinyin-result rt{font:13px var(--sans)}
+.pinyin-tool-status{font-size:13px;color:var(--muted);margin-top:12px;min-height:22px}
+.pinyin-corrections{margin-top:18px}.pinyin-corrections>div{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}.pinyin-corrections label{display:grid;gap:4px;font-size:13px}
+.pinyin-char-keys{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.pinyin-tone-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-top:22px}.pinyin-tone-card{border:1px solid var(--line);border-radius:8px;background:var(--sheet);padding:20px}.pinyin-tone-card h2{font-size:22px}.pinyin-tone-card>p{font-size:13px;margin-bottom:14px}.pinyin-tone-card svg{width:100%;height:65px;color:var(--red);margin:10px 0}
+.pinyin-quiz{margin-top:30px;padding:24px;border:1px solid var(--line);border-radius:8px;background:var(--sheet)}.pinyin-quiz-options{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}.pinyin-quiz-options button{flex:1}.pinyin-quiz [data-correct=true]{background:#dce7d5!important;border-color:#47713c!important}.pinyin-quiz [data-correct=false]{border-color:var(--red)!important}
+@media(max-width:760px){
+ .pinyin-tool-card-body{padding:20px}.pinyin-tool-preview{aspect-ratio:2/1}.pinyin-how-work{padding:18px;margin-top:22px}.pinyin-syllable-formula{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.pinyin-formula-operator{display:none}.pinyin-formula-token{min-height:120px}.pinyin-chart-connection{grid-template-columns:1fr;gap:14px}.pinyin-example-matrix{max-width:270px}.pinyin-lookup-examples{grid-template-columns:1fr}.pinyin-lookup-examples article{padding:18px}.pinyin-lookup-result{gap:18px}.pinyin-lookup-examples .pinyin-lookup-aliases{margin-top:12px}
+ .pinyin-layout .container{width:calc(100% - 32px)}.pinyin-layout .site-breadcrumb-container{padding-top:2px}.pinyin-layout .pinyin-page{padding-top:2px}.pinyin-intro h1{font-size:32px}.pinyin-intro .lead{font-size:14px;line-height:1.5}.pinyin-chart-tool{margin-top:16px}.pinyin-page .pinyin-chart-tool>h2{font-size:16px;margin-bottom:8px}.pinyin-chart-hint{line-height:1.5;min-height:0}.pinyin-matrix-wrap{max-height:430px}.pinyin-matrix th,.pinyin-matrix td{min-width:55px}.pinyin-matrix button{min-height:44px}.pinyin-section{margin-top:30px}.pinyin-page h2{font-size:26px}.pinyin-print-module{grid-template-columns:1fr;padding:22px}.pinyin-paper-preview{display:none}.pinyin-tool-cards{grid-template-columns:1fr}.pinyin-tool-fields{grid-template-columns:1fr}.pinyin-tool-box{padding:16px}.pinyin-tone-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.pinyin-tone-card{padding:15px}.pinyin-tone-card h2{font-size:20px}.pinyin-quiz{padding:18px}.pinyin-tool-options{gap:10px}.pinyin-page [data-pinyin-chart-filter]{gap:6px}.pinyin-page [data-pinyin-chart-filter] button{padding:9px 10px}
+}
+@media print{
+ @page{size:A4 portrait;margin:10mm}
+ body.pinyin-layout:has(.pinyin-print-sheet) :is(.site-header,.site-footer,.site-breadcrumb-container,.pinyin-audio-status,.skip-link,.toast){display:none!important}
+ .pinyin-page:has(.pinyin-print-sheet)>:not(.pinyin-print-sheet){display:none!important}
+ .pinyin-page:has(.pinyin-print-sheet){width:100%!important;padding:0!important;max-width:none}
+ .pinyin-print-sheet{display:block!important}.pinyin-print-sheet h2{font-size:22pt}.pinyin-print-sheet h3{font-size:10pt}.pinyin-print-sheet p{font-size:9pt}.pinyin-print-group dl{margin:0}
+}
+
 @media print {
   body:has(.pinyin-print-sheet) :is(.skip-link, .toast, .pinyin-audio-status),
   .hf04:has(.pinyin-print-sheet) > :not(.pinyin-print-sheet) {

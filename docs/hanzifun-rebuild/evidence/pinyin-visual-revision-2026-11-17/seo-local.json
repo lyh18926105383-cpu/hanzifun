@@ -1,0 +1,15 @@
+{
+  "environment": "local",
+  "releaseId": "home-seo-release-2026-11-16",
+  "pages": 421,
+  "corePages": 365,
+  "jsonLdBlocks": 426,
+  "englishJsonLdBlocks": 425,
+  "sitemap": [],
+  "budget": {
+    "jsGzipBytes": 6565,
+    "cssGzipBytes": 22774,
+    "eagerImageBytes": 355447
+  },
+  "errors": []
+}

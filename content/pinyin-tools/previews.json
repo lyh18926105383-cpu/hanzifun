@@ -1,0 +1,89 @@
+{
+  "converter": {
+    "page": "/pinyin-chart/chinese-to-pinyin/",
+    "captured": "2026-11-17",
+    "kind": "actual-local-tool-screenshot",
+    "input": "你好，中国！",
+    "output": "nǐ hǎo，zhōng guó！",
+    "alt": "Chinese input beside pinyin above each character in the Chinese to Pinyin tool.",
+    "sourceDimensions": [
+      1121,
+      533
+    ],
+    "variants": [
+      {
+        "src": "/site-assets/pinyin-previews/converter-480.f9907140d0.webp",
+        "width": 480,
+        "height": 228,
+        "bytes": 6326,
+        "sha256": "f9907140d0bb9be435aa00b261a001e54271b6559935129604a30260baa20a64"
+      },
+      {
+        "src": "/site-assets/pinyin-previews/converter-960.2d8ced67ec.webp",
+        "width": 960,
+        "height": 456,
+        "bytes": 17050,
+        "sha256": "2d8ced67ec6878aaed61838606a1db051fab24ae7860b55b217a07a4f09b9db1"
+      }
+    ],
+    "sourceSha256": "5687fbb7d0e183d95999d88b79bcb998bfb0fb0d5de8527a31171f1f8bd9498c"
+  },
+  "tones": {
+    "page": "/pinyin-chart/tones/",
+    "captured": "2026-11-17",
+    "kind": "actual-local-tool-screenshot",
+    "input": "mā · má · mǎ · mà",
+    "output": "Four pitch curves with recorded pronunciation controls.",
+    "alt": "Four Mandarin tone examples with pitch curves, characters and audio controls.",
+    "sourceDimensions": [
+      1169,
+      303
+    ],
+    "variants": [
+      {
+        "src": "/site-assets/pinyin-previews/tones-480.dc5e47a825.webp",
+        "width": 480,
+        "height": 124,
+        "bytes": 4208,
+        "sha256": "dc5e47a8253de3ab34567c78e62712fae323a32172975be4ee0df44995d739ac"
+      },
+      {
+        "src": "/site-assets/pinyin-previews/tones-960.a6057c024f.webp",
+        "width": 960,
+        "height": 249,
+        "bytes": 10656,
+        "sha256": "a6057c024f3e4027ef97f92fcbf4d72c831414d3405784ba736ae4c649a5b285"
+      }
+    ],
+    "sourceSha256": "47e5959d1d6619cb9c70f3a3b222ecba8517ebec8b86076f31e5910e0a0f568d"
+  },
+  "toneMarks": {
+    "page": "/pinyin-chart/tone-marks/",
+    "captured": "2026-11-17",
+    "kind": "actual-local-tool-screenshot",
+    "input": "ni3 hao3! wo3 ai4 zhong1 guo2.",
+    "output": "nǐ hǎo! wǒ ài zhōng guó.",
+    "alt": "Numbered pinyin converted into tone marks, with the letter keyboard visible.",
+    "sourceDimensions": [
+      1121,
+      605
+    ],
+    "variants": [
+      {
+        "src": "/site-assets/pinyin-previews/tone-marks-480.e2e7bf54af.webp",
+        "width": 480,
+        "height": 259,
+        "bytes": 6294,
+        "sha256": "e2e7bf54af3f5033e5c5395dc77dde4011f4a8431452ba1f92029ed50176fb66"
+      },
+      {
+        "src": "/site-assets/pinyin-previews/tone-marks-960.51b1011230.webp",
+        "width": 960,
+        "height": 518,
+        "bytes": 16322,
+        "sha256": "51b1011230b67587b6cdd0874f03392c7bfd34f78303ab0ad9d28c17c9437d67"
+      }
+    ],
+    "sourceSha256": "e4253d56251e98e19c82cde7983cf83d4ffab5ee1cee7c7229b8cad8cf0f9c96"
+  }
+}

@@ -77,7 +77,8 @@
               "kind": {
                 "enum": [
                   "ai",
-                  "human"
+                  "human",
+                  "organization"
                 ]
               }
             }
@@ -99,7 +100,7 @@
           },
           "characterIds": {
             "type": "array",
-            "minItems": 3,
+            "minItems": 0,
             "uniqueItems": true,
             "items": {
               "type": "string",
@@ -107,7 +108,10 @@
             }
           },
           "deck": {
-            "type": "string",
+            "type": [
+              "string",
+              "null"
+            ],
             "minLength": 1
           },
           "lead": {
@@ -116,7 +120,7 @@
           },
           "sections": {
             "type": "array",
-            "minItems": 4,
+            "minItems": 0,
             "items": {
               "type": "object",
               "additionalProperties": false,
@@ -237,8 +241,71 @@
                 ]
               }
             }
+          },
+          "layout": {
+            "enum": [
+              "city-name"
+            ]
+          },
+          "h1": {
+            "type": "string",
+            "minLength": 15
           }
-        }
+        },
+        "allOf": [
+          {
+            "if": {
+              "required": [
+                "layout"
+              ],
+              "properties": {
+                "layout": {
+                  "const": "city-name"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "h1",
+                "image"
+              ],
+              "properties": {
+                "slug": {
+                  "const": "shenzhen-city-name-chinese"
+                },
+                "characterIds": {
+                  "maxItems": 0,
+                  "type": "array"
+                },
+                "deck": {
+                  "type": "null"
+                },
+                "category": {
+                  "const": "culture"
+                },
+                "sections": {
+                  "maxItems": 0,
+                  "type": "array"
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "characterIds": {
+                  "minItems": 3,
+                  "type": "array"
+                },
+                "sections": {
+                  "minItems": 4,
+                  "type": "array"
+                },
+                "deck": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

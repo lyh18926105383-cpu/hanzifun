@@ -57,10 +57,10 @@ test('character text, Information and complete static sequences are rendered wit
  assert.equal(dictionaryPages().filter(p=>characters.some(c=>p.path==='/dictionary/'+c.glyph+'/')).length,126);
  assert.ok(comparisons.entries.length>=6);
 });
-test('410-syllable scope is independent of core coverage; tone forms stay readable and every candidate has a pronunciation control',()=>{
+test('410-syllable scope is independent of core coverage; tone forms stay readable and neutral tones require context',()=>{
  const html=pinyinChartPage().content;assert.equal(syllables.length,410);
  assert.equal((html.match(/data-syllable=/g)||[]).length,410);assert.equal(syllables.reduce((n,s)=>n+s.tones.length,0),1323);
- assert.equal((html.match(/data-pronunciation /g)||[]).length,1323);assert.doesNotMatch(html,/data-audio-state="muted"|aria-disabled="true"/);assert.doesNotMatch(html,/Audio pending|unavailable/i);assert.match(html,/Zero initial/);assert.match(html,/neutral/);assert.match(html,/lü/);
+ assert.equal((html.match(/data-pronunciation /g)||[]).length,syllables.reduce((n,s)=>n+s.tones.filter(t=>t.tone!==5).length,0));assert.equal((html.match(/class="pinyin-neutral-context"/g)||[]).length,syllables.reduce((n,s)=>n+s.tones.filter(t=>t.tone===5).length,0));assert.doesNotMatch(html,/data-audio-state="muted"|aria-disabled="true"/);assert.doesNotMatch(html,/Audio pending|unavailable/i);assert.match(html,/Zero initial/);assert.match(html,/neutral/);assert.match(html,/lü/);
  assert.ok(scope.rareIncluded.length>0);assert.ok(!syllables.some(s=>s.spelling==='bua'));
 });
 test('stroke loader fetches only the requested version, deduplicates calls, and recovers after failure',async()=>{
@@ -131,6 +131,6 @@ test('isolated static build verifies all references, per-character assets, previ
   assert.ok(!fs.existsSync(path.join(output,'data/source-extracts')));assert.ok(!fs.existsSync(path.join(output,'.cache')));
   assert.match(get('sitemap.xml'),/https:\/\/hanzifun.online\/academic\/hsk-2\//);
   assert.doesNotMatch(get('sitemap.xml'),/flashcards\/(?:my-words|teacher)\/|[?]session=/);assert.ok(get('sitemap.xml').includes('<loc>https://hanzifun.online/flashcards/</loc>'));assert.ok(get('sitemap.xml').includes('<loc>https://hanzifun.online/worksheets/</loc>'));assert.doesNotMatch(get('sitemap.xml'),/kids\/worksheets/);assert.match(get('_redirects'),/\/kids\/worksheets\/ \/worksheets\/ 301/);for(const c of characters){const url=new URL('/dictionary/'+c.glyph+'/', 'https://hanzifun.online').href;assert.equal(get('sitemap.xml').includes('<loc>'+url+'</loc>'),resolveRoutePolicy('/dictionary/'+c.glyph+'/').indexing==='index');}
-  assert.equal(JSON.parse(get('content-manifest.json')).pages.length,138);
+  assert.equal(JSON.parse(get('content-manifest.json')).pages.length,141);
  }finally{fs.rmSync(output,{recursive:true,force:true});}
 });

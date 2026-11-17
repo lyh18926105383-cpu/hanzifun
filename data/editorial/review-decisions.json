@@ -4962,7 +4962,7 @@
     "reviewer": "Project owner (user), implementation authorized; Codex validation",
     "date": "2026-11-02",
     "authorization": "Owner request in this chat, 2026-11-02: refactor all 339 published Character Pages to the approved reference, update tests and review-decisions.json signatures. Also includes the Owner’s five browser comments: Information after sentences, stroke icon after Listen, 1–3 conversational definitions removal of two marked paragraphs, and the subsequent request to match the Hero glyph to stroke-order calligraphy. Includes the subsequent four browser comments to show the full Play Stroke Order label and remove the anatomy note, Stop audio button and audio explanation from character pages. Authorizes implementation/content revision hashes, not a new audio listening or historical-content approval.",
-    "contentSha256": "3306dacbd8161aedcf72ba2a7586d0ff8ea1e0a050edbf29f63369f047511eb3",
+    "contentSha256": "1ef27401479b1eb7494fa88041c2eedc3800b775877763dc2aba350ef7ed9d48",
     "evidence": "docs/hanzifun-rebuild/CHARACTER-FLOW-VERIFICATION-2026-11-02.md",
     "payload": {
       "batchId": "character-flow-2026-11-02",
@@ -4997,7 +4997,7 @@
         },
         {
           "file": "site/editorial-content.mjs",
-          "sha256": "686a17228ee083981069a45db5c40c297cc2a45066ddaffe6a3d742e5809a363"
+          "sha256": "cf0fa5623de52f0e9e13994c889769c112d7e7e2b68b08d6e005d370c322f53a"
         },
         {
           "file": "src/client/dictionary.mjs",
@@ -5009,7 +5009,7 @@
         },
         {
           "file": "scripts/build-site.js",
-          "sha256": "47996391237adce0c1ae10730e604cc2c70e7fe56eb849a66f7fc3fdbc170cbd"
+          "sha256": "70bd3dd9606e45f99fd6cf1f76c7c3f687aadaa13c553a05d701c75f419b21c8"
         }
       ]
     },
@@ -5051,6 +5051,25 @@
       "scope": "Homepage-only alt descriptions, social metadata and FAQPage integration in build-site.js. Character presentation, teaching and audio approvals remain unchanged; this is dependency-hash maintenance, not new human acceptance.",
       "authorization": "Owner reported homepage image-alt and social-tag issues and added Content Schema to the requested fixes in this chat.",
       "evidence": "docs/hanzifun-rebuild/evidence/home-seo-2026-11-15/verification.json"
+    },
+    "pinyinMaintenance": {
+      "date": "2026-11-17",
+      "changedInputs": [
+        "scripts/build-site.js"
+      ],
+      "scope": "Local pinyin build registration and assets; existing character content/audio approvals preserved",
+      "authorization": "User approved pinyin implementation, local development and verification only, no deployment",
+      "evidence": "docs/hanzifun-rebuild/PINYIN-TOOLS-VERIFICATION-2026-11-17.md"
+    },
+    "shenzhenMaintenance": {
+      "date": "2026-11-17",
+      "changedInputs": [
+        "site/editorial-content.mjs",
+        "scripts/build-site.js"
+      ],
+      "scope": "Blog registry environment and local Shenzhen page integration only; character teaching and audio approvals unchanged",
+      "authorization": "User requested the attached section 4 implementation, no production deployment",
+      "evidence": "docs/hanzifun-rebuild/SHENZHEN-BLOG-VERIFICATION-2026-11-17.md"
     }
   }
 }

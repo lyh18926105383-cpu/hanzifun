@@ -4,23 +4,23 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
-import {editorialContent,worksheetContent,articleHash,articlePage,articlePath,validateEditorial,validateWorksheets,worksheetPages} from '../site/editorial-workflow.mjs';
+import {editorialContent,worksheetContent,articleHash,articlePage,articlePath,validateEditorial,validateWorksheets,worksheetPages,publicArticle} from '../site/editorial-workflow.mjs';
 import {applyDecisions} from '../scripts/review-editorial.mjs';
 import {parse} from 'parse5';
 import {validateJsonLd,assertLearnerCopy} from '../scripts/validate-seo-quality.mjs';
 import {structuredData} from '../site/seo.mjs';
 const copy=()=>{const value=structuredClone(editorialContent);for(const a of value.articles){a.status='draft';a.published=null;a.review={acceptance:'pending',reviewer:null,date:null,contentSha256:null,evidence:null};}return value;};
-const decisions=content=>content.articles.map(a=>({slug:a.slug,acceptance:'approved',kind:'human',reviewer:'Synthetic test reviewer',date:'2026-10-31',contentSha256:articleHash(a),evidence:'Synthetic fixture only; never written to project data.'}));
+const decisions=content=>content.articles.map(a=>({slug:a.slug,acceptance:'approved',kind:'human',reviewer:'Synthetic test reviewer',date:a.modified,contentSha256:articleHash(a),evidence:'Synthetic fixture only; never written to project data.'}));
 test('HF13 content has three distinct directions and traceable approved character/deck links',()=>{
- assert.equal(validateEditorial().articles,3);assert.equal(validateEditorial().approved,3);
+ assert.equal(validateEditorial().articles,4);assert.equal(validateEditorial().approved,4);
  assert.deepEqual(new Set(editorialContent.articles.map(a=>a.category)),new Set(['culture','travel-business','family']));
- for(const a of editorialContent.articles){assert.equal(a.status,'published');assert.ok(a.sections.flatMap(s=>s.paragraphs).join(' ').split(/\s+/).length>=500);}
+ for(const a of editorialContent.articles.filter(a=>publicArticle(a)&&a.sections.length)){assert.equal(a.status,'published');assert.ok(a.sections.flatMap(s=>s.paragraphs).join(' ').split(/\s+/).length>=500);}
 });
 test('HF13 dates, duplicates, unknown cards/decks, source URLs and image alt fail closed',()=>{
  for(const mutate of [c=>c.articles[0].created='2026-02-30',c=>c.articles[0].modified='2025-10-31',c=>c.articles[1].slug=c.articles[0].slug,c=>c.articles[0].deck='private-unavailable',c=>c.articles[0].characterIds[0]='char:ffff',c=>c.articles[0].references[0].url='javascript:alert(1)',c=>c.articles[0].image={src:'/site-assets/x.jpg',alt:''}]){const c=copy();mutate(c);assert.throws(()=>validateEditorial(c));}
 });
 test('HF13 human review applies to the exact content, preserves dates and rejects stale decisions',()=>{
- const c=copy(),d=decisions(c),reviewed=applyDecisions(c,d);assert.equal(validateEditorial(reviewed).approved,3);assert.equal(c.articles[0].status,'draft');assert.equal(reviewed.articles[0].published,null);
+ const c=copy(),d=decisions(c),reviewed=applyDecisions(c,d);assert.equal(validateEditorial(reviewed).approved,4);assert.equal(c.articles[0].status,'draft');assert.equal(reviewed.articles[0].published,null);
  for(const mutate of [c=>c.articles[0].sections[0].paragraphs[0]+=' Revised.',c=>c.articles[0].title+=' Revised',c=>c.articles[0].references[0].scope+=' Revised']){const c=copy();mutate(c);assert.throws(()=>applyDecisions(c,d),/stale/);}
  assert.throws(()=>applyDecisions(c,[...d,d[0]]),/duplicate/);
  assert.throws(()=>applyDecisions(c,[{...d[0],kind:'ai'}]),/incomplete/);
@@ -48,8 +48,8 @@ test('HF13 production publishes approved articles and prints while browser data 
  const output=fs.mkdtempSync(path.join(os.tmpdir(),'hf13-test-'));
  try{execFileSync(process.execPath,['scripts/build-site.js'],{env:{...process.env,HF_SITE_ENV:'production',HF_BUILD_OUTPUT_DIR:output},stdio:'pipe'});
  const map=fs.readFileSync(path.join(output,'sitemap.xml'),'utf8');
- for(const a of editorialContent.articles){assert.ok(map.includes(articlePath(a)));const html=fs.readFileSync(path.join(output,articlePath(a),'index.html'),'utf8');assert.match(html,/index,follow/);assert.ok(html.includes(a.sections[0].heading));}
- for(const f of fs.readdirSync(output,{recursive:true}).filter(f=>/\.(?:js|mjs)$/.test(f))){const body=fs.readFileSync(path.join(output,f),'utf8');for(const a of editorialContent.articles)assert.ok(!body.includes(a.sections[0].paragraphs[0]),'Article prose leaked into browser data '+f);}
+ for(const a of editorialContent.articles){const html=fs.readFileSync(path.join(output,articlePath(a),'index.html'),'utf8');if(publicArticle(a)){assert.ok(map.includes(articlePath(a)));assert.match(html,/index,follow/);assert.ok(html.includes(a.layout==='city-name'?a.h1:a.sections[0].heading));}else{assert.ok(!map.includes(articlePath(a)));assert.match(html,/noindex,follow/);assert.ok(!html.includes('Learn the two characters'));}}
+ for(const f of fs.readdirSync(output,{recursive:true}).filter(f=>/\.(?:js|mjs)$/.test(f))){const body=fs.readFileSync(path.join(output,f),'utf8');for(const a of editorialContent.articles.filter(a=>a.sections.length))assert.ok(!body.includes(a.sections[0].paragraphs[0]),'Article prose leaked into browser data '+f);}
  for(const slug of ['family','classroom'])assert.ok(map.includes('/worksheets/'+slug+'/'));
  }finally{fs.rmSync(output,{recursive:true,force:true});}
 });

@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-11-17T23:10:54.440Z",
+  "origin": "http://127.0.0.1:8797",
+  "checks": [
+    {
+      "path": "/pinyin-chart/",
+      "status": 200,
+      "sha256": "b19cdf870c1a3e109cc0577c62766c23b8f8a4db17074f75011a82df499c9b27",
+      "h1": "Look up Pinyin",
+      "canonical": "https://hanzifun.online/pinyin-chart/",
+      "robots": "index,follow",
+      "queryRedirect": {
+        "status": 307,
+        "location": "/pinyin-chart/?release_check=1"
+      }
+    },
+    {
+      "path": "/pinyin-chart/chinese-to-pinyin/",
+      "status": 200,
+      "sha256": "df91aeece34b412372b355db977c7e691a545617c72d6c133cb50c76789bdc13",
+      "h1": "Chinese to Pinyin",
+      "canonical": "https://hanzifun.online/pinyin-chart/chinese-to-pinyin/",
+      "robots": "index,follow",
+      "queryRedirect": {
+        "status": 307,
+        "location": "/pinyin-chart/chinese-to-pinyin/?release_check=1"
+      }
+    },
+    {
+      "path": "/pinyin-chart/tones/",
+      "status": 200,
+      "sha256": "6ea5d4a5384156c8b1880623df7adf261a4f6672ff518aab1b69d7c524b2efc2",
+      "h1": "Chinese Tones",
+      "canonical": "https://hanzifun.online/pinyin-chart/tones/",
+      "robots": "index,follow",
+      "queryRedirect": {
+        "status": 307,
+        "location": "/pinyin-chart/tones/?release_check=1"
+      }
+    },
+    {
+      "path": "/pinyin-chart/tone-marks/",
+      "status": 200,
+      "sha256": "4badf0a4e142a13b30d623f247b9050d03227afb4590e95d91058fb3eb4f1ca6",
+      "h1": "Type Pinyin with Tone Marks",
+      "canonical": "https://hanzifun.online/pinyin-chart/tone-marks/",
+      "robots": "index,follow",
+      "queryRedirect": {
+        "status": 307,
+        "location": "/pinyin-chart/tone-marks/?release_check=1"
+      }
+    },
+    {
+      "path": "/dictionary/pinyin/",
+      "status": 200,
+      "sha256": "8c0295bad5696f002583cfac45d820359a798d0e96c8cbb0650bf65bc7f247bd",
+      "h1": "Find Chinese Characters by Pinyin",
+      "canonical": "https://hanzifun.online/dictionary/pinyin/",
+      "robots": "index,follow",
+      "queryRedirect": {
+        "status": 307,
+        "location": "/dictionary/pinyin/?release_check=1"
+      }
+    },
+    {
+      "path": "/blog/shenzhen-city-name-chinese/",
+      "status": 200,
+      "sha256": "0bc5f51b70d20b413f0a8056d585aab04e9085985f087698a073b489a678b779",
+      "h1": "Meet Shenzhen: A Global City in Two Chinese Characters",
+      "canonical": "https://hanzifun.online/blog/shenzhen-city-name-chinese/",
+      "robots": "index,follow",
+      "queryRedirect": {
+        "status": 307,
+        "location": "/blog/shenzhen-city-name-chinese/?release_check=1"
+      }
+    }
+  ],
+  "assets": 51,
+  "sitemap": 412,
+  "feed": "PASS"
+}

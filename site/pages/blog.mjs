@@ -1,5 +1,7 @@
-import {editorialContent, publicArticle, articlePath} from '../editorial-workflow.mjs';
+import {blogShell} from '../components/blog-shell.mjs';
+import {editorialContent, visibleArticle, articlePath} from '../editorial-workflow.mjs';
 import {escapeHtml as e} from '../dictionary-data.mjs';
+import {cityArticlePresentation} from '../city-article.mjs';
 
 const asset = name => `/site-assets/blog/${name}.v1.jpg`;
 const categories = [
@@ -12,12 +14,13 @@ const presentation = {
   'first-characters-for-bilingual-kids': {category:'characters', image:'archive', alt:'Chinese characters on paper beside traditional writing tools', minutes:6}
 };
 const label = category => categories.find(([id]) => id === category)?.[1] || 'Chinese Culture';
-export function blogPosts(guides) {
-  const articles = editorialContent.articles.filter(publicArticle).map(a => ({
+export function blogPosts(guides,{environment='production'}={}) {
+  const articles = editorialContent.articles.filter(a=>visibleArticle(a,environment)).map(a => ({
     ...presentation[a.slug], category:presentation[a.slug]?.category || 'culture',
     image:presentation[a.slug]?.image || 'study', alt:presentation[a.slug]?.alt || 'Chinese study materials on a desk',
     minutes:presentation[a.slug]?.minutes || 6, path:articlePath(a), title:a.title,
-    description:a.description, date:a.published || a.modified, feed:true
+    description:a.layout==='city-name'?a.lead:a.description, date:a.published || a.modified, publishedAt:a.published, feed:true,
+    ...(a.layout==='city-name'?cityArticlePresentation(a):{})
   }));
   const study = guides.map((g, i) => ({...g, category:'study', image:i ? 'calligraphy' : 'study',
     alt:i ? 'Traditional ink tools on textured rice paper' : 'An open notebook and character cards on a sunlit study desk',
@@ -28,29 +31,25 @@ export function blogPosts(guides) {
   return {articles, study, hsk, all:[...articles, ...study, hsk]};
 }
 function photo(post, {eager=false, className=''}={}) {
-  return `<img class="${className}" src="${asset(post.image)}" alt="${e(post.alt)}" width="1536" height="1024" ${eager?'fetchpriority="high"':'loading="lazy"'} decoding="async">`;
+  return `<img class="${className}" src="${post.imageSrc||asset(post.image)}" ${post.imageSrcset?`srcset="${post.imageSrcset}" sizes="(max-width: 540px) calc(100vw - 52px), (max-width: 850px) 45vw, 38vw"`:''} alt="${e(post.alt)}" width="${post.imageWidth||1536}" height="${post.imageHeight||1024}" ${eager?'fetchpriority="high"':'loading="lazy"'} decoding="async">`;
 }
+const photoCredit=post=>post.photoCredit?`<small class="blog-image-credit">Photo: <a href="${post.photoCredit.sourcePage}">${e(post.photoCredit.author)}</a> · <a href="${post.photoCredit.license}">CC BY-SA 4.0</a> · Resized; preview cropped.</small>`:'';
 const tag = post => `<span class="blog-tag blog-tag-${post.category}">${label(post.category)}</span>`;
 const duration = post => post.minutes ? `${post.minutes} min read` : 'Vocabulary resource';
 const arrow = '<span aria-hidden="true">↗</span>';
 function card(post) {
   return `<article class="blog-card" data-blog-card data-category="${post.category}">
     <a class="blog-card-photo" href="${post.path}" tabindex="-1" aria-hidden="true">${photo(post)}</a>
-    <div class="blog-card-body">${tag(post)}<h3><a href="${post.path}">${e(post.title)}</a></h3>
+    <div class="blog-card-body">${photoCredit(post)}${tag(post)}<h3><a href="${post.path}">${e(post.title)}</a></h3>
     <p>${e(post.description)}</p><div class="blog-card-meta"><span>${duration(post)}</span><span aria-hidden="true">↗</span></div></div></article>`;
 }
-export function blogPage(guides) {
-  const {articles, study, hsk} = blogPosts(guides);
-  const featured = articles[0] || study[0];
-  const latest = [articles[2], hsk, articles[1], featured, ...study].filter(Boolean);
+export function blogPage(guides,{environment='production'}={}) {
+  const {articles, study, hsk} = blogPosts(guides,{environment});
+  const city=articles.find(p=>p.photoCredit),existing=articles.filter(p=>p!==city);
+  const featured = city || existing[0] || study[0];
+  const latest = [city,existing[2],hsk,existing[1],existing[0],...study].filter(Boolean);
   const tips = [study[0], hsk, study[1]];
-  const header = `<header class="site-header blog-header"><div class="nav-shell container">
-    <a class="brand blog-brand" href="/" aria-label="HanziFun home"><span class="blog-seal" lang="zh-CN" aria-hidden="true">漢</span>HanziFun <span>Blog</span></a>
-    <button type="button" class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">Menu <span aria-hidden="true">☰</span></button>
-    <nav id="mobile-menu" class="desktop-nav primary-nav" aria-label="Main navigation"><a href="/flashcards/">Learn Chinese</a><a href="/dictionary/">Dictionary</a><a href="/tools/">Culture</a><a href="/blog/" aria-current="page">Blog</a></nav>
-    <a class="blog-button blog-header-subscribe" href="#blog-subscribe" aria-label="Subscribe"><span class="blog-subscribe-label">Subscribe</span><span aria-hidden="true">→</span></a>
-    </div></header>`;
-  const footer = `<footer class="blog-footer"><div class="container"><a class="brand blog-brand" href="/"><span class="blog-seal" lang="zh-CN" aria-hidden="true">漢</span>HanziFun Blog</a><p>A small step into a richer language.</p><nav aria-label="Footer navigation"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/data-sources/">Sources</a><a href="/blog/feed.xml">RSS</a></nav></div><div class="container blog-photo-credits">Photography: <a href="https://www.pexels.com/photo/brush-and-paint-for-hieroglyphs-writing-8627038/">Feng Zou / Pexels</a> · <a href="https://unsplash.com/photos/brown-teapot-on-stick-link-table-runner-1-L1ET2-kZ4">Y H / Unsplash</a> · Mooncake and study-desk images created with AI.</div></footer>`;
+  const {header,footer}=blogShell();
   const heroPhotos = [
     {image:'calligraphy',alt:'A traditional brush and inkstone in warm daylight'},
     {image:'festival',alt:'Mooncakes and porcelain tea on a wooden table'},
@@ -80,7 +79,7 @@ export function blogPage(guides) {
         <section class="blog-featured" aria-labelledby="blog-featured-title">
           <div><h2 id="blog-featured-title">Featured</h2><article class="blog-feature-card">
             <a class="blog-feature-photo" href="${featured.path}" tabindex="-1" aria-hidden="true">${photo(featured)}</a>
-            <div class="blog-feature-body">${tag(featured)}<h3><a href="${featured.path}">${e(featured.title)}</a></h3><p>${e(featured.description)}</p>
+            <div class="blog-feature-body">${photoCredit(featured)}${tag(featured)}<h3><a href="${featured.path}">${e(featured.title)}</a></h3><p>${e(featured.description)}</p>
               <div class="blog-feature-meta"><span>${duration(featured)}</span><a href="${featured.path}">Read the story ${arrow}</a></div></div>
           </article></div>
           <aside class="blog-reading" aria-labelledby="blog-reading-title"><h2 id="blog-reading-title">A little learning, every day</h2>
@@ -98,8 +97,8 @@ export function blogPage(guides) {
   };
 }
 
-export function blogFeed(guides, origin) {
-  const {all} = blogPosts(guides);
-  const items = all.filter(p=>p.feed).sort((a,b)=>b.date.localeCompare(a.date)).map(p=>`<item><title>${e(p.title)}</title><link>${e(origin+p.path)}</link><guid isPermaLink="true">${e(origin+p.path)}</guid><description>${e(p.description)}</description><pubDate>${new Date(p.date+'T00:00:00Z').toUTCString()}</pubDate><category>${e(label(p.category))}</category></item>`).join('');
+export function blogFeed(guides, origin,{environment='production'}={}) {
+  const {all} = blogPosts(guides,{environment});
+  const items = all.filter(p=>p.feed).sort((a,b)=>b.date.localeCompare(a.date)).map(p=>`<item><title>${e(p.title)}</title><link>${e(origin+p.path)}</link><guid isPermaLink="true">${e(origin+p.path)}</guid><description>${e(p.description)}</description>${p.publishedAt===null?'':`<pubDate>${new Date(p.date+'T00:00:00Z').toUTCString()}</pubDate>`}<category>${e(label(p.category))}</category></item>`).join('');
   return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HanziFun Blog</title><link>${e(origin)}/blog/</link><description>Chinese characters, study tips and culture from HanziFun.</description><language>en</language><atom:link href="${e(origin)}/blog/feed.xml" rel="self" type="application/rss+xml"/>${items}</channel></rss>\n`;
 }

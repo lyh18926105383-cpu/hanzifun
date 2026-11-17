@@ -12,8 +12,8 @@ export function editorialHtml(file){
  return source.replace(/\{\{audio:([^{}]+)\}\}/g,(_,text)=>pronunciationButton(text,{label:'Listen to example'}));
 }
 export function guideCards(){return '<div class="tile-grid">'+guides.map(g=>`<article class="tile"><h2><a href="${g.path}">${e(g.title)}</a></h2><p>${e(g.description)}</p></article>`).join('')+'</div>';}
-export function editorialPages(){return [
- blogPage(guides),
+export function editorialPages({environment='production'}={}){return [
+ blogPage(guides,{environment}),
  ...guides.map(g=>({...g,content:`<div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Learning guides</a> / <span>${e(g.title)}</span></nav><article class="content-prose editorial-lesson"><h1>${e(g.title)}</h1><p>By HanziFun · Updated 28 October 2026</p>${editorialHtml(g.file)}</article></div>`}))
 ];}
 export function enrichCharacter(page){

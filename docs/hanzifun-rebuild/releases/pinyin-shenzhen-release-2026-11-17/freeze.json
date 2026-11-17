@@ -1,0 +1,238 @@
+{
+  "status": "PASS",
+  "files": 3661,
+  "sha256": "bf36df9854ce8334397b90810770132df6265dec4f22fe4ed484603c51c94dc0",
+  "changed": [
+    "blog/feed.xml",
+    "blog/index.html",
+    "content-manifest.json",
+    "index.html",
+    "pinyin-chart/index.html",
+    "route-manifest.json",
+    "site-assets/blog.v1.css",
+    "site-assets/pinyin-chart.v1.css",
+    "site-assets/pinyin-chart.v1.mjs",
+    "site-assets/pronunciation.mjs",
+    "site-assets/search/library.hf04-v1.json",
+    "site-assets/site-data.hf03-v1.js",
+    "sitemap.xml"
+  ],
+  "added": [
+    {
+      "path": "blog/shenzhen-city-name-chinese/index.html",
+      "sha256": "0bc5f51b70d20b413f0a8056d585aab04e9085985f087698a073b489a678b779"
+    },
+    {
+      "path": "pinyin-chart/chinese-to-pinyin/index.html",
+      "sha256": "df91aeece34b412372b355db977c7e691a545617c72d6c133cb50c76789bdc13"
+    },
+    {
+      "path": "pinyin-chart/tone-marks/index.html",
+      "sha256": "4badf0a4e142a13b30d623f247b9050d03227afb4590e95d91058fb3eb4f1ca6"
+    },
+    {
+      "path": "pinyin-chart/tones/index.html",
+      "sha256": "6ea5d4a5384156c8b1880623df7adf261a4f6672ff518aab1b69d7c524b2efc2"
+    },
+    {
+      "path": "site-assets/blog/shenzhen/shenzhen-bay-2015-1200.webp",
+      "sha256": "89748876fcf57a1f4a43d662ecc75f5007f326c1080d3a4fd4b14f31cc785521"
+    },
+    {
+      "path": "site-assets/blog/shenzhen/shenzhen-bay-2015-1600.webp",
+      "sha256": "0c14b2b6061990818bdccf2a109c5d6d208fd6fe3e4397348dc08172e814023b"
+    },
+    {
+      "path": "site-assets/blog/shenzhen/shenzhen-bay-2015-480.webp",
+      "sha256": "aac82f241697150369a41844b8703e1be673c1b1f89e3db75bf70bdef0374d4a"
+    },
+    {
+      "path": "site-assets/blog/shenzhen/shenzhen-bay-2015-800.webp",
+      "sha256": "7ecc71a12f96eb7fabed034814f87d3b0d0d694b7c4f4cbfd2be7ae38e671b99"
+    },
+    {
+      "path": "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-1200.webp",
+      "sha256": "7d1c2f6f8b5af0306d61d4c158a296f83b69014e0dd531c4576a0e5733c4ced0"
+    },
+    {
+      "path": "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-1600.webp",
+      "sha256": "7c48b1d771b7db653eee1625035a18bfc9873faa235a4875293f920c91906390"
+    },
+    {
+      "path": "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-480.webp",
+      "sha256": "a960e95443a63fdb46e1a398fbf67401e90df51ac60ca793e45c206a553641ea"
+    },
+    {
+      "path": "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-800.webp",
+      "sha256": "c3638dbdc37e85875ce004e106f85b31ab8e4e5ac74193903c5242c8c3186ebd"
+    },
+    {
+      "path": "site-assets/blog/shenzhen/sources.json",
+      "sha256": "6ce9e2546b5a1cb4577898b87b814575e5b967250ce9bacd814b27b8944f07f3"
+    },
+    {
+      "path": "site-assets/licenses/Pinyin-Pro-MIT.txt",
+      "sha256": "824f6069c5a59b0c1650d0fb9f8d091866c6019eb761c8e658dfc03f001eabd2"
+    },
+    {
+      "path": "site-assets/pinyin-core.mjs",
+      "sha256": "7689a218e372bb4ccddc534959a062e9a71479ecb02484a865906065b774d323"
+    },
+    {
+      "path": "site-assets/pinyin-previews/converter-480.f9907140d0.webp",
+      "sha256": "f9907140d0bb9be435aa00b261a001e54271b6559935129604a30260baa20a64"
+    },
+    {
+      "path": "site-assets/pinyin-previews/converter-960.2d8ced67ec.webp",
+      "sha256": "2d8ced67ec6878aaed61838606a1db051fab24ae7860b55b217a07a4f09b9db1"
+    },
+    {
+      "path": "site-assets/pinyin-previews/tone-marks-480.e2e7bf54af.webp",
+      "sha256": "e2e7bf54af3f5033e5c5395dc77dde4011f4a8431452ba1f92029ed50176fb66"
+    },
+    {
+      "path": "site-assets/pinyin-previews/tone-marks-960.51b1011230.webp",
+      "sha256": "51b1011230b67587b6cdd0874f03392c7bfd34f78303ab0ad9d28c17c9437d67"
+    },
+    {
+      "path": "site-assets/pinyin-previews/tones-480.dc5e47a825.webp",
+      "sha256": "dc5e47a8253de3ab34567c78e62712fae323a32172975be4ee0df44995d739ac"
+    },
+    {
+      "path": "site-assets/pinyin-previews/tones-960.a6057c024f.webp",
+      "sha256": "a6057c024f3e4027ef97f92fcbf4d72c831414d3405784ba736ae4c649a5b285"
+    },
+    {
+      "path": "site-assets/pinyin-tools.mjs",
+      "sha256": "d0f0a09252b598040fa573174c4eb71e2a797d7cc406877204ca26931fef0b57"
+    },
+    {
+      "path": "site-assets/shenzhen-article.v1.css",
+      "sha256": "feaac33c02a84979fb559db31c55f8849709f7dd63a3fb1c9cff746a0c944d2a"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/common/constant.mjs",
+      "sha256": "0063709ae4684eb39fcc7a4a485672d5b8d043775743d81d4a9d28785f183fb7"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/common/segmentit/index.mjs",
+      "sha256": "05333c260a6d7188ac114c2e907c9e673262a2a842bc3151d1b8fc4c06305ab6"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/common/segmentit/max-probability.mjs",
+      "sha256": "c10d385f99209b6871a4bd1aded1b25175cedf97f7fce9b5937d71ae7fc84bd6"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/common/segmentit/min-tokenization.mjs",
+      "sha256": "b202fd896761ed386922075136505da5c33244f2a887a6e6f99469d93d12cc16"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/common/segmentit/reverse-max-match.mjs",
+      "sha256": "756f82b9f5ae4b60e12e87f665df1f56ece5ce6f137ce2711f069fc43432d4d8"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/common/utils.mjs",
+      "sha256": "d7a924431594ecbc59e48c321e57fbf4ab3479457a0fd47c93a9928258469e69"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/convert/index.mjs",
+      "sha256": "0798e27cd4d5b2035d463b6cdbfcfa7919b0dab5b2bbbdc80324ebba74ca8d5b"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/custom/index.mjs",
+      "sha256": "b9cf84b5547e71a82da352b9144121a43531d5e4cb5e9a98855fd38e22355662"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/custom/state.mjs",
+      "sha256": "9c03e5b61f72c9a25167912036f434a5fb6115be1cd28305ab71b6984c2ca5a8"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/dict/index.mjs",
+      "sha256": "4af779484d3f32050eac082fc21ea6232d3ff1f4289f7a9b53bc859500c411f7"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/html/index.mjs",
+      "sha256": "f2e8903548421d8fdfce6e059f1d39b9065d9808b2c7a78f5ab941bee50a4ffc"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/match/index.mjs",
+      "sha256": "a9ab6501b2ce8a6b4ec60dacaba878e6ade41d44451b32e6dacb83affc2d0aad"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/pinyin/all.mjs",
+      "sha256": "4783d4e0d7fac1b613aaa78280766dacbe1fad3adc5f031668fbc9c11febcb50"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/pinyin/handle.mjs",
+      "sha256": "6b066daa21f94f7baace52bbbe24907281f6991b8e97bcbe87a3bf447d66dd74"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/pinyin/index.mjs",
+      "sha256": "660c5afc3d5290f2c80be7465e6ea06e959459ef7e5b49d3bdd2a0f8df339047"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/pinyin/middlewares.mjs",
+      "sha256": "f042bba7c353229cfebb7524fa87f44a557ce1d0d4bcc8e03c4e980485a61407"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/polyphonic/index.mjs",
+      "sha256": "698e20e0502e5abe4ee6f8fef3b3a3cf3fa0a12854f0b294ee82b14b78093ea4"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/segment/index.mjs",
+      "sha256": "0e1466c135012e167b5079e326d27eaac729cc882ebc6faf94fa7ce44b237411"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/segment/middlewares.mjs",
+      "sha256": "42efbc989863ceadb55bd20c44ec62c0e8d40fdec960e63d637bc92ca08f7dad"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/core/traditional/index.mjs",
+      "sha256": "a71645e75568a4a3b4258afbb4f60591598f7abe727789189a09376b2f0025f4"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/data/dict1.mjs",
+      "sha256": "4ab2e452449ddd75be6b123d74bf0c31ea1ffa205c275849a7589d957c112426"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/data/dict2.mjs",
+      "sha256": "6b5c8cb96db398f82a903c7bda2e91c54acb433a252a36fd656b525a4ca9861b"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/data/dict3.mjs",
+      "sha256": "c4d390ad1cc7bf10b900624e206b8681328546c823850ae0ad1669324637bd22"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/data/dict4.mjs",
+      "sha256": "ba7cf04114e8165856f7c054f2cf579a047423d1f2ba208776041593f4a3899d"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/data/dict5.mjs",
+      "sha256": "44b3e849fe98ea974aea3e6ece593b09bd66c34e82181c80d3c26d17b162006e"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/data/patterns.mjs",
+      "sha256": "8dc9449fa4c63e5a59be82de41c7414018ae9657ff70779221c6064277ec0d1c"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/data/special.mjs",
+      "sha256": "196c5b068417cec910d8fcf09f93b238be61b8c0fdf2b0a9374003991c409291"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/data/surname.mjs",
+      "sha256": "4e63558da556734e17c6b79b8fbb4553c011a88339a026ee986612b81a23bd4e"
+    },
+    {
+      "path": "site-assets/vendor/pinyin-pro/index.mjs",
+      "sha256": "255b22f9e28cb2e882b0f7fef0424ac7f115c85ce6f0c348457c86a5b24fbd8e"
+    }
+  ],
+  "removed": [],
+  "unchangedFiles": 3596,
+  "twoBuildsIdentical": true,
+  "seo": {
+    "pages": 421,
+    "sitemap": 412,
+    "errors": []
+  }
+}

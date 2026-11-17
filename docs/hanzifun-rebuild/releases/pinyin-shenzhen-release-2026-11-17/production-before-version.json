@@ -1,0 +1,97 @@
+{
+  "id": "e324e278-d904-4928-b6a6-746fd96daabb",
+  "number": 103,
+  "metadata": {
+    "created_on": "2026-11-16T12:44:40.431771Z",
+    "source": "wrangler",
+    "author_id": "cd7015ef0ee5da945a10f8d97ea4d6ec",
+    "author_email": "lyh18926105383@gmail.com",
+    "has_preview": true
+  },
+  "annotations": {
+    "workers/triggered_by": "version_upload"
+  },
+  "resources": {
+    "script": {
+      "etag": "",
+      "handlers": null,
+      "last_deployed_from": ""
+    },
+    "script_runtime": {
+      "assets": {
+        "not_found_handling": "404-page",
+        "headers": {
+          "version": 2,
+          "rules": {
+            "/*": {
+              "set": {
+                "referrer-policy": "strict-origin-when-cross-origin",
+                "x-content-type-options": "nosniff"
+              },
+              "unset": []
+            }
+          }
+        },
+        "raw_headers": "/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n",
+        "redirects": {
+          "version": 1,
+          "rules": {},
+          "staticRules": {
+            "/index.html": {
+              "to": "/zh/",
+              "status": 301,
+              "lineNumber": 1
+            },
+            "/kids/worksheets/": {
+              "to": "/worksheets/",
+              "status": 301,
+              "lineNumber": 4
+            },
+            "/legacy/index.html": {
+              "to": "/zh/",
+              "status": 301,
+              "lineNumber": 2
+            },
+            "/legacy/story.html": {
+              "to": "/story",
+              "status": 301,
+              "lineNumber": 3
+            },
+            "/stroke-order": {
+              "to": "/stroke-order/",
+              "status": 301,
+              "lineNumber": 5
+            },
+            "/stroke-order/animation": {
+              "to": "/stroke-order/animation/",
+              "status": 301,
+              "lineNumber": 9
+            },
+            "/stroke-order/basic-strokes": {
+              "to": "/stroke-order/basic-strokes/",
+              "status": 301,
+              "lineNumber": 6
+            },
+            "/stroke-order/examples": {
+              "to": "/stroke-order/examples/",
+              "status": 301,
+              "lineNumber": 8
+            },
+            "/stroke-order/rules": {
+              "to": "/stroke-order/rules/",
+              "status": 301,
+              "lineNumber": 7
+            }
+          }
+        },
+        "raw_redirects": "/index.html /zh/ 301\n/legacy/index.html /zh/ 301\n/legacy/story.html /story 301\n/kids/worksheets/ /worksheets/ 301\n/stroke-order /stroke-order/ 301\n/stroke-order/basic-strokes /stroke-order/basic-strokes/ 301\n/stroke-order/rules /stroke-order/rules/ 301\n/stroke-order/examples /stroke-order/examples/ 301\n/stroke-order/animation /stroke-order/animation/ 301\n",
+        "serve_directly": true,
+        "raw_run_worker_first": false,
+        "base_path": "/"
+      },
+      "compatibility_date": "2026-07-15",
+      "usage_model": "standard"
+    },
+    "bindings": []
+  }
+}

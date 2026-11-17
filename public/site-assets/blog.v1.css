@@ -99,6 +99,7 @@
 .blog-footer a:hover{color:var(--red)}
 .blog-footer>.blog-photo-credits{display:block;margin-top:16px;font-size:10px;line-height:1.6;color:var(--muted)}
 .blog-photo-credits a{text-decoration:underline;text-underline-offset:2px}
+.blog-image-credit{display:block;font:11px/1.5 var(--sans);color:var(--muted);margin-bottom:10px}.blog-image-credit a{text-decoration:underline;text-underline-offset:2px}
 @media(max-width:1180px){
   .blog-header .nav-shell{position:relative;gap:20px}.blog-header .desktop-nav{gap:0}
   .blog-header .primary-nav{position:absolute;top:75px;left:0;right:0;padding:15px 24px;background:var(--paper);border:1px solid var(--line);border-radius:0 0 10px 10px;box-shadow:0 12px 30px #2e2c2810}

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-11-17T23:11:08.882Z",
+  "surface": "Frozen production candidate served by Cloudflare Assets at 8797",
+  "mobileLayouts": [
+    {
+      "h1": "Look up Pinyin",
+      "robots": "index,follow",
+      "scrollWidth": 360,
+      "url": "http://127.0.0.1:8797/pinyin-chart/",
+      "width": 375
+    },
+    {
+      "h1": "Chinese to Pinyin",
+      "robots": "index,follow",
+      "scrollWidth": 360,
+      "url": "http://127.0.0.1:8797/pinyin-chart/chinese-to-pinyin/",
+      "width": 375
+    },
+    {
+      "h1": "Chinese Tones",
+      "robots": "index,follow",
+      "scrollWidth": 360,
+      "url": "http://127.0.0.1:8797/pinyin-chart/tones/",
+      "width": 375
+    },
+    {
+      "h1": "Type Pinyin with Tone Marks",
+      "robots": "index,follow",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8797/pinyin-chart/tone-marks/",
+      "width": 375
+    },
+    {
+      "h1": "Find Chinese Characters by Pinyin",
+      "robots": "index,follow",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8797/dictionary/pinyin/",
+      "width": 375
+    },
+    {
+      "h1": "Meet Shenzhen: A Global City in Two Chinese Characters",
+      "robots": "index,follow",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8797/blog/shenzhen-city-name-chinese/",
+      "width": 375
+    }
+  ],
+  "lookup": "shui3 opens sh/uei panel; Escape closes",
+  "publicationDate": "2026-11-18",
+  "priorFullJourneyEvidence": "../../evidence/pinyin-tools-2026-11-17/; ../../evidence/pinyin-visual-revision-2026-11-17/; ../../evidence/shenzhen-blog-2026-11-17/"
+}

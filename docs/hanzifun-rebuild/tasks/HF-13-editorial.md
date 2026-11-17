@@ -1,5 +1,7 @@
 # HF-13｜正式 Blog、场景编辑与打印资源
 
+> 最新本地增量（2026-11-17）：Owner按附件第4节要求的深圳英文Blog内页已完成，本地预览`http://127.0.0.1:4180/blog/shenzhen-city-name-chinese/`。两个静态汉字卡、两张有署名许可的本地真实照片、原生测验/FAQ、列表/搜索/RSS预览/首页推荐及SEO已完成；213/213、两模式构建/SEO、375/768/1440与两次axe通过。依Owner具体附件，此篇不强行绑定3个已发布字页/卡组、不虚构音频或笔顺，原三篇绑定和审批保留。当前draft且published=null，正式RSS/Sitemap待实际审批与发布，未commit/push/部署。见[本批验收](../SHENZHEN-BLOG-VERIFICATION-2026-11-17.md)、TASKS与PROGRESS记录69。
+
 > 2026-11-01增量：Tools画廊/英文引导与Blog改版已一起上线，releaseId=`blog-tools-release-2026-11-01`。见[实际回执](../releases/blog-tools-release-2026-11-01/deployment.json)。下方先前本地状态保留历史。
 
 状态：**本地Completed / PASS（2026-10-31）**：三篇正文经Owner本会话“没问题”批准并绑定独立hash；两组A4/Letter打印、学习联动、构建/SEO/174测试与浏览器通过。已纳入本地候选，实际生产发布另走HF-18。详见[验收记录](../HF-13-VERIFICATION.md)。返回 [任务总表](../TASKS.md) / [SPEC](../SPEC.md)。

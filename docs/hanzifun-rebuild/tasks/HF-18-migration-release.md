@@ -1,5 +1,7 @@
 # HF-18｜最终迁移、授权发布与运行交接
 
+> 本轮2026-11-18：Pinyin五页与深圳Blog已获Owner授权；214/214、冻结/回滚与本地HTTP/六页手机布局通过，正在执行Git与生产部署。实际结果见 `../releases/pinyin-shenzhen-release-2026-11-17/`，当前尚非线上回执。
+
 > 最新发布：2026-11-16首页三项SEO修复已按Owner授权部署、git push及更新文档 / PASS；版本`450ea2bd-7d6d-448e-b58e-d6408010cd6d`，2026-11-16T00:21:12.192+08:00、100%流量。正式390+27及首页390/1440浏览器通过，源码3755ed7已push；见PROGRESS记录67及[回执](../releases/home-seo-release-2026-11-16/deployment.json)。
 
 > 最新发布：主导航Stroke Order/Pinyin独立入口已随 `primary-nav-release-2026-11-13` 上线 / PASS；2026-11-13T23:50:58.631020+08:00，版本 `dc532d9e-5506-4415-a50a-a166e1e80f5f`，203/203与正式导航/HTTP复验通过，源码已push。见PROGRESS记录65及[本批回执](../releases/primary-nav-release-2026-11-13/deployment.json)。

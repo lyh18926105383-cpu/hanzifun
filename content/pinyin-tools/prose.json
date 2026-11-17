@@ -1,0 +1,95 @@
+{
+  "converter": {
+    "intro": "Paste simplified or traditional Chinese and turn it into pinyin in your browser, with tone marks, tone numbers, or no tones.",
+    "steps": [
+      "Paste or type simplified or traditional Chinese, and leave the punctuation where it is.",
+      "Choose tone marks, numeric tones, or unmarked pinyin, and keep the characters beside the spelling if you want to compare them.",
+      "Check names, uncommon words and alternative readings, then copy the pinyin for your notes or class materials."
+    ],
+    "explanation": "This page turns Chinese characters into pinyin, the romanization that shows Mandarin pronunciation. The result is a phonetic transcription, not a translation. 水 becomes shuǐ, which tells you how to say the character and does not supply an English meaning. Conversion stays in your browser. The text is not uploaded, and there is no signup, payment, or cloud sync.\n\nSimplified and traditional text both work. You can show tone marks, as in nǐ hǎo, numeric tones, as in ni3 hao3, or letters with the tones left off, as in ni hao. An optional comparison keeps each character next to its pinyin when you check a class note or a short message. Punctuation stays in place, so the line does not collapse into one string.\n\nSome characters have more than one reading. Words around a character can point toward a pronunciation that is common in that phrase, but a personal name, a place name, or an unusual use may still be wrong. Treat the output as a draft. This page does not translate, read photos or scans, open a dictionary, or play audio. When you want to hear a spelling, open that syllable on the interactive pinyin chart, Look up Pinyin, which has 410 syllables.",
+    "faqs": [
+      {
+        "question": "Does this page translate Chinese into English?",
+        "answer": "No. It writes the Mandarin pronunciation in pinyin. 水 becomes shuǐ, which shows how to say the character. It does not give the English meaning, and it will not translate a sentence."
+      },
+      {
+        "question": "Can I convert both simplified and traditional characters?",
+        "answer": "Yes. Paste either form. You can display tone marks, numeric tones, or spelling with the tones removed, and you can keep the original characters beside the pinyin. Punctuation in the text stays where you put it."
+      },
+      {
+        "question": "Why might one character get the wrong reading?",
+        "answer": "Some characters have more than one pronunciation. Nearby words can suggest the reading that is common in a phrase, but personal names, place names, and rare uses still need a human check. Do not treat every result as certain."
+      },
+      {
+        "question": "Is my text uploaded, saved, or tied to an account?",
+        "answer": "No. Conversion runs in your browser and the text is not uploaded. The tool is free, with no signup, no payment, and no cloud sync."
+      },
+      {
+        "question": "Can it read a photo, define a word, or play audio?",
+        "answer": "No. You need to paste or type the characters. This page does not recognize text in a photo or scan, does not open dictionary entries, and does not play sound. For audio, open the syllable on the pinyin chart."
+      }
+    ]
+  },
+  "tones": {
+    "intro": "Listen to the four Mandarin tones and the context-dependent neutral tone, then try a quiz that plays existing static syllable recordings.",
+    "steps": [
+      "Play mā, má, mǎ, and mà, and notice the high level tone, the rise, the low tone, and the fall.",
+      "Notice how the third tone is often low in running speech, and read how two third tones change together.",
+      "Take the listening quiz, which plays saved syllable recordings and does not record or grade your voice."
+    ],
+    "explanation": "Mandarin has four lexical tones, which means the pitch is part of the word. These examples use ma: mā stays high and level, má rises, mǎ is low in running speech and rises when you say it alone, and mà falls. The neutral tone is separate. It is short and unstressed, and it has no fixed pitch. The syllable before it decides whether that short sound sits higher or lower.\n\nSaid alone, the third tone falls and then rises. That full rise is not required every time. In running speech the third tone is often just low. When two third tones come together, the first usually shifts toward a rising tone. That spoken change is tone sandhi. The spelling can still show two third-tone marks, as in nǐ hǎo, while the first syllable sounds closer to a second tone.\n\nThe four-tone examples and the listening quiz play existing recorded syllables. The neutral-tone word example uses your device’s Mandarin voice. The page does not open a microphone, record you, grade your speech, or create new audio. Singing a melody will not reliably teach the lexical tone, because the tune moves the pitch for musical reasons. Listen to the four examples, then hear the same tone inside a short word. For more syllables, use the interactive pinyin chart of 410 syllables.",
+    "faqs": [
+      {
+        "question": "What is the difference between mā, má, mǎ, and mà?",
+        "answer": "They are one syllable with four lexical tones. mā is high and level, má rises, mǎ is low and rises when you say it alone, and mà falls. Changing the pitch can change the word, so the tone is part of the pronunciation."
+      },
+      {
+        "question": "Does the third tone always end in a rise?",
+        "answer": "No. The fall-and-rise shape is the full form used when the syllable stands alone. In running speech the third tone is often only low, and you do not have to add a rise every time."
+      },
+      {
+        "question": "How does the neutral tone get its pitch?",
+        "answer": "The neutral tone is short and unstressed. It does not have one fixed pitch of its own. The tone before it pulls it higher or lower, so the same neutral syllable can sound different in different words."
+      },
+      {
+        "question": "What is tone sandhi, in plain terms?",
+        "answer": "It is a change in spoken pitch that the spelling does not have to show. When two third tones meet, the first is usually said closer to a rising tone. nǐ hǎo is still written with two third-tone marks. This page explains the pattern and does not grade your speech."
+      },
+      {
+        "question": "Will singing the tones teach them, and does the quiz hear me?",
+        "answer": "Singing will not reliably teach a lexical tone, because a melody moves the pitch for the tune. The quiz plays existing static syllable recordings and asks you to identify what you hear. It does not use a microphone, record you or assess your spoken pronunciation. Its score counts your listening answers."
+      }
+    ]
+  },
+  "toneMarks": {
+    "intro": "Type numbered pinyin such as ni3 hao3 and get nǐ hǎo, or turn marks back into numbers and strip them, in your browser.",
+    "steps": [
+      "Enter numbered pinyin, using ü, v, or u: for ü while keeping lu distinct from lü.",
+      "Add tone marks, turn marked pinyin back into numbers, or strip the marks and leave the letters.",
+      "Copy the result, remembering that 0 or 5 removes the tone mark and that nihao will not become 你好."
+    ],
+    "explanation": "This editor turns numbered pinyin into tone marks on your own device, and it can reverse or remove those marks. ni3 hao3 becomes nǐ hǎo, lv4 becomes lǜ, and nv3 becomes nǚ. You can turn marks back into numbers, or strip them and leave the letters. A neutral tone typed as 0 or 5 removes the mark, so ma0 and ma5 both become ma.\n\nType ü as ü, v, or u:. All three are the same vowel, and none of them may replace a plain u. lu4 becomes lù, while lv4 or lu:4 becomes lǜ. lu and lü have to stay distinct because they are different syllables.\n\nPut the mark on a if the syllable has one. Otherwise put it on e. In ou, mark o. For any other final, mark the last vowel. This includes iu and ui: mark the second vowel, so liu2 becomes liú and hui4 becomes huì. Digits 1 through 4 choose the four tones. The tool is free, with no signup, payment, or cloud sync, and the conversion stays in the browser. It does not translate and it is not a Chinese input method, so nihao will not become 你好. Hear a finished syllable on the 410-syllable pinyin chart.",
+    "faqs": [
+      {
+        "question": "How do I type ü without an umlaut key?",
+        "answer": "Use v or the two characters u:. lv4 and lu:4 both become lǜ, and nv3 becomes nǚ. Pasting ü directly works as well. All three inputs are aliases for the same vowel."
+      },
+      {
+        "question": "Why does lu have to stay different from lü?",
+        "answer": "They are different syllables. lu4 becomes lù, while lv4 or lu:4 becomes lǜ. A plain u must not absorb the umlaut, or the spelling will point to the wrong sound."
+      },
+      {
+        "question": "Which vowel should carry the tone mark?",
+        "answer": "Mark a if there is an a. Otherwise mark e if there is an e. In ou, mark o. For every other final, mark the last vowel, including iu and ui, which take the mark on the second vowel. liu2 becomes liú, and hui4 becomes huì."
+      },
+      {
+        "question": "What do 0 and 5 mean after a syllable?",
+        "answer": "Both mean a neutral tone, and both remove the tone mark. ma0 and ma5 become ma. The digits 1, 2, 3, and 4 add the four tone marks instead."
+      },
+      {
+        "question": "Can I type nihao and get the characters 你好?",
+        "answer": "No. This editor only changes pinyin spelling. It adds tone marks, turns marks back into numbers, or strips the marks. It is not a Chinese input method and it does not translate, so nihao stays in letters and never becomes 你好."
+      }
+    ]
+  }
+}

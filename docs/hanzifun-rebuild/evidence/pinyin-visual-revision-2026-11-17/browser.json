@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-17",
+  "status": "PASS before release activation",
+  "origin": "http://127.0.0.1:4178",
+  "layouts": [
+    {
+      "bodyOverflow": false,
+      "cardColumns": "273px",
+      "firstCellBottom": 424,
+      "formulaColumns": "112.5px 112.5px",
+      "height": 568,
+      "toolInFirstScreen": true,
+      "width": 320
+    },
+    {
+      "bodyOverflow": false,
+      "cardColumns": "328px",
+      "firstCellBottom": 403,
+      "formulaColumns": "140px 140px",
+      "height": 812,
+      "toolInFirstScreen": true,
+      "width": 375
+    },
+    {
+      "bodyOverflow": false,
+      "cardColumns": "225.664px 225.664px 225.672px",
+      "firstCellBottom": 437,
+      "formulaColumns": "133.078px 14.6875px 133.078px 14.6875px 133.078px 14.6875px 159.703px",
+      "height": 1024,
+      "toolInFirstScreen": true,
+      "width": 768
+    },
+    {
+      "bodyOverflow": false,
+      "cardColumns": "303px 303px 303px",
+      "firstCellBottom": 437,
+      "formulaColumns": "188.312px 14.6875px 188.32px 14.6875px 188.32px 14.6875px 225.984px",
+      "height": 1170,
+      "toolInFirstScreen": true,
+      "width": 1024
+    },
+    {
+      "bodyOverflow": false,
+      "cardColumns": "414.664px 414.664px 414.664px",
+      "firstCellBottom": 450,
+      "formulaColumns": "268.078px 14.6875px 268.078px 14.6875px 268.078px 14.6875px 321.703px",
+      "height": 900,
+      "toolInFirstScreen": true,
+      "width": 1440
+    }
+  ],
+  "relatedPages": [
+    {
+      "h1": "Chinese to Pinyin",
+      "overflow": false,
+      "path": "/pinyin-chart/chinese-to-pinyin/",
+      "relatedPreviews": 2
+    },
+    {
+      "h1": "Chinese Tones",
+      "overflow": false,
+      "path": "/pinyin-chart/tones/",
+      "relatedPreviews": 2
+    },
+    {
+      "h1": "Type Pinyin with Tone Marks",
+      "overflow": false,
+      "path": "/pinyin-chart/tone-marks/",
+      "relatedPreviews": 2
+    }
+  ],
+  "axe": {
+    "desktop": {
+      "passes": 34,
+      "violations": []
+    },
+    "mobile": {
+      "passes": 34,
+      "violations": []
+    }
+  },
+  "checks": {
+    "threeActualToolScreenshots": true,
+    "thumbnailHeightsEqual": true,
+    "diagramAboveChartLinks": true,
+    "diagramUsesActualShUeiCoordinates": true,
+    "waterExampleOpensThirdTone": true,
+    "otherExamples": [
+      {
+        "panelOpen": true,
+        "popupFits": true,
+        "query": "lv4",
+        "selected": "lü",
+        "tone": "lǜTone 4▶ Listen"
+      },
+      {
+        "panelOpen": true,
+        "popupFits": true,
+        "query": "ma3",
+        "selected": "ma",
+        "tone": "mǎTone 3▶ Listen"
+      }
+    ],
+    "twoParagraphsShortened": true,
+    "threeVisualLookupExamples": true,
+    "printButtonBackground": "rgb(183, 68, 50)",
+    "printCalls": 1,
+    "printSyllables": 410,
+    "printGroups": 24,
+    "explanationHiddenInPrint": true,
+    "normalConsoleErrors": []
+  },
+  "notes": [
+    "Browser viewport capability did not resize the background QA tab; scoped CDP device metrics were used and are cleared after testing.",
+    "Local cached HTML/CSS was refreshed; versioned CSS/JS and content-hashed screenshots prevent stale assets."
+  ]
+}

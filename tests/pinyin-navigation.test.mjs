@@ -56,30 +56,28 @@ test('pinyin chart exposes one keyboard-reachable filter anchor', () => {
   const tree = nodes(parse(`<body>${html}</body>`));
   const forms = tree.filter(n => n.tagName === 'form' && attr(n, 'id') === 'pinyin-syllable-filters');
   assert.equal(forms.length, 1);
-  assert.equal(attr(forms[0], 'data-pinyin-filter'), '');
+  assert.equal(attr(forms[0], 'data-pinyin-chart-filter'), '');
   assert.equal(attr(forms[0], 'tabindex'), '-1');
   const jumps = tree.filter(n => n.tagName === 'a' && attr(n, 'href') === '#pinyin-syllable-filters');
   assert.equal(jumps.length, 1);
   assert.match(jumps[0].childNodes?.map(n => n.value || '').join('') || '', /Jump to syllable filters/);
-  assert.ok(tree.some(n => n.tagName === 'form' && attr(n, 'id') === 'pinyin-syllable-filters' && attr(n, 'data-pinyin-filter') !== undefined));
+  assert.ok(tree.some(n => n.tagName === 'form' && attr(n, 'id') === 'pinyin-syllable-filters' && attr(n, 'data-pinyin-chart-filter') !== undefined));
 });
 
-test('pinyin chart groups every syllable under its written onset and preserves initial filters', () => {
+test('pinyin matrix has initial rows, final columns and every legal syllable exactly once', () => {
   const tree = nodes(parse(pinyinChartPage().content));
-  const groups = tree.filter(node => attr(node, 'data-pinyin-group') !== undefined);
-  const headings = groups.map(group => group.childNodes.find(node => node.tagName === 'h3').childNodes[0].value);
-  assert.deepEqual(headings.slice(0, 3), ['Vowel-starting syllables', 'b syllables', 'p syllables']);
-  assert.deepEqual(headings.slice(-2), ['y syllables', 'w syllables']);
-  const rows = groups.flatMap((group, index) => {
-    assert.ok(group.childNodes.some(node => node.tagName === 'p'));
-    return nodes(group).filter(node => attr(node, 'data-syllable') !== undefined).map(row => ({
-      spelling: attr(row, 'data-syllable'), initial: attr(row, 'data-initial'), heading: headings[index]
-    }));
-  });
-  assert.deepEqual(rows, syllables.map(({spelling, initial, orthographicOnset}) => ({
-    spelling, initial: initial || '_zero',
-    heading: initial || orthographicOnset ? `${initial || orthographicOnset} syllables` : 'Vowel-starting syllables'
-  })));
+  const cells=tree.filter(n=>n.tagName==='button'&&attr(n,'data-syllable')!==undefined);
+  assert.equal(cells.length,410);
+  assert.deepEqual(cells.map(n=>attr(n,'data-syllable')).sort(),syllables.map(s=>s.spelling).sort());
+  for(const cell of cells){
+    const data=syllables.find(s=>s.spelling===attr(cell,'data-syllable'));
+    assert.equal(attr(cell,'data-initial'),data.initial||'_zero');
+    assert.equal(attr(cell,'data-final'),data.final);
+    assert.equal(attr(cell,'id'),'syllable-'+encodeURIComponent(data.spelling));
+  }
+  assert.equal(tree.filter(n=>attr(n,'data-initial-heading')!==undefined).length,22);
+  const finals=tree.filter(n=>attr(n,'data-final-heading')!==undefined).map(n=>attr(n,'data-final-heading'));
+  assert.deepEqual(finals.sort(),[...new Set(syllables.map(s=>s.final))].sort());
 });
 
 test('the print chart contains all syllables and their attested tones alongside working audio markup', () => {

@@ -26,12 +26,12 @@ export function validateJsonLd(document,expectedCanonical) {
    equal(root?.['@context'],'https://schema.org','JSON-LD @context');
    const graph=root['@graph']||[root];requireValue(Array.isArray(graph)&&graph.length,'JSON-LD graph required');
    for(const item of graph){
-    const type=item?.['@type'];requireValue(['WebPage','WebSite','BreadcrumbList','WebApplication','Article','FAQPage'].includes(type),'Unsupported or missing JSON-LD @type');
+    const type=item?.['@type'];requireValue(['WebPage','WebSite','BreadcrumbList','WebApplication','Article','BlogPosting','FAQPage'].includes(type),'Unsupported or missing JSON-LD @type');
     if(type==='BreadcrumbList'){
      requireValue(Array.isArray(item.itemListElement)&&item.itemListElement.length>=2,'BreadcrumbList items required');
      item.itemListElement.forEach((x,i)=>{equal(x['@type'],'ListItem','Breadcrumb item type');equal(x.position,i+1,'Breadcrumb position');requireValue(typeof x.name==='string'&&x.name.trim()&&absolute(x.item),'Breadcrumb name/item required');});
      if(expectedCanonical)equal(item.itemListElement.at(-1).item,expectedCanonical,'Breadcrumb canonical');
-    }else if(type==='Article'){
+    }else if(type==='Article'||type==='BlogPosting'){
      for(const key of ['headline','dateModified','url','mainEntityOfPage'])requireValue(typeof item[key]==='string'&&item[key].trim(),'Article missing '+key);
      requireValue(absolute(item.url)&&absolute(item.mainEntityOfPage),'Article URL required');
      if(expectedCanonical){equal(item.url,expectedCanonical,'Article canonical');equal(item.mainEntityOfPage,expectedCanonical,'Article page canonical');}

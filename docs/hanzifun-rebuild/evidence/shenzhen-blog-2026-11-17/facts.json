@@ -1,0 +1,63 @@
+{
+  "checked": "2026-11-17",
+  "apec": {
+    "source": "https://www.apec.org/",
+    "section": "Events",
+    "calendar": "https://www.apec.org/engage-with-us/events-calendar",
+    "meeting": "APEC Economic Leaders’ Meeting",
+    "location": "Shenzhen",
+    "scheduledDates": [
+      "2026-11-18",
+      "2026-11-19"
+    ],
+    "tense": "scheduled; no claim it has happened"
+  },
+  "cityName": {
+    "source": "https://www.sz.gov.cn/szstory/202212/content/post_11246530.html",
+    "readVia": "agent-reach Jina Reader",
+    "finding": "The name refers to a deep channel in fields."
+  },
+  "huaqiangbei": {
+    "source": "https://www.sz.gov.cn/szstory/202303/content/post_10466042.html",
+    "readVia": "agent-reach Jina Reader",
+    "finding": "Electronics industrial area developed into an electronics trading district."
+  },
+  "characters": [
+    {
+      "glyph": "深",
+      "pinyin": "shēn",
+      "strokes": 11,
+      "source": "https://zdic.net/hans/%E6%B7%B1"
+    },
+    {
+      "glyph": "圳",
+      "pinyin": "zhèn",
+      "strokes": 6,
+      "context": "深圳",
+      "source": "https://zdic.net/hans/%E5%9C%B3"
+    }
+  ],
+  "repositoryResources": {
+    "deepCharacterPage": false,
+    "zhenCharacterPage": false,
+    "completeCityUtterance": false,
+    "decision": "Complete reviewed character/city context audio is absent. Follow attachment section 4 item 4: keep static cards and written tone guides, without partial or browser-default playback buttons.",
+    "isolatedSyllableRecords": [
+      {
+        "numeric": "shen1",
+        "kind": "source-recording",
+        "url": "audio/pronunciation-v1/shen1.mp3"
+      },
+      {
+        "numeric": "zhen4",
+        "kind": "source-recording",
+        "url": "audio/pronunciation-v1/zhen4.mp3"
+      }
+    ],
+    "characterOrCityUtteranceRecords": []
+  },
+  "analytics": {
+    "existingSystem": false,
+    "addedThirdPartyTracking": false
+  }
+}

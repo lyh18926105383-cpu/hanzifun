@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-17",
+  "status": "PASS local only",
+  "tests": {
+    "pass": 208,
+    "fail": 0,
+    "command": "npm test"
+  },
+  "build": {
+    "files": 3644,
+    "englishPages": 420,
+    "productionNoindex": 12,
+    "sitemapUrls": 408,
+    "newChildren": "preview/noindex until separate reviewed release",
+    "productionOutput": "/private/tmp/hanzifun-pinyin-production",
+    "localOutput": "/private/tmp/hanzifun-pinyin-2026-11-17"
+  },
+  "pages": [
+    {
+      "path": "/pinyin-chart/",
+      "title": "What Is Pinyin? Full Mandarin Chart With Audio",
+      "h1": "Look up Pinyin",
+      "description": "What is pinyin? It is the official Romanization of Mandarin. See all 410 syllables on one chart with pronunciation and printable options.",
+      "canonical": "https://hanzifun.online/pinyin-chart/",
+      "robots": "index,follow",
+      "h1Count": 1
+    },
+    {
+      "path": "/pinyin-chart/chinese-to-pinyin/",
+      "title": "Chinese to Pinyin Converter with Tone Marks",
+      "h1": "Chinese to Pinyin",
+      "description": "Convert Simplified or Traditional Chinese to pinyin with tone marks or numbers. Check alternative readings and copy the result for free in your browser.",
+      "canonical": "https://hanzifun.online/pinyin-chart/chinese-to-pinyin/",
+      "robots": "noindex,follow",
+      "h1Count": 1
+    },
+    {
+      "path": "/pinyin-chart/tones/",
+      "title": "Chinese Tones: Audio Examples & Listening Practice",
+      "h1": "Chinese Tones",
+      "description": "Learn the four Chinese tones and the neutral tone with audio examples, pitch guides and a free listening quiz. Practise Mandarin pronunciation at your own pace.",
+      "canonical": "https://hanzifun.online/pinyin-chart/tones/",
+      "robots": "noindex,follow",
+      "h1Count": 1
+    },
+    {
+      "path": "/pinyin-chart/tone-marks/",
+      "title": "Type Pinyin with Tone Marks: Free Online Tool",
+      "h1": "Type Pinyin with Tone Marks",
+      "description": "Type pinyin with tone marks online for free. Convert tone numbers to accents, change accents back to numbers or remove tones, with support for ü, v and u:.",
+      "canonical": "https://hanzifun.online/pinyin-chart/tone-marks/",
+      "robots": "noindex,follow",
+      "h1Count": 1
+    }
+  ],
+  "sourceIntegrity": {
+    "allOtherEditorialApprovalsUnchanged": true,
+    "presentationDependencyChangedInputs": [
+      "scripts/build-site.js"
+    ],
+    "previousPresentationApproverAndAllOtherMaintenancePreserved": true
+  },
+  "print": {
+    "pages": 5,
+    "pageSizePoints": [
+      594.96,
+      841.92
+    ],
+    "syllables": 410,
+    "attestedToneForms": 1323,
+    "missingText": [],
+    "visualReview": "All five PDF pages rendered and inspected"
+  },
+  "deployment": {
+    "commit": false,
+    "push": false,
+    "deploy": false,
+    "authorization": "Only local implementation and verification"
+  },
+  "limitations": [
+    "No external SEO traffic/indexing measured",
+    "Human listening approval unchanged",
+    "Converter needs checking for names and uncommon readings"
+  ]
+}

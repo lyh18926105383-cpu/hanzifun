@@ -1,0 +1,30 @@
+{
+  "beforeFiles": 3644,
+  "afterFiles": 3655,
+  "unchanged": 3636,
+  "changed": [
+    "content-manifest.json",
+    "index.html",
+    "route-manifest.json",
+    "blog/feed.xml",
+    "blog/index.html",
+    "site-assets/blog.v1.css",
+    "site-assets/site-data.hf03-v1.js",
+    "site-assets/search/library.hf04-v1.json"
+  ],
+  "added": [
+    "site-assets/shenzhen-article.v1.css",
+    "blog/shenzhen-city-name-chinese/index.html",
+    "site-assets/blog/shenzhen/shenzhen-bay-2015-1200.webp",
+    "site-assets/blog/shenzhen/shenzhen-bay-2015-1600.webp",
+    "site-assets/blog/shenzhen/shenzhen-bay-2015-480.webp",
+    "site-assets/blog/shenzhen/shenzhen-bay-2015-800.webp",
+    "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-1200.webp",
+    "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-1600.webp",
+    "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-480.webp",
+    "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-800.webp",
+    "site-assets/blog/shenzhen/sources.json"
+  ],
+  "missing": [],
+  "pinyinFourPagesUnchanged": true
+}

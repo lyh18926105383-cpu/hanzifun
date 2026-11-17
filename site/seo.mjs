@@ -39,7 +39,7 @@ export const landingPageSeo={
  '/stroke-order/':{title:topicMeta[0].title,description:topicMeta[0].description,h1:topicMeta[0].h1},
  '/dictionary/':{title:'Chinese Character Dictionary: Hanzi Meanings & Pinyin',description:'A free Chinese character dictionary with 339 hanzi: pinyin, core meanings, stroke order diagrams and example words, searchable in one click.',h1:'Chinese Character Dictionary'},
  '/scenarios/':{title:'Chinese Conversation Practice: Travel & Restaurant Talk',description:'Practise Chinese conversation for restaurants, airports, hotels and shopping, with pinyin, phrase meanings and linked character breakdowns.',h1:'Chinese Conversation Practice'},
- '/pinyin-chart/':{title:'What Is Pinyin? Full Mandarin Chart With Audio',description:'What is pinyin? It is the official Romanization of Mandarin. See all 410 syllables on one chart with pronunciation and printable options.',h1:'What Is Pinyin?'},
+ '/pinyin-chart/':{title:'What Is Pinyin? Full Mandarin Chart With Audio',description:'What is pinyin? It is the official Romanization of Mandarin. See all 410 syllables on one chart with pronunciation and printable options.',h1:'Look up Pinyin'},
  '/flashcards/':{title:'Chinese Character Flashcards: Free Online Practice',description:'Practise Chinese characters with free online flashcards: pick a set, reveal each answer and keep saved characters in this browser.',h1:'Chinese Character Flashcards'},
  '/academic/':{title:'HSK 1 Vocabulary List: Compare HSK 2.0 and HSK 3.0',description:'HSK 1 vocabulary lists for HSK 2.0 and HSK 3.0 side by side, so you can check which characters and words each syllabus actually requires.',h1:'HSK 1 Vocabulary List: Choose Your Version'},
  '/tools/':{title:'Chinese Name Generator & Character Culture Tools',description:'Chinese name generator, menu decoder, lunar zodiac lookup and tattoo character checker, all built on one searchable hanzi dictionary.',h1:'Chinese Name Generator & Culture Tools'},
@@ -56,8 +56,8 @@ const fixed={
  '/stroke-order/':{title:'Chinese Stroke Order: Step-by-Step Hanzi Writing Tool',h1:'Chinese Stroke Order',lead:'Follow Chinese stroke order step by step for 126 core characters using verified mainland writing sequences, playback controls and static stroke diagrams.'},
  '/pinyin-chart/':{
   title:'What Is Pinyin in Chinese?',
-  h1:'What Is Pinyin in Chinese?',
-  lead:'Pinyin, officially called Hanyu Pinyin, is the standard system for spelling the sounds of Mandarin Chinese with the Latin alphabet. Make HanziFun your go-to Chinese Pinyin tool to practise pronunciation online and print the complete Pinyin Chart in one click.',
+  h1:'Look up Pinyin',
+  lead:'Find any Mandarin syllable and listen to its tones.',
   description:'Learn what Hanyu Pinyin is, practise Mandarin pronunciation online, and print the complete 410-syllable Pinyin Chart in one click.'
  },
  '/academic/':{title:'HSK Level 1 Lists: Compare HSK 2.0 and HSK 3.0',h1:'HSK Level 1: Choose Your Version',lead:'HSK level 1 has separate lists in HSK 2.0 and HSK 3.0: the libraries contain 150 and 300 vocabulary entries respectively.'},
@@ -104,6 +104,12 @@ export function homeSocialMetadata(page,canonical,origin) {
  const twitter={card:'summary_large_image',title,description,image,'image:alt':imageAlt};
  return Object.entries(og).map(([key,value])=>`<meta property="og:${key}" content="${e(value)}">`).concat(Object.entries(twitter).map(([key,value])=>`<meta name="twitter:${key}" content="${e(value)}">`)).join('\n');
 }
+export function articleSocialMetadata(page,canonical,origin){
+ const image=page.socialImage,title=page.documentTitle??page.title;
+ const og={type:'article',site_name:'HanziFun',title,description:page.description,url:canonical,image:new URL(image.src,origin).href,'image:type':'image/webp','image:width':String(image.width),'image:height':String(image.height),'image:alt':image.alt};
+ const twitter={card:'summary_large_image',title,description:page.description,image:og.image,'image:alt':image.alt};
+ return Object.entries(og).map(([k,v])=>`<meta property="og:${k}" content="${e(v)}">`).concat(Object.entries(twitter).map(([k,v])=>`<meta name="twitter:${k}" content="${e(v)}">`)).join('\n');
+}
 // Read the actual homepage answers so visible copy and schema cannot drift apart.
 function homeFaq(content) {
  const all=n=>[n,...(n.childNodes||[]).flatMap(all)];
@@ -126,7 +132,7 @@ export function structuredData(page,canonical,origin) {
  }
  const graph=[{'@type':'WebPage','@id':canonical+'#page',url:canonical,name:page.title,description:page.description||page.title,inLanguage:page.lang||'en'}];
  if(page.webApplication&&!page.path.startsWith('/tools/'))graph.push({'@type':'WebApplication',name:page.title,description:page.description,applicationCategory:'EducationalApplication',operatingSystem:'Any',url:canonical,inLanguage:'en'});
- if(page.editorialArticle){const a=page.editorialArticle;graph.push({'@type':'Article',headline:a.title,author:{'@type':a.author.kind==='human'?'Person':'Organization',name:a.author.name},dateModified:a.modified,...(a.published?{datePublished:a.published}:{}),url:canonical,mainEntityOfPage:canonical,citation:a.references.map(r=>r.url)});}
+ if(page.editorialArticle){const a=page.editorialArticle;graph.push({'@type':page.blogPosting?'BlogPosting':'Article',headline:a.h1||a.title,author:{'@type':a.author.kind==='human'?'Person':'Organization',name:a.author.name},dateModified:a.modified,...(a.published?{datePublished:a.published}:{}),url:canonical,mainEntityOfPage:canonical,citation:a.references.map(r=>r.url),...(page.blogPosting?{inLanguage:'en',image:new URL(page.socialImage.src,origin).href}:{})});}
  if(page.path==='/')graph.push({'@type':'WebSite','@id':origin+'/#website',url:origin+'/',name:'HanziFun',inLanguage:'en'},{'@type':'FAQPage','@id':canonical+'#faq',mainEntity:homeFaq(page.content)});
  else if(page.path!=='/404.html')graph.push({'@type':'BreadcrumbList',itemListElement:(page.breadcrumbs||breadcrumbItems(page)).map((item,i)=>({'@type':'ListItem',position:i+1,name:item.name,item:canonicalUrl(item.path,origin)}))});
  return '<script type="application/ld+json">'+safeJsonLd({'@context':'https://schema.org','@graph':graph})+'</script>';

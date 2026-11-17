@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "shenzhen-photos-v1",
+  "images": [
+    {
+      "id": "shenzhen-lianhuashan-2019",
+      "author": "Shihu7",
+      "year": 2019,
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shenzhen_Lianhuashan_Park_2019.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Shenzhen_Lianhuashan_Park_2019.jpg",
+      "originalDimensions": [
+        4032,
+        3024
+      ],
+      "originalSha256": "865f8d2730172a8c731af6b413537cfd92da7a4a719b63222f117f39b7264d40",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-11-17",
+      "changes": "Resized and converted to WebP. Full frame preserved; no crop.",
+      "derivedLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "file": "shenzhen-lianhuashan-2019-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16260,
+          "sha256": "a960e95443a63fdb46e1a398fbf67401e90df51ac60ca793e45c206a553641ea"
+        },
+        {
+          "file": "shenzhen-lianhuashan-2019-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 56876,
+          "sha256": "c3638dbdc37e85875ce004e106f85b31ab8e4e5ac74193903c5242c8c3186ebd"
+        },
+        {
+          "file": "shenzhen-lianhuashan-2019-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 150352,
+          "sha256": "7d1c2f6f8b5af0306d61d4c158a296f83b69014e0dd531c4576a0e5733c4ced0"
+        },
+        {
+          "file": "shenzhen-lianhuashan-2019-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 282552,
+          "sha256": "7c48b1d771b7db653eee1625035a18bfc9873faa235a4875293f920c91906390"
+        }
+      ]
+    },
+    {
+      "id": "shenzhen-bay-2015",
+      "author": "Wishds",
+      "year": 2015,
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Skyline_of_Shenzhen.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Skyline_of_Shenzhen.jpg",
+      "originalDimensions": [
+        5248,
+        3936
+      ],
+      "originalSha256": "7cba7975ac39184a13ec94c6a0556a2fa904cd0d97d21421a0c34c5cda4fffca",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "checked": "2026-11-17",
+      "changes": "Resized and converted to WebP. Full frame preserved; no crop.",
+      "derivedLicense": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "file": "shenzhen-bay-2015-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 13122,
+          "sha256": "aac82f241697150369a41844b8703e1be673c1b1f89e3db75bf70bdef0374d4a"
+        },
+        {
+          "file": "shenzhen-bay-2015-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 29732,
+          "sha256": "7ecc71a12f96eb7fabed034814f87d3b0d0d694b7c4f4cbfd2be7ae38e671b99"
+        },
+        {
+          "file": "shenzhen-bay-2015-1200.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 58342,
+          "sha256": "89748876fcf57a1f4a43d662ecc75f5007f326c1080d3a4fd4b14f31cc785521"
+        },
+        {
+          "file": "shenzhen-bay-2015-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 96570,
+          "sha256": "0c14b2b6061990818bdccf2a109c5d6d208fd6fe3e4397348dc08172e814023b"
+        }
+      ]
+    }
+  ]
+}

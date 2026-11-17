@@ -261,6 +261,81 @@
         "contentSha256": "6fad3d9185ef6a14c65c81079046441ae26d7aa8d498071da4cbafc1d2a92d94",
         "evidence": "docs/hanzifun-rebuild/acceptance/hf13-editorial-review.md#owner-acceptance-2026-10-31"
       }
+    },
+    {
+      "slug": "shenzhen-city-name-chinese",
+      "layout": "city-name",
+      "title": "Shenzhen: The APEC 2026 Host City & Its Chinese Name | HanziFun",
+      "h1": "Meet Shenzhen: A Global City in Two Chinese Characters",
+      "description": "Discover Shenzhen, host city of APEC 2026. Explore its story, learn what 深圳 means, and practise saying Shēnzhèn with a short Chinese lesson.",
+      "category": "culture",
+      "status": "published",
+      "author": {
+        "name": "HanziFun",
+        "kind": "organization"
+      },
+      "created": "2026-11-17",
+      "modified": "2026-11-18",
+      "published": "2026-11-18",
+      "characterIds": [],
+      "deck": null,
+      "lead": "A city of skylines, green spaces and new ideas—with an older story hidden in its name. Meet Shenzhen and learn to read 深圳.",
+      "sections": [],
+      "image": {
+        "src": "/site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-1200.webp",
+        "alt": "Green space at Lianhuashan Park with Shenzhen’s skyline in the background, photographed in 2019."
+      },
+      "references": [
+        {
+          "id": "apec",
+          "title": "APEC official events calendar",
+          "url": "https://www.apec.org/engage-with-us/events-calendar",
+          "accessed": "2026-11-17",
+          "scope": "Shenzhen, 18–19 November 2026; checked against APEC homepage Events on 17 November 2026."
+        },
+        {
+          "id": "shenzhen-name",
+          "title": "Shenzhen Government: the origin of the name Shenzhen",
+          "url": "https://www.sz.gov.cn/szstory/202212/content/post_11246530.html",
+          "accessed": "2026-11-17",
+          "scope": "The city name and the deep channel in the fields; read using Jina Reader."
+        },
+        {
+          "id": "sez",
+          "title": "State Council: the Shenzhen Special Economic Zone’s 40th anniversary",
+          "url": "https://english.www.gov.cn/news/videos/202010/15/content_WS5f87a4f7c6d0f7257693d956.html",
+          "accessed": "2026-11-17",
+          "scope": "Establishment of the Special Economic Zone in 1980."
+        },
+        {
+          "id": "huaqiangbei",
+          "title": "Shenzhen Government: Huaqiangbei",
+          "url": "https://www.sz.gov.cn/szstory/202303/content/post_10466042.html",
+          "accessed": "2026-11-17",
+          "scope": "Development from an electronics industrial area to a trading district; read using Jina Reader."
+        },
+        {
+          "id": "shen",
+          "title": "Dictionary entry: 深",
+          "url": "https://zdic.net/hans/%E6%B7%B1",
+          "accessed": "2026-11-17",
+          "scope": "shēn, 11 strokes, water radical and deep-water usage."
+        },
+        {
+          "id": "zhen",
+          "title": "Dictionary entry: 圳",
+          "url": "https://zdic.net/hans/%E5%9C%B3",
+          "accessed": "2026-11-17",
+          "scope": "zhèn in 深圳, 6 strokes, 土/川 and field-channel meaning."
+        }
+      ],
+      "review": {
+        "acceptance": "approved",
+        "reviewer": "Owner",
+        "date": "2026-11-17",
+        "contentSha256": "3163cad39b6ed7a6aa13aa2b3426ac06265f30c4ed225fe687b2c18c2d6d310b",
+        "evidence": "docs/hanzifun-rebuild/releases/pinyin-shenzhen-release-2026-11-17/OWNER-AUTHORIZATION.md"
+      }
     }
   ]
 }

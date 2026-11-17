@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-17",
+  "origin": "http://127.0.0.1:4180",
+  "path": "/blog/shenzhen-city-name-chinese/",
+  "layouts": [
+    {
+      "cardPositions": [
+        {
+          "left": 18,
+          "top": 5516,
+          "width": 324
+        },
+        {
+          "left": 18,
+          "top": 6216,
+          "width": 324
+        }
+      ],
+      "glyphInFirstScreen": true,
+      "height": 667,
+      "heroGlyphBottom": 457,
+      "learnLinkBottom": 517,
+      "linkInFirstScreen": true,
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "cardPositions": [
+        {
+          "left": 24,
+          "top": 4450,
+          "width": 341
+        },
+        {
+          "left": 389,
+          "top": 4450,
+          "width": 341
+        }
+      ],
+      "glyphInFirstScreen": true,
+      "height": 1024,
+      "heroGlyphBottom": 498,
+      "learnLinkBottom": 562,
+      "linkInFirstScreen": true,
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "cardPositions": [
+        {
+          "left": 313,
+          "top": 3732,
+          "width": 388
+        },
+        {
+          "left": 725,
+          "top": 3732,
+          "width": 388
+        }
+      ],
+      "glyphInFirstScreen": true,
+      "height": 900,
+      "heroGlyphBottom": 572,
+      "learnLinkBottom": 636,
+      "linkInFirstScreen": true,
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "axe": {
+    "mobile": {
+      "passes": 31,
+      "violations": []
+    },
+    "desktop": {
+      "passes": 30,
+      "violations": []
+    }
+  },
+  "checks": {
+    "heroCharactersAndLearningLinkInFirstScreen": true,
+    "twoLocalPhotosDecoded": true,
+    "responsivePhotoVariants": true,
+    "staticCharacters112px": true,
+    "mobileCardsStackDesktopSideBySide": true,
+    "learningAnchorReached": true,
+    "quizKeyboardEnter": true,
+    "quizNativeReturnWhileScriptExecutionDisabled": true,
+    "faqKeyboardEnter": true,
+    "endCtaNavigatesToHomepage": true,
+    "homepageRecommendationFiveItems": true,
+    "blogCultureFilterAndSearchOneMatch": true,
+    "siteSearchOneMatch": true,
+    "canonicalAndSocialUrlsCorrect": true,
+    "blogPostingBreadcrumbNoFakePublicationDate": true,
+    "noInvalidAudioOrStrokeButtons": true,
+    "normalConsoleErrors": []
+  },
+  "scope": "Local browser verification only; no production deployment"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "https://www.apec.org/",
+  "method": "agent-reach Jina Reader",
+  "observation": "APEC Economic Leaders’ Meeting; 18 - 19 November 2026; Shenzhen, People’s Republic of China",
+  "tense": "scheduled retained; occurrence not inferred from date",
+  "checkedDate": "2026-11-18 Asia/Singapore"
+}

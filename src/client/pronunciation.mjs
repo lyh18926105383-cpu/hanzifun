@@ -27,14 +27,14 @@ export function createPronunciationPlayer({makeAudio=url=>new Audio(url),speech=
    speech.resume?.();speech.speak(utterance);return true;
   }catch{if(active){clearTimer(active.timer);active=null;}state('error','Try again after checking device audio.');return false;}
  }
- return {stop,async play({url='',text=''},state=()=>{}){
+ return {stop,async play({url='',text='',allowSpeechFallback=true},state=()=>{}){
   stop();const current=revision;state('loading','Preparing pronunciation…');
   if(url){
    if(!/^\/audio\/pronunciation-v1\/[a-z0-9-]+\.mp3$/.test(url)){state('error','Please reload and try again.');return false;}
    const audio=makeAudio(url),item={audio,state,timer:null};active=item;
    audio.onended=()=>{if(active===item){clearTimer(item.timer);active=null;state('idle','Finished.');}};
    // A failed static request can use Chinese speech, with a fresh generation check.
-   const fallback=async()=>{if(active!==item||current!==revision)return false;clearTimer(item.timer);active=null;audio.pause();audio.onerror=null;audio.onended=null;return speak(text,current,state);};
+   const fallback=async()=>{if(active!==item||current!==revision)return false;clearTimer(item.timer);active=null;audio.pause();audio.onerror=null;audio.onended=null;if(!allowSpeechFallback){state('error','The recording could not play. Try again.');return false;}return speak(text,current,state);};
    audio.onerror=()=>{void fallback();};
    item.timer=setTimer(()=>{void fallback();},8000);
    try{await audio.play();if(active===item&&current===revision){clearTimer(item.timer);state('playing','Playing recording.');return true;}return false;}catch{return fallback();}

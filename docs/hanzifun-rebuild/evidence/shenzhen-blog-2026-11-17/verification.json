@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-17",
+  "status": "Local Completed / PASS",
+  "path": "/blog/shenzhen-city-name-chinese/",
+  "canonical": "https://hanzifun.online/blog/shenzhen-city-name-chinese/",
+  "sourceDocument": "/Users/graceshi/Downloads/hanzifun-shenzhen-blog-codex.md",
+  "requestedSection": 4,
+  "article": {
+    "status": "draft",
+    "published": null,
+    "author": {
+      "name": "HanziFun",
+      "kind": "organization"
+    },
+    "contentSha256": "fcf4839dbcea856ee097eec6216ca66b003de7c0f8b6f9f0a410181ab3f67c91",
+    "words": 1071,
+    "minutes": 6
+  },
+  "tests": {
+    "pass": 213,
+    "fail": 0
+  },
+  "build": {
+    "files": 3655,
+    "pages": 421,
+    "corePages": 365,
+    "productionSitemap": 408,
+    "productionNoindex": 13,
+    "localOutput": "/private/tmp/hanzifun-shenzhen-2026-11-17",
+    "productionCandidate": "/private/tmp/hanzifun-shenzhen-production"
+  },
+  "checks": {
+    "allOldArticlesAndHumanApprovalsPreserved": true,
+    "presentationReviewOnlyDependencyMaintenance": true,
+    "duplicateIds": [],
+    "internalFragmentLinks": [
+      "#main",
+      "#learn-shenzhen",
+      "#the-city",
+      "#the-name",
+      "#learn-shenzhen",
+      "#try-a-sentence",
+      "#quick-questions"
+    ],
+    "localRssIncludesDraft": true,
+    "productionBodyAndSitemapExcludeDraft": true,
+    "pinyinFourPagesByteIdentical": true
+  },
+  "photos": [
+    {
+      "author": "Shihu7",
+      "year": 2019,
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "derivativeLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and converted to WebP. Full frame preserved; no crop.",
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 16260
+        },
+        {
+          "width": 800,
+          "bytes": 56876
+        },
+        {
+          "width": 1200,
+          "bytes": 150352
+        },
+        {
+          "width": 1600,
+          "bytes": 282552
+        }
+      ]
+    },
+    {
+      "author": "Wishds",
+      "year": 2015,
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "derivativeLicense": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Resized and converted to WebP. Full frame preserved; no crop.",
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 13122
+        },
+        {
+          "width": 800,
+          "bytes": 29732
+        },
+        {
+          "width": 1200,
+          "bytes": 58342
+        },
+        {
+          "width": 1600,
+          "bytes": 96570
+        }
+      ]
+    }
+  ],
+  "artifactDiff": {
+    "beforeFiles": 3644,
+    "afterFiles": 3655,
+    "unchanged": 3636,
+    "changed": [
+      "content-manifest.json",
+      "index.html",
+      "route-manifest.json",
+      "blog/feed.xml",
+      "blog/index.html",
+      "site-assets/blog.v1.css",
+      "site-assets/site-data.hf03-v1.js",
+      "site-assets/search/library.hf04-v1.json"
+    ],
+    "added": [
+      "site-assets/shenzhen-article.v1.css",
+      "blog/shenzhen-city-name-chinese/index.html",
+      "site-assets/blog/shenzhen/shenzhen-bay-2015-1200.webp",
+      "site-assets/blog/shenzhen/shenzhen-bay-2015-1600.webp",
+      "site-assets/blog/shenzhen/shenzhen-bay-2015-480.webp",
+      "site-assets/blog/shenzhen/shenzhen-bay-2015-800.webp",
+      "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-1200.webp",
+      "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-1600.webp",
+      "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-480.webp",
+      "site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-800.webp",
+      "site-assets/blog/shenzhen/sources.json"
+    ],
+    "missing": [],
+    "pinyinFourPagesUnchanged": true
+  },
+  "publication": {
+    "commit": false,
+    "push": false,
+    "deploy": false,
+    "requires": "Owner approval of concrete local article, actual publication date, and normal HF17/18 release authorization; recheck APEC tense on publication day"
+  }
+}

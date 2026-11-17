@@ -1,0 +1,11 @@
+[
+  {
+    "slug": "shenzhen-city-name-chinese",
+    "acceptance": "approved",
+    "kind": "human",
+    "reviewer": "Owner",
+    "date": "2026-11-17",
+    "contentSha256": "3163cad39b6ed7a6aa13aa2b3426ac06265f30c4ed225fe687b2c18c2d6d310b",
+    "evidence": "docs/hanzifun-rebuild/releases/pinyin-shenzhen-release-2026-11-17/OWNER-AUTHORIZATION.md"
+  }
+]

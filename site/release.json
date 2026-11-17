@@ -1,5 +1,5 @@
 {
-  "releaseId": "home-seo-release-2026-11-16",
+  "releaseId": "pinyin-shenzhen-release-2026-11-17",
   "prototypePathCount": 77,
   "defaultStatus": "preview",
   "statusPolicies": {
@@ -421,7 +421,11 @@
     "/stroke-order/basic-strokes/": "published",
     "/stroke-order/rules/": "published",
     "/stroke-order/examples/": "published",
-    "/stroke-order/animation/": "published"
+    "/stroke-order/animation/": "published",
+    "/pinyin-chart/chinese-to-pinyin/": "published",
+    "/pinyin-chart/tones/": "published",
+    "/pinyin-chart/tone-marks/": "published",
+    "/blog/shenzhen-city-name-chinese/": "published"
   },
   "patterns": {
     "/kids/stories/{slug}/": "published",

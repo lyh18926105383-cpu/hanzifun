@@ -1,0 +1,24 @@
+{
+  "baseline": "Previous completed Shenzhen + Pinyin local candidate",
+  "beforeFiles": 3655,
+  "afterFiles": 3661,
+  "unchanged": 3649,
+  "changed": [
+    "pinyin-chart/index.html",
+    "site-assets/pinyin-chart.v1.css",
+    "site-assets/pinyin-chart.v1.mjs",
+    "pinyin-chart/chinese-to-pinyin/index.html",
+    "pinyin-chart/tone-marks/index.html",
+    "pinyin-chart/tones/index.html"
+  ],
+  "added": [
+    "site-assets/pinyin-previews/converter-480.f9907140d0.webp",
+    "site-assets/pinyin-previews/converter-960.2d8ced67ec.webp",
+    "site-assets/pinyin-previews/tone-marks-480.e2e7bf54af.webp",
+    "site-assets/pinyin-previews/tone-marks-960.51b1011230.webp",
+    "site-assets/pinyin-previews/tones-480.dc5e47a825.webp",
+    "site-assets/pinyin-previews/tones-960.a6057c024f.webp"
+  ],
+  "removed": [],
+  "shenzhenArticleUnchanged": true
+}

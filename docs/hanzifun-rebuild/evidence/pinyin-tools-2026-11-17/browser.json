@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-17",
+  "origin": "http://127.0.0.1:4178",
+  "environment": "local only; no deployment",
+  "mainResponsive": [
+    {
+      "bodyOverflow": false,
+      "firstRowBottom": 442,
+      "height": 568,
+      "tableTop": 353,
+      "toolInFirstScreen": true,
+      "width": 320
+    },
+    {
+      "bodyOverflow": false,
+      "firstRowBottom": 403,
+      "height": 667,
+      "tableTop": 314,
+      "toolInFirstScreen": true,
+      "width": 390
+    },
+    {
+      "bodyOverflow": false,
+      "firstRowBottom": 437,
+      "height": 1024,
+      "tableTop": 350,
+      "toolInFirstScreen": true,
+      "width": 768
+    },
+    {
+      "bodyOverflow": false,
+      "firstRowBottom": 450,
+      "height": 900,
+      "tableTop": 363,
+      "toolInFirstScreen": true,
+      "width": 1440
+    }
+  ],
+  "childrenResponsive": [
+    {
+      "bodyOverflow": false,
+      "h1": "Chinese to Pinyin",
+      "path": "/pinyin-chart/chinese-to-pinyin/",
+      "toolTop": 352,
+      "width": 390
+    },
+    {
+      "bodyOverflow": false,
+      "h1": "Chinese to Pinyin",
+      "path": "/pinyin-chart/chinese-to-pinyin/",
+      "toolTop": 297,
+      "width": 1440
+    },
+    {
+      "bodyOverflow": false,
+      "h1": "Type Pinyin with Tone Marks",
+      "path": "/pinyin-chart/tone-marks/",
+      "toolTop": 336,
+      "width": 390
+    },
+    {
+      "bodyOverflow": false,
+      "h1": "Type Pinyin with Tone Marks",
+      "path": "/pinyin-chart/tone-marks/",
+      "toolTop": 297,
+      "width": 1440
+    },
+    {
+      "bodyOverflow": false,
+      "h1": "Chinese Tones",
+      "path": "/pinyin-chart/tones/",
+      "toolTop": 350,
+      "width": 390
+    },
+    {
+      "bodyOverflow": false,
+      "h1": "Chinese Tones",
+      "path": "/pinyin-chart/tones/",
+      "toolTop": 295,
+      "width": 1440
+    }
+  ],
+  "axe": {
+    "chartWithPopup": {
+      "incomplete": 2,
+      "passes": 34,
+      "violations": []
+    },
+    "converter": {
+      "passes": 31,
+      "violations": []
+    },
+    "toneMarks": {
+      "passes": 31,
+      "violations": []
+    },
+    "tones": {
+      "passes": 29,
+      "violations": []
+    }
+  },
+  "checks": {
+    "matrix410": true,
+    "initialsLeftFinalsTop": true,
+    "luVsUmlaut": true,
+    "uColonToneLookup": true,
+    "legacyUmlautAnchor": true,
+    "escapeRestoresCellFocus": true,
+    "noResultsAndReset": true,
+    "mobilePanelFits": true,
+    "converterTraditionalAndPhraseContext": true,
+    "readingCorrectionInNumericResult": true,
+    "formatThreeModes": true,
+    "punctuationAndNewlinePreserved": true,
+    "copyClipboardSuccess": true,
+    "staleCopyDisabled": true,
+    "clear": true,
+    "lazyDictionaryNotLoadedBeforeConvert": true,
+    "dictionaryBlockedAndRetry": true,
+    "toneMarkPositionsAndNeutralDigits": true,
+    "toneKeyInsertion": true,
+    "recordedSamplePlays": true,
+    "quizPlayAnswerScoreNextRestart": true,
+    "quizFailureDisablesAnswersAndRecovery": true,
+    "noMicOrCloudConversion": true,
+    "noScriptStaticCellsAndTextForms410": true,
+    "printButtonCallsPrint": true,
+    "printSheet410And24Groups": true
+  },
+  "print": {
+    "pages": 5,
+    "format": "A4",
+    "allSyllables": 410,
+    "toneForms": 1323,
+    "missingTextForms": [],
+    "visualReview": "All five pages rendered and inspected; no clipping"
+  },
+  "limits": [
+    "No production deployment or external indexing check",
+    "No new human listening/teaching approval",
+    "No speech-recognition grading; polyphonic names need user checking"
+  ]
+}
