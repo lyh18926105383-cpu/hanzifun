@@ -1,5 +1,7 @@
 # HF-13｜正式 Blog、场景编辑与打印资源
 
+> Latest: Pinyin five routes and Shenzhen Blog deployed / PASS on 2026-11-18; source d43c9f1 pushed to origin/main. 214 tests, deterministic artifacts/rollback, production 390+27 HTTP, six pages/51 resources and browser journeys PASS. See PROGRESS record 71 and [receipt](../releases/pinyin-shenzhen-release-2026-11-17/deployment.json). Earlier local-only/pending states are historical.
+
 > 最新本地增量（2026-11-17）：Owner按附件第4节要求的深圳英文Blog内页已完成，本地预览`http://127.0.0.1:4180/blog/shenzhen-city-name-chinese/`。两个静态汉字卡、两张有署名许可的本地真实照片、原生测验/FAQ、列表/搜索/RSS预览/首页推荐及SEO已完成；213/213、两模式构建/SEO、375/768/1440与两次axe通过。依Owner具体附件，此篇不强行绑定3个已发布字页/卡组、不虚构音频或笔顺，原三篇绑定和审批保留。当前draft且published=null，正式RSS/Sitemap待实际审批与发布，未commit/push/部署。见[本批验收](../SHENZHEN-BLOG-VERIFICATION-2026-11-17.md)、TASKS与PROGRESS记录69。
 
 > 2026-11-01增量：Tools画廊/英文引导与Blog改版已一起上线，releaseId=`blog-tools-release-2026-11-01`。见[实际回执](../releases/blog-tools-release-2026-11-01/deployment.json)。下方先前本地状态保留历史。
@@ -73,3 +75,7 @@ Phase 2 主线，先交付并发布 3 篇，再补至 3–5 篇；本包完成�
 可将下面整段直接作为后续开发对话的请求：
 
 > 请执行 HanziFun 的 HF-13「正式 Blog、场景编辑与打印资源」。工作目录是 /Users/graceshi/Desktop/凌远汉/AI 项目/汉字饭hanzifun。先完整阅读 docs/hanzifun-rebuild/tasks/HF-13-editorial.md、docs/hanzifun-rebuild/SPEC.md 的映射要求、docs/hanzifun-rebuild/TASKS.md、docs/hanzifun-rebuild/BASELINE.md，并核验当前 git status 与前置任务交付，不把本轮规划当作功能已经完成。目标是：将样例内容升级为有来源、审核和学习联动的公开内容，并交付可用打印卡。 只完成该工作包的范围、交付物和验收，不顺带启动其他包或生产部署，不覆盖用户未提交文件。原型和父树既有工作最初位于 /Users/graceshi/.codex/worktrees/ec5f/汉字饭hanzifun，若 HF-01 已保全则采用其记录的新基线；不能因为主目录原先没有规则就忽略故事流程。凡涉及故事新增/修改/生成/验收，先完整阅读 STORY_COURSE_PRODUCTION_WORKFLOW.md，再查目标故事板、lessons.js 与人工确认点。按任务文件验证并报告真实结果、文件链接、未完成项和后续依赖；缺少外部配置时完成不依赖它的本地工作，但不要伪造接通或验收证据。
+
+## 2026-11-18 production handover
+
+This scope is deployed and Git/documentation synchronized. Actual first publication is 18 November. Version, frozen checksum, production evidence and rollback are in the release receipt and PROGRESS record 71.

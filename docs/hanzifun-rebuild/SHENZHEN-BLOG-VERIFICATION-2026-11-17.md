@@ -1,5 +1,7 @@
 # 深圳英文 Blog 内页｜本地验收（2026-11-17）
 
+> Publication update: Owner subsequently authorized this release. These pages are now deployed (2026-11-18), Git pushed, with documentation updated. This report preserves its original local evidence; see [production receipt](releases/pinyin-shenzhen-release-2026-11-17/deployment.json) and PROGRESS record 71.
+
 状态：**Local Completed / PASS，未 commit、未 push、未部署。**
 
 Owner本次要求按附件 `/Users/graceshi/Downloads/hanzifun-shenzhen-blog-codex.md` 第4节实际生成一篇内页。按其指向采用附件英文正文和图文要求；没有把中文实施说明放进读者正文，没有创建新站或修改故事课。

@@ -1,5 +1,7 @@
 # Pinyin 主工具与三个子页面｜本地验收（2026-11-17）
 
+> Publication update: Owner subsequently authorized this release. These pages are now deployed (2026-11-18), Git pushed, with documentation updated. This report preserves its original local evidence; see [production receipt](releases/pinyin-shenzhen-release-2026-11-17/deployment.json) and PROGRESS record 71.
+
 状态：**Local Completed / PASS，未 commit、未 push、未部署。** Owner明确选择“只完成本地改造与验收，暂不上线”；此前其他批次的发布授权不适用于本批。
 
 ## 已完成范围

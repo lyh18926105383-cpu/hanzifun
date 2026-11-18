@@ -1,5 +1,7 @@
 # HF-04｜真实字典、搜索与视觉笔顺闭环
 
+> Latest: Pinyin five routes and Shenzhen Blog deployed / PASS on 2026-11-18; source d43c9f1 pushed to origin/main. 214 tests, deterministic artifacts/rollback, production 390+27 HTTP, six pages/51 resources and browser journeys PASS. See PROGRESS record 71 and [receipt](../releases/pinyin-shenzhen-release-2026-11-17/deployment.json). Earlier local-only/pending states are historical.
+
 > 最新本地增量（2026-11-17）：Pinyin矩阵改造及Chinese to Pinyin / Chinese Tones / Type Pinyin with Tone Marks三子页已完成并本地验收；208/208、10组布局、4次axe及A4五页完整打印PASS。Owner明确“只完成本地改造与验收，暂不上线”，未commit/push/部署。范围、文件和下一步以[本批验收](../PINYIN-TOOLS-VERIFICATION-2026-11-17.md)、TASKS及PROGRESS记录68为准；下方部署描述是历史。
 
 > 最新发布：本轮相关范围已随 `stroke-topic-release-2026-11-13` 上线 Completed / PASS；版本 `8c0cb4c1-cf81-4b1e-9c42-7b96453072cc`，2026-11-13T20:48:31.109784+08:00，203/203及正式390+27项/浏览器通过，源码已push。见PROGRESS记录63及[本批回执](../releases/stroke-topic-release-2026-11-13/deployment.json)。
@@ -125,3 +127,7 @@ Owner明确要求首屏右侧自动田字格写“我”，覆盖此前主页面
 ## 2026-11-17 六项批注与后续发布授权
 
 六项图文修订已完成，214/214及桌面手机验收通过；见PROGRESS记录70和PINYIN-VISUAL-REVISION-2026-11-17.md。Owner最新授权Pinyin五页和深圳Blog直接上线、Git push与文档更新，覆盖此前仅本地范围；实际生产结果将另写回执。
+
+## 2026-11-18 production handover
+
+This scope is deployed and Git/documentation synchronized. Actual first publication is 18 November. Version, frozen checksum, production evidence and rollback are in the release receipt and PROGRESS record 71.

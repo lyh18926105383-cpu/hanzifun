@@ -1,0 +1,48 @@
+{
+  "releaseId": "pinyin-shenzhen-release-2026-11-17",
+  "status": "DEPLOYED / PASS",
+  "sourceCommit": "d43c9f1349df675a1076bc0c6967686c6104fc19",
+  "gitPush": "origin/main non-force; 537d663 to d43c9f1",
+  "origin": "https://hanzifun.online",
+  "deployTimeAsiaSingapore": "2026-11-18T07:13:18.360938+08:00",
+  "deploymentId": "cb7e0573-296a-4d4f-aa1c-0b9acac1cf4e",
+  "versionId": "c174bee3-e355-4f1b-99cf-e2e603018853",
+  "trafficPercent": 100,
+  "observedActiveDeployment": {
+    "id": "0f05479c-d8cc-473f-99d9-f36f70db68dd",
+    "source": "wrangler",
+    "strategy": "percentage",
+    "author_email": "lyh18926105383@gmail.com",
+    "annotations": {
+      "workers/triggered_by": "deployment"
+    },
+    "versions": [
+      {
+        "version_id": "b1b3d675-5029-4b6c-b677-52be6cf4856f",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-11-17T23:13:38.545174Z"
+  },
+  "activeVersionNote": "Later equivalent deployment observed; no trigger-to-commit attribution inferred. Production checks match frozen candidate.",
+  "candidateSha256": "bf36df9854ce8334397b90810770132df6265dec4f22fe4ed484603c51c94dc0",
+  "files": 3661,
+  "rollbackVersion": "e324e278-d904-4928-b6a6-746fd96daabb",
+  "checks": {
+    "tests": "214/214",
+    "productionOldHTTP": 390,
+    "productionStrokeHTTP": 27,
+    "productionScopePages": 6,
+    "productionResourceChecks": 51,
+    "sitemap": 412,
+    "browser": "Six desktop layouts; main/blog mobile; lookup, converter, tone editor and recorded quiz; loaded images; clean console."
+  },
+  "reports": [
+    "production-http.json",
+    "production-topic/http-verification.json",
+    "production-six.json",
+    "production-browser.json"
+  ],
+  "attempts": "First explicit deploy failed with fetch/connectivity error before asset upload. Exact frozen retry succeeded.",
+  "futureObservation": "24-hour/7-day windows and Search Console remain future manual observations."
+}

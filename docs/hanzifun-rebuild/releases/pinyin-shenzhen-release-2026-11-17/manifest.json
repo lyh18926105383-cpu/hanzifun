@@ -1,12 +1,12 @@
 {
   "releaseId": "pinyin-shenzhen-release-2026-11-17",
   "phase": "Phase 1 static site; incremental Pinyin tools and approved editorial",
-  "status": "READY; production receipt pending",
+  "status": "DEPLOYED / PASS",
   "preparedDate": "2026-11-17",
   "publicationDate": "2026-11-18",
   "timezone": "Asia/Singapore",
   "baseCommit": "537d663bd2ba29edb61f7fa8980274e6f76ed3fa",
-  "sourceCommit": null,
+  "sourceCommit": "d43c9f1349df675a1076bc0c6967686c6104fc19",
   "dataSchema": "Existing HF02/HF06; no storage migration",
   "enabledFeatures": [
     "Pinyin matrix and free A4 print",
@@ -700,5 +700,6 @@
     "24-hour and 7-day real traffic observation",
     "Google indexing/rank/traffic outcomes",
     "Physical devices and new human listening signoff; no new listening approval claimed"
-  ]
+  ],
+  "productionReceipt": "deployment.json"
 }

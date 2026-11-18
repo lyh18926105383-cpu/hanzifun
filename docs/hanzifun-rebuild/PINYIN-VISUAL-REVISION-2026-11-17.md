@@ -1,5 +1,7 @@
 # Pinyin 六条浏览器批注修订｜2026-11-17
 
+> Publication update: Owner subsequently authorized this release. These pages are now deployed (2026-11-18), Git pushed, with documentation updated. This report preserves its original local evidence; see [production receipt](releases/pinyin-shenzhen-release-2026-11-17/deployment.json) and PROGRESS record 71.
+
 本轮产品修订 **Completed / PASS**。Owner随后明确要求把五个拼音相关页面与深圳Blog一起直接上线、Git push、更新文档；本轮本地结论不是生产发布回执，后续以PROGRESS和本批release目录的实际部署记录为准。
 
 ## 六条批注的实际交付

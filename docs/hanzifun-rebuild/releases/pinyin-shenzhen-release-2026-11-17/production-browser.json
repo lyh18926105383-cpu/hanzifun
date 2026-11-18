@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-11-18T13:35:09.006Z",
+  "origin": "https://hanzifun.online",
+  "desktopLayouts": [
+    {
+      "h1": "Look up Pinyin",
+      "robots": "index,follow",
+      "scrollWidth": 1425,
+      "url": "https://hanzifun.online/pinyin-chart/",
+      "width": 1440
+    },
+    {
+      "h1": "Chinese to Pinyin",
+      "robots": "index,follow",
+      "scrollWidth": 1425,
+      "url": "https://hanzifun.online/pinyin-chart/chinese-to-pinyin/",
+      "width": 1440
+    },
+    {
+      "h1": "Chinese Tones",
+      "robots": "index,follow",
+      "scrollWidth": 1425,
+      "url": "https://hanzifun.online/pinyin-chart/tones/",
+      "width": 1440
+    },
+    {
+      "h1": "Type Pinyin with Tone Marks",
+      "robots": "index,follow",
+      "scrollWidth": 1425,
+      "url": "https://hanzifun.online/pinyin-chart/tone-marks/",
+      "width": 1440
+    },
+    {
+      "h1": "Find Chinese Characters by Pinyin",
+      "robots": "index,follow",
+      "scrollWidth": 1425,
+      "url": "https://hanzifun.online/dictionary/pinyin/",
+      "width": 1440
+    },
+    {
+      "h1": "Meet Shenzhen: A Global City in Two Chinese Characters",
+      "robots": "index,follow",
+      "scrollWidth": 1425,
+      "url": "https://hanzifun.online/blog/shenzhen-city-name-chinese/",
+      "width": 1440
+    }
+  ],
+  "mobile": [
+    {
+      "path": "/pinyin-chart/",
+      "width": 375,
+      "height": 812,
+      "scrollWidth": 360,
+      "firstSyllableBottom": 403.1328125,
+      "firstScreen": true
+    },
+    {
+      "path": "/blog/shenzhen-city-name-chinese/",
+      "width": 375,
+      "scrollWidth": 360,
+      "publication": "18 November 2026",
+      "glyphs": [
+        "深",
+        "圳"
+      ],
+      "photosLoaded": 2,
+      "learningAnchor": "PASS"
+    }
+  ],
+  "journeys": {
+    "lookup": "lv4 opens lü panel with lǜ; Escape closes",
+    "converter": "你好，中国！ → nǐ hǎo，zhōng guó; Copy enabled after local dictionary loads",
+    "toneMarks": "ni3 hao3 lv4 → nǐ hǎo lǜ",
+    "quiz": "Recorded la tone 2 played; answer tone 1 shows true answer, 0/1; Restart 0/0",
+    "visuals": "Three real previews loaded; How Does Pinyin Work visible; print button rgb(183,68,50)"
+  },
+  "consoleErrors": [],
+  "temporaryOverrides": "Cleared; page reloaded; no user data or clipboard changed",
+  "screenshots": [
+    "production-tool-cards.jpg",
+    "production-shenzhen-desktop.jpg"
+  ]
+}

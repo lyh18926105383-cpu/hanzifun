@@ -1,6 +1,7 @@
 # HF-18｜最终迁移、授权发布与运行交接
 
-> 本轮2026-11-18：Pinyin五页与深圳Blog已获Owner授权；214/214、冻结/回滚与本地HTTP/六页手机布局通过，正在执行Git与生产部署。实际结果见 `../releases/pinyin-shenzhen-release-2026-11-17/`，当前尚非线上回执。
+> Latest: Pinyin five routes and Shenzhen Blog deployed / PASS on 2026-11-18; source d43c9f1 pushed to origin/main. 214 tests, deterministic artifacts/rollback, production 390+27 HTTP, six pages/51 resources and browser journeys PASS. See PROGRESS record 71 and [receipt](../releases/pinyin-shenzhen-release-2026-11-17/deployment.json). Earlier local-only/pending states are historical.
+
 
 > 最新发布：2026-11-16首页三项SEO修复已按Owner授权部署、git push及更新文档 / PASS；版本`450ea2bd-7d6d-448e-b58e-d6408010cd6d`，2026-11-16T00:21:12.192+08:00、100%流量。正式390+27及首页390/1440浏览器通过，源码3755ed7已push；见PROGRESS记录67及[回执](../releases/home-seo-release-2026-11-16/deployment.json)。
 
@@ -108,3 +109,7 @@ Owner已授权本轮全部最近更新部署、git push及文档同步；候选�
 ## 2026-11-13 主导航发布交接
 
 原5cb3工作区导航补丁已精确导入main并实际部署，桌面/手机两个一级入口检查通过。源码/回执/TASKS/PROGRESS同步，最新证据与回滚目标以记录65及primary-nav-release回执为准。
+
+## 2026-11-18 production handover
+
+This scope is deployed and Git/documentation synchronized. Actual first publication is 18 November. Version, frozen checksum, production evidence and rollback are in the release receipt and PROGRESS record 71.

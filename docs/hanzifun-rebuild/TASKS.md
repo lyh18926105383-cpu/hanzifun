@@ -1,10 +1,10 @@
 # HanziFun 施工任务总表
 
-## Pinyin五页与深圳Blog统一发布（2026-11-17；已授权 / 执行中）
+## Pinyin五页与深圳Blog统一发布（2026-11-18；Deployed / PASS）
 
 - [x] 六项Pinyin视觉批注、本地214/214及响应式/无障碍/真实交互通过，见[修订验收](PINYIN-VISUAL-REVISION-2026-11-17.md)与PROGRESS记录70。
 - [x] Owner最新明确授权直接上线、Git push及更新文档；覆盖下方记录68/69的历史本地限定，范围为拼音主表/三个工具子页/既有按拼音查字页与深圳Blog。
-- [ ] 冻结当前生产候选、备份/双构建/回滚、正式部署与线上复验，完成后记录真实版本和Git回执。
+- [x] 214/214、3661文件双构建/回滚；2026-11-18 07:13（新加坡）100%流量部署冻结包，源码d43c9f1已非强推origin/main。正式390+27项、六页/51资源、412 Sitemap/RSS及电脑手机关键交互通过；版本和回滚见[发布回执](releases/pinyin-shenzhen-release-2026-11-17/deployment.json)及PROGRESS记录71。
 
 ## HF-13 深圳英文Blog内页（2026-11-17；Local Completed / PASS）
 

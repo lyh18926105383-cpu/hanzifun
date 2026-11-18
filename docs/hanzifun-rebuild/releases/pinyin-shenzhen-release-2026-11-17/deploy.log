@@ -1,0 +1,82 @@
+
+ ⛅️ wrangler 4.156.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 4153 files from the assets directory /Users/graceshi/.codex/worktrees/92f7/汉字饭hanzifun/.cache/releases/pinyin-shenzhen-release-2026-11-17/candidate
+🌀 Starting asset upload...
+🌀 Found 65 new or modified static assets to upload. Proceeding with upload...
++ /site-assets/vendor/pinyin-pro/core/custom/state.mjs
++ /site-assets/vendor/pinyin-pro/index.mjs
++ /site-assets/vendor/pinyin-pro/common/segmentit/reverse-max-match.mjs
++ /site-assets/vendor/pinyin-pro/common/utils.mjs
++ /site-assets/vendor/pinyin-pro/core/html/index.mjs
++ /site-assets/vendor/pinyin-pro/core/dict/index.mjs
++ /site-assets/pinyin-core.mjs
++ /site-assets/vendor/pinyin-pro/data/special.mjs
++ /site-assets/pinyin-previews/tones-480.dc5e47a825.webp
++ /site-assets/pinyin-previews/tone-marks-480.e2e7bf54af.webp
++ /site-assets/shenzhen-article.v1.css
++ /site-assets/vendor/pinyin-pro/core/pinyin/middlewares.mjs
++ /site-assets/vendor/pinyin-pro/data/surname.mjs
++ /site-assets/vendor/pinyin-pro/data/dict3.mjs
++ /site-assets/blog.v1.css
++ /site-assets/pinyin-chart.v1.css
++ /pinyin-chart/tone-marks/index.html
++ /pinyin-chart/tones/index.html
++ /site-assets/blog/shenzhen/shenzhen-bay-2015-800.webp
++ /site-assets/blog/shenzhen/shenzhen-bay-2015-1200.webp
++ /site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-1200.webp
++ /site-assets/vendor/pinyin-pro/data/dict1.mjs
++ /site-assets/vendor/pinyin-pro/core/traditional/index.mjs
++ /site-assets/vendor/pinyin-pro/common/constant.mjs
++ /site-assets/licenses/Pinyin-Pro-MIT.txt
++ /site-assets/vendor/pinyin-pro/common/segmentit/min-tokenization.mjs
++ /site-assets/vendor/pinyin-pro/common/segmentit/max-probability.mjs
++ /blog/feed.xml
++ /site-assets/blog/shenzhen/sources.json
++ /site-assets/vendor/pinyin-pro/core/polyphonic/index.mjs
++ /site-assets/pinyin-chart.v1.mjs
++ /site-assets/pinyin-previews/converter-480.f9907140d0.webp
++ /site-assets/vendor/pinyin-pro/common/segmentit/index.mjs
++ /site-assets/site-data.hf03-v1.js
++ /site-assets/vendor/pinyin-pro/core/pinyin/handle.mjs
++ /site-assets/vendor/pinyin-pro/core/match/index.mjs
++ /site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-480.webp
++ /pinyin-chart/chinese-to-pinyin/index.html
++ /blog/index.html
++ /index.html
++ /site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-800.webp
++ /site-assets/vendor/pinyin-pro/data/dict4.mjs
++ /route-manifest.json
++ /pinyin-chart/index.html
++ /site-assets/vendor/pinyin-pro/data/patterns.mjs
++ /site-assets/vendor/pinyin-pro/core/pinyin/all.mjs
++ /site-assets/vendor/pinyin-pro/data/dict5.mjs
++ /site-assets/vendor/pinyin-pro/core/segment/index.mjs
++ /site-assets/vendor/pinyin-pro/core/pinyin/index.mjs
++ /site-assets/vendor/pinyin-pro/core/convert/index.mjs
++ /site-assets/vendor/pinyin-pro/core/custom/index.mjs
++ /site-assets/vendor/pinyin-pro/core/segment/middlewares.mjs
++ /site-assets/pronunciation.mjs
++ /site-assets/search/library.hf04-v1.json
++ /content-manifest.json
++ /site-assets/pinyin-tools.mjs
++ /site-assets/pinyin-previews/tones-960.a6057c024f.webp
++ /site-assets/blog/shenzhen/shenzhen-bay-2015-480.webp
++ /site-assets/pinyin-previews/tone-marks-960.51b1011230.webp
++ /site-assets/pinyin-previews/converter-960.2d8ced67ec.webp
++ /blog/shenzhen-city-name-chinese/index.html
++ /sitemap.xml
++ /site-assets/vendor/pinyin-pro/data/dict2.mjs
++ /site-assets/blog/shenzhen/shenzhen-bay-2015-1600.webp
++ /site-assets/blog/shenzhen/shenzhen-lianhuashan-2019-1600.webp
+Uploaded 21 of 65 assets
+Uploaded 43 of 65 assets
+Uploaded 65 of 65 assets
+✨ Success! Uploaded 65 files (3594 already uploaded) (6.75 sec)
+
+Total Upload: 0.34 KiB / gzip: 0.24 KiB
+Uploaded hanzifun (17.43 sec)
+Deployed hanzifun triggers (2.60 sec)
+  https://hanzifun.lyh18926105383.workers.dev
+Current Version ID: c174bee3-e355-4f1b-99cf-e2e603018853

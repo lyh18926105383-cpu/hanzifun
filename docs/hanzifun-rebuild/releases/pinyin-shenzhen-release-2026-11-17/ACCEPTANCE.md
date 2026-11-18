@@ -9,4 +9,4 @@ Owner explicitly authorized six concrete pages, Git push and documentation; see 
 - Six phone layouts pass; shui3 lookup and Escape, actual publication date and index status checked in the frozen candidate. Detailed desktop/mobile, accessibility and real tool/print journeys remain linked from manifest.
 - Isolated candidate → previous → candidate static pointer rollback rehearsal passes; no production or user storage touched.
 
-Production status is pending until deployment.json and production HTTP/browser receipts are written. No IndexNow notification, recurring monitor, GSC ranking result or new teaching/audio signoff is claimed.
+Production deployed 2026-11-18T07:13:18.360938+08:00, explicit version c174bee3-e355-4f1b-99cf-e2e603018853 at 100%. Later equivalent version b1b3d675-5029-4b6c-b677-52be6cf4856f observed. Formal 390+27 HTTP, six pages/51 assets, Sitemap/RSS and browser journeys PASS; see deployment.json. Source d43c9f1 pushed to origin/main. First deploy connectivity failure resolved with exact-package retry. No IndexNow notification, recurring monitor, GSC ranking result or new teaching/audio signoff is claimed.
